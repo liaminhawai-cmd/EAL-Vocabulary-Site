@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+  <meta name="google" content="notranslate" />
+  <title>Word Builder · EAL Vocabulary</title>
+  <meta name="description" content="Build subject vocabulary from morphemes, predict meanings, and practise words." />
+  <meta name="theme-color" content="#4f46e5" />
+  <link rel="manifest" href="manifest.webmanifest" />
+  <link rel="icon" href="icons/icon.svg" type="image/svg+xml" />
+  <link rel="apple-touch-icon" href="icons/icon-192.png" />
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body translate="no" class="notranslate">
+  <header class="topbar">
+    <nav id="topnav" class="nav"></nav>
+  </header>
+  <main id="app" class="container"><p class="muted">Loading…</p></main>
+  <footer class="foot">
+    <p class="muted small">EAL Word Builder · works offline · progress stays in this browser · no account required.</p>
+  </footer>
+  <div id="buildstamp" class="buildstamp" title="Build number"></div>
+  <script src="build.js"></script>
+  <script>
+    document.getElementById('buildstamp').textContent = 'build ' + (self.__BUILD__ || '?');
+  </script>
+  <script src="assets/js/privacy-guard.js"></script>
+  <script type="module" src="assets/js/app.js"></script>
+</body>
+</html>
