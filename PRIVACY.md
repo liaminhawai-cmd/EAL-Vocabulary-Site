@@ -9,7 +9,9 @@ Word Builder saves learning progress in the browser's `localStorage` so practice
 - revision box, repetition count, lapses, current streak and mastered state;
 - local activity timestamps used to calculate a practice streak;
 - a student's typed prediction of a word meaning;
-- locally logged learning/review actions and any request text entered in the app.
+- locally logged learning and review actions.
+
+Older builds could also log a student's typed language/list request and note locally. The current public build blocks those request submissions before they are logged or sent.
 
 This data stays in that browser profile/device. Clearing site data removes it.
 
