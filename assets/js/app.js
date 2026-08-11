@@ -85,6 +85,11 @@ function langLabel(code) {
 function pickTranslation(translations, lang) {
   if (!translations) return '';
   if (translations[lang]) return translations[lang];
+  // Simplified and Traditional Chinese are the same language in different
+  // scripts. A legacy source list may carry only one; prefer that over
+  // silently falling through to an unrelated language.
+  if (lang === 'zh-Hans' && translations['zh-Hant']) return translations['zh-Hant'];
+  if (lang === 'zh-Hant' && translations['zh-Hans']) return translations['zh-Hans'];
   const keys = Object.keys(translations).filter((k) => k !== 'other');
   return keys.length ? translations[keys[0]] : (translations.other || '');
 }
@@ -771,11 +776,19 @@ function renderBuildBoard({ levelId, subjectId, unitId }) {
     const cards = sets[si].map((w) => h('div', { class: 'study-card' },
       h('div', { class: 'study-word' }, h('strong', {}, w.word), say(w.word)),
       (w.parts && w.parts.length >= 2) && h('div', { class: 'study-morphs' },
-        ...w.parts.map((p) => h('span', { class: `mo-chip ${p.type || ''}` },
-          ...spellingChip(p), h('i', { class: 'mo-gloss' }, p.meaning || '')))),
+        ...w.parts.map((p) => {
+          const native = pickExact(p.translations, dispLang);
+          return h('span', { class: `mo-chip ${p.type || ''}` },
+            ...spellingChip(p), h('i', { class: 'mo-gloss' },
+              p.meaning || '', native ? ` · ${native}` : ''));
+        })),
       h('p', { class: 'study-def' }, w.meaning || ''),
       (pickTranslation(w.translations, lang) || pickExact(w.translations, dispLang)) &&
-        h('p', { class: 'study-trans wtr' }, pickTranslation(w.translations, lang) || pickExact(w.translations, dispLang))));
+        h('p', { class: 'study-trans wtr' }, pickTranslation(w.translations, lang) || pickExact(w.translations, dispLang)),
+      w.example && h('p', { class: 'study-example' }, '“' + w.example + '”'),
+      w.context && h('p', { class: 'study-context' }, h('b', {}, 'In the text: '), w.context),
+      w.origin && h('details', { class: 'word-story' },
+        h('summary', {}, 'Word story'), h('p', {}, w.origin))));
     return h('div', { class: 'stack learn' }, crumbBar(),
       head(null),
       h('div', { class: 'board-intro' },
@@ -859,6 +872,7 @@ function renderBuildBoard({ levelId, subjectId, unitId }) {
   }
   function buildView() {
     const bank = bankMorphemes();
+    const dispLang = unitDisplayLang(unit, getLang());
     // done words minimise + sink to the bottom
     const rows = st.build.map((b, i) => ({ b, i }))
       .sort((a, x) => (a.b.done === x.b.done) ? 0 : a.b.done ? 1 : -1);
@@ -867,12 +881,16 @@ function renderBuildBoard({ levelId, subjectId, unitId }) {
     const bankEl = h('div', { class: 'board-bank' },
       h('div', { class: 'board-bank-label muted small' },
         st.held ? 'Now tap a box to drop it in ↓' : 'Tap a part (then tap a box), or drag it. Build any word, in any order.'),
-      h('div', { class: 'board-bank-chips' }, ...bank.map((p) => h('button', {
-        class: `mo-chip ${p.type || ''} board-chip ${st.held === p.surface ? 'held' : ''}`,
-        type: 'button', draggable: 'true',
-        onclick: () => { st.held = (st.held === p.surface) ? null : p.surface; render_(); },
-        ondragstart: (e) => e.dataTransfer.setData('text/plain', p.surface),
-      }, ...spellingChip(p), h('i', { class: 'mo-gloss' }, p.meaning || '')))));
+      h('div', { class: 'board-bank-chips' }, ...bank.map((p) => {
+        const native = pickExact(p.translations, dispLang);
+        return h('button', {
+          class: `mo-chip ${p.type || ''} board-chip ${st.held === p.surface ? 'held' : ''}`,
+          type: 'button', draggable: 'true',
+          onclick: () => { st.held = (st.held === p.surface) ? null : p.surface; render_(); },
+          ondragstart: (e) => e.dataTransfer.setData('text/plain', p.surface),
+        }, ...spellingChip(p), h('i', { class: 'mo-gloss' },
+          p.meaning || '', native ? ` · ${native}` : ''));
+      })));
 
     const list = h('div', { class: 'board-list' }, ...rows.map(({ b, i }) => {
       if (b.done) return doneRow(b);
@@ -2044,8 +2062,13 @@ function renderBrowse({ levelId, subjectId, unitId }) {
           h('div', { class: 'wr-main' },
             h('span', { class: 'wr-word' }, w.word, say(w.word)),
             h('span', { class: 'wr-trans' }, pickTranslation(w.translations, lang) || h('span', { class: 'muted small' }, '—'))),
+          w.meaning && h('p', { class: 'wr-def' }, w.meaning),
           (w.parts && w.parts.length >= 2) && h('div', { class: 'wr-morphs' },
-            ...w.parts.map((p) => morphemeChip(p))))))
+            ...w.parts.map((p) => morphemeChip(p))),
+          w.example && h('p', { class: 'wr-example' }, '“' + w.example + '”'),
+          w.context && h('p', { class: 'wr-context' }, h('b', {}, 'In the text: '), w.context),
+          w.origin && h('details', { class: 'word-story compact' },
+            h('summary', {}, 'Word story'), h('p', {}, w.origin)))))
       : h('div', { class: 'chips' }, ...unit.words.map((w) => h('span', { class: 'chip ghost lg' }, w.word, say(w.word))))));
 }
 

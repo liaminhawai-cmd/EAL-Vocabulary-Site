@@ -237826,345 +237826,3063 @@
           "name": "English",
           "subtitle": "Texts studied in class",
           "morphemes": {
-            "prefixes": [],
-            "roots": [],
-            "suffixes": []
+            "prefixes": [
+              {
+                "morpheme": "de",
+                "meaning": "away; without",
+                "translations": {
+                  "zh-Hans": "离开；没有",
+                  "ja": "離れて；〜なし",
+                  "fa": "دور؛ بدون",
+                  "vi": "rời khỏi; không có"
+                },
+                "examples": [
+                  "despair"
+                ]
+              },
+              {
+                "morpheme": "over",
+                "meaning": "too much; beyond a limit",
+                "translations": {
+                  "zh-Hans": "过度；超过限度",
+                  "ja": "過度に；限度を越えて",
+                  "fa": "بیش از حد",
+                  "vi": "quá mức"
+                },
+                "examples": [
+                  "overdone"
+                ]
+              },
+              {
+                "morpheme": "re",
+                "meaning": "again; closely",
+                "translations": {
+                  "zh-Hans": "再次；仔细地",
+                  "ja": "再び；よく",
+                  "fa": "دوباره؛ با دقت",
+                  "vi": "lại; kỹ"
+                },
+                "examples": [
+                  "remark"
+                ]
+              }
+            ],
+            "roots": [
+              {
+                "morpheme": "back",
+                "meaning": "the rear or blunt side",
+                "translations": {
+                  "zh-Hans": "后部；钝面",
+                  "ja": "裏側；刃でない側",
+                  "fa": "پشت یا لبهٔ کند",
+                  "vi": "mặt sau; cạnh cùn"
+                },
+                "examples": [
+                  "razor-back"
+                ]
+              },
+              {
+                "morpheme": "bark",
+                "meaning": "the outer covering of a tree",
+                "translations": {
+                  "zh-Hans": "树皮",
+                  "ja": "樹皮",
+                  "fa": "پوست درخت",
+                  "vi": "vỏ cây"
+                },
+                "examples": [
+                  "Ironbark"
+                ]
+              },
+              {
+                "morpheme": "beard",
+                "meaning": "hair on the chin and cheeks",
+                "translations": {
+                  "zh-Hans": "胡须",
+                  "ja": "あごひげ",
+                  "fa": "ریش",
+                  "vi": "râu"
+                },
+                "examples": [
+                  "flowing beards"
+                ]
+              },
+              {
+                "morpheme": "bless",
+                "meaning": "declare holy; wish good for",
+                "translations": {
+                  "zh-Hans": "祝福；祈福",
+                  "ja": "祝福する",
+                  "fa": "متبرک کردن؛ آرزوی خیر",
+                  "vi": "ban phước; chúc lành"
+                },
+                "examples": [
+                  "blessed"
+                ]
+              },
+              {
+                "morpheme": "boil",
+                "meaning": "heat a liquid until it bubbles",
+                "translations": {
+                  "zh-Hans": "加热至沸腾",
+                  "ja": "沸騰させる",
+                  "fa": "جوشاندن",
+                  "vi": "đun sôi"
+                },
+                "examples": [
+                  "boiling hot"
+                ]
+              },
+              {
+                "morpheme": "brag",
+                "meaning": "speak too proudly",
+                "translations": {
+                  "zh-Hans": "吹嘘；夸耀",
+                  "ja": "自慢しすぎる",
+                  "fa": "لاف زدن",
+                  "vi": "khoe khoang"
+                },
+                "examples": [
+                  "brags"
+                ]
+              },
+              {
+                "morpheme": "bush",
+                "meaning": "rural Australian country",
+                "translations": {
+                  "zh-Hans": "澳大利亚内陆乡野",
+                  "ja": "オーストラリアの奥地",
+                  "fa": "مناطق روستایی استرالیا",
+                  "vi": "vùng nông thôn nội địa Úc"
+                },
+                "examples": [
+                  "bushman"
+                ]
+              },
+              {
+                "morpheme": "country",
+                "meaning": "rural land or region",
+                "translations": {
+                  "zh-Hans": "乡村地区",
+                  "ja": "田舎；地方",
+                  "fa": "ناحیهٔ روستایی",
+                  "vi": "vùng nông thôn"
+                },
+                "examples": [
+                  "up-country"
+                ]
+              },
+              {
+                "morpheme": "done",
+                "meaning": "completed; carried out",
+                "translations": {
+                  "zh-Hans": "完成；做完",
+                  "ja": "完了した；行われた",
+                  "fa": "انجام‌شده",
+                  "vi": "đã làm xong"
+                },
+                "examples": [
+                  "overdone"
+                ]
+              },
+              {
+                "morpheme": "eye",
+                "meaning": "the organ used for seeing",
+                "translations": {
+                  "zh-Hans": "眼睛",
+                  "ja": "目",
+                  "fa": "چشم",
+                  "vi": "mắt"
+                },
+                "examples": [
+                  "eyelid"
+                ]
+              },
+              {
+                "morpheme": "floor",
+                "meaning": "the work surface of a room",
+                "translations": {
+                  "zh-Hans": "房间或作业区的地面",
+                  "ja": "部屋の作業床",
+                  "fa": "سطح کارِ اتاق",
+                  "vi": "sàn làm việc"
+                },
+                "examples": [
+                  "shearing floor"
+                ]
+              },
+              {
+                "morpheme": "flow",
+                "meaning": "move smoothly; hang freely",
+                "translations": {
+                  "zh-Hans": "流动；自由垂下",
+                  "ja": "流れる；なめらかに垂れる",
+                  "fa": "روان شدن؛ آزاد آویختن",
+                  "vi": "chảy; buông rủ"
+                },
+                "examples": [
+                  "flowing beards"
+                ]
+              },
+              {
+                "morpheme": "game",
+                "meaning": "brave; willing to keep trying",
+                "translations": {
+                  "zh-Hans": "勇敢；愿意坚持",
+                  "ja": "勇敢でやり抜く気のある",
+                  "fa": "شجاع و آمادهٔ ادامه دادن",
+                  "vi": "gan dạ; sẵn sàng cố gắng"
+                },
+                "examples": [
+                  "gamely"
+                ]
+              },
+              {
+                "morpheme": "gild",
+                "meaning": "cover with a thin layer of gold",
+                "translations": {
+                  "zh-Hans": "镀金",
+                  "ja": "金を薄くかぶせる",
+                  "fa": "زراندود کردن",
+                  "vi": "mạ vàng"
+                },
+                "examples": [
+                  "gilded"
+                ]
+              },
+              {
+                "morpheme": "hair",
+                "meaning": "strands growing from skin",
+                "translations": {
+                  "zh-Hans": "毛发",
+                  "ja": "毛",
+                  "fa": "مو",
+                  "vi": "lông; tóc"
+                },
+                "examples": [
+                  "hairy paw"
+                ]
+              },
+              {
+                "morpheme": "harm",
+                "meaning": "hurt or damage",
+                "translations": {
+                  "zh-Hans": "伤害；损害",
+                  "ja": "害；傷つける",
+                  "fa": "آسیب",
+                  "vi": "tổn hại"
+                },
+                "examples": [
+                  "harmless"
+                ]
+              },
+              {
+                "morpheme": "hot",
+                "meaning": "having a high temperature",
+                "translations": {
+                  "zh-Hans": "热的",
+                  "ja": "熱い",
+                  "fa": "داغ",
+                  "vi": "nóng"
+                },
+                "examples": [
+                  "boiling hot"
+                ]
+              },
+              {
+                "morpheme": "humor",
+                "meaning": "what is funny; comedy",
+                "translations": {
+                  "zh-Hans": "幽默；喜剧",
+                  "ja": "ユーモア；笑い",
+                  "fa": "طنز؛ شوخی",
+                  "vi": "sự hài hước"
+                },
+                "examples": [
+                  "humorist"
+                ]
+              },
+              {
+                "morpheme": "iron",
+                "meaning": "a hard metal",
+                "translations": {
+                  "zh-Hans": "铁（金属）",
+                  "ja": "鉄（金属）",
+                  "fa": "آهن؛ فلز سخت",
+                  "vi": "sắt; kim loại cứng"
+                },
+                "examples": [
+                  "Ironbark"
+                ]
+              },
+              {
+                "morpheme": "lid",
+                "meaning": "a cover",
+                "translations": {
+                  "zh-Hans": "盖子",
+                  "ja": "ふた",
+                  "fa": "درپوش",
+                  "vi": "nắp"
+                },
+                "examples": [
+                  "eyelid"
+                ]
+              },
+              {
+                "morpheme": "listen",
+                "meaning": "pay attention to sound",
+                "translations": {
+                  "zh-Hans": "听；留心声音",
+                  "ja": "耳を傾ける",
+                  "fa": "گوش دادن",
+                  "vi": "lắng nghe"
+                },
+                "examples": [
+                  "list’ning (listening)"
+                ]
+              },
+              {
+                "morpheme": "loiter",
+                "meaning": "wait or move around idly",
+                "translations": {
+                  "zh-Hans": "闲逛；逗留",
+                  "ja": "ぶらぶらする",
+                  "fa": "بی‌هدف ماندن یا پرسه زدن",
+                  "vi": "nấn ná; đi quanh quẩn"
+                },
+                "examples": [
+                  "loitered"
+                ]
+              },
+              {
+                "morpheme": "man",
+                "meaning": "an adult male person",
+                "translations": {
+                  "zh-Hans": "成年男子",
+                  "ja": "成人男性",
+                  "fa": "مرد بالغ",
+                  "vi": "đàn ông trưởng thành"
+                },
+                "examples": [
+                  "bushman"
+                ]
+              },
+              {
+                "morpheme": "mark",
+                "meaning": "notice; make a sign",
+                "translations": {
+                  "zh-Hans": "注意；做标记",
+                  "ja": "気づく；印を付ける",
+                  "fa": "توجه کردن؛ علامت زدن",
+                  "vi": "nhận thấy; đánh dấu"
+                },
+                "examples": [
+                  "remark"
+                ]
+              },
+              {
+                "morpheme": "murder",
+                "meaning": "unlawfully kill a person",
+                "translations": {
+                  "zh-Hans": "谋杀",
+                  "ja": "人を殺す",
+                  "fa": "قتل کردن",
+                  "vi": "giết người"
+                },
+                "examples": [
+                  "murd’rous (murderous)",
+                  "murdering"
+                ]
+              },
+              {
+                "morpheme": "paw",
+                "meaning": "an animal’s foot; here, a rough hand",
+                "translations": {
+                  "zh-Hans": "动物的爪；此处指粗大的手",
+                  "ja": "動物の足；ここではごつい手",
+                  "fa": "پنجهٔ حیوان؛ اینجا دست زمخت",
+                  "vi": "chân thú; ở đây là bàn tay thô"
+                },
+                "examples": [
+                  "hairy paw"
+                ]
+              },
+              {
+                "morpheme": "Peel",
+                "meaning": "the surname of Robert Peel",
+                "translations": {
+                  "zh-Hans": "罗伯特·皮尔的姓氏",
+                  "ja": "ロバート・ピールの姓",
+                  "fa": "نام خانوادگی رابرت پیل",
+                  "vi": "họ của Robert Peel"
+                },
+                "examples": [
+                  "peeler"
+                ]
+              },
+              {
+                "morpheme": "razor",
+                "meaning": "a sharp tool used for shaving",
+                "translations": {
+                  "zh-Hans": "剃刀",
+                  "ja": "かみそり",
+                  "fa": "تیغ اصلاح",
+                  "vi": "dao cạo"
+                },
+                "examples": [
+                  "razor-back"
+                ]
+              },
+              {
+                "morpheme": "shear",
+                "meaning": "cut wool from a sheep",
+                "translations": {
+                  "zh-Hans": "剪羊毛",
+                  "ja": "羊毛を刈る",
+                  "fa": "پشم چیدن",
+                  "vi": "xén lông cừu"
+                },
+                "examples": [
+                  "shearing floor",
+                  "shearers"
+                ]
+              },
+              {
+                "morpheme": "spair",
+                "meaning": "hope",
+                "translations": {
+                  "zh-Hans": "希望",
+                  "ja": "希望",
+                  "fa": "امید",
+                  "vi": "hy vọng"
+                },
+                "examples": [
+                  "despair"
+                ]
+              },
+              {
+                "morpheme": "tremend",
+                "meaning": "cause awe or trembling; very great",
+                "translations": {
+                  "zh-Hans": "引起敬畏或颤抖；极大的",
+                  "ja": "畏れを起こす；非常に大きい",
+                  "fa": "هراس‌انگیز یا بسیار بزرگ",
+                  "vi": "gây kinh sợ; rất lớn"
+                },
+                "examples": [
+                  "tremendous"
+                ]
+              },
+              {
+                "morpheme": "up",
+                "meaning": "away from the main city; inland",
+                "translations": {
+                  "zh-Hans": "远离大城市；内陆",
+                  "ja": "都市から離れた内陸へ",
+                  "fa": "دور از شهر اصلی؛ به داخل کشور",
+                  "vi": "xa thành phố chính; vào nội địa"
+                },
+                "examples": [
+                  "up-country"
+                ]
+              },
+              {
+                "morpheme": "wander",
+                "meaning": "move without a fixed route",
+                "translations": {
+                  "zh-Hans": "漫无目的地走",
+                  "ja": "あてもなく歩く",
+                  "fa": "بی‌هدف حرکت کردن",
+                  "vi": "đi không theo lộ trình cố định"
+                },
+                "examples": [
+                  "wandered"
+                ]
+              },
+              {
+                "morpheme": "whisker",
+                "meaning": "a hair or group of facial hairs",
+                "translations": {
+                  "zh-Hans": "一根或一簇胡须",
+                  "ja": "ひげの毛",
+                  "fa": "یک یا چند موی صورت",
+                  "vi": "một sợi hoặc chùm râu"
+                },
+                "examples": [
+                  "whiskers"
+                ]
+              }
+            ],
+            "suffixes": [
+              {
+                "morpheme": "ed",
+                "meaning": "past tense",
+                "translations": {
+                  "zh-Hans": "过去时",
+                  "ja": "過去形",
+                  "fa": "زمان گذشته",
+                  "vi": "thì quá khứ"
+                },
+                "examples": [
+                  "wandered",
+                  "loitered"
+                ]
+              },
+              {
+                "morpheme": "ed",
+                "meaning": "having been; described as",
+                "translations": {
+                  "zh-Hans": "被……的；处于……状态",
+                  "ja": "〜された；〜の状態の",
+                  "fa": "شده؛ دارای وصف",
+                  "vi": "đã được; mang đặc điểm"
+                },
+                "examples": [
+                  "gilded"
+                ]
+              },
+              {
+                "morpheme": "ed",
+                "meaning": "described as",
+                "translations": {
+                  "zh-Hans": "被描述为……；处于……状态",
+                  "ja": "〜とされる；〜の状態",
+                  "fa": "وصف‌شده به؛ در حالت",
+                  "vi": "được mô tả là"
+                },
+                "examples": [
+                  "blessed"
+                ]
+              },
+              {
+                "morpheme": "er",
+                "meaning": "a person connected with",
+                "translations": {
+                  "zh-Hans": "与某事有关的人",
+                  "ja": "〜に関係する人",
+                  "fa": "فرد مرتبط با",
+                  "vi": "người liên quan đến"
+                },
+                "examples": [
+                  "peeler"
+                ]
+              },
+              {
+                "morpheme": "er",
+                "meaning": "a person who does an action",
+                "translations": {
+                  "zh-Hans": "做某事的人",
+                  "ja": "〜する人",
+                  "fa": "کسی که کاری انجام می‌دهد",
+                  "vi": "người thực hiện hành động"
+                },
+                "examples": [
+                  "shearers"
+                ]
+              },
+              {
+                "morpheme": "ing",
+                "meaning": "ongoing action or resulting quality",
+                "translations": {
+                  "zh-Hans": "正在进行的动作或形成的性质",
+                  "ja": "進行中の動作・生じた性質",
+                  "fa": "عمل در جریان یا صفت حاصل",
+                  "vi": "hành động đang diễn ra hoặc đặc tính tạo thành"
+                },
+                "examples": [
+                  "boiling hot"
+                ]
+              },
+              {
+                "morpheme": "ing",
+                "meaning": "doing; characterised by",
+                "translations": {
+                  "zh-Hans": "正在做；以……为特征",
+                  "ja": "〜している；〜が特徴の",
+                  "fa": "در حال انجام؛ دارای ویژگی",
+                  "vi": "đang làm; mang đặc điểm"
+                },
+                "examples": [
+                  "murdering"
+                ]
+              },
+              {
+                "morpheme": "ing",
+                "meaning": "the activity of",
+                "translations": {
+                  "zh-Hans": "……活动；……行为",
+                  "ja": "〜する活動",
+                  "fa": "عملِ",
+                  "vi": "hoạt động"
+                },
+                "examples": [
+                  "shearing floor"
+                ]
+              },
+              {
+                "morpheme": "ing",
+                "meaning": "ongoing action",
+                "translations": {
+                  "zh-Hans": "正在进行的动作",
+                  "ja": "進行中の動作",
+                  "fa": "عمل در حال انجام",
+                  "vi": "hành động đang diễn ra"
+                },
+                "examples": [
+                  "list’ning (listening)"
+                ]
+              },
+              {
+                "morpheme": "ing",
+                "meaning": "having an ongoing quality",
+                "translations": {
+                  "zh-Hans": "具有持续的性质或状态",
+                  "ja": "継続する性質・〜の状態",
+                  "fa": "دارای حالت ادامه‌دار",
+                  "vi": "có đặc tính tiếp diễn"
+                },
+                "examples": [
+                  "flowing beards"
+                ]
+              },
+              {
+                "morpheme": "ist",
+                "meaning": "a person who practises or specialises",
+                "translations": {
+                  "zh-Hans": "从事某事的人；专家",
+                  "ja": "〜する人；専門家",
+                  "fa": "فرد متخصص یا فعال",
+                  "vi": "người chuyên về việc đó"
+                },
+                "examples": [
+                  "humorist"
+                ]
+              },
+              {
+                "morpheme": "less",
+                "meaning": "without",
+                "translations": {
+                  "zh-Hans": "没有；不含",
+                  "ja": "〜がない",
+                  "fa": "بدون",
+                  "vi": "không có"
+                },
+                "examples": [
+                  "harmless"
+                ]
+              },
+              {
+                "morpheme": "ly",
+                "meaning": "in this manner",
+                "translations": {
+                  "zh-Hans": "以这种方式",
+                  "ja": "〜のように",
+                  "fa": "به این شیوه",
+                  "vi": "theo cách này"
+                },
+                "examples": [
+                  "gamely"
+                ]
+              },
+              {
+                "morpheme": "ous",
+                "meaning": "full of; having the quality of",
+                "translations": {
+                  "zh-Hans": "充满；具有……性质",
+                  "ja": "〜に満ちた；〜の性質の",
+                  "fa": "سرشار از؛ دارای ویژگی",
+                  "vi": "đầy; có đặc tính"
+                },
+                "examples": [
+                  "murd’rous (murderous)",
+                  "tremendous"
+                ]
+              },
+              {
+                "morpheme": "s",
+                "meaning": "more than one",
+                "translations": {
+                  "zh-Hans": "复数；不止一个",
+                  "ja": "複数",
+                  "fa": "نشانهٔ جمع",
+                  "vi": "số nhiều"
+                },
+                "examples": [
+                  "whiskers",
+                  "shearers",
+                  "flowing beards"
+                ]
+              },
+              {
+                "morpheme": "s",
+                "meaning": "present tense with he/she/it",
+                "translations": {
+                  "zh-Hans": "第三人称单数现在时",
+                  "ja": "三人称単数現在",
+                  "fa": "نشانهٔ سوم‌شخص مفرد حال",
+                  "vi": "dấu hiện tại ngôi thứ ba số ít"
+                },
+                "examples": [
+                  "brags"
+                ]
+              },
+              {
+                "morpheme": "y",
+                "meaning": "full of; having",
+                "translations": {
+                  "zh-Hans": "充满；具有",
+                  "ja": "〜の多い；〜を持つ",
+                  "fa": "پر از؛ دارای",
+                  "vi": "đầy; có"
+                },
+                "examples": [
+                  "hairy paw"
+                ]
+              }
+            ]
           },
           "units": [
             {
-              "id": "man-from-ironbark",
-              "name": "The Man from Ironbark (poem)",
-              "interactive": false,
+              "id": "ironbark-stanza-1",
+              "name": "Stanza 1 · Arrival in Sydney",
+              "interactive": true,
               "words": [
                 {
-                  "word": "despair",
-                  "parts": [],
-                  "root": "",
-                  "meaning": "Complete loss of hope",
-                  "example": "",
+                  "word": "Ironbark",
+                  "parts": [
+                    {
+                      "surface": "iron",
+                      "type": "root",
+                      "meaning": "a hard metal",
+                      "translations": {
+                        "zh-Hans": "铁（金属）",
+                        "ja": "鉄（金属）",
+                        "fa": "آهن؛ فلز سخت",
+                        "vi": "sắt; kim loại cứng"
+                      }
+                    },
+                    {
+                      "surface": "bark",
+                      "type": "root",
+                      "meaning": "the outer covering of a tree",
+                      "translations": {
+                        "zh-Hans": "树皮",
+                        "ja": "樹皮",
+                        "fa": "پوست درخت",
+                        "vi": "vỏ cây"
+                      }
+                    }
+                  ],
+                  "root": "iron",
+                  "meaning": "A hard-barked Australian eucalyptus; here, also the name of the visitor’s bush town.",
+                  "example": "It was the man from Ironbark who struck the Sydney town,",
+                  "context": "The title identifies the man by his country home before it tells us his name.",
+                  "origin": "A transparent compound: iron + bark. The name suggests bark as hard as iron.",
+                  "related": [
+                    "ironbark tree",
+                    "bark",
+                    "barked"
+                  ],
                   "tier": 2,
                   "translations": {
-                    "ja": "絶望",
-                    "zh-Hans": "绝望",
-                    "fa": "نا امیدی",
-                    "vi": "tuyệt vọng"
+                    "zh-Hans": "铁皮桉；诗中的乡镇名",
+                    "ja": "アイアンバーク（硬い樹皮のユーカリ；町名）",
+                    "fa": "درخت آیرون‌بارک؛ نام شهرک در شعر",
+                    "vi": "cây bạch đàn vỏ sắt; tên thị trấn trong bài thơ"
                   }
                 },
                 {
-                  "word": "Ironbark",
+                  "word": "struck the Sydney town",
                   "parts": [],
                   "root": "",
-                  "meaning": "A kind of Australian eucalyptus tree; also the town’s name",
-                  "example": "",
+                  "meaning": "Reached or arrived in Sydney.",
+                  "example": "It was the man from Ironbark who struck the Sydney town,",
+                  "context": "Here struck does not mean hit. It is an old narrative use meaning arrived at a place.",
+                  "origin": "Struck is the irregular past form of strike: strike → struck.",
+                  "related": [
+                    "strike",
+                    "strikes",
+                    "striking",
+                    "struck"
+                  ],
                   "tier": 2,
                   "translations": {
-                    "ja": "アイアンバーク",
-                    "zh-Hans": "铁皮桉树 / 铁皮镇",
-                    "fa": "درخت اوکالیپتوس سخت",
-                    "vi": "cây bạch đàn cứng"
+                    "zh-Hans": "到达悉尼城",
+                    "ja": "シドニーの町に着いた",
+                    "fa": "به شهر سیدنی رسید",
+                    "vi": "đến thành phố Sydney"
+                  }
+                },
+                {
+                  "word": "wandered",
+                  "parts": [
+                    {
+                      "surface": "wander",
+                      "type": "root",
+                      "meaning": "move without a fixed route",
+                      "translations": {
+                        "zh-Hans": "漫无目的地走",
+                        "ja": "あてもなく歩く",
+                        "fa": "بی‌هدف حرکت کردن",
+                        "vi": "đi không theo lộ trình cố định"
+                      }
+                    },
+                    {
+                      "surface": "ed",
+                      "type": "suffix",
+                      "meaning": "past tense",
+                      "translations": {
+                        "zh-Hans": "过去时",
+                        "ja": "過去形",
+                        "fa": "زمان گذشته",
+                        "vi": "thì quá khứ"
+                      }
+                    }
+                  ],
+                  "root": "wander",
+                  "meaning": "Moved around without a clear route or purpose.",
+                  "example": "He wandered over street and park, he wandered up and down.",
+                  "context": "He walks through streets and parks but does not know what to do.",
+                  "origin": "wander + -ed (past tense).",
+                  "related": [
+                    "wander",
+                    "wanders",
+                    "wandering",
+                    "wanderer"
+                  ],
+                  "tier": 2,
+                  "translations": {
+                    "zh-Hans": "四处游荡",
+                    "ja": "あちこち歩き回った",
+                    "fa": "بی‌هدف پرسه زد",
+                    "vi": "đi lang thang"
                   }
                 },
                 {
                   "word": "loitered",
-                  "parts": [],
-                  "root": "",
-                  "meaning": "Stood/wandered idly",
-                  "example": "",
+                  "parts": [
+                    {
+                      "surface": "loiter",
+                      "type": "root",
+                      "meaning": "wait or move around idly",
+                      "translations": {
+                        "zh-Hans": "闲逛；逗留",
+                        "ja": "ぶらぶらする",
+                        "fa": "بی‌هدف ماندن یا پرسه زدن",
+                        "vi": "nấn ná; đi quanh quẩn"
+                      }
+                    },
+                    {
+                      "surface": "ed",
+                      "type": "suffix",
+                      "meaning": "past tense",
+                      "translations": {
+                        "zh-Hans": "过去时",
+                        "ja": "過去形",
+                        "fa": "زمان گذشته",
+                        "vi": "thì quá khứ"
+                      }
+                    }
+                  ],
+                  "root": "loiter",
+                  "meaning": "Stayed or moved slowly in a place without an obvious purpose.",
+                  "example": "He loitered here, he loitered there, till he was like to drop,",
+                  "context": "The repetition ‘here … there’ makes his aimless waiting easy to hear.",
+                  "origin": "loiter + -ed (past tense).",
+                  "related": [
+                    "loiter",
+                    "loiters",
+                    "loitering"
+                  ],
                   "tier": 2,
                   "translations": {
+                    "zh-Hans": "闲逛；逗留",
                     "ja": "ぶらぶらした",
-                    "zh-Hans": "徘徊的",
-                    "fa": "پرسه زده",
-                    "vi": "lang thang"
+                    "fa": "پرسه زد؛ بی‌هدف ماند",
+                    "vi": "đi quanh quẩn; nấn ná"
+                  }
+                },
+                {
+                  "word": "despair",
+                  "parts": [
+                    {
+                      "surface": "de",
+                      "type": "prefix",
+                      "meaning": "away; without",
+                      "translations": {
+                        "zh-Hans": "离开；没有",
+                        "ja": "離れて；〜なし",
+                        "fa": "دور؛ بدون",
+                        "vi": "rời khỏi; không có"
+                      }
+                    },
+                    {
+                      "surface": "spair",
+                      "variant": "sper",
+                      "type": "root",
+                      "meaning": "hope",
+                      "translations": {
+                        "zh-Hans": "希望",
+                        "ja": "希望",
+                        "fa": "امید",
+                        "vi": "hy vọng"
+                      }
+                    }
+                  ],
+                  "root": "spair",
+                  "meaning": "A complete loss of hope.",
+                  "example": "Until at last in sheer despair he sought a barber’s shop.",
+                  "context": "Sheer means complete here: he is so tired and hopeless that he finally chooses a shop.",
+                  "origin": "From Latin de- (away) + sperare (to hope). The spelling changed as the word travelled through French.",
+                  "related": [
+                    "despair",
+                    "despaired",
+                    "despairing",
+                    "desperate"
+                  ],
+                  "tier": 2,
+                  "translations": {
+                    "zh-Hans": "绝望",
+                    "ja": "絶望",
+                    "fa": "ناامیدی کامل",
+                    "vi": "sự tuyệt vọng"
                   }
                 },
                 {
                   "word": "sought",
                   "parts": [],
                   "root": "",
-                  "meaning": "Looked for, tried to find",
-                  "example": "",
+                  "meaning": "Looked for or tried to find.",
+                  "example": "Until at last in sheer despair he sought a barber’s shop.",
+                  "context": "He sought a barber’s shop: he looked for one and then entered it.",
+                  "origin": "The irregular past form of seek: seek → sought.",
+                  "related": [
+                    "seek",
+                    "seeks",
+                    "seeking",
+                    "sought"
+                  ],
                   "tier": 2,
                   "translations": {
-                    "ja": "求めた",
-                    "zh-Hans": "寻求",
-                    "fa": "جستجو کرد",
+                    "zh-Hans": "寻找；寻求",
+                    "ja": "探し求めた",
+                    "fa": "جست‌وجو کرد",
                     "vi": "tìm kiếm"
                   }
                 },
                 {
-                  "word": "strike",
-                  "parts": [],
-                  "root": "",
-                  "meaning": "To hit; also to stop work (strike)",
-                  "example": "",
+                  "word": "whiskers",
+                  "parts": [
+                    {
+                      "surface": "whisker",
+                      "type": "root",
+                      "meaning": "a hair or group of facial hairs",
+                      "translations": {
+                        "zh-Hans": "一根或一簇胡须",
+                        "ja": "ひげの毛",
+                        "fa": "یک یا چند موی صورت",
+                        "vi": "một sợi hoặc chùm râu"
+                      }
+                    },
+                    {
+                      "surface": "s",
+                      "type": "suffix",
+                      "meaning": "more than one",
+                      "translations": {
+                        "zh-Hans": "复数；不止一个",
+                        "ja": "複数",
+                        "fa": "نشانهٔ جمع",
+                        "vi": "số nhiều"
+                      }
+                    }
+                  ],
+                  "root": "whisker",
+                  "meaning": "Hair growing on a man’s cheeks or around the mouth; facial hair.",
+                  "example": "“’Ere! shave my beard and whiskers off, I’ll be a man of mark,",
+                  "context": "He asks the barber to remove both his beard and whiskers.",
+                  "origin": "whisker + -s (plural).",
+                  "related": [
+                    "whisker",
+                    "whiskers",
+                    "whiskered"
+                  ],
                   "tier": 2,
                   "translations": {
-                    "ja": "ストライク",
-                    "zh-Hans": "罢工 / 打击",
-                    "fa": "اعتصاب / ضربه",
-                    "vi": "đánh đập / đình công"
+                    "zh-Hans": "胡须；络腮胡",
+                    "ja": "ほおひげ",
+                    "fa": "سبیل و موی صورت",
+                    "vi": "râu quai nón; ria"
+                  }
+                },
+                {
+                  "word": "man of mark",
+                  "parts": [],
+                  "root": "",
+                  "meaning": "A man who is noticeable, important or respected.",
+                  "example": "“’Ere! shave my beard and whiskers off, I’ll be a man of mark,",
+                  "context": "He thinks a city haircut will make people at home see him as impressive.",
+                  "origin": "An old fixed expression. Mark here means distinction or reputation, not a written score.",
+                  "related": [
+                    "of note",
+                    "distinguished",
+                    "notable"
+                  ],
+                  "tier": 2,
+                  "translations": {
+                    "zh-Hans": "有名望的人",
+                    "ja": "名のある人物",
+                    "fa": "مردی نامدار و مهم",
+                    "vi": "người đàn ông có danh tiếng"
                   }
                 },
                 {
                   "word": "toff",
                   "parts": [],
                   "root": "",
-                  "meaning": "Upper-class, fashionable person (mocking tone)",
-                  "example": "",
+                  "meaning": "An old mocking word for a fashionable upper-class person.",
+                  "example": "I’ll go and do the Sydney toff up home in Ironbark.”",
+                  "context": "He plans to copy the appearance and manners of a stylish Sydney gentleman.",
+                  "origin": "Nineteenth-century British slang; it is best learned as a whole word.",
+                  "related": [
+                    "toff",
+                    "toffish"
+                  ],
                   "tier": 2,
                   "translations": {
-                    "ja": "上流階級の人",
-                    "zh-Hans": "上流社会的人",
-                    "fa": "آدم متشخص / اعیان",
-                    "vi": "người giàu có, ăn diện"
+                    "zh-Hans": "衣着讲究的上流人士（旧俚语）",
+                    "ja": "しゃれた上流階級の人（古い俗語）",
+                    "fa": "آدم اشرافی و شیک‌پوش (عامیانهٔ قدیمی)",
+                    "vi": "người thượng lưu ăn diện (tiếng lóng cũ)"
+                  }
+                }
+              ],
+              "path": "elc/english/ironbark-stanza-1"
+            },
+            {
+              "id": "ironbark-stanza-2",
+              "name": "Stanza 2 · The barber’s plan",
+              "interactive": true,
+              "words": [
+                {
+                  "word": "flash",
+                  "parts": [],
+                  "root": "",
+                  "meaning": "Showy, stylish and trying to attract attention.",
+                  "example": "The barber man was small and flash, as barbers mostly are,",
+                  "context": "The barber’s appearance is impressive but also a little boastful.",
+                  "origin": "Old slang use of flash. It is not the burst of light meaning.",
+                  "related": [
+                    "flashy",
+                    "flashily",
+                    "showy"
+                  ],
+                  "tier": 2,
+                  "translations": {
+                    "zh-Hans": "花哨而招摇的",
+                    "ja": "派手で気取った",
+                    "fa": "پرزرق‌وبرق و خودنما",
+                    "vi": "hào nhoáng; thích phô trương"
                   }
                 },
                 {
-                  "word": "struck",
+                  "word": "strike your fancy",
                   "parts": [],
                   "root": "",
-                  "meaning": "Hit, affected, attacked",
-                  "example": "",
+                  "meaning": "Catch your attention or strongly appeal to you.",
+                  "example": "He wore a strike-your-fancy sash, he smoked a huge cigar:",
+                  "context": "A strike-your-fancy sash is so bright or unusual that people notice it.",
+                  "origin": "A fixed idiom. Fancy here means liking or imagination.",
+                  "related": [
+                    "catch your eye",
+                    "appeal to",
+                    "fancy"
+                  ],
                   "tier": 2,
                   "translations": {
-                    "ja": "襲われた",
-                    "zh-Hans": "击中",
-                    "fa": "زده است",
-                    "vi": "bị đánh"
+                    "zh-Hans": "吸引你的注意；合你的意",
+                    "ja": "目を引く；気に入る",
+                    "fa": "توجه یا پسند کسی را جلب کردن",
+                    "vi": "thu hút sự chú ý; hợp ý"
                   }
                 },
                 {
-                  "word": "toff up",
-                  "parts": [],
-                  "root": "",
-                  "meaning": "To dress/act upper-class; put on airs",
-                  "example": "",
+                  "word": "humorist",
+                  "parts": [
+                    {
+                      "surface": "humor",
+                      "type": "root",
+                      "meaning": "what is funny; comedy",
+                      "translations": {
+                        "zh-Hans": "幽默；喜剧",
+                        "ja": "ユーモア；笑い",
+                        "fa": "طنز؛ شوخی",
+                        "vi": "sự hài hước"
+                      }
+                    },
+                    {
+                      "surface": "ist",
+                      "type": "suffix",
+                      "meaning": "a person who practises or specialises",
+                      "translations": {
+                        "zh-Hans": "从事某事的人；专家",
+                        "ja": "〜する人；専門家",
+                        "fa": "فرد متخصص یا فعال",
+                        "vi": "người chuyên về việc đó"
+                      }
+                    }
+                  ],
+                  "root": "humor",
+                  "meaning": "A person skilled at making people laugh, especially through stories or writing.",
+                  "example": "He was a humorist of note and keen at repartee,",
+                  "context": "The narrator presents the barber as someone known for jokes.",
+                  "origin": "humor + -ist (a person who practises or specialises in something).",
+                  "related": [
+                    "humour",
+                    "humorous",
+                    "humorist"
+                  ],
                   "tier": 2,
                   "translations": {
-                    "ja": "上品ぶった",
-                    "zh-Hans": "摆阔气 / 装上流",
-                    "fa": "خودنمایی اعیانی",
-                    "vi": "làm bộ giàu có"
+                    "zh-Hans": "幽默家；爱讲笑话的人",
+                    "ja": "ユーモア作家；冗談の達人",
+                    "fa": "طنزپرداز؛ شوخ‌طبع",
+                    "vi": "nhà hài hước; người giỏi pha trò"
                   }
                 },
                 {
-                  "word": "wandered up and down",
+                  "word": "of note",
                   "parts": [],
                   "root": "",
-                  "meaning": "Moved aimlessly around",
-                  "example": "",
+                  "meaning": "Important, well known or worth noticing.",
+                  "example": "He was a humorist of note and keen at repartee,",
+                  "context": "A humorist of note is a person with a reputation for humour.",
+                  "origin": "A fixed expression. It has a similar meaning to notable.",
+                  "related": [
+                    "notable",
+                    "noteworthy",
+                    "man of mark"
+                  ],
                   "tier": 2,
                   "translations": {
-                    "ja": "あちこちさまよった",
-                    "zh-Hans": "四处游荡",
-                    "fa": "بالا و پایین پرسه زدن",
-                    "vi": "đi lang thang lên xuống"
+                    "zh-Hans": "著名的；重要的",
+                    "ja": "著名な；注目すべき",
+                    "fa": "مشهور یا قابل‌توجه",
+                    "vi": "nổi tiếng; đáng chú ý"
                   }
                 },
                 {
-                  "word": "tote",
+                  "word": "keen",
                   "parts": [],
                   "root": "",
-                  "meaning": "Betting pool system (all bets in, odds calculated)",
-                  "example": "",
+                  "meaning": "Quick, sharp or highly skilled.",
+                  "example": "He was a humorist of note and keen at repartee,",
+                  "context": "Keen at repartee means very good at giving clever replies.",
+                  "origin": "An old sense related to sharpness; compare a keen blade and a keen mind.",
+                  "related": [
+                    "keen",
+                    "keenly",
+                    "keenness"
+                  ],
                   "tier": 2,
                   "translations": {
-                    "ja": "賭けの方式",
-                    "zh-Hans": "总投注 / 彩票系统",
-                    "fa": "قمار جمعی / توت",
-                    "vi": "hình thức cá cược tập thể"
+                    "zh-Hans": "敏锐的；擅长的",
+                    "ja": "鋭い；巧みな",
+                    "fa": "تیز و ماهر",
+                    "vi": "sắc sảo; rất giỏi"
                   }
                 },
                 {
                   "word": "repartee",
                   "parts": [],
                   "root": "",
-                  "meaning": "Quick, witty conversation or banter",
-                  "example": "",
+                  "meaning": "A quick exchange of clever, witty replies.",
+                  "example": "He was a humorist of note and keen at repartee,",
+                  "context": "The barber enjoys fast verbal jokes as well as practical jokes.",
+                  "origin": "Borrowed from French répartie, meaning a quick reply. It has no useful modern English morpheme split.",
+                  "related": [
+                    "banter",
+                    "witty reply",
+                    "retort"
+                  ],
                   "tier": 2,
                   "translations": {
-                    "ja": "機知に富んだ会話",
                     "zh-Hans": "机智的对答",
-                    "fa": "جواب机عی / شوخ‌طبعانه",
+                    "ja": "機知に富んだ応酬",
+                    "fa": "جواب‌های سریع و شوخ‌طبعانه",
                     "vi": "đối đáp dí dỏm"
                   }
                 },
                 {
-                  "word": "barber",
+                  "word": "laid the odds",
                   "parts": [],
                   "root": "",
-                  "meaning": "Person who cuts hair/shaves",
-                  "example": "",
+                  "meaning": "Set or offered the betting odds.",
+                  "example": "He laid the odds and kept a ‘tote’, whatever that may be,",
+                  "context": "This detail links the barber to gambling and horse-racing culture.",
+                  "origin": "A betting expression; learn the phrase as a whole.",
+                  "related": [
+                    "odds",
+                    "bet",
+                    "wager"
+                  ],
                   "tier": 2,
                   "translations": {
-                    "ja": "床屋 / 理髪師",
-                    "zh-Hans": "理发师",
-                    "fa": "آرایشگر مردانه",
-                    "vi": "thợ cắt tóc"
+                    "zh-Hans": "开出赔率",
+                    "ja": "賭けのオッズを付けた",
+                    "fa": "ضریب شرط‌بندی تعیین کرد",
+                    "vi": "đưa ra tỷ lệ cá cược"
                   }
                 },
                 {
-                  "word": "dexter",
+                  "word": "tote",
                   "parts": [],
                   "root": "",
-                  "meaning": "A joke, prank, or playful adventure",
-                  "example": "",
+                  "meaning": "A totalisator: a system that pools bets and calculates the payout.",
+                  "example": "He laid the odds and kept a ‘tote’, whatever that may be,",
+                  "context": "The narrator jokes ‘whatever that may be’, signalling an old specialist word.",
+                  "origin": "Short for totalisator, a machine or system for pool betting.",
+                  "related": [
+                    "totalisator",
+                    "betting pool",
+                    "odds"
+                  ],
                   "tier": 2,
                   "translations": {
-                    "ja": "いたずら / 冗談",
-                    "zh-Hans": "玩笑 / 恶作剧",
-                    "fa": "شوخی / بازیگوشی",
-                    "vi": "trò đùa, nghịch ngợm"
+                    "zh-Hans": "赛马总彩池系统（旧称）",
+                    "ja": "共同投票式の賭けシステム",
+                    "fa": "سامانهٔ شرط‌بندی تجمیعی",
+                    "vi": "hệ thống cá cược chung (totalisator)"
                   }
                 },
                 {
                   "word": "lark",
                   "parts": [],
                   "root": "",
-                  "meaning": "A joke, prank, or playful adventure",
-                  "example": "",
+                  "meaning": "A prank, joke or playful adventure.",
+                  "example": "And when he saw our friend arrive, he whispered ‘Here’s a lark!",
+                  "context": "The barber calls his planned trick a lark, although it will not feel harmless to the visitor.",
+                  "origin": "Old slang. This is different from lark, the bird.",
+                  "related": [
+                    "prank",
+                    "mischief",
+                    "practical joke"
+                  ],
                   "tier": 2,
                   "translations": {
-                    "ja": "いたずら / 冗談",
-                    "zh-Hans": "玩笑 / 恶作剧",
-                    "fa": "شوخی / بازیگوشی",
-                    "vi": "trò đùa, nghịch ngợm"
+                    "zh-Hans": "恶作剧；玩笑",
+                    "ja": "いたずら；悪ふざけ",
+                    "fa": "شوخی یا شیطنت",
+                    "vi": "trò đùa nghịch; trò tinh quái"
                   }
-                },
-                {
-                  "word": "flash",
-                  "parts": [],
-                  "root": "",
-                  "meaning": "Showy, stylish, trying to impress",
-                  "example": "",
-                  "tier": 2,
-                  "translations": {
-                    "ja": "派手な",
-                    "zh-Hans": "浮华的 / 花哨的",
-                    "fa": "جلب‌توجه‌کننده",
-                    "vi": "hào nhoáng, khoe khoang"
-                  }
-                },
-                {
-                  "word": "eyelid",
-                  "parts": [],
-                  "root": "",
-                  "meaning": "The fold of skin that covers the eye",
-                  "example": "",
-                  "tier": 2,
-                  "translations": {
-                    "ja": "まぶた",
-                    "zh-Hans": "眼皮",
-                    "fa": "پلک چشم",
-                    "vi": "mí mắt"
-                  }
-                },
+                }
+              ],
+              "path": "elc/english/ironbark-stanza-2"
+            },
+            {
+              "id": "ironbark-stanza-3",
+              "name": "Stanza 3 · The joke is signalled",
+              "interactive": true,
+              "words": [
                 {
                   "word": "gilded",
-                  "parts": [],
-                  "root": "",
-                  "meaning": "Covered in gold; metaphorically, wealthy or showy",
-                  "example": "",
+                  "parts": [
+                    {
+                      "surface": "gild",
+                      "type": "root",
+                      "meaning": "cover with a thin layer of gold",
+                      "translations": {
+                        "zh-Hans": "镀金",
+                        "ja": "金を薄くかぶせる",
+                        "fa": "زراندود کردن",
+                        "vi": "mạ vàng"
+                      }
+                    },
+                    {
+                      "surface": "ed",
+                      "type": "suffix",
+                      "meaning": "having been; described as",
+                      "translations": {
+                        "zh-Hans": "被……的；处于……状态",
+                        "ja": "〜された；〜の状態の",
+                        "fa": "شده؛ دارای وصف",
+                        "vi": "đã được; mang đặc điểm"
+                      }
+                    }
+                  ],
+                  "root": "gild",
+                  "meaning": "Covered with a thin layer of gold; figuratively, rich-looking or showy.",
+                  "example": "There were some gilded youths that sat along the barber’s wall,",
+                  "context": "Gilded youths suggests fashionable young men whose bright surface may hide little substance.",
+                  "origin": "gild + -ed.",
+                  "related": [
+                    "gild",
+                    "gilded",
+                    "gilding"
+                  ],
                   "tier": 2,
                   "translations": {
-                    "ja": "金メッキの",
-                    "zh-Hans": "镀金的 装饰的 富有的",
-                    "vi": "mạ vàng"
-                  }
-                },
-                {
-                  "word": "yokel",
-                  "parts": [],
-                  "root": "",
-                  "meaning": "An unsophisticated country person; bumpkin",
-                  "example": "",
-                  "tier": 2,
-                  "translations": {
-                    "ja": "田舎者",
-                    "zh-Hans": "乡巴佬 庄稼汉",
-                    "fa": "دهاتی ساده‌لوح",
-                    "vi": "người nhà quê"
-                  }
-                },
-                {
-                  "word": "hairy paw",
-                  "parts": [],
-                  "root": "",
-                  "meaning": "Furry foot/paw (animal-like)",
-                  "example": "",
-                  "tier": 2,
-                  "translations": {
-                    "ja": "毛深い足",
-                    "zh-Hans": "毛茸茸的爪子",
-                    "fa": "پنجه پشمالو",
-                    "vi": "bàn chân lông lá"
-                  }
-                },
-                {
-                  "word": "tremendous",
-                  "parts": [],
-                  "root": "",
-                  "meaning": "Huge, enormous; also wonderful",
-                  "example": "",
-                  "tier": 2,
-                  "translations": {
-                    "ja": "素晴らしい",
-                    "zh-Hans": "巨大的",
-                    "fa": "فوق‌العاده",
-                    "vi": "vô cùng to lớn"
+                    "zh-Hans": "镀金的；表面华丽的",
+                    "ja": "金めっきの；うわべだけ華やかな",
+                    "fa": "زراندود؛ ظاهراً پرزرق‌وبرق",
+                    "vi": "mạ vàng; hào nhoáng bề ngoài"
                   }
                 },
                 {
                   "word": "dull",
                   "parts": [],
                   "root": "",
-                  "meaning": "Not sharp; boring; slow",
-                  "example": "",
+                  "meaning": "Not sharp or lively; here, slow to think.",
+                  "example": "Their eyes were dull, their heads were flat, they had no brains at all;",
+                  "context": "The insult describes the watching youths as mentally empty, not merely bored.",
+                  "origin": "An old English word with several connected meanings: blunt, dim, boring and slow.",
+                  "related": [
+                    "dull",
+                    "dully",
+                    "dullness"
+                  ],
                   "tier": 2,
                   "translations": {
-                    "ja": "鈍い",
-                    "zh-Hans": "枯燥无聊的",
-                    "fa": "کسل‌کننده / کند",
-                    "vi": "đần độn, buồn tẻ"
+                    "zh-Hans": "迟钝的；乏味的",
+                    "ja": "鈍い；頭の働きが遅い",
+                    "fa": "کندذهن؛ کسل‌کننده",
+                    "vi": "đần độn; buồn tẻ"
+                  }
+                },
+                {
+                  "word": "passed the wink",
+                  "parts": [],
+                  "root": "",
+                  "meaning": "Gave a secret signal by winking.",
+                  "example": "To them the barber passed the wink, his dexter eyelid shut,",
+                  "context": "The barber silently tells the young men that a joke is about to begin.",
+                  "origin": "An old fixed expression; modern English more often says gave them a wink.",
+                  "related": [
+                    "wink",
+                    "signal",
+                    "give the nod"
+                  ],
+                  "tier": 2,
+                  "translations": {
+                    "zh-Hans": "使眼色；暗中示意",
+                    "ja": "ウインクで合図した",
+                    "fa": "با چشمک علامت مخفی داد",
+                    "vi": "nháy mắt ra hiệu"
+                  }
+                },
+                {
+                  "word": "dexter",
+                  "parts": [],
+                  "root": "",
+                  "meaning": "On the right-hand side.",
+                  "example": "To them the barber passed the wink, his dexter eyelid shut,",
+                  "context": "His dexter eyelid is his right eyelid. It closes to make the secret wink.",
+                  "origin": "A Latin word meaning right or right hand. Compare dexterity: skill with the hands.",
+                  "related": [
+                    "dexterity",
+                    "dexterous",
+                    "ambidextrous"
+                  ],
+                  "tier": 2,
+                  "translations": {
+                    "zh-Hans": "右边的；右手侧的",
+                    "ja": "右側の",
+                    "fa": "سمت راست؛ راست‌دست",
+                    "vi": "bên phải; thuộc tay phải"
+                  }
+                },
+                {
+                  "word": "eyelid",
+                  "parts": [
+                    {
+                      "surface": "eye",
+                      "type": "root",
+                      "meaning": "the organ used for seeing",
+                      "translations": {
+                        "zh-Hans": "眼睛",
+                        "ja": "目",
+                        "fa": "چشم",
+                        "vi": "mắt"
+                      }
+                    },
+                    {
+                      "surface": "lid",
+                      "type": "root",
+                      "meaning": "a cover",
+                      "translations": {
+                        "zh-Hans": "盖子",
+                        "ja": "ふた",
+                        "fa": "درپوش",
+                        "vi": "nắp"
+                      }
+                    }
+                  ],
+                  "root": "eye",
+                  "meaning": "The fold of skin that opens and closes over the eye.",
+                  "example": "To them the barber passed the wink, his dexter eyelid shut,",
+                  "context": "The barber shuts one eyelid to wink at the others.",
+                  "origin": "A transparent compound: eye + lid.",
+                  "related": [
+                    "eye",
+                    "eyelid",
+                    "eyelids"
+                  ],
+                  "tier": 2,
+                  "translations": {
+                    "zh-Hans": "眼皮",
+                    "ja": "まぶた",
+                    "fa": "پلک چشم",
+                    "vi": "mí mắt"
+                  }
+                },
+                {
+                  "word": "bloomin’",
+                  "parts": [],
+                  "root": "",
+                  "meaning": "An old mild intensifier meaning very or ‘that annoying …’.",
+                  "example": "‘I’ll make this bloomin’ yokel think his bloomin’ throat is cut.’",
+                  "context": "The apostrophe shows casual speech. It strengthens the insult without adding literal flower meaning.",
+                  "origin": "Old colloquial speech; do not split it as bloom + -ing for this meaning.",
+                  "related": [
+                    "blimming",
+                    "blasted",
+                    "very"
+                  ],
+                  "tier": 2,
+                  "translations": {
+                    "zh-Hans": "真是的；非常（旧式加强语）",
+                    "ja": "まったく；ひどく（古い強調語）",
+                    "fa": "لعنتی؛ خیلی (تأکید قدیمی)",
+                    "vi": "thật là; cực kỳ (từ nhấn mạnh kiểu cũ)"
+                  }
+                },
+                {
+                  "word": "yokel",
+                  "parts": [],
+                  "root": "",
+                  "meaning": "An insulting old word for a supposedly unsophisticated country person.",
+                  "example": "‘I’ll make this bloomin’ yokel think his bloomin’ throat is cut.’",
+                  "context": "The barber looks down on the visitor because he comes from the bush.",
+                  "origin": "Old slang; learn it as a whole word. It is disrespectful when used about a person.",
+                  "related": [
+                    "country bumpkin",
+                    "rustic",
+                    "outsider"
+                  ],
+                  "tier": 2,
+                  "translations": {
+                    "zh-Hans": "乡巴佬（侮辱语）",
+                    "ja": "田舎者（侮辱的）",
+                    "fa": "دهاتی ساده‌لوح (توهین‌آمیز)",
+                    "vi": "đồ nhà quê (mang tính xúc phạm)"
+                  }
+                },
+                {
+                  "word": "green",
+                  "parts": [],
+                  "root": "",
+                  "meaning": "Inexperienced or easily fooled; literally, also the colour green.",
+                  "example": "‘I s’pose the flats is pretty green up there in Ironbark.’",
+                  "context": "The barber makes a pun: the country flats may be green with plants, and country people may be ‘green’ or naïve.",
+                  "origin": "A figurative extension from unripe green fruit to an inexperienced person.",
+                  "related": [
+                    "greenhorn",
+                    "inexperienced",
+                    "naïve"
+                  ],
+                  "tier": 2,
+                  "translations": {
+                    "zh-Hans": "幼稚无经验的；绿色的",
+                    "ja": "未熟な；緑の",
+                    "fa": "بی‌تجربه؛ سبز",
+                    "vi": "non nớt; màu xanh"
+                  }
+                }
+              ],
+              "path": "elc/english/ironbark-stanza-3"
+            },
+            {
+              "id": "ironbark-stanza-4",
+              "name": "Stanza 4 · The fake cut",
+              "interactive": true,
+              "words": [
+                {
+                  "word": "grunt",
+                  "parts": [],
+                  "root": "",
+                  "meaning": "A short, low sound made instead of speaking.",
+                  "example": "A grunt was all reply he got; he shaved the bushman’s chin,",
+                  "context": "The bushman does not answer the barber’s insult with words.",
+                  "origin": "An imitative sound-word: its sound resembles the noise it names.",
+                  "related": [
+                    "grunt",
+                    "grunted",
+                    "grunting"
+                  ],
+                  "tier": 2,
+                  "translations": {
+                    "zh-Hans": "咕哝声；哼声",
+                    "ja": "うなり声；鼻を鳴らす声",
+                    "fa": "صدای خرخر یا نالهٔ کوتاه",
+                    "vi": "tiếng càu nhàu; tiếng hừ"
+                  }
+                },
+                {
+                  "word": "bushman",
+                  "parts": [
+                    {
+                      "surface": "bush",
+                      "type": "root",
+                      "meaning": "rural Australian country",
+                      "translations": {
+                        "zh-Hans": "澳大利亚内陆乡野",
+                        "ja": "オーストラリアの奥地",
+                        "fa": "مناطق روستایی استرالیا",
+                        "vi": "vùng nông thôn nội địa Úc"
+                      }
+                    },
+                    {
+                      "surface": "man",
+                      "type": "root",
+                      "meaning": "an adult male person",
+                      "translations": {
+                        "zh-Hans": "成年男子",
+                        "ja": "成人男性",
+                        "fa": "مرد بالغ",
+                        "vi": "đàn ông trưởng thành"
+                      }
+                    }
+                  ],
+                  "root": "bush",
+                  "meaning": "A man who lives or works in the Australian bush or inland country.",
+                  "example": "A grunt was all reply he got; he shaved the bushman’s chin,",
+                  "context": "The narrator contrasts the country visitor with the city barber.",
+                  "origin": "A transparent compound: bush + man.",
+                  "related": [
+                    "bush",
+                    "bushman",
+                    "bushmen"
+                  ],
+                  "tier": 2,
+                  "translations": {
+                    "zh-Hans": "澳大利亚内陆乡下人",
+                    "ja": "オーストラリア内陸部の男",
+                    "fa": "مردِ نواحی بوته‌زار و روستایی استرالیا",
+                    "vi": "người đàn ông vùng bụi rậm/nội địa Úc"
+                  }
+                },
+                {
+                  "word": "boiling hot",
+                  "parts": [
+                    {
+                      "surface": "boil",
+                      "type": "root",
+                      "meaning": "heat a liquid until it bubbles",
+                      "translations": {
+                        "zh-Hans": "加热至沸腾",
+                        "ja": "沸騰させる",
+                        "fa": "جوشاندن",
+                        "vi": "đun sôi"
+                      }
+                    },
+                    {
+                      "surface": "ing",
+                      "type": "suffix",
+                      "meaning": "ongoing action or resulting quality",
+                      "translations": {
+                        "zh-Hans": "正在进行的动作或形成的性质",
+                        "ja": "進行中の動作・生じた性質",
+                        "fa": "عمل در جریان یا صفت حاصل",
+                        "vi": "hành động đang diễn ra hoặc đặc tính tạo thành"
+                      }
+                    },
+                    {
+                      "surface": "hot",
+                      "type": "root",
+                      "meaning": "having a high temperature",
+                      "translations": {
+                        "zh-Hans": "热的",
+                        "ja": "熱い",
+                        "fa": "داغ",
+                        "vi": "nóng"
+                      }
+                    }
+                  ],
+                  "root": "boil",
+                  "meaning": "Extremely hot; hot enough to boil.",
+                  "example": "Then made the water boiling hot and dipped the razor in.",
+                  "context": "The barber heats the water so the blunt back of the razor will leave a painful mark.",
+                  "origin": "boil + -ing; hot completes the phrase.",
+                  "related": [
+                    "boil",
+                    "boiled",
+                    "boiling"
+                  ],
+                  "tier": 2,
+                  "translations": {
+                    "zh-Hans": "滚烫的",
+                    "ja": "沸騰するほど熱い",
+                    "fa": "جوشان و بسیار داغ",
+                    "vi": "nóng sôi; cực nóng"
+                  }
+                },
+                {
+                  "word": "his brow grew black",
+                  "parts": [],
+                  "root": "",
+                  "meaning": "His face became dark and threatening.",
+                  "example": "He raised his hand, his brow grew black, he paused awhile to gloat,",
+                  "context": "The phrase is figurative: the barber performs anger to make the fake attack convincing.",
+                  "origin": "An old descriptive idiom. Brow means the forehead and the area around the eyebrows.",
+                  "related": [
+                    "scowl",
+                    "dark expression",
+                    "threatening"
+                  ],
+                  "tier": 2,
+                  "translations": {
+                    "zh-Hans": "他脸色阴沉下来",
+                    "ja": "額の表情が険しくなった",
+                    "fa": "چهره‌اش تیره و تهدیدآمیز شد",
+                    "vi": "sắc mặt ông ta trở nên dữ tợn"
+                  }
+                },
+                {
+                  "word": "gloat",
+                  "parts": [],
+                  "root": "",
+                  "meaning": "Show pleasure at another person’s trouble or at your own expected success.",
+                  "example": "He raised his hand, his brow grew black, he paused awhile to gloat,",
+                  "context": "The barber pauses to enjoy the fear he expects to create.",
+                  "origin": "A single modern root; learn it as a whole word.",
+                  "related": [
+                    "gloat",
+                    "gloated",
+                    "gloating"
+                  ],
+                  "tier": 2,
+                  "translations": {
+                    "zh-Hans": "幸灾乐祸地得意",
+                    "ja": "他人の不幸を喜ぶ",
+                    "fa": "از گرفتاری دیگری با بدجنسی لذت بردن",
+                    "vi": "hả hê trước khó khăn của người khác"
+                  }
+                },
+                {
+                  "word": "razor-back",
+                  "parts": [
+                    {
+                      "surface": "razor",
+                      "type": "root",
+                      "meaning": "a sharp tool used for shaving",
+                      "translations": {
+                        "zh-Hans": "剃刀",
+                        "ja": "かみそり",
+                        "fa": "تیغ اصلاح",
+                        "vi": "dao cạo"
+                      }
+                    },
+                    {
+                      "surface": "back",
+                      "type": "root",
+                      "meaning": "the rear or blunt side",
+                      "translations": {
+                        "zh-Hans": "后部；钝面",
+                        "ja": "裏側；刃でない側",
+                        "fa": "پشت یا لبهٔ کند",
+                        "vi": "mặt sau; cạnh cùn"
+                      }
+                    }
+                  ],
+                  "root": "razor",
+                  "meaning": "The blunt back edge of a razor, not its sharp cutting edge.",
+                  "example": "Then slashed the red-hot razor-back across his victim’s throat;",
+                  "context": "The barber uses the heated back to make a mark without actually cutting the throat.",
+                  "origin": "A compound: razor + back.",
+                  "related": [
+                    "razor",
+                    "razor blade",
+                    "back edge"
+                  ],
+                  "tier": 2,
+                  "translations": {
+                    "zh-Hans": "剃刀的刀背",
+                    "ja": "かみそりの刃でない背の部分",
+                    "fa": "پشتِ کُندِ تیغ",
+                    "vi": "sống dao cạo (phần không sắc)"
+                  }
+                },
+                {
+                  "word": "victim",
+                  "parts": [],
+                  "root": "",
+                  "meaning": "A person harmed, attacked or deceived by someone or something.",
+                  "example": "Then slashed the red-hot razor-back across his victim’s throat;",
+                  "context": "The narrator briefly adopts the language of a real attack while describing the barber’s target.",
+                  "origin": "Borrowed through Latin and French; it has no useful modern English split.",
+                  "related": [
+                    "victim",
+                    "victimise",
+                    "victimisation"
+                  ],
+                  "tier": 2,
+                  "translations": {
+                    "zh-Hans": "受害者",
+                    "ja": "被害者",
+                    "fa": "قربانی",
+                    "vi": "nạn nhân"
+                  }
+                },
+                {
+                  "word": "livid",
+                  "parts": [],
+                  "root": "",
+                  "meaning": "Bluish-grey or dark purple, like a bruise.",
+                  "example": "Upon the newly shaven skin it made a livid mark —",
+                  "context": "Here livid describes the colour of the mark on the newly shaved skin. It does not mean extremely angry in this line.",
+                  "origin": "The colour meaning is older; the angry meaning developed later from the idea of a face changing colour.",
+                  "related": [
+                    "livid mark",
+                    "bruise",
+                    "livid with anger"
+                  ],
+                  "tier": 2,
+                  "translations": {
+                    "zh-Hans": "青紫色的（像淤青）",
+                    "ja": "青紫色の；あざのような",
+                    "fa": "کبود و مایل به بنفش",
+                    "vi": "tím tái; thâm như vết bầm"
+                  }
+                },
+                {
+                  "word": "took him in",
+                  "parts": [],
+                  "root": "",
+                  "meaning": "Deceived or fooled him.",
+                  "example": "No doubt it fairly took him in — the man from Ironbark.",
+                  "context": "The bushman believes the razor has really cut his throat.",
+                  "origin": "A phrasal verb. Took is the past of take, but the whole phrase has a special meaning.",
+                  "related": [
+                    "take in",
+                    "taken in",
+                    "deceive"
+                  ],
+                  "tier": 2,
+                  "translations": {
+                    "zh-Hans": "骗过了他",
+                    "ja": "彼をだました",
+                    "fa": "او را فریب داد",
+                    "vi": "đã lừa được ông ta"
+                  }
+                }
+              ],
+              "path": "elc/english/ironbark-stanza-4"
+            },
+            {
+              "id": "ironbark-stanza-5",
+              "name": "Stanza 5 · He believes the trick",
+              "interactive": true,
+              "words": [
+                {
+                  "word": "fetched a wild yell",
+                  "parts": [],
+                  "root": "",
+                  "meaning": "Let out or produced a loud, wild yell.",
+                  "example": "He fetched a wild up-country yell might wake the dead to hear,",
+                  "context": "Fetched does not mean went and brought here; it introduces the sound he suddenly makes.",
+                  "origin": "An older use of fetch meaning give, produce or draw out.",
+                  "related": [
+                    "let out a yell",
+                    "gave a cry",
+                    "shouted"
+                  ],
+                  "tier": 2,
+                  "translations": {
+                    "zh-Hans": "发出一声狂野的叫喊",
+                    "ja": "荒々しい叫び声を上げた",
+                    "fa": "فریادی وحشیانه سر داد",
+                    "vi": "thét lên một tiếng dữ dội"
+                  }
+                },
+                {
+                  "word": "up-country",
+                  "parts": [
+                    {
+                      "surface": "up",
+                      "type": "root",
+                      "meaning": "away from the main city; inland",
+                      "translations": {
+                        "zh-Hans": "远离大城市；内陆",
+                        "ja": "都市から離れた内陸へ",
+                        "fa": "دور از شهر اصلی؛ به داخل کشور",
+                        "vi": "xa thành phố chính; vào nội địa"
+                      }
+                    },
+                    {
+                      "surface": "country",
+                      "type": "root",
+                      "meaning": "rural land or region",
+                      "translations": {
+                        "zh-Hans": "乡村地区",
+                        "ja": "田舎；地方",
+                        "fa": "ناحیهٔ روستایی",
+                        "vi": "vùng nông thôn"
+                      }
+                    }
+                  ],
+                  "root": "up",
+                  "meaning": "From a rural or inland area, away from the main city.",
+                  "example": "He fetched a wild up-country yell might wake the dead to hear,",
+                  "context": "The description marks the yell—and the man—as coming from the bush.",
+                  "origin": "A compound expression: up + country. Here up is a free word in the compound, not a bound prefix.",
+                  "related": [
+                    "up-country",
+                    "inland",
+                    "the bush"
+                  ],
+                  "tier": 2,
+                  "translations": {
+                    "zh-Hans": "内陆乡下的",
+                    "ja": "奥地・田舎の",
+                    "fa": "مربوط به نواحی دورافتاده و روستایی",
+                    "vi": "thuộc vùng quê/nội địa"
+                  }
+                },
+                {
+                  "word": "full well",
+                  "parts": [],
+                  "root": "",
+                  "meaning": "Very well; with complete certainty.",
+                  "example": "And though his throat, he knew full well, was cut from ear to ear,",
+                  "context": "He is completely sure—although wrongly—that his throat has been cut.",
+                  "origin": "An old fixed intensifying expression.",
+                  "related": [
+                    "perfectly well",
+                    "fully aware",
+                    "certain"
+                  ],
+                  "tier": 2,
+                  "translations": {
+                    "zh-Hans": "非常清楚；完全知道",
+                    "ja": "十分によく；確かに",
+                    "fa": "کاملاً و به‌خوبی",
+                    "vi": "rất rõ; hoàn toàn chắc chắn"
+                  }
+                },
+                {
+                  "word": "gamely",
+                  "parts": [
+                    {
+                      "surface": "game",
+                      "type": "root",
+                      "meaning": "brave; willing to keep trying",
+                      "translations": {
+                        "zh-Hans": "勇敢；愿意坚持",
+                        "ja": "勇敢でやり抜く気のある",
+                        "fa": "شجاع و آمادهٔ ادامه دادن",
+                        "vi": "gan dạ; sẵn sàng cố gắng"
+                      }
+                    },
+                    {
+                      "surface": "ly",
+                      "type": "suffix",
+                      "meaning": "in this manner",
+                      "translations": {
+                        "zh-Hans": "以这种方式",
+                        "ja": "〜のように",
+                        "fa": "به این شیوه",
+                        "vi": "theo cách này"
+                      }
+                    }
+                  ],
+                  "root": "game",
+                  "meaning": "Bravely and with determination, especially while hurt or losing.",
+                  "example": "He struggled gamely to his feet, and faced the murd’rous foe:",
+                  "context": "He stands up to face the barber even though he thinks he is dying.",
+                  "origin": "game (brave and spirited) + -ly (in that manner).",
+                  "related": [
+                    "game",
+                    "gamely",
+                    "game effort"
+                  ],
+                  "tier": 2,
+                  "translations": {
+                    "zh-Hans": "勇敢顽强地",
+                    "ja": "勇敢に；くじけずに",
+                    "fa": "شجاعانه و با سماجت",
+                    "vi": "gan dạ và kiên cường"
+                  }
+                },
+                {
+                  "word": "murd’rous (murderous)",
+                  "parts": [
+                    {
+                      "surface": "murder",
+                      "type": "root",
+                      "meaning": "unlawfully kill a person",
+                      "translations": {
+                        "zh-Hans": "谋杀",
+                        "ja": "人を殺す",
+                        "fa": "قتل کردن",
+                        "vi": "giết người"
+                      }
+                    },
+                    {
+                      "surface": "ous",
+                      "type": "suffix",
+                      "meaning": "full of; having the quality of",
+                      "translations": {
+                        "zh-Hans": "充满；具有……性质",
+                        "ja": "〜に満ちた；〜の性質の",
+                        "fa": "سرشار از؛ دارای ویژگی",
+                        "vi": "đầy; có đặc tính"
+                      }
+                    }
+                  ],
+                  "root": "murder",
+                  "meaning": "Intending or seeming ready to kill.",
+                  "example": "He struggled gamely to his feet, and faced the murd’rous foe:",
+                  "context": "The apostrophe compresses murderous to keep the beat of the line.",
+                  "origin": "murder + -ous (having the quality of).",
+                  "related": [
+                    "murder",
+                    "murderer",
+                    "murderous",
+                    "murderously"
+                  ],
+                  "tier": 2,
+                  "translations": {
+                    "zh-Hans": "杀气腾腾的；凶残的",
+                    "ja": "殺意のある；残忍な",
+                    "fa": "آدم‌کشانه؛ مرگبار",
+                    "vi": "có ý giết người; đầy sát khí"
+                  }
+                },
+                {
+                  "word": "done for me",
+                  "parts": [],
+                  "root": "",
+                  "meaning": "Killed or ruined me; made it impossible for me to survive.",
+                  "example": "‘You’ve done for me! you dog, I’m beat! one hit before I go!",
+                  "context": "He believes the barber’s trick has fatally wounded him.",
+                  "origin": "An informal idiom: be done for means be defeated, ruined or near death.",
+                  "related": [
+                    "done for",
+                    "finished",
+                    "ruined"
+                  ],
+                  "tier": 2,
+                  "translations": {
+                    "zh-Hans": "把我害死了；我完了",
+                    "ja": "俺を殺した；もうだめだ",
+                    "fa": "کارم را ساختی؛ مرا کشتی",
+                    "vi": "mày làm tao chết rồi; tao tiêu rồi"
+                  }
+                },
+                {
+                  "word": "blessed",
+                  "parts": [
+                    {
+                      "surface": "bless",
+                      "type": "root",
+                      "meaning": "declare holy; wish good for",
+                      "translations": {
+                        "zh-Hans": "祝福；祈福",
+                        "ja": "祝福する",
+                        "fa": "متبرک کردن؛ آرزوی خیر",
+                        "vi": "ban phước; chúc lành"
+                      }
+                    },
+                    {
+                      "surface": "ed",
+                      "type": "suffix",
+                      "meaning": "described as",
+                      "translations": {
+                        "zh-Hans": "被描述为……；处于……状态",
+                        "ja": "〜とされる；〜の状態",
+                        "fa": "وصف‌شده به؛ در حالت",
+                        "vi": "được mô tả là"
+                      }
+                    }
+                  ],
+                  "root": "bless",
+                  "meaning": "A mild old intensifier used to strengthen annoyance.",
+                  "example": "I only wish I had a knife, you blessed murdering shark!",
+                  "context": "He does not literally mean holy or fortunate; the word intensifies his insult.",
+                  "origin": "bless + -ed, but the phrase uses a special colloquial meaning.",
+                  "related": [
+                    "bless",
+                    "blessed",
+                    "blessing"
+                  ],
+                  "tier": 2,
+                  "translations": {
+                    "zh-Hans": "该死的；真是的（委婉加强语）",
+                    "ja": "この；まったく（古い強調語）",
+                    "fa": "لعنتی (تأکید ملایم قدیمی)",
+                    "vi": "đáng ghét; thật là (từ nhấn mạnh kiểu cũ)"
+                  }
+                },
+                {
+                  "word": "shark",
+                  "parts": [],
+                  "root": "",
+                  "meaning": "A ruthless or dishonest person.",
+                  "example": "I only wish I had a knife, you blessed murdering shark!",
+                  "context": "He compares the barber to a dangerous predator; he does not mean the sea animal literally.",
+                  "origin": "A metaphorical extension from the predatory fish.",
+                  "related": [
+                    "loan shark",
+                    "card shark",
+                    "predator"
+                  ],
+                  "tier": 2,
+                  "translations": {
+                    "zh-Hans": "狠毒的人；恶棍",
+                    "ja": "冷酷な悪党",
+                    "fa": "آدم بی‌رحم و درنده‌خو",
+                    "vi": "kẻ tàn nhẫn; đồ đểu"
+                  }
+                }
+              ],
+              "path": "elc/english/ironbark-stanza-5"
+            },
+            {
+              "id": "ironbark-stanza-6",
+              "name": "Stanza 6 · The fight",
+              "interactive": true,
+              "words": [
+                {
+                  "word": "hairy paw",
+                  "parts": [
+                    {
+                      "surface": "hair",
+                      "type": "root",
+                      "meaning": "strands growing from skin",
+                      "translations": {
+                        "zh-Hans": "毛发",
+                        "ja": "毛",
+                        "fa": "مو",
+                        "vi": "lông; tóc"
+                      }
+                    },
+                    {
+                      "surface": "y",
+                      "type": "suffix",
+                      "meaning": "full of; having",
+                      "translations": {
+                        "zh-Hans": "充满；具有",
+                        "ja": "〜の多い；〜を持つ",
+                        "fa": "پر از؛ دارای",
+                        "vi": "đầy; có"
+                      }
+                    },
+                    {
+                      "surface": "paw",
+                      "type": "root",
+                      "meaning": "an animal’s foot; here, a rough hand",
+                      "translations": {
+                        "zh-Hans": "动物的爪；此处指粗大的手",
+                        "ja": "動物の足；ここではごつい手",
+                        "fa": "پنجهٔ حیوان؛ اینجا دست زمخت",
+                        "vi": "chân thú; ở đây là bàn tay thô"
+                      }
+                    }
+                  ],
+                  "root": "hair",
+                  "meaning": "A comic, animal-like description of the bushman’s large hairy hand.",
+                  "example": "He lifted up his hairy paw, with one tremendous clout,",
+                  "context": "The narrator exaggerates his rough physical power before the punch.",
+                  "origin": "A descriptive compound phrase: hairy + paw.",
+                  "related": [
+                    "hair",
+                    "hairy",
+                    "paw"
+                  ],
+                  "tier": 2,
+                  "translations": {
+                    "zh-Hans": "毛茸茸的大手（像爪子）",
+                    "ja": "毛むくじゃらの大きな手（前足のような）",
+                    "fa": "دست پشمالو و پنجه‌مانند",
+                    "vi": "bàn tay đầy lông như một cái vuốt"
+                  }
+                },
+                {
+                  "word": "tremendous",
+                  "parts": [
+                    {
+                      "surface": "tremend",
+                      "type": "root",
+                      "meaning": "cause awe or trembling; very great",
+                      "translations": {
+                        "zh-Hans": "引起敬畏或颤抖；极大的",
+                        "ja": "畏れを起こす；非常に大きい",
+                        "fa": "هراس‌انگیز یا بسیار بزرگ",
+                        "vi": "gây kinh sợ; rất lớn"
+                      }
+                    },
+                    {
+                      "surface": "ous",
+                      "type": "suffix",
+                      "meaning": "full of; having the quality of",
+                      "translations": {
+                        "zh-Hans": "充满；具有……性质",
+                        "ja": "〜に満ちた；〜の性質の",
+                        "fa": "سرشار از؛ دارای ویژگی",
+                        "vi": "đầy; có đặc tính"
+                      }
+                    }
+                  ],
+                  "root": "tremend",
+                  "meaning": "Extremely large, powerful or great.",
+                  "example": "He lifted up his hairy paw, with one tremendous clout,",
+                  "context": "The adjective enlarges the force of the single punch.",
+                  "origin": "tremend + -ous; historically linked to a Latin word for trembling.",
+                  "related": [
+                    "tremendous",
+                    "tremendously"
+                  ],
+                  "tier": 2,
+                  "translations": {
+                    "zh-Hans": "巨大的；威力惊人的",
+                    "ja": "ものすごい；非常に大きな",
+                    "fa": "بسیار بزرگ و نیرومند",
+                    "vi": "cực lớn; mạnh khủng khiếp"
+                  }
+                },
+                {
+                  "word": "clout",
+                  "parts": [],
+                  "root": "",
+                  "meaning": "A hard hit with the hand or fist.",
+                  "example": "He lifted up his hairy paw, with one tremendous clout,",
+                  "context": "One clout knocks the barber unconscious.",
+                  "origin": "An old informal word; learn it as a whole root.",
+                  "related": [
+                    "clout",
+                    "hit",
+                    "blow"
+                  ],
+                  "tier": 2,
+                  "translations": {
+                    "zh-Hans": "重重一击",
+                    "ja": "強烈な一撃",
+                    "fa": "ضربهٔ محکم",
+                    "vi": "một cú đánh mạnh"
+                  }
+                },
+                {
+                  "word": "set to work",
+                  "parts": [],
+                  "root": "",
+                  "meaning": "Began doing something energetically and seriously.",
+                  "example": "He set to work with tooth and nail, he made the place a wreck;",
+                  "context": "He immediately starts wrecking the shop and attacking the onlookers.",
+                  "origin": "A fixed verb phrase; learn it as a whole.",
+                  "related": [
+                    "get to work",
+                    "set about",
+                    "begin"
+                  ],
+                  "tier": 2,
+                  "translations": {
+                    "zh-Hans": "立即动手；卖力干起来",
+                    "ja": "勢いよく取りかかった",
+                    "fa": "با جدیت شروع به کار کرد",
+                    "vi": "bắt tay vào làm một cách quyết liệt"
+                  }
+                },
+                {
+                  "word": "tooth and nail",
+                  "parts": [],
+                  "root": "",
+                  "meaning": "With every possible effort; fiercely.",
+                  "example": "He set to work with tooth and nail, he made the place a wreck;",
+                  "context": "The idiom makes the fight sound animal-like and uncontrolled.",
+                  "origin": "An old idiom imagining fighting with both teeth and fingernails.",
+                  "related": [
+                    "fight tooth and nail",
+                    "fiercely",
+                    "with all one’s strength"
+                  ],
+                  "tier": 2,
+                  "translations": {
+                    "zh-Hans": "拼命地；使尽全力地",
+                    "ja": "必死に；あらゆる手段で",
+                    "fa": "با تمام توان و به‌شدت",
+                    "vi": "quyết liệt; bằng mọi sức lực"
+                  }
+                },
+                {
+                  "word": "wreck",
+                  "parts": [],
+                  "root": "",
+                  "meaning": "A badly damaged or destroyed place or thing.",
+                  "example": "He set to work with tooth and nail, he made the place a wreck;",
+                  "context": "The shop becomes a wreck after the fight.",
+                  "origin": "A single root that can be a noun or a verb.",
+                  "related": [
+                    "wreck",
+                    "wrecked",
+                    "wreckage"
+                  ],
+                  "tier": 2,
+                  "translations": {
+                    "zh-Hans": "被严重破坏的地方；废墟",
+                    "ja": "めちゃくちゃに壊れた状態",
+                    "fa": "ویرانه؛ چیز به‌شدت خراب",
+                    "vi": "đống đổ nát; nơi bị phá tan"
+                  }
+                },
+                {
+                  "word": "gilded",
+                  "parts": [
+                    {
+                      "surface": "gild",
+                      "type": "root",
+                      "meaning": "cover with a thin layer of gold",
+                      "translations": {
+                        "zh-Hans": "镀金",
+                        "ja": "金を薄くかぶせる",
+                        "fa": "زراندود کردن",
+                        "vi": "mạ vàng"
+                      }
+                    },
+                    {
+                      "surface": "ed",
+                      "type": "suffix",
+                      "meaning": "having been; described as",
+                      "translations": {
+                        "zh-Hans": "被……的；处于……状态",
+                        "ja": "〜された；〜の状態の",
+                        "fa": "شده؛ دارای وصف",
+                        "vi": "đã được; mang đặc điểm"
+                      }
+                    }
+                  ],
+                  "root": "gild",
+                  "meaning": "Covered with a thin layer of gold; figuratively, rich-looking or showy.",
+                  "example": "He grabbed the nearest gilded youth, and tried to break his neck.",
+                  "context": "The nearest gilded youth is one of the fashionable onlookers who encouraged the joke; now he is pulled into the fight.",
+                  "origin": "gild + -ed.",
+                  "related": [
+                    "gild",
+                    "gilded",
+                    "gilding"
+                  ],
+                  "tier": 2,
+                  "translations": {
+                    "zh-Hans": "镀金的；表面华丽的",
+                    "ja": "金めっきの；うわべだけ華やかな",
+                    "fa": "زراندود؛ ظاهراً پرزرق‌وبرق",
+                    "vi": "mạ vàng; hào nhoáng bề ngoài"
+                  }
+                },
+                {
+                  "word": "vital spark",
+                  "parts": [],
+                  "root": "",
+                  "meaning": "The life force that keeps a person alive.",
+                  "example": "And all the while his throat he held to save his vital spark,",
+                  "context": "He holds his throat because he thinks he must stop his life from escaping.",
+                  "origin": "A figurative phrase: vital means connected with life; spark suggests a tiny flame of life.",
+                  "related": [
+                    "vital",
+                    "vitality",
+                    "life force"
+                  ],
+                  "tier": 2,
+                  "translations": {
+                    "zh-Hans": "生命之火；生命力",
+                    "ja": "命の火；生命力",
+                    "fa": "جرقهٔ حیات؛ نیروی زندگی",
+                    "vi": "tia lửa sự sống; sinh lực"
+                  }
+                }
+              ],
+              "path": "elc/english/ironbark-stanza-6"
+            },
+            {
+              "id": "ironbark-stanza-7",
+              "name": "Stanza 7 · The explanation",
+              "interactive": true,
+              "words": [
+                {
+                  "word": "peeler",
+                  "parts": [
+                    {
+                      "surface": "Peel",
+                      "type": "root",
+                      "meaning": "the surname of Robert Peel",
+                      "translations": {
+                        "zh-Hans": "罗伯特·皮尔的姓氏",
+                        "ja": "ロバート・ピールの姓",
+                        "fa": "نام خانوادگی رابرت پیل",
+                        "vi": "họ của Robert Peel"
+                      }
+                    },
+                    {
+                      "surface": "er",
+                      "type": "suffix",
+                      "meaning": "a person connected with",
+                      "translations": {
+                        "zh-Hans": "与某事有关的人",
+                        "ja": "〜に関係する人",
+                        "fa": "فرد مرتبط با",
+                        "vi": "người liên quan đến"
+                      }
+                    }
+                  ],
+                  "root": "Peel",
+                  "meaning": "An old slang word for a police officer.",
+                  "example": "A peeler man who heard the din came in to see the show;",
+                  "context": "The peeler hears the noise and enters to arrest the bushman.",
+                  "origin": "Named after Sir Robert Peel, associated with the creation of modern British policing: Peel + -er.",
+                  "related": [
+                    "peeler",
+                    "bobby",
+                    "police officer"
+                  ],
+                  "tier": 2,
+                  "translations": {
+                    "zh-Hans": "警察（旧俚语）",
+                    "ja": "警官（古い俗語）",
+                    "fa": "پلیس (اصطلاح قدیمی)",
+                    "vi": "cảnh sát (tiếng lóng cũ)"
+                  }
+                },
+                {
+                  "word": "din",
+                  "parts": [],
+                  "root": "",
+                  "meaning": "A loud, unpleasant and continuing noise.",
+                  "example": "A peeler man who heard the din came in to see the show;",
+                  "context": "The shouting, smashing and fighting make enough noise to attract a police officer.",
+                  "origin": "An old single-root word; learn it as a whole.",
+                  "related": [
+                    "din",
+                    "racket",
+                    "uproar"
+                  ],
+                  "tier": 2,
+                  "translations": {
+                    "zh-Hans": "喧闹声；嘈杂声",
+                    "ja": "騒音；どんちゃん騒ぎ",
+                    "fa": "سروصدای بلند و آزاردهنده",
+                    "vi": "tiếng ồn inh tai"
+                  }
+                },
+                {
+                  "word": "run someone in",
+                  "parts": [],
+                  "root": "",
+                  "meaning": "Arrest someone and take them to a police station.",
+                  "example": "He tried to run the bushman in, but he refused to go.",
+                  "context": "The officer tries to arrest the bushman after seeing the damaged shop.",
+                  "origin": "An old informal phrasal verb; it cannot be understood by adding the usual meanings of run and in.",
+                  "related": [
+                    "arrest",
+                    "take into custody",
+                    "run-in"
+                  ],
+                  "tier": 2,
+                  "translations": {
+                    "zh-Hans": "逮捕某人；把某人带到警局",
+                    "ja": "人を逮捕して連行する",
+                    "fa": "کسی را بازداشت کردن",
+                    "vi": "bắt và giải ai về đồn"
+                  }
+                },
+                {
+                  "word": "harmless",
+                  "parts": [
+                    {
+                      "surface": "harm",
+                      "type": "root",
+                      "meaning": "hurt or damage",
+                      "translations": {
+                        "zh-Hans": "伤害；损害",
+                        "ja": "害；傷つける",
+                        "fa": "آسیب",
+                        "vi": "tổn hại"
+                      }
+                    },
+                    {
+                      "surface": "less",
+                      "type": "suffix",
+                      "meaning": "without",
+                      "translations": {
+                        "zh-Hans": "没有；不含",
+                        "ja": "〜がない",
+                        "fa": "بدون",
+                        "vi": "không có"
+                      }
+                    }
+                  ],
+                  "root": "harm",
+                  "meaning": "Not able or likely to cause harm.",
+                  "example": "’Twas just a little harmless joke, a trifle overdone.’",
+                  "context": "The barber calls the joke harmless, although it caused fear, injury and damage.",
+                  "origin": "harm + -less (without).",
+                  "related": [
+                    "harm",
+                    "harmful",
+                    "harmless",
+                    "harmlessly"
+                  ],
+                  "tier": 2,
+                  "translations": {
+                    "zh-Hans": "无害的",
+                    "ja": "害のない",
+                    "fa": "بی‌ضرر",
+                    "vi": "vô hại"
+                  }
+                },
+                {
+                  "word": "trifle",
+                  "parts": [],
+                  "root": "",
+                  "meaning": "A small or unimportant amount or thing.",
+                  "example": "’Twas just a little harmless joke, a trifle overdone.’",
+                  "context": "Calling the joke a trifle minimises how far it went.",
+                  "origin": "A single borrowed word; learn it as a whole in this meaning.",
+                  "related": [
+                    "a little",
+                    "minor matter",
+                    "trivial"
+                  ],
+                  "tier": 2,
+                  "translations": {
+                    "zh-Hans": "一点点；小事",
+                    "ja": "ほんの少し；ささいなこと",
+                    "fa": "مقدار ناچیز؛ چیز کم‌اهمیت",
+                    "vi": "một chút; chuyện nhỏ"
+                  }
+                },
+                {
+                  "word": "overdone",
+                  "parts": [
+                    {
+                      "surface": "over",
+                      "type": "prefix",
+                      "meaning": "too much; beyond a limit",
+                      "translations": {
+                        "zh-Hans": "过度；超过限度",
+                        "ja": "過度に；限度を越えて",
+                        "fa": "بیش از حد",
+                        "vi": "quá mức"
+                      }
+                    },
+                    {
+                      "surface": "done",
+                      "type": "root",
+                      "meaning": "completed; carried out",
+                      "translations": {
+                        "zh-Hans": "完成；做完",
+                        "ja": "完了した；行われた",
+                        "fa": "انجام‌شده",
+                        "vi": "đã làm xong"
+                      }
+                    }
+                  ],
+                  "root": "done",
+                  "meaning": "Taken too far; done more than was sensible or acceptable.",
+                  "example": "’Twas just a little harmless joke, a trifle overdone.’",
+                  "context": "The barber admits that the joke exceeded a safe limit.",
+                  "origin": "over- (too much) + done (past form of do).",
+                  "related": [
+                    "overdo",
+                    "overdoes",
+                    "overdid",
+                    "overdone"
+                  ],
+                  "tier": 2,
+                  "translations": {
+                    "zh-Hans": "做过头的；过分的",
+                    "ja": "やり過ぎた",
+                    "fa": "زیاده‌روی‌شده؛ بیش از حد",
+                    "vi": "bị làm quá mức; quá đà"
+                  }
+                },
+                {
+                  "word": "By George!",
+                  "parts": [],
+                  "root": "",
+                  "meaning": "An old mild exclamation showing surprise or strong feeling.",
+                  "example": "‘A joke!’ he cried, ‘By George, that’s fine; a lively sort of lark;",
+                  "context": "The bushman’s reply sounds approving at first, but the next line reveals his anger.",
+                  "origin": "A euphemistic exclamation; learn it as a whole phrase.",
+                  "related": [
+                    "goodness!",
+                    "good grief!",
+                    "by golly!"
+                  ],
+                  "tier": 2,
+                  "translations": {
+                    "zh-Hans": "天哪！（旧式感叹语）",
+                    "ja": "なんとまあ！（古い感嘆表現）",
+                    "fa": "عجب! به‌به! (تعجب قدیمی)",
+                    "vi": "trời đất ơi! (thán từ kiểu cũ)"
+                  }
+                },
+                {
+                  "word": "lark",
+                  "parts": [],
+                  "root": "",
+                  "meaning": "A prank, joke or playful adventure.",
+                  "example": "‘A joke!’ he cried, ‘By George, that’s fine; a lively sort of lark;",
+                  "context": "The visitor repeats the word lark sarcastically: he clearly does not accept that the frightening trick was harmless fun.",
+                  "origin": "Old slang. This is different from lark, the bird.",
+                  "related": [
+                    "prank",
+                    "mischief",
+                    "practical joke"
+                  ],
+                  "tier": 2,
+                  "translations": {
+                    "zh-Hans": "恶作剧；玩笑",
+                    "ja": "いたずら；悪ふざけ",
+                    "fa": "شوخی یا شیطنت",
+                    "vi": "trò đùa nghịch; trò tinh quái"
+                  }
+                },
+                {
+                  "word": "murdering",
+                  "parts": [
+                    {
+                      "surface": "murder",
+                      "type": "root",
+                      "meaning": "unlawfully kill a person",
+                      "translations": {
+                        "zh-Hans": "谋杀",
+                        "ja": "人を殺す",
+                        "fa": "قتل کردن",
+                        "vi": "giết người"
+                      }
+                    },
+                    {
+                      "surface": "ing",
+                      "type": "suffix",
+                      "meaning": "doing; characterised by",
+                      "translations": {
+                        "zh-Hans": "正在做；以……为特征",
+                        "ja": "〜している；〜が特徴の",
+                        "fa": "در حال انجام؛ دارای ویژگی",
+                        "vi": "đang làm; mang đặc điểm"
+                      }
+                    }
+                  ],
+                  "root": "murder",
+                  "meaning": "Murderous; behaving like a person who kills.",
+                  "example": "I’d like to catch that murdering swine some night in Ironbark.’",
+                  "context": "The bushman uses it as an angry adjective before swine.",
+                  "origin": "murder + -ing.",
+                  "related": [
+                    "murder",
+                    "murderer",
+                    "murdering",
+                    "murderous"
+                  ],
+                  "tier": 2,
+                  "translations": {
+                    "zh-Hans": "杀人的；凶残的",
+                    "ja": "人殺しの；殺そうとする",
+                    "fa": "آدم‌کش؛ در حال کشتن",
+                    "vi": "giết người; sát nhân"
                   }
                 },
                 {
                   "word": "swine",
                   "parts": [],
                   "root": "",
-                  "meaning": "",
-                  "example": "",
+                  "meaning": "A pig; also an insulting word for a cruel or unpleasant person.",
+                  "example": "I’d like to catch that murdering swine some night in Ironbark.’",
+                  "context": "The bushman calls the barber a pig-like villain.",
+                  "origin": "An old Germanic word. The plural can also be swine.",
+                  "related": [
+                    "pig",
+                    "boar",
+                    "insult"
+                  ],
                   "tier": 2,
                   "translations": {
-                    "ja": "豚",
-                    "zh-Hans": "猪"
+                    "zh-Hans": "猪；卑鄙的人（侮辱语）",
+                    "ja": "豚；卑劣な人（侮辱語）",
+                    "fa": "خوک؛ آدم پست (توهین)",
+                    "vi": "lợn; đồ đê tiện (lời xúc phạm)"
+                  }
+                }
+              ],
+              "path": "elc/english/ironbark-stanza-7"
+            },
+            {
+              "id": "ironbark-stanza-8",
+              "name": "Stanza 8 · The story returns home",
+              "interactive": true,
+              "words": [
+                {
+                  "word": "shearing floor",
+                  "parts": [
+                    {
+                      "surface": "shear",
+                      "type": "root",
+                      "meaning": "cut wool from a sheep",
+                      "translations": {
+                        "zh-Hans": "剪羊毛",
+                        "ja": "羊毛を刈る",
+                        "fa": "پشم چیدن",
+                        "vi": "xén lông cừu"
+                      }
+                    },
+                    {
+                      "surface": "ing",
+                      "type": "suffix",
+                      "meaning": "the activity of",
+                      "translations": {
+                        "zh-Hans": "……活动；……行为",
+                        "ja": "〜する活動",
+                        "fa": "عملِ",
+                        "vi": "hoạt động"
+                      }
+                    },
+                    {
+                      "surface": "floor",
+                      "type": "root",
+                      "meaning": "the work surface of a room",
+                      "translations": {
+                        "zh-Hans": "房间或作业区的地面",
+                        "ja": "部屋の作業床",
+                        "fa": "سطح کارِ اتاق",
+                        "vi": "sàn làm việc"
+                      }
+                    }
+                  ],
+                  "root": "shear",
+                  "meaning": "The work area in a shearing shed where wool is cut from sheep.",
+                  "example": "And now while round the shearing floor the list’ning shearers gape,",
+                  "context": "Back home, the man tells his story to workers gathered around the shearing area.",
+                  "origin": "A compound phrase: shear + -ing + floor.",
+                  "related": [
+                    "shear",
+                    "shearing",
+                    "shearing shed"
+                  ],
+                  "tier": 2,
+                  "translations": {
+                    "zh-Hans": "剪羊毛棚的工作地面",
+                    "ja": "羊毛刈り小屋の作業場",
+                    "fa": "محوطهٔ کارِ پشم‌چینی",
+                    "vi": "sàn làm việc trong nhà xén lông cừu"
                   }
                 },
                 {
-                  "word": "throat",
-                  "parts": [],
-                  "root": "",
-                  "meaning": "",
-                  "example": "",
+                  "word": "list’ning (listening)",
+                  "parts": [
+                    {
+                      "surface": "listen",
+                      "type": "root",
+                      "meaning": "pay attention to sound",
+                      "translations": {
+                        "zh-Hans": "听；留心声音",
+                        "ja": "耳を傾ける",
+                        "fa": "گوش دادن",
+                        "vi": "lắng nghe"
+                      }
+                    },
+                    {
+                      "surface": "ing",
+                      "type": "suffix",
+                      "meaning": "ongoing action",
+                      "translations": {
+                        "zh-Hans": "正在进行的动作",
+                        "ja": "進行中の動作",
+                        "fa": "عمل در حال انجام",
+                        "vi": "hành động đang diễn ra"
+                      }
+                    }
+                  ],
+                  "root": "listen",
+                  "meaning": "Paying attention to sound or to someone speaking.",
+                  "example": "And now while round the shearing floor the list’ning shearers gape,",
+                  "context": "The apostrophe removes a syllable in print so the word fits the performed rhythm.",
+                  "origin": "listen + -ing. The poem writes list’ning to show the compressed pronunciation.",
+                  "related": [
+                    "listen",
+                    "listens",
+                    "listening",
+                    "listener"
+                  ],
                   "tier": 2,
                   "translations": {
-                    "zh-Hans": "咽喉"
+                    "zh-Hans": "正在听的",
+                    "ja": "聞いている",
+                    "fa": "در حال گوش دادن",
+                    "vi": "đang lắng nghe"
                   }
                 },
                 {
                   "word": "shearers",
-                  "parts": [],
-                  "root": "",
-                  "meaning": "",
-                  "example": "",
+                  "parts": [
+                    {
+                      "surface": "shear",
+                      "type": "root",
+                      "meaning": "cut wool from a sheep",
+                      "translations": {
+                        "zh-Hans": "剪羊毛",
+                        "ja": "羊毛を刈る",
+                        "fa": "پشم چیدن",
+                        "vi": "xén lông cừu"
+                      }
+                    },
+                    {
+                      "surface": "er",
+                      "type": "suffix",
+                      "meaning": "a person who does an action",
+                      "translations": {
+                        "zh-Hans": "做某事的人",
+                        "ja": "〜する人",
+                        "fa": "کسی که کاری انجام می‌دهد",
+                        "vi": "người thực hiện hành động"
+                      }
+                    },
+                    {
+                      "surface": "s",
+                      "type": "suffix",
+                      "meaning": "more than one",
+                      "translations": {
+                        "zh-Hans": "复数；不止一个",
+                        "ja": "複数",
+                        "fa": "نشانهٔ جمع",
+                        "vi": "số nhiều"
+                      }
+                    }
+                  ],
+                  "root": "shear",
+                  "meaning": "Workers who cut wool from sheep.",
+                  "example": "And now while round the shearing floor the list’ning shearers gape,",
+                  "context": "They form the country audience for the man’s repeated story.",
+                  "origin": "shear + -er (person who) + -s (plural).",
+                  "related": [
+                    "shear",
+                    "shearing",
+                    "shearer",
+                    "shearers"
+                  ],
                   "tier": 2,
                   "translations": {
-                    "zh-Hans": "剪毛工"
+                    "zh-Hans": "剪羊毛工人",
+                    "ja": "羊毛刈り職人たち",
+                    "fa": "کارگران پشم‌چین",
+                    "vi": "những người xén lông cừu"
+                  }
+                },
+                {
+                  "word": "gape",
+                  "parts": [],
+                  "root": "",
+                  "meaning": "Stare with the mouth open in surprise.",
+                  "example": "And now while round the shearing floor the list’ning shearers gape,",
+                  "context": "The shearers listen in amazement as he tells the dramatic story.",
+                  "origin": "A single root; compare a gaping opening.",
+                  "related": [
+                    "gape",
+                    "gaped",
+                    "gaping"
+                  ],
+                  "tier": 2,
+                  "translations": {
+                    "zh-Hans": "目瞪口呆地看",
+                    "ja": "口を開けて見つめる",
+                    "fa": "با دهان باز خیره شدن",
+                    "vi": "há hốc miệng nhìn"
+                  }
+                },
+                {
+                  "word": "o’er and o’er",
+                  "parts": [],
+                  "root": "",
+                  "meaning": "Over and over; repeatedly.",
+                  "example": "He tells the story o’er and o’er, and brags of his escape.",
+                  "context": "The shortened o’er keeps the rhythm and shows an older poetic spelling.",
+                  "origin": "O’er is an elided form of over: a sound is omitted and marked by an apostrophe.",
+                  "related": [
+                    "over and over",
+                    "again and again",
+                    "repeatedly"
+                  ],
+                  "tier": 2,
+                  "translations": {
+                    "zh-Hans": "一遍又一遍",
+                    "ja": "何度も何度も",
+                    "fa": "بارها و بارها",
+                    "vi": "hết lần này đến lần khác"
+                  }
+                },
+                {
+                  "word": "brags",
+                  "parts": [
+                    {
+                      "surface": "brag",
+                      "type": "root",
+                      "meaning": "speak too proudly",
+                      "translations": {
+                        "zh-Hans": "吹嘘；夸耀",
+                        "ja": "自慢しすぎる",
+                        "fa": "لاف زدن",
+                        "vi": "khoe khoang"
+                      }
+                    },
+                    {
+                      "surface": "s",
+                      "type": "suffix",
+                      "meaning": "present tense with he/she/it",
+                      "translations": {
+                        "zh-Hans": "第三人称单数现在时",
+                        "ja": "三人称単数現在",
+                        "fa": "نشانهٔ سوم‌شخص مفرد حال",
+                        "vi": "dấu hiện tại ngôi thứ ba số ít"
+                      }
+                    }
+                  ],
+                  "root": "brag",
+                  "meaning": "Talks with too much pride about an achievement.",
+                  "example": "He tells the story o’er and o’er, and brags of his escape.",
+                  "context": "He makes his escape sound heroic when he retells it at home.",
+                  "origin": "brag + -s (present tense with he).",
+                  "related": [
+                    "brag",
+                    "brags",
+                    "bragged",
+                    "bragging"
+                  ],
+                  "tier": 2,
+                  "translations": {
+                    "zh-Hans": "吹嘘；自夸",
+                    "ja": "自慢する",
+                    "fa": "لاف می‌زند؛ پز می‌دهد",
+                    "vi": "khoe khoang; khoác lác"
+                  }
+                },
+                {
+                  "word": "escape",
+                  "parts": [],
+                  "root": "",
+                  "meaning": "Getting free from danger, control or capture.",
+                  "example": "He tells the story o’er and o’er, and brags of his escape.",
+                  "context": "He presents leaving the barber shop alive as a great escape.",
+                  "origin": "Borrowed through French; it has no useful modern English morpheme split here.",
+                  "related": [
+                    "escape",
+                    "escaped",
+                    "escaping",
+                    "escapee"
+                  ],
+                  "tier": 2,
+                  "translations": {
+                    "zh-Hans": "逃脱；脱险",
+                    "ja": "脱出；逃走",
+                    "fa": "فرار؛ رهایی از خطر",
+                    "vi": "sự thoát thân; trốn thoát"
+                  }
+                },
+                {
+                  "word": "chaps",
+                  "parts": [],
+                  "root": "",
+                  "meaning": "Men or fellows; an old informal plural.",
+                  "example": "‘Them barber chaps what keeps a tote, By George, I’ve had enough,",
+                  "context": "Them barber chaps means those barber fellows.",
+                  "origin": "Old informal British English; learn it as a whole word in this meaning.",
+                  "related": [
+                    "chap",
+                    "chaps",
+                    "fellows"
+                  ],
+                  "tier": 2,
+                  "translations": {
+                    "zh-Hans": "那些家伙；男人们（旧口语）",
+                    "ja": "男たち；連中（古い口語）",
+                    "fa": "مردها؛ آن یاروها (قدیمی)",
+                    "vi": "mấy gã; những người đàn ông (khẩu ngữ cũ)"
+                  }
+                },
+                {
+                  "word": "tote",
+                  "parts": [],
+                  "root": "",
+                  "meaning": "A totalisator: a system that pools bets and calculates the payout.",
+                  "example": "‘Them barber chaps what keeps a tote, By George, I’ve had enough,",
+                  "context": "The visitor repeats the city word in his own story, but he still treats the tote as part of the barbers’ strange world.",
+                  "origin": "Short for totalisator, a machine or system for pool betting.",
+                  "related": [
+                    "totalisator",
+                    "betting pool",
+                    "odds"
+                  ],
+                  "tier": 2,
+                  "translations": {
+                    "zh-Hans": "赛马总彩池系统（旧称）",
+                    "ja": "共同投票式の賭けシステム",
+                    "fa": "سامانهٔ شرط‌بندی تجمیعی",
+                    "vi": "hệ thống cá cược chung (totalisator)"
+                  }
+                },
+                {
+                  "word": "tough",
+                  "parts": [],
+                  "root": "",
+                  "meaning": "Strong and difficult to cut, break or damage.",
+                  "example": "One tried to cut my bloomin’ throat, but thank the Lord it’s tough.’",
+                  "context": "He jokes that his throat survived because it is physically tough.",
+                  "origin": "A single old English root with several connected meanings: strong, hard and difficult.",
+                  "related": [
+                    "tough",
+                    "tougher",
+                    "toughest",
+                    "toughness"
+                  ],
+                  "tier": 2,
+                  "translations": {
+                    "zh-Hans": "坚韧的；难以割破的",
+                    "ja": "丈夫で切れにくい",
+                    "fa": "سفت و مقاوم؛ سخت‌بُر",
+                    "vi": "dai và khó cắt; bền chắc"
+                  }
+                },
+                {
+                  "word": "remark",
+                  "parts": [
+                    {
+                      "surface": "re",
+                      "type": "prefix",
+                      "meaning": "again; closely",
+                      "translations": {
+                        "zh-Hans": "再次；仔细地",
+                        "ja": "再び；よく",
+                        "fa": "دوباره؛ با دقت",
+                        "vi": "lại; kỹ"
+                      }
+                    },
+                    {
+                      "surface": "mark",
+                      "type": "root",
+                      "meaning": "notice; make a sign",
+                      "translations": {
+                        "zh-Hans": "注意；做标记",
+                        "ja": "気づく；印を付ける",
+                        "fa": "توجه کردن؛ علامت زدن",
+                        "vi": "nhận thấy; đánh dấu"
+                      }
+                    }
+                  ],
+                  "root": "mark",
+                  "meaning": "Notice and point out; also, a spoken comment.",
+                  "example": "And whether he’s believed or no, there’s one thing to remark,",
+                  "context": "There is one thing to remark means there is one result worth noticing.",
+                  "origin": "re- + mark; the word came through French with the sense notice again or closely.",
+                  "related": [
+                    "remark",
+                    "remarked",
+                    "remarkable",
+                    "remarkably"
+                  ],
+                  "tier": 2,
+                  "translations": {
+                    "zh-Hans": "注意到并指出；评论",
+                    "ja": "気づいて述べる；発言",
+                    "fa": "توجه و اشاره کردن؛ اظهار نظر",
+                    "vi": "nhận thấy và nói ra; nhận xét"
+                  }
+                },
+                {
+                  "word": "flowing beards",
+                  "parts": [
+                    {
+                      "surface": "flow",
+                      "type": "root",
+                      "meaning": "move smoothly; hang freely",
+                      "translations": {
+                        "zh-Hans": "流动；自由垂下",
+                        "ja": "流れる；なめらかに垂れる",
+                        "fa": "روان شدن؛ آزاد آویختن",
+                        "vi": "chảy; buông rủ"
+                      }
+                    },
+                    {
+                      "surface": "ing",
+                      "type": "suffix",
+                      "meaning": "having an ongoing quality",
+                      "translations": {
+                        "zh-Hans": "具有持续的性质或状态",
+                        "ja": "継続する性質・〜の状態",
+                        "fa": "دارای حالت ادامه‌دار",
+                        "vi": "có đặc tính tiếp diễn"
+                      }
+                    },
+                    {
+                      "surface": "beard",
+                      "type": "root",
+                      "meaning": "hair on the chin and cheeks",
+                      "translations": {
+                        "zh-Hans": "胡须",
+                        "ja": "あごひげ",
+                        "fa": "ریش",
+                        "vi": "râu"
+                      }
+                    },
+                    {
+                      "surface": "s",
+                      "type": "suffix",
+                      "meaning": "more than one",
+                      "translations": {
+                        "zh-Hans": "复数；不止一个",
+                        "ja": "複数",
+                        "fa": "نشانهٔ جمع",
+                        "vi": "số nhiều"
+                      }
+                    }
+                  ],
+                  "root": "flow",
+                  "meaning": "Long, full beards that hang down freely.",
+                  "example": "That flowing beards are all the go way up in Ironbark.",
+                  "context": "The final image shows that men in Ironbark now avoid barbers and let their beards grow.",
+                  "origin": "flow + -ing; beard + -s.",
+                  "related": [
+                    "flow",
+                    "flowing",
+                    "beard",
+                    "bearded"
+                  ],
+                  "tier": 2,
+                  "translations": {
+                    "zh-Hans": "飘垂的长胡须",
+                    "ja": "長く垂れた豊かなひげ",
+                    "fa": "ریش‌های بلند و روان",
+                    "vi": "những bộ râu dài rủ xuống"
+                  }
+                },
+                {
+                  "word": "all the go",
+                  "parts": [],
+                  "root": "",
+                  "meaning": "Very fashionable or popular.",
+                  "example": "That flowing beards are all the go way up in Ironbark.",
+                  "context": "The joke produces the opposite of the man’s original plan: everyone at home now wants a long beard.",
+                  "origin": "An old idiom; modern English might say all the rage or in fashion.",
+                  "related": [
+                    "all the rage",
+                    "fashionable",
+                    "in style"
+                  ],
+                  "tier": 2,
+                  "translations": {
+                    "zh-Hans": "非常流行；正时髦",
+                    "ja": "大流行している；はやりの",
+                    "fa": "کاملاً مُد و رایج",
+                    "vi": "rất thịnh hành; đang là mốt"
                   }
                 }
               ],
-              "path": "elc/english/man-from-ironbark"
+              "path": "elc/english/ironbark-stanza-8"
             },
             {
               "id": "where-the-wild-things-are",
@@ -290575,6 +293293,752 @@
           "year-7/humanities-civics/water-natural-resources",
           "posit"
         ]
+      ]
+    },
+    "iron|a hard metal": {
+      "surface": "iron",
+      "variants": [
+        "iron"
+      ],
+      "type": "root",
+      "gloss": "a hard metal",
+      "aka": [],
+      "words": [
+        [
+          "Ironbark",
+          "elc/english/ironbark-stanza-1",
+          "iron"
+        ]
+      ],
+      "extras": [
+        "ironbark tree"
+      ]
+    },
+    "bark|the outer covering of a tree": {
+      "surface": "bark",
+      "variants": [
+        "bark"
+      ],
+      "type": "root",
+      "gloss": "the outer covering of a tree",
+      "aka": [],
+      "words": [
+        [
+          "Ironbark",
+          "elc/english/ironbark-stanza-1",
+          "bark"
+        ]
+      ],
+      "extras": [
+        "ironbark tree",
+        "bark",
+        "barked"
+      ]
+    },
+    "wander|move without a fixed route": {
+      "surface": "wander",
+      "variants": [
+        "wander"
+      ],
+      "type": "root",
+      "gloss": "move without a fixed route",
+      "aka": [],
+      "words": [
+        [
+          "wandered",
+          "elc/english/ironbark-stanza-1",
+          "wander"
+        ]
+      ],
+      "extras": [
+        "wander",
+        "wanders",
+        "wandering",
+        "wanderer"
+      ]
+    },
+    "loiter|wait or move around idly": {
+      "surface": "loiter",
+      "variants": [
+        "loiter"
+      ],
+      "type": "root",
+      "gloss": "wait or move around idly",
+      "aka": [],
+      "words": [
+        [
+          "loitered",
+          "elc/english/ironbark-stanza-1",
+          "loiter"
+        ]
+      ],
+      "extras": [
+        "loiter",
+        "loiters",
+        "loitering"
+      ]
+    },
+    "de|away/without": {
+      "surface": "de",
+      "variants": [
+        "de"
+      ],
+      "type": "prefix",
+      "gloss": "away/without",
+      "aka": [],
+      "words": [
+        [
+          "despair",
+          "elc/english/ironbark-stanza-1",
+          "de"
+        ]
+      ],
+      "extras": [
+        "despaired",
+        "despairing",
+        "desperate"
+      ]
+    },
+    "spair|hope": {
+      "surface": "spair",
+      "variants": [
+        "spair",
+        "sper"
+      ],
+      "type": "root",
+      "gloss": "hope",
+      "aka": [],
+      "words": [
+        [
+          "despair",
+          "elc/english/ironbark-stanza-1",
+          "spair"
+        ]
+      ],
+      "extras": [
+        "despaired",
+        "despairing"
+      ]
+    },
+    "whisker|a hair or group of facial hairs": {
+      "surface": "whisker",
+      "variants": [
+        "whisker"
+      ],
+      "type": "root",
+      "gloss": "a hair or group of facial hairs",
+      "aka": [],
+      "words": [
+        [
+          "whiskers",
+          "elc/english/ironbark-stanza-1",
+          "whisker"
+        ]
+      ],
+      "extras": [
+        "whisker",
+        "whiskered"
+      ]
+    },
+    "humor|what is funny/comedy": {
+      "surface": "humor",
+      "variants": [
+        "humor"
+      ],
+      "type": "root",
+      "gloss": "what is funny/comedy",
+      "aka": [],
+      "words": [
+        [
+          "humorist",
+          "elc/english/ironbark-stanza-2",
+          "humor"
+        ]
+      ],
+      "extras": [
+        "humorous"
+      ]
+    },
+    "gild|cover with a thin layer of gold": {
+      "surface": "gild",
+      "variants": [
+        "gild"
+      ],
+      "type": "root",
+      "gloss": "cover with a thin layer of gold",
+      "aka": [],
+      "words": [
+        [
+          "gilded",
+          "elc/english/ironbark-stanza-3",
+          "gild"
+        ],
+        [
+          "gilded",
+          "elc/english/ironbark-stanza-6",
+          "gild"
+        ]
+      ],
+      "extras": [
+        "gild",
+        "gilding"
+      ]
+    },
+    "eye|the organ used for seeing": {
+      "surface": "eye",
+      "variants": [
+        "eye"
+      ],
+      "type": "root",
+      "gloss": "the organ used for seeing",
+      "aka": [],
+      "words": [
+        [
+          "eyelid",
+          "elc/english/ironbark-stanza-3",
+          "eye"
+        ]
+      ],
+      "extras": [
+        "eye",
+        "eyelids"
+      ]
+    },
+    "lid|a cover": {
+      "surface": "lid",
+      "variants": [
+        "lid"
+      ],
+      "type": "root",
+      "gloss": "a cover",
+      "aka": [],
+      "words": [
+        [
+          "eyelid",
+          "elc/english/ironbark-stanza-3",
+          "lid"
+        ]
+      ],
+      "extras": [
+        "eyelids"
+      ]
+    },
+    "bush|rural australian country": {
+      "surface": "bush",
+      "variants": [
+        "bush"
+      ],
+      "type": "root",
+      "gloss": "rural australian country",
+      "aka": [],
+      "words": [
+        [
+          "bushman",
+          "elc/english/ironbark-stanza-4",
+          "bush"
+        ]
+      ],
+      "extras": [
+        "bush",
+        "bushmen"
+      ]
+    },
+    "man|an adult male person": {
+      "surface": "man",
+      "variants": [
+        "man"
+      ],
+      "type": "root",
+      "gloss": "an adult male person",
+      "aka": [],
+      "words": [
+        [
+          "bushman",
+          "elc/english/ironbark-stanza-4",
+          "man"
+        ]
+      ],
+      "extras": []
+    },
+    "boil|heat a liquid until it bubbles": {
+      "surface": "boil",
+      "variants": [
+        "boil"
+      ],
+      "type": "root",
+      "gloss": "heat a liquid until it bubbles",
+      "aka": [],
+      "words": [
+        [
+          "boiling hot",
+          "elc/english/ironbark-stanza-4",
+          "boil"
+        ]
+      ],
+      "extras": [
+        "boil",
+        "boiled",
+        "boiling"
+      ]
+    },
+    "hot|having a high temperature": {
+      "surface": "hot",
+      "variants": [
+        "hot"
+      ],
+      "type": "root",
+      "gloss": "having a high temperature",
+      "aka": [],
+      "words": [
+        [
+          "boiling hot",
+          "elc/english/ironbark-stanza-4",
+          "hot"
+        ]
+      ],
+      "extras": []
+    },
+    "razor|a sharp tool used for shaving": {
+      "surface": "razor",
+      "variants": [
+        "razor"
+      ],
+      "type": "root",
+      "gloss": "a sharp tool used for shaving",
+      "aka": [],
+      "words": [
+        [
+          "razor-back",
+          "elc/english/ironbark-stanza-4",
+          "razor"
+        ]
+      ],
+      "extras": [
+        "razor",
+        "razor blade"
+      ]
+    },
+    "back|the rear or blunt side": {
+      "surface": "back",
+      "variants": [
+        "back"
+      ],
+      "type": "root",
+      "gloss": "the rear or blunt side",
+      "aka": [],
+      "words": [
+        [
+          "razor-back",
+          "elc/english/ironbark-stanza-4",
+          "back"
+        ]
+      ],
+      "extras": [
+        "back edge"
+      ]
+    },
+    "up|away from the main city/inland": {
+      "surface": "up",
+      "variants": [
+        "up"
+      ],
+      "type": "root",
+      "gloss": "away from the main city/inland",
+      "aka": [],
+      "words": [
+        [
+          "up-country",
+          "elc/english/ironbark-stanza-5",
+          "up"
+        ]
+      ],
+      "extras": []
+    },
+    "country|rural land or region": {
+      "surface": "country",
+      "variants": [
+        "country"
+      ],
+      "type": "root",
+      "gloss": "rural land or region",
+      "aka": [],
+      "words": [
+        [
+          "up-country",
+          "elc/english/ironbark-stanza-5",
+          "country"
+        ]
+      ],
+      "extras": []
+    },
+    "game|brave/willing to keep trying": {
+      "surface": "game",
+      "variants": [
+        "game"
+      ],
+      "type": "root",
+      "gloss": "brave/willing to keep trying",
+      "aka": [],
+      "words": [
+        [
+          "gamely",
+          "elc/english/ironbark-stanza-5",
+          "game"
+        ]
+      ],
+      "extras": [
+        "game",
+        "game effort"
+      ]
+    },
+    "murder|unlawfully kill a person": {
+      "surface": "murder",
+      "variants": [
+        "murder"
+      ],
+      "type": "root",
+      "gloss": "unlawfully kill a person",
+      "aka": [],
+      "words": [
+        [
+          "murd’rous (murderous)",
+          "elc/english/ironbark-stanza-5",
+          "murder"
+        ],
+        [
+          "murdering",
+          "elc/english/ironbark-stanza-7",
+          "murder"
+        ]
+      ],
+      "extras": [
+        "murder",
+        "murderer",
+        "murderous",
+        "murderously"
+      ]
+    },
+    "bless|declare holy/wish good for": {
+      "surface": "bless",
+      "variants": [
+        "bless"
+      ],
+      "type": "root",
+      "gloss": "declare holy/wish good for",
+      "aka": [],
+      "words": [
+        [
+          "blessed",
+          "elc/english/ironbark-stanza-5",
+          "bless"
+        ]
+      ],
+      "extras": [
+        "bless",
+        "blessing"
+      ]
+    },
+    "hair|strands growing from skin": {
+      "surface": "hair",
+      "variants": [
+        "hair"
+      ],
+      "type": "root",
+      "gloss": "strands growing from skin",
+      "aka": [],
+      "words": [
+        [
+          "hairy paw",
+          "elc/english/ironbark-stanza-6",
+          "hair"
+        ]
+      ],
+      "extras": [
+        "hair",
+        "hairy"
+      ]
+    },
+    "paw|an animal’s foot/here/a rough hand": {
+      "surface": "paw",
+      "variants": [
+        "paw"
+      ],
+      "type": "root",
+      "gloss": "an animal’s foot/here/a rough hand",
+      "aka": [],
+      "words": [
+        [
+          "hairy paw",
+          "elc/english/ironbark-stanza-6",
+          "paw"
+        ]
+      ],
+      "extras": [
+        "paw"
+      ]
+    },
+    "tremend|cause awe or trembling/very great": {
+      "surface": "tremend",
+      "variants": [
+        "tremend"
+      ],
+      "type": "root",
+      "gloss": "cause awe or trembling/very great",
+      "aka": [],
+      "words": [
+        [
+          "tremendous",
+          "elc/english/ironbark-stanza-6",
+          "tremend"
+        ]
+      ],
+      "extras": [
+        "tremendously"
+      ]
+    },
+    "peel|the surname of robert peel": {
+      "surface": "peel",
+      "variants": [
+        "Peel"
+      ],
+      "type": "root",
+      "gloss": "the surname of robert peel",
+      "aka": [],
+      "words": [
+        [
+          "peeler",
+          "elc/english/ironbark-stanza-7",
+          "Peel"
+        ]
+      ],
+      "extras": []
+    },
+    "harm|hurt or damage": {
+      "surface": "harm",
+      "variants": [
+        "harm"
+      ],
+      "type": "root",
+      "gloss": "hurt or damage",
+      "aka": [],
+      "words": [
+        [
+          "harmless",
+          "elc/english/ironbark-stanza-7",
+          "harm"
+        ]
+      ],
+      "extras": [
+        "harm",
+        "harmful",
+        "harmlessly"
+      ]
+    },
+    "over|too much/beyond a limit": {
+      "surface": "over",
+      "variants": [
+        "over"
+      ],
+      "type": "prefix",
+      "gloss": "too much/beyond a limit",
+      "aka": [],
+      "words": [
+        [
+          "overdone",
+          "elc/english/ironbark-stanza-7",
+          "over"
+        ]
+      ],
+      "extras": [
+        "overdo",
+        "overdoes",
+        "overdid"
+      ]
+    },
+    "done|completed/carried out": {
+      "surface": "done",
+      "variants": [
+        "done"
+      ],
+      "type": "root",
+      "gloss": "completed/carried out",
+      "aka": [],
+      "words": [
+        [
+          "overdone",
+          "elc/english/ironbark-stanza-7",
+          "done"
+        ]
+      ],
+      "extras": []
+    },
+    "shear|cut wool from a sheep": {
+      "surface": "shear",
+      "variants": [
+        "shear"
+      ],
+      "type": "root",
+      "gloss": "cut wool from a sheep",
+      "aka": [],
+      "words": [
+        [
+          "shearing floor",
+          "elc/english/ironbark-stanza-8",
+          "shear"
+        ],
+        [
+          "shearers",
+          "elc/english/ironbark-stanza-8",
+          "shear"
+        ]
+      ],
+      "extras": [
+        "shear",
+        "shearing",
+        "shearing shed",
+        "shearer"
+      ]
+    },
+    "floor|the work surface of a room": {
+      "surface": "floor",
+      "variants": [
+        "floor"
+      ],
+      "type": "root",
+      "gloss": "the work surface of a room",
+      "aka": [],
+      "words": [
+        [
+          "shearing floor",
+          "elc/english/ironbark-stanza-8",
+          "floor"
+        ]
+      ],
+      "extras": []
+    },
+    "listen|pay attention to sound": {
+      "surface": "listen",
+      "variants": [
+        "listen"
+      ],
+      "type": "root",
+      "gloss": "pay attention to sound",
+      "aka": [],
+      "words": [
+        [
+          "list’ning (listening)",
+          "elc/english/ironbark-stanza-8",
+          "listen"
+        ]
+      ],
+      "extras": [
+        "listen",
+        "listens",
+        "listening",
+        "listener"
+      ]
+    },
+    "brag|speak too proudly": {
+      "surface": "brag",
+      "variants": [
+        "brag"
+      ],
+      "type": "root",
+      "gloss": "speak too proudly",
+      "aka": [],
+      "words": [
+        [
+          "brags",
+          "elc/english/ironbark-stanza-8",
+          "brag"
+        ]
+      ],
+      "extras": [
+        "brag",
+        "bragged",
+        "bragging"
+      ]
+    },
+    "re|again/closely": {
+      "surface": "re",
+      "variants": [
+        "re"
+      ],
+      "type": "prefix",
+      "gloss": "again/closely",
+      "aka": [],
+      "words": [
+        [
+          "remark",
+          "elc/english/ironbark-stanza-8",
+          "re"
+        ]
+      ],
+      "extras": [
+        "remarked",
+        "remarkable",
+        "remarkably"
+      ]
+    },
+    "mark|notice/make a sign": {
+      "surface": "mark",
+      "variants": [
+        "mark"
+      ],
+      "type": "root",
+      "gloss": "notice/make a sign",
+      "aka": [],
+      "words": [
+        [
+          "remark",
+          "elc/english/ironbark-stanza-8",
+          "mark"
+        ]
+      ],
+      "extras": [
+        "remarked",
+        "remarkable",
+        "remarkably"
+      ]
+    },
+    "flow|move smoothly/hang freely": {
+      "surface": "flow",
+      "variants": [
+        "flow"
+      ],
+      "type": "root",
+      "gloss": "move smoothly/hang freely",
+      "aka": [],
+      "words": [
+        [
+          "flowing beards",
+          "elc/english/ironbark-stanza-8",
+          "flow"
+        ]
+      ],
+      "extras": [
+        "flow",
+        "flowing"
+      ]
+    },
+    "beard|hair on the chin and cheeks": {
+      "surface": "beard",
+      "variants": [
+        "beard"
+      ],
+      "type": "root",
+      "gloss": "hair on the chin and cheeks",
+      "aka": [],
+      "words": [
+        [
+          "flowing beards",
+          "elc/english/ironbark-stanza-8",
+          "beard"
+        ]
+      ],
+      "extras": [
+        "beard",
+        "bearded"
       ]
     }
   },

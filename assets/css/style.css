@@ -563,6 +563,13 @@ a.dict-word:hover { background: rgba(0,0,0,.1); }
 .study-def { color: var(--ink); margin: 4px 0 2px; }
 .study-trans { display: inline-block; margin-top: 4px; }
 .wtr { color: var(--accent); background: color-mix(in srgb, var(--accent) 12%, transparent); border-radius: 6px; padding: 1px 8px; font-weight: 600; }
+.study-example, .wr-example { margin: 8px 0 0; color: var(--muted); font-family: var(--serif); font-style: italic; line-height: 1.45; }
+.study-context, .wr-context { margin: 7px 0 0; padding: 7px 9px; border-left: 3px solid var(--accent); border-radius: 6px; background: color-mix(in srgb, var(--accent) 8%, transparent); font-size: .86rem; line-height: 1.45; }
+.word-story { margin-top: 7px; color: var(--muted); font-size: .84rem; }
+.word-story summary { width: max-content; cursor: pointer; color: var(--brand); font-weight: 700; }
+.word-story p { margin: 5px 0 0; line-height: 1.45; }
+.word-story.compact { margin-top: 6px; }
+.wr-def { margin: 7px 0 0; font-size: .9rem; line-height: 1.45; }
 /* build board */
 .board-bank { position: sticky; top: 6px; z-index: 5; background: var(--surface-2); border: 1px solid var(--line);
   border-radius: var(--radius); padding: 10px 12px; margin-bottom: 12px; }
