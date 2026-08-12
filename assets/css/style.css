@@ -28,8 +28,8 @@
 }
 @media (prefers-color-scheme: dark) {
   :root {
-    --bg: #17140f; --surface: #221d16; --surface-2: #2a241b; --ink: #ece4d3;
-    --muted: #a89a82; --line: #3a3226; --line-soft: #332c22;
+    --bg: #17140f; --surface: #221d16; --surface-2: #2a241b; --ink: #fffaf0;
+    --muted: #cfc5b4; --line: #4a4032; --line-soft: #3d3429;
     --brand: #d69a4c; --brand-2: #e0a95f; --accent: #5fa8bd;
     --rule: rgba(255,240,210,.045);
     --prefix-bg: #22323c; --prefix-ink: #9fcbe1;
