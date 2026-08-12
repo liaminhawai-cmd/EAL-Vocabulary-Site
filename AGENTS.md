@@ -7,7 +7,7 @@ Before changing teaching content, read the private `liaminhawai-cmd/ELC` reposit
 ## Hard rules
 
 - No student or staff names, emails, IDs, assessment records or other personal information.
-- Every ELC translation set must include reviewed Traditional Chinese (`zh-Hant`) as its own value. A Simplified Chinese fallback does not count as coverage.
+- Every ELC translation set must include reviewed Taiwan Traditional Chinese (`zh-Hant`, locale `zh-TW`) as its own value. Use Taiwan vocabulary and terminology, not character conversion alone. Simplified Chinese (`zh-Hans`, locale `zh-CN`) must use Mainland China terminology and is not a fallback for Taiwan Traditional Chinese.
 - No accounts, analytics, trackers or cloud progress sync in the public build.
 - Student progress stays in browser `localStorage` only.
 - No raw Word/Excel/PDF source packs, study designs, textbook material, planning documents or build-context archives.
