@@ -238546,6 +238546,7 @@
               "id": "ironbark-stanza-1",
               "name": "Stanza 1 · Arrival in Sydney",
               "interactive": true,
+              "folderId": "man-from-ironbark",
               "words": [
                 {
                   "word": "Ironbark",
@@ -238862,6 +238863,7 @@
               "id": "ironbark-stanza-2",
               "name": "Stanza 2 · The barber’s plan",
               "interactive": true,
+              "folderId": "man-from-ironbark",
               "words": [
                 {
                   "word": "flash",
@@ -239082,6 +239084,7 @@
               "id": "ironbark-stanza-3",
               "name": "Stanza 3 · The joke is signalled",
               "interactive": true,
+              "folderId": "man-from-ironbark",
               "words": [
                 {
                   "word": "gilded",
@@ -239304,6 +239307,7 @@
               "id": "ironbark-stanza-4",
               "name": "Stanza 4 · The fake cut",
               "interactive": true,
+              "folderId": "man-from-ironbark",
               "words": [
                 {
                   "word": "grunt",
@@ -239581,6 +239585,7 @@
               "id": "ironbark-stanza-5",
               "name": "Stanza 5 · He believes the trick",
               "interactive": true,
+              "folderId": "man-from-ironbark",
               "words": [
                 {
                   "word": "fetched a wild yell",
@@ -239850,6 +239855,7 @@
               "id": "ironbark-stanza-6",
               "name": "Stanza 6 · The fight",
               "interactive": true,
+              "folderId": "man-from-ironbark",
               "words": [
                 {
                   "word": "hairy paw",
@@ -240105,6 +240111,7 @@
               "id": "ironbark-stanza-7",
               "name": "Stanza 7 · The explanation",
               "interactive": true,
+              "folderId": "man-from-ironbark",
               "words": [
                 {
                   "word": "peeler",
@@ -240418,6 +240425,7 @@
               "id": "ironbark-stanza-8",
               "name": "Stanza 8 · The story returns home",
               "interactive": true,
+              "folderId": "man-from-ironbark",
               "words": [
                 {
                   "word": "shearing floor",
@@ -243434,6 +243442,25 @@
                 }
               ],
               "path": "elc/english/rabbits"
+            }
+          ],
+          "folders": [
+            {
+              "id": "man-from-ironbark",
+              "name": "The Man from Ironbark",
+              "subtitle": "Eight stanza-by-stanza vocabulary lists with morphology, word stories and translations.",
+              "unitIds": [
+                "ironbark-stanza-1",
+                "ironbark-stanza-2",
+                "ironbark-stanza-3",
+                "ironbark-stanza-4",
+                "ironbark-stanza-5",
+                "ironbark-stanza-6",
+                "ironbark-stanza-7",
+                "ironbark-stanza-8"
+              ],
+              "sourceLabel": "Read the interactive ballad",
+              "sourceUrl": "https://liaminhawai-cmd.github.io/ELC-Pages/ballads.html"
             }
           ]
         },

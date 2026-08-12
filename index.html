@@ -16,7 +16,15 @@
   <header class="topbar">
     <nav id="topnav" class="nav"></nav>
   </header>
-  <main id="app" class="container"><p class="muted">Loading…</p></main>
+  <main id="app" class="container">
+    <section class="loading-card" role="status" aria-live="polite">
+      <span class="loading-spinner" aria-hidden="true"></span>
+      <div>
+        <strong>Loading Word Builder…</strong>
+        <p id="loading-detail" class="muted small">Opening the vocabulary bank.</p>
+      </div>
+    </section>
+  </main>
   <footer class="foot">
     <p class="muted small">EAL Word Builder · works offline · progress stays in this browser · no account required.</p>
   </footer>

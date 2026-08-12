@@ -59,6 +59,16 @@ h2 { font-size: 1.25rem; }
 .small { font-size: .82rem; }
 .container { max-width: var(--maxw); margin: 0 auto; padding: 18px 16px 60px; }
 
+/* Honest startup feedback while the vocabulary bank is fetched and parsed. */
+.loading-card { min-height: 160px; display: flex; align-items: center; justify-content: center; gap: 14px;
+  background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius);
+  padding: 24px; box-shadow: var(--shadow); }
+.loading-card p { margin: 4px 0 0; }
+.loading-spinner { width: 26px; height: 26px; flex: 0 0 26px; border-radius: 50%;
+  border: 3px solid var(--line); border-top-color: var(--brand); animation: loading-spin .8s linear infinite; }
+@keyframes loading-spin { to { transform: rotate(360deg); } }
+@media (prefers-reduced-motion: reduce) { .loading-spinner { animation: none; border-top-color: var(--brand); } }
+
 /* top bar */
 .topbar { position: sticky; top: 0; z-index: 20; background: color-mix(in srgb, var(--surface) 88%, transparent);
   backdrop-filter: blur(8px); border-bottom: 1px solid var(--line); }
@@ -115,6 +125,21 @@ a.card:hover { transform: translateY(-2px); box-shadow: 0 10px 26px rgba(60,45,2
 .card.soon { border-style: dashed; }
 .card.soon .card-tag { color: var(--warn); }
 .card-progress { font-size: .82rem; font-weight: 600; color: var(--accent); margin: 6px 0 0; }
+
+/* A subject can keep a sequence of related units behind one folder card. */
+.folder-card { border-left: 4px solid var(--accent); }
+.folder-card h3, .folder-heading { display: flex; align-items: center; gap: 12px; }
+.folder-icon, .folder-heading-icon { position: relative; display: inline-block; flex: 0 0 auto;
+  width: 30px; height: 21px; border-radius: 3px; background: var(--accent); color: transparent; font-size: 0; }
+.folder-icon::before, .folder-heading-icon::before { content: ''; position: absolute; left: 2px; top: -6px;
+  width: 13px; height: 8px; border-radius: 3px 3px 0 0; background: var(--accent); }
+.folder-heading { background: var(--surface); border: 1px solid var(--line); border-left: 4px solid var(--accent);
+  border-radius: var(--radius); padding: 18px 20px; box-shadow: var(--shadow); }
+.folder-heading-icon { width: 42px; height: 30px; }
+.folder-heading-icon::before { width: 18px; height: 10px; top: -7px; }
+.folder-heading h1, .folder-heading p { margin: 0; }
+.folder-heading .kicker { color: var(--accent); }
+.folder-summary { margin-top: 8px !important; }
 
 /* topic status — same traffic-light language as the Pick page bin chips */
 .unit-status-learning { color: var(--brand); font-weight: 600; }

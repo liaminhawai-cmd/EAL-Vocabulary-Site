@@ -133,6 +133,38 @@ function orderedTranslations(translations, lang) {
 function levelById(id) { return DATA.levels.find((l) => l.id === id); }
 function subjectById(level, id) { return level && level.subjects.find((s) => s.id === id); }
 function unitById(subject, id) { return subject && subject.units.find((u) => u.id === id); }
+function folderById(subject, id) {
+  return subject && (subject.folders || []).find((folder) => folder.id === id);
+}
+function folderUnits(subject, folder) {
+  if (!subject || !folder) return [];
+  const byId = new Map(subject.units.map((unit) => [unit.id, unit]));
+  const listed = (folder.unitIds || []).map((id) => byId.get(id)).filter(Boolean);
+  return listed.length ? listed : subject.units.filter((unit) => unit.folderId === folder.id);
+}
+function folderForUnit(subject, unit) {
+  if (!subject || !unit) return null;
+  if (unit.folderId) {
+    const direct = folderById(subject, unit.folderId);
+    if (direct) return direct;
+  }
+  return (subject.folders || []).find((folder) => (folder.unitIds || []).includes(unit.id)) || null;
+}
+function folderHref(level, subject, folder) {
+  return `#/l/${level.id}/${subject.id}/f/${folder.id}`;
+}
+function unitParentHref(level, subject, unit) {
+  const folder = folderForUnit(subject, unit);
+  return folder ? folderHref(level, subject, folder) : `#/l/${level.id}/${subject.id}`;
+}
+function unitCrumbItems(level, subject, unit) {
+  const items = [['Home', '#/'], [level.name, `#/l/${level.id}`],
+    [subject.name, `#/l/${level.id}/${subject.id}`]];
+  const folder = folderForUnit(subject, unit);
+  if (folder) items.push([folder.name, folderHref(level, subject, folder)]);
+  items.push([unit.name, null]);
+  return items;
+}
 
 function resolvePath(path) {
   // path = "level/subject/unit"
@@ -159,6 +191,18 @@ function unitProgress(u) {
     : bins.includes('consolidating') ? 'consolidating'
     : 'mastered';
   return { started: items.length, total: u.words.length, status };
+}
+function folderProgress(units) {
+  const totalWords = units.reduce((total, unit) => total + unit.words.length, 0);
+  let startedWords = 0, startedUnits = 0, masteredUnits = 0;
+  for (const unit of units) {
+    const progress = unitProgress(unit);
+    if (!progress) continue;
+    startedWords += progress.started;
+    startedUnits++;
+    if (progress.status === 'mastered' && progress.started === progress.total) masteredUnits++;
+  }
+  return { totalWords, startedWords, startedUnits, masteredUnits };
 }
 // Per-subject roll-up for the level page: how many topics have any progress,
 // and how many are fully mastered. null when the student hasn't touched
@@ -512,27 +556,51 @@ function renderLevel({ levelId }) {
 }
 
 // ---------------------------------------------------------------------------
-// SUBJECT — units
+// SUBJECT — folders + units
 // ---------------------------------------------------------------------------
+function unitCard(unit) {
+  const empty = unit.words.length === 0;
+  const progress = unitProgress(unit);
+  const done = progress ? progress.started : 0;
+  const pct = unit.words.length ? Math.round((done / unit.words.length) * 100) : 0;
+  const href = empty ? `#/request/${unit.path}`
+    : unit.interactive ? `#/learn/${unit.path}` : `#/browse/${unit.path}`;
+  return h('a', { class: `card unit-card ${empty ? 'soon' : ''}`, href },
+    h('div', { class: 'card-tag' }, empty ? 'Request this list' : unit.interactive ? 'Build' : 'Browse'),
+    h('h3', {}, unit.name),
+    h('p', { class: 'card-meta' }, empty ? 'Not added yet' : `${unit.words.length} words`),
+    unit.interactive && !empty && h('div', { class: 'progress' },
+      h('div', { class: 'progress-fill', style: `width:${pct}%` })),
+    unit.interactive && !empty && h('p', { class: `muted small ${progress ? 'unit-status-' + progress.status : ''}` },
+      progress ? `${done}/${unit.words.length} · ${PROGRESS_LABEL[progress.status]}` : `${done}/${unit.words.length} started`));
+}
+
+function folderCard(level, subject, folder) {
+  const units = folderUnits(subject, folder);
+  const progress = folderProgress(units);
+  const pct = progress.totalWords
+    ? Math.round((progress.startedWords / progress.totalWords) * 100) : 0;
+  return h('a', { class: 'card folder-card', href: folderHref(level, subject, folder) },
+    h('div', { class: 'card-tag' }, 'Ballad folder'),
+    h('h3', {}, h('span', { class: 'folder-icon', 'aria-hidden': 'true' }, '▰'), folder.name),
+    h('p', { class: 'muted' }, folder.subtitle || ''),
+    h('p', { class: 'card-meta' }, `${units.length} stanzas · ${progress.totalWords} word entries`),
+    h('div', { class: 'progress' }, h('div', { class: 'progress-fill', style: `width:${pct}%` })),
+    h('p', { class: 'muted small' }, progress.startedUnits
+      ? `${progress.startedUnits}/${units.length} stanzas started${progress.masteredUnits ? ` · ${progress.masteredUnits} mastered` : ''}`
+      : 'Open the folder to choose a stanza'));
+}
+
 function renderSubject({ levelId, subjectId }) {
   const level = levelById(levelId);
   const subject = subjectById(level, subjectId);
   if (!subject) return renderHome();
-  const cards = subject.units.map((u) => {
-    const empty = u.words.length === 0;
-    const prog = unitProgress(u);
-    const done = prog ? prog.started : 0;
-    const pct = u.words.length ? Math.round((done / u.words.length) * 100) : 0;
-    const href = empty ? `#/request/${u.path}` : u.interactive ? `#/learn/${u.path}` : `#/browse/${u.path}`;
-    return h('a', { class: `card unit-card ${empty ? 'soon' : ''}`, href },
-      h('div', { class: 'card-tag' }, empty ? 'Request this list' : u.interactive ? 'Build' : 'Browse'),
-      h('h3', {}, u.name),
-      h('p', { class: 'card-meta' }, empty ? 'Not added yet' : `${u.words.length} words`),
-      u.interactive && !empty && h('div', { class: 'progress' },
-        h('div', { class: 'progress-fill', style: `width:${pct}%` })),
-      u.interactive && !empty && h('p', { class: `muted small ${prog ? 'unit-status-' + prog.status : ''}` },
-        prog ? `${done}/${u.words.length} · ${PROGRESS_LABEL[prog.status]}` : `${done}/${u.words.length} started`));
-  });
+  const folders = (subject.folders || []).filter((folder) => folderUnits(subject, folder).length);
+  const groupedUnitIds = new Set(folders.flatMap((folder) => folderUnits(subject, folder).map((unit) => unit.id)));
+  const cards = [
+    ...folders.map((folder) => folderCard(level, subject, folder)),
+    ...subject.units.filter((unit) => !groupedUnitIds.has(unit.id)).map(unitCard),
+  ];
   const hasBank = subject.morphemes &&
     (subject.morphemes.prefixes.length || subject.morphemes.roots.length);
   render(h('div', { class: 'stack' },
@@ -542,11 +610,38 @@ function renderSubject({ levelId, subjectId }) {
     h('div', { class: 'toolbar' },
       hasBank && h('a', { class: 'btn ghost', href: `#/morphemes/${level.id}/${subject.id}` }, 'Morpheme bank'),
       h('a', { class: 'btn ghost', href: '#/pick' }, 'Revision drill')),
-    subject.units.length
+    cards.length
       ? h('div', { class: 'grid' }, ...cards)
       : h('div', { class: 'card done-card' },
           h('p', { class: 'muted' }, 'No units added yet.'),
           h('a', { class: 'btn primary', href: `#/request/${level.id}/${subject.id}` }, 'Request this list'))));
+}
+
+function renderFolder({ levelId, subjectId, folderId }) {
+  const level = levelById(levelId);
+  const subject = subjectById(level, subjectId);
+  const folder = folderById(subject, folderId);
+  if (!folder) return renderSubject({ levelId, subjectId });
+  const units = folderUnits(subject, folder);
+  const progress = folderProgress(units);
+  render(h('div', { class: 'stack' },
+    crumb([['Home', '#/'], [level.name, `#/l/${level.id}`],
+      [subject.name, `#/l/${level.id}/${subject.id}`], [folder.name, null]]),
+    h('div', { class: 'folder-heading' },
+      h('div', { class: 'folder-heading-icon', 'aria-hidden': 'true' }, '▰'),
+      h('div', {},
+        h('p', { class: 'kicker' }, 'Ballad vocabulary folder'),
+        h('h1', {}, folder.name),
+        h('p', { class: 'muted' }, folder.subtitle || ''))),
+    h('p', { class: 'folder-summary muted small' },
+      `${units.length} stanzas · ${progress.totalWords} word entries · choose a stanza to study and build`),
+    h('div', { class: 'toolbar' },
+      folder.sourceUrl && h('a', { class: 'btn ghost', href: folder.sourceUrl,
+        target: '_blank', rel: 'noopener' }, `${folder.sourceLabel || 'Read the source'} ↗`),
+      h('a', { class: 'btn ghost', href: '#/pick' }, 'Revision drill')),
+    units.length
+      ? h('div', { class: 'grid' }, ...units.map(unitCard))
+      : h('div', { class: 'card done-card' }, h('p', { class: 'muted' }, 'No stanzas added yet.'))));
 }
 
 // ---------------------------------------------------------------------------
@@ -704,6 +799,7 @@ function renderBuildBoard({ levelId, subjectId, unitId }) {
   const { level, subject, unit } = resolvePath(path);
   if (!unit) return renderHome();
   if (!unit.interactive) return renderBrowse({ levelId, subjectId, unitId });
+  const parentHref = unitParentHref(level, subject, unit);
 
   const sets = buildSets(unit);
   let si = 0;              // current set index
@@ -751,7 +847,7 @@ function renderBuildBoard({ levelId, subjectId, unitId }) {
           h('div', { class: 'progress-fill', style: `width:${(totalDone / totalWords) * 100}%` }))),
       h('div', { class: 'row gap' }, buildLangPicker(),
         labelRight,
-        h('a', { class: 'btn ghost small', href: `#/l/${level.id}/${subject.id}` }, 'Exit')));
+        h('a', { class: 'btn ghost small', href: parentHref }, 'Exit')));
   }
   function buildLangPicker() {
     const sel = h('select', { class: 'lang-select sm', 'aria-label': 'My language',
@@ -766,8 +862,7 @@ function renderBuildBoard({ levelId, subjectId, unitId }) {
     }
     return sel;
   }
-  const crumbBar = () => crumb([['Home', '#/'], [level.name, `#/l/${level.id}`],
-    [subject.name, `#/l/${level.id}/${subject.id}`], [unit.name, null]]);
+  const crumbBar = () => crumb(unitCrumbItems(level, subject, unit));
 
   // ---- STUDY: see the whole set (word + parts + meaning + translation) ----
   function studyView() {
@@ -969,7 +1064,7 @@ function renderBuildBoard({ levelId, subjectId, unitId }) {
       allDone && h('div', { class: 'row gap end' },
         si + 1 < sets.length
           ? h('button', { class: 'btn primary', onclick: () => { si++; phase = 'study'; render_(); } }, 'Next set →')
-          : h('a', { class: 'btn primary', href: `#/l/${level.id}/${subject.id}` }, 'Finish unit ✓')));
+          : h('a', { class: 'btn primary', href: parentHref }, 'Finish unit ✓')));
   }
   function modeCard(mode, title, desc) {
     return h('button', { class: 'mode-card', type: 'button',
@@ -1022,6 +1117,7 @@ function renderLearn({ levelId, subjectId, unitId }) {
   const { level, subject, unit } = resolvePath(path);
   if (!unit) return renderHome();
   if (!unit.interactive) return renderBrowse({ levelId, subjectId, unitId });
+  const parentHref = unitParentHref(level, subject, unit);
   let idx = 0;
 
   // A language picker right on the build page, so a student can fix their
@@ -1050,15 +1146,14 @@ function renderLearn({ levelId, subjectId, unitId }) {
     // to a "remember this word" card — no fake build task.
     const hasMorphology = (word.parts || []).length >= 2;
     render(h('div', { class: 'stack learn' },
-      crumb([['Home', '#/'], [level.name, `#/l/${level.id}`],
-        [subject.name, `#/l/${level.id}/${subject.id}`], [unit.name, null]]),
+      crumb(unitCrumbItems(level, subject, unit)),
       h('div', { class: 'learn-head' },
         h('div', {},
           h('span', { class: 'muted small' }, `Word ${idx + 1} of ${total}`),
           h('div', { class: 'progress thin' },
             h('div', { class: 'progress-fill', style: `width:${(idx / total) * 100}%` }))),
         h('div', { class: 'row gap' }, learnLangPicker(),
-          h('a', { class: 'btn ghost small', href: `#/l/${level.id}/${subject.id}` }, 'Exit'))),
+          h('a', { class: 'btn ghost small', href: parentHref }, 'Exit'))),
       hasMorphology
         ? buildWordCard(subject, unit, word, lang, goNext)
         : learnWordCard(subject, unit, word, lang, goNext),
@@ -1315,7 +1410,7 @@ function renderUnitDone(level, subject, unit) {
       h('p', { class: 'muted' }, `You built all ${unit.words.length} words in ${unit.name}. They are now in your revision drill.`),
       h('div', { class: 'row gap center' },
         h('a', { class: 'btn primary', href: '#/pick' }, 'Start revision drill'),
-        h('a', { class: 'btn ghost', href: `#/l/${level.id}/${subject.id}` }, 'Back to units')))));
+        h('a', { class: 'btn ghost', href: unitParentHref(level, subject, unit) }, 'Back to units')))));
 }
 
 // ---------------------------------------------------------------------------
@@ -2049,8 +2144,7 @@ function renderBrowse({ levelId, subjectId, unitId }) {
   const lang = getLang();
   const anyTrans = unit.words.some((w) => w.translations && Object.keys(w.translations).length);
   render(h('div', { class: 'stack' },
-    crumb([['Home', '#/'], [level.name, `#/l/${level.id}`],
-      [subject.name, `#/l/${level.id}/${subject.id}`], [unit.name, null]]),
+    crumb(unitCrumbItems(level, subject, unit)),
     h('h1', {}, unit.name),
     h('p', { class: 'muted' }, `${unit.words.length} words`),
     anyTrans && h('div', { class: 'row gap' },
@@ -2571,12 +2665,31 @@ function buildNav() {
 }
 
 async function boot() {
-  DATA = await fetch('data/vocab.json').then((r) => r.json());
+  const loadingDetail = document.getElementById('loading-detail');
+  const slowMessage = setTimeout(() => {
+    if (loadingDetail) loadingDetail.textContent = 'Still opening the vocabulary bank — a first visit can take a few seconds.';
+  }, 1200);
+  try {
+    const response = await fetch('data/vocab.json');
+    if (!response.ok) throw new Error(`Vocabulary request failed (${response.status})`);
+    DATA = await response.json();
+  } catch (error) {
+    console.error('Could not load vocabulary:', error);
+    render(h('section', { class: 'loading-card', role: 'alert' },
+      h('div', {},
+        h('strong', {}, 'Word Builder could not open the vocabulary bank.'),
+        h('p', { class: 'muted small' }, 'Check the connection, then try again. If this device has opened Word Builder before, its offline copy will be used automatically.'),
+        h('button', { class: 'btn primary', onclick: () => location.reload() }, 'Try again'))));
+    return;
+  } finally {
+    clearTimeout(slowMessage);
+  }
   buildNav();
 
   route('/', renderHome);
   route('/l/:levelId', renderLevel);
   route('/l/:levelId/:subjectId', renderSubject);
+  route('/l/:levelId/:subjectId/f/:folderId', renderFolder);
   route('/learn/:levelId/:subjectId/:unitId', renderBuildBoard);
   route('/browse/:levelId/:subjectId/:unitId', renderBrowse);
   route('/morphemes/:levelId/:subjectId', renderMorphemes);

@@ -39,8 +39,27 @@ self.addEventListener('fetch', (event) => {
   const url = new URL(event.request.url);
   if (url.origin !== self.location.origin || event.request.method !== 'GET') return;
 
+  // vocab.json is the largest startup asset. Once the current build has
+  // cached it, serve that copy immediately instead of blocking every launch
+  // on a fresh multi-megabyte network request. A bumped BUILD creates and
+  // preloads a new cache, so releases still receive their matching data.
+  const isVocab = /\/data\/vocab\.json$/.test(url.pathname);
+  if (isVocab) {
+    event.respondWith(
+      caches.match(event.request).then((cached) => cached ||
+        fetch(event.request).then((response) => {
+          if (response && response.status === 200) {
+            const copy = response.clone();
+            caches.open(CACHE).then((cache) => cache.put(event.request, copy));
+          }
+          return response;
+        }))
+    );
+    return;
+  }
+
   const isShell = event.request.mode === 'navigate' ||
-    /\.(?:html|js|css)$|\/data\/vocab\.json$|\/$/.test(url.pathname);
+    /\.(?:html|js|css)$|\/$/.test(url.pathname);
 
   if (isShell) {
     event.respondWith(
