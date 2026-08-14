@@ -406,10 +406,9 @@ function updateNavCounts() {
   const badge = document.getElementById('nav-count');
   if (badge) { const s = store.stats(); badge.textContent = s.learning ? String(s.learning) : ''; }
 }
-// Where a language request actually goes. Set this to your own contact email
-// before deploying — it is intentionally a placeholder so no personal address
-// ships in the public repo.
-const LANGUAGE_REQUEST_EMAIL = 'your-contact-email@example.com';
+// Requests stay on the student's device in the public build. A private school
+// deployment may set this without publishing a staff address in the repository.
+const REQUEST_EMAIL = '';
 
 // "Other / my language" means "my language isn't in this list" — it is a
 // TRIGGER, never a real display language. Picking it used to just get stored
@@ -431,17 +430,20 @@ function promptOtherLanguage(selectEl, previousLang) {
       `\n(Sent automatically from Word Builder — ${new Date().toLocaleString()})`,
     ].join('');
     store.logEvent({ action: 'requested', subject: 'language', word: name, detail: 'language request' });
-    const mailto = `mailto:${LANGUAGE_REQUEST_EMAIL}` +
-      `?subject=${encodeURIComponent('Word Builder — language request: ' + name)}` +
-      `&body=${encodeURIComponent(message)}`;
-    const a = document.createElement('a');
-    a.href = mailto;
-    a.click();
+    if (REQUEST_EMAIL) {
+      const mailto = `mailto:${REQUEST_EMAIL}` +
+        `?subject=${encodeURIComponent('Word Builder — language request: ' + name)}` +
+        `&body=${encodeURIComponent(message)}`;
+      const a = document.createElement('a');
+      a.href = mailto;
+      a.click();
+    }
     selectEl.value = previousLang;
     overlay.innerHTML = '';
     overlay.append(h('div', { class: 'card modal-card' },
       h('div', { class: 'big-emoji' }, '✉️'),
-      h('p', {}, `Thanks — we've asked your teacher to add ${name}.`),
+      h('p', {}, `Thanks — ${name} is saved on this device.`),
+      h('p', { class: 'muted small' }, 'Show this request to your teacher.'),
       h('p', { class: 'muted small' }, `Meanwhile you're still set to ${langLabel(previousLang)}.`),
       h('button', { class: 'btn primary', onclick: () => overlay.remove() }, 'OK')));
   }
@@ -581,7 +583,7 @@ function folderCard(level, subject, folder) {
   const pct = progress.totalWords
     ? Math.round((progress.startedWords / progress.totalWords) * 100) : 0;
   return h('a', { class: 'card folder-card', href: folderHref(level, subject, folder) },
-    h('div', { class: 'card-tag' }, 'Ballad folder'),
+    h('div', { class: 'card-tag' }, 'Subject folder'),
     h('h3', {}, h('span', { class: 'folder-icon', 'aria-hidden': 'true' }, '▰'), folder.name),
     h('p', { class: 'muted' }, folder.subtitle || ''),
     h('p', { class: 'card-meta' }, `${units.length} stanzas · ${progress.totalWords} word entries`),
@@ -630,7 +632,7 @@ function renderFolder({ levelId, subjectId, folderId }) {
     h('div', { class: 'folder-heading' },
       h('div', { class: 'folder-heading-icon', 'aria-hidden': 'true' }, '▰'),
       h('div', {},
-        h('p', { class: 'kicker' }, 'Ballad vocabulary folder'),
+        h('p', { class: 'kicker' }, 'Vocabulary folder'),
         h('h1', {}, folder.name),
         h('p', { class: 'muted' }, folder.subtitle || ''))),
     h('p', { class: 'folder-summary muted small' },
@@ -647,12 +649,8 @@ function renderFolder({ levelId, subjectId, folderId }) {
 // ---------------------------------------------------------------------------
 // REQUEST — "this list hasn't been made yet" -> send the teacher a request
 // ---------------------------------------------------------------------------
-// Where requests actually go. No backend is required for this to work: it
-// always opens a pre-filled email, and it also logs the request into the
-// student's own progress log (synced to Supabase if that's configured), so a
-// teacher can also find every request with:
-//   select * from progress_log where action = 'requested' order by created_at desc;
-const TEACHER_EMAIL = 'liaminhawai@gmail.com'; // change this to your own email
+// Requests are saved in the student's browser. The public build contains no
+// staff email address and sends nothing to a backend.
 
 function renderRequest({ levelId, subjectId, unitId }) {
   const level = levelById(levelId);
@@ -719,20 +717,21 @@ function renderRequest({ levelId, subjectId, unitId }) {
       detail: note,
     });
 
-    const mailto = `mailto:${TEACHER_EMAIL}` +
-      `?subject=${encodeURIComponent('Word Builder — list request: ' + pathLabel)}` +
-      `&body=${encodeURIComponent(message)}`;
-    const a = document.createElement('a');
-    a.href = mailto;
-    a.click();
+    if (REQUEST_EMAIL) {
+      const mailto = `mailto:${REQUEST_EMAIL}` +
+        `?subject=${encodeURIComponent('Word Builder — list request: ' + pathLabel)}` +
+        `&body=${encodeURIComponent(message)}`;
+      const a = document.createElement('a');
+      a.href = mailto;
+      a.click();
+    }
 
     card.innerHTML = '';
     card.append(
-      h('p', { class: 'kicker' }, 'Request sent'),
-      h('div', { class: 'big-emoji' }, '✉️'),
-      h('p', {}, `Your request for "${pathLabel}" has been logged.`),
-      h('p', { class: 'muted small' },
-        "If your email app didn't open, show this to your teacher:"),
+      h('p', { class: 'kicker' }, 'Request saved'),
+      h('div', { class: 'big-emoji' }, '📝'),
+      h('p', {}, `Your request for "${pathLabel}" is saved on this device.`),
+      h('p', { class: 'muted small' }, 'Show this to your teacher:'),
       h('div', { class: 'meaning-box' }, h('p', { class: 'meaning' }, message)),
       h('a', { class: 'btn primary', href: '#/' }, 'Back to home'));
   }
