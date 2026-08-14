@@ -933,11 +933,41 @@ function renderBuildBoard({ levelId, subjectId, unitId }) {
   }
   // Distractor WORDS (not defs/translations) from elsewhere in the unit, for
   // the "remember this" recognise task below.
-  function otherWordsFor(word, n) {
-    const pool = unit.words.filter((x) => x.word !== word.word).map((x) => x.word);
-    const out = [];
-    for (const t of pool) { if (!out.includes(t) && out.length < n) out.push(t); }
+  // Blank the shown word out of a definition. Several definitions legitimately
+  // contain their own headword, which hands the answer over. Callers apply this
+  // to EVERY option, not just the right one.
+  function maskWordIn(text, word) {
+    if (!text || !word) return text;
+    let out = String(text);
+    for (const t of [String(word), ...String(word).split(/\s+/)]) {
+      const stem = t.replace(/(ing|ed|es|s)$/i, '');
+      if (stem.length < 4) continue;
+      const esc = stem.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+      out = out.replace(new RegExp('\\b' + esc + '\\w*', 'gi'), '____');
+    }
     return out;
+  }
+  // These took the first n words in the unit every time: same decoys, same
+  // order, and no regard for how long the answer was. Now sampled, and picked
+  // so the right answer does not stand out by length.
+  function nearLength(pool, answer, n) {
+    const target = String(answer).length;
+    const shuffled = pool.slice();
+    for (let i = shuffled.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1));
+      [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
+    }
+    return shuffled
+      .map((x) => ({ x, d: Math.abs(String(x).length - target) }))
+      .sort((a, b) => a.d - b.d)
+      .slice(0, Math.max(n, n * 2))
+      .sort(() => Math.random() - 0.5)
+      .slice(0, n)
+      .map((r) => r.x);
+  }
+  function otherWordsFor(word, n) {
+    const pool = [...new Set(unit.words.filter((x) => x.word !== word.word).map((x) => x.word))];
+    return nearLength(pool, word.word, n);
   }
   // Words with no morphemes to build ("remember this" cards) still get a real
   // task instead of arriving pre-ticked: pick the word that matches the hidden
@@ -1024,20 +1054,26 @@ function renderBuildBoard({ levelId, subjectId, unitId }) {
 
   // ---- CHECK: choose how to prove you know each word's meaning ----
   function otherTranslations(word, lang, n) {
-    const pool = unit.words.filter((x) => x.word !== word.word)
-      .map((x) => pickTranslation(x.translations, lang)).filter(Boolean);
-    const out = [];
-    for (const t of pool) { if (!out.includes(t) && out.length < n) out.push(t); }
-    return out;
+    const pool = [...new Set(unit.words.filter((x) => x.word !== word.word)
+      .map((x) => pickTranslation(x.translations, lang)).filter(Boolean))];
+    return nearLength(pool, pickTranslation(word.translations, lang) || '', n);
   }
   function otherDefs(word, n) {
-    const pool = unit.words.filter((x) => x.word !== word.word && x.meaning).map((x) => x.meaning);
-    const out = [];
-    for (const t of pool) { if (!out.includes(t) && out.length < n) out.push(t); }
-    return out;
+    const pool = [...new Set(unit.words.filter((x) => x.word !== word.word && x.meaning)
+      .map((x) => x.meaning))];
+    return nearLength(pool, word.meaning || '', n);
   }
-  function shuffle(a) { // deterministic-ish: rotate by length so it's stable per render
-    const r = a.slice(); for (let i = 0; i < (a.length % 3); i++) r.push(r.shift()); return r;
+  // Was a rotate-by-length, which is not a shuffle: with the usual four options
+  // it moved the answer to the LAST slot every single time, and students found
+  // that before we did. Real Fisher-Yates now. Callers that re-render mid-card
+  // memoise the result themselves so the options do not jump around.
+  function shuffle(a) {
+    const r = a.slice();
+    for (let i = r.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1));
+      [r[i], r[j]] = [r[j], r[i]];
+    }
+    return r;
   }
   function checkView() {
     const lang = getLang();
@@ -1090,15 +1126,20 @@ function renderBuildBoard({ levelId, subjectId, unitId }) {
           render_();
         } }, 'Check'));
     } else if (st.checkMode === 'tap') {
-      const opts = shuffle([answer, ...otherTranslations(w, lang, 3)].filter(Boolean));
+      const opts = state.optsT || (state.optsT =
+        shuffle([answer, ...otherTranslations(w, lang, 3)].filter(Boolean)));
       control = h('div', { class: 'check-opts' }, ...opts.map((o) => h('button', {
         class: 'check-opt', type: 'button', onclick: () => { state.graded = true; state.ok = o === answer; render_(); },
       }, o)));
     } else { // match — pick the English definition
-      const opts = shuffle([w.meaning, ...otherDefs(w, 3)].filter(Boolean));
+      const opts = state.optsD || (state.optsD =
+        shuffle([w.meaning, ...otherDefs(w, 3)].filter(Boolean)));
+      // The word is on screen beside these, and several definitions contain
+      // their own headword. Mask it out of ALL of them — masking only the
+      // correct one would replace one giveaway with a louder one.
       control = h('div', { class: 'check-opts' }, ...opts.map((o) => h('button', {
         class: 'check-opt', type: 'button', onclick: () => { state.graded = true; state.ok = o === w.meaning; render_(); },
-      }, o)));
+      }, maskWordIn(o, w.word))));
     }
     return h('div', { class: 'check-row' },
       h('div', { class: 'board-built' }, w.word, say(w.word)), control);
@@ -1683,6 +1724,38 @@ function renderDrill() {
   function normalize(s) {
     return (s || '').toLowerCase().trim().replace(/\s+/g, ' ').replace(/[.。]+$/, '');
   }
+
+  // Pick n options whose length is close to the answer's. Students work out
+  // "choose the longest" long before they work out the words, and a four-word
+  // term sitting beside three single words gives itself away. Nearest-by-length
+  // first, then a shuffle inside that window so the same decoys do not recur.
+  function balancedPick(pool, answer, n) {
+    const target = String(answer).length;
+    const ranked = shuffle(pool)
+      .map((x) => ({ x, d: Math.abs(String(x).length - target) }))
+      .sort((a, b) => a.d - b.d);
+    return shuffle(ranked.slice(0, Math.max(n, n * 2)).map((r) => r.x)).slice(0, n);
+  }
+
+  // Blank the target word out of a definition. Several definitions legitimately
+  // contain their own headword — "A source made at the time by someone who was
+  // there" for `primary source` — which hands the answer over.
+  //
+  // Whatever calls this must apply it to EVERY option on screen, not just the
+  // right one: a lone ____ among untouched distractors is a bigger giveaway
+  // than the word was.
+  function maskWord(text, word) {
+    if (!text || !word) return text;
+    const tokens = [String(word), ...String(word).split(/\s+/)];
+    let out = String(text);
+    for (const t of tokens) {
+      const stem = t.replace(/(ing|ed|es|s)$/i, '');
+      if (stem.length < 4) continue;
+      const esc = stem.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+      out = out.replace(new RegExp('\\b' + esc + '\\w*', 'gi'), '____');
+    }
+    return out;
+  }
   // Wrong multiple-choice options: real sibling words, nearest first (same unit,
   // then same subject, then anywhere) so the decoys are same-field, not random.
   function distractorWords(item, w, n) {
@@ -1698,7 +1771,9 @@ function renderDrill() {
     if (unit) tier(unit.words.map((x) => x.word), tU);
     if (subject) for (const u of subject.units) tier(u.words.map((x) => x.word), tS);
     for (const lvl of DATA.levels) for (const s of lvl.subjects) for (const u of s.units) tier(u.words.map((x) => x.word), tA);
-    return [...shuffle(tU), ...shuffle(tS), ...shuffle(tA)].slice(0, n);
+    // Nearest-field first, but chosen so the answer does not stand out by length.
+    const pool = [...shuffle(tU), ...shuffle(tS), ...shuffle(tA)];
+    return balancedPick(pool.slice(0, Math.max(n * 4, 12)), w.word, n);
   }
   // Extra morphemes to salt the build bank with, so the right pieces aren't the
   // only pieces on offer (that would hand over the answer).
@@ -1725,10 +1800,11 @@ function renderDrill() {
   // mode 'home' shows only the home gloss (rung 1), 'def' only the definition
   // (rung 2), 'both' shows whatever exists (build/type).
   function meaningPrompt(c, mode = 'both') {
-    const showDef = mode !== 'home' && c.w.meaning;
+    // Only one definition is on screen here, so masking cannot itself be a tell.
+    const showDef = mode !== 'home' && c.w.meaning && maskWord(c.w.meaning, c.w.word);
     const showHome = mode !== 'def' && c.wholeWord;
     return h('div', { class: 'mc-prompt' },
-      showDef && h('p', { class: 'meaning big' }, c.w.meaning),
+      showDef && h('p', { class: 'meaning big' }, showDef),
       showHome && h('p', { class: 'flash-translation' }, c.wholeWord, say(c.wholeWord, c.lang, 'sm')),
       !showDef && !showHome && h('p', { class: 'muted' }, 'Recall this word.'));
   }

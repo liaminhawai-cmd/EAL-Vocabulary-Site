@@ -229641,8 +229641,8 @@
     },
     {
      "id": "humanities-civics",
-     "name": "Humanities & Civics",
-     "subtitle": "Build the words — from your teacher's resource files",
+     "name": "Humanities",
+     "subtitle": "Geography, History and Civics — build the words",
      "morphemes": {
       "prefixes": [
        {
@@ -238830,6 +238830,519 @@
         }
        ],
        "path": "year-7/humanities-civics/water-uses"
+      },
+      {
+       "id": "geography-landforms",
+       "name": "Geography — Landscapes & landforms",
+       "interactive": true,
+       "words": [
+        {
+         "word": "archipelago",
+         "parts": [
+          {
+           "surface": "archi",
+           "type": "prefix",
+           "meaning": "chief, main"
+          },
+          {
+           "surface": "pelago",
+           "type": "root",
+           "meaning": "sea"
+          }
+         ],
+         "root": "pelago",
+         "meaning": "A group of islands.",
+         "example": "",
+         "tier": 3,
+         "translations": {
+          "ar": "أرخبيل",
+          "es": "archipiélago",
+          "fa": "مجمع‌الجزایر",
+          "fr": "archipel",
+          "ja": "群島",
+          "ko": "군도",
+          "vi": "quần đảo",
+          "zh-Hans": "群岛",
+          "zh-Hant": "群島"
+         }
+        },
+        {
+         "word": "bay",
+         "parts": [],
+         "root": "",
+         "meaning": "A large, circular indentation of a shoreline.",
+         "example": "",
+         "tier": 3,
+         "translations": {
+          "ar": "خليج",
+          "es": "bahía",
+          "fa": "خلیج",
+          "fr": "baie",
+          "ja": "湾",
+          "ko": "만",
+          "vi": "vịnh",
+          "zh-Hans": "海湾",
+          "zh-Hant": "海灣"
+         }
+        },
+        {
+         "word": "canyon",
+         "parts": [],
+         "root": "",
+         "meaning": "A deep and narrow valley with steep walls.",
+         "example": "",
+         "tier": 3,
+         "translations": {
+          "ar": "وادٍ سحيق",
+          "es": "cañón",
+          "fa": "دره عمیق",
+          "fr": "canyon",
+          "ja": "峡谷",
+          "ko": "협곡",
+          "vi": "hẻm núi",
+          "zh-Hans": "峡谷",
+          "zh-Hant": "峽谷"
+         }
+        },
+        {
+         "word": "channel",
+         "parts": [],
+         "root": "",
+         "meaning": "A deep and relatively narrow body of water that allows the best passage for vessels.",
+         "example": "",
+         "tier": 3,
+         "translations": {
+          "ar": "قناة",
+          "es": "canal",
+          "fa": "آبراه",
+          "fr": "chenal",
+          "ja": "水路",
+          "ko": "수로",
+          "vi": "eo biển hẹp",
+          "zh-Hans": "水道",
+          "zh-Hant": "水道"
+         }
+        },
+        {
+         "word": "cliff",
+         "parts": [],
+         "root": "",
+         "meaning": "A steep, high wall of rock, earth, or ice.",
+         "example": "",
+         "tier": 3,
+         "translations": {
+          "ar": "جرف",
+          "es": "acantilado",
+          "fa": "صخره پرتگاه",
+          "fr": "falaise",
+          "ja": "崖",
+          "ko": "절벽",
+          "vi": "vách đá",
+          "zh-Hans": "悬崖",
+          "zh-Hant": "懸崖"
+         }
+        },
+        {
+         "word": "delta",
+         "parts": [],
+         "root": "",
+         "meaning": "A triangular landform made of sediment deposited by river flows.",
+         "example": "",
+         "tier": 3,
+         "translations": {
+          "ar": "دلتا",
+          "es": "delta",
+          "fa": "دلتا",
+          "fr": "delta",
+          "ja": "三角州",
+          "ko": "삼각주",
+          "vi": "đồng bằng châu thổ",
+          "zh-Hans": "三角洲",
+          "zh-Hant": "三角洲"
+         }
+        },
+        {
+         "word": "glacier",
+         "parts": [],
+         "root": "",
+         "meaning": "A slowly moving mass of ice.",
+         "example": "",
+         "tier": 3,
+         "translations": {
+          "ar": "نهر جليدي",
+          "es": "glaciar",
+          "fa": "یخچال طبیعی",
+          "fr": "glacier",
+          "ja": "氷河",
+          "ko": "빙하",
+          "vi": "sông băng",
+          "zh-Hans": "冰川",
+          "zh-Hant": "冰川"
+         }
+        },
+        {
+         "word": "gulf",
+         "parts": [],
+         "root": "",
+         "meaning": "An arm of a sea or ocean partly enclosed by land.",
+         "example": "",
+         "tier": 3,
+         "translations": {
+          "ar": "خليج كبير",
+          "es": "golfo",
+          "fa": "خلیج بزرگ",
+          "fr": "golfe",
+          "ja": "湾",
+          "ko": "만",
+          "vi": "vịnh lớn",
+          "zh-Hans": "海湾",
+          "zh-Hant": "海灣"
+         }
+        },
+        {
+         "word": "harbour",
+         "parts": [],
+         "root": "",
+         "meaning": "A sheltered port where ships can take on or discharge cargo.",
+         "example": "",
+         "tier": 3,
+         "translations": {
+          "ar": "ميناء",
+          "es": "puerto",
+          "fa": "بندر",
+          "fr": "port",
+          "ja": "港",
+          "ko": "항구",
+          "vi": "cảng",
+          "zh-Hans": "港口",
+          "zh-Hant": "港口"
+         }
+        },
+        {
+         "word": "island",
+         "parts": [],
+         "root": "",
+         "meaning": "A land mass smaller than a continent that is surrounded by water.",
+         "example": "",
+         "tier": 3,
+         "translations": {
+          "ar": "جزيرة",
+          "es": "isla",
+          "fa": "جزیره",
+          "fr": "île",
+          "ja": "島",
+          "ko": "섬",
+          "vi": "hòn đảo",
+          "zh-Hans": "岛屿",
+          "zh-Hant": "島嶼"
+         }
+        },
+        {
+         "word": "isthmus",
+         "parts": [],
+         "root": "",
+         "meaning": "A relatively narrow strip of land with water on both sides connecting two larger land areas.",
+         "example": "",
+         "tier": 3,
+         "translations": {
+          "ar": "برزخ",
+          "es": "istmo",
+          "fa": "تنگه خشکی",
+          "fr": "isthme",
+          "ja": "地峡",
+          "ko": "지협",
+          "vi": "eo đất",
+          "zh-Hans": "地峡",
+          "zh-Hant": "地峽"
+         }
+        },
+        {
+         "word": "lowlands",
+         "parts": [],
+         "root": "",
+         "meaning": "The valleys and plains below a mountain range.",
+         "example": "",
+         "tier": 3,
+         "translations": {
+          "ar": "أراضٍ منخفضة",
+          "es": "tierras bajas",
+          "fa": "جلگه پست",
+          "fr": "basses terres",
+          "ja": "低地",
+          "ko": "저지대",
+          "vi": "vùng đất thấp",
+          "zh-Hans": "低地",
+          "zh-Hant": "低地"
+         }
+        },
+        {
+         "word": "mountain range",
+         "parts": [],
+         "root": "",
+         "meaning": "A series of hills or mountains.",
+         "example": "",
+         "tier": 3,
+         "translations": {
+          "ar": "سلسلة جبال",
+          "es": "cordillera",
+          "fa": "رشته‌کوه",
+          "fr": "chaîne de montagnes",
+          "ja": "山脈",
+          "ko": "산맥",
+          "vi": "dãy núi",
+          "zh-Hans": "山脉",
+          "zh-Hant": "山脈"
+         }
+        },
+        {
+         "word": "peninsula",
+         "parts": [
+          {
+           "surface": "pen",
+           "type": "prefix",
+           "meaning": "almost"
+          },
+          {
+           "surface": "insula",
+           "type": "root",
+           "meaning": "island"
+          }
+         ],
+         "root": "insula",
+         "meaning": "Land surrounded by water on three sides.",
+         "example": "",
+         "tier": 3,
+         "translations": {
+          "ar": "شبه جزيرة",
+          "es": "península",
+          "fa": "شبه‌جزیره",
+          "fr": "péninsule",
+          "ja": "半島",
+          "ko": "반도",
+          "vi": "bán đảo",
+          "zh-Hans": "半岛",
+          "zh-Hant": "半島"
+         }
+        },
+        {
+         "word": "permafrost",
+         "parts": [
+          {
+           "surface": "perma",
+           "type": "prefix",
+           "meaning": "lasting, permanent"
+          },
+          {
+           "surface": "frost",
+           "type": "root",
+           "meaning": "frozen ground"
+          }
+         ],
+         "root": "frost",
+         "meaning": "A permanently frozen layer of soil beneath the surface of the ground.",
+         "example": "",
+         "tier": 3,
+         "translations": {
+          "ar": "تربة صقيعية",
+          "es": "permafrost",
+          "fa": "یخ‌زده دائمی",
+          "fr": "pergélisol",
+          "ja": "永久凍土",
+          "ko": "영구동토",
+          "vi": "đất đóng băng vĩnh cửu",
+          "zh-Hans": "永久冻土",
+          "zh-Hant": "永凍層"
+         }
+        },
+        {
+         "word": "plain",
+         "parts": [],
+         "root": "",
+         "meaning": "An area of level land, usually at low elevation and often covered with grasses.",
+         "example": "",
+         "tier": 3,
+         "translations": {
+          "ar": "سهل",
+          "es": "llanura",
+          "fa": "دشت",
+          "fr": "plaine",
+          "ja": "平原",
+          "ko": "평원",
+          "vi": "đồng bằng",
+          "zh-Hans": "平原",
+          "zh-Hant": "平原"
+         }
+        },
+        {
+         "word": "plateau",
+         "parts": [],
+         "root": "",
+         "meaning": "A landform that has high elevation and a flat surface.",
+         "example": "",
+         "tier": 3,
+         "translations": {
+          "ar": "هضبة",
+          "es": "meseta",
+          "fa": "فلات",
+          "fr": "plateau",
+          "ja": "高原",
+          "ko": "고원",
+          "vi": "cao nguyên",
+          "zh-Hans": "高原",
+          "zh-Hant": "高原"
+         }
+        },
+        {
+         "word": "prairie",
+         "parts": [],
+         "root": "",
+         "meaning": "A large area of level or rolling land with grass but few or no trees.",
+         "example": "",
+         "tier": 3,
+         "translations": {
+          "ar": "براري",
+          "es": "pradera",
+          "fa": "علفزار",
+          "fr": "prairie",
+          "ja": "大草原",
+          "ko": "대초원",
+          "vi": "thảo nguyên",
+          "zh-Hans": "大草原",
+          "zh-Hant": "大草原"
+         }
+        },
+        {
+         "word": "sea",
+         "parts": [],
+         "root": "",
+         "meaning": "A division of an ocean or a large body of salt water partially enclosed by land.",
+         "example": "",
+         "tier": 3,
+         "translations": {
+          "ar": "بحر",
+          "es": "mar",
+          "fa": "دریا",
+          "fr": "mer",
+          "ja": "海",
+          "ko": "바다",
+          "vi": "biển",
+          "zh-Hans": "海",
+          "zh-Hant": "海"
+         }
+        },
+        {
+         "word": "strait",
+         "parts": [],
+         "root": "",
+         "meaning": "A narrow channel of the sea joining two larger bodies of water.",
+         "example": "",
+         "tier": 3,
+         "translations": {
+          "ar": "مضيق",
+          "es": "estrecho",
+          "fa": "تنگه",
+          "fr": "détroit",
+          "ja": "海峡",
+          "ko": "해협",
+          "vi": "eo biển",
+          "zh-Hans": "海峡",
+          "zh-Hant": "海峽"
+         }
+        },
+        {
+         "word": "tundra",
+         "parts": [],
+         "root": "",
+         "meaning": "A vast, flat, treeless Arctic region in which the subsoil is permanently frozen.",
+         "example": "",
+         "tier": 3,
+         "translations": {
+          "ar": "تندرا",
+          "es": "tundra",
+          "fa": "توندرا",
+          "fr": "toundra",
+          "ja": "ツンドラ",
+          "ko": "툰드라",
+          "vi": "lãnh nguyên",
+          "zh-Hans": "苔原",
+          "zh-Hant": "苔原"
+         }
+        },
+        {
+         "word": "valley",
+         "parts": [],
+         "root": "",
+         "meaning": "Low land between hills or mountains.",
+         "example": "",
+         "tier": 3,
+         "translations": {
+          "ar": "وادٍ",
+          "es": "valle",
+          "fa": "دره",
+          "fr": "vallée",
+          "ja": "谷",
+          "ko": "계곡",
+          "vi": "thung lũng",
+          "zh-Hans": "山谷",
+          "zh-Hant": "山谷"
+         }
+        },
+        {
+         "word": "volcano",
+         "parts": [],
+         "root": "",
+         "meaning": "A mountain formed by volcanic material.",
+         "example": "",
+         "tier": 3,
+         "translations": {
+          "ar": "بركان",
+          "es": "volcán",
+          "fa": "آتشفشان",
+          "fr": "volcan",
+          "ja": "火山",
+          "ko": "화산",
+          "vi": "núi lửa",
+          "zh-Hans": "火山",
+          "zh-Hant": "火山"
+         }
+        }
+       ],
+       "path": "year-7/humanities-civics/geography-landforms"
+      }
+     ],
+     "folders": [
+      {
+       "id": "geography",
+       "name": "Geography",
+       "subtitle": "Water in the World, and Landscapes & landforms.",
+       "unitIds": [
+        "water-natural-resources",
+        "water-uses",
+        "water-hazards",
+        "geography-landforms"
+       ],
+       "sourceLabel": "Open Geography on the Humanities site",
+       "sourceUrl": "https://liaminhawai-cmd.github.io/Year-7-Humanities-Pages/geography/"
+      },
+      {
+       "id": "history",
+       "name": "History",
+       "subtitle": "The words you need to analyse any source.",
+       "unitIds": [
+        "source-analysis"
+       ],
+       "sourceLabel": "Open History on the Humanities site",
+       "sourceUrl": "https://liaminhawai-cmd.github.io/Year-7-Humanities-Pages/history/"
+      },
+      {
+       "id": "civics",
+       "name": "Civics & Citizenship",
+       "subtitle": "Government, democracy and the law.",
+       "unitIds": [
+        "civics"
+       ],
+       "sourceLabel": "Open the Humanities site",
+       "sourceUrl": "https://liaminhawai-cmd.github.io/Year-7-Humanities-Pages/civics/"
       }
      ]
     }
