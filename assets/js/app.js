@@ -577,6 +577,9 @@ function unitCard(unit) {
       progress ? `${done}/${unit.words.length} · ${PROGRESS_LABEL[progress.status]}` : `${done}/${unit.words.length} started`));
 }
 
+// "3 topics", "1 topic" — a folder holding a single topic should not say "1 topics".
+function topicCount(n) { return `${n} ${n === 1 ? 'topic' : 'topics'}`; }
+
 function folderCard(level, subject, folder) {
   const units = folderUnits(subject, folder);
   const progress = folderProgress(units);
@@ -586,11 +589,11 @@ function folderCard(level, subject, folder) {
     h('div', { class: 'card-tag' }, 'Subject folder'),
     h('h3', {}, h('span', { class: 'folder-icon', 'aria-hidden': 'true' }, '▰'), folder.name),
     h('p', { class: 'muted' }, folder.subtitle || ''),
-    h('p', { class: 'card-meta' }, `${units.length} stanzas · ${progress.totalWords} word entries`),
+    h('p', { class: 'card-meta' }, `${topicCount(units.length)} · ${progress.totalWords} words`),
     h('div', { class: 'progress' }, h('div', { class: 'progress-fill', style: `width:${pct}%` })),
     h('p', { class: 'muted small' }, progress.startedUnits
-      ? `${progress.startedUnits}/${units.length} stanzas started${progress.masteredUnits ? ` · ${progress.masteredUnits} mastered` : ''}`
-      : 'Open the folder to choose a stanza'));
+      ? `${progress.startedUnits}/${units.length} started${progress.masteredUnits ? ` · ${progress.masteredUnits} mastered` : ''}`
+      : 'Open the folder to choose a topic'));
 }
 
 function renderSubject({ levelId, subjectId }) {
@@ -636,14 +639,14 @@ function renderFolder({ levelId, subjectId, folderId }) {
         h('h1', {}, folder.name),
         h('p', { class: 'muted' }, folder.subtitle || ''))),
     h('p', { class: 'folder-summary muted small' },
-      `${units.length} stanzas · ${progress.totalWords} word entries · choose a stanza to study and build`),
+      `${topicCount(units.length)} · ${progress.totalWords} words · choose a topic to study and build`),
     h('div', { class: 'toolbar' },
       folder.sourceUrl && h('a', { class: 'btn ghost', href: folder.sourceUrl,
         target: '_blank', rel: 'noopener' }, `${folder.sourceLabel || 'Read the source'} ↗`),
       h('a', { class: 'btn ghost', href: '#/pick' }, 'Revision drill')),
     units.length
       ? h('div', { class: 'grid' }, ...units.map(unitCard))
-      : h('div', { class: 'card done-card' }, h('p', { class: 'muted' }, 'No stanzas added yet.'))));
+      : h('div', { class: 'card done-card' }, h('p', { class: 'muted' }, 'No topics added yet.'))));
 }
 
 // ---------------------------------------------------------------------------
@@ -2739,13 +2742,45 @@ function buildNav() {
       h('a', { href: '#/account' }, 'Account')));
 }
 
+// The release this page belongs to, set by build.js. Everything version-stamped
+// below hangs off it, so one bumped number retires every stale copy at once.
+const BUILD = String(self.__BUILD__ || 'dev');
+const VOCAB_URL = 'data/vocab.json?v=' + BUILD;
+
+function registerWorker() {
+  if (!('serviceWorker' in navigator)) return;
+  // Register with the build number as a query param, so each release is a NEW
+  // worker URL the browser must fetch — this is what makes stubborn caches
+  // actually update. update() nudges an immediate check for a newer worker.
+  navigator.serviceWorker.register('sw.js?v=' + BUILD)
+    .then((reg) => { reg.update(); })
+    .catch(() => {});
+  // Only auto-reload when an EXISTING page's controller is replaced by a new
+  // worker (a real update) — never on the very first install (no controller
+  // yet), which would double-load the first visit.
+  if (!navigator.serviceWorker.controller) return;
+  let reloaded = false;
+  navigator.serviceWorker.addEventListener('controllerchange', () => {
+    if (reloaded) return;
+    reloaded = true;
+    location.reload();
+  });
+}
+
 async function boot() {
+  // First, before anything can block. This used to run at the end of boot(),
+  // behind the vocabulary fetch and the sign-in check, so a slow or hanging
+  // network call held up the very update that fixes a stale device.
+  registerWorker();
   const loadingDetail = document.getElementById('loading-detail');
   const slowMessage = setTimeout(() => {
     if (loadingDetail) loadingDetail.textContent = 'Still opening the vocabulary bank — a first visit can take a few seconds.';
   }, 1200);
   try {
-    const response = await fetch('data/vocab.json');
+    // Ask for the copy that belongs to THIS build. A cached copy from an older
+    // release sits under an older URL, so it can never be served in place of
+    // new words — the reason a device could sit on last week's vocabulary.
+    const response = await fetch(VOCAB_URL);
     if (!response.ok) throw new Error(`Vocabulary request failed (${response.status})`);
     DATA = await response.json();
   } catch (error) {
@@ -2792,26 +2827,6 @@ async function boot() {
   } catch (e) { console.warn('Supabase init skipped:', e); }
 
   router();
-  if ('serviceWorker' in navigator) {
-    // Register with the build number as a query param, so each release is a NEW
-    // worker URL the browser must fetch — this is what makes stubborn caches
-    // actually update. update() nudges an immediate check for a newer worker.
-    const v = self.__BUILD__ || '';
-    navigator.serviceWorker.register('sw.js?v=' + v)
-      .then((reg) => { reg.update(); })
-      .catch(() => {});
-    // Only auto-reload when an EXISTING page's controller is replaced by a new
-    // worker (a real update) — never on the very first install (no controller
-    // yet), which would double-load the first visit.
-    if (navigator.serviceWorker.controller) {
-      let reloaded = false;
-      navigator.serviceWorker.addEventListener('controllerchange', () => {
-        if (reloaded) return;
-        reloaded = true;
-        location.reload();
-      });
-    }
-  }
 }
 
 boot();
