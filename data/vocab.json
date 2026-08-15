@@ -239863,6 +239863,535 @@
         }
        ],
        "path": "year-7/humanities-civics/history-china"
+      },
+      {
+       "id": "history-rome",
+       "name": "Ancient Rome — the guidebook CAT",
+       "interactive": true,
+       "words": [
+        {
+         "word": "chronology",
+         "parts": [
+          {
+           "surface": "chrono",
+           "type": "root",
+           "meaning": "time"
+          },
+          {
+           "surface": "logy",
+           "type": "suffix",
+           "meaning": "study of"
+          }
+         ],
+         "root": "chrono",
+         "meaning": "The order in which things happened.",
+         "example": "",
+         "tier": 3,
+         "translations": {
+          "ar": "التسلسل الزمني",
+          "es": "cronología",
+          "fa": "گاه‌شماری",
+          "fr": "chronologie",
+          "ja": "年代順",
+          "ko": "연대순",
+          "vi": "niên biểu",
+          "zh-Hans": "年代顺序",
+          "zh-Hant": "年代順序"
+         }
+        },
+        {
+         "word": "chronological framework",
+         "parts": [
+          {
+           "surface": "chrono",
+           "type": "root",
+           "meaning": "time"
+          },
+          {
+           "surface": "log",
+           "type": "root",
+           "meaning": "order"
+          },
+          {
+           "surface": "ical",
+           "type": "suffix",
+           "meaning": "to do with"
+          }
+         ],
+         "root": "chrono",
+         "meaning": "A way of organising time using periods and dates.",
+         "example": "",
+         "tier": 3,
+         "translations": {
+          "ar": "إطار زمني",
+          "es": "marco cronológico",
+          "fa": "چارچوب زمانی",
+          "fr": "cadre chronologique",
+          "ja": "年代の枠組み",
+          "ko": "연대 체계",
+          "vi": "khung niên đại",
+          "zh-Hans": "年代框架",
+          "zh-Hant": "年代框架"
+         }
+        },
+        {
+         "word": "dating conventions",
+         "parts": [],
+         "root": "",
+         "meaning": "The agreed ways of writing dates, such as BCE and CE.",
+         "example": "",
+         "tier": 3,
+         "translations": {
+          "ar": "أعراف التأريخ",
+          "es": "convenciones de fechas",
+          "fa": "قراردادهای تاریخ‌گذاری",
+          "fr": "conventions de datation",
+          "ja": "年代表記の約束",
+          "ko": "연대 표기법",
+          "vi": "quy ước ghi niên đại",
+          "zh-Hans": "纪年方式",
+          "zh-Hant": "紀年方式"
+         }
+        },
+        {
+         "word": "BCE",
+         "parts": [],
+         "root": "",
+         "meaning": "Before Common Era — years counted backwards from year one.",
+         "example": "",
+         "tier": 3,
+         "translations": {
+          "ar": "قبل الميلاد",
+          "es": "a.e.c.",
+          "fa": "پیش از میلاد",
+          "fr": "av. J.-C.",
+          "ja": "紀元前",
+          "ko": "기원전",
+          "vi": "trước Công nguyên",
+          "zh-Hans": "公元前",
+          "zh-Hant": "西元前"
+         }
+        },
+        {
+         "word": "CE",
+         "parts": [],
+         "root": "",
+         "meaning": "Common Era — years counted forwards from year one.",
+         "example": "",
+         "tier": 3,
+         "translations": {
+          "ar": "ميلادي",
+          "es": "e.c.",
+          "fa": "میلادی",
+          "fr": "apr. J.-C.",
+          "ja": "紀元後",
+          "ko": "기원후",
+          "vi": "Công nguyên",
+          "zh-Hans": "公元",
+          "zh-Hant": "西元"
+         }
+        },
+        {
+         "word": "period",
+         "parts": [],
+         "root": "",
+         "meaning": "A named stretch of time, such as the Republic.",
+         "example": "",
+         "tier": 3,
+         "translations": {
+          "ar": "حقبة",
+          "es": "periodo",
+          "fa": "دوره",
+          "fr": "période",
+          "ja": "時代",
+          "ko": "시대",
+          "vi": "thời kỳ",
+          "zh-Hans": "时期",
+          "zh-Hant": "時期"
+         }
+        },
+        {
+         "word": "duration",
+         "parts": [],
+         "root": "",
+         "meaning": "How long something lasted.",
+         "example": "",
+         "tier": 3,
+         "translations": {
+          "ar": "مدة",
+          "es": "duración",
+          "fa": "مدت",
+          "fr": "durée",
+          "ja": "継続期間",
+          "ko": "지속 기간",
+          "vi": "khoảng thời gian",
+          "zh-Hans": "持续时间",
+          "zh-Hant": "持續時間"
+         }
+        },
+        {
+         "word": "cause",
+         "parts": [],
+         "root": "",
+         "meaning": "The reason something happened.",
+         "example": "",
+         "tier": 3,
+         "translations": {
+          "ar": "سبب",
+          "es": "causa",
+          "fa": "علت",
+          "fr": "cause",
+          "ja": "原因",
+          "ko": "원인",
+          "vi": "nguyên nhân",
+          "zh-Hans": "原因",
+          "zh-Hant": "原因"
+         }
+        },
+        {
+         "word": "effect",
+         "parts": [],
+         "root": "",
+         "meaning": "What happened as a result.",
+         "example": "",
+         "tier": 3,
+         "translations": {
+          "ar": "أثر",
+          "es": "efecto",
+          "fa": "اثر",
+          "fr": "effet",
+          "ja": "結果",
+          "ko": "결과",
+          "vi": "kết quả",
+          "zh-Hans": "结果",
+          "zh-Hant": "結果"
+         }
+        },
+        {
+         "word": "motive",
+         "parts": [],
+         "root": "",
+         "meaning": "The reason a person chose to act.",
+         "example": "",
+         "tier": 3,
+         "translations": {
+          "ar": "دافع",
+          "es": "motivo",
+          "fa": "انگیزه",
+          "fr": "motif",
+          "ja": "動機",
+          "ko": "동기",
+          "vi": "động cơ",
+          "zh-Hans": "动机",
+          "zh-Hant": "動機"
+         }
+        },
+        {
+         "word": "metacognition",
+         "parts": [
+          {
+           "surface": "meta",
+           "type": "prefix",
+           "meaning": "about itself"
+          },
+          {
+           "surface": "cogn",
+           "type": "root",
+           "meaning": "know"
+          },
+          {
+           "surface": "ition",
+           "type": "suffix",
+           "meaning": "the act of"
+          }
+         ],
+         "root": "cogn",
+         "meaning": "Thinking about how you are learning, and changing it if it is not working.",
+         "example": "",
+         "tier": 3,
+         "translations": {
+          "ar": "ما وراء المعرفة",
+          "es": "metacognición",
+          "fa": "فراشناخت",
+          "fr": "métacognition",
+          "ja": "メタ認知",
+          "ko": "메타인지",
+          "vi": "siêu nhận thức",
+          "zh-Hans": "元认知",
+          "zh-Hant": "後設認知"
+         }
+        },
+        {
+         "word": "paraphrase",
+         "parts": [
+          {
+           "surface": "para",
+           "type": "prefix",
+           "meaning": "beside"
+          },
+          {
+           "surface": "phrase",
+           "type": "root",
+           "meaning": "way of saying"
+          }
+         ],
+         "root": "phrase",
+         "meaning": "Put something into your own words.",
+         "example": "",
+         "tier": 3,
+         "translations": {
+          "ar": "إعادة صياغة",
+          "es": "parafrasear",
+          "fa": "بازگویی",
+          "fr": "paraphraser",
+          "ja": "言い換える",
+          "ko": "바꾸어 말하기",
+          "vi": "diễn giải lại",
+          "zh-Hans": "改述",
+          "zh-Hant": "改寫"
+         }
+        },
+        {
+         "word": "summarise",
+         "parts": [],
+         "root": "",
+         "meaning": "Give the main points briefly.",
+         "example": "",
+         "tier": 3,
+         "translations": {
+          "ar": "يلخّص",
+          "es": "resumir",
+          "fa": "خلاصه کردن",
+          "fr": "résumer",
+          "ja": "要約する",
+          "ko": "요약하다",
+          "vi": "tóm tắt",
+          "zh-Hans": "概括",
+          "zh-Hant": "摘要"
+         }
+        },
+        {
+         "word": "regal period",
+         "parts": [],
+         "root": "",
+         "meaning": "The time when Rome was ruled by kings, to 509 BCE.",
+         "example": "",
+         "tier": 3,
+         "translations": {
+          "ar": "العصر الملكي",
+          "es": "periodo monárquico",
+          "fa": "دوره پادشاهی",
+          "fr": "période royale",
+          "ja": "王政期",
+          "ko": "왕정기",
+          "vi": "thời kỳ quân chủ",
+          "zh-Hans": "王政时期",
+          "zh-Hant": "王政時期"
+         }
+        },
+        {
+         "word": "Republic",
+         "parts": [],
+         "root": "",
+         "meaning": "The time when Rome was ruled by elected officials, 509 to 27 BCE.",
+         "example": "",
+         "tier": 3,
+         "translations": {
+          "ar": "الجمهورية",
+          "es": "República",
+          "fa": "جمهوری",
+          "fr": "République",
+          "ja": "共和政",
+          "ko": "공화정",
+          "vi": "Cộng hòa",
+          "zh-Hans": "共和国",
+          "zh-Hant": "共和國"
+         }
+        },
+        {
+         "word": "imperial period",
+         "parts": [],
+         "root": "",
+         "meaning": "The time when Rome was ruled by emperors, from 27 BCE.",
+         "example": "",
+         "tier": 3,
+         "translations": {
+          "ar": "العصر الإمبراطوري",
+          "es": "periodo imperial",
+          "fa": "دوره امپراتوری",
+          "fr": "période impériale",
+          "ja": "帝政期",
+          "ko": "제정기",
+          "vi": "thời kỳ đế chế",
+          "zh-Hans": "帝国时期",
+          "zh-Hant": "帝國時期"
+         }
+        },
+        {
+         "word": "patrician",
+         "parts": [],
+         "root": "",
+         "meaning": "A Roman from one of the old wealthy families.",
+         "example": "",
+         "tier": 3,
+         "translations": {
+          "ar": "من طبقة النبلاء",
+          "es": "patricio",
+          "fa": "پاتریسین",
+          "fr": "patricien",
+          "ja": "パトリキ",
+          "ko": "귀족",
+          "vi": "quý tộc La Mã",
+          "zh-Hans": "贵族",
+          "zh-Hant": "貴族"
+         }
+        },
+        {
+         "word": "plebeian",
+         "parts": [],
+         "root": "",
+         "meaning": "An ordinary Roman citizen, not from a noble family.",
+         "example": "",
+         "tier": 3,
+         "translations": {
+          "ar": "من عامة الشعب",
+          "es": "plebeyo",
+          "fa": "پلبین",
+          "fr": "plébéien",
+          "ja": "プレブス",
+          "ko": "평민",
+          "vi": "bình dân La Mã",
+          "zh-Hans": "平民",
+          "zh-Hant": "平民"
+         }
+        },
+        {
+         "word": "aqueduct",
+         "parts": [
+          {
+           "surface": "aqua",
+           "type": "root",
+           "meaning": "water"
+          },
+          {
+           "surface": "duct",
+           "type": "root",
+           "meaning": "lead, carry"
+          }
+         ],
+         "root": "duct",
+         "meaning": "A channel or bridge built to carry water into a city.",
+         "example": "",
+         "tier": 3,
+         "translations": {
+          "ar": "قناة مائية",
+          "es": "acueducto",
+          "fa": "آبراهه",
+          "fr": "aqueduc",
+          "ja": "水道橋",
+          "ko": "수도교",
+          "vi": "cầu dẫn nước",
+          "zh-Hans": "引水渠",
+          "zh-Hant": "引水道"
+         }
+        },
+        {
+         "word": "insula",
+         "parts": [],
+         "root": "",
+         "meaning": "A crowded apartment block where poorer Romans lived.",
+         "example": "",
+         "tier": 3,
+         "translations": {
+          "ar": "عمارة سكنية رومانية",
+          "es": "ínsula",
+          "fa": "اینسولا",
+          "fr": "insula",
+          "ja": "インスラ",
+          "ko": "인술라",
+          "vi": "chung cư La Mã",
+          "zh-Hans": "公寓楼",
+          "zh-Hant": "公寓樓"
+         }
+        },
+        {
+         "word": "domus",
+         "parts": [],
+         "root": "",
+         "meaning": "A private house built around a courtyard, for wealthy Romans.",
+         "example": "",
+         "tier": 3,
+         "translations": {
+          "ar": "بيت روماني فاخر",
+          "es": "domus",
+          "fa": "دوموس",
+          "fr": "domus",
+          "ja": "ドムス",
+          "ko": "도무스",
+          "vi": "biệt thự La Mã",
+          "zh-Hans": "庭院宅邸",
+          "zh-Hant": "庭院宅邸"
+         }
+        },
+        {
+         "word": "forum",
+         "parts": [],
+         "root": "",
+         "meaning": "The public square at the centre of a Roman city.",
+         "example": "",
+         "tier": 3,
+         "translations": {
+          "ar": "الساحة العامة",
+          "es": "foro",
+          "fa": "فوروم",
+          "fr": "forum",
+          "ja": "フォルム",
+          "ko": "포룸",
+          "vi": "quảng trường",
+          "zh-Hans": "广场",
+          "zh-Hant": "廣場"
+         }
+        },
+        {
+         "word": "denarius",
+         "parts": [],
+         "root": "",
+         "meaning": "A Roman silver coin.",
+         "example": "",
+         "tier": 3,
+         "translations": {
+          "ar": "دينار روماني",
+          "es": "denario",
+          "fa": "دیناریوس",
+          "fr": "denier",
+          "ja": "デナリウス",
+          "ko": "데나리우스",
+          "vi": "đồng denarius",
+          "zh-Hans": "第纳里乌斯",
+          "zh-Hant": "第納里烏斯"
+         }
+        },
+        {
+         "word": "Etruscans",
+         "parts": [],
+         "root": "",
+         "meaning": "The people of central Italy whose culture Rome borrowed from.",
+         "example": "",
+         "tier": 3,
+         "translations": {
+          "ar": "الإتروسكيون",
+          "es": "etruscos",
+          "fa": "اتروسک‌ها",
+          "fr": "Étrusques",
+          "ja": "エトルリア人",
+          "ko": "에트루리아인",
+          "vi": "người Etrusca",
+          "zh-Hans": "伊特鲁里亚人",
+          "zh-Hant": "伊特魯里亞人"
+         }
+        }
+       ],
+       "path": "year-7/humanities-civics/history-rome"
       }
      ],
      "folders": [
@@ -239882,9 +240411,10 @@
       {
        "id": "history",
        "name": "History",
-       "subtitle": "Source analysis, and the words for weighing Qin Shi Huang.",
+       "subtitle": "Source analysis, the guidebook to Rome, and weighing Qin Shi Huang.",
        "unitIds": [
         "source-analysis",
+        "history-rome",
         "history-china"
        ],
        "sourceLabel": "Open History on the Humanities site",
