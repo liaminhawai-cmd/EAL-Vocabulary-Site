@@ -230374,6 +230374,340 @@
      },
      "units": [
       {
+       "id": "history-gs73",
+       "name": "Ancient Australia — GS73",
+       "interactive": true,
+       "words": [
+        {
+         "word": "artefact",
+         "parts": [],
+         "root": "",
+         "meaning": "An object made or used by people in the past.",
+         "example": "",
+         "tier": 3,
+         "translations": {
+          "am": "ቅርስ",
+          "ar": "قطعة أثرية",
+          "es": "artefacto",
+          "fa": "شیء باستانی",
+          "fr": "artefact",
+          "hi": "कलाकृति",
+          "ja": "遺物",
+          "ko": "유물",
+          "ml": "പുരാവസ്തു",
+          "ps": "لرغونی توکی",
+          "ro": "artefact",
+          "ru": "артефакт",
+          "ta": "தொல்பொருள்",
+          "tl": "artepakto",
+          "ur": "نوادر",
+          "vi": "hiện vật",
+          "zh-Hans": "文物",
+          "zh-Hant": "文物"
+         }
+        },
+        {
+         "word": "grinding stone",
+         "parts": [],
+         "root": "",
+         "meaning": "A stone that people rub against another stone to crush seeds into flour.",
+         "example": "",
+         "tier": 3,
+         "translations": {
+          "zh-Hans": "石磨",
+          "zh-Hant": "石磨",
+          "vi": "đá nghiền",
+          "ar": "حجر طحن",
+          "fa": "سنگ آسیاب",
+          "ur": "پیسنے کا پتھر",
+          "ml": "അരയ്ക്കുന്ന കല്ല്",
+          "am": "መፍጫ ድንጋይ"
+         }
+        },
+        {
+         "word": "millstone",
+         "parts": [],
+         "root": "",
+         "meaning": "The lower, fixed stone of a grinding pair. The smaller stone is worked against it.",
+         "example": "",
+         "tier": 3,
+         "translations": {
+          "zh-Hans": "磨盘",
+          "zh-Hant": "磨盤",
+          "vi": "cối đá",
+          "ar": "حجر الرحى",
+          "fa": "سنگ آسیاب",
+          "ur": "چکی کا پاٹ",
+          "ml": "തിരികല്ല്",
+          "am": "የወፍጮ ድንጋይ"
+         }
+        },
+        {
+         "word": "excavated",
+         "parts": [],
+         "root": "",
+         "meaning": "Carefully dug out of the ground by archaeologists.",
+         "example": "",
+         "tier": 3,
+         "translations": {
+          "zh-Hans": "发掘出土",
+          "zh-Hant": "發掘出土",
+          "vi": "được khai quật",
+          "ar": "مُنقَّب عنه",
+          "fa": "کاوش‌شده",
+          "ur": "کھدائی سے نکالا گیا",
+          "ml": "ഖനനം ചെയ്തെടുത്ത",
+          "am": "የተቆፈረ"
+         }
+        },
+        {
+         "word": "Madjedbebe",
+         "parts": [],
+         "root": "",
+         "meaning": "A rock shelter in northern Australia where people have lived for tens of thousands of years.",
+         "example": "",
+         "tier": 3,
+         "translations": {
+          "zh-Hans": "马杰贝贝遗址",
+          "zh-Hant": "馬傑貝貝遺址",
+          "vi": "Madjedbebe (di chỉ)",
+          "ar": "مادجيدبيبي",
+          "fa": "مادجدبیبی",
+          "ur": "مادجدبیبی",
+          "ml": "മാഡ്ജെഡ്ബെബെ",
+          "am": "ማጅedቤቤ"
+         }
+        },
+        {
+         "word": "Mirarr",
+         "parts": [],
+         "root": "",
+         "meaning": "The Aboriginal people whose Country Madjedbebe sits on.",
+         "example": "",
+         "tier": 3,
+         "translations": {
+          "zh-Hans": "米拉尔族",
+          "zh-Hant": "米拉爾族",
+          "vi": "người Mirarr",
+          "ar": "الميرار",
+          "fa": "میرار",
+          "ur": "میرار",
+          "ml": "മിരാർ",
+          "am": "ሚራር"
+         }
+        },
+        {
+         "word": "Phase 2",
+         "parts": [],
+         "root": "",
+         "meaning": "The name archaeologists gave to one layer of soil at the site.",
+         "example": "",
+         "tier": 3,
+         "translations": {
+          "zh-Hans": "第二层",
+          "zh-Hant": "第二層",
+          "vi": "Lớp 2",
+          "ar": "الطبقة ٢",
+          "fa": "لایه ۲",
+          "ur": "تہہ ۲",
+          "ml": "ഘട്ടം 2",
+          "am": "ደረጃ 2"
+         }
+        },
+        {
+         "word": "sediment",
+         "parts": [],
+         "root": "",
+         "meaning": "Sand, soil and dust that settles in layers over time.",
+         "example": "",
+         "tier": 3,
+         "translations": {
+          "zh-Hans": "沉积物",
+          "zh-Hant": "沉積物",
+          "vi": "trầm tích",
+          "ar": "رواسب",
+          "fa": "رسوب",
+          "ur": "تلچھٹ",
+          "ml": "അവസാദം",
+          "am": "ደለል"
+         }
+        },
+        {
+         "word": "residues",
+         "parts": [],
+         "root": "",
+         "meaning": "Tiny traces of something left behind on a surface.",
+         "example": "",
+         "tier": 3,
+         "translations": {
+          "zh-Hans": "残留物",
+          "zh-Hant": "殘留物",
+          "vi": "cặn còn lại",
+          "ar": "بقايا",
+          "fa": "باقی‌مانده‌ها",
+          "ur": "باقیات",
+          "ml": "അവശിഷ്ടങ്ങൾ",
+          "am": "ቀሪዎች"
+         }
+        },
+        {
+         "word": "starch grains",
+         "parts": [],
+         "root": "",
+         "meaning": "Microscopic grains from a plant. Finding them shows plants were being processed.",
+         "example": "",
+         "tier": 3,
+         "translations": {
+          "zh-Hans": "淀粉粒",
+          "zh-Hant": "澱粉粒",
+          "vi": "hạt tinh bột",
+          "ar": "حبيبات نشا",
+          "fa": "دانه‌های نشاسته",
+          "ur": "نشاستے کے ذرات",
+          "ml": "അന്നജ കണികകൾ",
+          "am": "የስታርች ቅንጣቶች"
+         }
+        },
+        {
+         "word": "micrographs",
+         "parts": [],
+         "root": "",
+         "meaning": "Photographs taken through a microscope.",
+         "example": "",
+         "tier": 3,
+         "translations": {
+          "zh-Hans": "显微照片",
+          "zh-Hant": "顯微照片",
+          "vi": "ảnh hiển vi",
+          "ar": "صور مجهرية",
+          "fa": "ریزنگاره‌ها",
+          "ur": "خردبینی تصاویر",
+          "ml": "സൂക്ഷ്മചിത്രങ്ങൾ",
+          "am": "ማይክሮ ፎቶዎች"
+         }
+        },
+        {
+         "word": "archaeologists",
+         "parts": [],
+         "root": "",
+         "meaning": "People who study the past by digging up and examining what earlier people left behind.",
+         "example": "",
+         "tier": 3,
+         "translations": {
+          "zh-Hans": "考古学家",
+          "zh-Hant": "考古學家",
+          "vi": "nhà khảo cổ học",
+          "ar": "علماء الآثار",
+          "fa": "باستان‌شناسان",
+          "ur": "ماہرینِ آثارِ قدیمہ",
+          "ml": "പുരാവസ്തു ഗവേഷകർ",
+          "am": "አርኪኦሎጂስቶች"
+         }
+        },
+        {
+         "word": "chronology",
+         "parts": [],
+         "root": "",
+         "meaning": "The order and dates of when things happened.",
+         "example": "",
+         "tier": 3,
+         "translations": {
+          "am": "የጊዜ ቅደም ተከተል",
+          "ar": "التسلسل الزمني",
+          "es": "cronología",
+          "fa": "گاه‌شماری",
+          "fr": "chronologie",
+          "hi": "कालक्रम",
+          "ja": "年代順",
+          "ko": "연대순",
+          "ml": "കാലക്രമം",
+          "ps": "د وخت ترتیب",
+          "ro": "cronologie",
+          "ru": "хронология",
+          "ta": "காலவரிசை",
+          "tl": "pagkakasunod-sunod",
+          "ur": "زمانی ترتیب",
+          "vi": "trình tự thời gian",
+          "zh-Hans": "年代顺序",
+          "zh-Hant": "年代順序"
+         }
+        },
+        {
+         "word": "custodians",
+         "parts": [],
+         "root": "",
+         "meaning": "The people responsible for looking after Country and the knowledge belonging to it.",
+         "example": "",
+         "tier": 3,
+         "translations": {
+          "zh-Hans": "守护者",
+          "zh-Hant": "守護者",
+          "vi": "người gìn giữ",
+          "ar": "الأوصياء",
+          "fa": "نگهبانان",
+          "ur": "محافظین",
+          "ml": "സംരക്ഷകർ",
+          "am": "ጠባቂዎች"
+         }
+        },
+        {
+         "word": "contamination",
+         "parts": [],
+         "root": "",
+         "meaning": "Something modern getting into an old sample by accident.",
+         "example": "",
+         "tier": 3,
+         "translations": {
+          "zh-Hans": "污染",
+          "zh-Hant": "污染",
+          "vi": "sự nhiễm bẩn",
+          "ar": "تلوث",
+          "fa": "آلودگی",
+          "ur": "آلودگی",
+          "ml": "മലിനീകരണം",
+          "am": "ብክለት"
+         }
+        },
+        {
+         "word": "striations",
+         "parts": [],
+         "root": "",
+         "meaning": "Fine scratch lines left on a surface by rubbing.",
+         "example": "",
+         "tier": 3,
+         "translations": {
+          "zh-Hans": "擦痕",
+          "zh-Hant": "擦痕",
+          "vi": "vết xước",
+          "ar": "خدوش",
+          "fa": "خط‌های سایش",
+          "ur": "خراشیں",
+          "ml": "ചാലുകൾ",
+          "am": "ጭረቶች"
+         }
+        },
+        {
+         "word": "polish",
+         "parts": [],
+         "root": "",
+         "meaning": "A shine worn onto the raised parts of grains by using a stone over and over.",
+         "example": "",
+         "tier": 3,
+         "translations": {
+          "zh-Hans": "光泽",
+          "zh-Hant": "光澤",
+          "vi": "độ bóng",
+          "ar": "لمعان",
+          "fa": "براقی",
+          "ur": "چمک",
+          "ml": "മിനുസം",
+          "am": "አንጸባራቂነት"
+         }
+        }
+       ],
+       "path": "year-7/humanities-civics/history-gs73"
+      },
+      {
        "id": "source-analysis",
        "name": "Source analysis — the words you need",
        "interactive": true,
@@ -234245,6 +234579,34 @@
           "vi": "tư cách công dân",
           "zh-Hans": "公民身份",
           "zh-Hant": "公民身份"
+         }
+        },
+        {
+         "word": "sovereign state",
+         "parts": [],
+         "root": "",
+         "meaning": "A country with its own independent government.",
+         "example": "",
+         "tier": 3,
+         "translations": {
+          "ar": "دولة ذات سيادة",
+          "es": "estado soberano",
+          "fa": "دولت مستقل",
+          "fr": "état souverain",
+          "hi": "संप्रभु राज्य",
+          "ja": "主権国家",
+          "ko": "주권 국가",
+          "ml": "പരമാധികാര രാഷ്ട്രം",
+          "ps": "واکمن دولت",
+          "ro": "stat suveran",
+          "ru": "суверенное государство",
+          "ta": "இறையாண்மை கொண்ட நாடு",
+          "tl": "soberanong estado",
+          "ur": "خودمختار ریاست",
+          "vi": "quốc gia có chủ quyền",
+          "zh-Hans": "主权国家",
+          "zh-Hant": "主權國家",
+          "am": "ሉዓላዊ ሀገር"
          }
         }
        ],
@@ -240389,6 +240751,82 @@
           "zh-Hans": "伊特鲁里亚人",
           "zh-Hant": "伊特魯里亞人"
          }
+        },
+        {
+         "word": "emperor",
+         "parts": [],
+         "root": "",
+         "meaning": "The supreme ruler of an empire.",
+         "example": "",
+         "tier": 3,
+         "translations": {
+          "ar": "إمبراطور",
+          "es": "emperador",
+          "fa": "امپراتور",
+          "fr": "empereur",
+          "ja": "皇帝",
+          "ko": "황제",
+          "vi": "hoàng đế",
+          "zh-Hans": "皇帝",
+          "zh-Hant": "皇帝"
+         }
+        },
+        {
+         "word": "conquest",
+         "parts": [],
+         "root": "",
+         "meaning": "The act of conquering or taking control of a land or people.",
+         "example": "",
+         "tier": 3,
+         "translations": {
+          "ar": "غزو",
+          "es": "conquista",
+          "fa": "فتح",
+          "fr": "conquête",
+          "ja": "征服",
+          "ko": "정복",
+          "vi": "cuộc chinh phục",
+          "zh-Hans": "征服",
+          "zh-Hant": "征服"
+         }
+        },
+        {
+         "word": "province",
+         "parts": [],
+         "root": "",
+         "meaning": "A territory under the control of an empire or country.",
+         "example": "",
+         "tier": 3,
+         "translations": {
+          "ar": "مقاطعة",
+          "es": "provincia",
+          "fa": "استان",
+          "fr": "province",
+          "ja": "属州",
+          "ko": "속주",
+          "vi": "tỉnh",
+          "zh-Hans": "行省",
+          "zh-Hant": "行省"
+         }
+        },
+        {
+         "word": "cultural assimilation",
+         "parts": [],
+         "root": "",
+         "meaning": "The process of one culture adopting traits of another, often dominant, culture.",
+         "example": "",
+         "tier": 3,
+         "translations": {
+          "ar": "الاستيعاب الثقافي",
+          "es": "asimilación cultural",
+          "fa": "همانندسازی فرهنگی",
+          "fr": "assimilation culturelle",
+          "ja": "文化的同化",
+          "ko": "문화적 동화",
+          "vi": "sự đồng hóa văn hóa",
+          "zh-Hans": "文化同化",
+          "zh-Hant": "文化同化"
+         }
         }
        ],
        "path": "year-7/humanities-civics/history-rome"
@@ -240413,6 +240851,7 @@
        "name": "History",
        "subtitle": "Source analysis, the guidebook to Rome, and weighing Qin Shi Huang.",
        "unitIds": [
+        "history-gs73",
         "source-analysis",
         "history-rome",
         "history-china"
