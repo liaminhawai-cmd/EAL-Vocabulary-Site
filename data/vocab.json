@@ -239308,6 +239308,561 @@
         }
        ],
        "path": "year-7/humanities-civics/geography-landforms"
+      },
+      {
+       "id": "history-china",
+       "name": "Ancient China — weighing a source",
+       "interactive": true,
+       "words": [
+        {
+         "word": "primary source",
+         "parts": [],
+         "root": "",
+         "meaning": "Something made at the time by someone who was there.",
+         "example": "",
+         "tier": 3,
+         "translations": {
+          "ar": "مصدر أولي",
+          "es": "fuente primaria",
+          "fa": "منبع دست اول",
+          "fr": "source primaire",
+          "ja": "一次史料",
+          "ko": "1차 사료",
+          "vi": "nguồn sơ cấp",
+          "zh-Hans": "第一手史料",
+          "zh-Hant": "第一手史料"
+         }
+        },
+        {
+         "word": "secondary source",
+         "parts": [],
+         "root": "",
+         "meaning": "Something made later by someone explaining the past.",
+         "example": "",
+         "tier": 3,
+         "translations": {
+          "ar": "مصدر ثانوي",
+          "es": "fuente secundaria",
+          "fa": "منبع دست دوم",
+          "fr": "source secondaire",
+          "ja": "二次史料",
+          "ko": "2차 사료",
+          "vi": "nguồn thứ cấp",
+          "zh-Hans": "第二手史料",
+          "zh-Hant": "第二手史料"
+         }
+        },
+        {
+         "word": "origin",
+         "parts": [],
+         "root": "",
+         "meaning": "Where a source came from: who made it, when, and where.",
+         "example": "",
+         "tier": 3,
+         "translations": {
+          "ar": "الأصل",
+          "es": "origen",
+          "fa": "خاستگاه",
+          "fr": "origine",
+          "ja": "出所",
+          "ko": "출처",
+          "vi": "nguồn gốc",
+          "zh-Hans": "来源",
+          "zh-Hant": "來源"
+         }
+        },
+        {
+         "word": "purpose",
+         "parts": [],
+         "root": "",
+         "meaning": "The reason a source was made.",
+         "example": "",
+         "tier": 3,
+         "translations": {
+          "ar": "الغرض",
+          "es": "propósito",
+          "fa": "هدف",
+          "fr": "but",
+          "ja": "目的",
+          "ko": "목적",
+          "vi": "mục đích",
+          "zh-Hans": "目的",
+          "zh-Hant": "目的"
+         }
+        },
+        {
+         "word": "historical context",
+         "parts": [
+          {
+           "surface": "histor",
+           "type": "root",
+           "meaning": "the past"
+          },
+          {
+           "surface": "ical",
+           "type": "suffix",
+           "meaning": "to do with"
+          }
+         ],
+         "root": "histor",
+         "meaning": "What was happening at the time that helps explain the source.",
+         "example": "",
+         "tier": 3,
+         "translations": {
+          "ar": "السياق التاريخي",
+          "es": "contexto histórico",
+          "fa": "بستر تاریخی",
+          "fr": "contexte historique",
+          "ja": "歴史的背景",
+          "ko": "역사적 배경",
+          "vi": "bối cảnh lịch sử",
+          "zh-Hans": "历史背景",
+          "zh-Hant": "歷史背景"
+         }
+        },
+        {
+         "word": "perspective",
+         "parts": [
+          {
+           "surface": "per",
+           "type": "prefix",
+           "meaning": "through"
+          },
+          {
+           "surface": "spect",
+           "type": "root",
+           "meaning": "look"
+          },
+          {
+           "surface": "ive",
+           "type": "suffix",
+           "meaning": "tending to"
+          }
+         ],
+         "root": "spect",
+         "meaning": "How something looks from one person's or group's point of view.",
+         "example": "",
+         "tier": 3,
+         "translations": {
+          "ar": "وجهة نظر",
+          "es": "perspectiva",
+          "fa": "دیدگاه",
+          "fr": "perspective",
+          "ja": "視点",
+          "ko": "관점",
+          "vi": "góc nhìn",
+          "zh-Hans": "视角",
+          "zh-Hant": "觀點"
+         }
+        },
+        {
+         "word": "interpretation",
+         "parts": [
+          {
+           "surface": "inter",
+           "type": "prefix",
+           "meaning": "between"
+          },
+          {
+           "surface": "pret",
+           "type": "root",
+           "meaning": "explain"
+          },
+          {
+           "surface": "ation",
+           "type": "suffix",
+           "meaning": "the act of"
+          }
+         ],
+         "root": "pret",
+         "meaning": "A historian's explanation of what the past means.",
+         "example": "",
+         "tier": 3,
+         "translations": {
+          "ar": "تفسير",
+          "es": "interpretación",
+          "fa": "تفسیر",
+          "fr": "interprétation",
+          "ja": "解釈",
+          "ko": "해석",
+          "vi": "cách diễn giải",
+          "zh-Hans": "解读",
+          "zh-Hant": "詮釋"
+         }
+        },
+        {
+         "word": "contested",
+         "parts": [
+          {
+           "surface": "con",
+           "type": "prefix",
+           "meaning": "together"
+          },
+          {
+           "surface": "test",
+           "type": "root",
+           "meaning": "witness, challenge"
+          },
+          {
+           "surface": "ed",
+           "type": "suffix",
+           "meaning": "past"
+          }
+         ],
+         "root": "test",
+         "meaning": "Argued over, with people holding different views.",
+         "example": "",
+         "tier": 3,
+         "translations": {
+          "ar": "متنازع عليه",
+          "es": "discutido",
+          "fa": "مورد مناقشه",
+          "fr": "contesté",
+          "ja": "議論のある",
+          "ko": "논쟁적인",
+          "vi": "gây tranh cãi",
+          "zh-Hans": "有争议的",
+          "zh-Hant": "有爭議的"
+         }
+        },
+        {
+         "word": "reliability",
+         "parts": [
+          {
+           "surface": "rely",
+           "type": "root",
+           "meaning": "trust"
+          },
+          {
+           "surface": "ability",
+           "type": "suffix",
+           "meaning": "being able to"
+          }
+         ],
+         "root": "rely",
+         "meaning": "How much a source can be trusted.",
+         "example": "",
+         "tier": 3,
+         "translations": {
+          "ar": "الموثوقية",
+          "es": "fiabilidad",
+          "fa": "قابلیت اعتماد",
+          "fr": "fiabilité",
+          "ja": "信頼性",
+          "ko": "신뢰성",
+          "vi": "độ tin cậy",
+          "zh-Hans": "可靠性",
+          "zh-Hant": "可靠性"
+         }
+        },
+        {
+         "word": "usefulness",
+         "parts": [
+          {
+           "surface": "use",
+           "type": "root",
+           "meaning": "use"
+          },
+          {
+           "surface": "ful",
+           "type": "suffix",
+           "meaning": "full of"
+          },
+          {
+           "surface": "ness",
+           "type": "suffix",
+           "meaning": "the state of"
+          }
+         ],
+         "root": "use",
+         "meaning": "How much a source helps answer the question being asked.",
+         "example": "",
+         "tier": 3,
+         "translations": {
+          "ar": "الفائدة",
+          "es": "utilidad",
+          "fa": "سودمندی",
+          "fr": "utilité",
+          "ja": "有用性",
+          "ko": "유용성",
+          "vi": "tính hữu ích",
+          "zh-Hans": "有用性",
+          "zh-Hant": "有用性"
+         }
+        },
+        {
+         "word": "significance",
+         "parts": [
+          {
+           "surface": "signi",
+           "type": "root",
+           "meaning": "sign, mark"
+          },
+          {
+           "surface": "fic",
+           "type": "root",
+           "meaning": "make"
+          },
+          {
+           "surface": "ance",
+           "type": "suffix",
+           "meaning": "the state of"
+          }
+         ],
+         "root": "signi",
+         "meaning": "How important something was, at the time and afterwards.",
+         "example": "",
+         "tier": 3,
+         "translations": {
+          "ar": "الأهمية",
+          "es": "importancia",
+          "fa": "اهمیت",
+          "fr": "importance",
+          "ja": "重要性",
+          "ko": "중요성",
+          "vi": "tầm quan trọng",
+          "zh-Hans": "重要性",
+          "zh-Hant": "重要性"
+         }
+        },
+        {
+         "word": "legacy",
+         "parts": [],
+         "root": "",
+         "meaning": "What is left behind and still matters long after.",
+         "example": "",
+         "tier": 3,
+         "translations": {
+          "ar": "إرث",
+          "es": "legado",
+          "fa": "میراث",
+          "fr": "héritage",
+          "ja": "遺産",
+          "ko": "유산",
+          "vi": "di sản",
+          "zh-Hans": "遗产",
+          "zh-Hant": "遺緒"
+         }
+        },
+        {
+         "word": "unify",
+         "parts": [
+          {
+           "surface": "uni",
+           "type": "prefix",
+           "meaning": "one"
+          },
+          {
+           "surface": "fy",
+           "type": "suffix",
+           "meaning": "to make"
+          }
+         ],
+         "root": "uni",
+         "meaning": "To make separate things into one.",
+         "example": "",
+         "tier": 3,
+         "translations": {
+          "ar": "يوحّد",
+          "es": "unificar",
+          "fa": "یکپارچه کردن",
+          "fr": "unifier",
+          "ja": "統一する",
+          "ko": "통일하다",
+          "vi": "thống nhất",
+          "zh-Hans": "统一",
+          "zh-Hant": "統一"
+         }
+        },
+        {
+         "word": "centralised",
+         "parts": [
+          {
+           "surface": "centr",
+           "type": "root",
+           "meaning": "centre"
+          },
+          {
+           "surface": "al",
+           "type": "suffix",
+           "meaning": "to do with"
+          },
+          {
+           "surface": "ised",
+           "type": "suffix",
+           "meaning": "made into"
+          }
+         ],
+         "root": "centr",
+         "meaning": "Run from one place, by one government.",
+         "example": "",
+         "tier": 3,
+         "translations": {
+          "ar": "مركزي",
+          "es": "centralizado",
+          "fa": "متمرکز",
+          "fr": "centralisé",
+          "ja": "中央集権的な",
+          "ko": "중앙집권적인",
+          "vi": "tập quyền",
+          "zh-Hans": "中央集权的",
+          "zh-Hant": "中央集權的"
+         }
+        },
+        {
+         "word": "bureaucratic",
+         "parts": [
+          {
+           "surface": "bureau",
+           "type": "root",
+           "meaning": "office"
+          },
+          {
+           "surface": "crat",
+           "type": "root",
+           "meaning": "rule, power"
+          },
+          {
+           "surface": "ic",
+           "type": "suffix",
+           "meaning": "to do with"
+          }
+         ],
+         "root": "crat",
+         "meaning": "Run by trained officials following set rules.",
+         "example": "",
+         "tier": 3,
+         "translations": {
+          "ar": "بيروقراطي",
+          "es": "burocrático",
+          "fa": "دیوان‌سالار",
+          "fr": "bureaucratique",
+          "ja": "官僚的な",
+          "ko": "관료적인",
+          "vi": "quan liêu",
+          "zh-Hans": "官僚的",
+          "zh-Hant": "官僚的"
+         }
+        },
+        {
+         "word": "dynasty",
+         "parts": [],
+         "root": "",
+         "meaning": "A line of rulers from the same family.",
+         "example": "",
+         "tier": 3,
+         "translations": {
+          "ar": "سلالة حاكمة",
+          "es": "dinastía",
+          "fa": "سلسله",
+          "fr": "dynastie",
+          "ja": "王朝",
+          "ko": "왕조",
+          "vi": "triều đại",
+          "zh-Hans": "朝代",
+          "zh-Hant": "朝代"
+         }
+        },
+        {
+         "word": "standardisation",
+         "parts": [
+          {
+           "surface": "standard",
+           "type": "root",
+           "meaning": "agreed measure"
+          },
+          {
+           "surface": "isation",
+           "type": "suffix",
+           "meaning": "the act of making"
+          }
+         ],
+         "root": "standard",
+         "meaning": "Making everything follow the same system.",
+         "example": "",
+         "tier": 3,
+         "translations": {
+          "ar": "توحيد المعايير",
+          "es": "estandarización",
+          "fa": "استانداردسازی",
+          "fr": "normalisation",
+          "ja": "標準化",
+          "ko": "표준화",
+          "vi": "sự chuẩn hóa",
+          "zh-Hans": "标准化",
+          "zh-Hant": "標準化"
+         }
+        },
+        {
+         "word": "forced labour",
+         "parts": [],
+         "root": "",
+         "meaning": "Work people are made to do without choice or pay.",
+         "example": "",
+         "tier": 3,
+         "translations": {
+          "ar": "العمل القسري",
+          "es": "trabajo forzado",
+          "fa": "کار اجباری",
+          "fr": "travail forcé",
+          "ja": "強制労働",
+          "ko": "강제 노동",
+          "vi": "lao động cưỡng bức",
+          "zh-Hans": "强制劳动",
+          "zh-Hant": "強迫勞動"
+         }
+        },
+        {
+         "word": "scholar",
+         "parts": [],
+         "root": "",
+         "meaning": "Someone whose work is studying and learning.",
+         "example": "",
+         "tier": 3,
+         "translations": {
+          "ar": "عالم",
+          "es": "erudito",
+          "fa": "دانشمند",
+          "fr": "savant",
+          "ja": "学者",
+          "ko": "학자",
+          "vi": "học giả",
+          "zh-Hans": "学者",
+          "zh-Hant": "學者"
+         }
+        },
+        {
+         "word": "terracotta",
+         "parts": [
+          {
+           "surface": "terra",
+           "type": "root",
+           "meaning": "earth"
+          },
+          {
+           "surface": "cotta",
+           "type": "root",
+           "meaning": "baked"
+          }
+         ],
+         "root": "terra",
+         "meaning": "Baked clay, the material the buried army is made from.",
+         "example": "",
+         "tier": 3,
+         "translations": {
+          "ar": "طين محروق",
+          "es": "terracota",
+          "fa": "سفال پخته",
+          "fr": "terre cuite",
+          "ja": "テラコッタ",
+          "ko": "테라코타",
+          "vi": "đất nung",
+          "zh-Hans": "陶土",
+          "zh-Hant": "陶土"
+         }
+        }
+       ],
+       "path": "year-7/humanities-civics/history-china"
       }
      ],
      "folders": [
@@ -239327,9 +239882,10 @@
       {
        "id": "history",
        "name": "History",
-       "subtitle": "The words you need to analyse any source.",
+       "subtitle": "Source analysis, and the words for weighing Qin Shi Huang.",
        "unitIds": [
-        "source-analysis"
+        "source-analysis",
+        "history-china"
        ],
        "sourceLabel": "Open History on the Humanities site",
        "sourceUrl": "https://liaminhawai-cmd.github.io/Year-7-Humanities-Pages/history/"
