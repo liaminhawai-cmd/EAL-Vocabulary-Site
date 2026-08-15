@@ -240835,7 +240835,7 @@
       },
       {
        "id": "history-rome",
-       "name": "Ancient Rome — the guidebook CAT",
+       "name": "Ancient Rome — chronology, cause, continuity",
        "interactive": true,
        "words": [
         {
@@ -241117,106 +241117,6 @@
           "vi": "động cơ",
           "zh-Hans": "动机",
           "zh-Hant": "動機"
-         }
-        },
-        {
-         "word": "metacognition",
-         "parts": [
-          {
-           "surface": "meta",
-           "type": "prefix",
-           "meaning": "about itself"
-          },
-          {
-           "surface": "cogn",
-           "type": "root",
-           "meaning": "know"
-          },
-          {
-           "surface": "ition",
-           "type": "suffix",
-           "meaning": "the act of"
-          }
-         ],
-         "root": "cogn",
-         "meaning": "Thinking about how you are learning, and changing it if it is not working.",
-         "example": "",
-         "tier": 3,
-         "translations": {
-          "ar": "ما وراء المعرفة",
-          "es": "metacognición",
-          "fa": "فراشناخت",
-          "fr": "métacognition",
-          "ja": "メタ認知",
-          "ko": "메타인지",
-          "vi": "siêu nhận thức",
-          "zh-Hans": "元认知",
-          "zh-Hant": "後設認知"
-         }
-        },
-        {
-         "word": "paraphrase",
-         "parts": [
-          {
-           "surface": "para",
-           "type": "prefix",
-           "meaning": "beside"
-          },
-          {
-           "surface": "phrase",
-           "type": "root",
-           "meaning": "way of saying"
-          }
-         ],
-         "root": "phrase",
-         "meaning": "Put something into your own words.",
-         "example": "",
-         "tier": 3,
-         "translations": {
-          "ar": "إعادة صياغة",
-          "es": "parafrasear",
-          "fa": "بازگویی",
-          "fr": "paraphraser",
-          "ja": "言い換える",
-          "ko": "바꾸어 말하기",
-          "vi": "diễn giải lại",
-          "zh-Hans": "改述",
-          "zh-Hant": "改寫"
-         }
-        },
-        {
-         "word": "summarise",
-         "parts": [
-          {
-           "surface": "summ",
-           "type": "root",
-           "meaning": "the whole, total"
-          },
-          {
-           "surface": "ar",
-           "type": "suffix",
-           "meaning": "to do with"
-          },
-          {
-           "surface": "ise",
-           "type": "suffix",
-           "meaning": "to make"
-          }
-         ],
-         "root": "summ",
-         "meaning": "Give the main points briefly.",
-         "example": "",
-         "tier": 3,
-         "translations": {
-          "ar": "يلخّص",
-          "es": "resumir",
-          "fa": "خلاصه کردن",
-          "fr": "résumer",
-          "ja": "要約する",
-          "ko": "요약하다",
-          "vi": "tóm tắt",
-          "zh-Hans": "概括",
-          "zh-Hant": "摘要"
          }
         },
         {
@@ -241591,6 +241491,153 @@
           "zh-Hans": "文化同化",
           "zh-Hant": "文化同化"
          }
+        },
+        {
+         "word": "continuity",
+         "parts": [
+          {
+           "surface": "contin",
+           "type": "root",
+           "meaning": "hold together, go on"
+          },
+          {
+           "surface": "uity",
+           "type": "suffix",
+           "meaning": "the state of"
+          }
+         ],
+         "root": "contin",
+         "meaning": "Something that stays the same over a long time.",
+         "example": "",
+         "tier": 3,
+         "translations": {
+          "ar": "استمرارية",
+          "es": "continuidad",
+          "fa": "تداوم",
+          "fr": "continuité",
+          "ja": "継続",
+          "ko": "지속성",
+          "vi": "tính liên tục",
+          "zh-Hans": "延续",
+          "zh-Hant": "延續"
+         }
+        },
+        {
+         "word": "change",
+         "parts": [],
+         "root": "",
+         "meaning": "Something that becomes different over time.",
+         "example": "",
+         "tier": 3,
+         "translations": {
+          "ar": "تغيّر",
+          "es": "cambio",
+          "fa": "تغییر",
+          "fr": "changement",
+          "ja": "変化",
+          "ko": "변화",
+          "vi": "sự thay đổi",
+          "zh-Hans": "变化",
+          "zh-Hant": "變化"
+         }
+        },
+        {
+         "word": "pattern",
+         "parts": [],
+         "root": "",
+         "meaning": "Something that happens repeatedly, in a way you can describe.",
+         "example": "",
+         "tier": 3,
+         "translations": {
+          "ar": "نمط",
+          "es": "patrón",
+          "fa": "الگو",
+          "fr": "tendance",
+          "ja": "パターン",
+          "ko": "양상",
+          "vi": "khuôn mẫu",
+          "zh-Hans": "模式",
+          "zh-Hant": "模式"
+         }
+        },
+        {
+         "word": "political",
+         "parts": [
+          {
+           "surface": "polit",
+           "type": "root",
+           "meaning": "city, state"
+          },
+          {
+           "surface": "ical",
+           "type": "suffix",
+           "meaning": "to do with"
+          }
+         ],
+         "root": "polit",
+         "meaning": "To do with government and power.",
+         "example": "",
+         "tier": 3,
+         "translations": {
+          "ar": "سياسي",
+          "es": "político",
+          "fa": "سیاسی",
+          "fr": "politique",
+          "ja": "政治的な",
+          "ko": "정치적인",
+          "vi": "thuộc chính trị",
+          "zh-Hans": "政治的",
+          "zh-Hant": "政治的"
+         }
+        },
+        {
+         "word": "Senate",
+         "parts": [],
+         "root": "",
+         "meaning": "The council of leading Romans that governed during the Republic.",
+         "example": "",
+         "tier": 3,
+         "translations": {
+          "ar": "مجلس الشيوخ",
+          "es": "Senado",
+          "fa": "سنا",
+          "fr": "Sénat",
+          "ja": "元老院",
+          "ko": "원로원",
+          "vi": "Viện Nguyên lão",
+          "zh-Hans": "元老院",
+          "zh-Hant": "元老院"
+         }
+        },
+        {
+         "word": "citizen",
+         "parts": [
+          {
+           "surface": "civ",
+           "type": "root",
+           "meaning": "city, citizen"
+          },
+          {
+           "surface": "izen",
+           "type": "suffix",
+           "meaning": "one who belongs"
+          }
+         ],
+         "root": "civ",
+         "meaning": "A person with legal rights and protections in Rome.",
+         "example": "",
+         "tier": 3,
+         "translations": {
+          "ar": "مواطن",
+          "es": "ciudadano",
+          "fa": "شهروند",
+          "fr": "citoyen",
+          "ja": "市民",
+          "ko": "시민",
+          "vi": "công dân",
+          "zh-Hans": "公民",
+          "zh-Hant": "公民"
+         }
         }
        ],
        "path": "year-7/humanities-civics/history-rome"
@@ -241619,7 +241666,7 @@
       {
        "id": "history",
        "name": "History",
-       "subtitle": "Source analysis, the guidebook to Rome, and weighing Qin Shi Huang.",
+       "subtitle": "Source analysis, Rome's chronology and change, and weighing Qin Shi Huang.",
        "unitIds": [
         "history-gs73",
         "source-analysis",
