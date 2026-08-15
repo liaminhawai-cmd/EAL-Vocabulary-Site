@@ -1,0 +1,98 @@
+# Checks the vocabulary data, then publishes the site.
+#
+# This repository published for months through GitHub's built-in branch
+# publisher, which needs no workflow. On 14 August 2026 that publisher stopped
+# firing: every push still landed on main, and the live site simply stayed on
+# the previous build. Nothing failed, because nothing ran — which is the worst
+# way for a deploy to break, since there is no red mark anywhere to notice.
+#
+# Publishing now happens here instead. Settings -> Pages -> Source must stay on
+# "GitHub Actions". Every push produces a run you can open, and a failure names
+# its own cause.
+name: Check and publish
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+# Never let two publishes race; a newer push supersedes one already queued.
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: The vocabulary data parses and is shaped right
+        run: |
+          python3 - <<'PY'
+          import json, sys
+
+          data = json.load(open('data/vocab.json'))
+          fatal, soft, words = [], 0, 0
+
+          for level in data.get('levels', []):
+              for subject in level.get('subjects', []):
+                  unit_ids = {u['id'] for u in subject.get('units', [])}
+                  for unit in subject.get('units', []):
+                      for w in unit.get('words', []):
+                          words += 1
+                          # No headword means a card with nothing on it.
+                          if not w.get('word'):
+                              fatal.append(f"{unit['id']}: a word entry has no headword")
+                          # A missing meaning is a gap, not a breakage: 1271 of
+                          # the VCE words have always been headword-only. Worth
+                          # reporting, not worth refusing to publish over.
+                          elif not w.get('meaning'):
+                              soft += 1
+                  # A folder pointing at a unit that does not exist renders a
+                  # card a student can tap into and find nothing.
+                  for folder in subject.get('folders', []):
+                      for uid in folder.get('unitIds', []):
+                          if uid not in unit_ids:
+                              fatal.append(f"folder {folder['id']} lists missing unit {uid}")
+
+          print(f"{words} words checked; {soft} have no meaning yet")
+          if fatal:
+              for f in fatal:
+                  print(f"::error::{f}")
+              sys.exit(1)
+          print("vocabulary data is valid")
+          PY
+
+      - name: The build number was bumped
+        run: |
+          # Runtime files are cached against this number. Shipping changed files
+          # under an unchanged build is how a device ends up serving last
+          # week's words, so it is worth failing over.
+          build=$(grep -o '__BUILD__ = [0-9]*' build.js | grep -o '[0-9]*')
+          echo "build.js says $build"
+          if ! grep -q "__BUILD__ = [0-9]" build.js; then
+            echo "::error::build.js has no readable build number"; exit 1
+          fi
+          if git rev-parse HEAD~1 >/dev/null 2>&1; then
+            prev=$(git show HEAD~1:build.js 2>/dev/null | grep -o '__BUILD__ = [0-9]*' | grep -o '[0-9]*' || echo 0)
+            changed=$(git diff --name-only HEAD~1 HEAD -- data assets index.html sw.js | wc -l)
+            if [ "$changed" -gt 0 ] && [ "$build" = "$prev" ]; then
+              echo "::error::runtime files changed but build.js is still $build"; exit 1
+            fi
+          fi
+
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: .
+      - id: deployment
+        uses: actions/deploy-pages@v4
