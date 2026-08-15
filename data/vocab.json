@@ -230380,8 +230380,19 @@
        "words": [
         {
          "word": "artefact",
-         "parts": [],
-         "root": "",
+         "parts": [
+          {
+           "surface": "arte",
+           "type": "root",
+           "meaning": "skill, art"
+          },
+          {
+           "surface": "fact",
+           "type": "root",
+           "meaning": "made"
+          }
+         ],
+         "root": "fact",
          "meaning": "An object made or used by people in the past.",
          "example": "",
          "tier": 3,
@@ -230426,8 +230437,19 @@
         },
         {
          "word": "millstone",
-         "parts": [],
-         "root": "",
+         "parts": [
+          {
+           "surface": "mill",
+           "type": "root",
+           "meaning": "grinding machine"
+          },
+          {
+           "surface": "stone",
+           "type": "root",
+           "meaning": "stone"
+          }
+         ],
+         "root": "mill",
          "meaning": "The lower, fixed stone of a grinding pair. The smaller stone is worked against it.",
          "example": "",
          "tier": 3,
@@ -230444,8 +230466,24 @@
         },
         {
          "word": "excavated",
-         "parts": [],
-         "root": "",
+         "parts": [
+          {
+           "surface": "ex",
+           "type": "prefix",
+           "meaning": "out"
+          },
+          {
+           "surface": "cav",
+           "type": "root",
+           "meaning": "hollow"
+          },
+          {
+           "surface": "ated",
+           "type": "suffix",
+           "meaning": "was done"
+          }
+         ],
+         "root": "cav",
          "meaning": "Carefully dug out of the ground by archaeologists.",
          "example": "",
          "tier": 3,
@@ -230516,8 +230554,59 @@
         },
         {
          "word": "sediment",
-         "parts": [],
-         "root": "",
+         "parts": [
+          {
+           "surface": "sedi",
+           "type": "root",
+           "meaning": "to settle, sit",
+           "translations": {
+            "am": "መርጋት፣ መቀመጥ",
+            "ar": "يستقر، يجلس",
+            "es": "asentarse / sentarse",
+            "fa": "ته‌نشین شدن، نشستن",
+            "fr": "se déposer, s'asseoir",
+            "hi": "जमना, बैठना",
+            "ja": "沈む、座る",
+            "ko": "가라앉다, 앉다",
+            "ml": "അടിയുക, ഇരിക്കുക",
+            "ps": "کښېناستل",
+            "ro": "a se depune, a se așeza",
+            "ru": "оседать, сидеть",
+            "ta": "படிய, அமர",
+            "tl": "lumuklok, umupo",
+            "ur": "جمنا، بیٹھنا",
+            "vi": "lắng xuống, ngồi",
+            "zh-Hans": "沉降，坐",
+            "zh-Hant": "沉降，坐"
+           }
+          },
+          {
+           "surface": "ment",
+           "type": "suffix",
+           "meaning": "the stuff that…",
+           "translations": {
+            "am": "የሚያደርገው ነገር",
+            "ar": "ما يَنتج عن",
+            "es": "aquello que…",
+            "fa": "چیزی که…",
+            "fr": "la chose qui…",
+            "hi": "वह चीज़ जो…",
+            "ja": "～するもの",
+            "ko": "～하는 것",
+            "ml": "…ചെയ്യുന്ന വസ്തു",
+            "ps": "هغه شی چې…",
+            "ro": "lucrul care…",
+            "ru": "то, что…",
+            "ta": "…செய்யும் பொருள்",
+            "tl": "bagay na…",
+            "ur": "وہ چیز جو…",
+            "vi": "cái mà…",
+            "zh-Hans": "……的东西",
+            "zh-Hant": "……的東西"
+           }
+          }
+         ],
+         "root": "sedi",
          "meaning": "Sand, soil and dust that settles in layers over time.",
          "example": "",
          "tier": 3,
@@ -230534,8 +230623,24 @@
         },
         {
          "word": "residues",
-         "parts": [],
-         "root": "",
+         "parts": [
+          {
+           "surface": "re",
+           "type": "prefix",
+           "meaning": "back"
+          },
+          {
+           "surface": "sid",
+           "type": "root",
+           "meaning": "sit, settle"
+          },
+          {
+           "surface": "ues",
+           "type": "suffix",
+           "meaning": "things that"
+          }
+         ],
+         "root": "sid",
          "meaning": "Tiny traces of something left behind on a surface.",
          "example": "",
          "tier": 3,
@@ -230570,8 +230675,24 @@
         },
         {
          "word": "micrographs",
-         "parts": [],
-         "root": "",
+         "parts": [
+          {
+           "surface": "micro",
+           "type": "prefix",
+           "meaning": "very small"
+          },
+          {
+           "surface": "graph",
+           "type": "root",
+           "meaning": "record, write"
+          },
+          {
+           "surface": "s",
+           "type": "suffix",
+           "meaning": "more than one"
+          }
+         ],
+         "root": "graph",
          "meaning": "Photographs taken through a microscope.",
          "example": "",
          "tier": 3,
@@ -230588,8 +230709,24 @@
         },
         {
          "word": "archaeologists",
-         "parts": [],
-         "root": "",
+         "parts": [
+          {
+           "surface": "archaeo",
+           "type": "root",
+           "meaning": "ancient"
+          },
+          {
+           "surface": "log",
+           "type": "root",
+           "meaning": "study of"
+          },
+          {
+           "surface": "ists",
+           "type": "suffix",
+           "meaning": "people who"
+          }
+         ],
+         "root": "log",
          "meaning": "People who study the past by digging up and examining what earlier people left behind.",
          "example": "",
          "tier": 3,
@@ -230606,8 +230743,39 @@
         },
         {
          "word": "chronology",
-         "parts": [],
-         "root": "",
+         "parts": [
+          {
+           "surface": "chrono",
+           "type": "root",
+           "meaning": "time"
+          },
+          {
+           "surface": "logy",
+           "type": "suffix",
+           "meaning": "study of",
+           "translations": {
+            "am": "ጥናት",
+            "ar": "دراسة",
+            "es": "estudio de",
+            "fa": "مطالعه",
+            "fr": "étude de",
+            "hi": "अध्ययन",
+            "ja": "学問",
+            "ko": "학문",
+            "ml": "പഠനം",
+            "ps": "مطالعه",
+            "ro": "studiul",
+            "ru": "наука о",
+            "ta": "ஆய்வியல்",
+            "tl": "pag-aaral",
+            "ur": "مطالعہ",
+            "vi": "nghiên cứu",
+            "zh-Hans": "学科",
+            "zh-Hant": "學科"
+           }
+          }
+         ],
+         "root": "chrono",
          "meaning": "The order and dates of when things happened.",
          "example": "",
          "tier": 3,
@@ -230634,8 +230802,19 @@
         },
         {
          "word": "custodians",
-         "parts": [],
-         "root": "",
+         "parts": [
+          {
+           "surface": "custod",
+           "type": "root",
+           "meaning": "guard, keep"
+          },
+          {
+           "surface": "ians",
+           "type": "suffix",
+           "meaning": "people who"
+          }
+         ],
+         "root": "custod",
          "meaning": "The people responsible for looking after Country and the knowledge belonging to it.",
          "example": "",
          "tier": 3,
@@ -230652,8 +230831,24 @@
         },
         {
          "word": "contamination",
-         "parts": [],
-         "root": "",
+         "parts": [
+          {
+           "surface": "con",
+           "type": "prefix",
+           "meaning": "together"
+          },
+          {
+           "surface": "tamin",
+           "type": "root",
+           "meaning": "touch"
+          },
+          {
+           "surface": "ation",
+           "type": "suffix",
+           "meaning": "the process of"
+          }
+         ],
+         "root": "tamin",
          "meaning": "Something modern getting into an old sample by accident.",
          "example": "",
          "tier": 3,
@@ -230670,8 +230865,19 @@
         },
         {
          "word": "striations",
-         "parts": [],
-         "root": "",
+         "parts": [
+          {
+           "surface": "stri",
+           "type": "root",
+           "meaning": "groove, furrow"
+          },
+          {
+           "surface": "ations",
+           "type": "suffix",
+           "meaning": "the marks of"
+          }
+         ],
+         "root": "stri",
          "meaning": "Fine scratch lines left on a surface by rubbing.",
          "example": "",
          "tier": 3,
@@ -230782,7 +230988,7 @@
           {
            "surface": "arte",
            "type": "root",
-           "meaning": "skill/craft"
+           "meaning": "skill, art"
           },
           {
            "surface": "fact",
@@ -230790,7 +230996,7 @@
            "meaning": "made"
           }
          ],
-         "root": "arte",
+         "root": "fact",
          "meaning": "An object made or used by people in the past.",
          "example": "",
          "tier": 3,
@@ -231126,8 +231332,24 @@
         },
         {
          "word": "evidence",
-         "parts": [],
-         "root": "",
+         "parts": [
+          {
+           "surface": "e",
+           "type": "prefix",
+           "meaning": "out"
+          },
+          {
+           "surface": "vid",
+           "type": "root",
+           "meaning": "see"
+          },
+          {
+           "surface": "ence",
+           "type": "suffix",
+           "meaning": "the state of"
+          }
+         ],
+         "root": "vid",
          "meaning": "The part of a source that proves something.",
          "example": "",
          "tier": 3,
@@ -231238,8 +231460,19 @@
         },
         {
          "word": "eyewitness",
-         "parts": [],
-         "root": "",
+         "parts": [
+          {
+           "surface": "eye",
+           "type": "root",
+           "meaning": "eye"
+          },
+          {
+           "surface": "witness",
+           "type": "root",
+           "meaning": "one who saw"
+          }
+         ],
+         "root": "eye",
          "meaning": "Someone who saw it happen with their own eyes.",
          "example": "",
          "tier": 3,
@@ -231266,8 +231499,19 @@
         },
         {
          "word": "hearsay",
-         "parts": [],
-         "root": "",
+         "parts": [
+          {
+           "surface": "hear",
+           "type": "root",
+           "meaning": "hear"
+          },
+          {
+           "surface": "say",
+           "type": "root",
+           "meaning": "say"
+          }
+         ],
+         "root": "hear",
          "meaning": "Something you were told, rather than saw yourself.",
          "example": "",
          "tier": 3,
@@ -231549,8 +231793,19 @@
         },
         {
          "word": "purpose",
-         "parts": [],
-         "root": "",
+         "parts": [
+          {
+           "surface": "pur",
+           "type": "prefix",
+           "meaning": "forth, forward"
+          },
+          {
+           "surface": "pose",
+           "type": "root",
+           "meaning": "put, place"
+          }
+         ],
+         "root": "pose",
          "meaning": "The reason something was made.",
          "example": "",
          "tier": 3,
@@ -231577,8 +231832,24 @@
         },
         {
          "word": "reliable",
-         "parts": [],
-         "root": "",
+         "parts": [
+          {
+           "surface": "re",
+           "type": "prefix",
+           "meaning": "back"
+          },
+          {
+           "surface": "li",
+           "type": "root",
+           "meaning": "bind, tie"
+          },
+          {
+           "surface": "able",
+           "type": "suffix",
+           "meaning": "able to be"
+          }
+         ],
+         "root": "li",
          "meaning": "Able to be trusted.",
          "example": "",
          "tier": 3,
@@ -234613,910 +234884,559 @@
        "path": "year-7/humanities-civics/civics"
       },
       {
-       "id": "water-hazards",
-       "name": "Water in the World — Hazards & disasters",
+       "id": "geography-landforms",
+       "name": "Geography — Landscapes & landforms",
        "interactive": true,
        "words": [
         {
-         "word": "hazard",
+         "word": "archipelago",
+         "parts": [
+          {
+           "surface": "archi",
+           "type": "prefix",
+           "meaning": "chief, main"
+          },
+          {
+           "surface": "pelago",
+           "type": "root",
+           "meaning": "sea"
+          }
+         ],
+         "root": "pelago",
+         "meaning": "A group of islands.",
+         "example": "",
+         "tier": 3,
+         "translations": {
+          "ar": "أرخبيل",
+          "es": "archipiélago",
+          "fa": "مجمع‌الجزایر",
+          "fr": "archipel",
+          "ja": "群島",
+          "ko": "군도",
+          "vi": "quần đảo",
+          "zh-Hans": "群岛",
+          "zh-Hant": "群島"
+         }
+        },
+        {
+         "word": "bay",
          "parts": [],
          "root": "",
-         "meaning": "Something with the POTENTIAL to cause harm — a cyclone forming offshore is a hazard even before it touches anyone.",
+         "meaning": "A large, circular indentation of a shoreline.",
          "example": "",
          "tier": 3,
          "translations": {
-          "am": "ስጋት",
-          "ar": "خطر",
-          "es": "peligro",
-          "fa": "خطر",
-          "fr": "aléa (danger)",
-          "hi": "संकट (ख़तरा)",
-          "ja": "ハザード（危険要因）",
-          "ko": "위험 요인",
-          "ml": "അപകടസാധ്യത",
-          "ps": "خطر",
-          "ro": "hazard (pericol)",
-          "ru": "опасность",
-          "ta": "அபாயம்",
-          "tl": "panganib",
-          "ur": "خطرہ",
-          "vi": "hiểm họa",
-          "zh-Hans": "（潜在）危害",
-          "zh-Hant": "（潛在）危害"
+          "ar": "خليج",
+          "es": "bahía",
+          "fa": "خلیج",
+          "fr": "baie",
+          "ja": "湾",
+          "ko": "만",
+          "vi": "vịnh",
+          "zh-Hans": "海湾",
+          "zh-Hant": "海灣"
          }
         },
         {
-         "word": "disaster",
-         "parts": [
-          {
-           "surface": "dis",
-           "type": "prefix",
-           "meaning": "bad, ill",
-           "translations": {
-            "am": "መጥፎ",
-            "ar": "سيّئ",
-            "es": "malo",
-            "fa": "بد",
-            "fr": "mauvais",
-            "hi": "बुरा",
-            "ja": "悪い",
-            "ko": "나쁜",
-            "ml": "മോശം",
-            "ps": "بد / خراب",
-            "ro": "rău",
-            "ru": "плохой",
-            "ta": "கெட்ட",
-            "tl": "masama",
-            "ur": "برا",
-            "vi": "xấu, tồi",
-            "zh-Hans": "坏、恶",
-            "zh-Hant": "壞、惡"
-           }
-          },
-          {
-           "surface": "aster",
-           "type": "root",
-           "meaning": "star",
-           "translations": {
-            "am": "ኮከብ",
-            "ar": "نجم",
-            "es": "estrella",
-            "fa": "ستاره",
-            "fr": "étoile",
-            "hi": "तारा",
-            "ja": "星",
-            "ko": "별",
-            "ml": "നക്ഷത്രം",
-            "ps": "ستوری",
-            "ro": "stea",
-            "ru": "звезда",
-            "ta": "நட்சத்திரம்",
-            "tl": "bituin",
-            "ur": "ستارہ",
-            "vi": "sao",
-            "zh-Hans": "星",
-            "zh-Hant": "星"
-           }
-          }
-         ],
-         "root": "aster",
-         "meaning": "A hazard come true — an event that actually causes major harm to people, property or the environment.",
-         "example": "",
-         "tier": 3,
-         "translations": {
-          "am": "አደጋ",
-          "ar": "كارثة",
-          "es": "desastre",
-          "fa": "فاجعه",
-          "fr": "catastrophe",
-          "hi": "आपदा",
-          "ja": "災害",
-          "ko": "재해",
-          "ml": "ദുരന്തം",
-          "ps": "ناورین",
-          "ro": "dezastru",
-          "ru": "бедствие",
-          "ta": "பேரிடர்",
-          "tl": "sakuna",
-          "ur": "آفت",
-          "vi": "thảm họa",
-          "zh-Hans": "灾难",
-          "zh-Hant": "災難"
-         }
-        },
-        {
-         "word": "atmospheric",
-         "parts": [
-          {
-           "surface": "atmo",
-           "type": "root",
-           "meaning": "vapour, steam",
-           "translations": {
-            "am": "እንፋሎት",
-            "ar": "بخار",
-            "es": "vapor",
-            "fa": "بخار",
-            "fr": "vapeur",
-            "hi": "वाष्प, भाप",
-            "ja": "蒸気",
-            "ko": "증기",
-            "ml": "നീരാവി",
-            "ps": "بخار",
-            "ro": "vapori, abur",
-            "ru": "пар",
-            "ta": "நீராவி",
-            "tl": "singaw",
-            "ur": "بخار، بھاپ",
-            "vi": "hơi nước",
-            "zh-Hans": "蒸汽（水汽）",
-            "zh-Hant": "蒸汽（水汽）"
-           }
-          },
-          {
-           "surface": "spher",
-           "type": "root",
-           "meaning": "ball, globe",
-           "translations": {
-            "am": "ኳስ፣ ሉል",
-            "ar": "كرة",
-            "es": "esfera",
-            "fa": "گوی، کره",
-            "fr": "boule, globe",
-            "hi": "गेंद, गोला",
-            "ja": "球、球体",
-            "ko": "공, 구",
-            "ml": "പന്ത്, ഗോളം",
-            "ps": "توپ، کره",
-            "ro": "minge, glob",
-            "ru": "шар",
-            "ta": "பந்து, கோளம்",
-            "tl": "bola, globo",
-            "ur": "گیند، کرہ",
-            "vi": "quả bóng, quả cầu",
-            "zh-Hans": "球，球体",
-            "zh-Hant": "球，球體"
-           }
-          },
-          {
-           "surface": "ic",
-           "type": "suffix",
-           "meaning": "relating to",
-           "translations": {
-            "am": "ተያያዥ",
-            "ar": "متعلّق بـ",
-            "es": "relativo a",
-            "fa": "مربوط به",
-            "fr": "relatif à",
-            "hi": "संबंधी",
-            "ja": "～の",
-            "ko": "관련된",
-            "ml": "ബന്ധപ്പെട്ട",
-            "ps": "اړوند",
-            "ro": "legat de",
-            "ru": "относящийся",
-            "ta": "தொடர்பான",
-            "tl": "kaugnay sa",
-            "ur": "متعلق",
-            "vi": "thuộc về",
-            "zh-Hans": "……的",
-            "zh-Hant": "……的"
-           }
-          }
-         ],
-         "root": "atmo",
-         "meaning": "To do with the atmosphere — the blanket of air around Earth. Atmospheric hazards include storms, cyclones and heatwaves.",
-         "example": "",
-         "tier": 3,
-         "translations": {
-          "am": "የከባቢ አየር",
-          "ar": "جوّي",
-          "es": "atmosférico",
-          "fa": "جوّی",
-          "fr": "atmosphérique",
-          "hi": "वायुमंडलीय",
-          "ja": "大気の",
-          "ko": "대기의",
-          "ml": "അന്തരീക്ഷ",
-          "ps": "اتموسفیري",
-          "ro": "atmosferic",
-          "ru": "атмосферный",
-          "ta": "வளிமண்டல",
-          "tl": "atmospheriko",
-          "ur": "جوّی",
-          "vi": "khí quyển",
-          "zh-Hans": "大气的",
-          "zh-Hant": "大氣的"
-         }
-        },
-        {
-         "word": "hydrological",
-         "parts": [
-          {
-           "surface": "hydro",
-           "type": "prefix",
-           "meaning": "water",
-           "translations": {
-            "am": "ውሃ",
-            "ar": "ماء",
-            "es": "agua",
-            "fa": "آب",
-            "fr": "eau",
-            "hi": "जल",
-            "ja": "水",
-            "ko": "물",
-            "ml": "ജലം",
-            "ps": "اوبه",
-            "ro": "apă",
-            "ru": "вода",
-            "ta": "நீர்",
-            "tl": "tubig",
-            "ur": "پانی",
-            "vi": "nước",
-            "zh-Hans": "水",
-            "zh-Hant": "水"
-           }
-          },
-          {
-           "surface": "log",
-           "type": "root",
-           "meaning": "study, word",
-           "translations": {
-            "am": "ጥናት፣ ቃል",
-            "ar": "دراسة/علم",
-            "es": "estudio/palabra",
-            "fa": "مطالعه، کلمه",
-            "fr": "étude, mot",
-            "hi": "अध्ययन, शब्द",
-            "ja": "研究、言葉",
-            "ko": "학문, 단어",
-            "ml": "പഠനം, വാക്ക്",
-            "ps": "مطالعه، ټکی",
-            "ro": "studiu, cuvânt",
-            "ru": "изучение, слово",
-            "ta": "ஆய்வு, சொல்",
-            "tl": "pag-aaral, salita",
-            "ur": "مطالعہ، لفظ",
-            "vi": "nghiên cứu, từ",
-            "zh-Hans": "研究，词",
-            "zh-Hant": "研究，詞"
-           }
-          },
-          {
-           "surface": "ical",
-           "type": "suffix",
-           "meaning": "relating to",
-           "translations": {
-            "am": "ተዛማጅ",
-            "ar": "متعلق بـ",
-            "es": "relativo a",
-            "fa": "مربوط به",
-            "fr": "relatif à",
-            "hi": "से संबंधित",
-            "ja": "〜に関する",
-            "ko": "~에 관한",
-            "ml": "ബന്ധപ്പെട്ട",
-            "ps": "اړوند",
-            "ro": "referitor la",
-            "ru": "относящийся к",
-            "ta": "தொடர்பான",
-            "tl": "may kinalaman sa",
-            "ur": "سے متعلق",
-            "vi": "thuộc về",
-            "zh-Hans": "与……有关的",
-            "zh-Hant": "與……有關的"
-           }
-          }
-         ],
-         "root": "log",
-         "meaning": "To do with water and how it moves. Hydrological hazards include floods and flash floods.",
-         "example": "",
-         "tier": 3,
-         "translations": {
-          "am": "የውሃ (ሃይድሮሎጂ)",
-          "ar": "هيدرولوجي (مائي)",
-          "es": "hidrológico",
-          "fa": "هیدرولوژیکی",
-          "fr": "hydrologique",
-          "hi": "जलविज्ञानीय",
-          "ja": "水文の",
-          "ko": "수문학적",
-          "ml": "ജലശാസ്ത്രപരം",
-          "ps": "هایدرولوژیکي (د اوبو)",
-          "ro": "hidrologic",
-          "ru": "гидрологический",
-          "ta": "நீரியல்",
-          "tl": "hidrolohikal",
-          "ur": "آبیاتی",
-          "vi": "thủy văn",
-          "zh-Hans": "水文的",
-          "zh-Hant": "水文的"
-         }
-        },
-        {
-         "word": "geological",
-         "parts": [
-          {
-           "surface": "geo",
-           "type": "root",
-           "meaning": "earth",
-           "translations": {
-            "am": "ምድር",
-            "ar": "أرض",
-            "es": "tierra",
-            "fa": "زمین",
-            "fr": "terre",
-            "hi": "पृथ्वी",
-            "ja": "地球",
-            "ko": "지구",
-            "ml": "ഭൂമി",
-            "ps": "ځمکه",
-            "ro": "pământ",
-            "ru": "земля",
-            "ta": "பூமி",
-            "tl": "lupa",
-            "ur": "زمین",
-            "vi": "trái đất",
-            "zh-Hans": "地球",
-            "zh-Hant": "地球"
-           }
-          },
-          {
-           "surface": "log",
-           "type": "root",
-           "meaning": "study, word",
-           "translations": {
-            "am": "ጥናት፣ ቃል",
-            "ar": "دراسة/علم",
-            "es": "estudio/palabra",
-            "fa": "مطالعه، کلمه",
-            "fr": "étude, mot",
-            "hi": "अध्ययन, शब्द",
-            "ja": "研究、言葉",
-            "ko": "학문, 단어",
-            "ml": "പഠനം, വാക്ക്",
-            "ps": "مطالعه، ټکی",
-            "ro": "studiu, cuvânt",
-            "ru": "изучение, слово",
-            "ta": "ஆய்வு, சொல்",
-            "tl": "pag-aaral, salita",
-            "ur": "مطالعہ، لفظ",
-            "vi": "nghiên cứu, từ",
-            "zh-Hans": "研究，词",
-            "zh-Hant": "研究，詞"
-           }
-          },
-          {
-           "surface": "ical",
-           "type": "suffix",
-           "meaning": "relating to",
-           "translations": {
-            "am": "ተዛማጅ",
-            "ar": "متعلق بـ",
-            "es": "relativo a",
-            "fa": "مربوط به",
-            "fr": "relatif à",
-            "hi": "से संबंधित",
-            "ja": "〜に関する",
-            "ko": "~에 관한",
-            "ml": "ബന്ധപ്പെട്ട",
-            "ps": "اړوند",
-            "ro": "referitor la",
-            "ru": "относящийся к",
-            "ta": "தொடர்பான",
-            "tl": "may kinalaman sa",
-            "ur": "سے متعلق",
-            "vi": "thuộc về",
-            "zh-Hans": "与……有关的",
-            "zh-Hant": "與……有關的"
-           }
-          }
-         ],
-         "root": "geo",
-         "meaning": "To do with the Earth itself — its rocks and ground. Geological hazards include earthquakes, landslides and volcanic eruptions.",
-         "example": "",
-         "tier": 3,
-         "translations": {
-          "am": "ጂኦሎጂያዊ (የመሬት)",
-          "ar": "جيولوجي",
-          "es": "geológico",
-          "fa": "زمین‌شناختی",
-          "fr": "géologique",
-          "hi": "भूवैज्ञानिक",
-          "ja": "地質学的",
-          "ko": "지질학적",
-          "ml": "ഭൗമശാസ്ത്രപരം",
-          "ps": "جيولوژيکي",
-          "ro": "geologic",
-          "ru": "геологический",
-          "ta": "நிலவியல் சார்ந்த",
-          "tl": "heolohikal",
-          "ur": "ارضیاتی",
-          "vi": "địa chất",
-          "zh-Hans": "地质的",
-          "zh-Hant": "地質的"
-         }
-        },
-        {
-         "word": "biological",
-         "parts": [
-          {
-           "surface": "bio",
-           "type": "root",
-           "meaning": "life",
-           "translations": {
-            "am": "ሕይወት",
-            "ar": "حياة",
-            "es": "vida",
-            "fa": "زیست",
-            "fr": "vie",
-            "hi": "जीवन",
-            "ja": "生命",
-            "ko": "생명",
-            "ml": "ജീവൻ",
-            "ps": "ژوند",
-            "ro": "viață",
-            "ru": "жизнь",
-            "ta": "உயிர்",
-            "tl": "buhay",
-            "ur": "حیات",
-            "vi": "sinh",
-            "zh-Hans": "生命",
-            "zh-Hant": "生命"
-           }
-          },
-          {
-           "surface": "log",
-           "type": "root",
-           "meaning": "study, word",
-           "translations": {
-            "am": "ጥናት፣ ቃል",
-            "ar": "دراسة/علم",
-            "es": "estudio/palabra",
-            "fa": "مطالعه، کلمه",
-            "fr": "étude, mot",
-            "hi": "अध्ययन, शब्द",
-            "ja": "研究、言葉",
-            "ko": "학문, 단어",
-            "ml": "പഠനം, വാക്ക്",
-            "ps": "مطالعه، ټکی",
-            "ro": "studiu, cuvânt",
-            "ru": "изучение, слово",
-            "ta": "ஆய்வு, சொல்",
-            "tl": "pag-aaral, salita",
-            "ur": "مطالعہ، لفظ",
-            "vi": "nghiên cứu, từ",
-            "zh-Hans": "研究，词",
-            "zh-Hant": "研究，詞"
-           }
-          },
-          {
-           "surface": "ical",
-           "type": "suffix",
-           "meaning": "relating to",
-           "translations": {
-            "am": "ተዛማጅ",
-            "ar": "متعلق بـ",
-            "es": "relativo a",
-            "fa": "مربوط به",
-            "fr": "relatif à",
-            "hi": "से संबंधित",
-            "ja": "〜に関する",
-            "ko": "~에 관한",
-            "ml": "ബന്ധപ്പെട്ട",
-            "ps": "اړوند",
-            "ro": "referitor la",
-            "ru": "относящийся к",
-            "ta": "தொடர்பான",
-            "tl": "may kinalaman sa",
-            "ur": "سے متعلق",
-            "vi": "thuộc về",
-            "zh-Hans": "与……有关的",
-            "zh-Hant": "與……有關的"
-           }
-          }
-         ],
-         "root": "bio",
-         "meaning": "To do with living things. Biological hazards include disease outbreaks, pest plagues and harmful algae in water.",
-         "example": "",
-         "tier": 3,
-         "translations": {
-          "am": "ስነ-ሕይወታዊ",
-          "ar": "بيولوجي (حيوي)",
-          "es": "biológico",
-          "fa": "زیستی",
-          "fr": "biologique",
-          "hi": "जैविक",
-          "ja": "生物学的",
-          "ko": "생물학적",
-          "ml": "ജൈവിക",
-          "ps": "بیولوژیکي (ژوندیز)",
-          "ro": "biologic",
-          "ru": "биологический",
-          "ta": "உயிரியல்",
-          "tl": "biyolohikal",
-          "ur": "حیاتیاتی",
-          "vi": "sinh học",
-          "zh-Hans": "生物的",
-          "zh-Hant": "生物的"
-         }
-        },
-        {
-         "word": "drought",
+         "word": "canyon",
          "parts": [],
          "root": "",
-         "meaning": "A long period with far less rain than normal, drying out the land, rivers and reservoirs.",
+         "meaning": "A deep and narrow valley with steep walls.",
          "example": "",
          "tier": 3,
          "translations": {
-          "am": "ድርቅ",
-          "ar": "جفاف",
-          "es": "sequía",
-          "fa": "خشکسالی",
-          "fr": "sécheresse",
-          "hi": "सूखा",
-          "ja": "干ばつ",
-          "ko": "가뭄",
-          "ml": "വരൾച്ച",
-          "ps": "وچکالي",
-          "ro": "secetă",
-          "ru": "засуха",
-          "ta": "வறட்சி",
-          "tl": "tagtuyot",
-          "ur": "خشک سالی",
-          "vi": "hạn hán",
-          "zh-Hans": "干旱",
-          "zh-Hant": "乾旱"
+          "ar": "وادٍ سحيق",
+          "es": "cañón",
+          "fa": "دره عمیق",
+          "fr": "canyon",
+          "ja": "峡谷",
+          "ko": "협곡",
+          "vi": "hẻm núi",
+          "zh-Hans": "峡谷",
+          "zh-Hant": "峽谷"
          }
         },
         {
-         "word": "flood",
+         "word": "channel",
          "parts": [],
          "root": "",
-         "meaning": "Water overflowing onto land that is normally dry — from rivers bursting their banks, storm surges or sudden downpours.",
+         "meaning": "A deep and relatively narrow body of water that allows the best passage for vessels.",
          "example": "",
          "tier": 3,
          "translations": {
-          "am": "ጎርፍ",
-          "ar": "فيضان",
-          "es": "inundación",
-          "fa": "سیل",
-          "fr": "inondation",
-          "hi": "बाढ़",
-          "ja": "洪水",
-          "ko": "홍수",
-          "ml": "വെള്ളപ്പൊക്കം",
-          "ps": "سیلاب",
-          "ro": "inundație",
-          "ru": "наводнение",
-          "ta": "வெள்ளம்",
-          "tl": "baha",
-          "ur": "سیلاب",
-          "vi": "lũ lụt",
-          "zh-Hans": "洪水",
-          "zh-Hant": "洪水"
+          "ar": "قناة",
+          "es": "canal",
+          "fa": "آبراه",
+          "fr": "chenal",
+          "ja": "水路",
+          "ko": "수로",
+          "vi": "eo biển hẹp",
+          "zh-Hans": "水道",
+          "zh-Hant": "水道"
          }
         },
         {
-         "word": "el niño",
+         "word": "cliff",
          "parts": [],
          "root": "",
-         "meaning": "The warm phase of the Pacific climate see-saw, which usually brings hotter, drier weather — and drought risk — to eastern Australia.",
+         "meaning": "A steep, high wall of rock, earth, or ice.",
          "example": "",
          "tier": 3,
          "translations": {
-          "am": "ኤል ኒኞ",
-          "ar": "النينيو",
-          "es": "El Niño",
-          "fa": "ال‌نینیو",
-          "fr": "El Niño",
-          "hi": "एल नीन्यो",
-          "ja": "エルニーニョ",
-          "ko": "엘니뇨",
-          "ml": "എൽ നിനോ",
-          "ps": "ال نینو",
-          "ro": "El Niño",
-          "ru": "Эль-Ниньо",
-          "ta": "எல் நினோ",
-          "tl": "El Niño",
-          "ur": "ال نینو",
-          "vi": "El Niño",
-          "zh-Hans": "厄尔尼诺",
-          "zh-Hant": "厄爾尼諾"
+          "ar": "جرف",
+          "es": "acantilado",
+          "fa": "صخره پرتگاه",
+          "fr": "falaise",
+          "ja": "崖",
+          "ko": "절벽",
+          "vi": "vách đá",
+          "zh-Hans": "悬崖",
+          "zh-Hant": "懸崖"
          }
         },
         {
-         "word": "oscillation",
+         "word": "delta",
+         "parts": [],
+         "root": "",
+         "meaning": "A triangular landform made of sediment deposited by river flows.",
+         "example": "",
+         "tier": 3,
+         "translations": {
+          "ar": "دلتا",
+          "es": "delta",
+          "fa": "دلتا",
+          "fr": "delta",
+          "ja": "三角州",
+          "ko": "삼각주",
+          "vi": "đồng bằng châu thổ",
+          "zh-Hans": "三角洲",
+          "zh-Hant": "三角洲"
+         }
+        },
+        {
+         "word": "glacier",
          "parts": [
           {
-           "surface": "oscill",
+           "surface": "glaci",
            "type": "root",
-           "meaning": "to swing back and forth",
+           "meaning": "ice",
            "translations": {
-            "am": "ወዲያና ወዲህ መወዛወዝ",
-            "ar": "يتذبذب",
-            "es": "oscilar",
-            "fa": "نوسان کردن",
-            "fr": "osciller",
-            "hi": "आगे-पीछे झूलना",
-            "ja": "揺れ動く",
-            "ko": "흔들리다",
-            "ml": "ആന്ദോളനം ചെയ്യുക",
-            "ps": "شا و خوا زنګېدل",
-            "ro": "a oscila",
-            "ru": "качаться",
-            "ta": "ஊசலாடுதல்",
-            "tl": "umindayog",
-            "ur": "جھولنا",
-            "vi": "dao động",
-            "zh-Hans": "来回摆动",
-            "zh-Hant": "來回擺動"
+            "am": "በረዶ",
+            "ar": "جليد",
+            "es": "hielo",
+            "fa": "یخ",
+            "fr": "glace",
+            "hi": "हिम",
+            "ja": "氷",
+            "ko": "얼음",
+            "ml": "ഹിമം",
+            "ps": "یخ",
+            "ro": "gheață",
+            "ru": "лёд",
+            "ta": "பனிக்கட்டி",
+            "tl": "yelo",
+            "ur": "برف",
+            "vi": "băng",
+            "zh-Hans": "冰",
+            "zh-Hant": "冰"
            }
           },
           {
-           "surface": "ation",
+           "surface": "er",
            "type": "suffix",
-           "meaning": "the process of",
+           "meaning": "a thing that / thing connected with",
            "translations": {
-            "am": "ሂደት",
-            "ar": "عملية",
-            "es": "el proceso de",
-            "fa": "فرآیند",
-            "fr": "processus de",
-            "hi": "प्रक्रिया",
-            "ja": "…する過程",
-            "ko": "…하는 과정",
-            "ml": "പ്രക്രിയ",
-            "ps": "بهير",
-            "ro": "procesul de",
-            "ru": "процесс",
-            "ta": "செயல்முறை",
-            "tl": "proseso ng",
-            "ur": "کا عمل",
-            "vi": "quá trình",
-            "zh-Hans": "…的过程",
-            "zh-Hant": "…的過程"
+            "am": "የሚያደርግ ነገር/ሰው",
+            "ar": "شيء يقوم بـ",
+            "es": "cosa que / relacionado con",
+            "fa": "چیزی که / کسی که",
+            "fr": "celui/ce qui…",
+            "hi": "वह चीज़/व्यक्ति जो…",
+            "ja": "～するもの/人",
+            "ko": "～하는 것/사람",
+            "ml": "…ചെയ്യുന്ന വസ്തു/ആൾ",
+            "ps": "هغه شی/کس چې…",
+            "ro": "cel care / lucrul care",
+            "ru": "тот, кто / то, что",
+            "ta": "…செய்யும் பொருள்/நபர்",
+            "tl": "bagay/taong…",
+            "ur": "وہ چیز/شخص جو…",
+            "vi": "cái/người mà…",
+            "zh-Hans": "……的东西/人",
+            "zh-Hant": "……的東西/人"
            }
           }
          ],
-         "root": "oscill",
-         "meaning": "A swinging back and forth between two states — the Southern Oscillation is the see-saw of air pressure across the Pacific.",
+         "root": "glaci",
+         "meaning": "A slowly moving mass of ice.",
          "example": "",
          "tier": 3,
          "translations": {
-          "am": "መወዛወዝ",
-          "ar": "تذبذب",
-          "es": "oscilación",
-          "fa": "نوسان",
-          "fr": "oscillation",
-          "hi": "दोलन",
-          "ja": "振動",
-          "ko": "진동",
-          "ml": "ആന്ദോളനം",
-          "ps": "خوځېدنه",
-          "ro": "oscilație",
-          "ru": "колебание",
-          "ta": "அலைவு",
-          "tl": "osilasyon",
-          "ur": "ارتعاش",
-          "vi": "dao động",
-          "zh-Hans": "涛动（振荡）",
-          "zh-Hant": "濤動（振盪）"
+          "ar": "نهر جليدي",
+          "es": "glaciar",
+          "fa": "یخچال طبیعی",
+          "fr": "glacier",
+          "ja": "氷河",
+          "ko": "빙하",
+          "vi": "sông băng",
+          "zh-Hans": "冰川",
+          "zh-Hant": "冰川"
          }
         },
         {
-         "word": "evacuation",
+         "word": "gulf",
+         "parts": [],
+         "root": "",
+         "meaning": "An arm of a sea or ocean partly enclosed by land.",
+         "example": "",
+         "tier": 3,
+         "translations": {
+          "ar": "خليج كبير",
+          "es": "golfo",
+          "fa": "خلیج بزرگ",
+          "fr": "golfe",
+          "ja": "湾",
+          "ko": "만",
+          "vi": "vịnh lớn",
+          "zh-Hans": "海湾",
+          "zh-Hant": "海灣"
+         }
+        },
+        {
+         "word": "harbour",
+         "parts": [],
+         "root": "",
+         "meaning": "A sheltered port where ships can take on or discharge cargo.",
+         "example": "",
+         "tier": 3,
+         "translations": {
+          "ar": "ميناء",
+          "es": "puerto",
+          "fa": "بندر",
+          "fr": "port",
+          "ja": "港",
+          "ko": "항구",
+          "vi": "cảng",
+          "zh-Hans": "港口",
+          "zh-Hant": "港口"
+         }
+        },
+        {
+         "word": "island",
+         "parts": [],
+         "root": "",
+         "meaning": "A land mass smaller than a continent that is surrounded by water.",
+         "example": "",
+         "tier": 3,
+         "translations": {
+          "ar": "جزيرة",
+          "es": "isla",
+          "fa": "جزیره",
+          "fr": "île",
+          "ja": "島",
+          "ko": "섬",
+          "vi": "hòn đảo",
+          "zh-Hans": "岛屿",
+          "zh-Hant": "島嶼"
+         }
+        },
+        {
+         "word": "isthmus",
+         "parts": [],
+         "root": "",
+         "meaning": "A relatively narrow strip of land with water on both sides connecting two larger land areas.",
+         "example": "",
+         "tier": 3,
+         "translations": {
+          "ar": "برزخ",
+          "es": "istmo",
+          "fa": "تنگه خشکی",
+          "fr": "isthme",
+          "ja": "地峡",
+          "ko": "지협",
+          "vi": "eo đất",
+          "zh-Hans": "地峡",
+          "zh-Hant": "地峽"
+         }
+        },
+        {
+         "word": "lowlands",
          "parts": [
           {
-           "surface": "e",
+           "surface": "low",
+           "type": "root",
+           "meaning": "low"
+          },
+          {
+           "surface": "lands",
+           "type": "root",
+           "meaning": "land"
+          }
+         ],
+         "root": "low",
+         "meaning": "The valleys and plains below a mountain range.",
+         "example": "",
+         "tier": 3,
+         "translations": {
+          "ar": "أراضٍ منخفضة",
+          "es": "tierras bajas",
+          "fa": "جلگه پست",
+          "fr": "basses terres",
+          "ja": "低地",
+          "ko": "저지대",
+          "vi": "vùng đất thấp",
+          "zh-Hans": "低地",
+          "zh-Hant": "低地"
+         }
+        },
+        {
+         "word": "mountain range",
+         "parts": [],
+         "root": "",
+         "meaning": "A series of hills or mountains.",
+         "example": "",
+         "tier": 3,
+         "translations": {
+          "ar": "سلسلة جبال",
+          "es": "cordillera",
+          "fa": "رشته‌کوه",
+          "fr": "chaîne de montagnes",
+          "ja": "山脈",
+          "ko": "산맥",
+          "vi": "dãy núi",
+          "zh-Hans": "山脉",
+          "zh-Hant": "山脈"
+         }
+        },
+        {
+         "word": "peninsula",
+         "parts": [
+          {
+           "surface": "pen",
            "type": "prefix",
-           "meaning": "out",
-           "translations": {
-            "am": "ወጪ",
-            "ar": "خارج",
-            "es": "fuera",
-            "fa": "بیرون",
-            "fr": "dehors",
-            "hi": "बाहर",
-            "ja": "外へ",
-            "ko": "밖",
-            "ml": "പുറത്ത്",
-            "ps": "بهر",
-            "ro": "afară",
-            "ru": "наружу",
-            "ta": "வெளியே",
-            "tl": "palabas",
-            "ur": "باہر",
-            "vi": "ra",
-            "zh-Hans": "向外",
-            "zh-Hant": "向外"
-           }
+           "meaning": "almost"
           },
           {
-           "surface": "vacu",
+           "surface": "insula",
            "type": "root",
-           "meaning": "empty",
-           "translations": {
-            "am": "ባዶ",
-            "ar": "فارغ",
-            "es": "vacío",
-            "fa": "خالی",
-            "fr": "vide",
-            "hi": "खाली",
-            "ja": "空っぽ",
-            "ko": "빈",
-            "ml": "ശൂന്യം",
-            "ps": "تش",
-            "ro": "gol",
-            "ru": "пустой",
-            "ta": "காலி",
-            "tl": "walang laman",
-            "ur": "خالی",
-            "vi": "rỗng",
-            "zh-Hans": "空",
-            "zh-Hant": "空"
-           }
-          },
-          {
-           "surface": "ation",
-           "type": "suffix",
-           "meaning": "the process of",
-           "translations": {
-            "am": "ሂደት",
-            "ar": "عملية",
-            "es": "el proceso de",
-            "fa": "فرآیند",
-            "fr": "processus de",
-            "hi": "प्रक्रिया",
-            "ja": "…する過程",
-            "ko": "…하는 과정",
-            "ml": "പ്രക്രിയ",
-            "ps": "بهير",
-            "ro": "procesul de",
-            "ru": "процесс",
-            "ta": "செயல்முறை",
-            "tl": "proseso ng",
-            "ur": "کا عمل",
-            "vi": "quá trình",
-            "zh-Hans": "…的过程",
-            "zh-Hant": "…的過程"
-           }
+           "meaning": "island"
           }
          ],
-         "root": "vacu",
-         "meaning": "The organised emptying of people OUT of a dangerous place before or during a disaster.",
+         "root": "insula",
+         "meaning": "Land surrounded by water on three sides.",
          "example": "",
          "tier": 3,
          "translations": {
-          "am": "ከአደጋ ማስወጣት",
-          "ar": "إخلاء",
-          "es": "evacuación",
-          "fa": "تخلیه",
-          "fr": "évacuation",
-          "hi": "निकासी",
-          "ja": "避難",
-          "ko": "대피",
-          "ml": "ഒഴിപ്പിക്കൽ",
-          "ps": "له سیمې ایستل",
-          "ro": "evacuare",
-          "ru": "эвакуация",
-          "ta": "வெளியேற்றம்",
-          "tl": "paglikas",
-          "ur": "انخلا",
-          "vi": "sơ tán",
-          "zh-Hans": "疏散",
-          "zh-Hant": "疏散"
+          "ar": "شبه جزيرة",
+          "es": "península",
+          "fa": "شبه‌جزیره",
+          "fr": "péninsule",
+          "ja": "半島",
+          "ko": "반도",
+          "vi": "bán đảo",
+          "zh-Hans": "半岛",
+          "zh-Hant": "半島"
          }
         },
         {
-         "word": "inundation",
+         "word": "permafrost",
          "parts": [
           {
-           "surface": "in",
+           "surface": "perma",
            "type": "prefix",
-           "meaning": "in, onto",
-           "translations": {
-            "am": "ውስጥ፣ ላይ",
-            "ar": "في، على",
-            "es": "en / sobre",
-            "fa": "در، بر",
-            "fr": "dans, sur",
-            "hi": "में, पर",
-            "ja": "中に、上に",
-            "ko": "안에, 위에",
-            "ml": "ഉള്ളിൽ, മേൽ",
-            "ps": "کې، پر",
-            "ro": "în, pe",
-            "ru": "в, на",
-            "ta": "உள், மேல்",
-            "tl": "sa, sa ibabaw",
-            "ur": "میں، پر",
-            "vi": "trong, lên",
-            "zh-Hans": "里、上",
-            "zh-Hant": "裡、上"
-           }
+           "meaning": "lasting, permanent"
           },
           {
-           "surface": "und",
+           "surface": "frost",
            "type": "root",
-           "meaning": "wave",
-           "translations": {
-            "am": "ማዕበል",
-            "ar": "موجة",
-            "es": "onda",
-            "fa": "موج",
-            "fr": "vague",
-            "hi": "लहर",
-            "ja": "波",
-            "ko": "파도",
-            "ml": "തിര",
-            "ps": "څپه",
-            "ro": "val",
-            "ru": "волна",
-            "ta": "அலை",
-            "tl": "alon",
-            "ur": "لہر",
-            "vi": "sóng",
-            "zh-Hans": "波",
-            "zh-Hant": "波"
-           }
-          },
-          {
-           "surface": "ation",
-           "type": "suffix",
-           "meaning": "the process of",
-           "translations": {
-            "am": "ሂደት",
-            "ar": "عملية",
-            "es": "el proceso de",
-            "fa": "فرآیند",
-            "fr": "processus de",
-            "hi": "प्रक्रिया",
-            "ja": "…する過程",
-            "ko": "…하는 과정",
-            "ml": "പ്രക്രിയ",
-            "ps": "بهير",
-            "ro": "procesul de",
-            "ru": "процесс",
-            "ta": "செயல்முறை",
-            "tl": "proseso ng",
-            "ur": "کا عمل",
-            "vi": "quá trình",
-            "zh-Hans": "…的过程",
-            "zh-Hant": "…的過程"
-           }
+           "meaning": "frozen ground"
           }
          ],
-         "root": "und",
-         "meaning": "The covering of land with water — the formal word for flooding, used on official flood maps and warnings.",
+         "root": "frost",
+         "meaning": "A permanently frozen layer of soil beneath the surface of the ground.",
          "example": "",
          "tier": 3,
          "translations": {
-          "am": "በውሃ መጥለቅለቅ",
-          "ar": "غمر",
-          "es": "anegación",
-          "fa": "آب‌گرفتگی",
-          "fr": "submersion",
-          "hi": "जलप्लावन",
-          "ja": "浸水",
-          "ko": "침수",
-          "ml": "പ്രളയം",
-          "ps": "ډوبېدنه",
-          "ro": "revărsare",
-          "ru": "затопление",
-          "ta": "நீர்மூழ்குதல்",
-          "tl": "pagkalubog sa tubig",
-          "ur": "غرقابی",
-          "vi": "sự ngập lụt",
-          "zh-Hans": "淹没",
-          "zh-Hant": "淹沒"
+          "ar": "تربة صقيعية",
+          "es": "permafrost",
+          "fa": "یخ‌زده دائمی",
+          "fr": "pergélisol",
+          "ja": "永久凍土",
+          "ko": "영구동토",
+          "vi": "đất đóng băng vĩnh cửu",
+          "zh-Hans": "永久冻土",
+          "zh-Hant": "永凍層"
+         }
+        },
+        {
+         "word": "plain",
+         "parts": [],
+         "root": "",
+         "meaning": "An area of level land, usually at low elevation and often covered with grasses.",
+         "example": "",
+         "tier": 3,
+         "translations": {
+          "ar": "سهل",
+          "es": "llanura",
+          "fa": "دشت",
+          "fr": "plaine",
+          "ja": "平原",
+          "ko": "평원",
+          "vi": "đồng bằng",
+          "zh-Hans": "平原",
+          "zh-Hant": "平原"
+         }
+        },
+        {
+         "word": "plateau",
+         "parts": [
+          {
+           "surface": "plat",
+           "type": "root",
+           "meaning": "flat"
+          },
+          {
+           "surface": "eau",
+           "type": "suffix",
+           "meaning": "a thing that is"
+          }
+         ],
+         "root": "plat",
+         "meaning": "A landform that has high elevation and a flat surface.",
+         "example": "",
+         "tier": 3,
+         "translations": {
+          "ar": "هضبة",
+          "es": "meseta",
+          "fa": "فلات",
+          "fr": "plateau",
+          "ja": "高原",
+          "ko": "고원",
+          "vi": "cao nguyên",
+          "zh-Hans": "高原",
+          "zh-Hant": "高原"
+         }
+        },
+        {
+         "word": "prairie",
+         "parts": [],
+         "root": "",
+         "meaning": "A large area of level or rolling land with grass but few or no trees.",
+         "example": "",
+         "tier": 3,
+         "translations": {
+          "ar": "براري",
+          "es": "pradera",
+          "fa": "علفزار",
+          "fr": "prairie",
+          "ja": "大草原",
+          "ko": "대초원",
+          "vi": "thảo nguyên",
+          "zh-Hans": "大草原",
+          "zh-Hant": "大草原"
+         }
+        },
+        {
+         "word": "sea",
+         "parts": [],
+         "root": "",
+         "meaning": "A division of an ocean or a large body of salt water partially enclosed by land.",
+         "example": "",
+         "tier": 3,
+         "translations": {
+          "ar": "بحر",
+          "es": "mar",
+          "fa": "دریا",
+          "fr": "mer",
+          "ja": "海",
+          "ko": "바다",
+          "vi": "biển",
+          "zh-Hans": "海",
+          "zh-Hant": "海"
+         }
+        },
+        {
+         "word": "strait",
+         "parts": [],
+         "root": "",
+         "meaning": "A narrow channel of the sea joining two larger bodies of water.",
+         "example": "",
+         "tier": 3,
+         "translations": {
+          "ar": "مضيق",
+          "es": "estrecho",
+          "fa": "تنگه",
+          "fr": "détroit",
+          "ja": "海峡",
+          "ko": "해협",
+          "vi": "eo biển",
+          "zh-Hans": "海峡",
+          "zh-Hant": "海峽"
+         }
+        },
+        {
+         "word": "tundra",
+         "parts": [],
+         "root": "",
+         "meaning": "A vast, flat, treeless Arctic region in which the subsoil is permanently frozen.",
+         "example": "",
+         "tier": 3,
+         "translations": {
+          "ar": "تندرا",
+          "es": "tundra",
+          "fa": "توندرا",
+          "fr": "toundra",
+          "ja": "ツンドラ",
+          "ko": "툰드라",
+          "vi": "lãnh nguyên",
+          "zh-Hans": "苔原",
+          "zh-Hant": "苔原"
+         }
+        },
+        {
+         "word": "valley",
+         "parts": [],
+         "root": "",
+         "meaning": "Low land between hills or mountains.",
+         "example": "",
+         "tier": 3,
+         "translations": {
+          "ar": "وادٍ",
+          "es": "valle",
+          "fa": "دره",
+          "fr": "vallée",
+          "ja": "谷",
+          "ko": "계곡",
+          "vi": "thung lũng",
+          "zh-Hans": "山谷",
+          "zh-Hant": "山谷"
+         }
+        },
+        {
+         "word": "volcano",
+         "parts": [],
+         "root": "",
+         "meaning": "A mountain formed by volcanic material.",
+         "example": "",
+         "tier": 3,
+         "translations": {
+          "ar": "بركان",
+          "es": "volcán",
+          "fa": "آتشفشان",
+          "fr": "volcan",
+          "ja": "火山",
+          "ko": "화산",
+          "vi": "núi lửa",
+          "zh-Hans": "火山",
+          "zh-Hant": "火山"
          }
         }
        ],
-       "path": "year-7/humanities-civics/water-hazards"
+       "path": "year-7/humanities-civics/geography-landforms"
       },
       {
-       "id": "water-natural-resources",
-       "name": "Water in the World — Natural resources",
+       "id": "water-1-1",
+       "name": "Water in the World — 1.1 The Water Cycle",
        "interactive": true,
        "words": [
         {
@@ -236142,7 +236062,15 @@
           "zh-Hans": "分布",
           "zh-Hant": "分佈"
          }
-        },
+        }
+       ],
+       "path": "year-7/humanities-civics/water-1-1"
+      },
+      {
+       "id": "water-1-2",
+       "name": "Water in the World — 1.2 Sustainable Use of Water",
+       "interactive": true,
+       "words": [
         {
          "word": "resource",
          "parts": [
@@ -236766,7 +236694,15 @@
           "zh-Hans": "可持续的",
           "zh-Hant": "可持續的"
          }
-        },
+        }
+       ],
+       "path": "year-7/humanities-civics/water-1-2"
+      },
+      {
+       "id": "water-1-3",
+       "name": "Water in the World — 1.3 Australia’s Natural Resources",
+       "interactive": true,
+       "words": [
         {
          "word": "mineral",
          "parts": [
@@ -237163,7 +237099,15 @@
           "zh-Hans": "盆地／流域",
           "zh-Hant": "盆地／流域"
          }
-        },
+        }
+       ],
+       "path": "year-7/humanities-civics/water-1-3"
+      },
+      {
+       "id": "water-1-4",
+       "name": "Water in the World — 1.4 How Does Water Change Places?",
+       "interactive": true,
+       "words": [
         {
          "word": "erosion",
          "parts": [
@@ -237587,11 +237531,11 @@
          }
         }
        ],
-       "path": "year-7/humanities-civics/water-natural-resources"
+       "path": "year-7/humanities-civics/water-1-4"
       },
       {
-       "id": "water-uses",
-       "name": "Water in the World — Water uses",
+       "id": "water-2-1",
+       "name": "Water in the World — 2.1 Water Uses",
        "interactive": true,
        "words": [
         {
@@ -238167,7 +238111,15 @@
           "zh-Hans": "工业的",
           "zh-Hant": "工業的"
          }
-        },
+        }
+       ],
+       "path": "year-7/humanities-civics/water-2-1"
+      },
+      {
+       "id": "water-2-2",
+       "name": "Water in the World — 2.2 The World’s Water",
+       "interactive": true,
+       "words": [
         {
          "word": "scarcity",
          "parts": [
@@ -238691,7 +238643,15 @@
           "zh-Hans": "水库",
           "zh-Hant": "水庫"
          }
-        },
+        }
+       ],
+       "path": "year-7/humanities-civics/water-2-2"
+      },
+      {
+       "id": "water-2-3",
+       "name": "Water in the World — 2.3 The Significance of Water",
+       "interactive": true,
+       "words": [
         {
          "word": "significance",
          "parts": [
@@ -239191,485 +239151,917 @@
          }
         }
        ],
-       "path": "year-7/humanities-civics/water-uses"
+       "path": "year-7/humanities-civics/water-2-3"
       },
       {
-       "id": "geography-landforms",
-       "name": "Geography — Landscapes & landforms",
+       "id": "water-3-1",
+       "name": "Water in the World — 3.1 Hazards & Disasters",
        "interactive": true,
        "words": [
         {
-         "word": "archipelago",
+         "word": "hazard",
+         "parts": [],
+         "root": "",
+         "meaning": "Something with the POTENTIAL to cause harm — a cyclone forming offshore is a hazard even before it touches anyone.",
+         "example": "",
+         "tier": 3,
+         "translations": {
+          "am": "ስጋት",
+          "ar": "خطر",
+          "es": "peligro",
+          "fa": "خطر",
+          "fr": "aléa (danger)",
+          "hi": "संकट (ख़तरा)",
+          "ja": "ハザード（危険要因）",
+          "ko": "위험 요인",
+          "ml": "അപകടസാധ്യത",
+          "ps": "خطر",
+          "ro": "hazard (pericol)",
+          "ru": "опасность",
+          "ta": "அபாயம்",
+          "tl": "panganib",
+          "ur": "خطرہ",
+          "vi": "hiểm họa",
+          "zh-Hans": "（潜在）危害",
+          "zh-Hant": "（潛在）危害"
+         }
+        },
+        {
+         "word": "disaster",
          "parts": [
           {
-           "surface": "archi",
+           "surface": "dis",
            "type": "prefix",
-           "meaning": "chief, main"
+           "meaning": "bad, ill",
+           "translations": {
+            "am": "መጥፎ",
+            "ar": "سيّئ",
+            "es": "malo",
+            "fa": "بد",
+            "fr": "mauvais",
+            "hi": "बुरा",
+            "ja": "悪い",
+            "ko": "나쁜",
+            "ml": "മോശം",
+            "ps": "بد / خراب",
+            "ro": "rău",
+            "ru": "плохой",
+            "ta": "கெட்ட",
+            "tl": "masama",
+            "ur": "برا",
+            "vi": "xấu, tồi",
+            "zh-Hans": "坏、恶",
+            "zh-Hant": "壞、惡"
+           }
           },
           {
-           "surface": "pelago",
+           "surface": "aster",
            "type": "root",
-           "meaning": "sea"
+           "meaning": "star",
+           "translations": {
+            "am": "ኮከብ",
+            "ar": "نجم",
+            "es": "estrella",
+            "fa": "ستاره",
+            "fr": "étoile",
+            "hi": "तारा",
+            "ja": "星",
+            "ko": "별",
+            "ml": "നക്ഷത്രം",
+            "ps": "ستوری",
+            "ro": "stea",
+            "ru": "звезда",
+            "ta": "நட்சத்திரம்",
+            "tl": "bituin",
+            "ur": "ستارہ",
+            "vi": "sao",
+            "zh-Hans": "星",
+            "zh-Hant": "星"
+           }
           }
          ],
-         "root": "pelago",
-         "meaning": "A group of islands.",
+         "root": "aster",
+         "meaning": "A hazard come true — an event that actually causes major harm to people, property or the environment.",
          "example": "",
          "tier": 3,
          "translations": {
-          "ar": "أرخبيل",
-          "es": "archipiélago",
-          "fa": "مجمع‌الجزایر",
-          "fr": "archipel",
-          "ja": "群島",
-          "ko": "군도",
-          "vi": "quần đảo",
-          "zh-Hans": "群岛",
-          "zh-Hant": "群島"
+          "am": "አደጋ",
+          "ar": "كارثة",
+          "es": "desastre",
+          "fa": "فاجعه",
+          "fr": "catastrophe",
+          "hi": "आपदा",
+          "ja": "災害",
+          "ko": "재해",
+          "ml": "ദുരന്തം",
+          "ps": "ناورین",
+          "ro": "dezastru",
+          "ru": "бедствие",
+          "ta": "பேரிடர்",
+          "tl": "sakuna",
+          "ur": "آفت",
+          "vi": "thảm họa",
+          "zh-Hans": "灾难",
+          "zh-Hant": "災難"
          }
         },
         {
-         "word": "bay",
-         "parts": [],
-         "root": "",
-         "meaning": "A large, circular indentation of a shoreline.",
-         "example": "",
-         "tier": 3,
-         "translations": {
-          "ar": "خليج",
-          "es": "bahía",
-          "fa": "خلیج",
-          "fr": "baie",
-          "ja": "湾",
-          "ko": "만",
-          "vi": "vịnh",
-          "zh-Hans": "海湾",
-          "zh-Hant": "海灣"
-         }
-        },
-        {
-         "word": "canyon",
-         "parts": [],
-         "root": "",
-         "meaning": "A deep and narrow valley with steep walls.",
-         "example": "",
-         "tier": 3,
-         "translations": {
-          "ar": "وادٍ سحيق",
-          "es": "cañón",
-          "fa": "دره عمیق",
-          "fr": "canyon",
-          "ja": "峡谷",
-          "ko": "협곡",
-          "vi": "hẻm núi",
-          "zh-Hans": "峡谷",
-          "zh-Hant": "峽谷"
-         }
-        },
-        {
-         "word": "channel",
-         "parts": [],
-         "root": "",
-         "meaning": "A deep and relatively narrow body of water that allows the best passage for vessels.",
-         "example": "",
-         "tier": 3,
-         "translations": {
-          "ar": "قناة",
-          "es": "canal",
-          "fa": "آبراه",
-          "fr": "chenal",
-          "ja": "水路",
-          "ko": "수로",
-          "vi": "eo biển hẹp",
-          "zh-Hans": "水道",
-          "zh-Hant": "水道"
-         }
-        },
-        {
-         "word": "cliff",
-         "parts": [],
-         "root": "",
-         "meaning": "A steep, high wall of rock, earth, or ice.",
-         "example": "",
-         "tier": 3,
-         "translations": {
-          "ar": "جرف",
-          "es": "acantilado",
-          "fa": "صخره پرتگاه",
-          "fr": "falaise",
-          "ja": "崖",
-          "ko": "절벽",
-          "vi": "vách đá",
-          "zh-Hans": "悬崖",
-          "zh-Hant": "懸崖"
-         }
-        },
-        {
-         "word": "delta",
-         "parts": [],
-         "root": "",
-         "meaning": "A triangular landform made of sediment deposited by river flows.",
-         "example": "",
-         "tier": 3,
-         "translations": {
-          "ar": "دلتا",
-          "es": "delta",
-          "fa": "دلتا",
-          "fr": "delta",
-          "ja": "三角州",
-          "ko": "삼각주",
-          "vi": "đồng bằng châu thổ",
-          "zh-Hans": "三角洲",
-          "zh-Hant": "三角洲"
-         }
-        },
-        {
-         "word": "glacier",
-         "parts": [],
-         "root": "",
-         "meaning": "A slowly moving mass of ice.",
-         "example": "",
-         "tier": 3,
-         "translations": {
-          "ar": "نهر جليدي",
-          "es": "glaciar",
-          "fa": "یخچال طبیعی",
-          "fr": "glacier",
-          "ja": "氷河",
-          "ko": "빙하",
-          "vi": "sông băng",
-          "zh-Hans": "冰川",
-          "zh-Hant": "冰川"
-         }
-        },
-        {
-         "word": "gulf",
-         "parts": [],
-         "root": "",
-         "meaning": "An arm of a sea or ocean partly enclosed by land.",
-         "example": "",
-         "tier": 3,
-         "translations": {
-          "ar": "خليج كبير",
-          "es": "golfo",
-          "fa": "خلیج بزرگ",
-          "fr": "golfe",
-          "ja": "湾",
-          "ko": "만",
-          "vi": "vịnh lớn",
-          "zh-Hans": "海湾",
-          "zh-Hant": "海灣"
-         }
-        },
-        {
-         "word": "harbour",
-         "parts": [],
-         "root": "",
-         "meaning": "A sheltered port where ships can take on or discharge cargo.",
-         "example": "",
-         "tier": 3,
-         "translations": {
-          "ar": "ميناء",
-          "es": "puerto",
-          "fa": "بندر",
-          "fr": "port",
-          "ja": "港",
-          "ko": "항구",
-          "vi": "cảng",
-          "zh-Hans": "港口",
-          "zh-Hant": "港口"
-         }
-        },
-        {
-         "word": "island",
-         "parts": [],
-         "root": "",
-         "meaning": "A land mass smaller than a continent that is surrounded by water.",
-         "example": "",
-         "tier": 3,
-         "translations": {
-          "ar": "جزيرة",
-          "es": "isla",
-          "fa": "جزیره",
-          "fr": "île",
-          "ja": "島",
-          "ko": "섬",
-          "vi": "hòn đảo",
-          "zh-Hans": "岛屿",
-          "zh-Hant": "島嶼"
-         }
-        },
-        {
-         "word": "isthmus",
-         "parts": [],
-         "root": "",
-         "meaning": "A relatively narrow strip of land with water on both sides connecting two larger land areas.",
-         "example": "",
-         "tier": 3,
-         "translations": {
-          "ar": "برزخ",
-          "es": "istmo",
-          "fa": "تنگه خشکی",
-          "fr": "isthme",
-          "ja": "地峡",
-          "ko": "지협",
-          "vi": "eo đất",
-          "zh-Hans": "地峡",
-          "zh-Hant": "地峽"
-         }
-        },
-        {
-         "word": "lowlands",
-         "parts": [],
-         "root": "",
-         "meaning": "The valleys and plains below a mountain range.",
-         "example": "",
-         "tier": 3,
-         "translations": {
-          "ar": "أراضٍ منخفضة",
-          "es": "tierras bajas",
-          "fa": "جلگه پست",
-          "fr": "basses terres",
-          "ja": "低地",
-          "ko": "저지대",
-          "vi": "vùng đất thấp",
-          "zh-Hans": "低地",
-          "zh-Hant": "低地"
-         }
-        },
-        {
-         "word": "mountain range",
-         "parts": [],
-         "root": "",
-         "meaning": "A series of hills or mountains.",
-         "example": "",
-         "tier": 3,
-         "translations": {
-          "ar": "سلسلة جبال",
-          "es": "cordillera",
-          "fa": "رشته‌کوه",
-          "fr": "chaîne de montagnes",
-          "ja": "山脈",
-          "ko": "산맥",
-          "vi": "dãy núi",
-          "zh-Hans": "山脉",
-          "zh-Hant": "山脈"
-         }
-        },
-        {
-         "word": "peninsula",
+         "word": "atmospheric",
          "parts": [
           {
-           "surface": "pen",
-           "type": "prefix",
-           "meaning": "almost"
+           "surface": "atmo",
+           "type": "root",
+           "meaning": "vapour, steam",
+           "translations": {
+            "am": "እንፋሎት",
+            "ar": "بخار",
+            "es": "vapor",
+            "fa": "بخار",
+            "fr": "vapeur",
+            "hi": "वाष्प, भाप",
+            "ja": "蒸気",
+            "ko": "증기",
+            "ml": "നീരാവി",
+            "ps": "بخار",
+            "ro": "vapori, abur",
+            "ru": "пар",
+            "ta": "நீராவி",
+            "tl": "singaw",
+            "ur": "بخار، بھاپ",
+            "vi": "hơi nước",
+            "zh-Hans": "蒸汽（水汽）",
+            "zh-Hant": "蒸汽（水汽）"
+           }
           },
           {
-           "surface": "insula",
+           "surface": "spher",
            "type": "root",
-           "meaning": "island"
+           "meaning": "ball, globe",
+           "translations": {
+            "am": "ኳስ፣ ሉል",
+            "ar": "كرة",
+            "es": "esfera",
+            "fa": "گوی، کره",
+            "fr": "boule, globe",
+            "hi": "गेंद, गोला",
+            "ja": "球、球体",
+            "ko": "공, 구",
+            "ml": "പന്ത്, ഗോളം",
+            "ps": "توپ، کره",
+            "ro": "minge, glob",
+            "ru": "шар",
+            "ta": "பந்து, கோளம்",
+            "tl": "bola, globo",
+            "ur": "گیند، کرہ",
+            "vi": "quả bóng, quả cầu",
+            "zh-Hans": "球，球体",
+            "zh-Hant": "球，球體"
+           }
+          },
+          {
+           "surface": "ic",
+           "type": "suffix",
+           "meaning": "relating to",
+           "translations": {
+            "am": "ተያያዥ",
+            "ar": "متعلّق بـ",
+            "es": "relativo a",
+            "fa": "مربوط به",
+            "fr": "relatif à",
+            "hi": "संबंधी",
+            "ja": "～の",
+            "ko": "관련된",
+            "ml": "ബന്ധപ്പെട്ട",
+            "ps": "اړوند",
+            "ro": "legat de",
+            "ru": "относящийся",
+            "ta": "தொடர்பான",
+            "tl": "kaugnay sa",
+            "ur": "متعلق",
+            "vi": "thuộc về",
+            "zh-Hans": "……的",
+            "zh-Hant": "……的"
+           }
           }
          ],
-         "root": "insula",
-         "meaning": "Land surrounded by water on three sides.",
+         "root": "atmo",
+         "meaning": "To do with the atmosphere — the blanket of air around Earth. Atmospheric hazards include storms, cyclones and heatwaves.",
          "example": "",
          "tier": 3,
          "translations": {
-          "ar": "شبه جزيرة",
-          "es": "península",
-          "fa": "شبه‌جزیره",
-          "fr": "péninsule",
-          "ja": "半島",
-          "ko": "반도",
-          "vi": "bán đảo",
-          "zh-Hans": "半岛",
-          "zh-Hant": "半島"
+          "am": "የከባቢ አየር",
+          "ar": "جوّي",
+          "es": "atmosférico",
+          "fa": "جوّی",
+          "fr": "atmosphérique",
+          "hi": "वायुमंडलीय",
+          "ja": "大気の",
+          "ko": "대기의",
+          "ml": "അന്തരീക്ഷ",
+          "ps": "اتموسفیري",
+          "ro": "atmosferic",
+          "ru": "атмосферный",
+          "ta": "வளிமண்டல",
+          "tl": "atmospheriko",
+          "ur": "جوّی",
+          "vi": "khí quyển",
+          "zh-Hans": "大气的",
+          "zh-Hant": "大氣的"
          }
         },
         {
-         "word": "permafrost",
+         "word": "hydrological",
          "parts": [
           {
-           "surface": "perma",
+           "surface": "hydro",
            "type": "prefix",
-           "meaning": "lasting, permanent"
+           "meaning": "water",
+           "translations": {
+            "am": "ውሃ",
+            "ar": "ماء",
+            "es": "agua",
+            "fa": "آب",
+            "fr": "eau",
+            "hi": "जल",
+            "ja": "水",
+            "ko": "물",
+            "ml": "ജലം",
+            "ps": "اوبه",
+            "ro": "apă",
+            "ru": "вода",
+            "ta": "நீர்",
+            "tl": "tubig",
+            "ur": "پانی",
+            "vi": "nước",
+            "zh-Hans": "水",
+            "zh-Hant": "水"
+           }
           },
           {
-           "surface": "frost",
+           "surface": "log",
            "type": "root",
-           "meaning": "frozen ground"
+           "meaning": "study, word",
+           "translations": {
+            "am": "ጥናት፣ ቃል",
+            "ar": "دراسة/علم",
+            "es": "estudio/palabra",
+            "fa": "مطالعه، کلمه",
+            "fr": "étude, mot",
+            "hi": "अध्ययन, शब्द",
+            "ja": "研究、言葉",
+            "ko": "학문, 단어",
+            "ml": "പഠനം, വാക്ക്",
+            "ps": "مطالعه، ټکی",
+            "ro": "studiu, cuvânt",
+            "ru": "изучение, слово",
+            "ta": "ஆய்வு, சொல்",
+            "tl": "pag-aaral, salita",
+            "ur": "مطالعہ، لفظ",
+            "vi": "nghiên cứu, từ",
+            "zh-Hans": "研究，词",
+            "zh-Hant": "研究，詞"
+           }
+          },
+          {
+           "surface": "ical",
+           "type": "suffix",
+           "meaning": "relating to",
+           "translations": {
+            "am": "ተዛማጅ",
+            "ar": "متعلق بـ",
+            "es": "relativo a",
+            "fa": "مربوط به",
+            "fr": "relatif à",
+            "hi": "से संबंधित",
+            "ja": "〜に関する",
+            "ko": "~에 관한",
+            "ml": "ബന്ധപ്പെട്ട",
+            "ps": "اړوند",
+            "ro": "referitor la",
+            "ru": "относящийся к",
+            "ta": "தொடர்பான",
+            "tl": "may kinalaman sa",
+            "ur": "سے متعلق",
+            "vi": "thuộc về",
+            "zh-Hans": "与……有关的",
+            "zh-Hant": "與……有關的"
+           }
           }
          ],
-         "root": "frost",
-         "meaning": "A permanently frozen layer of soil beneath the surface of the ground.",
+         "root": "log",
+         "meaning": "To do with water and how it moves. Hydrological hazards include floods and flash floods.",
          "example": "",
          "tier": 3,
          "translations": {
-          "ar": "تربة صقيعية",
-          "es": "permafrost",
-          "fa": "یخ‌زده دائمی",
-          "fr": "pergélisol",
-          "ja": "永久凍土",
-          "ko": "영구동토",
-          "vi": "đất đóng băng vĩnh cửu",
-          "zh-Hans": "永久冻土",
-          "zh-Hant": "永凍層"
+          "am": "የውሃ (ሃይድሮሎጂ)",
+          "ar": "هيدرولوجي (مائي)",
+          "es": "hidrológico",
+          "fa": "هیدرولوژیکی",
+          "fr": "hydrologique",
+          "hi": "जलविज्ञानीय",
+          "ja": "水文の",
+          "ko": "수문학적",
+          "ml": "ജലശാസ്ത്രപരം",
+          "ps": "هایدرولوژیکي (د اوبو)",
+          "ro": "hidrologic",
+          "ru": "гидрологический",
+          "ta": "நீரியல்",
+          "tl": "hidrolohikal",
+          "ur": "آبیاتی",
+          "vi": "thủy văn",
+          "zh-Hans": "水文的",
+          "zh-Hant": "水文的"
          }
         },
         {
-         "word": "plain",
-         "parts": [],
-         "root": "",
-         "meaning": "An area of level land, usually at low elevation and often covered with grasses.",
+         "word": "geological",
+         "parts": [
+          {
+           "surface": "geo",
+           "type": "root",
+           "meaning": "earth",
+           "translations": {
+            "am": "ምድር",
+            "ar": "أرض",
+            "es": "tierra",
+            "fa": "زمین",
+            "fr": "terre",
+            "hi": "पृथ्वी",
+            "ja": "地球",
+            "ko": "지구",
+            "ml": "ഭൂമി",
+            "ps": "ځمکه",
+            "ro": "pământ",
+            "ru": "земля",
+            "ta": "பூமி",
+            "tl": "lupa",
+            "ur": "زمین",
+            "vi": "trái đất",
+            "zh-Hans": "地球",
+            "zh-Hant": "地球"
+           }
+          },
+          {
+           "surface": "log",
+           "type": "root",
+           "meaning": "study, word",
+           "translations": {
+            "am": "ጥናት፣ ቃል",
+            "ar": "دراسة/علم",
+            "es": "estudio/palabra",
+            "fa": "مطالعه، کلمه",
+            "fr": "étude, mot",
+            "hi": "अध्ययन, शब्द",
+            "ja": "研究、言葉",
+            "ko": "학문, 단어",
+            "ml": "പഠനം, വാക്ക്",
+            "ps": "مطالعه، ټکی",
+            "ro": "studiu, cuvânt",
+            "ru": "изучение, слово",
+            "ta": "ஆய்வு, சொல்",
+            "tl": "pag-aaral, salita",
+            "ur": "مطالعہ، لفظ",
+            "vi": "nghiên cứu, từ",
+            "zh-Hans": "研究，词",
+            "zh-Hant": "研究，詞"
+           }
+          },
+          {
+           "surface": "ical",
+           "type": "suffix",
+           "meaning": "relating to",
+           "translations": {
+            "am": "ተዛማጅ",
+            "ar": "متعلق بـ",
+            "es": "relativo a",
+            "fa": "مربوط به",
+            "fr": "relatif à",
+            "hi": "से संबंधित",
+            "ja": "〜に関する",
+            "ko": "~에 관한",
+            "ml": "ബന്ധപ്പെട്ട",
+            "ps": "اړوند",
+            "ro": "referitor la",
+            "ru": "относящийся к",
+            "ta": "தொடர்பான",
+            "tl": "may kinalaman sa",
+            "ur": "سے متعلق",
+            "vi": "thuộc về",
+            "zh-Hans": "与……有关的",
+            "zh-Hant": "與……有關的"
+           }
+          }
+         ],
+         "root": "geo",
+         "meaning": "To do with the Earth itself — its rocks and ground. Geological hazards include earthquakes, landslides and volcanic eruptions.",
          "example": "",
          "tier": 3,
          "translations": {
-          "ar": "سهل",
-          "es": "llanura",
-          "fa": "دشت",
-          "fr": "plaine",
-          "ja": "平原",
-          "ko": "평원",
-          "vi": "đồng bằng",
-          "zh-Hans": "平原",
-          "zh-Hant": "平原"
+          "am": "ጂኦሎጂያዊ (የመሬት)",
+          "ar": "جيولوجي",
+          "es": "geológico",
+          "fa": "زمین‌شناختی",
+          "fr": "géologique",
+          "hi": "भूवैज्ञानिक",
+          "ja": "地質学的",
+          "ko": "지질학적",
+          "ml": "ഭൗമശാസ്ത്രപരം",
+          "ps": "جيولوژيکي",
+          "ro": "geologic",
+          "ru": "геологический",
+          "ta": "நிலவியல் சார்ந்த",
+          "tl": "heolohikal",
+          "ur": "ارضیاتی",
+          "vi": "địa chất",
+          "zh-Hans": "地质的",
+          "zh-Hant": "地質的"
          }
         },
         {
-         "word": "plateau",
-         "parts": [],
-         "root": "",
-         "meaning": "A landform that has high elevation and a flat surface.",
+         "word": "biological",
+         "parts": [
+          {
+           "surface": "bio",
+           "type": "root",
+           "meaning": "life",
+           "translations": {
+            "am": "ሕይወት",
+            "ar": "حياة",
+            "es": "vida",
+            "fa": "زیست",
+            "fr": "vie",
+            "hi": "जीवन",
+            "ja": "生命",
+            "ko": "생명",
+            "ml": "ജീവൻ",
+            "ps": "ژوند",
+            "ro": "viață",
+            "ru": "жизнь",
+            "ta": "உயிர்",
+            "tl": "buhay",
+            "ur": "حیات",
+            "vi": "sinh",
+            "zh-Hans": "生命",
+            "zh-Hant": "生命"
+           }
+          },
+          {
+           "surface": "log",
+           "type": "root",
+           "meaning": "study, word",
+           "translations": {
+            "am": "ጥናት፣ ቃል",
+            "ar": "دراسة/علم",
+            "es": "estudio/palabra",
+            "fa": "مطالعه، کلمه",
+            "fr": "étude, mot",
+            "hi": "अध्ययन, शब्द",
+            "ja": "研究、言葉",
+            "ko": "학문, 단어",
+            "ml": "പഠനം, വാക്ക്",
+            "ps": "مطالعه، ټکی",
+            "ro": "studiu, cuvânt",
+            "ru": "изучение, слово",
+            "ta": "ஆய்வு, சொல்",
+            "tl": "pag-aaral, salita",
+            "ur": "مطالعہ، لفظ",
+            "vi": "nghiên cứu, từ",
+            "zh-Hans": "研究，词",
+            "zh-Hant": "研究，詞"
+           }
+          },
+          {
+           "surface": "ical",
+           "type": "suffix",
+           "meaning": "relating to",
+           "translations": {
+            "am": "ተዛማጅ",
+            "ar": "متعلق بـ",
+            "es": "relativo a",
+            "fa": "مربوط به",
+            "fr": "relatif à",
+            "hi": "से संबंधित",
+            "ja": "〜に関する",
+            "ko": "~에 관한",
+            "ml": "ബന്ധപ്പെട്ട",
+            "ps": "اړوند",
+            "ro": "referitor la",
+            "ru": "относящийся к",
+            "ta": "தொடர்பான",
+            "tl": "may kinalaman sa",
+            "ur": "سے متعلق",
+            "vi": "thuộc về",
+            "zh-Hans": "与……有关的",
+            "zh-Hant": "與……有關的"
+           }
+          }
+         ],
+         "root": "bio",
+         "meaning": "To do with living things. Biological hazards include disease outbreaks, pest plagues and harmful algae in water.",
          "example": "",
          "tier": 3,
          "translations": {
-          "ar": "هضبة",
-          "es": "meseta",
-          "fa": "فلات",
-          "fr": "plateau",
-          "ja": "高原",
-          "ko": "고원",
-          "vi": "cao nguyên",
-          "zh-Hans": "高原",
-          "zh-Hant": "高原"
-         }
-        },
-        {
-         "word": "prairie",
-         "parts": [],
-         "root": "",
-         "meaning": "A large area of level or rolling land with grass but few or no trees.",
-         "example": "",
-         "tier": 3,
-         "translations": {
-          "ar": "براري",
-          "es": "pradera",
-          "fa": "علفزار",
-          "fr": "prairie",
-          "ja": "大草原",
-          "ko": "대초원",
-          "vi": "thảo nguyên",
-          "zh-Hans": "大草原",
-          "zh-Hant": "大草原"
-         }
-        },
-        {
-         "word": "sea",
-         "parts": [],
-         "root": "",
-         "meaning": "A division of an ocean or a large body of salt water partially enclosed by land.",
-         "example": "",
-         "tier": 3,
-         "translations": {
-          "ar": "بحر",
-          "es": "mar",
-          "fa": "دریا",
-          "fr": "mer",
-          "ja": "海",
-          "ko": "바다",
-          "vi": "biển",
-          "zh-Hans": "海",
-          "zh-Hant": "海"
-         }
-        },
-        {
-         "word": "strait",
-         "parts": [],
-         "root": "",
-         "meaning": "A narrow channel of the sea joining two larger bodies of water.",
-         "example": "",
-         "tier": 3,
-         "translations": {
-          "ar": "مضيق",
-          "es": "estrecho",
-          "fa": "تنگه",
-          "fr": "détroit",
-          "ja": "海峡",
-          "ko": "해협",
-          "vi": "eo biển",
-          "zh-Hans": "海峡",
-          "zh-Hant": "海峽"
-         }
-        },
-        {
-         "word": "tundra",
-         "parts": [],
-         "root": "",
-         "meaning": "A vast, flat, treeless Arctic region in which the subsoil is permanently frozen.",
-         "example": "",
-         "tier": 3,
-         "translations": {
-          "ar": "تندرا",
-          "es": "tundra",
-          "fa": "توندرا",
-          "fr": "toundra",
-          "ja": "ツンドラ",
-          "ko": "툰드라",
-          "vi": "lãnh nguyên",
-          "zh-Hans": "苔原",
-          "zh-Hant": "苔原"
-         }
-        },
-        {
-         "word": "valley",
-         "parts": [],
-         "root": "",
-         "meaning": "Low land between hills or mountains.",
-         "example": "",
-         "tier": 3,
-         "translations": {
-          "ar": "وادٍ",
-          "es": "valle",
-          "fa": "دره",
-          "fr": "vallée",
-          "ja": "谷",
-          "ko": "계곡",
-          "vi": "thung lũng",
-          "zh-Hans": "山谷",
-          "zh-Hant": "山谷"
-         }
-        },
-        {
-         "word": "volcano",
-         "parts": [],
-         "root": "",
-         "meaning": "A mountain formed by volcanic material.",
-         "example": "",
-         "tier": 3,
-         "translations": {
-          "ar": "بركان",
-          "es": "volcán",
-          "fa": "آتشفشان",
-          "fr": "volcan",
-          "ja": "火山",
-          "ko": "화산",
-          "vi": "núi lửa",
-          "zh-Hans": "火山",
-          "zh-Hant": "火山"
+          "am": "ስነ-ሕይወታዊ",
+          "ar": "بيولوجي (حيوي)",
+          "es": "biológico",
+          "fa": "زیستی",
+          "fr": "biologique",
+          "hi": "जैविक",
+          "ja": "生物学的",
+          "ko": "생물학적",
+          "ml": "ജൈവിക",
+          "ps": "بیولوژیکي (ژوندیز)",
+          "ro": "biologic",
+          "ru": "биологический",
+          "ta": "உயிரியல்",
+          "tl": "biyolohikal",
+          "ur": "حیاتیاتی",
+          "vi": "sinh học",
+          "zh-Hans": "生物的",
+          "zh-Hant": "生物的"
          }
         }
        ],
-       "path": "year-7/humanities-civics/geography-landforms"
+       "path": "year-7/humanities-civics/water-3-1"
+      },
+      {
+       "id": "water-3-2",
+       "name": "Water in the World — 3.2 Droughts & Floods",
+       "interactive": true,
+       "words": [
+        {
+         "word": "drought",
+         "parts": [],
+         "root": "",
+         "meaning": "A long period with far less rain than normal, drying out the land, rivers and reservoirs.",
+         "example": "",
+         "tier": 3,
+         "translations": {
+          "am": "ድርቅ",
+          "ar": "جفاف",
+          "es": "sequía",
+          "fa": "خشکسالی",
+          "fr": "sécheresse",
+          "hi": "सूखा",
+          "ja": "干ばつ",
+          "ko": "가뭄",
+          "ml": "വരൾച്ച",
+          "ps": "وچکالي",
+          "ro": "secetă",
+          "ru": "засуха",
+          "ta": "வறட்சி",
+          "tl": "tagtuyot",
+          "ur": "خشک سالی",
+          "vi": "hạn hán",
+          "zh-Hans": "干旱",
+          "zh-Hant": "乾旱"
+         }
+        },
+        {
+         "word": "flood",
+         "parts": [],
+         "root": "",
+         "meaning": "Water overflowing onto land that is normally dry — from rivers bursting their banks, storm surges or sudden downpours.",
+         "example": "",
+         "tier": 3,
+         "translations": {
+          "am": "ጎርፍ",
+          "ar": "فيضان",
+          "es": "inundación",
+          "fa": "سیل",
+          "fr": "inondation",
+          "hi": "बाढ़",
+          "ja": "洪水",
+          "ko": "홍수",
+          "ml": "വെള്ളപ്പൊക്കം",
+          "ps": "سیلاب",
+          "ro": "inundație",
+          "ru": "наводнение",
+          "ta": "வெள்ளம்",
+          "tl": "baha",
+          "ur": "سیلاب",
+          "vi": "lũ lụt",
+          "zh-Hans": "洪水",
+          "zh-Hant": "洪水"
+         }
+        },
+        {
+         "word": "el niño",
+         "parts": [],
+         "root": "",
+         "meaning": "The warm phase of the Pacific climate see-saw, which usually brings hotter, drier weather — and drought risk — to eastern Australia.",
+         "example": "",
+         "tier": 3,
+         "translations": {
+          "am": "ኤል ኒኞ",
+          "ar": "النينيو",
+          "es": "El Niño",
+          "fa": "ال‌نینیو",
+          "fr": "El Niño",
+          "hi": "एल नीन्यो",
+          "ja": "エルニーニョ",
+          "ko": "엘니뇨",
+          "ml": "എൽ നിനോ",
+          "ps": "ال نینو",
+          "ro": "El Niño",
+          "ru": "Эль-Ниньо",
+          "ta": "எல் நினோ",
+          "tl": "El Niño",
+          "ur": "ال نینو",
+          "vi": "El Niño",
+          "zh-Hans": "厄尔尼诺",
+          "zh-Hant": "厄爾尼諾"
+         }
+        },
+        {
+         "word": "oscillation",
+         "parts": [
+          {
+           "surface": "oscill",
+           "type": "root",
+           "meaning": "to swing back and forth",
+           "translations": {
+            "am": "ወዲያና ወዲህ መወዛወዝ",
+            "ar": "يتذبذب",
+            "es": "oscilar",
+            "fa": "نوسان کردن",
+            "fr": "osciller",
+            "hi": "आगे-पीछे झूलना",
+            "ja": "揺れ動く",
+            "ko": "흔들리다",
+            "ml": "ആന്ദോളനം ചെയ്യുക",
+            "ps": "شا و خوا زنګېدل",
+            "ro": "a oscila",
+            "ru": "качаться",
+            "ta": "ஊசலாடுதல்",
+            "tl": "umindayog",
+            "ur": "جھولنا",
+            "vi": "dao động",
+            "zh-Hans": "来回摆动",
+            "zh-Hant": "來回擺動"
+           }
+          },
+          {
+           "surface": "ation",
+           "type": "suffix",
+           "meaning": "the process of",
+           "translations": {
+            "am": "ሂደት",
+            "ar": "عملية",
+            "es": "el proceso de",
+            "fa": "فرآیند",
+            "fr": "processus de",
+            "hi": "प्रक्रिया",
+            "ja": "…する過程",
+            "ko": "…하는 과정",
+            "ml": "പ്രക്രിയ",
+            "ps": "بهير",
+            "ro": "procesul de",
+            "ru": "процесс",
+            "ta": "செயல்முறை",
+            "tl": "proseso ng",
+            "ur": "کا عمل",
+            "vi": "quá trình",
+            "zh-Hans": "…的过程",
+            "zh-Hant": "…的過程"
+           }
+          }
+         ],
+         "root": "oscill",
+         "meaning": "A swinging back and forth between two states — the Southern Oscillation is the see-saw of air pressure across the Pacific.",
+         "example": "",
+         "tier": 3,
+         "translations": {
+          "am": "መወዛወዝ",
+          "ar": "تذبذب",
+          "es": "oscilación",
+          "fa": "نوسان",
+          "fr": "oscillation",
+          "hi": "दोलन",
+          "ja": "振動",
+          "ko": "진동",
+          "ml": "ആന്ദോളനം",
+          "ps": "خوځېدنه",
+          "ro": "oscilație",
+          "ru": "колебание",
+          "ta": "அலைவு",
+          "tl": "osilasyon",
+          "ur": "ارتعاش",
+          "vi": "dao động",
+          "zh-Hans": "涛动（振荡）",
+          "zh-Hant": "濤動（振盪）"
+         }
+        },
+        {
+         "word": "evacuation",
+         "parts": [
+          {
+           "surface": "e",
+           "type": "prefix",
+           "meaning": "out",
+           "translations": {
+            "am": "ወጪ",
+            "ar": "خارج",
+            "es": "fuera",
+            "fa": "بیرون",
+            "fr": "dehors",
+            "hi": "बाहर",
+            "ja": "外へ",
+            "ko": "밖",
+            "ml": "പുറത്ത്",
+            "ps": "بهر",
+            "ro": "afară",
+            "ru": "наружу",
+            "ta": "வெளியே",
+            "tl": "palabas",
+            "ur": "باہر",
+            "vi": "ra",
+            "zh-Hans": "向外",
+            "zh-Hant": "向外"
+           }
+          },
+          {
+           "surface": "vacu",
+           "type": "root",
+           "meaning": "empty",
+           "translations": {
+            "am": "ባዶ",
+            "ar": "فارغ",
+            "es": "vacío",
+            "fa": "خالی",
+            "fr": "vide",
+            "hi": "खाली",
+            "ja": "空っぽ",
+            "ko": "빈",
+            "ml": "ശൂന്യം",
+            "ps": "تش",
+            "ro": "gol",
+            "ru": "пустой",
+            "ta": "காலி",
+            "tl": "walang laman",
+            "ur": "خالی",
+            "vi": "rỗng",
+            "zh-Hans": "空",
+            "zh-Hant": "空"
+           }
+          },
+          {
+           "surface": "ation",
+           "type": "suffix",
+           "meaning": "the process of",
+           "translations": {
+            "am": "ሂደት",
+            "ar": "عملية",
+            "es": "el proceso de",
+            "fa": "فرآیند",
+            "fr": "processus de",
+            "hi": "प्रक्रिया",
+            "ja": "…する過程",
+            "ko": "…하는 과정",
+            "ml": "പ്രക്രിയ",
+            "ps": "بهير",
+            "ro": "procesul de",
+            "ru": "процесс",
+            "ta": "செயல்முறை",
+            "tl": "proseso ng",
+            "ur": "کا عمل",
+            "vi": "quá trình",
+            "zh-Hans": "…的过程",
+            "zh-Hant": "…的過程"
+           }
+          }
+         ],
+         "root": "vacu",
+         "meaning": "The organised emptying of people OUT of a dangerous place before or during a disaster.",
+         "example": "",
+         "tier": 3,
+         "translations": {
+          "am": "ከአደጋ ማስወጣት",
+          "ar": "إخلاء",
+          "es": "evacuación",
+          "fa": "تخلیه",
+          "fr": "évacuation",
+          "hi": "निकासी",
+          "ja": "避難",
+          "ko": "대피",
+          "ml": "ഒഴിപ്പിക്കൽ",
+          "ps": "له سیمې ایستل",
+          "ro": "evacuare",
+          "ru": "эвакуация",
+          "ta": "வெளியேற்றம்",
+          "tl": "paglikas",
+          "ur": "انخلا",
+          "vi": "sơ tán",
+          "zh-Hans": "疏散",
+          "zh-Hant": "疏散"
+         }
+        },
+        {
+         "word": "inundation",
+         "parts": [
+          {
+           "surface": "in",
+           "type": "prefix",
+           "meaning": "in, onto",
+           "translations": {
+            "am": "ውስጥ፣ ላይ",
+            "ar": "في، على",
+            "es": "en / sobre",
+            "fa": "در، بر",
+            "fr": "dans, sur",
+            "hi": "में, पर",
+            "ja": "中に、上に",
+            "ko": "안에, 위에",
+            "ml": "ഉള്ളിൽ, മേൽ",
+            "ps": "کې، پر",
+            "ro": "în, pe",
+            "ru": "в, на",
+            "ta": "உள், மேல்",
+            "tl": "sa, sa ibabaw",
+            "ur": "میں، پر",
+            "vi": "trong, lên",
+            "zh-Hans": "里、上",
+            "zh-Hant": "裡、上"
+           }
+          },
+          {
+           "surface": "und",
+           "type": "root",
+           "meaning": "wave",
+           "translations": {
+            "am": "ማዕበል",
+            "ar": "موجة",
+            "es": "onda",
+            "fa": "موج",
+            "fr": "vague",
+            "hi": "लहर",
+            "ja": "波",
+            "ko": "파도",
+            "ml": "തിര",
+            "ps": "څپه",
+            "ro": "val",
+            "ru": "волна",
+            "ta": "அலை",
+            "tl": "alon",
+            "ur": "لہر",
+            "vi": "sóng",
+            "zh-Hans": "波",
+            "zh-Hant": "波"
+           }
+          },
+          {
+           "surface": "ation",
+           "type": "suffix",
+           "meaning": "the process of",
+           "translations": {
+            "am": "ሂደት",
+            "ar": "عملية",
+            "es": "el proceso de",
+            "fa": "فرآیند",
+            "fr": "processus de",
+            "hi": "प्रक्रिया",
+            "ja": "…する過程",
+            "ko": "…하는 과정",
+            "ml": "പ്രക്രിയ",
+            "ps": "بهير",
+            "ro": "procesul de",
+            "ru": "процесс",
+            "ta": "செயல்முறை",
+            "tl": "proseso ng",
+            "ur": "کا عمل",
+            "vi": "quá trình",
+            "zh-Hans": "…的过程",
+            "zh-Hant": "…的過程"
+           }
+          }
+         ],
+         "root": "und",
+         "meaning": "The covering of land with water — the formal word for flooding, used on official flood maps and warnings.",
+         "example": "",
+         "tier": 3,
+         "translations": {
+          "am": "በውሃ መጥለቅለቅ",
+          "ar": "غمر",
+          "es": "anegación",
+          "fa": "آب‌گرفتگی",
+          "fr": "submersion",
+          "hi": "जलप्लावन",
+          "ja": "浸水",
+          "ko": "침수",
+          "ml": "പ്രളയം",
+          "ps": "ډوبېدنه",
+          "ro": "revărsare",
+          "ru": "затопление",
+          "ta": "நீர்மூழ்குதல்",
+          "tl": "pagkalubog sa tubig",
+          "ur": "غرقابی",
+          "vi": "sự ngập lụt",
+          "zh-Hans": "淹没",
+          "zh-Hant": "淹沒"
+         }
+        }
+       ],
+       "path": "year-7/humanities-civics/water-3-2"
       },
       {
        "id": "history-china",
@@ -239716,8 +240108,19 @@
         },
         {
          "word": "origin",
-         "parts": [],
-         "root": "",
+         "parts": [
+          {
+           "surface": "orig",
+           "type": "root",
+           "meaning": "rise, begin"
+          },
+          {
+           "surface": "in",
+           "type": "suffix",
+           "meaning": "the thing that"
+          }
+         ],
+         "root": "orig",
          "meaning": "Where a source came from: who made it, when, and where.",
          "example": "",
          "tier": 3,
@@ -239735,8 +240138,19 @@
         },
         {
          "word": "purpose",
-         "parts": [],
-         "root": "",
+         "parts": [
+          {
+           "surface": "pur",
+           "type": "prefix",
+           "meaning": "forth, forward"
+          },
+          {
+           "surface": "pose",
+           "type": "root",
+           "meaning": "put, place"
+          }
+         ],
+         "root": "pose",
          "meaning": "The reason a source was made.",
          "example": "",
          "tier": 3,
@@ -239788,17 +240202,77 @@
           {
            "surface": "per",
            "type": "prefix",
-           "meaning": "through"
+           "meaning": "through",
+           "translations": {
+            "am": "በኩል",
+            "ar": "خلال",
+            "es": "a través de",
+            "fa": "از طریق",
+            "fr": "à travers",
+            "hi": "के माध्यम से",
+            "ja": "通して",
+            "ko": "통해",
+            "ml": "വഴി",
+            "ps": "له لارې",
+            "ro": "prin",
+            "ru": "через",
+            "ta": "மூலம்",
+            "tl": "sa pamamagitan ng",
+            "ur": "کے ذریعے",
+            "vi": "qua",
+            "zh-Hans": "通过",
+            "zh-Hant": "通過"
+           }
           },
           {
            "surface": "spect",
            "type": "root",
-           "meaning": "look"
+           "meaning": "look",
+           "translations": {
+            "am": "መመልከት",
+            "ar": "ينظر",
+            "es": "mirar",
+            "fa": "نگاه کردن",
+            "fr": "regarder",
+            "hi": "देखना",
+            "ja": "見る",
+            "ko": "보다",
+            "ml": "നോക്കുക",
+            "ps": "کتل",
+            "ro": "a privi",
+            "ru": "смотреть",
+            "ta": "பார்",
+            "tl": "tumingin",
+            "ur": "دیکھنا",
+            "vi": "nhìn",
+            "zh-Hans": "看",
+            "zh-Hant": "看"
+           }
           },
           {
            "surface": "ive",
            "type": "suffix",
-           "meaning": "tending to"
+           "meaning": "having the quality of",
+           "translations": {
+            "ar": "ذو صفة/يتّسم بـ",
+            "am": "ባሕርይ ያለው",
+            "es": "que tiene la cualidad de",
+            "fa": "دارای ویژگیِ",
+            "fr": "qui a la qualité de",
+            "hi": "के गुण वाला",
+            "ja": "〜の性質を持つ",
+            "ko": "〜의 성질을 가진",
+            "ml": "ഗുണമുള്ള",
+            "ps": "د ... ځانګړتیا لرونکی",
+            "ro": "care are calitatea de",
+            "ru": "обладающий качеством",
+            "ta": "பண்புடைய",
+            "tl": "may katangian ng",
+            "ur": "کی خاصیت رکھنے والا",
+            "vi": "có tính chất",
+            "zh-Hans": "具有……性质的",
+            "zh-Hant": "具有……性質的"
+           }
           }
          ],
          "root": "spect",
@@ -239823,12 +240297,52 @@
           {
            "surface": "inter",
            "type": "prefix",
-           "meaning": "between"
+           "meaning": "between",
+           "translations": {
+            "am": "በ…መካከል",
+            "ar": "بين",
+            "es": "entre",
+            "fa": "میان",
+            "fr": "entre",
+            "hi": "बीच में",
+            "ja": "間",
+            "ko": "사이",
+            "ml": "ഇടയിൽ",
+            "ps": "ترمنځ",
+            "ro": "între",
+            "ru": "между",
+            "ta": "இடையே",
+            "tl": "pagitan",
+            "ur": "درمیان",
+            "vi": "giữa",
+            "zh-Hans": "之间",
+            "zh-Hant": "之間"
+           }
           },
           {
            "surface": "pret",
            "type": "root",
-           "meaning": "explain"
+           "meaning": "explain",
+           "translations": {
+            "am": "ማብራራት",
+            "ar": "يشرح",
+            "es": "explicar",
+            "fa": "توضیح دادن",
+            "fr": "expliquer",
+            "hi": "समझाना",
+            "ja": "説明する",
+            "ko": "설명하다",
+            "ml": "വിശദീകരിക്കുക",
+            "ps": "تشریح کول",
+            "ro": "a explica",
+            "ru": "объяснять",
+            "ta": "விளக்குதல்",
+            "tl": "ipaliwanag",
+            "ur": "وضاحت کرنا",
+            "vi": "giải thích",
+            "zh-Hans": "解释",
+            "zh-Hant": "解釋"
+           }
           },
           {
            "surface": "ation",
@@ -239956,22 +240470,82 @@
          "word": "significance",
          "parts": [
           {
-           "surface": "signi",
+           "surface": "sign",
            "type": "root",
-           "meaning": "sign, mark"
+           "meaning": "mark, meaning",
+           "translations": {
+            "am": "ምልክት፣ ትርጉም",
+            "ar": "علامة، معنى",
+            "es": "marca / significado",
+            "fa": "نشانه، معنا",
+            "fr": "signe, sens",
+            "hi": "चिह्न, अर्थ",
+            "ja": "印・意味",
+            "ko": "표시, 의미",
+            "ml": "അടയാളം, അർത്ഥം",
+            "ps": "نښه، معنا",
+            "ro": "semn, sens",
+            "ru": "знак, значение",
+            "ta": "அடையாளம், பொருள்",
+            "tl": "tanda, kahulugan",
+            "ur": "نشان، معنی",
+            "vi": "dấu hiệu, ý nghĩa",
+            "zh-Hans": "记号，含义",
+            "zh-Hant": "記號，含義"
+           }
           },
           {
-           "surface": "fic",
-           "type": "root",
-           "meaning": "make"
+           "surface": "ific",
+           "type": "suffix",
+           "meaning": "making",
+           "translations": {
+            "am": "ማድረግ",
+            "ar": "صانع، جاعل",
+            "es": "que hace",
+            "fa": "سازنده",
+            "fr": "qui fait",
+            "hi": "बनाने वाला",
+            "ja": "…にする、作る",
+            "ko": "만드는",
+            "ml": "ഉണ്ടാക്കുന്ന",
+            "ps": "جوړوونکی",
+            "ro": "care face",
+            "ru": "делающий",
+            "ta": "ஆக்குகிற, செய்கிற",
+            "tl": "gumagawa",
+            "ur": "بنانے والا",
+            "vi": "làm cho, tạo ra",
+            "zh-Hans": "使…的，制造的",
+            "zh-Hant": "使…的，製造的"
+           }
           },
           {
            "surface": "ance",
            "type": "suffix",
-           "meaning": "the state of"
+           "meaning": "the state of",
+           "translations": {
+            "am": "ሁኔታ",
+            "ar": "حالة",
+            "es": "el estado de",
+            "fa": "حالت",
+            "fr": "état",
+            "hi": "अवस्था",
+            "ja": "状態",
+            "ko": "상태",
+            "ml": "അവസ്ഥ",
+            "ps": "حالت",
+            "ro": "stare",
+            "ru": "состояние",
+            "ta": "நிலை",
+            "tl": "kalagayan",
+            "ur": "حالت",
+            "vi": "trạng thái",
+            "zh-Hans": "状态",
+            "zh-Hant": "狀態"
+           }
           }
          ],
-         "root": "signi",
+         "root": "sign",
          "meaning": "How important something was, at the time and afterwards.",
          "example": "",
          "tier": 3,
@@ -239989,8 +240563,19 @@
         },
         {
          "word": "legacy",
-         "parts": [],
-         "root": "",
+         "parts": [
+          {
+           "surface": "leg",
+           "type": "root",
+           "meaning": "send, hand on"
+          },
+          {
+           "surface": "acy",
+           "type": "suffix",
+           "meaning": "the state of"
+          }
+         ],
+         "root": "leg",
          "meaning": "What is left behind and still matters long after.",
          "example": "",
          "tier": 3,
@@ -240108,8 +240693,19 @@
         },
         {
          "word": "dynasty",
-         "parts": [],
-         "root": "",
+         "parts": [
+          {
+           "surface": "dynast",
+           "type": "root",
+           "meaning": "ruler, power"
+          },
+          {
+           "surface": "y",
+           "type": "suffix",
+           "meaning": "the state of"
+          }
+         ],
+         "root": "dynast",
          "meaning": "A line of rulers from the same family.",
          "example": "",
          "tier": 3,
@@ -240176,8 +240772,19 @@
         },
         {
          "word": "scholar",
-         "parts": [],
-         "root": "",
+         "parts": [
+          {
+           "surface": "schol",
+           "type": "root",
+           "meaning": "school, learning"
+          },
+          {
+           "surface": "ar",
+           "type": "suffix",
+           "meaning": "one who"
+          }
+         ],
+         "root": "schol",
          "meaning": "Someone whose work is studying and learning.",
          "example": "",
          "tier": 3,
@@ -240242,7 +240849,27 @@
           {
            "surface": "logy",
            "type": "suffix",
-           "meaning": "study of"
+           "meaning": "study of",
+           "translations": {
+            "am": "ጥናት",
+            "ar": "دراسة",
+            "es": "estudio de",
+            "fa": "مطالعه",
+            "fr": "étude de",
+            "hi": "अध्ययन",
+            "ja": "学問",
+            "ko": "학문",
+            "ml": "പഠനം",
+            "ps": "مطالعه",
+            "ro": "studiul",
+            "ru": "наука о",
+            "ta": "ஆய்வியல்",
+            "tl": "pag-aaral",
+            "ur": "مطالعہ",
+            "vi": "nghiên cứu",
+            "zh-Hans": "学科",
+            "zh-Hant": "學科"
+           }
           }
          ],
          "root": "chrono",
@@ -240355,8 +240982,19 @@
         },
         {
          "word": "period",
-         "parts": [],
-         "root": "",
+         "parts": [
+          {
+           "surface": "peri",
+           "type": "prefix",
+           "meaning": "around"
+          },
+          {
+           "surface": "od",
+           "type": "root",
+           "meaning": "way, path"
+          }
+         ],
+         "root": "od",
          "meaning": "A named stretch of time, such as the Republic.",
          "example": "",
          "tier": 3,
@@ -240374,8 +241012,19 @@
         },
         {
          "word": "duration",
-         "parts": [],
-         "root": "",
+         "parts": [
+          {
+           "surface": "dur",
+           "type": "root",
+           "meaning": "last, endure"
+          },
+          {
+           "surface": "ation",
+           "type": "suffix",
+           "meaning": "the state of"
+          }
+         ],
+         "root": "dur",
          "meaning": "How long something lasted.",
          "example": "",
          "tier": 3,
@@ -240412,8 +241061,19 @@
         },
         {
          "word": "effect",
-         "parts": [],
-         "root": "",
+         "parts": [
+          {
+           "surface": "ef",
+           "type": "prefix",
+           "meaning": "out"
+          },
+          {
+           "surface": "fect",
+           "type": "root",
+           "meaning": "make, do"
+          }
+         ],
+         "root": "fect",
          "meaning": "What happened as a result.",
          "example": "",
          "tier": 3,
@@ -240431,8 +241091,19 @@
         },
         {
          "word": "motive",
-         "parts": [],
-         "root": "",
+         "parts": [
+          {
+           "surface": "mot",
+           "type": "root",
+           "meaning": "move"
+          },
+          {
+           "surface": "ive",
+           "type": "suffix",
+           "meaning": "tending to"
+          }
+         ],
+         "root": "mot",
          "meaning": "The reason a person chose to act.",
          "example": "",
          "tier": 3,
@@ -240515,8 +241186,24 @@
         },
         {
          "word": "summarise",
-         "parts": [],
-         "root": "",
+         "parts": [
+          {
+           "surface": "summ",
+           "type": "root",
+           "meaning": "the whole, total"
+          },
+          {
+           "surface": "ar",
+           "type": "suffix",
+           "meaning": "to do with"
+          },
+          {
+           "surface": "ise",
+           "type": "suffix",
+           "meaning": "to make"
+          }
+         ],
+         "root": "summ",
          "meaning": "Give the main points briefly.",
          "example": "",
          "tier": 3,
@@ -240534,8 +241221,19 @@
         },
         {
          "word": "regal period",
-         "parts": [],
-         "root": "",
+         "parts": [
+          {
+           "surface": "reg",
+           "type": "root",
+           "meaning": "king"
+          },
+          {
+           "surface": "al",
+           "type": "suffix",
+           "meaning": "to do with"
+          }
+         ],
+         "root": "reg",
          "meaning": "The time when Rome was ruled by kings, to 509 BCE.",
          "example": "",
          "tier": 3,
@@ -240572,8 +241270,19 @@
         },
         {
          "word": "imperial period",
-         "parts": [],
-         "root": "",
+         "parts": [
+          {
+           "surface": "imper",
+           "type": "root",
+           "meaning": "command, empire"
+          },
+          {
+           "surface": "ial",
+           "type": "suffix",
+           "meaning": "to do with"
+          }
+         ],
+         "root": "imper",
          "meaning": "The time when Rome was ruled by emperors, from 27 BCE.",
          "example": "",
          "tier": 3,
@@ -240591,8 +241300,19 @@
         },
         {
          "word": "patrician",
-         "parts": [],
-         "root": "",
+         "parts": [
+          {
+           "surface": "patr",
+           "type": "root",
+           "meaning": "father"
+          },
+          {
+           "surface": "ician",
+           "type": "suffix",
+           "meaning": "one belonging to"
+          }
+         ],
+         "root": "patr",
          "meaning": "A Roman from one of the old wealthy families.",
          "example": "",
          "tier": 3,
@@ -240610,8 +241330,19 @@
         },
         {
          "word": "plebeian",
-         "parts": [],
-         "root": "",
+         "parts": [
+          {
+           "surface": "pleb",
+           "type": "root",
+           "meaning": "the common people"
+          },
+          {
+           "surface": "eian",
+           "type": "suffix",
+           "meaning": "one belonging to"
+          }
+         ],
+         "root": "pleb",
          "meaning": "An ordinary Roman citizen, not from a noble family.",
          "example": "",
          "tier": 3,
@@ -240754,8 +241485,19 @@
         },
         {
          "word": "emperor",
-         "parts": [],
-         "root": "",
+         "parts": [
+          {
+           "surface": "emper",
+           "type": "root",
+           "meaning": "command"
+          },
+          {
+           "surface": "or",
+           "type": "suffix",
+           "meaning": "one who"
+          }
+         ],
+         "root": "emper",
          "meaning": "The supreme ruler of an empire.",
          "example": "",
          "tier": 3,
@@ -240773,8 +241515,19 @@
         },
         {
          "word": "conquest",
-         "parts": [],
-         "root": "",
+         "parts": [
+          {
+           "surface": "con",
+           "type": "prefix",
+           "meaning": "completely"
+          },
+          {
+           "surface": "quest",
+           "type": "root",
+           "meaning": "seek, win"
+          }
+         ],
+         "root": "quest",
          "meaning": "The act of conquering or taking control of a land or people.",
          "example": "",
          "tier": 3,
@@ -240792,8 +241545,19 @@
         },
         {
          "word": "province",
-         "parts": [],
-         "root": "",
+         "parts": [
+          {
+           "surface": "pro",
+           "type": "prefix",
+           "meaning": "before, on behalf of"
+          },
+          {
+           "surface": "vince",
+           "type": "root",
+           "meaning": "conquer"
+          }
+         ],
+         "root": "vince",
          "meaning": "A territory under the control of an empire or country.",
          "example": "",
          "tier": 3,
@@ -240838,9 +241602,15 @@
        "name": "Geography",
        "subtitle": "Water in the World, and Landscapes & landforms.",
        "unitIds": [
-        "water-natural-resources",
-        "water-uses",
-        "water-hazards",
+        "water-1-1",
+        "water-1-2",
+        "water-1-3",
+        "water-1-4",
+        "water-2-1",
+        "water-2-2",
+        "water-2-3",
+        "water-3-1",
+        "water-3-2",
         "geography-landforms"
        ],
        "sourceLabel": "Open Geography on the Humanities site",
