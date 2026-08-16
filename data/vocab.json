@@ -229642,7 +229642,7 @@
     {
      "id": "humanities-civics",
      "name": "Humanities",
-     "subtitle": "Geography, History and Civics — build the words",
+     "subtitle": "Geography, History, Economics & Business, and Civics.",
      "morphemes": {
       "prefixes": [
        {
@@ -241641,6 +241641,459 @@
         }
        ],
        "path": "year-7/humanities-civics/history-rome"
+      },
+      {
+       "id": "economics-business",
+       "name": "Economics & Business — Pigeon Patrol",
+       "interactive": true,
+       "words": [
+        {
+         "word": "entrepreneur",
+         "parts": [],
+         "root": "",
+         "meaning": "Someone who starts a business and takes the risk of it succeeding or failing.",
+         "example": "",
+         "tier": 3,
+         "translations": {
+          "ar": "رائد أعمال",
+          "es": "emprendedor",
+          "fa": "کارآفرین",
+          "fr": "entrepreneur",
+          "ja": "起業家",
+          "ko": "기업가",
+          "vi": "doanh nhân khởi nghiệp",
+          "zh-Hans": "创业者",
+          "zh-Hant": "創業者"
+         }
+        },
+        {
+         "word": "innovation",
+         "parts": [
+          {
+           "surface": "innov",
+           "type": "root",
+           "meaning": "make new"
+          },
+          {
+           "surface": "ation",
+           "type": "suffix",
+           "meaning": "the process of"
+          }
+         ],
+         "root": "innov",
+         "meaning": "A new idea or way of doing something that makes it better.",
+         "example": "",
+         "tier": 3,
+         "translations": {
+          "ar": "ابتكار",
+          "es": "innovación",
+          "fa": "نوآوری",
+          "fr": "innovation",
+          "ja": "革新",
+          "ko": "혁신",
+          "vi": "sự đổi mới",
+          "zh-Hans": "创新",
+          "zh-Hant": "創新"
+         }
+        },
+        {
+         "word": "business plan",
+         "parts": [],
+         "root": "",
+         "meaning": "A written plan for how a business will work and make money.",
+         "example": "",
+         "tier": 3,
+         "translations": {
+          "ar": "خطة عمل",
+          "es": "plan de negocio",
+          "fa": "طرح کسب‌وکار",
+          "fr": "plan d'affaires",
+          "ja": "事業計画",
+          "ko": "사업 계획",
+          "vi": "kế hoạch kinh doanh",
+          "zh-Hans": "商业计划",
+          "zh-Hant": "商業計畫"
+         }
+        },
+        {
+         "word": "founder",
+         "parts": [
+          {
+           "surface": "found",
+           "type": "root",
+           "meaning": "set up, establish"
+          },
+          {
+           "surface": "er",
+           "type": "suffix",
+           "meaning": "one who"
+          }
+         ],
+         "root": "found",
+         "meaning": "The person who started the business.",
+         "example": "",
+         "tier": 3,
+         "translations": {
+          "ar": "مؤسس",
+          "es": "fundador",
+          "fa": "بنیان‌گذار",
+          "fr": "fondateur",
+          "ja": "創業者",
+          "ko": "창업자",
+          "vi": "người sáng lập",
+          "zh-Hans": "创办人",
+          "zh-Hant": "創辦人"
+         }
+        },
+        {
+         "word": "profit",
+         "parts": [
+          {
+           "surface": "pro",
+           "type": "prefix",
+           "meaning": "forward"
+          },
+          {
+           "surface": "fit",
+           "type": "root",
+           "meaning": "make, do"
+          }
+         ],
+         "root": "fit",
+         "meaning": "The money left over after all the costs are paid.",
+         "example": "",
+         "tier": 3,
+         "translations": {
+          "ar": "ربح",
+          "es": "beneficio",
+          "fa": "سود",
+          "fr": "profit",
+          "ja": "利益",
+          "ko": "이익",
+          "vi": "lợi nhuận",
+          "zh-Hans": "利润",
+          "zh-Hant": "利潤"
+         }
+        },
+        {
+         "word": "cost",
+         "parts": [],
+         "root": "",
+         "meaning": "The money you have to spend to do something.",
+         "example": "",
+         "tier": 3,
+         "translations": {
+          "ar": "تكلفة",
+          "es": "costo",
+          "fa": "هزینه",
+          "fr": "coût",
+          "ja": "費用",
+          "ko": "비용",
+          "vi": "chi phí",
+          "zh-Hans": "成本",
+          "zh-Hant": "成本"
+         }
+        },
+        {
+         "word": "benefit",
+         "parts": [
+          {
+           "surface": "bene",
+           "type": "prefix",
+           "meaning": "good, well"
+          },
+          {
+           "surface": "fit",
+           "type": "root",
+           "meaning": "make, do"
+          }
+         ],
+         "root": "fit",
+         "meaning": "A good thing that comes out of a decision.",
+         "example": "",
+         "tier": 3,
+         "translations": {
+          "ar": "فائدة",
+          "es": "beneficio",
+          "fa": "منفعت",
+          "fr": "avantage",
+          "ja": "利点",
+          "ko": "이점",
+          "vi": "lợi ích",
+          "zh-Hans": "好处",
+          "zh-Hant": "好處"
+         }
+        },
+        {
+         "word": "consequence",
+         "parts": [
+          {
+           "surface": "con",
+           "type": "prefix",
+           "meaning": "together"
+          },
+          {
+           "surface": "sequ",
+           "type": "root",
+           "meaning": "follow"
+          },
+          {
+           "surface": "ence",
+           "type": "suffix",
+           "meaning": "the state of"
+          }
+         ],
+         "root": "sequ",
+         "meaning": "Something that happens as a result of a decision.",
+         "example": "",
+         "tier": 3,
+         "translations": {
+          "ar": "نتيجة",
+          "es": "consecuencia",
+          "fa": "پیامد",
+          "fr": "conséquence",
+          "ja": "結果",
+          "ko": "결과",
+          "vi": "hậu quả",
+          "zh-Hans": "后果",
+          "zh-Hant": "後果"
+         }
+        },
+        {
+         "word": "competitive advantage",
+         "parts": [],
+         "root": "",
+         "meaning": "The thing your business does better than the others.",
+         "example": "",
+         "tier": 3,
+         "translations": {
+          "ar": "ميزة تنافسية",
+          "es": "ventaja competitiva",
+          "fa": "مزیت رقابتی",
+          "fr": "avantage concurrentiel",
+          "ja": "競争優位",
+          "ko": "경쟁 우위",
+          "vi": "lợi thế cạnh tranh",
+          "zh-Hans": "竞争优势",
+          "zh-Hant": "競爭優勢"
+         }
+        },
+        {
+         "word": "competitor",
+         "parts": [
+          {
+           "surface": "com",
+           "type": "prefix",
+           "meaning": "together"
+          },
+          {
+           "surface": "pet",
+           "type": "root",
+           "meaning": "seek, strive"
+          },
+          {
+           "surface": "itor",
+           "type": "suffix",
+           "meaning": "one who"
+          }
+         ],
+         "root": "pet",
+         "meaning": "Another business trying to win the same customers.",
+         "example": "",
+         "tier": 3,
+         "translations": {
+          "ar": "منافس",
+          "es": "competidor",
+          "fa": "رقیب",
+          "fr": "concurrent",
+          "ja": "競合",
+          "ko": "경쟁자",
+          "vi": "đối thủ cạnh tranh",
+          "zh-Hans": "竞争者",
+          "zh-Hant": "競爭者"
+         }
+        },
+        {
+         "word": "customer",
+         "parts": [],
+         "root": "",
+         "meaning": "A person who buys what the business sells.",
+         "example": "",
+         "tier": 3,
+         "translations": {
+          "ar": "زبون",
+          "es": "cliente",
+          "fa": "مشتری",
+          "fr": "client",
+          "ja": "顧客",
+          "ko": "고객",
+          "vi": "khách hàng",
+          "zh-Hans": "顾客",
+          "zh-Hant": "顧客"
+         }
+        },
+        {
+         "word": "target market",
+         "parts": [],
+         "root": "",
+         "meaning": "The group of people a business is trying to sell to.",
+         "example": "",
+         "tier": 3,
+         "translations": {
+          "ar": "السوق المستهدف",
+          "es": "mercado objetivo",
+          "fa": "بازار هدف",
+          "fr": "marché cible",
+          "ja": "ターゲット市場",
+          "ko": "목표 시장",
+          "vi": "thị trường mục tiêu",
+          "zh-Hans": "目标市场",
+          "zh-Hant": "目標市場"
+         }
+        },
+        {
+         "word": "demand",
+         "parts": [],
+         "root": "",
+         "meaning": "How much people want to buy something.",
+         "example": "",
+         "tier": 3,
+         "translations": {
+          "ar": "الطلب",
+          "es": "demanda",
+          "fa": "تقاضا",
+          "fr": "demande",
+          "ja": "需要",
+          "ko": "수요",
+          "vi": "nhu cầu",
+          "zh-Hans": "需求",
+          "zh-Hant": "需求"
+         }
+        },
+        {
+         "word": "supply",
+         "parts": [],
+         "root": "",
+         "meaning": "How much of something is available to buy.",
+         "example": "",
+         "tier": 3,
+         "translations": {
+          "ar": "العرض",
+          "es": "oferta",
+          "fa": "عرضه",
+          "fr": "offre",
+          "ja": "供給",
+          "ko": "공급",
+          "vi": "nguồn cung",
+          "zh-Hans": "供给",
+          "zh-Hant": "供給"
+         }
+        },
+        {
+         "word": "revenue",
+         "parts": [],
+         "root": "",
+         "meaning": "All the money coming into a business before costs are taken out.",
+         "example": "",
+         "tier": 3,
+         "translations": {
+          "ar": "الإيرادات",
+          "es": "ingresos",
+          "fa": "درآمد",
+          "fr": "recettes",
+          "ja": "収益",
+          "ko": "수익",
+          "vi": "doanh thu",
+          "zh-Hans": "收入",
+          "zh-Hant": "收入"
+         }
+        },
+        {
+         "word": "measurable",
+         "parts": [
+          {
+           "surface": "measur",
+           "type": "root",
+           "meaning": "measure"
+          },
+          {
+           "surface": "able",
+           "type": "suffix",
+           "meaning": "able to be"
+          }
+         ],
+         "root": "measur",
+         "meaning": "Able to be counted, so you can tell whether it worked.",
+         "example": "",
+         "tier": 3,
+         "translations": {
+          "ar": "قابل للقياس",
+          "es": "medible",
+          "fa": "قابل اندازه‌گیری",
+          "fr": "mesurable",
+          "ja": "測定できる",
+          "ko": "측정 가능한",
+          "vi": "đo lường được",
+          "zh-Hans": "可衡量的",
+          "zh-Hant": "可衡量的"
+         }
+        },
+        {
+         "word": "investment",
+         "parts": [
+          {
+           "surface": "in",
+           "type": "prefix",
+           "meaning": "into"
+          },
+          {
+           "surface": "vest",
+           "type": "root",
+           "meaning": "clothe, put in"
+          },
+          {
+           "surface": "ment",
+           "type": "suffix",
+           "meaning": "the result of"
+          }
+         ],
+         "root": "vest",
+         "meaning": "Money put into a business hoping it will grow.",
+         "example": "",
+         "tier": 3,
+         "translations": {
+          "ar": "استثمار",
+          "es": "inversión",
+          "fa": "سرمایه‌گذاری",
+          "fr": "investissement",
+          "ja": "投資",
+          "ko": "투자",
+          "vi": "sự đầu tư",
+          "zh-Hans": "投资",
+          "zh-Hant": "投資"
+         }
+        },
+        {
+         "word": "risk",
+         "parts": [],
+         "root": "",
+         "meaning": "The chance that something will go wrong.",
+         "example": "",
+         "tier": 3,
+         "translations": {
+          "ar": "مخاطرة",
+          "es": "riesgo",
+          "fa": "ریسک",
+          "fr": "risque",
+          "ja": "リスク",
+          "ko": "위험",
+          "vi": "rủi ro",
+          "zh-Hans": "风险",
+          "zh-Hant": "風險"
+         }
+        }
+       ],
+       "path": "year-7/humanities-civics/economics-business"
       }
      ],
      "folders": [
@@ -241648,6 +242101,15 @@
        "id": "geography",
        "name": "Geography",
        "subtitle": "Water in the World, and Landscapes & landforms.",
+       "unitIds": [],
+       "sourceLabel": "Open Geography on the Humanities site",
+       "sourceUrl": "https://liaminhawai-cmd.github.io/Year-7-Humanities-Pages/geography/"
+      },
+      {
+       "id": "geo-water",
+       "parentId": "geography",
+       "name": "Water in the World",
+       "subtitle": "The unit's nine lessons, 1.1 to 3.2.",
        "unitIds": [
         "water-1-1",
         "water-1-2",
@@ -241657,24 +242119,66 @@
         "water-2-2",
         "water-2-3",
         "water-3-1",
-        "water-3-2",
-        "geography-landforms"
+        "water-3-2"
        ],
-       "sourceLabel": "Open Geography on the Humanities site",
-       "sourceUrl": "https://liaminhawai-cmd.github.io/Year-7-Humanities-Pages/geography/"
+       "sourceLabel": "Open Water in the World",
+       "sourceUrl": "https://liaminhawai-cmd.github.io/Year-7-Humanities-Pages/geography/water/"
+      },
+      {
+       "id": "geo-landforms",
+       "parentId": "geography",
+       "name": "Landscapes & landforms",
+       "subtitle": "The landform words.",
+       "unitIds": [
+        "geography-landforms"
+       ]
       },
       {
        "id": "history",
        "name": "History",
-       "subtitle": "Source analysis, Rome's chronology and change, and weighing Qin Shi Huang.",
+       "subtitle": "Ancient Australia, Ancient Rome and Ancient China.",
        "unitIds": [
-        "history-gs73",
-        "source-analysis",
-        "history-rome",
-        "history-china"
+        "source-analysis"
        ],
        "sourceLabel": "Open History on the Humanities site",
        "sourceUrl": "https://liaminhawai-cmd.github.io/Year-7-Humanities-Pages/history/"
+      },
+      {
+       "id": "hist-australia",
+       "parentId": "history",
+       "name": "Ancient Australia",
+       "subtitle": "GS73 and the Madjedbebe words.",
+       "unitIds": [
+        "history-gs73"
+       ]
+      },
+      {
+       "id": "hist-rome",
+       "parentId": "history",
+       "name": "Ancient Rome",
+       "subtitle": "Chronology, cause and continuity.",
+       "unitIds": [
+        "history-rome"
+       ]
+      },
+      {
+       "id": "hist-china",
+       "parentId": "history",
+       "name": "Ancient China",
+       "subtitle": "Weighing the First Emperor.",
+       "unitIds": [
+        "history-china"
+       ]
+      },
+      {
+       "id": "economics",
+       "name": "Economics & Business",
+       "subtitle": "Pigeon Patrol: running a student business.",
+       "unitIds": [
+        "economics-business"
+       ],
+       "sourceLabel": "Open Economics on the Humanities site",
+       "sourceUrl": "https://liaminhawai-cmd.github.io/Year-7-Humanities-Pages/economics/"
       },
       {
        "id": "civics",
@@ -241682,9 +242186,7 @@
        "subtitle": "Government, democracy and the law.",
        "unitIds": [
         "civics"
-       ],
-       "sourceLabel": "Open the Humanities site",
-       "sourceUrl": "https://liaminhawai-cmd.github.io/Year-7-Humanities-Pages/civics/"
+       ]
       }
      ]
     }

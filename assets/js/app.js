@@ -142,6 +142,26 @@ function folderUnits(subject, folder) {
   const listed = (folder.unitIds || []).map((id) => byId.get(id)).filter(Boolean);
   return listed.length ? listed : subject.units.filter((unit) => unit.folderId === folder.id);
 }
+// A folder may hold other folders: Humanities -> Geography -> Water in the
+// World -> the nine lessons. A child names its parent, so nesting is one
+// field and any depth works without new routes.
+function folderChildren(subject, folder) {
+  return (subject.folders || []).filter((f) => f.parentId === folder.id);
+}
+function folderAncestry(subject, folder) {
+  const chain = []; const seen = new Set(); let cur = folder;
+  while (cur && !seen.has(cur.id)) {
+    seen.add(cur.id); chain.unshift(cur);
+    cur = cur.parentId ? folderById(subject, cur.parentId) : null;
+  }
+  return chain;                                   // [root, ..., folder]
+}
+// Everything beneath a folder, however deep — so a parent card can count the
+// words a student would actually meet inside it.
+function folderUnitsDeep(subject, folder) {
+  return folderChildren(subject, folder)
+    .reduce((all, kid) => all.concat(folderUnitsDeep(subject, kid)), folderUnits(subject, folder));
+}
 function folderForUnit(subject, unit) {
   if (!subject || !unit) return null;
   if (unit.folderId) {
@@ -161,7 +181,8 @@ function unitCrumbItems(level, subject, unit) {
   const items = [['Home', '#/'], [level.name, `#/l/${level.id}`],
     [subject.name, `#/l/${level.id}/${subject.id}`]];
   const folder = folderForUnit(subject, unit);
-  if (folder) items.push([folder.name, folderHref(level, subject, folder)]);
+  if (folder) for (const f of folderAncestry(subject, folder))
+    items.push([f.name, folderHref(level, subject, f)]);
   items.push([unit.name, null]);
   return items;
 }
@@ -581,27 +602,36 @@ function unitCard(unit) {
 function topicCount(n) { return `${n} ${n === 1 ? 'topic' : 'topics'}`; }
 
 function folderCard(level, subject, folder) {
-  const units = folderUnits(subject, folder);
+  const kids  = folderChildren(subject, folder);
+  const units = folderUnitsDeep(subject, folder);
   const progress = folderProgress(units);
   const pct = progress.totalWords
     ? Math.round((progress.startedWords / progress.totalWords) * 100) : 0;
+  // A folder of folders counts its folders; a folder of topics counts topics.
+  const inside = kids.length
+    ? `${kids.length} ${kids.length === 1 ? 'part' : 'parts'}`
+    : topicCount(units.length);
   return h('a', { class: 'card folder-card', href: folderHref(level, subject, folder) },
-    h('div', { class: 'card-tag' }, 'Subject folder'),
+    h('div', { class: 'card-tag' }, kids.length ? 'Subject' : 'Topic folder'),
     h('h3', {}, h('span', { class: 'folder-icon', 'aria-hidden': 'true' }, '▰'), folder.name),
     h('p', { class: 'muted' }, folder.subtitle || ''),
-    h('p', { class: 'card-meta' }, `${topicCount(units.length)} · ${progress.totalWords} words`),
+    h('p', { class: 'card-meta' }, `${inside} · ${progress.totalWords} words`),
     h('div', { class: 'progress' }, h('div', { class: 'progress-fill', style: `width:${pct}%` })),
     h('p', { class: 'muted small' }, progress.startedUnits
       ? `${progress.startedUnits}/${units.length} started${progress.masteredUnits ? ` · ${progress.masteredUnits} mastered` : ''}`
-      : 'Open the folder to choose a topic'));
+      : kids.length ? 'Open to choose a topic' : 'Open the folder to choose a topic'));
 }
 
 function renderSubject({ levelId, subjectId }) {
   const level = levelById(levelId);
   const subject = subjectById(level, subjectId);
   if (!subject) return renderHome();
-  const folders = (subject.folders || []).filter((folder) => folderUnits(subject, folder).length);
-  const groupedUnitIds = new Set(folders.flatMap((folder) => folderUnits(subject, folder).map((unit) => unit.id)));
+  // Only the top of the tree here; a nested folder shows inside its parent.
+  const folders = (subject.folders || [])
+    .filter((folder) => !folder.parentId && folderUnitsDeep(subject, folder).length);
+  const grouped = (subject.folders || [])
+    .flatMap((folder) => folderUnits(subject, folder).map((unit) => unit.id));
+  const groupedUnitIds = new Set(grouped);
   const cards = [
     ...folders.map((folder) => folderCard(level, subject, folder)),
     ...subject.units.filter((unit) => !groupedUnitIds.has(unit.id)).map(unitCard),
@@ -627,26 +657,39 @@ function renderFolder({ levelId, subjectId, folderId }) {
   const subject = subjectById(level, subjectId);
   const folder = folderById(subject, folderId);
   if (!folder) return renderSubject({ levelId, subjectId });
-  const units = folderUnits(subject, folder);
-  const progress = folderProgress(units);
+  const kids  = folderChildren(subject, folder);
+  const units = folderUnits(subject, folder);          // this folder's own topics
+  const all   = folderUnitsDeep(subject, folder);      // plus everything nested
+  const progress = folderProgress(all);
+  // Trail back up through every ancestor, so a student three levels deep can
+  // still see where they are and step back one at a time.
+  const trail = [['Home', '#/'], [level.name, `#/l/${level.id}`],
+    [subject.name, `#/l/${level.id}/${subject.id}`]];
+  const chain = folderAncestry(subject, folder);
+  chain.forEach((f, i) => trail.push([f.name,
+    i === chain.length - 1 ? null : folderHref(level, subject, f)]));
+  const inside = kids.length
+    ? `${kids.length} ${kids.length === 1 ? 'part' : 'parts'}${units.length ? ` and ${topicCount(units.length)}` : ''}`
+    : topicCount(units.length);
   render(h('div', { class: 'stack' },
-    crumb([['Home', '#/'], [level.name, `#/l/${level.id}`],
-      [subject.name, `#/l/${level.id}/${subject.id}`], [folder.name, null]]),
+    crumb(trail),
     h('div', { class: 'folder-heading' },
       h('div', { class: 'folder-heading-icon', 'aria-hidden': 'true' }, '▰'),
       h('div', {},
-        h('p', { class: 'kicker' }, 'Vocabulary folder'),
+        h('p', { class: 'kicker' }, kids.length ? 'Subject' : 'Vocabulary folder'),
         h('h1', {}, folder.name),
         h('p', { class: 'muted' }, folder.subtitle || ''))),
     h('p', { class: 'folder-summary muted small' },
-      `${topicCount(units.length)} · ${progress.totalWords} words · choose a topic to study and build`),
+      `${inside} · ${progress.totalWords} words · choose one to study and build`),
     h('div', { class: 'toolbar' },
       folder.sourceUrl && h('a', { class: 'btn ghost', href: folder.sourceUrl,
         target: '_blank', rel: 'noopener' }, `${folder.sourceLabel || 'Read the source'} ↗`),
       h('a', { class: 'btn ghost', href: '#/pick' }, 'Revision drill')),
-    units.length
-      ? h('div', { class: 'grid' }, ...units.map(unitCard))
-      : h('div', { class: 'card done-card' }, h('p', { class: 'muted' }, 'No topics added yet.'))));
+    (kids.length || units.length)
+      ? h('div', { class: 'grid' },
+          ...kids.map((kid) => folderCard(level, subject, kid)),
+          ...units.map(unitCard))
+      : h('div', { class: 'card done-card' }, h('p', { class: 'muted' }, 'Nothing added here yet.'))));
 }
 
 // ---------------------------------------------------------------------------
