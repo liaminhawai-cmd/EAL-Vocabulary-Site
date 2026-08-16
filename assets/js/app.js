@@ -510,11 +510,20 @@ function say(text, code = 'en', cls = '') {
     onclick: (e) => { e.preventDefault(); e.stopPropagation(); speech.speak(text, code); },
   }, '🔊');
 }
+// The whole suite (this app, Grammar Hub, Phonics) lives at separate origins,
+// so browser Back does not reliably lead a student home — it can just close
+// the tab or leave the site. Every crumb carries a real link out, on every
+// screen this app has, not just the ones a student reached from a click.
+const ELC_HUB = 'https://liaminhawai-cmd.github.io/ELC-Pages/index.html';
+function hubLink() {
+  return h('a', { class: 'hub-link', href: ELC_HUB }, '⌂ ELC Hub');
+}
 function crumb(items) {
-  return h('nav', { class: 'crumb' }, ...items.flatMap(([label, href], i) => {
-    const el = href ? h('a', { href }, label) : h('span', {}, label);
-    return i ? [h('span', { class: 'sep' }, '/'), el] : [el];
-  }));
+  return h('nav', { class: 'crumb' }, hubLink(), h('span', { class: 'sep' }, '/'),
+    ...items.flatMap(([label, href], i) => {
+      const el = href ? h('a', { href }, label) : h('span', {}, label);
+      return i ? [h('span', { class: 'sep' }, '/'), el] : [el];
+    }));
 }
 
 // ---------------------------------------------------------------------------
@@ -533,6 +542,7 @@ function renderHome() {
         `${lvl.subjects.length} subjects · ${ready ? `${words} words ready` : 'coming soon'}`));
   });
   render(h('div', { class: 'stack' },
+    hubLink(),
     h('section', { class: 'hero' },
       h('h1', {}, 'Word Builder'),
       h('p', { class: 'lead' },
