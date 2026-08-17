@@ -242131,7 +242131,9 @@
        "subtitle": "The landform words.",
        "unitIds": [
         "geography-landforms"
-       ]
+       ],
+       "sourceLabel": "Open the Landforms hub",
+       "sourceUrl": "https://liaminhawai-cmd.github.io/Year-7-Humanities-Pages/geography/landforms/"
       },
       {
        "id": "history",
@@ -242150,7 +242152,9 @@
        "subtitle": "GS73 and the Madjedbebe words.",
        "unitIds": [
         "history-gs73"
-       ]
+       ],
+       "sourceLabel": "Open the Ancient Australia hub",
+       "sourceUrl": "https://liaminhawai-cmd.github.io/Year-7-Humanities-Pages/history/gs73/"
       },
       {
        "id": "hist-rome",
@@ -242159,7 +242163,9 @@
        "subtitle": "Chronology, cause and continuity.",
        "unitIds": [
         "history-rome"
-       ]
+       ],
+       "sourceLabel": "Open the Ancient Rome hub",
+       "sourceUrl": "https://liaminhawai-cmd.github.io/Year-7-Humanities-Pages/history/rome/"
       },
       {
        "id": "hist-china",
@@ -242168,7 +242174,9 @@
        "subtitle": "Weighing the First Emperor.",
        "unitIds": [
         "history-china"
-       ]
+       ],
+       "sourceLabel": "Open the Ancient China hub",
+       "sourceUrl": "https://liaminhawai-cmd.github.io/Year-7-Humanities-Pages/history/china/"
       },
       {
        "id": "economics",
