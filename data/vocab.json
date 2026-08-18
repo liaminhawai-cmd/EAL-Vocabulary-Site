@@ -285200,8 +285200,65 @@
         },
         {
          "word": "encouraging",
-         "parts": [],
-         "root": "",
+         "parts": [
+          {
+           "surface": "en",
+           "type": "prefix",
+           "meaning": "make/put into",
+           "translations": {
+            "am": "ወደ ውስጥ",
+            "ar": "في",
+            "es": "en",
+            "fa": "در",
+            "fr": "dans",
+            "hi": "में",
+            "ja": "中に",
+            "ko": "안에",
+            "ml": "അകത്തേക്ക്",
+            "ps": "کې",
+            "ro": "în",
+            "ru": "в",
+            "ta": "-க்குள்",
+            "tl": "sa",
+            "ur": "میں",
+            "vi": "vào",
+            "zh-Hans": "入",
+            "zh-Hant": "入"
+           }
+          },
+          {
+           "surface": "cour",
+           "type": "root",
+           "meaning": "heart",
+           "translations": {}
+          },
+          {
+           "surface": "ing",
+           "type": "suffix",
+           "meaning": "action/process",
+           "translations": {
+            "zh-Hans": "过程",
+            "zh-Hant": "過程",
+            "am": "ሂደት",
+            "ar": "عملية",
+            "es": "acción/proceso",
+            "fa": "فرآیند / عمل",
+            "fr": "action de",
+            "hi": "क्रिया",
+            "ja": "行為 / 過程",
+            "ko": "행위",
+            "ml": "പ്രക്രിയ",
+            "ps": "بهير",
+            "ro": "acțiunea de",
+            "ru": "действие",
+            "ta": "செயல்",
+            "tl": "kilos",
+            "ur": "عمل",
+            "vi": "quá trình"
+           }
+          }
+         ],
+         "root": "cour",
          "meaning": "giving confidence or support",
          "example": "",
          "tier": 2,
@@ -285400,8 +285457,90 @@
         },
         {
          "word": "responsibilities",
-         "parts": [],
-         "root": "",
+         "parts": [
+          {
+           "surface": "re",
+           "type": "prefix",
+           "meaning": "again",
+           "translations": {
+            "fa": "دوباره/باز",
+            "am": "እንደገና",
+            "ar": "مرة أخرى",
+            "es": "de nuevo / atrás",
+            "fr": "de nouveau / en arrière",
+            "hi": "फिर से / वापस",
+            "ja": "再び / 戻る",
+            "ko": "다시 / 뒤로",
+            "ml": "വീണ്ടും",
+            "ps": "بیا / شاته",
+            "ro": "din nou / înapoi",
+            "ru": "снова / назад",
+            "ta": "மீண்டும் / பின்",
+            "tl": "muli / pabalik",
+            "ur": "دوبارہ / واپس",
+            "vi": "lại",
+            "zh-Hans": "再次；回",
+            "zh-Hant": "再次；回"
+           }
+          },
+          {
+           "surface": "spons",
+           "type": "root",
+           "meaning": "promise/respond",
+           "translations": {
+            "vi": "đáp ứng",
+            "am": "መመለስ",
+            "ar": "استجابة",
+            "es": "responder",
+            "fa": "پاسخ دادن",
+            "fr": "répondre",
+            "hi": "प्रतिक्रिया देना",
+            "ja": "応答する",
+            "ko": "응답하다",
+            "ml": "പ്രതികരിക്കുക",
+            "ps": "ځواب ورکول",
+            "ro": "a răspunde",
+            "ru": "отвечать",
+            "ta": "பதிலளி",
+            "tl": "tumugon",
+            "ur": "جواب دینا",
+            "zh-Hans": "回应",
+            "zh-Hant": "回應"
+           }
+          },
+          {
+           "surface": "ibil",
+           "type": "suffix",
+           "meaning": "can be",
+           "translations": {
+            "fa": "قابل",
+            "am": "የሚችል",
+            "ar": "قادر على",
+            "es": "capaz de",
+            "fr": "capable de",
+            "hi": "योग्य",
+            "ja": "できる",
+            "ko": "할 수 있는",
+            "ml": "കഴിയുന്ന",
+            "ps": "وړ",
+            "ro": "capabil",
+            "ru": "способный",
+            "ta": "முடியும்",
+            "tl": "kaya",
+            "ur": "قابل",
+            "vi": "có thể",
+            "zh-Hans": "能够",
+            "zh-Hant": "能夠"
+           }
+          },
+          {
+           "surface": "ities",
+           "type": "suffix",
+           "meaning": "states of (plural)",
+           "translations": {}
+          }
+         ],
+         "root": "spons",
          "meaning": "duties you are accountable for",
          "example": "",
          "tier": 2,
@@ -285965,8 +286104,59 @@
         },
         {
          "word": "imagination",
-         "parts": [],
-         "root": "",
+         "parts": [
+          {
+           "surface": "imag",
+           "type": "root",
+           "meaning": "likeness/picture",
+           "translations": {
+            "zh-Hans": "形象 / 图像",
+            "zh-Hant": "形象 / 圖像",
+            "am": "ምስል",
+            "ar": "صورة",
+            "es": "imagen",
+            "fa": "تصویر",
+            "fr": "image",
+            "hi": "छवि",
+            "ja": "像",
+            "ko": "이미지",
+            "ml": "ചിത്രം",
+            "ps": "انځور",
+            "ro": "imagine",
+            "ru": "образ",
+            "ta": "படம்",
+            "tl": "larawan",
+            "ur": "تصویر",
+            "vi": "hình ảnh"
+           }
+          },
+          {
+           "surface": "ation",
+           "type": "suffix",
+           "meaning": "process of",
+           "translations": {
+            "am": "ሂደት",
+            "ar": "عملية",
+            "es": "proceso de",
+            "fa": "فرآیند",
+            "fr": "processus",
+            "hi": "प्रक्रिया",
+            "ja": "過程",
+            "ko": "과정",
+            "ml": "പ്രക്രിയ",
+            "ps": "پروسه",
+            "ro": "proces",
+            "ru": "процесс",
+            "ta": "செயல்முறை",
+            "tl": "proseso",
+            "ur": "عمل",
+            "vi": "quá trình",
+            "zh-Hans": "过程",
+            "zh-Hant": "過程"
+           }
+          }
+         ],
+         "root": "imag",
          "meaning": "ability to form mental images",
          "example": "",
          "tier": 2,
@@ -286240,8 +286430,40 @@
         },
         {
          "word": "authorities",
-         "parts": [],
-         "root": "",
+         "parts": [
+          {
+           "surface": "author",
+           "type": "root",
+           "meaning": "one who holds power",
+           "translations": {
+            "am": "ስልጣን ያለው",
+            "ar": "من يملك السلطة",
+            "es": "quien tiene el poder",
+            "fa": "کسی که قدرت را در دست دارد",
+            "fr": "celui qui détient le pouvoir",
+            "hi": "सत्ता रखने वाला",
+            "ja": "権力を持つ者",
+            "ko": "권력을 가진 자",
+            "ml": "അധികാരമുള്ളയാൾ",
+            "ps": "واکمن / د واک لرونکی",
+            "ro": "cel care deține puterea",
+            "ru": "тот, кто обладает властью",
+            "ta": "அதிகாரம் கொண்டவர்",
+            "tl": "may hawak ng kapangyarihan",
+            "ur": "طاقت رکھنے والا",
+            "vi": "người nắm quyền",
+            "zh-Hans": "掌权者",
+            "zh-Hant": "掌權者"
+           }
+          },
+          {
+           "surface": "ities",
+           "type": "suffix",
+           "meaning": "states of (plural)",
+           "translations": {}
+          }
+         ],
+         "root": "author",
          "meaning": "People or organisations with power to enforce laws",
          "example": "",
          "tier": 2,
@@ -286539,8 +286761,84 @@
         },
         {
          "word": "dehydration",
-         "parts": [],
-         "root": "",
+         "parts": [
+          {
+           "surface": "de",
+           "type": "prefix",
+           "meaning": "down/away",
+           "translations": {
+            "am": "ወደ ታች",
+            "ar": "أسفل",
+            "es": "abajo/lejos",
+            "fa": "پایین",
+            "fr": "vers le bas",
+            "hi": "नीचे",
+            "ja": "下方へ",
+            "ko": "아래로",
+            "ml": "താഴേക്ക്",
+            "ps": "ښکته / لرې",
+            "ro": "în jos",
+            "ru": "вниз",
+            "ta": "கீழே",
+            "tl": "pababa",
+            "ur": "نیچے",
+            "vi": "giảm/ra khỏi",
+            "zh-Hans": "向下；去除",
+            "zh-Hant": "向下；去除"
+           }
+          },
+          {
+           "surface": "hydr",
+           "type": "root",
+           "meaning": "water",
+           "translations": {
+            "fa": "آب",
+            "am": "ውሃ",
+            "ar": "ماء",
+            "es": "agua",
+            "fr": "eau",
+            "hi": "जल",
+            "ja": "水",
+            "ko": "물",
+            "ml": "ജലം",
+            "ps": "اوبه",
+            "ro": "apă",
+            "ru": "вода",
+            "ta": "நீர்",
+            "tl": "tubig",
+            "ur": "پانی",
+            "vi": "nước",
+            "zh-Hans": "水",
+            "zh-Hant": "水"
+           }
+          },
+          {
+           "surface": "ation",
+           "type": "suffix",
+           "meaning": "process of",
+           "translations": {
+            "am": "ሂደት",
+            "ar": "عملية",
+            "es": "proceso de",
+            "fa": "فرآیند",
+            "fr": "processus",
+            "hi": "प्रक्रिया",
+            "ja": "過程",
+            "ko": "과정",
+            "ml": "പ്രക്രിയ",
+            "ps": "پروسه",
+            "ro": "proces",
+            "ru": "процесс",
+            "ta": "செயல்முறை",
+            "tl": "proseso",
+            "ur": "عمل",
+            "vi": "quá trình",
+            "zh-Hans": "过程",
+            "zh-Hant": "過程"
+           }
+          }
+         ],
+         "root": "hydr",
          "meaning": "Loss of body water due to heat or lack of drinking",
          "example": "",
          "tier": 2,
@@ -286569,8 +286867,40 @@
         },
         {
          "word": "domestic",
-         "parts": [],
-         "root": "",
+         "parts": [
+          {
+           "surface": "domest",
+           "type": "root",
+           "meaning": "house/home",
+           "translations": {}
+          },
+          {
+           "surface": "ic",
+           "type": "suffix",
+           "meaning": "relating to",
+           "translations": {
+            "fa": "مربوط به",
+            "am": "ተያያዥ",
+            "ar": "متعلّق بـ",
+            "es": "relativo a",
+            "fr": "relatif à",
+            "hi": "संबंधी",
+            "ja": "～の",
+            "ko": "관련된",
+            "ml": "ബന്ധപ്പെട്ട",
+            "ps": "اړوند",
+            "ro": "legat de",
+            "ru": "относящийся",
+            "ta": "தொடர்பான",
+            "tl": "kaugnay sa",
+            "ur": "متعلق",
+            "vi": "thuộc về",
+            "zh-Hans": "……的",
+            "zh-Hant": "……的"
+           }
+          }
+         ],
+         "root": "domest",
          "meaning": "Related to the home or household work",
          "example": "",
          "tier": 2,
@@ -286937,8 +287267,84 @@
         },
         {
          "word": "obedient",
-         "parts": [],
-         "root": "",
+         "parts": [
+          {
+           "surface": "ob",
+           "type": "prefix",
+           "meaning": "toward",
+           "translations": {
+            "vi": "hướng tới",
+            "am": "ወደ",
+            "ar": "نحو",
+            "es": "hacia",
+            "fa": "به سوی",
+            "fr": "vers",
+            "hi": "की ओर",
+            "ja": "向かって",
+            "ko": "향하여",
+            "ml": "നേരെ",
+            "ps": "لور ته",
+            "ro": "spre",
+            "ru": "к",
+            "ta": "நோக்கி",
+            "tl": "patungo",
+            "ur": "کی طرف",
+            "zh-Hans": "朝向",
+            "zh-Hant": "朝向"
+           }
+          },
+          {
+           "surface": "edi",
+           "type": "root",
+           "meaning": "listen",
+           "translations": {
+            "am": "ማዳመጥ",
+            "ar": "استماع",
+            "es": "escuchar",
+            "fa": "گوش دادن",
+            "fr": "écouter",
+            "hi": "सुनना",
+            "ja": "聞く",
+            "ko": "듣다",
+            "ml": "കേൾക്കുക",
+            "ps": "اورېدل",
+            "ro": "a asculta",
+            "ru": "слушать",
+            "ta": "கேட்டல்",
+            "tl": "makinig",
+            "ur": "سننا",
+            "vi": "nghe",
+            "zh-Hans": "听",
+            "zh-Hant": "聽"
+           }
+          },
+          {
+           "surface": "ent",
+           "type": "suffix",
+           "meaning": "having the quality of",
+           "translations": {
+            "vi": "trạng thái",
+            "fa": "چیز",
+            "am": "ባሕርይ",
+            "ar": "صفة",
+            "es": "cualidad",
+            "fr": "qualité",
+            "hi": "गुण",
+            "ja": "性質",
+            "ko": "성질",
+            "ml": "ഗുണം",
+            "ps": "ځانګړتیا",
+            "ro": "calitate",
+            "ru": "качество",
+            "ta": "பண்பு",
+            "tl": "katangian",
+            "ur": "خاصیت",
+            "zh-Hans": "性质",
+            "zh-Hant": "性質"
+           }
+          }
+         ],
+         "root": "edi",
          "meaning": "Willing to follow orders or rules",
          "example": "",
          "tier": 2,
@@ -287751,8 +288157,21 @@
         },
         {
          "word": "Capital offence",
-         "parts": [],
-         "root": "",
+         "parts": [
+          {
+           "surface": "capital",
+           "type": "root",
+           "meaning": "head/chief",
+           "translations": {}
+          },
+          {
+           "surface": "fen",
+           "type": "root",
+           "meaning": "strike",
+           "translations": {}
+          }
+         ],
+         "root": "capital",
          "meaning": "A crime so serious that the death penalty may be applied",
          "example": "",
          "tier": 2,
@@ -287860,8 +288279,40 @@
         },
         {
          "word": "civilise",
-         "parts": [],
-         "root": "",
+         "parts": [
+          {
+           "surface": "civil",
+           "type": "root",
+           "meaning": "citizen/city",
+           "translations": {}
+          },
+          {
+           "surface": "ise",
+           "type": "suffix",
+           "meaning": "to make",
+           "translations": {
+            "am": "ማድረግ",
+            "ar": "جعل",
+            "es": "hacer",
+            "fa": "ساختن",
+            "fr": "rendre",
+            "hi": "बनाना",
+            "ja": "化する",
+            "ko": "화하다",
+            "ml": "ആക്കുക",
+            "ps": "جوړول",
+            "ro": "a face",
+            "ru": "делать",
+            "ta": "ஆக்குதல்",
+            "tl": "gawin",
+            "ur": "بنانا",
+            "vi": "làm cho",
+            "zh-Hans": "使成為 / 使成为",
+            "zh-Hant": "使成為 / 使成爲"
+           }
+          }
+         ],
+         "root": "civil",
          "meaning": "To bring (a people or place) to what is considered a more advanced social or moral state",
          "example": "",
          "tier": 2,
@@ -288051,8 +288502,66 @@
         },
         {
          "word": "Commandant",
-         "parts": [],
-         "root": "",
+         "parts": [
+          {
+           "surface": "com",
+           "type": "prefix",
+           "meaning": "together",
+           "translations": {
+            "am": "አብሮ",
+            "ar": "معًا",
+            "es": "juntos",
+            "fa": "باهم",
+            "fr": "ensemble",
+            "hi": "साथ",
+            "ja": "共に",
+            "ko": "함께",
+            "ml": "ഒരുമിച്ച്",
+            "ps": "يوځای",
+            "ro": "împreună",
+            "ru": "вместе",
+            "ta": "ஒன்றாக",
+            "tl": "magkasama",
+            "ur": "اکٹھا",
+            "vi": "cùng",
+            "zh-Hans": "共同",
+            "zh-Hant": "共同",
+            "other": "باهم"
+           }
+          },
+          {
+           "surface": "mand",
+           "type": "root",
+           "meaning": "order/ask for",
+           "translations": {
+            "am": "ማዘዝ / መጠየቅ",
+            "ar": "يأمر / يطلب",
+            "es": "ordenar/pedir",
+            "fa": "فرمان دادن / خواستن",
+            "fr": "ordonner / demander",
+            "hi": "आदेश / माँगना",
+            "ja": "命じる・要求する",
+            "ko": "명령·요구",
+            "ml": "ആജ്ഞ / ആവശ്യപ്പെടുക",
+            "ps": "امر / غوښتنه",
+            "ro": "a ordona / a cere",
+            "ru": "приказывать / требовать",
+            "ta": "கட்டளை / கோரு",
+            "tl": "mag-utos / humingi",
+            "ur": "حکم / مطالبہ",
+            "vi": "ra lệnh / yêu cầu",
+            "zh-Hans": "命令／要求",
+            "zh-Hant": "命令／要求"
+           }
+          },
+          {
+           "surface": "ant",
+           "type": "suffix",
+           "meaning": "one who",
+           "translations": {}
+          }
+         ],
+         "root": "mand",
          "meaning": "A person in charge, especially military",
          "example": "",
          "tier": 2,
@@ -288295,8 +288804,71 @@
         },
         {
          "word": "Cultural genocide",
-         "parts": [],
-         "root": "",
+         "parts": [
+          {
+           "surface": "cultur",
+           "type": "root",
+           "meaning": "culture",
+           "translations": {
+            "am": "ባህል",
+            "ar": "ثقافة",
+            "es": "cultura",
+            "fa": "فرهنگ",
+            "fr": "culture",
+            "hi": "संस्कृति",
+            "ja": "文化",
+            "ko": "문화",
+            "ml": "സംസ്കാരം",
+            "ps": "فرهنګ",
+            "ro": "cultură",
+            "ru": "культура",
+            "ta": "பண்பாடு",
+            "tl": "kultura",
+            "ur": "ثقافت",
+            "vi": "văn hóa",
+            "zh-Hans": "文化",
+            "zh-Hant": "文化"
+           }
+          },
+          {
+           "surface": "al",
+           "type": "suffix",
+           "meaning": "relating to",
+           "translations": {
+            "fa": "وابسته به",
+            "am": "ተያያዥ",
+            "ar": "متعلق بـ",
+            "es": "relativo a",
+            "fr": "relatif à",
+            "hi": "संबंधी",
+            "ja": "～の",
+            "ko": "관련된",
+            "ml": "ബന്ധപ്പെട്ട",
+            "ps": "اړوند",
+            "ro": "legat de",
+            "ru": "относящийся к",
+            "ta": "தொடர்பான",
+            "tl": "may kaugnayan sa",
+            "ur": "متعلق",
+            "vi": "thuộc về",
+            "zh-Hans": "……的",
+            "zh-Hant": "……的"
+           }
+          },
+          {
+           "surface": "geno",
+           "type": "root",
+           "meaning": "race/kind",
+           "translations": {}
+          },
+          {
+           "surface": "cide",
+           "type": "root",
+           "meaning": "kill",
+           "translations": {}
+          }
+         ],
+         "root": "cultur",
          "meaning": "Destruction of Indigenous culture, practices, languages through colonial policies. (Open Research Repository)",
          "example": "",
          "tier": 2,
@@ -288679,8 +289251,66 @@
         },
         {
          "word": "diseases",
-         "parts": [],
-         "root": "",
+         "parts": [
+          {
+           "surface": "dis",
+           "type": "prefix",
+           "meaning": "apart",
+           "translations": {
+            "fa": "جدا/نفی",
+            "am": "መለያየት/አይ",
+            "ar": "غير",
+            "es": "aparte/no",
+            "fr": "séparé/non",
+            "hi": "अलग/नहीं",
+            "ja": "分離",
+            "ko": "분리/부정",
+            "ml": "വേർപെട്ട്/അല്ല",
+            "ps": "بېل",
+            "ro": "des",
+            "ru": "раздельно/не",
+            "ta": "பிரி/இல்லை",
+            "tl": "hiwalay/hindi",
+            "ur": "الگ/نہیں",
+            "vi": "tách/không",
+            "zh-Hans": "分开",
+            "zh-Hant": "分開",
+            "other": "دو"
+           }
+          },
+          {
+           "surface": "eas",
+           "type": "root",
+           "meaning": "comfort/ease",
+           "translations": {}
+          },
+          {
+           "surface": "es",
+           "type": "suffix",
+           "meaning": "plural",
+           "translations": {
+            "fa": "جمع",
+            "am": "ብዙ ቁጥር",
+            "ar": "جمع",
+            "es": "plural",
+            "fr": "pluriel",
+            "hi": "बहुवचन",
+            "ja": "複数",
+            "ko": "복수",
+            "ml": "ബഹുവചനം",
+            "ps": "جمع",
+            "ro": "plural",
+            "ru": "множественное число",
+            "ta": "பன்மை",
+            "tl": "maramihan",
+            "ur": "جمع",
+            "vi": "số nhiều",
+            "zh-Hans": "复数",
+            "zh-Hant": "複數"
+           }
+          }
+         ],
+         "root": "eas",
          "meaning": "illness",
          "example": "",
          "tier": 2,
@@ -289155,8 +289785,66 @@
         },
         {
          "word": "exemption",
-         "parts": [],
-         "root": "",
+         "parts": [
+          {
+           "surface": "ex",
+           "type": "prefix",
+           "meaning": "out",
+           "translations": {
+            "am": "ውጭ",
+            "ar": "خارج",
+            "es": "fuera",
+            "fa": "بیرون",
+            "fr": "hors de",
+            "hi": "बाहर",
+            "ja": "外へ",
+            "ko": "밖으로",
+            "ml": "പുറത്തേക്ക്",
+            "ps": "بهر",
+            "ro": "afară",
+            "ru": "из",
+            "ta": "வெளியே",
+            "tl": "palabas",
+            "ur": "باہر",
+            "vi": "ra",
+            "zh-Hans": "向外",
+            "zh-Hant": "向外",
+            "other": "خارج"
+           }
+          },
+          {
+           "surface": "empt",
+           "type": "root",
+           "meaning": "take",
+           "translations": {}
+          },
+          {
+           "surface": "ion",
+           "type": "suffix",
+           "meaning": "act/process",
+           "translations": {
+            "fa": "فرایند/عمل",
+            "am": "ሂደት/ድርጊት",
+            "ar": "عملية/فعل",
+            "es": "proceso/acción",
+            "fr": "processus/action",
+            "hi": "प्रक्रिया/क्रिया",
+            "ja": "過程/作用",
+            "ko": "과정/작용",
+            "ml": "പ്രക്രിയ/പ്രവർത്തനം",
+            "ps": "بهیر/کړنه",
+            "ro": "proces/acțiune",
+            "ru": "процесс/действие",
+            "ta": "செயல்முறை/செயல்",
+            "tl": "proseso/kilos",
+            "ur": "عمل/فعل",
+            "vi": "quá trình/hành động",
+            "zh-Hans": "过程/动作",
+            "zh-Hant": "過程/動作"
+           }
+          }
+         ],
+         "root": "empt",
          "meaning": "The act of being freed from an obligation, rule, or duty",
          "example": "",
          "tier": 2,
@@ -290291,8 +290979,134 @@
         },
         {
          "word": "historical perspective",
-         "parts": [],
-         "root": "",
+         "parts": [
+          {
+           "surface": "histor",
+           "type": "root",
+           "meaning": "past events",
+           "translations": {
+            "am": "ያለፉ ክንውኖች",
+            "ar": "أحداث ماضية",
+            "es": "hechos pasados",
+            "fa": "تاریخ",
+            "fr": "histoire",
+            "hi": "पिछली घटनाएं",
+            "ja": "過去の出来事",
+            "ko": "과거의 사건",
+            "ml": "മുൻകാല സംഭവങ്ങൾ",
+            "ps": "تېرې پیښې",
+            "ro": "evenimente trecute",
+            "ru": "прошлые события",
+            "ta": "கடந்தகால நிகழ்வுகள்",
+            "tl": "mga pangyayari noon",
+            "ur": "ماضی کے واقعات",
+            "vi": "sự kiện quá khứ",
+            "zh-Hans": "过去的事件",
+            "zh-Hant": "過去的事件"
+           }
+          },
+          {
+           "surface": "ical",
+           "type": "suffix",
+           "meaning": "relating to",
+           "translations": {
+            "am": "ተዛማጅ",
+            "ar": "متعلق بـ",
+            "es": "relativo a",
+            "fa": "مربوط به",
+            "fr": "relatif à",
+            "hi": "से संबंधित",
+            "ja": "〜に関する",
+            "ko": "~에 관한",
+            "ml": "ബന്ധപ്പെട്ട",
+            "ps": "اړوند",
+            "ro": "referitor la",
+            "ru": "относящийся к",
+            "ta": "தொடர்பான",
+            "tl": "may kinalaman sa",
+            "ur": "سے متعلق",
+            "vi": "thuộc về",
+            "zh-Hans": "与……有关的",
+            "zh-Hant": "與……有關的"
+           }
+          },
+          {
+           "surface": "per",
+           "type": "prefix",
+           "meaning": "through",
+           "translations": {
+            "am": "በ...በኩል / ሙሉ በሙሉ",
+            "ar": "عبر / تمامًا",
+            "es": "a través de/completamente",
+            "fa": "از میان / کاملاً",
+            "fr": "à travers / complètement",
+            "hi": "के माध्यम से / पूरी तरह",
+            "ja": "通して／徹底的に",
+            "ko": "~을 통하여 / 철저히",
+            "ml": "വഴി / പൂർണ്ണമായി",
+            "ps": "له لارې / بشپړ",
+            "ro": "prin / complet",
+            "ru": "через / полностью",
+            "ta": "வழியாக / முழுமையாக",
+            "tl": "sa pamamagitan / lubusan",
+            "ur": "کے ذریعے / مکمل طور پر",
+            "vi": "xuyên qua / triệt để",
+            "zh-Hans": "穿过／彻底",
+            "zh-Hant": "穿過／徹底"
+           }
+          },
+          {
+           "surface": "spect",
+           "type": "root",
+           "meaning": "look",
+           "translations": {
+            "am": "መመልከት",
+            "ar": "نظر / رؤية",
+            "es": "mirar / ver",
+            "fa": "نگاه کردن / دیدن",
+            "fr": "regarder / voir",
+            "hi": "देखना",
+            "ja": "見る",
+            "ko": "보다",
+            "ml": "നോക്കുക/കാണുക",
+            "ps": "کتل/لیدل",
+            "ro": "a privi / a vedea",
+            "ru": "смотреть / видеть",
+            "ta": "பார்/காண்",
+            "tl": "tumingin/makakita",
+            "ur": "دیکھنا",
+            "vi": "nhìn / xem",
+            "zh-Hans": "看/观察",
+            "zh-Hant": "看/觀察"
+           }
+          },
+          {
+           "surface": "ive",
+           "type": "suffix",
+           "meaning": "tending to",
+           "translations": {
+            "am": "ዝንባሌ",
+            "ar": "ذو",
+            "es": "que tiende a",
+            "fa": "گرایش به",
+            "fr": "tendance à",
+            "hi": "प्रवृत्ति",
+            "ja": "的な",
+            "ko": "경향",
+            "ml": "പ്രവണത",
+            "ps": "لرونکی",
+            "ro": "care are",
+            "ru": "склонный к",
+            "ta": "போக்கு",
+            "tl": "hilig",
+            "ur": "رجحان",
+            "vi": "có xu hướng",
+            "zh-Hans": "有…性质的",
+            "zh-Hant": "有…性質的"
+           }
+          }
+         ],
+         "root": "histor",
          "meaning": "Understanding events in context of their time and development",
          "example": "",
          "tier": 2,
@@ -291878,8 +292692,85 @@
         },
         {
          "word": "Significant",
-         "parts": [],
-         "root": "",
+         "parts": [
+          {
+           "surface": "signi",
+           "type": "root",
+           "meaning": "mark/meaning",
+           "translations": {
+            "am": "ምልክት",
+            "ar": "علامة",
+            "es": "signo / marca",
+            "fa": "نشانه",
+            "fr": "signe / marque",
+            "hi": "चिह्न",
+            "ja": "しるし",
+            "ko": "표시",
+            "ml": "അടയാളം",
+            "ps": "نښه",
+            "ro": "semn",
+            "ru": "знак",
+            "ta": "அடையாளம்",
+            "tl": "tanda",
+            "ur": "نشان",
+            "vi": "dấu hiệu",
+            "zh-Hans": "标志／记号",
+            "zh-Hant": "標誌／記號"
+           }
+          },
+          {
+           "surface": "fic",
+           "type": "root",
+           "meaning": "make/do",
+           "translations": {
+            "am": "መስራት / ማድረግ",
+            "ar": "يصنع",
+            "es": "hacer",
+            "fa": "ساختن / انجام دادن",
+            "fr": "faire",
+            "hi": "बनाना / करना",
+            "ja": "作る",
+            "ko": "만들다 / 하다",
+            "ml": "ഉണ്ടാക്കുക / ചെയ്യുക",
+            "ps": "جوړول",
+            "ro": "face",
+            "ru": "делать / совершать",
+            "ta": "செய்தல் / ஆக்குதல்",
+            "tl": "gumawa",
+            "ur": "بنانا / کرنا",
+            "vi": "làm / thực hiện",
+            "zh-Hans": "做",
+            "zh-Hant": "做",
+            "other": "عامل"
+           }
+          },
+          {
+           "surface": "ant",
+           "type": "suffix",
+           "meaning": "having the quality of",
+           "translations": {
+            "am": "ያለው",
+            "ar": "ذو صفة",
+            "es": "que tiene la cualidad de",
+            "fa": "دارای",
+            "fr": "ayant la qualité de",
+            "hi": "गुणयुक्त",
+            "ja": "〜性",
+            "ko": "~성",
+            "ml": "ഗുണമുള്ള",
+            "ps": "لرونکی",
+            "ro": "având calitatea de",
+            "ru": "обладающий",
+            "ta": "குணமுள்ள",
+            "tl": "may katangian",
+            "ur": "والا",
+            "vi": "có tính chất",
+            "zh-Hans": "…性",
+            "zh-Hant": "…性"
+           }
+          }
+         ],
+         "root": "signi",
          "meaning": "Having meaning or importance; notable",
          "example": "",
          "tier": 2,
@@ -291974,7 +292865,59 @@
         },
         {
          "word": "unity",
-         "parts": [],
+         "parts": [
+          {
+           "surface": "uni",
+           "type": "prefix",
+           "meaning": "one",
+           "translations": {
+            "am": "አንድ",
+            "ar": "واحد",
+            "es": "uno",
+            "fa": "یک",
+            "fr": "un",
+            "hi": "एक",
+            "ja": "単一",
+            "ko": "단일",
+            "ml": "ഒന്ന്",
+            "ps": "یو",
+            "ro": "unu",
+            "ru": "один",
+            "ta": "ஒன்று",
+            "tl": "isa",
+            "ur": "ایک",
+            "vi": "một",
+            "zh-Hans": "单一",
+            "zh-Hant": "單一"
+           }
+          },
+          {
+           "surface": "ity",
+           "type": "suffix",
+           "meaning": "state of",
+           "translations": {
+            "am": "ሁኔታ",
+            "ar": "حالة",
+            "es": "estado de",
+            "fa": "حالت",
+            "fr": "état de",
+            "hi": "अवस्था",
+            "ja": "状態",
+            "ko": "상태",
+            "ml": "അവസ്ഥ",
+            "ps": "حالت",
+            "ro": "stare de",
+            "ru": "состояние",
+            "ta": "நிலை",
+            "tl": "kalagayan",
+            "ur": "حالت",
+            "vi": "trạng thái",
+            "zh-Hans": "…的状态",
+            "zh-Hant": "…的狀態",
+            "other": "حالت"
+           }
+          }
+         ],
          "root": "",
          "meaning": "being united",
          "example": "",
@@ -292175,8 +293118,84 @@
         },
         {
          "word": "mistreatment",
-         "parts": [],
-         "root": "",
+         "parts": [
+          {
+           "surface": "mis",
+           "type": "prefix",
+           "meaning": "wrongly",
+           "translations": {
+            "am": "በስህተት / በክፉ",
+            "ar": "خطأً / بشكل سيّئ",
+            "es": "incorrectamente/mal",
+            "fa": "نادرست / بد",
+            "fr": "mal / à tort",
+            "hi": "गलत तरीके से / बुरी तरह",
+            "ja": "誤って／悪く",
+            "ko": "잘못 / 나쁘게",
+            "ml": "തെറ്റായി / മോശമായി",
+            "ps": "غلط / بد",
+            "ro": "greșit / rău",
+            "ru": "неправильно / плохо",
+            "ta": "தவறாக / மோசமாக",
+            "tl": "mali / masama",
+            "ur": "غلط طور پر / برے طریقے سے",
+            "vi": "sai / xấu",
+            "zh-Hans": "错误地／不良地",
+            "zh-Hant": "錯誤地／不良地"
+           }
+          },
+          {
+           "surface": "treat",
+           "type": "root",
+           "meaning": "to handle or deal with",
+           "translations": {
+            "am": "ማስተናገድ",
+            "ar": "يتعامل مع",
+            "es": "manejar o tratar",
+            "fa": "رسیدگی کردن به",
+            "fr": "traiter / gérer",
+            "hi": "संभालना या निपटना",
+            "ja": "扱う",
+            "ko": "다루다 / 처리하다",
+            "ml": "കൈകാര്യം ചെയ്യുക",
+            "ps": "سره چلند کول",
+            "ro": "a trata / a se ocupa de",
+            "ru": "обращаться с / иметь дело с",
+            "ta": "கையாளுதல்",
+            "tl": "pangasiwaan o harapin",
+            "ur": "نمٹنا یا سنبھالنا",
+            "vi": "xử lý hoặc giải quyết",
+            "zh-Hans": "处理／应对",
+            "zh-Hant": "處理／應對"
+           }
+          },
+          {
+           "surface": "ment",
+           "type": "suffix",
+           "meaning": "result of",
+           "translations": {
+            "am": "ውጤት",
+            "ar": "نتيجة",
+            "es": "resultado de",
+            "fa": "نتیجه",
+            "fr": "résultat de",
+            "hi": "परिणाम",
+            "ja": "結果",
+            "ko": "결과",
+            "ml": "ഫലം",
+            "ps": "پایله",
+            "ro": "rezultat",
+            "ru": "результат",
+            "ta": "விளைவு",
+            "tl": "resulta",
+            "ur": "نتیجہ",
+            "vi": "kết quả",
+            "zh-Hans": "结果",
+            "zh-Hant": "結果"
+           }
+          }
+         ],
+         "root": "treat",
          "meaning": "Cruel or unfair behavior",
          "example": "",
          "tier": 2,
@@ -292393,8 +293412,160 @@
         },
         {
          "word": "observance committee",
-         "parts": [],
-         "root": "",
+         "parts": [
+          {
+           "surface": "ob",
+           "type": "prefix",
+           "meaning": "toward",
+           "translations": {
+            "vi": "hướng tới",
+            "am": "ወደ",
+            "ar": "نحو",
+            "es": "hacia",
+            "fa": "به سوی",
+            "fr": "vers",
+            "hi": "की ओर",
+            "ja": "向かって",
+            "ko": "향하여",
+            "ml": "നേരെ",
+            "ps": "لور ته",
+            "ro": "spre",
+            "ru": "к",
+            "ta": "நோக்கி",
+            "tl": "patungo",
+            "ur": "کی طرف",
+            "zh-Hans": "朝向",
+            "zh-Hant": "朝向"
+           }
+          },
+          {
+           "surface": "serv",
+           "type": "root",
+           "meaning": "keep/save",
+           "translations": {
+            "am": "መጠበቅ",
+            "ar": "حفظ",
+            "es": "preservar",
+            "fa": "نگه داشتن",
+            "fr": "préserver",
+            "hi": "सुरक्षित रखना",
+            "ja": "保護する",
+            "ko": "보호하다",
+            "ml": "സുരക്ഷിതമായി സൂക്ഷിക്കുക",
+            "ps": "ساتل",
+            "ro": "a păstra",
+            "ru": "сохранять",
+            "ta": "பாதுகாத்தல்",
+            "tl": "ingatan",
+            "ur": "محفوظ رکھنا",
+            "vi": "giữ gìn",
+            "zh-Hans": "保护",
+            "zh-Hant": "保護"
+           }
+          },
+          {
+           "surface": "ance",
+           "type": "suffix",
+           "meaning": "state of",
+           "translations": {
+            "am": "ሁኔታ",
+            "ar": "حالة",
+            "es": "estado de",
+            "fa": "حالت",
+            "fr": "état",
+            "hi": "अवस्था",
+            "ja": "状態",
+            "ko": "상태",
+            "ml": "അവസ്ഥ",
+            "ps": "حالت",
+            "ro": "stare",
+            "ru": "состояние",
+            "ta": "நிலை",
+            "tl": "kalagayan",
+            "ur": "حالت",
+            "vi": "trạng thái",
+            "zh-Hans": "状态",
+            "zh-Hant": "狀態"
+           }
+          },
+          {
+           "surface": "com",
+           "type": "prefix",
+           "meaning": "together",
+           "translations": {
+            "am": "አብሮ",
+            "ar": "معًا",
+            "es": "juntos",
+            "fa": "باهم",
+            "fr": "ensemble",
+            "hi": "साथ",
+            "ja": "共に",
+            "ko": "함께",
+            "ml": "ഒരുമിച്ച്",
+            "ps": "يوځای",
+            "ro": "împreună",
+            "ru": "вместе",
+            "ta": "ஒன்றாக",
+            "tl": "magkasama",
+            "ur": "اکٹھا",
+            "vi": "cùng",
+            "zh-Hans": "共同",
+            "zh-Hant": "共同",
+            "other": "باهم"
+           }
+          },
+          {
+           "surface": "mit",
+           "type": "root",
+           "meaning": "send",
+           "translations": {
+            "am": "መላክ",
+            "ar": "إرسال",
+            "es": "enviar",
+            "fa": "فرستادن",
+            "fr": "envoyer",
+            "hi": "भेजना",
+            "ja": "送る",
+            "ko": "보냄",
+            "ml": "അയക്കൽ",
+            "ps": "لیږل",
+            "ro": "a trimite",
+            "ru": "посылать",
+            "ta": "அனுப்புதல்",
+            "tl": "ipadala",
+            "ur": "بھیجنا",
+            "vi": "gửi",
+            "zh-Hans": "传",
+            "zh-Hant": "傳"
+           }
+          },
+          {
+           "surface": "tee",
+           "type": "suffix",
+           "meaning": "group entrusted with a task",
+           "translations": {
+            "am": "ኃላፊነት የተሰጠው ቡድን",
+            "ar": "مجموعة موكلة بمهمة",
+            "es": "grupo encargado de una tarea",
+            "fa": "گروه موظف به یک وظیفه",
+            "fr": "groupe chargé d'une tâche",
+            "hi": "कार्य सौंपा गया समूह",
+            "ja": "任務を委ねられた集団",
+            "ko": "임무를 맡은 집단",
+            "ml": "ചുമതലയേൽപ്പിക്കപ്പെട്ട സംഘം",
+            "ps": "هغه ډله چې دنده ورسپارل شوې",
+            "ro": "grup însărcinat cu o sarcină",
+            "ru": "группа, которой поручена задача",
+            "ta": "பணி ஒப்படைக்கப்பட்ட குழு",
+            "tl": "grupong binigyan ng tungkulin",
+            "ur": "کسی کام کے لیے مقرر گروہ",
+            "vi": "nhóm được giao nhiệm vụ",
+            "zh-Hans": "受托负责任务的小组",
+            "zh-Hant": "受託負責任務的小組"
+           }
+          }
+         ],
+         "root": "serv",
          "meaning": "group organizing commemorations",
          "example": "",
          "tier": 2,
@@ -293612,8 +294783,65 @@
         },
         {
          "word": "Retaliation",
-         "parts": [],
-         "root": "",
+         "parts": [
+          {
+           "surface": "re",
+           "type": "prefix",
+           "meaning": "back",
+           "translations": {
+            "am": "ወደኋላ",
+            "ar": "إلى الخلف",
+            "es": "atrás",
+            "fa": "دوباره",
+            "fr": "arrière",
+            "hi": "पीछे",
+            "ja": "後ろ",
+            "ko": "뒤로",
+            "ml": "പിന്നിൽ",
+            "ps": "شاته",
+            "ro": "înapoi",
+            "ru": "назад",
+            "ta": "பின்னால்",
+            "tl": "pabalik",
+            "ur": "پیچھے",
+            "vi": "lùi",
+            "zh-Hans": "回",
+            "zh-Hant": "回"
+           }
+          },
+          {
+           "surface": "tali",
+           "type": "root",
+           "meaning": "such/of that kind",
+           "translations": {}
+          },
+          {
+           "surface": "ation",
+           "type": "suffix",
+           "meaning": "process of",
+           "translations": {
+            "am": "ሂደት",
+            "ar": "عملية",
+            "es": "proceso de",
+            "fa": "فرآیند",
+            "fr": "processus",
+            "hi": "प्रक्रिया",
+            "ja": "過程",
+            "ko": "과정",
+            "ml": "പ്രക്രിയ",
+            "ps": "پروسه",
+            "ro": "proces",
+            "ru": "процесс",
+            "ta": "செயல்முறை",
+            "tl": "proseso",
+            "ur": "عمل",
+            "vi": "quá trình",
+            "zh-Hans": "过程",
+            "zh-Hant": "過程"
+           }
+          }
+         ],
+         "root": "tali",
          "meaning": "The act of returning an attack or taking revenge",
          "example": "",
          "tier": 2,
@@ -294704,8 +295932,65 @@
         },
         {
          "word": "Ambition",
-         "parts": [],
-         "root": "",
+         "parts": [
+          {
+           "surface": "amb",
+           "type": "prefix",
+           "meaning": "around",
+           "translations": {}
+          },
+          {
+           "surface": "it",
+           "type": "root",
+           "meaning": "go",
+           "translations": {
+            "vi": "trạng thái",
+            "am": "መሄድ",
+            "ar": "ذهاب",
+            "es": "ir",
+            "fa": "رفتن",
+            "fr": "aller",
+            "hi": "जाना",
+            "ja": "行く",
+            "ko": "가다",
+            "ml": "പോകുക",
+            "ps": "تلل",
+            "ro": "a merge",
+            "ru": "идти",
+            "ta": "செல்",
+            "tl": "pumunta",
+            "ur": "جانا",
+            "zh-Hans": "走",
+            "zh-Hant": "走"
+           }
+          },
+          {
+           "surface": "ion",
+           "type": "suffix",
+           "meaning": "act/process",
+           "translations": {
+            "fa": "فرایند/عمل",
+            "am": "ሂደት/ድርጊት",
+            "ar": "عملية/فعل",
+            "es": "proceso/acción",
+            "fr": "processus/action",
+            "hi": "प्रक्रिया/क्रिया",
+            "ja": "過程/作用",
+            "ko": "과정/작용",
+            "ml": "പ്രക്രിയ/പ്രവർത്തനം",
+            "ps": "بهیر/کړنه",
+            "ro": "proces/acțiune",
+            "ru": "процесс/действие",
+            "ta": "செயல்முறை/செயல்",
+            "tl": "proseso/kilos",
+            "ur": "عمل/فعل",
+            "vi": "quá trình/hành động",
+            "zh-Hans": "过程/动作",
+            "zh-Hant": "過程/動作"
+           }
+          }
+         ],
+         "root": "it",
          "meaning": "Desire to achieve",
          "example": "",
          "tier": 2,
@@ -295298,8 +296583,110 @@
         },
         {
          "word": "advisory council",
-         "parts": [],
-         "root": "",
+         "parts": [
+          {
+           "surface": "ad",
+           "type": "prefix",
+           "meaning": "toward",
+           "translations": {
+            "am": "ወደ",
+            "ar": "نحو / إلى",
+            "es": "hacia",
+            "fa": "به",
+            "fr": "vers",
+            "hi": "की ओर",
+            "ja": "～へ",
+            "ko": "향하여",
+            "ml": "നേരെ",
+            "ps": "پر لور",
+            "ro": "spre",
+            "ru": "к",
+            "ta": "நோக்கி",
+            "tl": "patungo",
+            "ur": "کی طرف",
+            "vi": "hướng",
+            "zh-Hans": "向",
+            "zh-Hant": "向",
+            "other": "به"
+           }
+          },
+          {
+           "surface": "vis",
+           "type": "root",
+           "meaning": "see",
+           "translations": {
+            "vi": "nhìn",
+            "am": "ማየት",
+            "ar": "يرى",
+            "es": "ver",
+            "fa": "دیدن",
+            "fr": "voir",
+            "hi": "देखना",
+            "ja": "見る",
+            "ko": "보다",
+            "ml": "കാണുക",
+            "ps": "کتل",
+            "ro": "a vedea",
+            "ru": "видеть",
+            "ta": "பார்த்தல்",
+            "tl": "makita",
+            "ur": "دیکھنا",
+            "zh-Hans": "看",
+            "zh-Hant": "看"
+           }
+          },
+          {
+           "surface": "ory",
+           "type": "suffix",
+           "meaning": "relating to",
+           "translations": {
+            "am": "ጋር የተያያዘ",
+            "ar": "متعلق بـ",
+            "es": "relativo a",
+            "fa": "مربوط",
+            "fr": "relatif à",
+            "hi": "से संबंधित",
+            "ja": "〜に関する",
+            "ko": "~에 관한",
+            "ml": "സംബന്ധിച്ച",
+            "ps": "اړوند",
+            "ro": "referitor la",
+            "ru": "относящийся к",
+            "ta": "தொடர்பான",
+            "tl": "may kaugnayan sa",
+            "ur": "سے متعلق",
+            "vi": "liên quan",
+            "zh-Hans": "与……有关",
+            "zh-Hant": "與……有關"
+           }
+          },
+          {
+           "surface": "council",
+           "type": "root",
+           "meaning": "assembly/group",
+           "translations": {
+            "vi": "hội đồng",
+            "am": "ምክር ቤት",
+            "ar": "مجلس",
+            "es": "asamblea / consejo",
+            "fa": "شورا",
+            "fr": "conseil",
+            "hi": "परिषद",
+            "ja": "評議会",
+            "ko": "협의회",
+            "ml": "സമിതി",
+            "ps": "شورا",
+            "ro": "consiliu",
+            "ru": "совет",
+            "ta": "மன்றம்",
+            "tl": "konseho",
+            "ur": "کونسل",
+            "zh-Hans": "议会",
+            "zh-Hant": "議會"
+           }
+          }
+         ],
+         "root": "vis",
          "meaning": "group giving advice",
          "example": "",
          "tier": 2,
@@ -295584,8 +296971,65 @@
         },
         {
          "word": "Ambition",
-         "parts": [],
-         "root": "",
+         "parts": [
+          {
+           "surface": "amb",
+           "type": "prefix",
+           "meaning": "around",
+           "translations": {}
+          },
+          {
+           "surface": "it",
+           "type": "root",
+           "meaning": "go",
+           "translations": {
+            "vi": "trạng thái",
+            "am": "መሄድ",
+            "ar": "ذهاب",
+            "es": "ir",
+            "fa": "رفتن",
+            "fr": "aller",
+            "hi": "जाना",
+            "ja": "行く",
+            "ko": "가다",
+            "ml": "പോകുക",
+            "ps": "تلل",
+            "ro": "a merge",
+            "ru": "идти",
+            "ta": "செல்",
+            "tl": "pumunta",
+            "ur": "جانا",
+            "zh-Hans": "走",
+            "zh-Hant": "走"
+           }
+          },
+          {
+           "surface": "ion",
+           "type": "suffix",
+           "meaning": "act/process",
+           "translations": {
+            "fa": "فرایند/عمل",
+            "am": "ሂደት/ድርጊት",
+            "ar": "عملية/فعل",
+            "es": "proceso/acción",
+            "fr": "processus/action",
+            "hi": "प्रक्रिया/क्रिया",
+            "ja": "過程/作用",
+            "ko": "과정/작용",
+            "ml": "പ്രക്രിയ/പ്രവർത്തനം",
+            "ps": "بهیر/کړنه",
+            "ro": "proces/acțiune",
+            "ru": "процесс/действие",
+            "ta": "செயல்முறை/செயல்",
+            "tl": "proseso/kilos",
+            "ur": "عمل/فعل",
+            "vi": "quá trình/hành động",
+            "zh-Hans": "过程/动作",
+            "zh-Hant": "過程/動作"
+           }
+          }
+         ],
+         "root": "it",
          "meaning": "Desire to achieve",
          "example": "",
          "tier": 2,
@@ -295599,8 +297043,40 @@
         },
         {
          "word": "clinical trial",
-         "parts": [],
-         "root": "",
+         "parts": [
+          {
+           "surface": "clin",
+           "type": "root",
+           "meaning": "lean/bend",
+           "translations": {}
+          },
+          {
+           "surface": "ical",
+           "type": "suffix",
+           "meaning": "relating to",
+           "translations": {
+            "am": "ተዛማጅ",
+            "ar": "متعلق بـ",
+            "es": "relativo a",
+            "fa": "مربوط به",
+            "fr": "relatif à",
+            "hi": "से संबंधित",
+            "ja": "〜に関する",
+            "ko": "~에 관한",
+            "ml": "ബന്ധപ്പെട്ട",
+            "ps": "اړوند",
+            "ro": "referitor la",
+            "ru": "относящийся к",
+            "ta": "தொடர்பான",
+            "tl": "may kinalaman sa",
+            "ur": "سے متعلق",
+            "vi": "thuộc về",
+            "zh-Hans": "与……有关的",
+            "zh-Hant": "與……有關的"
+           }
+          }
+         ],
+         "root": "clin",
          "meaning": "research test",
          "example": "",
          "tier": 2,
@@ -295614,8 +297090,85 @@
         },
         {
          "word": "community standard",
-         "parts": [],
-         "root": "",
+         "parts": [
+          {
+           "surface": "commun",
+           "type": "root",
+           "meaning": "shared/common",
+           "translations": {
+            "am": "መጋራት / የጋራ",
+            "ar": "مشاركة / مشترك",
+            "es": "compartir / común",
+            "fa": "اشتراک / مشترک",
+            "fr": "partager / commun",
+            "hi": "साझा करना / सामान्य",
+            "ja": "共有／共通",
+            "ko": "공유 / 공통",
+            "ml": "പങ്കിടൽ / പൊതുവായ",
+            "ps": "شریکول / ګډ",
+            "ro": "a împărtăși / comun",
+            "ru": "делить / общий",
+            "ta": "பகிர்தல் / பொது",
+            "tl": "pagbabahagi / karaniwan",
+            "ur": "بانٹنا / مشترک",
+            "vi": "chia sẻ / chung",
+            "zh-Hans": "共享／共同",
+            "zh-Hant": "共享／共同"
+           }
+          },
+          {
+           "surface": "ity",
+           "type": "suffix",
+           "meaning": "state of",
+           "translations": {
+            "am": "ሁኔታ",
+            "ar": "حالة",
+            "es": "estado de",
+            "fa": "حالت",
+            "fr": "état de",
+            "hi": "अवस्था",
+            "ja": "状態",
+            "ko": "상태",
+            "ml": "അവസ്ഥ",
+            "ps": "حالت",
+            "ro": "stare de",
+            "ru": "состояние",
+            "ta": "நிலை",
+            "tl": "kalagayan",
+            "ur": "حالت",
+            "vi": "trạng thái",
+            "zh-Hans": "…的状态",
+            "zh-Hant": "…的狀態",
+            "other": "حالت"
+           }
+          },
+          {
+           "surface": "standard",
+           "type": "root",
+           "meaning": "an accepted norm",
+           "translations": {
+            "am": "ተቀባይነት ያለው መስፈርት",
+            "ar": "معيار مقبول",
+            "es": "norma aceptada",
+            "fa": "هنجار پذیرفته‌شده",
+            "fr": "norme acceptée",
+            "hi": "स्वीकृत मानक",
+            "ja": "認められた基準",
+            "ko": "공인된 기준",
+            "ml": "അംഗീകൃത നിലവാരം",
+            "ps": "منل شوی معیار",
+            "ro": "normă acceptată",
+            "ru": "принятая норма",
+            "ta": "அங்கீகரிக்கப்பட்ட தரநிலை",
+            "tl": "tinatanggap na pamantayan",
+            "ur": "تسلیم شدہ معیار",
+            "vi": "tiêu chuẩn được chấp nhận",
+            "zh-Hans": "公认标准",
+            "zh-Hant": "公認標準"
+           }
+          }
+         ],
+         "root": "commun",
          "meaning": "accepted social rule",
          "example": "",
          "tier": 2,
@@ -295629,8 +297182,111 @@
         },
         {
          "word": "content creator",
-         "parts": [],
-         "root": "",
+         "parts": [
+          {
+           "surface": "con",
+           "type": "prefix",
+           "meaning": "together",
+           "translations": {
+            "am": "አብሮ",
+            "ar": "معًا",
+            "es": "juntos",
+            "fa": "باهم",
+            "fr": "ensemble",
+            "hi": "साथ",
+            "ja": "共に",
+            "ko": "함께",
+            "ml": "ഒരുമിച്ച്",
+            "ps": "يوځای",
+            "ro": "împreună",
+            "ru": "вместе",
+            "ta": "ஒன்றாக",
+            "tl": "magkasama",
+            "ur": "اکٹھا",
+            "vi": "cùng",
+            "zh-Hans": "共同",
+            "zh-Hant": "共同",
+            "other": "باهم"
+           }
+          },
+          {
+           "surface": "tent",
+           "type": "root",
+           "meaning": "hold",
+           "translations": {
+            "am": "መቀጠል",
+            "ar": "استمرار",
+            "es": "sostener / continuar",
+            "fa": "ادامه",
+            "fr": "continuer",
+            "hi": "जारी रहना",
+            "ja": "継続",
+            "ko": "지속",
+            "ml": "തുടരുക",
+            "ps": "دوام",
+            "ro": "continuare",
+            "ru": "продолжение",
+            "ta": "தொடர்ச்சி",
+            "tl": "magpatuloy",
+            "ur": "تسلسل",
+            "vi": "tiếp tục",
+            "zh-Hans": "持续",
+            "zh-Hant": "持續"
+           }
+          },
+          {
+           "surface": "creat",
+           "type": "root",
+           "meaning": "make",
+           "translations": {
+            "am": "መፍጠር",
+            "ar": "يصنع/يخلق",
+            "es": "crear",
+            "fa": "ساختن/خلق کردن",
+            "fr": "créer",
+            "hi": "बनाना",
+            "ja": "作る",
+            "ko": "만들다",
+            "ml": "ഉണ്ടാക്കുക",
+            "ps": "جوړول",
+            "ro": "a crea",
+            "ru": "создавать",
+            "ta": "உருவாக்குதல்",
+            "tl": "gumawa",
+            "ur": "بنانا",
+            "vi": "tạo ra",
+            "zh-Hans": "制作/创造",
+            "zh-Hant": "製作/創造"
+           }
+          },
+          {
+           "surface": "or",
+           "type": "suffix",
+           "meaning": "person/thing that",
+           "translations": {
+            "am": "የሚያደርግ",
+            "ar": "فاعل",
+            "es": "el que hace",
+            "fa": "انجام‌دهنده",
+            "fr": "celui qui fait",
+            "hi": "करने वाला",
+            "ja": "行う人・物",
+            "ko": "행하는 것",
+            "ml": "ചെയ്യുന്നയാൾ",
+            "ps": "کوونکی",
+            "ro": "cel care face",
+            "ru": "тот, кто делает",
+            "ta": "செய்பவர்",
+            "tl": "gumagawa",
+            "ur": "کرنے والا",
+            "vi": "người thực hiện",
+            "zh-Hans": "施动者",
+            "zh-Hant": "施動者",
+            "other": "کننده"
+           }
+          }
+         ],
+         "root": "tent",
          "meaning": "online media maker",
          "example": "",
          "tier": 2,
@@ -296217,8 +297873,40 @@
         },
         {
          "word": "platform",
-         "parts": [],
-         "root": "",
+         "parts": [
+          {
+           "surface": "plat",
+           "type": "root",
+           "meaning": "flat",
+           "translations": {}
+          },
+          {
+           "surface": "form",
+           "type": "root",
+           "meaning": "shape",
+           "translations": {
+            "am": "ቅርጽ",
+            "ar": "شكل",
+            "es": "forma",
+            "fa": "شکل",
+            "fr": "forme",
+            "hi": "आकार",
+            "ja": "形",
+            "ko": "모양",
+            "ml": "രൂപം",
+            "ps": "بڼه",
+            "ro": "formă",
+            "ru": "форма",
+            "ta": "வடிவம்",
+            "tl": "hugis",
+            "ur": "شکل",
+            "vi": "hình dạng",
+            "zh-Hans": "形状",
+            "zh-Hant": "形狀"
+           }
+          }
+         ],
+         "root": "plat",
          "meaning": "online service",
          "example": "",
          "tier": 2,
@@ -296807,8 +298495,59 @@
         },
         {
          "word": "wellbeing",
-         "parts": [],
-         "root": "",
+         "parts": [
+          {
+           "surface": "well",
+           "type": "root",
+           "meaning": "good/thoroughly",
+           "translations": {
+            "am": "በጥሩ ሁኔታ",
+            "ar": "بشكل جيد",
+            "es": "bien",
+            "fa": "به خوبی",
+            "fr": "bien",
+            "hi": "अच्छी तरह से",
+            "ja": "良く",
+            "ko": "잘",
+            "ml": "നന്നായി",
+            "ps": "په ښه ډول",
+            "ro": "bine",
+            "ru": "хорошо",
+            "ta": "நன்றாக",
+            "tl": "mabuti",
+            "ur": "اچھی طرح سے",
+            "vi": "tốt",
+            "zh-Hans": "良好",
+            "zh-Hant": "良好"
+           }
+          },
+          {
+           "surface": "being",
+           "type": "root",
+           "meaning": "existence/state",
+           "translations": {
+            "am": "መኖር",
+            "ar": "الوجود",
+            "es": "estado de existir",
+            "fa": "وجود",
+            "fr": "existence",
+            "hi": "अस्तित्व",
+            "ja": "存在",
+            "ko": "존재",
+            "ml": "അസ്തിത്വം",
+            "ps": "شتون",
+            "ro": "existență",
+            "ru": "существование",
+            "ta": "இருப்பு",
+            "tl": "pag-iral",
+            "ur": "وجود",
+            "vi": "sự tồn tại",
+            "zh-Hans": "存在",
+            "zh-Hant": "存在"
+           }
+          }
+         ],
+         "root": "well",
          "meaning": "overall health",
          "example": "",
          "tier": 2,
@@ -297376,8 +299115,66 @@
         },
         {
          "word": "diseases",
-         "parts": [],
-         "root": "",
+         "parts": [
+          {
+           "surface": "dis",
+           "type": "prefix",
+           "meaning": "apart",
+           "translations": {
+            "fa": "جدا/نفی",
+            "am": "መለያየት/አይ",
+            "ar": "غير",
+            "es": "aparte/no",
+            "fr": "séparé/non",
+            "hi": "अलग/नहीं",
+            "ja": "分離",
+            "ko": "분리/부정",
+            "ml": "വേർപെട്ട്/അല്ല",
+            "ps": "بېل",
+            "ro": "des",
+            "ru": "раздельно/не",
+            "ta": "பிரி/இல்லை",
+            "tl": "hiwalay/hindi",
+            "ur": "الگ/نہیں",
+            "vi": "tách/không",
+            "zh-Hans": "分开",
+            "zh-Hant": "分開",
+            "other": "دو"
+           }
+          },
+          {
+           "surface": "eas",
+           "type": "root",
+           "meaning": "comfort/ease",
+           "translations": {}
+          },
+          {
+           "surface": "es",
+           "type": "suffix",
+           "meaning": "plural",
+           "translations": {
+            "fa": "جمع",
+            "am": "ብዙ ቁጥር",
+            "ar": "جمع",
+            "es": "plural",
+            "fr": "pluriel",
+            "hi": "बहुवचन",
+            "ja": "複数",
+            "ko": "복수",
+            "ml": "ബഹുവചനം",
+            "ps": "جمع",
+            "ro": "plural",
+            "ru": "множественное число",
+            "ta": "பன்மை",
+            "tl": "maramihan",
+            "ur": "جمع",
+            "vi": "số nhiều",
+            "zh-Hans": "复数",
+            "zh-Hant": "複數"
+           }
+          }
+         ],
+         "root": "eas",
          "meaning": "illness",
          "example": "",
          "tier": 2,
@@ -298202,8 +299999,85 @@
         },
         {
          "word": "Significant",
-         "parts": [],
-         "root": "",
+         "parts": [
+          {
+           "surface": "signi",
+           "type": "root",
+           "meaning": "mark/meaning",
+           "translations": {
+            "am": "ምልክት",
+            "ar": "علامة",
+            "es": "signo / marca",
+            "fa": "نشانه",
+            "fr": "signe / marque",
+            "hi": "चिह्न",
+            "ja": "しるし",
+            "ko": "표시",
+            "ml": "അടയാളം",
+            "ps": "نښه",
+            "ro": "semn",
+            "ru": "знак",
+            "ta": "அடையாளம்",
+            "tl": "tanda",
+            "ur": "نشان",
+            "vi": "dấu hiệu",
+            "zh-Hans": "标志／记号",
+            "zh-Hant": "標誌／記號"
+           }
+          },
+          {
+           "surface": "fic",
+           "type": "root",
+           "meaning": "make/do",
+           "translations": {
+            "am": "መስራት / ማድረግ",
+            "ar": "يصنع",
+            "es": "hacer",
+            "fa": "ساختن / انجام دادن",
+            "fr": "faire",
+            "hi": "बनाना / करना",
+            "ja": "作る",
+            "ko": "만들다 / 하다",
+            "ml": "ഉണ്ടാക്കുക / ചെയ്യുക",
+            "ps": "جوړول",
+            "ro": "face",
+            "ru": "делать / совершать",
+            "ta": "செய்தல் / ஆக்குதல்",
+            "tl": "gumawa",
+            "ur": "بنانا / کرنا",
+            "vi": "làm / thực hiện",
+            "zh-Hans": "做",
+            "zh-Hant": "做",
+            "other": "عامل"
+           }
+          },
+          {
+           "surface": "ant",
+           "type": "suffix",
+           "meaning": "having the quality of",
+           "translations": {
+            "am": "ያለው",
+            "ar": "ذو صفة",
+            "es": "que tiene la cualidad de",
+            "fa": "دارای",
+            "fr": "ayant la qualité de",
+            "hi": "गुणयुक्त",
+            "ja": "〜性",
+            "ko": "~성",
+            "ml": "ഗുണമുള്ള",
+            "ps": "لرونکی",
+            "ro": "având calitatea de",
+            "ru": "обладающий",
+            "ta": "குணமுள்ள",
+            "tl": "may katangian",
+            "ur": "والا",
+            "vi": "có tính chất",
+            "zh-Hans": "…性",
+            "zh-Hant": "…性"
+           }
+          }
+         ],
+         "root": "signi",
          "meaning": "Having meaning or importance; notable",
          "example": "",
          "tier": 2,
@@ -298612,8 +300486,84 @@
         },
         {
          "word": "mistreatment",
-         "parts": [],
-         "root": "",
+         "parts": [
+          {
+           "surface": "mis",
+           "type": "prefix",
+           "meaning": "wrongly",
+           "translations": {
+            "am": "በስህተት / በክፉ",
+            "ar": "خطأً / بشكل سيّئ",
+            "es": "incorrectamente/mal",
+            "fa": "نادرست / بد",
+            "fr": "mal / à tort",
+            "hi": "गलत तरीके से / बुरी तरह",
+            "ja": "誤って／悪く",
+            "ko": "잘못 / 나쁘게",
+            "ml": "തെറ്റായി / മോശമായി",
+            "ps": "غلط / بد",
+            "ro": "greșit / rău",
+            "ru": "неправильно / плохо",
+            "ta": "தவறாக / மோசமாக",
+            "tl": "mali / masama",
+            "ur": "غلط طور پر / برے طریقے سے",
+            "vi": "sai / xấu",
+            "zh-Hans": "错误地／不良地",
+            "zh-Hant": "錯誤地／不良地"
+           }
+          },
+          {
+           "surface": "treat",
+           "type": "root",
+           "meaning": "to handle or deal with",
+           "translations": {
+            "am": "ማስተናገድ",
+            "ar": "يتعامل مع",
+            "es": "manejar o tratar",
+            "fa": "رسیدگی کردن به",
+            "fr": "traiter / gérer",
+            "hi": "संभालना या निपटना",
+            "ja": "扱う",
+            "ko": "다루다 / 처리하다",
+            "ml": "കൈകാര്യം ചെയ്യുക",
+            "ps": "سره چلند کول",
+            "ro": "a trata / a se ocupa de",
+            "ru": "обращаться с / иметь дело с",
+            "ta": "கையாளுதல்",
+            "tl": "pangasiwaan o harapin",
+            "ur": "نمٹنا یا سنبھالنا",
+            "vi": "xử lý hoặc giải quyết",
+            "zh-Hans": "处理／应对",
+            "zh-Hant": "處理／應對"
+           }
+          },
+          {
+           "surface": "ment",
+           "type": "suffix",
+           "meaning": "result of",
+           "translations": {
+            "am": "ውጤት",
+            "ar": "نتيجة",
+            "es": "resultado de",
+            "fa": "نتیجه",
+            "fr": "résultat de",
+            "hi": "परिणाम",
+            "ja": "結果",
+            "ko": "결과",
+            "ml": "ഫലം",
+            "ps": "پایله",
+            "ro": "rezultat",
+            "ru": "результат",
+            "ta": "விளைவு",
+            "tl": "resulta",
+            "ur": "نتیجہ",
+            "vi": "kết quả",
+            "zh-Hans": "结果",
+            "zh-Hant": "結果"
+           }
+          }
+         ],
+         "root": "treat",
          "meaning": "Cruel or unfair behavior",
          "example": "",
          "tier": 2,
@@ -298881,8 +300831,40 @@
         },
         {
          "word": "Authorities",
-         "parts": [],
-         "root": "",
+         "parts": [
+          {
+           "surface": "author",
+           "type": "root",
+           "meaning": "one who holds power",
+           "translations": {
+            "am": "ስልጣን ያለው",
+            "ar": "من يملك السلطة",
+            "es": "quien tiene el poder",
+            "fa": "کسی که قدرت را در دست دارد",
+            "fr": "celui qui détient le pouvoir",
+            "hi": "सत्ता रखने वाला",
+            "ja": "権力を持つ者",
+            "ko": "권력을 가진 자",
+            "ml": "അധികാരമുള്ളയാൾ",
+            "ps": "واکمن / د واک لرونکی",
+            "ro": "cel care deține puterea",
+            "ru": "тот, кто обладает властью",
+            "ta": "அதிகாரம் கொண்டவர்",
+            "tl": "may hawak ng kapangyarihan",
+            "ur": "طاقت رکھنے والا",
+            "vi": "người nắm quyền",
+            "zh-Hans": "掌权者",
+            "zh-Hant": "掌權者"
+           }
+          },
+          {
+           "surface": "ities",
+           "type": "suffix",
+           "meaning": "states of (plural)",
+           "translations": {}
+          }
+         ],
+         "root": "author",
          "meaning": "People or institutions with power to make and enforce laws",
          "example": "",
          "tier": 2,
@@ -298896,8 +300878,21 @@
         },
         {
          "word": "Capital offence",
-         "parts": [],
-         "root": "",
+         "parts": [
+          {
+           "surface": "capital",
+           "type": "root",
+           "meaning": "head/chief",
+           "translations": {}
+          },
+          {
+           "surface": "fen",
+           "type": "root",
+           "meaning": "strike",
+           "translations": {}
+          }
+         ],
+         "root": "capital",
          "meaning": "A crime so serious that the death penalty may be applied",
          "example": "",
          "tier": 2,
@@ -299174,8 +301169,65 @@
         },
         {
          "word": "Retaliation",
-         "parts": [],
-         "root": "",
+         "parts": [
+          {
+           "surface": "re",
+           "type": "prefix",
+           "meaning": "back",
+           "translations": {
+            "am": "ወደኋላ",
+            "ar": "إلى الخلف",
+            "es": "atrás",
+            "fa": "دوباره",
+            "fr": "arrière",
+            "hi": "पीछे",
+            "ja": "後ろ",
+            "ko": "뒤로",
+            "ml": "പിന്നിൽ",
+            "ps": "شاته",
+            "ro": "înapoi",
+            "ru": "назад",
+            "ta": "பின்னால்",
+            "tl": "pabalik",
+            "ur": "پیچھے",
+            "vi": "lùi",
+            "zh-Hans": "回",
+            "zh-Hant": "回"
+           }
+          },
+          {
+           "surface": "tali",
+           "type": "root",
+           "meaning": "such/of that kind",
+           "translations": {}
+          },
+          {
+           "surface": "ation",
+           "type": "suffix",
+           "meaning": "process of",
+           "translations": {
+            "am": "ሂደት",
+            "ar": "عملية",
+            "es": "proceso de",
+            "fa": "فرآیند",
+            "fr": "processus",
+            "hi": "प्रक्रिया",
+            "ja": "過程",
+            "ko": "과정",
+            "ml": "പ്രക്രിയ",
+            "ps": "پروسه",
+            "ro": "proces",
+            "ru": "процесс",
+            "ta": "செயல்முறை",
+            "tl": "proseso",
+            "ur": "عمل",
+            "vi": "quá trình",
+            "zh-Hans": "过程",
+            "zh-Hant": "過程"
+           }
+          }
+         ],
+         "root": "tali",
          "meaning": "The act of returning an attack or taking revenge",
          "example": "",
          "tier": 2,
@@ -299501,8 +301553,66 @@
         },
         {
          "word": "Commandant",
-         "parts": [],
-         "root": "",
+         "parts": [
+          {
+           "surface": "com",
+           "type": "prefix",
+           "meaning": "together",
+           "translations": {
+            "am": "አብሮ",
+            "ar": "معًا",
+            "es": "juntos",
+            "fa": "باهم",
+            "fr": "ensemble",
+            "hi": "साथ",
+            "ja": "共に",
+            "ko": "함께",
+            "ml": "ഒരുമിച്ച്",
+            "ps": "يوځای",
+            "ro": "împreună",
+            "ru": "вместе",
+            "ta": "ஒன்றாக",
+            "tl": "magkasama",
+            "ur": "اکٹھا",
+            "vi": "cùng",
+            "zh-Hans": "共同",
+            "zh-Hant": "共同",
+            "other": "باهم"
+           }
+          },
+          {
+           "surface": "mand",
+           "type": "root",
+           "meaning": "order/ask for",
+           "translations": {
+            "am": "ማዘዝ / መጠየቅ",
+            "ar": "يأمر / يطلب",
+            "es": "ordenar/pedir",
+            "fa": "فرمان دادن / خواستن",
+            "fr": "ordonner / demander",
+            "hi": "आदेश / माँगना",
+            "ja": "命じる・要求する",
+            "ko": "명령·요구",
+            "ml": "ആജ്ഞ / ആവശ്യപ്പെടുക",
+            "ps": "امر / غوښتنه",
+            "ro": "a ordona / a cere",
+            "ru": "приказывать / требовать",
+            "ta": "கட்டளை / கோரு",
+            "tl": "mag-utos / humingi",
+            "ur": "حکم / مطالبہ",
+            "vi": "ra lệnh / yêu cầu",
+            "zh-Hans": "命令／要求",
+            "zh-Hant": "命令／要求"
+           }
+          },
+          {
+           "surface": "ant",
+           "type": "suffix",
+           "meaning": "one who",
+           "translations": {}
+          }
+         ],
+         "root": "mand",
          "meaning": "A person in charge, especially military",
          "example": "",
          "tier": 2,
@@ -299531,8 +301641,40 @@
         },
         {
          "word": "courage",
-         "parts": [],
-         "root": "",
+         "parts": [
+          {
+           "surface": "cour",
+           "type": "root",
+           "meaning": "heart",
+           "translations": {}
+          },
+          {
+           "surface": "age",
+           "type": "suffix",
+           "meaning": "result",
+           "translations": {
+            "fa": "نتیجه",
+            "am": "ውጤት",
+            "ar": "نتيجة",
+            "es": "resultado",
+            "fr": "résultat",
+            "hi": "परिणाम",
+            "ja": "結果",
+            "ko": "결과",
+            "ml": "ഫലം",
+            "ps": "پایله",
+            "ro": "rezultat",
+            "ru": "результат",
+            "ta": "விளைவு",
+            "tl": "resulta",
+            "ur": "نتیجہ",
+            "vi": "kết quả",
+            "zh-Hans": "结果",
+            "zh-Hant": "結果"
+           }
+          }
+         ],
+         "root": "cour",
          "meaning": "from Latin cor “heart”",
          "example": "",
          "tier": 2,
@@ -299546,8 +301688,71 @@
         },
         {
          "word": "Cultural genocide",
-         "parts": [],
-         "root": "",
+         "parts": [
+          {
+           "surface": "cultur",
+           "type": "root",
+           "meaning": "culture",
+           "translations": {
+            "am": "ባህል",
+            "ar": "ثقافة",
+            "es": "cultura",
+            "fa": "فرهنگ",
+            "fr": "culture",
+            "hi": "संस्कृति",
+            "ja": "文化",
+            "ko": "문화",
+            "ml": "സംസ്കാരം",
+            "ps": "فرهنګ",
+            "ro": "cultură",
+            "ru": "культура",
+            "ta": "பண்பாடு",
+            "tl": "kultura",
+            "ur": "ثقافت",
+            "vi": "văn hóa",
+            "zh-Hans": "文化",
+            "zh-Hant": "文化"
+           }
+          },
+          {
+           "surface": "al",
+           "type": "suffix",
+           "meaning": "relating to",
+           "translations": {
+            "fa": "وابسته به",
+            "am": "ተያያዥ",
+            "ar": "متعلق بـ",
+            "es": "relativo a",
+            "fr": "relatif à",
+            "hi": "संबंधी",
+            "ja": "～の",
+            "ko": "관련된",
+            "ml": "ബന്ധപ്പെട്ട",
+            "ps": "اړوند",
+            "ro": "legat de",
+            "ru": "относящийся к",
+            "ta": "தொடர்பான",
+            "tl": "may kaugnayan sa",
+            "ur": "متعلق",
+            "vi": "thuộc về",
+            "zh-Hans": "……的",
+            "zh-Hant": "……的"
+           }
+          },
+          {
+           "surface": "geno",
+           "type": "root",
+           "meaning": "race/kind",
+           "translations": {}
+          },
+          {
+           "surface": "cide",
+           "type": "root",
+           "meaning": "kill",
+           "translations": {}
+          }
+         ],
+         "root": "cultur",
          "meaning": "Destruction of Indigenous culture, practices, languages through colonial policies. (Open Research Repository)",
          "example": "",
          "tier": 2,
@@ -303108,8 +305313,134 @@
         },
         {
          "word": "historical perspective",
-         "parts": [],
-         "root": "",
+         "parts": [
+          {
+           "surface": "histor",
+           "type": "root",
+           "meaning": "past events",
+           "translations": {
+            "am": "ያለፉ ክንውኖች",
+            "ar": "أحداث ماضية",
+            "es": "hechos pasados",
+            "fa": "تاریخ",
+            "fr": "histoire",
+            "hi": "पिछली घटनाएं",
+            "ja": "過去の出来事",
+            "ko": "과거의 사건",
+            "ml": "മുൻകാല സംഭവങ്ങൾ",
+            "ps": "تېرې پیښې",
+            "ro": "evenimente trecute",
+            "ru": "прошлые события",
+            "ta": "கடந்தகால நிகழ்வுகள்",
+            "tl": "mga pangyayari noon",
+            "ur": "ماضی کے واقعات",
+            "vi": "sự kiện quá khứ",
+            "zh-Hans": "过去的事件",
+            "zh-Hant": "過去的事件"
+           }
+          },
+          {
+           "surface": "ical",
+           "type": "suffix",
+           "meaning": "relating to",
+           "translations": {
+            "am": "ተዛማጅ",
+            "ar": "متعلق بـ",
+            "es": "relativo a",
+            "fa": "مربوط به",
+            "fr": "relatif à",
+            "hi": "से संबंधित",
+            "ja": "〜に関する",
+            "ko": "~에 관한",
+            "ml": "ബന്ധപ്പെട്ട",
+            "ps": "اړوند",
+            "ro": "referitor la",
+            "ru": "относящийся к",
+            "ta": "தொடர்பான",
+            "tl": "may kinalaman sa",
+            "ur": "سے متعلق",
+            "vi": "thuộc về",
+            "zh-Hans": "与……有关的",
+            "zh-Hant": "與……有關的"
+           }
+          },
+          {
+           "surface": "per",
+           "type": "prefix",
+           "meaning": "through",
+           "translations": {
+            "am": "በ...በኩል / ሙሉ በሙሉ",
+            "ar": "عبر / تمامًا",
+            "es": "a través de/completamente",
+            "fa": "از میان / کاملاً",
+            "fr": "à travers / complètement",
+            "hi": "के माध्यम से / पूरी तरह",
+            "ja": "通して／徹底的に",
+            "ko": "~을 통하여 / 철저히",
+            "ml": "വഴി / പൂർണ്ണമായി",
+            "ps": "له لارې / بشپړ",
+            "ro": "prin / complet",
+            "ru": "через / полностью",
+            "ta": "வழியாக / முழுமையாக",
+            "tl": "sa pamamagitan / lubusan",
+            "ur": "کے ذریعے / مکمل طور پر",
+            "vi": "xuyên qua / triệt để",
+            "zh-Hans": "穿过／彻底",
+            "zh-Hant": "穿過／徹底"
+           }
+          },
+          {
+           "surface": "spect",
+           "type": "root",
+           "meaning": "look",
+           "translations": {
+            "am": "መመልከት",
+            "ar": "نظر / رؤية",
+            "es": "mirar / ver",
+            "fa": "نگاه کردن / دیدن",
+            "fr": "regarder / voir",
+            "hi": "देखना",
+            "ja": "見る",
+            "ko": "보다",
+            "ml": "നോക്കുക/കാണുക",
+            "ps": "کتل/لیدل",
+            "ro": "a privi / a vedea",
+            "ru": "смотреть / видеть",
+            "ta": "பார்/காண்",
+            "tl": "tumingin/makakita",
+            "ur": "دیکھنا",
+            "vi": "nhìn / xem",
+            "zh-Hans": "看/观察",
+            "zh-Hant": "看/觀察"
+           }
+          },
+          {
+           "surface": "ive",
+           "type": "suffix",
+           "meaning": "tending to",
+           "translations": {
+            "am": "ዝንባሌ",
+            "ar": "ذو",
+            "es": "que tiende a",
+            "fa": "گرایش به",
+            "fr": "tendance à",
+            "hi": "प्रवृत्ति",
+            "ja": "的な",
+            "ko": "경향",
+            "ml": "പ്രവണത",
+            "ps": "لرونکی",
+            "ro": "care are",
+            "ru": "склонный к",
+            "ta": "போக்கு",
+            "tl": "hilig",
+            "ur": "رجحان",
+            "vi": "có xu hướng",
+            "zh-Hans": "有…性质的",
+            "zh-Hant": "有…性質的"
+           }
+          }
+         ],
+         "root": "histor",
          "meaning": "Understanding events in context of their time and development",
          "example": "",
          "tier": 2,
@@ -303505,8 +305836,40 @@
         },
         {
          "word": "civilise",
-         "parts": [],
-         "root": "",
+         "parts": [
+          {
+           "surface": "civil",
+           "type": "root",
+           "meaning": "citizen/city",
+           "translations": {}
+          },
+          {
+           "surface": "ise",
+           "type": "suffix",
+           "meaning": "to make",
+           "translations": {
+            "am": "ማድረግ",
+            "ar": "جعل",
+            "es": "hacer",
+            "fa": "ساختن",
+            "fr": "rendre",
+            "hi": "बनाना",
+            "ja": "化する",
+            "ko": "화하다",
+            "ml": "ആക്കുക",
+            "ps": "جوړول",
+            "ro": "a face",
+            "ru": "делать",
+            "ta": "ஆக்குதல்",
+            "tl": "gawin",
+            "ur": "بنانا",
+            "vi": "làm cho",
+            "zh-Hans": "使成為 / 使成为",
+            "zh-Hant": "使成為 / 使成爲"
+           }
+          }
+         ],
+         "root": "civil",
          "meaning": "To bring (a people or place) to what is considered a more advanced social or moral state",
          "example": "",
          "tier": 2,
@@ -303640,8 +306003,66 @@
         },
         {
          "word": "exemption",
-         "parts": [],
-         "root": "",
+         "parts": [
+          {
+           "surface": "ex",
+           "type": "prefix",
+           "meaning": "out",
+           "translations": {
+            "am": "ውጭ",
+            "ar": "خارج",
+            "es": "fuera",
+            "fa": "بیرون",
+            "fr": "hors de",
+            "hi": "बाहर",
+            "ja": "外へ",
+            "ko": "밖으로",
+            "ml": "പുറത്തേക്ക്",
+            "ps": "بهر",
+            "ro": "afară",
+            "ru": "из",
+            "ta": "வெளியே",
+            "tl": "palabas",
+            "ur": "باہر",
+            "vi": "ra",
+            "zh-Hans": "向外",
+            "zh-Hant": "向外",
+            "other": "خارج"
+           }
+          },
+          {
+           "surface": "empt",
+           "type": "root",
+           "meaning": "take",
+           "translations": {}
+          },
+          {
+           "surface": "ion",
+           "type": "suffix",
+           "meaning": "act/process",
+           "translations": {
+            "fa": "فرایند/عمل",
+            "am": "ሂደት/ድርጊት",
+            "ar": "عملية/فعل",
+            "es": "proceso/acción",
+            "fr": "processus/action",
+            "hi": "प्रक्रिया/क्रिया",
+            "ja": "過程/作用",
+            "ko": "과정/작용",
+            "ml": "പ്രക്രിയ/പ്രവർത്തനം",
+            "ps": "بهیر/کړنه",
+            "ro": "proces/acțiune",
+            "ru": "процесс/действие",
+            "ta": "செயல்முறை/செயல்",
+            "tl": "proseso/kilos",
+            "ur": "عمل/فعل",
+            "vi": "quá trình/hành động",
+            "zh-Hans": "过程/动作",
+            "zh-Hant": "過程/動作"
+           }
+          }
+         ],
+         "root": "empt",
          "meaning": "The act of being freed from an obligation, rule, or duty",
          "example": "",
          "tier": 2,
@@ -304292,8 +306713,40 @@
         },
         {
          "word": "domestic",
-         "parts": [],
-         "root": "",
+         "parts": [
+          {
+           "surface": "domest",
+           "type": "root",
+           "meaning": "house/home",
+           "translations": {}
+          },
+          {
+           "surface": "ic",
+           "type": "suffix",
+           "meaning": "relating to",
+           "translations": {
+            "fa": "مربوط به",
+            "am": "ተያያዥ",
+            "ar": "متعلّق بـ",
+            "es": "relativo a",
+            "fr": "relatif à",
+            "hi": "संबंधी",
+            "ja": "～の",
+            "ko": "관련된",
+            "ml": "ബന്ധപ്പെട്ട",
+            "ps": "اړوند",
+            "ro": "legat de",
+            "ru": "относящийся",
+            "ta": "தொடர்பான",
+            "tl": "kaugnay sa",
+            "ur": "متعلق",
+            "vi": "thuộc về",
+            "zh-Hans": "……的",
+            "zh-Hant": "……的"
+           }
+          }
+         ],
+         "root": "domest",
          "meaning": "Related to the home or household work",
          "example": "",
          "tier": 2,
@@ -304479,8 +306932,84 @@
         },
         {
          "word": "obedient",
-         "parts": [],
-         "root": "",
+         "parts": [
+          {
+           "surface": "ob",
+           "type": "prefix",
+           "meaning": "toward",
+           "translations": {
+            "vi": "hướng tới",
+            "am": "ወደ",
+            "ar": "نحو",
+            "es": "hacia",
+            "fa": "به سوی",
+            "fr": "vers",
+            "hi": "की ओर",
+            "ja": "向かって",
+            "ko": "향하여",
+            "ml": "നേരെ",
+            "ps": "لور ته",
+            "ro": "spre",
+            "ru": "к",
+            "ta": "நோக்கி",
+            "tl": "patungo",
+            "ur": "کی طرف",
+            "zh-Hans": "朝向",
+            "zh-Hant": "朝向"
+           }
+          },
+          {
+           "surface": "edi",
+           "type": "root",
+           "meaning": "listen",
+           "translations": {
+            "am": "ማዳመጥ",
+            "ar": "استماع",
+            "es": "escuchar",
+            "fa": "گوش دادن",
+            "fr": "écouter",
+            "hi": "सुनना",
+            "ja": "聞く",
+            "ko": "듣다",
+            "ml": "കേൾക്കുക",
+            "ps": "اورېدل",
+            "ro": "a asculta",
+            "ru": "слушать",
+            "ta": "கேட்டல்",
+            "tl": "makinig",
+            "ur": "سننا",
+            "vi": "nghe",
+            "zh-Hans": "听",
+            "zh-Hant": "聽"
+           }
+          },
+          {
+           "surface": "ent",
+           "type": "suffix",
+           "meaning": "having the quality of",
+           "translations": {
+            "vi": "trạng thái",
+            "fa": "چیز",
+            "am": "ባሕርይ",
+            "ar": "صفة",
+            "es": "cualidad",
+            "fr": "qualité",
+            "hi": "गुण",
+            "ja": "性質",
+            "ko": "성질",
+            "ml": "ഗുണം",
+            "ps": "ځانګړتیا",
+            "ro": "calitate",
+            "ru": "качество",
+            "ta": "பண்பு",
+            "tl": "katangian",
+            "ur": "خاصیت",
+            "zh-Hans": "性质",
+            "zh-Hant": "性質"
+           }
+          }
+         ],
+         "root": "edi",
          "meaning": "Willing to follow orders or rules",
          "example": "",
          "tier": 2,
@@ -304554,8 +307083,84 @@
         },
         {
          "word": "dehydration",
-         "parts": [],
-         "root": "",
+         "parts": [
+          {
+           "surface": "de",
+           "type": "prefix",
+           "meaning": "down/away",
+           "translations": {
+            "am": "ወደ ታች",
+            "ar": "أسفل",
+            "es": "abajo/lejos",
+            "fa": "پایین",
+            "fr": "vers le bas",
+            "hi": "नीचे",
+            "ja": "下方へ",
+            "ko": "아래로",
+            "ml": "താഴേക്ക്",
+            "ps": "ښکته / لرې",
+            "ro": "în jos",
+            "ru": "вниз",
+            "ta": "கீழே",
+            "tl": "pababa",
+            "ur": "نیچے",
+            "vi": "giảm/ra khỏi",
+            "zh-Hans": "向下；去除",
+            "zh-Hant": "向下；去除"
+           }
+          },
+          {
+           "surface": "hydr",
+           "type": "root",
+           "meaning": "water",
+           "translations": {
+            "fa": "آب",
+            "am": "ውሃ",
+            "ar": "ماء",
+            "es": "agua",
+            "fr": "eau",
+            "hi": "जल",
+            "ja": "水",
+            "ko": "물",
+            "ml": "ജലം",
+            "ps": "اوبه",
+            "ro": "apă",
+            "ru": "вода",
+            "ta": "நீர்",
+            "tl": "tubig",
+            "ur": "پانی",
+            "vi": "nước",
+            "zh-Hans": "水",
+            "zh-Hant": "水"
+           }
+          },
+          {
+           "surface": "ation",
+           "type": "suffix",
+           "meaning": "process of",
+           "translations": {
+            "am": "ሂደት",
+            "ar": "عملية",
+            "es": "proceso de",
+            "fa": "فرآیند",
+            "fr": "processus",
+            "hi": "प्रक्रिया",
+            "ja": "過程",
+            "ko": "과정",
+            "ml": "പ്രക്രിയ",
+            "ps": "پروسه",
+            "ro": "proces",
+            "ru": "процесс",
+            "ta": "செயல்முறை",
+            "tl": "proseso",
+            "ur": "عمل",
+            "vi": "quá trình",
+            "zh-Hans": "过程",
+            "zh-Hant": "過程"
+           }
+          }
+         ],
+         "root": "hydr",
          "meaning": "Loss of body water due to heat or lack of drinking",
          "example": "",
          "tier": 2,
@@ -306475,6 +309080,11 @@
      "ad"
     ],
     [
+     "advisory council",
+     "elc/humanities/social-media-ban",
+     "ad"
+    ],
+    [
      "inadequate",
      "elc/humanities/social-media-ban",
      "ad"
@@ -306579,6 +309189,11 @@
    "meaning": "result",
    "type": "suffix",
    "words": [
+    [
+     "courage",
+     "elc/humanities/general-vocabulary",
+     "age"
+    ],
     [
      "heritage",
      "elc/humanities/general-vocabulary",
@@ -306834,6 +309449,11 @@
    "type": "suffix",
    "words": [
     [
+     "Cultural genocide",
+     "elc/humanities/general-vocabulary",
+     "al"
+    ],
+    [
      "Reprisal",
      "elc/humanities/general-vocabulary",
      "al"
@@ -306846,6 +309466,11 @@
     [
      "national",
      "elc/humanities/general-vocabulary",
+     "al"
+    ],
+    [
+     "Cultural genocide",
+     "elc/humanities/history",
      "al"
     ],
     [
@@ -307431,6 +310056,23 @@
     ]
    ]
   },
+  "amb|around": {
+   "surface": "amb",
+   "meaning": "around",
+   "type": "prefix",
+   "words": [
+    [
+     "Ambition",
+     "elc/humanities/history",
+     "amb"
+    ],
+    [
+     "Ambition",
+     "elc/humanities/social-media-ban",
+     "amb"
+    ]
+   ]
+  },
   "am|ampere/amp (unit of current)": {
    "surface": "am",
    "meaning": "ampere/amp (unit of current)",
@@ -307583,6 +310225,11 @@
     ],
     [
      "observance",
+     "elc/humanities/history",
+     "ance"
+    ],
+    [
+     "observance committee",
      "elc/humanities/history",
      "ance"
     ],
@@ -307808,6 +310455,16 @@
    "type": "suffix",
    "words": [
     [
+     "Significant",
+     "elc/humanities/general-vocabulary",
+     "ant"
+    ],
+    [
+     "Significant",
+     "elc/humanities/history",
+     "ant"
+    ],
+    [
      "dominant",
      "vce/biology/unit-2-aos-1",
      "ant"
@@ -307820,6 +310477,23 @@
     [
      "predominantly",
      "vce/command-terms/hedging-certainty",
+     "ant"
+    ]
+   ]
+  },
+  "ant|one who": {
+   "surface": "ant",
+   "meaning": "one who",
+   "type": "suffix",
+   "words": [
+    [
+     "Commandant",
+     "elc/humanities/general-vocabulary",
+     "ant"
+    ],
+    [
+     "Commandant",
+     "elc/humanities/history",
      "ant"
     ]
    ]
@@ -309217,7 +311891,17 @@
      "ation"
     ],
     [
+     "Retaliation",
+     "elc/humanities/general-vocabulary",
+     "ation"
+    ],
+    [
      "contemplation",
+     "elc/humanities/general-vocabulary",
+     "ation"
+    ],
+    [
+     "dehydration",
      "elc/humanities/general-vocabulary",
      "ation"
     ],
@@ -309252,6 +311936,11 @@
      "ation"
     ],
     [
+     "Retaliation",
+     "elc/humanities/history",
+     "ation"
+    ],
+    [
      "assimilation",
      "elc/humanities/history",
      "ation"
@@ -309282,6 +311971,11 @@
      "ation"
     ],
     [
+     "dehydration",
+     "elc/humanities/history",
+     "ation"
+    ],
+    [
      "deportation",
      "elc/humanities/history",
      "ation"
@@ -309303,6 +311997,11 @@
     ],
     [
      "explanation",
+     "elc/humanities/history",
+     "ation"
+    ],
+    [
+     "imagination",
      "elc/humanities/history",
      "ation"
     ],
@@ -310709,6 +313408,16 @@
    "type": "root",
    "words": [
     [
+     "Authorities",
+     "elc/humanities/general-vocabulary",
+     "author"
+    ],
+    [
+     "authorities",
+     "elc/humanities/history",
+     "author"
+    ],
+    [
      "authority",
      "elc/humanities/social-media-ban",
      "author"
@@ -310948,6 +313657,23 @@
     ]
    ]
   },
+  "being|existence/state": {
+   "surface": "being",
+   "meaning": "existence/state",
+   "type": "root",
+   "words": [
+    [
+     "wellbeing",
+     "elc/humanities/social-media-ban",
+     "being"
+    ],
+    [
+     "wellbeing",
+     "vce/vm-personal-development-skills/unit-4-aos-2",
+     "being"
+    ]
+   ]
+  },
   "bility|capable of": {
    "surface": "bility",
    "meaning": "capable of",
@@ -311164,6 +313890,23 @@
      "combustion",
      "year-9/science/chemical-reactions",
      "bust"
+    ]
+   ]
+  },
+  "capital|head/chief": {
+   "surface": "capital",
+   "meaning": "head/chief",
+   "type": "root",
+   "words": [
+    [
+     "Capital offence",
+     "elc/humanities/general-vocabulary",
+     "capital"
+    ],
+    [
+     "Capital offence",
+     "elc/humanities/history",
+     "capital"
     ]
    ]
   },
@@ -311656,6 +314399,23 @@
     ]
    ]
   },
+  "cide|kill": {
+   "surface": "cide",
+   "meaning": "kill",
+   "type": "root",
+   "words": [
+    [
+     "Cultural genocide",
+     "elc/humanities/general-vocabulary",
+     "cide"
+    ],
+    [
+     "Cultural genocide",
+     "elc/humanities/history",
+     "cide"
+    ]
+   ]
+  },
   "cin|related to vaccine": {
    "surface": "cin",
    "meaning": "related to vaccine",
@@ -311749,6 +314509,23 @@
     ]
    ]
   },
+  "civil|citizen/city": {
+   "surface": "civil",
+   "meaning": "citizen/city",
+   "type": "root",
+   "words": [
+    [
+     "civilise",
+     "elc/humanities/general-vocabulary",
+     "civil"
+    ],
+    [
+     "civilise",
+     "elc/humanities/history",
+     "civil"
+    ]
+   ]
+  },
   "clar|clear": {
    "surface": "clar",
    "meaning": "clear",
@@ -311785,6 +314562,23 @@
      "classify",
      "year-7/mathematics/command-terms",
      "class"
+    ]
+   ]
+  },
+  "clin|lean/bend": {
+   "surface": "clin",
+   "meaning": "lean/bend",
+   "type": "root",
+   "words": [
+    [
+     "clinical trial",
+     "elc/humanities/social-media-ban",
+     "clin"
+    ],
+    [
+     "decline",
+     "vce/command-terms/data-graphs",
+     "clin"
     ]
    ]
   },
@@ -312045,6 +314839,11 @@
      "commun"
     ],
     [
+     "community standard",
+     "elc/humanities/social-media-ban",
+     "commun"
+    ],
+    [
      "community",
      "elc/science/ecology",
      "commun"
@@ -312123,12 +314922,27 @@
    "type": "prefix",
    "words": [
     [
+     "Commandant",
+     "elc/humanities/general-vocabulary",
+     "com"
+    ],
+    [
+     "Commandant",
+     "elc/humanities/history",
+     "com"
+    ],
+    [
      "commitment",
      "elc/humanities/history",
      "com"
     ],
     [
      "complicated",
+     "elc/humanities/history",
+     "com"
+    ],
+    [
+     "observance committee",
      "elc/humanities/history",
      "com"
     ],
@@ -312544,6 +315358,11 @@
     [
      "conversation",
      "elc/humanities/history",
+     "con"
+    ],
+    [
+     "content creator",
+     "elc/humanities/social-media-ban",
      "con"
     ],
     [
@@ -313363,6 +316182,23 @@
     ]
    ]
   },
+  "council|assembly/group": {
+   "surface": "council",
+   "meaning": "assembly/group",
+   "type": "root",
+   "words": [
+    [
+     "advisory council",
+     "elc/humanities/social-media-ban",
+     "council"
+    ],
+    [
+     "council grants",
+     "vce/business-management/unit-1-aos-1",
+     "council"
+    ]
+   ]
+  },
   "counter|against": {
    "surface": "counter",
    "meaning": "against",
@@ -313377,6 +316213,23 @@
      "counter-revolution",
      "vce/history/unit-3-4-aos-2",
      "counter"
+    ]
+   ]
+  },
+  "cour|heart": {
+   "surface": "cour",
+   "meaning": "heart",
+   "type": "root",
+   "words": [
+    [
+     "courage",
+     "elc/humanities/general-vocabulary",
+     "cour"
+    ],
+    [
+     "encouraging",
+     "elc/humanities/history",
+     "cour"
     ]
    ]
   },
@@ -313502,6 +316355,23 @@
     ]
    ]
   },
+  "creat|make": {
+   "surface": "creat",
+   "meaning": "make",
+   "type": "root",
+   "words": [
+    [
+     "content creator",
+     "elc/humanities/social-media-ban",
+     "creat"
+    ],
+    [
+     "creator",
+     "vce/music/unit-4-aos-2",
+     "creat"
+    ]
+   ]
+  },
   "cred|believe": {
    "surface": "cred",
    "meaning": "believe",
@@ -313585,6 +316455,28 @@
      "criteria",
      "vce/vm-work-related-skills/unit-4-aos-1",
      "crit"
+    ]
+   ]
+  },
+  "cultur|culture": {
+   "surface": "cultur",
+   "meaning": "culture",
+   "type": "root",
+   "words": [
+    [
+     "Cultural genocide",
+     "elc/humanities/general-vocabulary",
+     "cultur"
+    ],
+    [
+     "Cultural genocide",
+     "elc/humanities/history",
+     "cultur"
+    ],
+    [
+     "sociocultural",
+     "vce/food-studies/unit-4-aos-2",
+     "cultur"
     ]
    ]
   },
@@ -314059,6 +316951,11 @@
      "de"
     ],
     [
+     "dehydration",
+     "elc/humanities/general-vocabulary",
+     "de"
+    ],
+    [
      "deportation",
      "elc/humanities/general-vocabulary",
      "de"
@@ -314085,6 +316982,11 @@
     ],
     [
      "decapitated",
+     "elc/humanities/history",
+     "de"
+    ],
+    [
+     "dehydration",
      "elc/humanities/history",
      "de"
     ],
@@ -314528,6 +317430,11 @@
      "dis"
     ],
     [
+     "diseases",
+     "elc/humanities/general-vocabulary",
+     "dis"
+    ],
+    [
      "Dispossession",
      "elc/humanities/history",
      "dis"
@@ -314539,6 +317446,11 @@
     ],
     [
      "discrimination",
+     "elc/humanities/history",
+     "dis"
+    ],
+    [
+     "diseases",
      "elc/humanities/history",
      "dis"
     ],
@@ -314971,6 +317883,23 @@
     ]
    ]
   },
+  "domest|house/home": {
+   "surface": "domest",
+   "meaning": "house/home",
+   "type": "root",
+   "words": [
+    [
+     "domestic",
+     "elc/humanities/general-vocabulary",
+     "domest"
+    ],
+    [
+     "domestic",
+     "elc/humanities/history",
+     "domest"
+    ]
+   ]
+  },
   "domin|rule/control": {
    "surface": "domin",
    "meaning": "rule/control",
@@ -315234,6 +318163,23 @@
     ]
    ]
   },
+  "eas|comfort/ease": {
+   "surface": "eas",
+   "meaning": "comfort/ease",
+   "type": "root",
+   "words": [
+    [
+     "diseases",
+     "elc/humanities/general-vocabulary",
+     "eas"
+    ],
+    [
+     "diseases",
+     "elc/humanities/history",
+     "eas"
+    ]
+   ]
+  },
   "eco|house/environment": {
    "surface": "eco",
    "meaning": "house/environment",
@@ -315326,7 +318272,17 @@
      "edi"
     ],
     [
+     "obedient",
+     "elc/humanities/general-vocabulary",
+     "edi"
+    ],
+    [
      "obedience",
+     "elc/humanities/history",
+     "edi"
+    ],
+    [
+     "obedient",
      "elc/humanities/history",
      "edi"
     ],
@@ -315813,6 +318769,23 @@
      "unemployment",
      "year-9/humanities/economics",
      "employ"
+    ]
+   ]
+  },
+  "empt|take": {
+   "surface": "empt",
+   "meaning": "take",
+   "type": "root",
+   "words": [
+    [
+     "exemption",
+     "elc/humanities/general-vocabulary",
+     "empt"
+    ],
+    [
+     "exemption",
+     "elc/humanities/history",
+     "empt"
     ]
    ]
   },
@@ -316333,12 +319306,22 @@
      "ent"
     ],
     [
+     "obedient",
+     "elc/humanities/general-vocabulary",
+     "ent"
+    ],
+    [
      "Resilient",
      "elc/humanities/history",
      "ent"
     ],
     [
      "Subsequent",
+     "elc/humanities/history",
+     "ent"
+    ],
+    [
+     "obedient",
      "elc/humanities/history",
      "ent"
     ],
@@ -316556,6 +319539,11 @@
     [
      "endurance",
      "elc/humanities/general-vocabulary",
+     "en"
+    ],
+    [
+     "encouraging",
+     "elc/humanities/history",
      "en"
     ],
     [
@@ -317042,6 +320030,16 @@
    "type": "suffix",
    "words": [
     [
+     "diseases",
+     "elc/humanities/general-vocabulary",
+     "es"
+    ],
+    [
+     "diseases",
+     "elc/humanities/history",
+     "es"
+    ],
+    [
      "activities",
      "vce/business-management/unit-1-aos-2",
      "es"
@@ -317216,6 +320214,11 @@
      "ex"
     ],
     [
+     "exemption",
+     "elc/humanities/general-vocabulary",
+     "ex"
+    ],
+    [
      "extinction",
      "elc/humanities/general-vocabulary",
      "ex"
@@ -317227,6 +320230,11 @@
     ],
     [
      "exclusive",
+     "elc/humanities/history",
+     "ex"
+    ],
+    [
+     "exemption",
      "elc/humanities/history",
      "ex"
     ],
@@ -317992,6 +321000,23 @@
     ]
    ]
   },
+  "fen|strike": {
+   "surface": "fen",
+   "meaning": "strike",
+   "type": "root",
+   "words": [
+    [
+     "Capital offence",
+     "elc/humanities/general-vocabulary",
+     "fen"
+    ],
+    [
+     "Capital offence",
+     "elc/humanities/history",
+     "fen"
+    ]
+   ]
+  },
   "fer|carry": {
    "surface": "fer",
    "meaning": "carry",
@@ -318091,6 +321116,16 @@
    "meaning": "make/do",
    "type": "root",
    "words": [
+    [
+     "Significant",
+     "elc/humanities/general-vocabulary",
+     "fic"
+    ],
+    [
+     "Significant",
+     "elc/humanities/history",
+     "fic"
+    ],
     [
      "significance",
      "vce/command-terms/academic-nouns",
@@ -318404,6 +321439,11 @@
     [
      "forming",
      "elc/humanities/history",
+     "form"
+    ],
+    [
+     "platform",
+     "elc/humanities/social-media-ban",
      "form"
     ],
     [
@@ -318776,6 +321816,23 @@
      "engagement",
      "vce/vm-personal-development-skills/unit-2-aos-1",
      "gage"
+    ]
+   ]
+  },
+  "geno|race/kind": {
+   "surface": "geno",
+   "meaning": "race/kind",
+   "type": "root",
+   "words": [
+    [
+     "Cultural genocide",
+     "elc/humanities/general-vocabulary",
+     "geno"
+    ],
+    [
+     "Cultural genocide",
+     "elc/humanities/history",
+     "geno"
     ]
    ]
   },
@@ -319288,6 +322345,16 @@
    "type": "root",
    "words": [
     [
+     "historical perspective",
+     "elc/humanities/general-vocabulary",
+     "histor"
+    ],
+    [
+     "historical perspective",
+     "elc/humanities/history",
+     "histor"
+    ],
+    [
      "historical",
      "vce/accounting/unit-2-aos-1",
      "histor"
@@ -319367,6 +322434,28 @@
      "hydrological",
      "year-7/humanities-civics/water-3-1",
      "hydro"
+    ]
+   ]
+  },
+  "hydr|water": {
+   "surface": "hydr",
+   "meaning": "water",
+   "type": "root",
+   "words": [
+    [
+     "dehydration",
+     "elc/humanities/general-vocabulary",
+     "hydr"
+    ],
+    [
+     "dehydration",
+     "elc/humanities/history",
+     "hydr"
+    ],
+    [
+     "hydration",
+     "vce/chemistry/unit-2-aos-1",
+     "hydr"
     ]
    ]
   },
@@ -319664,6 +322753,21 @@
    "type": "suffix",
    "words": [
     [
+     "historical perspective",
+     "elc/humanities/general-vocabulary",
+     "ical"
+    ],
+    [
+     "historical perspective",
+     "elc/humanities/history",
+     "ical"
+    ],
+    [
+     "clinical trial",
+     "elc/humanities/social-media-ban",
+     "ical"
+    ],
+    [
      "theoretical",
      "vce/accounting/unit-1-aos-1",
      "ical"
@@ -319888,7 +322992,17 @@
    "type": "suffix",
    "words": [
     [
+     "domestic",
+     "elc/humanities/general-vocabulary",
+     "ic"
+    ],
+    [
      "communication",
+     "elc/humanities/history",
+     "ic"
+    ],
+    [
+     "domestic",
      "elc/humanities/history",
      "ic"
     ],
@@ -320643,6 +323757,23 @@
     ]
    ]
   },
+  "imag|likeness/picture": {
+   "surface": "imag",
+   "meaning": "likeness/picture",
+   "type": "root",
+   "words": [
+    [
+     "imagination",
+     "elc/humanities/history",
+     "imag"
+    ],
+    [
+     "imagery",
+     "year-8/english/narrative",
+     "imag"
+    ]
+   ]
+  },
   "immun|exempt/protected": {
    "surface": "immun",
    "meaning": "exempt/protected",
@@ -320920,6 +324051,11 @@
     ],
     [
      "Passing",
+     "elc/humanities/history",
+     "ing"
+    ],
+    [
+     "encouraging",
      "elc/humanities/history",
      "ing"
     ],
@@ -322180,6 +325316,11 @@
      "ion"
     ],
     [
+     "exemption",
+     "elc/humanities/general-vocabulary",
+     "ion"
+    ],
+    [
      "extinction",
      "elc/humanities/general-vocabulary",
      "ion"
@@ -322196,6 +325337,11 @@
     ],
     [
      "Aggression",
+     "elc/humanities/history",
+     "ion"
+    ],
+    [
+     "Ambition",
      "elc/humanities/history",
      "ion"
     ],
@@ -322225,6 +325371,11 @@
      "ion"
     ],
     [
+     "exemption",
+     "elc/humanities/history",
+     "ion"
+    ],
+    [
      "extinction",
      "elc/humanities/history",
      "ion"
@@ -322242,6 +325393,11 @@
     [
      "petition",
      "elc/humanities/history",
+     "ion"
+    ],
+    [
+     "Ambition",
+     "elc/humanities/social-media-ban",
      "ion"
     ],
     [
@@ -323619,7 +326775,17 @@
    "type": "suffix",
    "words": [
     [
+     "civilise",
+     "elc/humanities/general-vocabulary",
+     "ise"
+    ],
+    [
      "apologise",
+     "elc/humanities/history",
+     "ise"
+    ],
+    [
+     "civilise",
      "elc/humanities/history",
      "ise"
     ],
@@ -324072,6 +327238,28 @@
     ]
    ]
   },
+  "ities|states of (plural)": {
+   "surface": "ities",
+   "meaning": "states of (plural)",
+   "type": "suffix",
+   "words": [
+    [
+     "Authorities",
+     "elc/humanities/general-vocabulary",
+     "ities"
+    ],
+    [
+     "authorities",
+     "elc/humanities/history",
+     "ities"
+    ],
+    [
+     "responsibilities",
+     "elc/humanities/history",
+     "ities"
+    ]
+   ]
+  },
   "ition|act/process": {
    "surface": "ition",
    "meaning": "act/process",
@@ -324221,7 +327409,17 @@
      "ity"
     ],
     [
+     "unity",
+     "elc/humanities/history",
+     "ity"
+    ],
+    [
      "authority",
+     "elc/humanities/social-media-ban",
+     "ity"
+    ],
+    [
+     "community standard",
      "elc/humanities/social-media-ban",
      "ity"
     ],
@@ -324679,6 +327877,16 @@
    "type": "suffix",
    "words": [
     [
+     "Ambition",
+     "elc/humanities/history",
+     "it"
+    ],
+    [
+     "Ambition",
+     "elc/humanities/social-media-ban",
+     "it"
+    ],
+    [
      "circuit",
      "elc/science/electricity",
      "it"
@@ -325012,12 +328220,22 @@
      "ive"
     ],
     [
+     "historical perspective",
+     "elc/humanities/general-vocabulary",
+     "ive"
+    ],
+    [
      "progressive",
      "elc/humanities/general-vocabulary",
      "ive"
     ],
     [
      "exclusive",
+     "elc/humanities/history",
+     "ive"
+    ],
+    [
+     "historical perspective",
      "elc/humanities/history",
      "ive"
     ],
@@ -326554,6 +329772,28 @@
     ]
    ]
   },
+  "mand|order/ask for": {
+   "surface": "mand",
+   "meaning": "order/ask for",
+   "type": "root",
+   "words": [
+    [
+     "Commandant",
+     "elc/humanities/general-vocabulary",
+     "mand"
+    ],
+    [
+     "Commandant",
+     "elc/humanities/history",
+     "mand"
+    ],
+    [
+     "demand",
+     "vce/economics/unit-1-aos-2",
+     "mand"
+    ]
+   ]
+  },
   "mater|mother/material": {
    "surface": "mater",
    "meaning": "mother/material",
@@ -326724,6 +329964,11 @@
      "ment"
     ],
     [
+     "mistreatment",
+     "elc/humanities/general-vocabulary",
+     "ment"
+    ],
+    [
      "parliament",
      "elc/humanities/general-vocabulary",
      "ment"
@@ -326745,6 +329990,11 @@
     ],
     [
      "improvement",
+     "elc/humanities/history",
+     "ment"
+    ],
+    [
+     "mistreatment",
      "elc/humanities/history",
      "ment"
     ],
@@ -327409,6 +330659,28 @@
     ]
    ]
   },
+  "mis|wrongly": {
+   "surface": "mis",
+   "meaning": "wrongly",
+   "type": "prefix",
+   "words": [
+    [
+     "mistreatment",
+     "elc/humanities/general-vocabulary",
+     "mis"
+    ],
+    [
+     "mistreatment",
+     "elc/humanities/history",
+     "mis"
+    ],
+    [
+     "misinformation",
+     "vce/philosophy/unit-4-aos-2",
+     "mis"
+    ]
+   ]
+  },
   "mit|send": {
    "surface": "mit",
    "meaning": "send",
@@ -327416,6 +330688,11 @@
    "words": [
     [
      "commitment",
+     "elc/humanities/history",
+     "mit"
+    ],
+    [
+     "observance committee",
      "elc/humanities/history",
      "mit"
     ],
@@ -328396,6 +331673,11 @@
      "ob"
     ],
     [
+     "obedient",
+     "elc/humanities/general-vocabulary",
+     "ob"
+    ],
+    [
      "obtained",
      "elc/humanities/general-vocabulary",
      "ob"
@@ -328406,7 +331688,17 @@
      "ob"
     ],
     [
+     "obedient",
+     "elc/humanities/history",
+     "ob"
+    ],
+    [
      "observance",
+     "elc/humanities/history",
+     "ob"
+    ],
+    [
+     "observance committee",
      "elc/humanities/history",
      "ob"
     ],
@@ -328740,6 +332032,11 @@
    "type": "suffix",
    "words": [
     [
+     "advisory council",
+     "elc/humanities/social-media-ban",
+     "ory"
+    ],
+    [
      "satisfactory completion",
      "vce/command-terms/vce-system",
      "ory"
@@ -328830,6 +332127,11 @@
     [
      "governor",
      "elc/humanities/history",
+     "or"
+    ],
+    [
+     "content creator",
+     "elc/humanities/social-media-ban",
      "or"
     ],
     [
@@ -329671,8 +332973,18 @@
    "type": "prefix",
    "words": [
     [
+     "historical perspective",
+     "elc/humanities/general-vocabulary",
+     "per"
+    ],
+    [
      "perseverance",
      "elc/humanities/general-vocabulary",
+     "per"
+    ],
+    [
+     "historical perspective",
+     "elc/humanities/history",
      "per"
     ],
     [
@@ -330074,6 +333386,11 @@
    "meaning": "flat",
    "type": "root",
    "words": [
+    [
+     "platform",
+     "elc/humanities/social-media-ban",
+     "plat"
+    ],
     [
      "plateau",
      "vce/command-terms/data-graphs",
@@ -332260,6 +335577,11 @@
      "re"
     ],
     [
+     "responsibilities",
+     "elc/humanities/history",
+     "re"
+    ],
+    [
      "responsibility",
      "elc/humanities/history",
      "re"
@@ -332731,6 +336053,11 @@
      "re"
     ],
     [
+     "Retaliation",
+     "elc/humanities/general-vocabulary",
+     "re"
+    ],
+    [
      "resilience",
      "elc/humanities/general-vocabulary",
      "re"
@@ -332762,6 +336089,11 @@
     ],
     [
      "Resisted",
+     "elc/humanities/history",
+     "re"
+    ],
+    [
+     "Retaliation",
      "elc/humanities/history",
      "re"
     ],
@@ -333242,6 +336574,11 @@
      "serv"
     ],
     [
+     "observance committee",
+     "elc/humanities/history",
+     "serv"
+    ],
+    [
      "conservation",
      "elc/science/ecosystems",
      "serv"
@@ -333448,6 +336785,23 @@
      "shortlisting",
      "vce/vm-work-related-skills/unit-2-aos-2",
      "short"
+    ]
+   ]
+  },
+  "signi|mark/meaning": {
+   "surface": "signi",
+   "meaning": "mark/meaning",
+   "type": "root",
+   "words": [
+    [
+     "Significant",
+     "elc/humanities/general-vocabulary",
+     "signi"
+    ],
+    [
+     "Significant",
+     "elc/humanities/history",
+     "signi"
     ]
    ]
   },
@@ -334008,6 +337362,16 @@
    "type": "root",
    "words": [
     [
+     "historical perspective",
+     "elc/humanities/general-vocabulary",
+     "spect"
+    ],
+    [
+     "historical perspective",
+     "elc/humanities/history",
+     "spect"
+    ],
+    [
      "aspect",
      "vce/command-terms/academic-nouns",
      "spect"
@@ -334141,6 +337505,11 @@
    "type": "root",
    "words": [
     [
+     "responsibilities",
+     "elc/humanities/history",
+     "spons"
+    ],
+    [
      "responsibility",
      "elc/humanities/history",
      "spons"
@@ -334162,6 +337531,11 @@
    "meaning": "an accepted norm",
    "type": "root",
    "words": [
+    [
+     "community standard",
+     "elc/humanities/social-media-ban",
+     "standard"
+    ],
     [
      "standardisation",
      "vce/english-language/unit-2-aos-1",
@@ -335175,6 +338549,23 @@
     ]
    ]
   },
+  "tali|such/of that kind": {
+   "surface": "tali",
+   "meaning": "such/of that kind",
+   "type": "root",
+   "words": [
+    [
+     "Retaliation",
+     "elc/humanities/general-vocabulary",
+     "tali"
+    ],
+    [
+     "Retaliation",
+     "elc/humanities/history",
+     "tali"
+    ]
+   ]
+  },
   "taneous|characterised by": {
    "surface": "taneous",
    "meaning": "characterised by",
@@ -335375,6 +338766,23 @@
     ]
    ]
   },
+  "tee|group entrusted with a task": {
+   "surface": "tee",
+   "meaning": "group entrusted with a task",
+   "type": "suffix",
+   "words": [
+    [
+     "observance committee",
+     "elc/humanities/history",
+     "tee"
+    ],
+    [
+     "committee",
+     "vce/legal-studies/unit-4-aos-2",
+     "tee"
+    ]
+   ]
+  },
   "tein|substance": {
    "surface": "tein",
    "meaning": "substance",
@@ -335515,6 +338923,11 @@
     [
      "attention",
      "elc/humanities/history",
+     "tent"
+    ],
+    [
+     "content creator",
+     "elc/humanities/social-media-ban",
      "tent"
     ],
     [
@@ -336493,6 +339906,28 @@
     ]
    ]
   },
+  "treat|to handle or deal with": {
+   "surface": "treat",
+   "meaning": "to handle or deal with",
+   "type": "root",
+   "words": [
+    [
+     "mistreatment",
+     "elc/humanities/general-vocabulary",
+     "treat"
+    ],
+    [
+     "mistreatment",
+     "elc/humanities/history",
+     "treat"
+    ],
+    [
+     "treatment",
+     "vce/music/unit-2-aos-2",
+     "treat"
+    ]
+   ]
+  },
   "trend|direction/general change": {
    "surface": "trend",
    "meaning": "direction/general change",
@@ -337040,6 +340475,11 @@
    "meaning": "one",
    "type": "prefix",
    "words": [
+    [
+     "unity",
+     "elc/humanities/history",
+     "uni"
+    ],
     [
      "universal",
      "vce/biology/unit-3-aos-1",
@@ -337991,6 +341431,11 @@
    "type": "root",
    "words": [
     [
+     "advisory council",
+     "elc/humanities/social-media-ban",
+     "vis"
+    ],
+    [
      "special provision",
      "vce/command-terms/vce-system",
      "vis"
@@ -338114,6 +341559,23 @@
      "ransomware",
      "vce/applied-computing/unit-2-aos-2",
      "ware"
+    ]
+   ]
+  },
+  "well|good/thoroughly": {
+   "surface": "well",
+   "meaning": "good/thoroughly",
+   "type": "root",
+   "words": [
+    [
+     "wellbeing",
+     "elc/humanities/social-media-ban",
+     "well"
+    ],
+    [
+     "wellbeing",
+     "vce/vm-personal-development-skills/unit-4-aos-2",
+     "well"
     ]
    ]
   },
@@ -338520,6 +341982,11 @@
      "unattainable",
      "elc/humanities/social-media-ban",
      "able"
+    ],
+    [
+     "responsibilities",
+     "elc/humanities/history",
+     "ibil"
     ]
    ],
    "extras": [
@@ -339616,6 +343083,11 @@
      "approval",
      "elc/humanities/general-vocabulary",
      "ap"
+    ],
+    [
+     "advisory council",
+     "elc/humanities/social-media-ban",
+     "ad"
     ]
    ],
    "extras": [
@@ -339836,6 +343308,11 @@
     ],
     [
      "heritage",
+     "elc/humanities/general-vocabulary",
+     "age"
+    ],
+    [
+     "courage",
      "elc/humanities/general-vocabulary",
      "age"
     ]
@@ -340798,6 +344275,16 @@
      "national",
      "elc/humanities/general-vocabulary",
      "al"
+    ],
+    [
+     "Cultural genocide",
+     "elc/humanities/history",
+     "al"
+    ],
+    [
+     "Cultural genocide",
+     "elc/humanities/general-vocabulary",
+     "al"
     ]
    ],
    "extras": [
@@ -340805,6 +344292,27 @@
     "coastal",
     "personal",
     "seasonal"
+   ]
+  },
+  "amb|around": {
+   "surface": "amb",
+   "variants": [
+    "amb"
+   ],
+   "type": "prefix",
+   "gloss": "around",
+   "aka": [],
+   "words": [
+    [
+     "Ambition",
+     "elc/humanities/history",
+     "amb"
+    ],
+    [
+     "Ambition",
+     "elc/humanities/social-media-ban",
+     "amb"
+    ]
    ]
   },
   "amin|weigh/test": {
@@ -341160,6 +344668,11 @@
      "perseverance",
      "elc/humanities/general-vocabulary",
      "ance"
+    ],
+    [
+     "observance committee",
+     "elc/humanities/history",
+     "ance"
     ]
    ],
    "extras": [
@@ -341389,9 +344902,40 @@
      "dominant",
      "year-10/biology/build-biology",
      "ant"
+    ],
+    [
+     "Significant",
+     "elc/humanities/history",
+     "ant"
+    ],
+    [
+     "Significant",
+     "elc/humanities/general-vocabulary",
+     "ant"
     ]
    ],
    "extras": []
+  },
+  "ant|one who": {
+   "surface": "ant",
+   "variants": [
+    "ant"
+   ],
+   "type": "suffix",
+   "gloss": "one who",
+   "aka": [],
+   "words": [
+    [
+     "Commandant",
+     "elc/humanities/history",
+     "ant"
+    ],
+    [
+     "Commandant",
+     "elc/humanities/general-vocabulary",
+     "ant"
+    ]
+   ]
   },
   "ant|thing that (makes a noun)": {
    "surface": "ant",
@@ -343723,6 +347267,31 @@
      "reconciliation",
      "elc/humanities/general-vocabulary",
      "ation"
+    ],
+    [
+     "imagination",
+     "elc/humanities/history",
+     "ation"
+    ],
+    [
+     "dehydration",
+     "elc/humanities/history",
+     "ation"
+    ],
+    [
+     "Retaliation",
+     "elc/humanities/history",
+     "ation"
+    ],
+    [
+     "Retaliation",
+     "elc/humanities/general-vocabulary",
+     "ation"
+    ],
+    [
+     "dehydration",
+     "elc/humanities/general-vocabulary",
+     "ation"
     ]
    ],
    "extras": [
@@ -344603,6 +348172,16 @@
      "authority",
      "elc/humanities/social-media-ban",
      "author"
+    ],
+    [
+     "authorities",
+     "elc/humanities/history",
+     "author"
+    ],
+    [
+     "Authorities",
+     "elc/humanities/general-vocabulary",
+     "author"
     ]
    ],
    "extras": []
@@ -345079,6 +348658,11 @@
     [
      "wellbeing",
      "vce/health/unit-2-aos-1",
+     "being"
+    ],
+    [
+     "wellbeing",
+     "elc/humanities/social-media-ban",
      "being"
     ]
    ],
@@ -345726,6 +349310,27 @@
     ]
    ],
    "extras": []
+  },
+  "capital|head/chief": {
+   "surface": "capital",
+   "variants": [
+    "capital"
+   ],
+   "type": "root",
+   "gloss": "head/chief",
+   "aka": [],
+   "words": [
+    [
+     "Capital offence",
+     "elc/humanities/history",
+     "capital"
+    ],
+    [
+     "Capital offence",
+     "elc/humanities/general-vocabulary",
+     "capital"
+    ]
+   ]
   },
   "capital|wealth used to produce more wealth": {
    "surface": "capital",
@@ -346819,6 +350424,27 @@
     "chronicle"
    ]
   },
+  "cide|kill": {
+   "surface": "cide",
+   "variants": [
+    "cide"
+   ],
+   "type": "root",
+   "gloss": "kill",
+   "aka": [],
+   "words": [
+    [
+     "Cultural genocide",
+     "elc/humanities/history",
+     "cide"
+    ],
+    [
+     "Cultural genocide",
+     "elc/humanities/general-vocabulary",
+     "cide"
+    ]
+   ]
+  },
   "cient|having quality": {
    "surface": "cient",
    "variants": [
@@ -347132,6 +350758,27 @@
     ]
    ]
   },
+  "civil|citizen/city": {
+   "surface": "civil",
+   "variants": [
+    "civil"
+   ],
+   "type": "root",
+   "gloss": "citizen/city",
+   "aka": [],
+   "words": [
+    [
+     "civilise",
+     "elc/humanities/history",
+     "civil"
+    ],
+    [
+     "civilise",
+     "elc/humanities/general-vocabulary",
+     "civil"
+    ]
+   ]
+  },
   "ci|decide": {
    "surface": "ci",
    "variants": [
@@ -347263,6 +350910,11 @@
     [
      "decline",
      "vce/command-terms/data-graphs",
+     "clin"
+    ],
+    [
+     "clinical trial",
+     "elc/humanities/social-media-ban",
      "clin"
     ]
    ]
@@ -347684,6 +351336,11 @@
     [
      "communication",
      "elc/humanities/history",
+     "commun"
+    ],
+    [
+     "community standard",
+     "elc/humanities/social-media-ban",
      "commun"
     ]
    ],
@@ -349286,6 +352943,26 @@
      "contemplation",
      "elc/humanities/general-vocabulary",
      "con"
+    ],
+    [
+     "Commandant",
+     "elc/humanities/history",
+     "com"
+    ],
+    [
+     "observance committee",
+     "elc/humanities/history",
+     "com"
+    ],
+    [
+     "content creator",
+     "elc/humanities/social-media-ban",
+     "con"
+    ],
+    [
+     "Commandant",
+     "elc/humanities/general-vocabulary",
+     "com"
     ]
    ],
    "extras": [
@@ -349476,6 +353153,11 @@
      "council grants",
      "vce/business-management/unit-1-aos-1",
      "council"
+    ],
+    [
+     "advisory council",
+     "elc/humanities/social-media-ban",
+     "council"
     ]
    ],
    "extras": []
@@ -349537,6 +353219,27 @@
     ]
    ],
    "extras": []
+  },
+  "cour|heart": {
+   "surface": "cour",
+   "variants": [
+    "cour"
+   ],
+   "type": "root",
+   "gloss": "heart",
+   "aka": [],
+   "words": [
+    [
+     "encouraging",
+     "elc/humanities/history",
+     "cour"
+    ],
+    [
+     "courage",
+     "elc/humanities/general-vocabulary",
+     "cour"
+    ]
+   ]
   },
   "cracy|rule by": {
    "surface": "cracy",
@@ -349606,6 +353309,11 @@
     [
      "recreation",
      "year-7/humanities-civics/water-2-1",
+     "creat"
+    ],
+    [
+     "content creator",
+     "elc/humanities/social-media-ban",
      "creat"
     ]
    ],
@@ -349887,6 +353595,16 @@
     [
      "sociocultural",
      "vce/food-studies/unit-4-aos-2",
+     "cultur"
+    ],
+    [
+     "Cultural genocide",
+     "elc/humanities/history",
+     "cultur"
+    ],
+    [
+     "Cultural genocide",
+     "elc/humanities/general-vocabulary",
      "cultur"
     ]
    ],
@@ -350880,6 +354598,16 @@
      "determination",
      "elc/humanities/general-vocabulary",
      "de"
+    ],
+    [
+     "dehydration",
+     "elc/humanities/history",
+     "de"
+    ],
+    [
+     "dehydration",
+     "elc/humanities/general-vocabulary",
+     "de"
     ]
    ],
    "extras": [
@@ -351622,6 +355350,16 @@
      "Dispossession",
      "elc/humanities/general-vocabulary",
      "dis"
+    ],
+    [
+     "diseases",
+     "elc/humanities/history",
+     "dis"
+    ],
+    [
+     "diseases",
+     "elc/humanities/general-vocabulary",
+     "dis"
     ]
    ],
    "extras": [
@@ -351914,6 +355652,27 @@
     "doctrine",
     "docile",
     "indoctrinate"
+   ]
+  },
+  "domest|house/home": {
+   "surface": "domest",
+   "variants": [
+    "domest"
+   ],
+   "type": "root",
+   "gloss": "house/home",
+   "aka": [],
+   "words": [
+    [
+     "domestic",
+     "elc/humanities/history",
+     "domest"
+    ],
+    [
+     "domestic",
+     "elc/humanities/general-vocabulary",
+     "domest"
+    ]
    ]
   },
   "domin|master/rule": {
@@ -352420,6 +356179,27 @@
    ],
    "extras": []
   },
+  "eas|comfort/ease": {
+   "surface": "eas",
+   "variants": [
+    "eas"
+   ],
+   "type": "root",
+   "gloss": "comfort/ease",
+   "aka": [],
+   "words": [
+    [
+     "diseases",
+     "elc/humanities/history",
+     "eas"
+    ],
+    [
+     "diseases",
+     "elc/humanities/general-vocabulary",
+     "eas"
+    ]
+   ]
+  },
   "economic|relating to money and resources": {
    "surface": "economic",
    "variants": [
@@ -352582,6 +356362,16 @@
     ],
     [
      "obedience",
+     "elc/humanities/general-vocabulary",
+     "edi"
+    ],
+    [
+     "obedient",
+     "elc/humanities/history",
+     "edi"
+    ],
+    [
+     "obedient",
      "elc/humanities/general-vocabulary",
      "edi"
     ]
@@ -353341,6 +357131,27 @@
      "exemplify",
      "vce/command-terms/exam-instructions",
      "empl"
+    ]
+   ]
+  },
+  "empt|take": {
+   "surface": "empt",
+   "variants": [
+    "empt"
+   ],
+   "type": "root",
+   "gloss": "take",
+   "aka": [],
+   "words": [
+    [
+     "exemption",
+     "elc/humanities/history",
+     "empt"
+    ],
+    [
+     "exemption",
+     "elc/humanities/general-vocabulary",
+     "empt"
     ]
    ]
   },
@@ -354190,6 +358001,16 @@
      "Subsequent",
      "elc/humanities/general-vocabulary",
      "ent"
+    ],
+    [
+     "obedient",
+     "elc/humanities/history",
+     "ent"
+    ],
+    [
+     "obedient",
+     "elc/humanities/general-vocabulary",
+     "ent"
     ]
    ],
    "extras": [
@@ -354459,6 +358280,11 @@
     [
      "endurance",
      "elc/humanities/general-vocabulary",
+     "en"
+    ],
+    [
+     "encouraging",
+     "elc/humanities/history",
      "en"
     ]
    ],
@@ -355162,6 +358988,16 @@
     [
      "vaccines",
      "year-9/science/fighting-infections",
+     "es"
+    ],
+    [
+     "diseases",
+     "elc/humanities/history",
+     "es"
+    ],
+    [
+     "diseases",
+     "elc/humanities/general-vocabulary",
      "es"
     ]
    ],
@@ -356039,6 +359875,16 @@
      "exclusion",
      "elc/humanities/general-vocabulary",
      "ex"
+    ],
+    [
+     "exemption",
+     "elc/humanities/history",
+     "ex"
+    ],
+    [
+     "exemption",
+     "elc/humanities/general-vocabulary",
+     "ex"
     ]
    ],
    "extras": [
@@ -356480,6 +360326,16 @@
      "factorisation",
      "elc/mathematics/algebra",
      "fact"
+    ],
+    [
+     "Significant",
+     "elc/humanities/history",
+     "fic"
+    ],
+    [
+     "Significant",
+     "elc/humanities/general-vocabulary",
+     "fic"
     ]
    ],
    "extras": [
@@ -356628,6 +360484,27 @@
     "offend",
     "fender",
     "offensive"
+   ]
+  },
+  "fen|strike": {
+   "surface": "fen",
+   "variants": [
+    "fen"
+   ],
+   "type": "root",
+   "gloss": "strike",
+   "aka": [],
+   "words": [
+    [
+     "Capital offence",
+     "elc/humanities/history",
+     "fen"
+    ],
+    [
+     "Capital offence",
+     "elc/humanities/general-vocabulary",
+     "fen"
+    ]
    ]
   },
   "fertil|able to reproduce": {
@@ -357650,6 +361527,11 @@
      "forming",
      "elc/humanities/general-vocabulary",
      "form"
+    ],
+    [
+     "platform",
+     "elc/humanities/social-media-ban",
+     "form"
     ]
    ],
    "extras": [
@@ -358159,6 +362041,27 @@
     ]
    ],
    "extras": []
+  },
+  "geno|race/kind": {
+   "surface": "geno",
+   "variants": [
+    "geno"
+   ],
+   "type": "root",
+   "gloss": "race/kind",
+   "aka": [],
+   "words": [
+    [
+     "Cultural genocide",
+     "elc/humanities/history",
+     "geno"
+    ],
+    [
+     "Cultural genocide",
+     "elc/humanities/general-vocabulary",
+     "geno"
+    ]
+   ]
   },
   "gen|born": {
    "surface": "gen",
@@ -359371,6 +363274,16 @@
      "historical",
      "year-8/humanities/shogun",
      "histor"
+    ],
+    [
+     "historical perspective",
+     "elc/humanities/history",
+     "histor"
+    ],
+    [
+     "historical perspective",
+     "elc/humanities/general-vocabulary",
+     "histor"
     ]
    ],
    "extras": []
@@ -359628,6 +363541,16 @@
      "hydrological",
      "year-7/humanities-civics/water-3-1",
      "hydro"
+    ],
+    [
+     "dehydration",
+     "elc/humanities/history",
+     "hydr"
+    ],
+    [
+     "dehydration",
+     "elc/humanities/general-vocabulary",
+     "hydr"
     ]
    ],
    "extras": [
@@ -360202,6 +364125,21 @@
     [
      "biological",
      "year-7/humanities-civics/water-3-1",
+     "ical"
+    ],
+    [
+     "historical perspective",
+     "elc/humanities/history",
+     "ical"
+    ],
+    [
+     "clinical trial",
+     "elc/humanities/social-media-ban",
+     "ical"
+    ],
+    [
+     "historical perspective",
+     "elc/humanities/general-vocabulary",
      "ical"
     ]
    ],
@@ -360853,6 +364791,16 @@
     [
      "symbolic",
      "elc/humanities/history",
+     "ic"
+    ],
+    [
+     "domestic",
+     "elc/humanities/history",
+     "ic"
+    ],
+    [
+     "domestic",
+     "elc/humanities/general-vocabulary",
      "ic"
     ]
    ],
@@ -361577,6 +365525,11 @@
      "imagery",
      "year-8/english/narrative",
      "imag"
+    ],
+    [
+     "imagination",
+     "elc/humanities/history",
+     "imag"
     ]
    ],
    "extras": []
@@ -362053,6 +366006,11 @@
     [
      "tracking",
      "elc/humanities/general-vocabulary",
+     "ing"
+    ],
+    [
+     "encouraging",
+     "elc/humanities/history",
      "ing"
     ]
    ],
@@ -364756,6 +368714,26 @@
      "institution",
      "elc/humanities/general-vocabulary",
      "ion"
+    ],
+    [
+     "exemption",
+     "elc/humanities/history",
+     "ion"
+    ],
+    [
+     "Ambition",
+     "elc/humanities/history",
+     "ion"
+    ],
+    [
+     "Ambition",
+     "elc/humanities/social-media-ban",
+     "ion"
+    ],
+    [
+     "exemption",
+     "elc/humanities/general-vocabulary",
+     "ion"
     ]
    ],
    "extras": [
@@ -365213,6 +369191,16 @@
     [
      "apologise",
      "elc/humanities/history",
+     "ise"
+    ],
+    [
+     "civilise",
+     "elc/humanities/history",
+     "ise"
+    ],
+    [
+     "civilise",
+     "elc/humanities/general-vocabulary",
      "ise"
     ]
    ],
@@ -366011,6 +369999,32 @@
    ],
    "extras": []
   },
+  "ities|states of (plural)": {
+   "surface": "ities",
+   "variants": [
+    "ities"
+   ],
+   "type": "suffix",
+   "gloss": "states of (plural)",
+   "aka": [],
+   "words": [
+    [
+     "responsibilities",
+     "elc/humanities/history",
+     "ities"
+    ],
+    [
+     "authorities",
+     "elc/humanities/history",
+     "ities"
+    ],
+    [
+     "Authorities",
+     "elc/humanities/general-vocabulary",
+     "ities"
+    ]
+   ]
+  },
   "ition|act/process": {
    "surface": "ition",
    "variants": [
@@ -366671,6 +370685,16 @@
      "identity",
      "elc/humanities/general-vocabulary",
      "ity"
+    ],
+    [
+     "unity",
+     "elc/humanities/history",
+     "ity"
+    ],
+    [
+     "community standard",
+     "elc/humanities/social-media-ban",
+     "ity"
     ]
    ],
    "extras": [
@@ -366755,6 +370779,16 @@
     [
      "circuit",
      "elc/science/electricity",
+     "it"
+    ],
+    [
+     "Ambition",
+     "elc/humanities/history",
+     "it"
+    ],
+    [
+     "Ambition",
+     "elc/humanities/social-media-ban",
      "it"
     ]
    ],
@@ -367288,6 +371322,16 @@
     ],
     [
      "progressive",
+     "elc/humanities/general-vocabulary",
+     "ive"
+    ],
+    [
+     "historical perspective",
+     "elc/humanities/history",
+     "ive"
+    ],
+    [
+     "historical perspective",
      "elc/humanities/general-vocabulary",
      "ive"
     ]
@@ -370012,6 +374056,16 @@
      "demand",
      "vce/economics/unit-1-aos-2",
      "mand"
+    ],
+    [
+     "Commandant",
+     "elc/humanities/history",
+     "mand"
+    ],
+    [
+     "Commandant",
+     "elc/humanities/general-vocabulary",
+     "mand"
     ]
    ],
    "extras": []
@@ -370791,6 +374845,16 @@
      "parliament",
      "elc/humanities/general-vocabulary",
      "ment"
+    ],
+    [
+     "mistreatment",
+     "elc/humanities/history",
+     "ment"
+    ],
+    [
+     "mistreatment",
+     "elc/humanities/general-vocabulary",
+     "ment"
     ]
    ],
    "extras": [
@@ -371541,6 +375605,16 @@
      "misshapen",
      "vce/eal/extra-vocab",
      "mis"
+    ],
+    [
+     "mistreatment",
+     "elc/humanities/history",
+     "mis"
+    ],
+    [
+     "mistreatment",
+     "elc/humanities/general-vocabulary",
+     "mis"
     ]
    ],
    "extras": [
@@ -371647,6 +375721,11 @@
      "Mission",
      "elc/humanities/general-vocabulary",
      "miss"
+    ],
+    [
+     "observance committee",
+     "elc/humanities/history",
+     "mit"
     ]
    ],
    "extras": [
@@ -373617,6 +377696,21 @@
      "obedience",
      "elc/humanities/general-vocabulary",
      "ob"
+    ],
+    [
+     "obedient",
+     "elc/humanities/history",
+     "ob"
+    ],
+    [
+     "observance committee",
+     "elc/humanities/history",
+     "ob"
+    ],
+    [
+     "obedient",
+     "elc/humanities/general-vocabulary",
+     "ob"
     ]
    ],
    "extras": [
@@ -374329,6 +378423,11 @@
      "sensory",
      "year-7/english/narrative",
      "ory"
+    ],
+    [
+     "advisory council",
+     "elc/humanities/social-media-ban",
+     "ory"
     ]
    ],
    "extras": []
@@ -374560,6 +378659,11 @@
     [
      "governor",
      "elc/humanities/general-vocabulary",
+     "or"
+    ],
+    [
+     "content creator",
+     "elc/humanities/social-media-ban",
      "or"
     ]
    ],
@@ -376262,6 +380366,16 @@
      "perseverance",
      "elc/humanities/general-vocabulary",
      "per"
+    ],
+    [
+     "historical perspective",
+     "elc/humanities/history",
+     "per"
+    ],
+    [
+     "historical perspective",
+     "elc/humanities/general-vocabulary",
+     "per"
     ]
    ],
    "extras": [
@@ -377109,6 +381223,11 @@
     [
      "plateau",
      "year-7/humanities-civics/geography-landforms",
+     "plat"
+    ],
+    [
+     "platform",
+     "elc/humanities/social-media-ban",
      "plat"
     ]
    ]
@@ -381226,6 +385345,11 @@
      "reconciliation",
      "elc/humanities/general-vocabulary",
      "re"
+    ],
+    [
+     "responsibilities",
+     "elc/humanities/history",
+     "re"
     ]
    ],
    "extras": [
@@ -381538,6 +385662,16 @@
     ],
     [
      "resilience",
+     "elc/humanities/general-vocabulary",
+     "re"
+    ],
+    [
+     "Retaliation",
+     "elc/humanities/history",
+     "re"
+    ],
+    [
+     "Retaliation",
      "elc/humanities/general-vocabulary",
      "re"
     ]
@@ -382719,6 +386853,11 @@
      "observance",
      "elc/humanities/history",
      "serv"
+    ],
+    [
+     "observance committee",
+     "elc/humanities/history",
+     "serv"
     ]
    ],
    "extras": [
@@ -383167,6 +387306,16 @@
      "significance",
      "year-7/humanities-civics/history-china",
      "sign"
+    ],
+    [
+     "Significant",
+     "elc/humanities/history",
+     "signi"
+    ],
+    [
+     "Significant",
+     "elc/humanities/general-vocabulary",
+     "signi"
     ]
    ],
    "extras": []
@@ -384195,6 +388344,16 @@
      "perspective",
      "year-7/humanities-civics/history-china",
      "spect"
+    ],
+    [
+     "historical perspective",
+     "elc/humanities/history",
+     "spect"
+    ],
+    [
+     "historical perspective",
+     "elc/humanities/general-vocabulary",
+     "spect"
     ]
    ],
    "extras": [
@@ -384385,6 +388544,11 @@
      "responsibility",
      "elc/humanities/history",
      "spons"
+    ],
+    [
+     "responsibilities",
+     "elc/humanities/history",
+     "spons"
     ]
    ],
    "extras": [
@@ -384492,6 +388656,11 @@
     [
      "standardised",
      "vce/physical-education/unit-4-aos-1",
+     "standard"
+    ],
+    [
+     "community standard",
+     "elc/humanities/social-media-ban",
      "standard"
     ]
    ],
@@ -386373,6 +390542,27 @@
    ],
    "extras": []
   },
+  "tali|such/of that kind": {
+   "surface": "tali",
+   "variants": [
+    "tali"
+   ],
+   "type": "root",
+   "gloss": "such/of that kind",
+   "aka": [],
+   "words": [
+    [
+     "Retaliation",
+     "elc/humanities/history",
+     "tali"
+    ],
+    [
+     "Retaliation",
+     "elc/humanities/general-vocabulary",
+     "tali"
+    ]
+   ]
+  },
   "tamin|touch/infect": {
    "surface": "tamin",
    "variants": [
@@ -386785,6 +390975,11 @@
      "committee",
      "vce/legal-studies/unit-4-aos-2",
      "tee"
+    ],
+    [
+     "observance committee",
+     "elc/humanities/history",
+     "tee"
     ]
    ],
    "extras": []
@@ -387160,6 +391355,11 @@
      "obtained",
      "elc/humanities/general-vocabulary",
      "tain"
+    ],
+    [
+     "content creator",
+     "elc/humanities/social-media-ban",
+     "tent"
     ]
    ],
    "extras": [
@@ -388730,6 +392930,16 @@
      "treatment",
      "vce/music/unit-2-aos-2",
      "treat"
+    ],
+    [
+     "mistreatment",
+     "elc/humanities/history",
+     "treat"
+    ],
+    [
+     "mistreatment",
+     "elc/humanities/general-vocabulary",
+     "treat"
     ]
    ],
    "extras": []
@@ -389805,6 +394015,11 @@
     [
      "unify",
      "year-7/humanities-civics/history-china",
+     "uni"
+    ],
+    [
+     "unity",
+     "elc/humanities/history",
      "uni"
     ]
    ],
@@ -391470,6 +395685,11 @@
      "evidence",
      "year-7/humanities-civics/source-analysis",
      "vid"
+    ],
+    [
+     "advisory council",
+     "elc/humanities/social-media-ban",
+     "vis"
     ]
    ],
    "extras": [
@@ -391820,6 +396040,11 @@
     [
      "wellbeing",
      "vce/health/unit-2-aos-1",
+     "well"
+    ],
+    [
+     "wellbeing",
+     "elc/humanities/social-media-ban",
      "well"
     ]
    ],
