@@ -325765,7 +325765,20 @@
           "zh-Hans": "下定决心的 (xiàdìng juéxīn de)",
           "fa": "مصمم (mosammam)",
           "vi": "kiên quyết",
-          "zh-Hant": "下定決心的 (xiàdìng juéxīn de)"
+          "zh-Hant": "下定決心的 (xiàdìng juéxīn de)",
+          "am": "ቁርጠኝነት ያለው",
+          "ar": "مصمم (عازم)",
+          "es": "decidido (determinado)",
+          "fr": "déterminé",
+          "hi": "दृढ़ निश्चयी",
+          "ko": "결연한(결심한)",
+          "ml": "ദൃഢനിശ്ചയമുള്ള",
+          "ps": "ټینګ عزم لرونکی",
+          "ro": "hotărât",
+          "ru": "решительный",
+          "ta": "உறுதியான",
+          "tl": "determinado",
+          "ur": "پرعزم"
          }
         },
         {
@@ -325780,7 +325793,20 @@
           "zh-Hans": "尤其 (yóuqí)",
           "fa": "به‌ویژه (be-vije)",
           "vi": "đặc biệt",
-          "zh-Hant": "尤其 (yóuqí)"
+          "zh-Hant": "尤其 (yóuqí)",
+          "am": "በተለይ",
+          "ar": "خاصة",
+          "es": "especialmente",
+          "fr": "spécialement",
+          "hi": "विशेष रूप से",
+          "ko": "특히",
+          "ml": "പ്രത്യേകിച്ചും",
+          "ps": "په ځانګړي توګه",
+          "ro": "mai ales",
+          "ru": "особенно",
+          "ta": "குறிப்பாக",
+          "tl": "lalo na (especially)",
+          "ur": "خاص طور پر"
          }
         },
         {
@@ -325846,7 +325872,20 @@
           "zh-Hans": "联邦化 (liánbāng huà)",
           "fa": "فدراسیون کردن / متحد کردن (federāsyun kardan / mottahed kardan)",
           "vi": "liên bang hóa",
-          "zh-Hant": "聯邦化 (liánbāng huà)"
+          "zh-Hant": "聯邦化 (liánbāng huà)",
+          "am": "ማዋሃድ (ፌዴሬሽን መመስረት)",
+          "ar": "يتحد فيدراليًا",
+          "es": "federar",
+          "fr": "fédérer",
+          "hi": "संघबद्ध करना",
+          "ko": "연방화하다",
+          "ml": "ഫെഡറൽ ആയി ഒന്നിക്കുക",
+          "ps": "فدرالي کول",
+          "ro": "a federaliza",
+          "ru": "объединять в федерацию",
+          "ta": "கூட்டமைப்பாக்கு",
+          "tl": "pagsamahin sa pederasyon (federate)",
+          "ur": "وفاقی طور پر متحد کرنا"
          }
         },
         {
@@ -325912,7 +325951,20 @@
           "zh-Hans": "联邦 (liánbāng)",
           "fa": "فدراسیون (federāsiyon)",
           "vi": "liên bang",
-          "zh-Hant": "聯邦 (liánbāng)"
+          "zh-Hant": "聯邦 (liánbāng)",
+          "am": "ፌዴሬሽን",
+          "ar": "الاتحاد الفيدرالي",
+          "es": "Federación",
+          "fr": "Fédération",
+          "hi": "संघ (फेडरेशन)",
+          "ko": "연방(연맹)",
+          "ml": "ഫെഡറേഷൻ",
+          "ps": "فدراسیون",
+          "ro": "Federație",
+          "ru": "Федерация",
+          "ta": "கூட்டமைப்பு",
+          "tl": "Federation",
+          "ur": "وفاق"
          }
         },
         {
@@ -325978,7 +326030,20 @@
           "zh-Hans": "比喻地 (bǐyù de)",
           "fa": "به‌صورت مجازی (be-surat-e majāzī)",
           "vi": "nghĩa bóng",
-          "zh-Hant": "比喻地 (bǐyù de)"
+          "zh-Hant": "比喻地 (bǐyù de)",
+          "am": "በምሳሌያዊ አነጋገር",
+          "ar": "مجازيًا",
+          "es": "figuradamente",
+          "fr": "au sens figuré",
+          "hi": "लाक्षणिक रूप से",
+          "ko": "비유적으로",
+          "ml": "ആലങ്കാരികമായി",
+          "ps": "استعاري توګه",
+          "ro": "figurat (metaforic)",
+          "ru": "образно (в переносном смысле)",
+          "ta": "உருவகமாக",
+          "tl": "sa metaporikal na paraan (figuratively)",
+          "ur": "استعاراتی طور پر"
          }
         },
         {
@@ -325993,7 +326058,20 @@
           "zh-Hans": "挫折感 (zuózhé gǎn) / 失望 (shīwàng)",
           "fa": "ناکامی / سرخوردگی (nākāmī / sarkhordegī)",
           "vi": "sự thất vọng",
-          "zh-Hant": "挫折感 (zuózhé gǎn) / 失望 (shīwàng)"
+          "zh-Hant": "挫折感 (zuózhé gǎn) / 失望 (shīwàng)",
+          "am": "ብስጭቶች",
+          "ar": "الإحباطات",
+          "es": "frustraciones",
+          "fr": "frustrations",
+          "hi": "निराशाएं",
+          "ko": "좌절감",
+          "ml": "നിരാശകൾ",
+          "ps": "خفګانونه",
+          "ro": "frustrări",
+          "ru": "разочарования (фрустрации)",
+          "ta": "விரக்திகள்",
+          "tl": "mga kabiguan (frustrations)",
+          "ur": "مایوسیاں"
          }
         },
         {
@@ -326008,7 +326086,20 @@
           "zh-Hans": "狂怒 (kuángnù) / 激怒者 (jīnù zhě)",
           "fa": "خشم (khashm)",
           "vi": "cơn thịnh nộ",
-          "zh-Hant": "狂怒 (kuángnù) / 激怒者 (jīnù zhě)"
+          "zh-Hant": "狂怒 (kuángnù) / 激怒者 (jīnù zhě)",
+          "am": "ቁጣ (ንዴት)",
+          "ar": "الغضب الشديد",
+          "es": "furia",
+          "fr": "fureur",
+          "hi": "क्रोध (क्रोधाग्नि)",
+          "ko": "격노",
+          "ml": "കോപം",
+          "ps": "سخته غوسه",
+          "ro": "furie",
+          "ru": "ярость",
+          "ta": "கடும் கோபம்",
+          "tl": "matinding galit (fury)",
+          "ur": "طیش"
          }
         },
         {
@@ -326023,7 +326114,20 @@
           "zh-Hans": "贪婪 (tānlán)",
           "fa": "حرص (hers)",
           "vi": "lòng tham",
-          "zh-Hant": "貪婪 (tānlán)"
+          "zh-Hant": "貪婪 (tānlán)",
+          "am": "ስስት (ጉጉት)",
+          "ar": "الجشع",
+          "es": "codicia",
+          "fr": "avidité (cupidité)",
+          "hi": "लालच",
+          "ko": "탐욕",
+          "ml": "അത്യാഗ്രഹം",
+          "ps": "شراره حرص",
+          "ro": "lăcomie",
+          "ru": "жадность",
+          "ta": "பேராசை",
+          "tl": "kasakiman (greed)",
+          "ur": "لالچ"
          }
         },
         {
@@ -326164,7 +326268,20 @@
           "zh-Hans": "历史视角 (lìshǐ shìjiǎo)",
           "fa": "دیدگاه تاریخی (didgāh-e tārīkhī)",
           "vi": "góc nhìn lịch sử",
-          "zh-Hant": "歷史視角 (lìshǐ shìjiǎo)"
+          "zh-Hant": "歷史視角 (lìshǐ shìjiǎo)",
+          "am": "ታሪካዊ አመለካከት",
+          "ar": "المنظور التاريخي",
+          "es": "perspectiva histórica",
+          "fr": "perspective historique",
+          "hi": "ऐतिहासिक दृष्टिकोण",
+          "ko": "역사적 관점",
+          "ml": "ചരിത്രപരമായ വീക്ഷണം",
+          "ps": "تاریخي لید لوری",
+          "ro": "perspectivă istorică",
+          "ru": "исторический взгляд",
+          "ta": "வரலாற்றுப் பார்வை",
+          "tl": "makasaysayang pananaw (historical perspective)",
+          "ur": "تاریخی نقطہ نظر"
          }
         },
         {
@@ -326179,7 +326296,20 @@
           "zh-Hans": "海事的 (hǎishì de)",
           "fa": "دریایی (daryā’ī)",
           "vi": "hàng hải",
-          "zh-Hant": "海事的 (hǎishì de)"
+          "zh-Hant": "海事的 (hǎishì de)",
+          "am": "የባህር ላይ (ውቅያኖሳዊ)",
+          "ar": "البحري",
+          "es": "marítimo",
+          "fr": "maritime",
+          "hi": "समुद्री",
+          "ko": "해양의(해상의)",
+          "ml": "സമുദ്രസംബന്ധിയായ",
+          "ps": "بحري",
+          "ro": "maritim",
+          "ru": "морской",
+          "ta": "கடல்சார்ந்த",
+          "tl": "pandagat (maritime)",
+          "ur": "بحری"
          }
         },
         {
@@ -326273,7 +326403,20 @@
           "zh-Hans": "占领 (zhànlǐng)",
           "fa": "اشغال کردن (eshghāl kardan)",
           "vi": "chiếm giữ",
-          "zh-Hant": "佔領 (zhànlǐng)"
+          "zh-Hant": "佔領 (zhànlǐng)",
+          "am": "መያዝ (መቆጣጠር)",
+          "ar": "يحتل",
+          "es": "ocupar",
+          "fr": "occuper",
+          "hi": "अधिकृत करना (कब्ज़ा करना)",
+          "ko": "점령하다(차지하다)",
+          "ml": "കൈവശപ്പെടുത്തുക",
+          "ps": "نیول",
+          "ro": "a ocupa",
+          "ru": "занимать (оккупировать)",
+          "ta": "ஆக்கிரமி",
+          "tl": "sakupin (occupy)",
+          "ur": "قبضہ کرنا"
          }
         },
         {
@@ -326288,7 +326431,20 @@
           "zh-Hans": "使困惑 (shǐ kùnhuò)",
           "fa": "گیج می‌کند (gij mikonad)",
           "vi": "làm bối rối",
-          "zh-Hant": "使困惑 (shǐ kùnhuò)"
+          "zh-Hant": "使困惑 (shǐ kùnhuò)",
+          "am": "ግራ ያጋባል",
+          "ar": "يحيّر",
+          "es": "desconcierta",
+          "fr": "déconcerte",
+          "hi": "उलझन में डालता है",
+          "ko": "당혹시킨다",
+          "ml": "കുഴപ്പിക്കുന്നു",
+          "ps": "حیرانوي",
+          "ro": "derutează",
+          "ru": "озадачивает",
+          "ta": "குழப்புகிறது",
+          "tl": "nakakalito (perplexes)",
+          "ur": "الجھن میں ڈالتا ہے"
          }
         },
         {
@@ -326303,7 +326459,20 @@
           "zh-Hans": "宣布 (xuānbù)",
           "fa": "اعلام کرد (e‘lām kard)",
           "vi": "tuyên bố",
-          "zh-Hant": "宣佈 (xuānbù)"
+          "zh-Hant": "宣佈 (xuānbù)",
+          "am": "አወጀ",
+          "ar": "أعلن (نادى بـ)",
+          "es": "proclamó",
+          "fr": "proclama",
+          "hi": "घोषित किया",
+          "ko": "선포했다",
+          "ml": "പ്രഖ്യാപിച്ചു",
+          "ps": "اعلان یې وکړ",
+          "ro": "a proclamat",
+          "ru": "провозгласил",
+          "ta": "பிரகடனம் செய்தார்",
+          "tl": "ipinahayag (proclaimed)",
+          "ur": "اعلان کیا"
          }
         },
         {
@@ -326318,7 +326487,20 @@
           "zh-Hans": "利润 (lìrùn)",
           "fa": "سود (sūd)",
           "vi": "lợi nhuận",
-          "zh-Hant": "利潤 (lìrùn)"
+          "zh-Hant": "利潤 (lìrùn)",
+          "am": "ትርፍ (ትርፎች)",
+          "ar": "الأرباح",
+          "es": "ganancias",
+          "fr": "profits",
+          "hi": "मुनाफा",
+          "ko": "이윤(수익)",
+          "ml": "ലാഭങ്ങൾ",
+          "ps": "ګټې",
+          "ro": "profituri",
+          "ru": "прибыли",
+          "ta": "இலாபங்கள்",
+          "tl": "kita (profits)",
+          "ur": "منافع"
          }
         },
         {
@@ -326333,7 +326515,20 @@
           "zh-Hans": "肆意猜测 (sìyì cāicè)",
           "fa": "گمانه‌زنی گسترده (gomānezanī gostarde)",
           "vi": "đầu cơ tràn lan",
-          "zh-Hant": "肆意猜測 (sìyì cāicè)"
+          "zh-Hant": "肆意猜測 (sìyì cāicè)",
+          "am": "ያልተገራ ግምት (ግምታዊ ንግድ)",
+          "ar": "المضاربة الجامحة",
+          "es": "especulación desenfrenada",
+          "fr": "spéculation effrénée",
+          "hi": "बेलगाम अटकलबाज़ी",
+          "ko": "만연한 투기",
+          "ml": "അനിയന്ത്രിതമായ ഊഹക്കച്ചവടം",
+          "ps": "بې کنترله ګټګټي",
+          "ro": "speculații necontrolate",
+          "ru": "безудержная спекуляция",
+          "ta": "கட்டுக்கடங்காத ஊகவணிகம்",
+          "tl": "malawakang haka-haka (rampant speculation)",
+          "ur": "بے قابو قیاس آرائی"
          }
         },
         {
@@ -326348,7 +326543,20 @@
           "zh-Hans": "ストライキ (sutoraiki)",
           "fa": "罢工 (bàgōng)",
           "vi": "اعتصاب (etesāb)",
-          "zh-Hant": "ストライキ (sutoraiki)"
+          "zh-Hant": "ストライキ (sutoraiki)",
+          "am": "አድማ",
+          "ar": "الإضراب",
+          "es": "huelga",
+          "fr": "grève",
+          "hi": "हड़ताल",
+          "ko": "파업",
+          "ml": "പണിമുടക്ക്",
+          "ps": "اعتصاب",
+          "ro": "grevă",
+          "ru": "забастовка",
+          "ta": "வேலைநிறுத்தம்",
+          "tl": "welga (strike)",
+          "ur": "ہڑتال"
          }
         },
         {
@@ -326439,7 +326647,20 @@
           "zh-Hans": "同情 (tóngqíng)",
           "fa": "همدردی (hamdardī)",
           "vi": "cảm thông",
-          "zh-Hant": "同情 (tóngqíng)"
+          "zh-Hant": "同情 (tóngqíng)",
+          "am": "ርህራሄዎች (ተመሳሳይ ስሜቶች)",
+          "ar": "التعاطف (المشاعر المتعاطفة)",
+          "es": "simpatías",
+          "fr": "sympathies",
+          "hi": "सहानुभूतियां",
+          "ko": "동정심(공감)",
+          "ml": "അനുഭാവം",
+          "ps": "خواخوږي",
+          "ro": "simpatii",
+          "ru": "симпатии (сочувствие)",
+          "ta": "பச்சாதாபங்கள்",
+          "tl": "simpatiya (sympathies)",
+          "ur": "ہمدردیاں"
          }
         },
         {
@@ -326452,7 +326673,20 @@
          "translations": {
           "zh-Hans": "信仰体系 (xìnyǎng tǐxì)",
           "vi": "-",
-          "zh-Hant": "信仰體系 (xìnyǎng tǐxì)"
+          "zh-Hant": "信仰體系 (xìnyǎng tǐxì)",
+          "am": "የእምነት ስርዓት",
+          "ar": "نظام المعتقدات",
+          "es": "sistema de creencias",
+          "fr": "système de croyances",
+          "hi": "विश्वास प्रणाली",
+          "ko": "신념 체계",
+          "ml": "വിശ്വാസ വ്യവസ്ഥ",
+          "ps": "د باور سیسټم",
+          "ro": "sistem de credințe",
+          "ru": "система убеждений",
+          "ta": "நம்பிக்கை அமைப்பு",
+          "tl": "sistema ng paniniwala (belief system)",
+          "ur": "عقیدے کا نظام"
          }
         },
         {
@@ -326467,7 +326701,20 @@
           "zh-Hans": "人口普查 (rénkǒu pǔchá)",
           "fa": "سرشماری (sarshomārī)",
           "vi": "điều tra dân số",
-          "zh-Hant": "人口普查 (rénkǒu pǔchá)"
+          "zh-Hant": "人口普查 (rénkǒu pǔchá)",
+          "am": "የህዝብ ቆጠራ",
+          "ar": "التعداد السكاني",
+          "es": "censo",
+          "fr": "recensement",
+          "hi": "जनगणना",
+          "ko": "인구조사",
+          "ml": "സെൻസസ്",
+          "ps": "سرشمېرنه",
+          "ro": "recensământ",
+          "ru": "перепись населения",
+          "ta": "மக்கள் தொகை கணக்கெடுப்பு",
+          "tl": "sensus (census)",
+          "ur": "مردم شماری"
          }
         },
         {
@@ -326592,7 +326839,20 @@
           "zh-Hans": "文明化 (wénmíng huà)",
           "fa": "متمدن کردن (motamadden kardan)",
           "vi": "khai hoá",
-          "zh-Hant": "文明化 (wénmíng huà)"
+          "zh-Hant": "文明化 (wénmíng huà)",
+          "am": "ስልጣኔ ማምጣት",
+          "ar": "يمدّن (يحضّر)",
+          "es": "civilizar",
+          "fr": "civiliser",
+          "hi": "सभ्य बनाना",
+          "ko": "문명화시키다",
+          "ml": "പരിഷ്കൃതമാക്കുക",
+          "ps": "متمدن کول",
+          "ro": "a civiliza",
+          "ru": "цивилизовать",
+          "ta": "நாகரிகமாக்கு",
+          "tl": "paunlarin ang sibilisasyon (civilise)",
+          "ur": "مہذب بنانا"
          }
         },
         {
@@ -326607,7 +326867,20 @@
           "zh-Hans": "有资格的 (yǒu zīgé de)",
           "fa": "واجد شرایط (vājed sharāyet)",
           "vi": "đủ điều kiện",
-          "zh-Hant": "有資格的 (yǒu zīgé de)"
+          "zh-Hant": "有資格的 (yǒu zīgé de)",
+          "am": "ብቁ (ተመራጭ)",
+          "ar": "مؤهل",
+          "es": "elegible",
+          "fr": "éligible",
+          "hi": "योग्य (पात्र)",
+          "ko": "자격이 있는",
+          "ml": "യോഗ്യതയുള്ള",
+          "ps": "وړ",
+          "ro": "eligibil",
+          "ru": "имеющий право (подходящий)",
+          "ta": "தகுதியான",
+          "tl": "kwalipikado (eligible)",
+          "ur": "اہل"
          }
         },
         {
@@ -326621,7 +326894,20 @@
           "ja": "施行する (shikō suru)",
           "fa": "اجرا کردن با زور (ejrā kardan bā zur)",
           "vi": "-",
-          "zh-Hant": "強制執行；使人遵守"
+          "zh-Hant": "強制執行；使人遵守",
+          "am": "ማስፈጸም (ማስገደድ)",
+          "ar": "يفرض (ينفذ)",
+          "es": "hacer cumplir",
+          "fr": "appliquer (faire respecter)",
+          "hi": "लागू करना",
+          "ko": "시행하다(강제하다)",
+          "ml": "നടപ്പിലാക്കുക",
+          "ps": "پلي کول",
+          "ro": "a impune (a aplica)",
+          "ru": "обеспечивать соблюдение",
+          "ta": "அமல்படுத்து",
+          "tl": "ipatupad (enforce)",
+          "ur": "نافذ کرنا"
          }
         },
         {
@@ -326713,7 +326999,20 @@
           "zh-Hans": "-",
           "fa": "-",
           "vi": "loại trừ",
-          "zh-Hant": "-"
+          "zh-Hant": "-",
+          "am": "መገለል (ማግለል)",
+          "ar": "الإقصاء (الاستبعاد)",
+          "es": "exclusión",
+          "fr": "exclusion",
+          "hi": "बहिष्कार",
+          "ko": "배제",
+          "ml": "ഒഴിവാക്കൽ",
+          "ps": "منع کول",
+          "ro": "excludere",
+          "ru": "исключение (изоляция)",
+          "ta": "விலக்கல்",
+          "tl": "pagbukod (exclusion)",
+          "ur": "اخراج"
          }
         },
         {
@@ -326785,7 +327084,20 @@
           "ja": "免除 (menjo)",
           "fa": "معافیت (mo‘āfīyat)",
           "vi": "-",
-          "zh-Hant": "豁免；免除"
+          "zh-Hant": "豁免；免除",
+          "am": "ነጻ መደረግ (ልዩ ማድረግ)",
+          "ar": "الإعفاء",
+          "es": "exención",
+          "fr": "exemption",
+          "hi": "छूट",
+          "ko": "면제",
+          "ml": "ഇളവ്",
+          "ps": "معافي",
+          "ro": "scutire",
+          "ru": "освобождение (льгота)",
+          "ta": "விலக்குதல்",
+          "tl": "eksempsyon (exemption)",
+          "ur": "استثنیٰ"
          }
         },
         {
