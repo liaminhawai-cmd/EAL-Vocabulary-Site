@@ -327982,7 +327982,20 @@
           "zh-Hans": "纪律 (jìlǜ)",
           "fa": "انضباط (enzebāt)",
           "vi": "kỷ luật",
-          "zh-Hant": "紀律 (jìlǜ)"
+          "zh-Hant": "紀律 (jìlǜ)",
+          "am": "ተግሳጽ (ራስን መቆጣጠር)",
+          "ar": "الانضباط",
+          "es": "disciplina",
+          "fr": "discipline",
+          "hi": "अनुशासन",
+          "ko": "훈육(규율)",
+          "ml": "അച്ചടക്കം",
+          "ps": "نظم",
+          "ro": "disciplină",
+          "ru": "дисциплина",
+          "ta": "ஒழுக்கம்",
+          "tl": "disiplina",
+          "ur": "نظم و ضبط"
          }
         },
         {
@@ -328029,7 +328042,20 @@
           "zh-Hans": "家务的 (jiāwù de)",
           "fa": "خانگی (khānegī)",
           "vi": "nội trợ",
-          "zh-Hant": "家務的 (jiāwù de)"
+          "zh-Hant": "家務的 (jiāwù de)",
+          "am": "የቤት ውስጥ (አገር ውስጥ)",
+          "ar": "المنزلي (المحلي)",
+          "es": "doméstico",
+          "fr": "domestique",
+          "hi": "घरेलू",
+          "ko": "가정의(국내의)",
+          "ml": "ഗാർഹികമായ",
+          "ps": "کورنی",
+          "ro": "domestic",
+          "ru": "домашний (внутренний)",
+          "ta": "வீட்டு (உள்நாட்டு)",
+          "tl": "pambahay (domestic)",
+          "ur": "گھریلو"
          }
         },
         {
@@ -328044,7 +328070,20 @@
           "zh-Hans": "灌输 (guànshū)",
           "fa": "تلقین کردن (talghīn kardan)",
           "vi": "nhồi sọ",
-          "zh-Hant": "灌輸 (guànshū)"
+          "zh-Hant": "灌輸 (guànshū)",
+          "am": "ማስተማር (አንድ ወገን ብቻ)",
+          "ar": "يلقّن (فكرًا معينًا)",
+          "es": "adoctrinar",
+          "fr": "endoctriner",
+          "hi": "एकपक्षीय शिक्षा देना (मतारोपण करना)",
+          "ko": "주입식으로 교화하다",
+          "ml": "ഏകപക്ഷീയമായി പഠിപ്പിക്കുക",
+          "ps": "یو اړخیز زده کړه ورکول",
+          "ro": "a îndoctrina",
+          "ru": "внушать идеологию",
+          "ta": "ஒரு தலைப்பட்சமான கருத்தை புகுத்து",
+          "tl": "turuan nang may kiling (indoctrinate)",
+          "ur": "ذہن سازی کرنا"
          }
         },
         {
@@ -328110,7 +328149,20 @@
           "zh-Hans": "机构 (jīgòu)",
           "fa": "مؤسسه (mo’asseseh)",
           "vi": "cơ sở",
-          "zh-Hant": "機構 (jīgòu)"
+          "zh-Hant": "機構 (jīgòu)",
+          "am": "ተቋም",
+          "ar": "المؤسسة",
+          "es": "institución",
+          "fr": "institution",
+          "hi": "संस्था",
+          "ko": "기관(제도)",
+          "ml": "സ്ഥാപനം",
+          "ps": "بنسټ",
+          "ro": "instituție",
+          "ru": "учреждение (институт)",
+          "ta": "நிறுவனம்",
+          "tl": "institusyon",
+          "ur": "ادارہ"
          }
         },
         {
@@ -328201,7 +328253,20 @@
           "zh-Hans": "服从 (fúcóng)",
           "fa": "اطاعت (etā‘at)",
           "vi": "vâng lời",
-          "zh-Hant": "服從 (fúcóng)"
+          "zh-Hant": "服從 (fúcóng)",
+          "am": "መታዘዝ",
+          "ar": "الطاعة",
+          "es": "obediencia",
+          "fr": "obéissance",
+          "hi": "आज्ञाकारिता",
+          "ko": "복종",
+          "ml": "അനുസരണം",
+          "ps": "منل (اطاعت)",
+          "ro": "supunere",
+          "ru": "послушание",
+          "ta": "கீழ்ப்படிதல்",
+          "tl": "pagsunod (obedience)",
+          "ur": "اطاعت"
          }
         },
         {
@@ -328292,7 +328357,20 @@
           "zh-Hans": "听话的 (tīnghuà de)",
           "fa": "مطیع (motī‘)",
           "vi": "ngoan ngoãn",
-          "zh-Hant": "聽話的 (tīnghuà de)"
+          "zh-Hant": "聽話的 (tīnghuà de)",
+          "am": "ታዛዥ",
+          "ar": "مطيع",
+          "es": "obediente",
+          "fr": "obéissant",
+          "hi": "आज्ञाकारी",
+          "ko": "순종적인",
+          "ml": "അനുസരണയുള്ള",
+          "ps": "منونکی",
+          "ro": "supus (ascultător)",
+          "ru": "послушный",
+          "ta": "கீழ்ப்படிதலுள்ள",
+          "tl": "masunurin (obedient)",
+          "ur": "فرمانبردار"
          }
         },
         {
@@ -328307,7 +328385,20 @@
           "zh-Hans": "俘获者 (fúhuò zhě)",
           "fa": "اسیرگیر (asīrgīr)",
           "vi": "kẻ bắt giữ",
-          "zh-Hant": "俘獲者 (fúhuò zhě)"
+          "zh-Hant": "俘獲者 (fúhuò zhě)",
+          "am": "ያዥ (እስረኛ አድራጊ)",
+          "ar": "الآسر (من يحتجز)",
+          "es": "captor (secuestrador)",
+          "fr": "ravisseur (celui qui capture)",
+          "hi": "बंदी बनाने वाला",
+          "ko": "포획자(억류자)",
+          "ml": "പിടികൂടിയ ആൾ",
+          "ps": "نيونکی",
+          "ro": "cel care capturează (captor)",
+          "ru": "пленитель (похититель)",
+          "ta": "கைப்பற்றியவர்",
+          "tl": "tagabihag (captor)",
+          "ur": "قید کرنے والا"
          }
         },
         {
@@ -328322,7 +328413,20 @@
           "zh-Hans": "隐藏 (yǐncáng)",
           "fa": "پنهان‌کاری (penhān-kārī)",
           "vi": "che giấu",
-          "zh-Hant": "隱藏 (yǐncáng)"
+          "zh-Hant": "隱藏 (yǐncáng)",
+          "am": "መደበቅ",
+          "ar": "الإخفاء",
+          "es": "ocultamiento",
+          "fr": "dissimulation",
+          "hi": "छिपाव",
+          "ko": "은폐",
+          "ml": "മറയ്ക്കൽ",
+          "ps": "پټول",
+          "ro": "ascundere",
+          "ru": "укрытие (сокрытие)",
+          "ta": "மறைத்தல்",
+          "tl": "pagtatago (concealment)",
+          "ur": "پوشیدگی"
          }
         },
         {
@@ -328337,7 +328441,20 @@
           "zh-Hans": "追捕者 (zhuībǔ zhě)",
           "fa": "تعقیب‌کننده (ta‘qīb-konandeh)",
           "vi": "kẻ truy đuổi",
-          "zh-Hant": "追捕者 (zhuībǔ zhě)"
+          "zh-Hant": "追捕者 (zhuībǔ zhě)",
+          "am": "አሳዳጅ",
+          "ar": "المُطارِد",
+          "es": "perseguidor",
+          "fr": "poursuivant",
+          "hi": "पीछा करने वाला",
+          "ko": "추격자",
+          "ml": "പിന്തുടരുന്നയാൾ",
+          "ps": "تعقیب کوونکی",
+          "ro": "urmăritor",
+          "ru": "преследователь",
+          "ta": "துரத்துபவர்",
+          "tl": "tagahabol (pursuer)",
+          "ur": "پیچھا کرنے والا"
          }
         },
         {
@@ -328352,7 +328469,20 @@
           "zh-Hans": "偷偷地 (tōutōu de)",
           "fa": "پنهانی (penhānī)",
           "vi": "lén lút",
-          "zh-Hant": "偷偷地 (tōutōu de)"
+          "zh-Hant": "偷偷地 (tōutōu de)",
+          "am": "በስውር (ጸጥ ብሎ)",
+          "ar": "خلسة (بتسلل)",
+          "es": "sigilosamente",
+          "fr": "furtivement",
+          "hi": "चुपके से",
+          "ko": "은밀하게(살금살금)",
+          "ml": "രഹസ്യമായി",
+          "ps": "پټ پټ",
+          "ro": "furișându-se",
+          "ru": "украдкой (тайком)",
+          "ta": "இரகசியமாக",
+          "tl": "palihim (stealthily)",
+          "ur": "خاموشی سے (چوری چھپے)"
          }
         },
         {
@@ -328443,7 +328573,20 @@
           "zh-Hans": "脱水 (tuōshuǐ)",
           "fa": "کم‌آبی بدن (kam-ābī badan)",
           "vi": "mất nước",
-          "zh-Hant": "脫水 (tuōshuǐ)"
+          "zh-Hant": "脫水 (tuōshuǐ)",
+          "am": "የውሃ እጥረት (ደረቅነት)",
+          "ar": "الجفاف (فقدان السوائل)",
+          "es": "deshidratación",
+          "fr": "déshydratation",
+          "hi": "निर्जलीकरण",
+          "ko": "탈수",
+          "ml": "നിർജ്ജലീകരണം",
+          "ps": "اوبه کموالی",
+          "ro": "deshidratare",
+          "ru": "обезвоживание",
+          "ta": "நீரிழப்பு",
+          "tl": "pagkawala ng tubig sa katawan (dehydration)",
+          "ur": "پانی کی کمی"
          }
         },
         {
@@ -328458,7 +328601,20 @@
           "zh-Hans": "疲惫 (píbèi)",
           "fa": "خستگی مفرط (khastegi-ye mofrat)",
           "vi": "kiệt sức",
-          "zh-Hant": "疲憊 (píbèi)"
+          "zh-Hant": "疲憊 (píbèi)",
+          "am": "ድካም (ልፋት)",
+          "ar": "الإرهاق",
+          "es": "agotamiento",
+          "fr": "épuisement",
+          "hi": "थकावट",
+          "ko": "탈진",
+          "ml": "ക്ഷീണം",
+          "ps": "ستړیا",
+          "ro": "epuizare",
+          "ru": "изнеможение",
+          "ta": "களைப்பு",
+          "tl": "pagkapagod (exhaustion)",
+          "ur": "تھکن"
          }
         },
         {
@@ -328473,7 +328629,20 @@
           "zh-Hans": "矛 (máo)",
           "fa": "نیزه (neyzeh)",
           "vi": "cây giáo",
-          "zh-Hant": "矛 (máo)"
+          "zh-Hant": "矛 (máo)",
+          "am": "ጦር",
+          "ar": "الرمح",
+          "es": "lanza",
+          "fr": "lance",
+          "hi": "भाला",
+          "ko": "창",
+          "ml": "കുന്തം",
+          "ps": "نیزه",
+          "ro": "suliță",
+          "ru": "копьё",
+          "ta": "ஈட்டி",
+          "tl": "sibat (spear)",
+          "ur": "نیزہ"
          }
         },
         {
@@ -328539,7 +328708,20 @@
           "zh-Hans": "追踪者 (zhuīzōng zhě)",
           "fa": "ردگیر (radgīr)",
           "vi": "người lần theo dấu",
-          "zh-Hant": "追蹤者 (zhuīzōng zhě)"
+          "zh-Hant": "追蹤者 (zhuīzōng zhě)",
+          "am": "ፈለግ ተከታይ",
+          "ar": "المتعقب (متتبع الأثر)",
+          "es": "rastreador",
+          "fr": "pisteur",
+          "hi": "पथ खोजने वाला",
+          "ko": "추적자",
+          "ml": "പിന്തുടരൽ വിദഗ്ദ്ധൻ",
+          "ps": "پلټونکی",
+          "ro": "urmăritor de urme",
+          "ru": "следопыт",
+          "ta": "தடம் பின்தொடர்பவர்",
+          "tl": "tagasubaybay (tracker)",
+          "ur": "سراغ رساں"
          }
         },
         {
@@ -328554,7 +328736,20 @@
           "zh-Hans": "跟踪技巧 (gēnzōng jìqiǎo)",
           "fa": "مهارت ردگیری (mahārat-e radgīrī)",
           "vi": "kỹ năng lần dấu",
-          "zh-Hant": "跟蹤技巧 (gēnzōng jìqiǎo)"
+          "zh-Hant": "跟蹤技巧 (gēnzōng jìqiǎo)",
+          "am": "የፈለግ ተከታይ ችሎታ",
+          "ar": "مهارة المتعقب",
+          "es": "habilidad de rastreador",
+          "fr": "compétence de pisteur",
+          "hi": "पथ खोजने की कुशलता",
+          "ko": "추적자의 기술",
+          "ml": "പിന്തുടരൽ വൈദഗ്ധ്യം",
+          "ps": "د پلټونکي مهارت",
+          "ro": "abilitatea urmăritorului de urme",
+          "ru": "мастерство следопыта",
+          "ta": "தடம் பின்தொடர் திறமை",
+          "tl": "kasanayan ng tagasubaybay (tracker's skill)",
+          "ur": "سراغ رسانی کی مہارت"
          }
         },
         {
@@ -328620,7 +328815,20 @@
           "zh-Hans": "跟踪 (gēnzōng)",
           "fa": "ردیابی (radyābī)",
           "vi": "theo dõi",
-          "zh-Hant": "跟蹤 (gēnzōng)"
+          "zh-Hant": "跟蹤 (gēnzōng)",
+          "am": "መከታተል (ፈለግ መከተል)",
+          "ar": "التعقب (تتبع الأثر)",
+          "es": "rastreo",
+          "fr": "pistage",
+          "hi": "पथानुसरण (ट्रैकिंग)",
+          "ko": "추적",
+          "ml": "പിന്തുടരൽ",
+          "ps": "پلټنه",
+          "ro": "urmărirea urmelor",
+          "ru": "выслеживание",
+          "ta": "தடம் பின்தொடர்தல்",
+          "tl": "pagsubaybay (tracking)",
+          "ur": "سراغ رسانی"
          }
         },
         {
@@ -328692,7 +328900,20 @@
           "zh-Hans": "荒凉 (huāngliáng)",
           "fa": "ویرانی (vīrānī)",
           "vi": "hoang tàn",
-          "zh-Hant": "荒涼 (huāngliáng)"
+          "zh-Hant": "荒涼 (huāngliáng)",
+          "am": "ባድማነት (ጥፋት)",
+          "ar": "الخراب (القفار)",
+          "es": "desolación",
+          "fr": "désolation",
+          "hi": "उजाड़पन (वीरानी)",
+          "ko": "황폐함",
+          "ml": "നിർജ്ജനത",
+          "ps": "ورانی",
+          "ro": "pustiire",
+          "ru": "опустошение",
+          "ta": "பாழ்நிலை",
+          "tl": "pagkaguho (desolation)",
+          "ur": "ویرانی"
          }
         },
         {
@@ -328783,7 +329004,20 @@
           "zh-Hans": "决心 (juéxīn)",
           "fa": "عزم (azm)",
           "vi": "quyết tâm",
-          "zh-Hant": "決心 (juéxīn)"
+          "zh-Hant": "決心 (juéxīn)",
+          "am": "ቁርጠኝነት",
+          "ar": "التصميم (العزيمة)",
+          "es": "determinación",
+          "fr": "détermination",
+          "hi": "दृढ़ संकल्प",
+          "ko": "결단력(결의)",
+          "ml": "ദൃഢനിശ്ചയം",
+          "ps": "ټینګار (عزم)",
+          "ro": "determinare",
+          "ru": "решимость",
+          "ta": "உறுதிப்பாடு",
+          "tl": "determinasyon",
+          "ur": "عزم"
          }
         },
         {
@@ -328855,7 +329089,20 @@
           "zh-Hans": "耐力 (nàilì)",
           "fa": "استقامت (esteghāmat)",
           "vi": "sức bền",
-          "zh-Hant": "耐力 (nàilì)"
+          "zh-Hant": "耐力 (nàilì)",
+          "am": "ጽናት (ትግስት)",
+          "ar": "التحمل (القدرة على الصمود)",
+          "es": "resistencia (aguante)",
+          "fr": "endurance",
+          "hi": "सहनशक्ति (धैर्य)",
+          "ko": "인내력(지구력)",
+          "ml": "സഹനശക്തി",
+          "ps": "زغم",
+          "ro": "rezistență (îndurare)",
+          "ru": "выносливость (стойкость)",
+          "ta": "சகிப்புத்தன்மை",
+          "tl": "pagtitiis (endurance)",
+          "ur": "برداشت"
          }
         },
         {
@@ -328927,7 +329174,20 @@
           "zh-Hans": "毅力 (yìlì)",
           "fa": "پشتکار (poshtkār)",
           "vi": "kiên trì",
-          "zh-Hant": "毅力 (yìlì)"
+          "zh-Hant": "毅力 (yìlì)",
+          "am": "ጽናት (ተጋድሎ)",
+          "ar": "المثابرة",
+          "es": "perseverancia",
+          "fr": "persévérance",
+          "hi": "दृढ़ता (लगन)",
+          "ko": "인내(끈기)",
+          "ml": "സ്ഥിരോത്സാഹം",
+          "ps": "زغم (ټینګار)",
+          "ro": "perseverență",
+          "ru": "упорство",
+          "ta": "விடாமுயற்சி",
+          "tl": "pagpupursige (perseverance)",
+          "ur": "ثابت قدمی"
          }
         },
         {
@@ -329018,7 +329278,20 @@
           "zh-Hans": "韧性 (rènxìng)",
           "fa": "تاب‌آوری (tāb-āvarī)",
           "vi": "kiên cường",
-          "zh-Hant": "韌性 (rènxìng)"
+          "zh-Hant": "韌性 (rènxìng)",
+          "am": "ጽናት (ተመላሽነት)",
+          "ar": "المرونة (القدرة على التعافي)",
+          "es": "resiliencia",
+          "fr": "résilience",
+          "hi": "लचीलापन (सहनशक्ति)",
+          "ko": "회복력(탄력성)",
+          "ml": "പ്രതിരോധശേഷി",
+          "ps": "زغم",
+          "ro": "reziliență",
+          "ru": "устойчивость (жизнестойкость)",
+          "ta": "மீட்சித்திறன்",
+          "tl": "kakayahang mabawi (resilience)",
+          "ur": "لچک (بحالی کی صلاحیت)"
          }
         },
         {
@@ -329033,7 +329306,20 @@
           "zh-Hans": "避难所 (bìnàn suǒ)",
           "fa": "پناهگاه (panāhgāh)",
           "vi": "nơi trú ẩn",
-          "zh-Hant": "避難所 (bìnàn suǒ)"
+          "zh-Hant": "避難所 (bìnàn suǒ)",
+          "am": "መጠጊያ (ደህንነት ያለው ቦታ)",
+          "ar": "الملاذ (المحمية)",
+          "es": "santuario (refugio)",
+          "fr": "sanctuaire (refuge)",
+          "hi": "अभयारण्य (शरणस्थल)",
+          "ko": "안식처(보호구역)",
+          "ml": "അഭയകേന്ദ്രം",
+          "ps": "پناه ځای",
+          "ro": "sanctuar (refugiu)",
+          "ru": "убежище (заповедник)",
+          "ta": "புகலிடம்",
+          "tl": "santuwaryo (sanctuary)",
+          "ur": "پناہ گاہ"
          }
         },
         {
@@ -329178,7 +329464,20 @@
           "zh-Hans": "传承 (chuánchéng)",
           "fa": "میراث (mīrāth)",
           "vi": "di sản",
-          "zh-Hant": "傳承 (chuánchéng)"
+          "zh-Hant": "傳承 (chuánchéng)",
+          "am": "ውርስ",
+          "ar": "التراث",
+          "es": "patrimonio (herencia)",
+          "fr": "patrimoine (héritage)",
+          "hi": "विरासत",
+          "ko": "유산(전통)",
+          "ml": "പൈതൃകം",
+          "ps": "میراث",
+          "ro": "moștenire",
+          "ru": "наследие",
+          "ta": "பாரம்பரியம்",
+          "tl": "pamana (heritage)",
+          "ur": "ورثہ"
          }
         },
         {
@@ -329245,7 +329544,20 @@
           "zh-Hans": "身份 (shēnfèn)",
           "fa": "هویت (hovīyat)",
           "vi": "bản sắc",
-          "zh-Hant": "身份 (shēnfèn)"
+          "zh-Hant": "身份 (shēnfèn)",
+          "am": "ማንነት",
+          "ar": "الهوية",
+          "es": "identidad",
+          "fr": "identité",
+          "hi": "पहचान",
+          "ko": "정체성",
+          "ml": "സ്വത്വം (ഐഡന്റിറ്റി)",
+          "ps": "پیژندنه",
+          "ro": "identitate",
+          "ru": "идентичность",
+          "ta": "அடையாளம்",
+          "tl": "pagkakakilanlan (identity)",
+          "ur": "شناخت"
          }
         },
         {
@@ -329260,7 +329572,20 @@
           "zh-Hans": "遗产 (yíchǎn)",
           "fa": "میراث (mīrāth)",
           "vi": "di sản",
-          "zh-Hant": "遺產 (yíchǎn)"
+          "zh-Hant": "遺產 (yíchǎn)",
+          "am": "ውርስ",
+          "ar": "الإرث",
+          "es": "legado",
+          "fr": "héritage (legs)",
+          "hi": "विरासत (धरोहर)",
+          "ko": "유산(업적)",
+          "ml": "പൈതൃകം (അവശേഷിപ്പ്)",
+          "ps": "میراث",
+          "ro": "moștenire (legat)",
+          "ru": "наследие (наследство)",
+          "ta": "மரபுவழி எச்சம்",
+          "tl": "mana (legacy)",
+          "ur": "میراث"
          }
         },
         {
@@ -329351,7 +329676,20 @@
           "zh-Hans": "和解 (héjiě)",
           "fa": "آشتی (āshtī)",
           "vi": "hòa giải",
-          "zh-Hant": "和解 (héjiě)"
+          "zh-Hant": "和解 (héjiě)",
+          "am": "እርቅ",
+          "ar": "المصالحة",
+          "es": "reconciliación",
+          "fr": "réconciliation",
+          "hi": "सुलह (मेल-मिलाप)",
+          "ko": "화해",
+          "ml": "അനുരഞ്ജനം",
+          "ps": "روغه",
+          "ro": "reconciliere",
+          "ru": "примирение",
+          "ta": "நல்லிணக்கம்",
+          "tl": "pagkakasundo (reconciliation)",
+          "ur": "مصالحت"
          }
         }
        ],
