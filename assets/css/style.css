@@ -751,3 +751,14 @@ a.dict-word:hover { background: rgba(0,0,0,.1); }
     @keyframes echo-up { from { opacity: 0; transform: translateY(6px); } }
   }
 }
+
+/* --- homograph notes: one spelling, more than one word-piece -------------
+   The active meaning prints at full strength; the same spelling's other
+   meanings follow in faint italics (full strength again if that meaning is
+   genuinely at work in this word too). Origin tags appear only where they
+   separate the senses — Latin suffix vs Greek root. */
+.mo-alt { font-style: italic; font-weight: 400; opacity: .55; }
+.mo-alt.here { opacity: 1; font-weight: 700; }
+.mo-origin { font-size: .68em; font-style: normal; font-weight: 600;
+  opacity: .6; letter-spacing: .04em; margin-left: 2px; text-transform: uppercase; }
+.dict-homograph { margin: 2px 0 6px; }

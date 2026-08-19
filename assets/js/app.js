@@ -326,6 +326,51 @@ function mergedFamilies() {
   MERGED_FAMILIES = out;
   return out;
 }
+// ---- homographs: one spelling, more than one word-piece --------------------
+// A curated sense carries `origin` when its spelling is shared with another,
+// genuinely different morpheme (the Latin suffix -ion of "reflection" vs the
+// Greek root of "cation") or with a sibling meaning worth teaching side by
+// side (re- "again" vs re- "back"). Everywhere a gloss is shown, the other
+// meanings ride along faintly, so students learn that the spelling has more
+// than one job — and which job it is doing here.
+function homographNote(part) {
+  const dict = (DATA && DATA.morpheme_dictionary) || {};
+  const key = senseKeyFor(part);
+  const sense = key && dict[key];
+  if (!sense || !sense.origin) return null;
+  const surf = (sense.surface || '').toLowerCase();
+  const siblings = Object.entries(dict)
+    .filter(([k, v]) => k !== key && v.origin && (v.surface || '').toLowerCase() === surf)
+    .map(([, v]) => v);
+  if (!siblings.length) return null;
+  // The origin tag is only informative when it separates the senses (Latin
+  // suffix vs Greek root); three Latin senses of re- would just say "Latin"
+  // three times, so it stays hidden there.
+  const origins = new Set([sense.origin, ...siblings.map((x) => x.origin)]);
+  return { sense, siblings, tagOrigins: origins.size > 1 };
+}
+// The nodes appended after a part's gloss: the active meaning is the one
+// already printed; the same spelling's OTHER meanings follow in faint italics
+// — unless that meaning is genuinely at work in this word too, in which case
+// it stands at full strength alongside.
+function glossAlts(part, wordText) {
+  const note = homographNote(part);
+  if (!note) return [];
+  const out = [];
+  if (note.tagOrigins) out.push(h('sup', { class: 'mo-origin' }, note.sense.origin));
+  for (const sib of note.siblings) {
+    const here = !!wordText && (sib.words || [])
+      .some((r) => r[0].toLowerCase() === wordText.toLowerCase());
+    out.push(h('i', {
+      class: `mo-alt${here ? ' here' : ''}`,
+      title: here ? 'Both meanings are at work in this word'
+        : note.tagOrigins ? 'A different word-piece spelt the same way'
+        : 'Another meaning of this same word-piece',
+    }, ' · ', sib.gloss,
+      note.tagOrigins ? h('sup', { class: 'mo-origin' }, sib.origin) : null));
+  }
+  return out;
+}
 function morphemeFamily(part) {
   const key = senseKeyFor(part);
   return key ? mergedFamilies().get(key) || null : null;
@@ -389,7 +434,7 @@ function openMorphemePanel(part) {
   const head = h('div', { class: 'mo-panel-head' },
     h('span', { class: `mo-chip ${part.type || ''} lg` }, ...spellingChip(part)),
     h('div', {},
-      h('div', { class: 'mo-panel-meaning' }, meaning || '—'),
+      h('div', { class: 'mo-panel-meaning' }, meaning || '—', ...glossAlts(part, null)),
       typeLabel && h('div', { class: 'muted small' }, typeLabel)));
 
   const body = h('div', { class: 'mo-panel-body' });
@@ -525,7 +570,8 @@ function echoRail(part, hide) {
   const rail = h('aside', { class: 'echo-rail', 'aria-live': 'polite' },
     h('div', { class: 'echo-head' },
       h('span', { class: `mo-chip ${part.type || ''} echo-key` }, ...spellingChip(part)),
-      part.meaning && h('span', { class: 'echo-head-gloss' }, part.meaning)));
+      part.meaning && h('span', { class: 'echo-head-gloss' },
+        part.meaning, ...glossAlts(part, null))));
   if (!list.length) {
     add(rail, h('p', { class: 'echo-empty' },
       'The first word you have met with this piece — the next one will come easier.'));
@@ -1125,7 +1171,7 @@ function renderBuildBoard({ levelId, subjectId, unitId }) {
             title: 'See your own words that share this piece',
             onclick: () => { echoPart = on ? null : p; render_(); },
           }, ...spellingChip(p), h('i', { class: 'mo-gloss' },
-            p.meaning || '', native ? ` · ${native}` : ''));
+            p.meaning || '', ...glossAlts(p, w.word), native ? ` · ${native}` : ''));
         })),
       h('p', { class: 'study-def' }, w.meaning || ''),
       (pickTranslation(w.translations, lang) || pickExact(w.translations, dispLang)) &&
@@ -2643,12 +2689,31 @@ function dictSenseCard(e, q) {
     h('div', { class: 'dict-head' },
       h('span', { class: `mo-chip ${e.type} lg` }, e.surface),
       h('div', { class: 'dict-head-text' },
-        h('div', { class: 'dict-gloss' }, e.gloss || '—'),
+        h('div', { class: 'dict-gloss' }, e.gloss || '—',
+          e.origin ? h('sup', { class: 'mo-origin' }, e.origin) : null),
         h('div', { class: 'muted small dict-sub' },
           spellingRow,
           spellingRow ? ' · ' : '',
           typeLabel,
           e.aka.length ? ` · also glossed “${e.aka.slice(0, 2).join('”, “')}”` : ''))));
+
+  // A curated homograph: the same spelling is a different word-piece elsewhere
+  // in the dictionary. Said out loud here so a student searching "ion" meets
+  // both jobs at once instead of assuming the first card is the whole story.
+  if (e.origin) {
+    const twins = dictEntries().filter((x) =>
+      x.id !== e.id && x.origin && x.surface.toLowerCase() === e.surface.toLowerCase());
+    if (twins.length) {
+      // Two different claims, worded honestly: -ion the Greek root really IS a
+      // different piece from -ion the Latin suffix, but re- "back" is the same
+      // prefix as re- "again" wearing another of its meanings.
+      const differentPiece = twins.some((t) => t.origin !== e.origin || t.type !== e.type);
+      add(card, h('p', { class: 'dict-homograph muted small' },
+        differentPiece ? 'Same spelling, different piece: ' : 'The same piece also means: ',
+        ...twins.flatMap((t, i) => [i ? ' · ' : '',
+          h('b', {}, t.gloss), ` (${t.type}${t.origin !== e.origin ? ', ' + t.origin : ''})`])));
+    }
+  }
 
   // Tier 1 — the site's own curriculum words. Each keeps the spelling IT uses,
   // so a merged family reads as collaborate / combustion / coagulate / correct

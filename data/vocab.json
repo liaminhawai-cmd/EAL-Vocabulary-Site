@@ -7911,26 +7911,27 @@
           {
            "surface": "in",
            "type": "prefix",
-           "meaning": "in / into",
+           "meaning": "into",
            "translations": {
-            "am": "ወደ ውስጥ",
-            "ar": "في",
-            "es": "en / hacia dentro",
-            "fa": "در",
-            "fr": "dans",
-            "hi": "में",
-            "ja": "中に",
-            "ko": "안으로",
-            "ml": "അകത്ത്",
-            "ps": "دننه",
-            "ro": "în",
-            "ru": "в",
-            "ta": "உள்ளே",
-            "tl": "sa loob",
-            "ur": "میں",
-            "vi": "trong",
-            "zh-Hans": "在 / 进入",
-            "zh-Hant": "在 / 進入"
+            "am": "ወደ",
+            "ar": "نحو",
+            "es": "hacia",
+            "fa": "سمت",
+            "fr": "vers",
+            "hi": "ओर",
+            "ja": "へ",
+            "ko": "향해",
+            "ml": "നേരെ",
+            "ps": "طرف ته",
+            "ro": "spre",
+            "ru": "к",
+            "ta": "நோக்கி",
+            "tl": "patungo",
+            "ur": "طرف",
+            "vi": "hướng",
+            "zh-Hans": "向",
+            "zh-Hant": "向",
+            "other": "نه"
            }
           },
           {
@@ -12757,7 +12758,8 @@
             "ur": "طرف",
             "vi": "hướng",
             "zh-Hans": "向",
-            "zh-Hant": "向"
+            "zh-Hant": "向",
+            "other": "نه"
            }
           },
           {
@@ -15411,7 +15413,8 @@
             "ur": "میں",
             "vi": "vào",
             "zh-Hans": "进入",
-            "zh-Hant": "進入"
+            "zh-Hant": "進入",
+            "other": "نه"
            }
           },
           {
@@ -22874,26 +22877,27 @@
           {
            "surface": "im",
            "type": "prefix",
-           "meaning": "in; into",
+           "meaning": "into",
            "translations": {
-            "zh-Hans": "进入",
-            "zh-Hant": "進入",
-            "am": "ውስጥ",
-            "ar": "في/داخل",
-            "es": "en / hacia dentro",
-            "fa": "در/داخل",
-            "fr": "dans",
-            "hi": "अंदर/में",
-            "ja": "中に",
-            "ko": "안으로",
-            "ml": "അകത്തേക്ക്",
-            "ps": "په/دننه",
-            "ro": "în/înăuntru",
-            "ru": "в/внутрь",
-            "ta": "உள்ளே",
-            "tl": "sa loob",
-            "ur": "میں/اندر",
-            "vi": "vào trong"
+            "am": "ወደ",
+            "ar": "نحو",
+            "es": "hacia",
+            "fa": "سمت",
+            "fr": "vers",
+            "hi": "ओर",
+            "ja": "へ",
+            "ko": "향해",
+            "ml": "നേരെ",
+            "ps": "طرف ته",
+            "ro": "spre",
+            "ru": "к",
+            "ta": "நோக்கி",
+            "tl": "patungo",
+            "ur": "طرف",
+            "vi": "hướng",
+            "zh-Hans": "向",
+            "zh-Hant": "向",
+            "other": "نه"
            }
           },
           {
@@ -25741,7 +25745,8 @@
             "ur": "پر",
             "vi": "trên",
             "zh-Hans": "在…之上",
-            "zh-Hant": "在…之上"
+            "zh-Hant": "在…之上",
+            "other": "نه"
            }
           },
           {
@@ -31871,24 +31876,25 @@
            "type": "prefix",
            "meaning": "in",
            "translations": {
-            "vi": "trong",
-            "am": "ውስጥ",
-            "ar": "في",
-            "es": "en",
-            "fa": "در",
-            "fr": "dans",
-            "hi": "में",
-            "ja": "中に",
-            "ko": "안에",
-            "ml": "അകത്ത്",
-            "ps": "کې",
-            "ro": "în",
-            "ru": "в",
-            "ta": "உள்ளே",
-            "tl": "sa loob",
-            "ur": "میں",
-            "zh-Hans": "内",
-            "zh-Hant": "內"
+            "am": "ወደ",
+            "ar": "نحو",
+            "es": "hacia",
+            "fa": "سمت",
+            "fr": "vers",
+            "hi": "ओर",
+            "ja": "へ",
+            "ko": "향해",
+            "ml": "നേരെ",
+            "ps": "طرف ته",
+            "ro": "spre",
+            "ru": "к",
+            "ta": "நோக்கி",
+            "tl": "patungo",
+            "ur": "طرف",
+            "vi": "hướng",
+            "zh-Hans": "向",
+            "zh-Hant": "向",
+            "other": "نه"
            }
           },
           {
@@ -32077,24 +32083,25 @@
            "type": "prefix",
            "meaning": "in",
            "translations": {
-            "vi": "trong",
-            "am": "ውስጥ",
-            "ar": "في",
-            "es": "en",
-            "fa": "در",
-            "fr": "dans",
-            "hi": "में",
-            "ja": "中に",
-            "ko": "안에",
-            "ml": "അകത്ത്",
-            "ps": "کې",
-            "ro": "în",
-            "ru": "в",
-            "ta": "உள்ளே",
-            "tl": "sa loob",
-            "ur": "میں",
-            "zh-Hans": "内",
-            "zh-Hant": "內"
+            "am": "ወደ",
+            "ar": "نحو",
+            "es": "hacia",
+            "fa": "سمت",
+            "fr": "vers",
+            "hi": "ओर",
+            "ja": "へ",
+            "ko": "향해",
+            "ml": "നേരെ",
+            "ps": "طرف ته",
+            "ro": "spre",
+            "ru": "к",
+            "ta": "நோக்கி",
+            "tl": "patungo",
+            "ur": "طرف",
+            "vi": "hướng",
+            "zh-Hans": "向",
+            "zh-Hant": "向",
+            "other": "نه"
            }
           },
           {
@@ -32272,7 +32279,8 @@
             "ur": "میں",
             "vi": "trong",
             "zh-Hans": "在 / 进入",
-            "zh-Hant": "在 / 進入"
+            "zh-Hant": "在 / 進入",
+            "other": "نه"
            }
           },
           {
@@ -33420,24 +33428,25 @@
            "type": "prefix",
            "meaning": "in / toward",
            "translations": {
-            "am": "ውስጥ / ወደ",
-            "ar": "في / نحو",
-            "es": "en / hacia",
-            "fa": "در / به سوی",
-            "fr": "dans / vers",
-            "hi": "में / की ओर",
-            "ja": "中へ/向かって",
-            "ko": "안으로/향하여",
-            "ml": "ഇൽ / ലേക്ക്",
-            "ps": "کې / لور ته",
-            "ro": "în / spre",
-            "ru": "в / к",
-            "ta": "இல் / நோக்கி",
-            "tl": "sa / patungo sa",
-            "ur": "میں / کی طرف",
-            "vi": "trong / hướng tới",
-            "zh-Hans": "向内/朝向",
-            "zh-Hant": "向內/朝向"
+            "am": "ወደ",
+            "ar": "نحو",
+            "es": "hacia",
+            "fa": "سمت",
+            "fr": "vers",
+            "hi": "ओर",
+            "ja": "へ",
+            "ko": "향해",
+            "ml": "നേരെ",
+            "ps": "طرف ته",
+            "ro": "spre",
+            "ru": "к",
+            "ta": "நோக்கி",
+            "tl": "patungo",
+            "ur": "طرف",
+            "vi": "hướng",
+            "zh-Hans": "向",
+            "zh-Hant": "向",
+            "other": "نه"
            }
           },
           {
@@ -35941,7 +35950,8 @@
             "ur": "میں",
             "vi": "vào",
             "zh-Hans": "进入",
-            "zh-Hant": "進入"
+            "zh-Hant": "進入",
+            "other": "نه"
            }
           },
           {
@@ -38516,26 +38526,26 @@
           {
            "surface": "in",
            "type": "prefix",
-           "meaning": "not/into",
+           "meaning": "into",
            "translations": {
-            "vi": "không/trong",
-            "am": "ያልሆነ",
-            "ar": "غير",
-            "es": "no / hacia dentro",
-            "fa": "در",
-            "fr": "non",
-            "hi": "नहीं",
-            "ja": "不 / 中へ",
-            "ko": "아닌",
-            "ml": "അല്ലാത്ത",
-            "ps": "نه",
-            "ro": "ne-",
-            "ru": "не-",
-            "ta": "இல்லாத",
-            "tl": "sa loob",
-            "ur": "اندر",
-            "zh-Hans": "不 / 进入",
-            "zh-Hant": "不 / 進入",
+            "am": "ወደ",
+            "ar": "نحو",
+            "es": "hacia",
+            "fa": "سمت",
+            "fr": "vers",
+            "hi": "ओर",
+            "ja": "へ",
+            "ko": "향해",
+            "ml": "നേരെ",
+            "ps": "طرف ته",
+            "ro": "spre",
+            "ru": "к",
+            "ta": "நோக்கி",
+            "tl": "patungo",
+            "ur": "طرف",
+            "vi": "hướng",
+            "zh-Hans": "向",
+            "zh-Hant": "向",
             "other": "نه"
            }
           },
@@ -39364,7 +39374,8 @@
             "tl": "sa loob",
             "ur": "کے اندر",
             "zh-Hans": "进入",
-            "zh-Hant": "進入"
+            "zh-Hant": "進入",
+            "other": "نه"
            }
           },
           {
@@ -40095,26 +40106,26 @@
           {
            "surface": "in",
            "type": "prefix",
-           "meaning": "not/into",
+           "meaning": "into",
            "translations": {
-            "vi": "không/trong",
-            "am": "ያልሆነ",
-            "ar": "غير",
-            "es": "no / hacia dentro",
-            "fa": "در",
-            "fr": "non",
-            "hi": "नहीं",
-            "ja": "不 / 中へ",
-            "ko": "아닌",
-            "ml": "അല്ലാത്ത",
-            "ps": "نه",
-            "ro": "ne-",
-            "ru": "не-",
-            "ta": "இல்லாத",
-            "tl": "sa loob",
-            "ur": "اندر",
-            "zh-Hans": "不 / 进入",
-            "zh-Hant": "不 / 進入",
+            "am": "ወደ",
+            "ar": "نحو",
+            "es": "hacia",
+            "fa": "سمت",
+            "fr": "vers",
+            "hi": "ओर",
+            "ja": "へ",
+            "ko": "향해",
+            "ml": "നേരെ",
+            "ps": "طرف ته",
+            "ro": "spre",
+            "ru": "к",
+            "ta": "நோக்கி",
+            "tl": "patungo",
+            "ur": "طرف",
+            "vi": "hướng",
+            "zh-Hans": "向",
+            "zh-Hant": "向",
             "other": "نه"
            }
           },
@@ -40250,26 +40261,26 @@
           {
            "surface": "in",
            "type": "prefix",
-           "meaning": "not/into",
+           "meaning": "into",
            "translations": {
-            "vi": "không/trong",
-            "am": "ያልሆነ",
-            "ar": "غير",
-            "es": "no / hacia dentro",
-            "fa": "در",
-            "fr": "non",
-            "hi": "नहीं",
-            "ja": "不 / 中へ",
-            "ko": "아닌",
-            "ml": "അല്ലാത്ത",
-            "ps": "نه",
-            "ro": "ne-",
-            "ru": "не-",
-            "ta": "இல்லாத",
-            "tl": "sa loob",
-            "ur": "اندر",
-            "zh-Hans": "不 / 进入",
-            "zh-Hant": "不 / 進入",
+            "am": "ወደ",
+            "ar": "نحو",
+            "es": "hacia",
+            "fa": "سمت",
+            "fr": "vers",
+            "hi": "ओर",
+            "ja": "へ",
+            "ko": "향해",
+            "ml": "നേരെ",
+            "ps": "طرف ته",
+            "ro": "spre",
+            "ru": "к",
+            "ta": "நோக்கி",
+            "tl": "patungo",
+            "ur": "طرف",
+            "vi": "hướng",
+            "zh-Hans": "向",
+            "zh-Hant": "向",
             "other": "نه"
            }
           },
@@ -42629,7 +42640,8 @@
             "ur": "میں",
             "vi": "vào",
             "zh-Hans": "进入",
-            "zh-Hant": "進入"
+            "zh-Hant": "進入",
+            "other": "نه"
            }
           },
           {
@@ -43753,7 +43765,8 @@
             "ur": "میں",
             "vi": "vào",
             "zh-Hans": "进入",
-            "zh-Hant": "進入"
+            "zh-Hant": "進入",
+            "other": "نه"
            }
           },
           {
@@ -45423,24 +45436,25 @@
            "type": "prefix",
            "meaning": "in / toward",
            "translations": {
-            "am": "ውስጥ / ወደ",
-            "ar": "في / نحو",
-            "es": "en / hacia",
-            "fa": "در / به سوی",
-            "fr": "dans / vers",
-            "hi": "में / की ओर",
-            "ja": "中へ/向かって",
-            "ko": "안으로/향하여",
-            "ml": "ഇൽ / ലേക്ക്",
-            "ps": "کې / لور ته",
-            "ro": "în / spre",
-            "ru": "в / к",
-            "ta": "இல் / நோக்கி",
-            "tl": "sa / patungo sa",
-            "ur": "میں / کی طرف",
-            "vi": "trong / hướng tới",
-            "zh-Hans": "向内/朝向",
-            "zh-Hant": "向內/朝向"
+            "am": "ወደ",
+            "ar": "نحو",
+            "es": "hacia",
+            "fa": "سمت",
+            "fr": "vers",
+            "hi": "ओर",
+            "ja": "へ",
+            "ko": "향해",
+            "ml": "നേരെ",
+            "ps": "طرف ته",
+            "ro": "spre",
+            "ru": "к",
+            "ta": "நோக்கி",
+            "tl": "patungo",
+            "ur": "طرف",
+            "vi": "hướng",
+            "zh-Hans": "向",
+            "zh-Hant": "向",
+            "other": "نه"
            }
           },
           {
@@ -47150,26 +47164,27 @@
           {
            "surface": "in",
            "type": "prefix",
-           "meaning": "in / into",
+           "meaning": "into",
            "translations": {
-            "am": "ወደ ውስጥ",
-            "ar": "في",
-            "es": "en / hacia dentro",
-            "fa": "در",
-            "fr": "dans",
-            "hi": "में",
-            "ja": "中に",
-            "ko": "안으로",
-            "ml": "അകത്ത്",
-            "ps": "دننه",
-            "ro": "în",
-            "ru": "в",
-            "ta": "உள்ளே",
-            "tl": "sa loob",
-            "ur": "میں",
-            "vi": "trong",
-            "zh-Hans": "在 / 进入",
-            "zh-Hant": "在 / 進入"
+            "am": "ወደ",
+            "ar": "نحو",
+            "es": "hacia",
+            "fa": "سمت",
+            "fr": "vers",
+            "hi": "ओर",
+            "ja": "へ",
+            "ko": "향해",
+            "ml": "നേരെ",
+            "ps": "طرف ته",
+            "ro": "spre",
+            "ru": "к",
+            "ta": "நோக்கி",
+            "tl": "patungo",
+            "ur": "طرف",
+            "vi": "hướng",
+            "zh-Hans": "向",
+            "zh-Hant": "向",
+            "other": "نه"
            }
           },
           {
@@ -47279,26 +47294,27 @@
           {
            "surface": "in",
            "type": "prefix",
-           "meaning": "in / into",
+           "meaning": "into",
            "translations": {
-            "am": "ወደ ውስጥ",
-            "ar": "في",
-            "es": "en / hacia dentro",
-            "fa": "در",
-            "fr": "dans",
-            "hi": "में",
-            "ja": "中に",
-            "ko": "안으로",
-            "ml": "അകത്ത്",
-            "ps": "دننه",
-            "ro": "în",
-            "ru": "в",
-            "ta": "உள்ளே",
-            "tl": "sa loob",
-            "ur": "میں",
-            "vi": "trong",
-            "zh-Hans": "在 / 进入",
-            "zh-Hant": "在 / 進入"
+            "am": "ወደ",
+            "ar": "نحو",
+            "es": "hacia",
+            "fa": "سمت",
+            "fr": "vers",
+            "hi": "ओर",
+            "ja": "へ",
+            "ko": "향해",
+            "ml": "നേരെ",
+            "ps": "طرف ته",
+            "ro": "spre",
+            "ru": "к",
+            "ta": "நோக்கி",
+            "tl": "patungo",
+            "ur": "طرف",
+            "vi": "hướng",
+            "zh-Hans": "向",
+            "zh-Hant": "向",
+            "other": "نه"
            }
           },
           {
@@ -48406,7 +48422,8 @@
             "ur": "میں",
             "vi": "vào",
             "zh-Hans": "进入",
-            "zh-Hant": "進入"
+            "zh-Hant": "進入",
+            "other": "نه"
            }
           },
           {
@@ -48642,7 +48659,8 @@
             "ur": "میں",
             "vi": "vào",
             "zh-Hans": "进入",
-            "zh-Hant": "進入"
+            "zh-Hant": "進入",
+            "other": "نه"
            }
           },
           {
@@ -49385,7 +49403,8 @@
             "ur": "کے اندر",
             "vi": "vào",
             "zh-Hans": "进入",
-            "zh-Hant": "進入"
+            "zh-Hant": "進入",
+            "other": "نه"
            }
           },
           {
@@ -49613,24 +49632,25 @@
            "type": "prefix",
            "meaning": "in",
            "translations": {
-            "am": "ውስጥ",
-            "ar": "في",
-            "es": "en",
-            "fa": "در",
-            "fr": "dans",
-            "hi": "में",
-            "ja": "中に",
-            "ko": "안에",
-            "ml": "ഉള്ളിൽ",
-            "ps": "پکې",
-            "ro": "în",
-            "ru": "в",
-            "ta": "உள்ளே",
-            "tl": "sa loob",
-            "ur": "میں",
-            "vi": "trong",
-            "zh-Hans": "在",
-            "zh-Hant": "在"
+            "am": "ወደ",
+            "ar": "نحو",
+            "es": "hacia",
+            "fa": "سمت",
+            "fr": "vers",
+            "hi": "ओर",
+            "ja": "へ",
+            "ko": "향해",
+            "ml": "നേരെ",
+            "ps": "طرف ته",
+            "ro": "spre",
+            "ru": "к",
+            "ta": "நோக்கி",
+            "tl": "patungo",
+            "ur": "طرف",
+            "vi": "hướng",
+            "zh-Hans": "向",
+            "zh-Hant": "向",
+            "other": "نه"
            }
           },
           {
@@ -52569,7 +52589,8 @@
             "tl": "sa loob ng",
             "ur": "میں",
             "zh-Hans": "进入",
-            "zh-Hant": "進入"
+            "zh-Hant": "進入",
+            "other": "نه"
            }
           }
          ],
@@ -52830,7 +52851,8 @@
             "tl": "sa loob ng",
             "ur": "میں",
             "zh-Hans": "进入",
-            "zh-Hant": "進入"
+            "zh-Hant": "進入",
+            "other": "نه"
            }
           },
           {
@@ -57585,24 +57607,25 @@
            "type": "prefix",
            "meaning": "in",
            "translations": {
-            "am": "ውስጥ",
-            "ar": "في",
-            "es": "en",
-            "fa": "در",
-            "fr": "dans",
-            "hi": "में",
-            "ja": "中に",
-            "ko": "안에",
-            "ml": "ഉള്ളിൽ",
-            "ps": "پکې",
-            "ro": "în",
-            "ru": "в",
-            "ta": "உள்ளே",
-            "tl": "sa loob",
-            "ur": "میں",
-            "vi": "trong",
-            "zh-Hans": "在",
-            "zh-Hant": "在"
+            "am": "ወደ",
+            "ar": "نحو",
+            "es": "hacia",
+            "fa": "سمت",
+            "fr": "vers",
+            "hi": "ओर",
+            "ja": "へ",
+            "ko": "향해",
+            "ml": "നേരെ",
+            "ps": "طرف ته",
+            "ro": "spre",
+            "ru": "к",
+            "ta": "நோக்கி",
+            "tl": "patungo",
+            "ur": "طرف",
+            "vi": "hướng",
+            "zh-Hans": "向",
+            "zh-Hant": "向",
+            "other": "نه"
            }
           },
           {
@@ -58094,7 +58117,8 @@
             "ur": "میں",
             "vi": "vào",
             "zh-Hans": "进入",
-            "zh-Hant": "進入"
+            "zh-Hant": "進入",
+            "other": "نه"
            }
           },
           {
@@ -58519,26 +58543,27 @@
           {
            "surface": "em",
            "type": "prefix",
-           "meaning": "in / into",
+           "meaning": "into",
            "translations": {
-            "am": "ወደ ውስጥ",
-            "ar": "داخل",
-            "es": "en/hacia dentro",
-            "fa": "درون",
-            "fr": "dans / en",
-            "hi": "में / अंदर",
-            "ja": "中に／中へ",
-            "ko": "안에 / 안으로",
-            "ml": "ഉള്ളിലേക്ക്",
-            "ps": "په ... کې / دننه",
-            "ro": "în / înăuntru",
-            "ru": "в / внутрь",
-            "ta": "உள்ளே / உள்நோக்கி",
-            "tl": "sa loob / papaloob",
-            "ur": "اندر",
-            "vi": "trong / vào trong",
-            "zh-Hans": "进入",
-            "zh-Hant": "進入"
+            "am": "ወደ",
+            "ar": "نحو",
+            "es": "hacia",
+            "fa": "سمت",
+            "fr": "vers",
+            "hi": "ओर",
+            "ja": "へ",
+            "ko": "향해",
+            "ml": "നേരെ",
+            "ps": "طرف ته",
+            "ro": "spre",
+            "ru": "к",
+            "ta": "நோக்கி",
+            "tl": "patungo",
+            "ur": "طرف",
+            "vi": "hướng",
+            "zh-Hans": "向",
+            "zh-Hant": "向",
+            "other": "نه"
            }
           },
           {
@@ -59722,7 +59747,8 @@
             "ur": "میں",
             "vi": "vào",
             "zh-Hans": "进入",
-            "zh-Hant": "進入"
+            "zh-Hant": "進入",
+            "other": "نه"
            }
           },
           {
@@ -61755,7 +61781,8 @@
             "ur": "میں",
             "vi": "vào",
             "zh-Hans": "进入",
-            "zh-Hant": "進入"
+            "zh-Hant": "進入",
+            "other": "نه"
            }
           },
           {
@@ -62434,24 +62461,25 @@
            "type": "prefix",
            "meaning": "in",
            "translations": {
-            "am": "ውስጥ",
-            "ar": "في",
-            "es": "en",
-            "fa": "در",
-            "fr": "dans",
-            "hi": "में",
-            "ja": "中に",
-            "ko": "안에",
-            "ml": "ഉള്ളിൽ",
-            "ps": "پکې",
-            "ro": "în",
-            "ru": "в",
-            "ta": "உள்ளே",
-            "tl": "sa loob",
-            "ur": "میں",
-            "vi": "trong",
-            "zh-Hans": "在",
-            "zh-Hant": "在"
+            "am": "ወደ",
+            "ar": "نحو",
+            "es": "hacia",
+            "fa": "سمت",
+            "fr": "vers",
+            "hi": "ओर",
+            "ja": "へ",
+            "ko": "향해",
+            "ml": "നേരെ",
+            "ps": "طرف ته",
+            "ro": "spre",
+            "ru": "к",
+            "ta": "நோக்கி",
+            "tl": "patungo",
+            "ur": "طرف",
+            "vi": "hướng",
+            "zh-Hans": "向",
+            "zh-Hant": "向",
+            "other": "نه"
            }
           },
           {
@@ -64283,26 +64311,26 @@
           {
            "surface": "in",
            "type": "prefix",
-           "meaning": "not / into",
+           "meaning": "into",
            "translations": {
-            "am": "ያልሆነ",
-            "ar": "غير",
-            "es": "no / opuesto",
-            "fa": "غیر",
-            "fr": "non",
-            "hi": "अ-",
-            "ja": "不",
-            "ko": "비-",
-            "ml": "അല്ലാത്ത",
-            "ps": "نه",
-            "ro": "ne-",
-            "ru": "не-",
-            "ta": "இல்லாத",
-            "tl": "hindi",
-            "ur": "غیر",
-            "vi": "không",
-            "zh-Hans": "不/非",
-            "zh-Hant": "不/非",
+            "am": "ወደ",
+            "ar": "نحو",
+            "es": "hacia",
+            "fa": "سمت",
+            "fr": "vers",
+            "hi": "ओर",
+            "ja": "へ",
+            "ko": "향해",
+            "ml": "നേരെ",
+            "ps": "طرف ته",
+            "ro": "spre",
+            "ru": "к",
+            "ta": "நோக்கி",
+            "tl": "patungo",
+            "ur": "طرف",
+            "vi": "hướng",
+            "zh-Hans": "向",
+            "zh-Hant": "向",
             "other": "نه"
            }
           },
@@ -68889,7 +68917,8 @@
             "ur": "میں",
             "vi": "vào",
             "zh-Hans": "进入",
-            "zh-Hant": "進入"
+            "zh-Hant": "進入",
+            "other": "نه"
            }
           },
           {
@@ -78510,24 +78539,25 @@
            "type": "prefix",
            "meaning": "in",
            "translations": {
-            "am": "ውስጥ",
-            "ar": "في",
-            "es": "en",
-            "fa": "در",
-            "fr": "dans",
-            "hi": "में",
-            "ja": "中に",
-            "ko": "안에",
-            "ml": "അകത്ത്",
-            "ps": "کې",
-            "ro": "în",
-            "ru": "в",
-            "ta": "உள்ளே",
-            "tl": "sa loob",
-            "ur": "میں",
-            "vi": "trong",
-            "zh-Hans": "内",
-            "zh-Hant": "內"
+            "am": "ወደ",
+            "ar": "نحو",
+            "es": "hacia",
+            "fa": "سمت",
+            "fr": "vers",
+            "hi": "ओर",
+            "ja": "へ",
+            "ko": "향해",
+            "ml": "നേരെ",
+            "ps": "طرف ته",
+            "ro": "spre",
+            "ru": "к",
+            "ta": "நோக்கி",
+            "tl": "patungo",
+            "ur": "طرف",
+            "vi": "hướng",
+            "zh-Hans": "向",
+            "zh-Hant": "向",
+            "other": "نه"
            }
           },
           {
@@ -79407,7 +79437,8 @@
             "ur": "میں",
             "vi": "vào",
             "zh-Hans": "进入",
-            "zh-Hant": "進入"
+            "zh-Hant": "進入",
+            "other": "نه"
            }
           },
           {
@@ -80115,7 +80146,8 @@
             "ur": "میں",
             "vi": "vào",
             "zh-Hans": "进入",
-            "zh-Hant": "進入"
+            "zh-Hant": "進入",
+            "other": "نه"
            }
           },
           {
@@ -81785,7 +81817,8 @@
             "ur": "کے اندر",
             "vi": "vào",
             "zh-Hans": "进入",
-            "zh-Hant": "進入"
+            "zh-Hant": "進入",
+            "other": "نه"
            }
           },
           {
@@ -85919,7 +85952,8 @@
             "ur": "پر / خلاف",
             "vi": "trên / chống lại",
             "zh-Hans": "在…之上／反对",
-            "zh-Hant": "在…之上／反對"
+            "zh-Hant": "在…之上／反對",
+            "other": "نه"
            }
           },
           {
@@ -87717,7 +87751,8 @@
             "ur": "میں",
             "vi": "vào",
             "zh-Hans": "进入",
-            "zh-Hant": "進入"
+            "zh-Hant": "進入",
+            "other": "نه"
            }
           },
           {
@@ -93791,7 +93826,8 @@
             "ur": "میں",
             "vi": "vào",
             "zh-Hans": "进入",
-            "zh-Hant": "進入"
+            "zh-Hant": "進入",
+            "other": "نه"
            }
           },
           {
@@ -93974,7 +94010,8 @@
             "ur": "میں",
             "vi": "vào",
             "zh-Hans": "进入",
-            "zh-Hant": "進入"
+            "zh-Hant": "進入",
+            "other": "نه"
            }
           },
           {
@@ -95406,7 +95443,8 @@
             "ur": "طرف",
             "vi": "hướng",
             "zh-Hans": "向",
-            "zh-Hant": "向"
+            "zh-Hant": "向",
+            "other": "نه"
            }
           },
           {
@@ -96583,7 +96621,8 @@
             "ur": "میں",
             "vi": "vào",
             "zh-Hans": "进入",
-            "zh-Hant": "進入"
+            "zh-Hant": "進入",
+            "other": "نه"
            }
           },
           {
@@ -98364,7 +98403,8 @@
             "ur": "میں",
             "vi": "vào",
             "zh-Hans": "进入",
-            "zh-Hant": "進入"
+            "zh-Hant": "進入",
+            "other": "نه"
            }
           },
           {
@@ -99223,7 +99263,8 @@
             "ur": "میں",
             "vi": "vào",
             "zh-Hans": "进入",
-            "zh-Hant": "進入"
+            "zh-Hant": "進入",
+            "other": "نه"
            }
           },
           {
@@ -99748,7 +99789,8 @@
             "ur": "کے اندر",
             "vi": "vào",
             "zh-Hans": "进入",
-            "zh-Hant": "進入"
+            "zh-Hant": "進入",
+            "other": "نه"
            }
           },
           {
@@ -102393,7 +102435,8 @@
             "ur": "میں",
             "vi": "vào",
             "zh-Hans": "进入",
-            "zh-Hant": "進入"
+            "zh-Hant": "進入",
+            "other": "نه"
            }
           },
           {
@@ -111541,7 +111584,8 @@
             "ur": "میں",
             "vi": "vào",
             "zh-Hans": "进入",
-            "zh-Hant": "進入"
+            "zh-Hant": "進入",
+            "other": "نه"
            }
           },
           {
@@ -112086,24 +112130,25 @@
            "type": "prefix",
            "meaning": "in",
            "translations": {
-            "am": "ውስጥ",
-            "ar": "في",
-            "es": "en",
-            "fa": "در",
-            "fr": "dans",
-            "hi": "में",
-            "ja": "中に",
-            "ko": "안에",
-            "ml": "അകത്ത്",
-            "ps": "کې",
-            "ro": "în",
-            "ru": "в",
-            "ta": "உள்ளே",
-            "tl": "sa loob",
-            "ur": "میں",
-            "vi": "trong",
-            "zh-Hans": "内",
-            "zh-Hant": "內"
+            "am": "ወደ",
+            "ar": "نحو",
+            "es": "hacia",
+            "fa": "سمت",
+            "fr": "vers",
+            "hi": "ओर",
+            "ja": "へ",
+            "ko": "향해",
+            "ml": "നേരെ",
+            "ps": "طرف ته",
+            "ro": "spre",
+            "ru": "к",
+            "ta": "நோக்கி",
+            "tl": "patungo",
+            "ur": "طرف",
+            "vi": "hướng",
+            "zh-Hans": "向",
+            "zh-Hant": "向",
+            "other": "نه"
            }
           },
           {
@@ -113151,7 +113196,8 @@
             "ur": "طرف",
             "vi": "hướng",
             "zh-Hans": "向",
-            "zh-Hant": "向"
+            "zh-Hant": "向",
+            "other": "نه"
            }
           },
           {
@@ -113607,7 +113653,8 @@
             "ur": "اندر",
             "vi": "vào trong",
             "zh-Hans": "进入",
-            "zh-Hant": "進入"
+            "zh-Hant": "進入",
+            "other": "نه"
            }
           },
           {
@@ -116194,7 +116241,8 @@
             "ur": "میں/اندر",
             "vi": "trong / bên trong",
             "zh-Hans": "里面/内",
-            "zh-Hant": "裡面/內"
+            "zh-Hant": "裡面/內",
+            "other": "نه"
            }
           },
           {
@@ -117843,7 +117891,8 @@
             "ur": "میں",
             "vi": "vào",
             "zh-Hans": "进入",
-            "zh-Hant": "進入"
+            "zh-Hant": "進入",
+            "other": "نه"
            }
           },
           {
@@ -118035,7 +118084,8 @@
             "ur": "میں",
             "vi": "vào",
             "zh-Hans": "进入",
-            "zh-Hant": "進入"
+            "zh-Hant": "進入",
+            "other": "نه"
            }
           },
           {
@@ -119012,7 +119062,8 @@
             "ur": "میں",
             "vi": "vào",
             "zh-Hans": "进入",
-            "zh-Hant": "進入"
+            "zh-Hant": "進入",
+            "other": "نه"
            }
           },
           {
@@ -119469,7 +119520,8 @@
             "ur": "میں",
             "vi": "vào",
             "zh-Hans": "进入",
-            "zh-Hant": "進入"
+            "zh-Hant": "進入",
+            "other": "نه"
            }
           },
           {
@@ -121383,7 +121435,8 @@
             "ur": "میں",
             "vi": "vào",
             "zh-Hans": "进入",
-            "zh-Hant": "進入"
+            "zh-Hant": "進入",
+            "other": "نه"
            }
           },
           {
@@ -121523,7 +121576,8 @@
             "ur": "میں",
             "vi": "vào",
             "zh-Hans": "进入",
-            "zh-Hant": "進入"
+            "zh-Hant": "進入",
+            "other": "نه"
            }
           },
           {
@@ -122449,24 +122503,25 @@
            "type": "prefix",
            "meaning": "in",
            "translations": {
-            "am": "ውስጥ",
-            "ar": "في",
-            "es": "en",
-            "fa": "در",
-            "fr": "dans",
-            "hi": "में",
-            "ja": "～の中に",
-            "ko": "안에",
-            "ml": "അകത്ത്",
-            "ps": "کې",
-            "ro": "în",
-            "ru": "в",
-            "ta": "இல்",
-            "tl": "sa loob ng",
-            "ur": "میں",
-            "vi": "trong",
-            "zh-Hans": "在内",
-            "zh-Hant": "在內"
+            "am": "ወደ",
+            "ar": "نحو",
+            "es": "hacia",
+            "fa": "سمت",
+            "fr": "vers",
+            "hi": "ओर",
+            "ja": "へ",
+            "ko": "향해",
+            "ml": "നേരെ",
+            "ps": "طرف ته",
+            "ro": "spre",
+            "ru": "к",
+            "ta": "நோக்கி",
+            "tl": "patungo",
+            "ur": "طرف",
+            "vi": "hướng",
+            "zh-Hans": "向",
+            "zh-Hant": "向",
+            "other": "نه"
            }
           },
           {
@@ -123082,26 +123137,27 @@
           {
            "surface": "in",
            "type": "prefix",
-           "meaning": "in / into",
+           "meaning": "into",
            "translations": {
-            "am": "ወደ ውስጥ",
-            "ar": "في",
-            "es": "en / hacia dentro",
-            "fa": "در",
-            "fr": "dans",
-            "hi": "में",
-            "ja": "中に",
-            "ko": "안으로",
-            "ml": "അകത്ത്",
-            "ps": "دننه",
-            "ro": "în",
-            "ru": "в",
-            "ta": "உள்ளே",
-            "tl": "sa loob",
-            "ur": "میں",
-            "vi": "trong",
-            "zh-Hans": "在 / 进入",
-            "zh-Hant": "在 / 進入"
+            "am": "ወደ",
+            "ar": "نحو",
+            "es": "hacia",
+            "fa": "سمت",
+            "fr": "vers",
+            "hi": "ओर",
+            "ja": "へ",
+            "ko": "향해",
+            "ml": "നേരെ",
+            "ps": "طرف ته",
+            "ro": "spre",
+            "ru": "к",
+            "ta": "நோக்கி",
+            "tl": "patungo",
+            "ur": "طرف",
+            "vi": "hướng",
+            "zh-Hans": "向",
+            "zh-Hant": "向",
+            "other": "نه"
            }
           },
           {
@@ -124602,24 +124658,25 @@
            "type": "prefix",
            "meaning": "in",
            "translations": {
-            "am": "ውስጥ",
-            "ar": "في",
-            "es": "en",
-            "fa": "در",
-            "fr": "dans",
-            "hi": "में",
-            "ja": "中に",
-            "ko": "안에",
-            "ml": "ഉള്ളിൽ",
-            "ps": "پکې",
-            "ro": "în",
-            "ru": "в",
-            "ta": "உள்ளே",
-            "tl": "sa loob",
-            "ur": "میں",
-            "vi": "trong",
-            "zh-Hans": "在",
-            "zh-Hant": "在"
+            "am": "ወደ",
+            "ar": "نحو",
+            "es": "hacia",
+            "fa": "سمت",
+            "fr": "vers",
+            "hi": "ओर",
+            "ja": "へ",
+            "ko": "향해",
+            "ml": "നേരെ",
+            "ps": "طرف ته",
+            "ro": "spre",
+            "ru": "к",
+            "ta": "நோக்கி",
+            "tl": "patungo",
+            "ur": "طرف",
+            "vi": "hướng",
+            "zh-Hans": "向",
+            "zh-Hant": "向",
+            "other": "نه"
            }
           },
           {
@@ -131235,7 +131292,8 @@
             "ur": "میں",
             "vi": "trong",
             "zh-Hans": "在 / 进入",
-            "zh-Hant": "在 / 進入"
+            "zh-Hant": "在 / 進入",
+            "other": "نه"
            }
           },
           {
@@ -134040,7 +134098,8 @@
             "ur": "میں",
             "vi": "trong",
             "zh-Hans": "在 / 进入",
-            "zh-Hant": "在 / 進入"
+            "zh-Hant": "在 / 進入",
+            "other": "نه"
            }
           },
           {
@@ -136424,7 +136483,8 @@
             "ur": "میں",
             "vi": "trong",
             "zh-Hans": "在 / 进入",
-            "zh-Hant": "在 / 進入"
+            "zh-Hant": "在 / 進入",
+            "other": "نه"
            }
           },
           {
@@ -139413,7 +139473,8 @@
             "ur": "میں",
             "vi": "trong",
             "zh-Hans": "在 / 进入",
-            "zh-Hant": "在 / 進入"
+            "zh-Hant": "在 / 進入",
+            "other": "نه"
            }
           },
           {
@@ -147384,7 +147445,8 @@
             "ur": "میں",
             "vi": "trong",
             "zh-Hans": "在 / 进入",
-            "zh-Hant": "在 / 進入"
+            "zh-Hant": "在 / 進入",
+            "other": "نه"
            }
           },
           {
@@ -148071,7 +148133,8 @@
             "ur": "میں",
             "vi": "trong",
             "zh-Hans": "在 / 进入",
-            "zh-Hant": "在 / 進入"
+            "zh-Hant": "在 / 進入",
+            "other": "نه"
            }
           },
           {
@@ -164648,26 +164711,26 @@
           {
            "surface": "in",
            "type": "prefix",
-           "meaning": "not / into",
+           "meaning": "into",
            "translations": {
-            "fa": "در",
-            "ja": "中へ・否定",
-            "zh-Hans": "进入 / 進入",
-            "zh-Hant": "進入 / 進入",
-            "tl": "sa loob",
-            "ur": "اندر",
-            "am": "ያልሆነ",
-            "ar": "غير",
-            "es": "no / hacia dentro",
-            "fr": "non",
-            "hi": "नहीं",
-            "ko": "아닌",
-            "ml": "അല്ലാത്ത",
-            "ps": "نه",
-            "ro": "ne-",
-            "ru": "не-",
-            "ta": "இல்லாத",
-            "vi": "không/trong",
+            "am": "ወደ",
+            "ar": "نحو",
+            "es": "hacia",
+            "fa": "سمت",
+            "fr": "vers",
+            "hi": "ओर",
+            "ja": "へ",
+            "ko": "향해",
+            "ml": "നേരെ",
+            "ps": "طرف ته",
+            "ro": "spre",
+            "ru": "к",
+            "ta": "நோக்கி",
+            "tl": "patungo",
+            "ur": "طرف",
+            "vi": "hướng",
+            "zh-Hans": "向",
+            "zh-Hant": "向",
             "other": "نه"
            }
           },
@@ -173474,27 +173537,27 @@
           },
           {
            "surface": "ion",
-           "type": "suffix",
-           "meaning": "process / particle",
+           "type": "root",
+           "meaning": "charged particle",
            "translations": {
-            "vi": "quá trình / ion",
-            "zh-Hans": "过程 / 粒子",
-            "ja": "過程 / 粒子",
-            "zh-Hant": "過程 / 粒子",
-            "am": "ሂደት / ቅንጣት",
-            "ar": "عملية / جسيم",
-            "es": "proceso/partícula",
-            "fa": "فرآیند / ذره",
-            "fr": "processus / particule",
-            "hi": "प्रक्रिया / कण",
-            "ko": "과정 / 입자",
-            "ml": "പ്രക്രിയ / കണിക",
-            "ps": "پروسه / ذره",
-            "ro": "proces / particulă",
-            "ru": "процесс / частица",
-            "ta": "செயல்முறை / துகள்",
-            "tl": "proseso / partikulo",
-            "ur": "عمل / ذرہ"
+            "zh-Hans": "离子",
+            "zh-Hant": "離子",
+            "am": "አዮን",
+            "ar": "أيون",
+            "es": "partícula cargada",
+            "fa": "یون",
+            "fr": "ion",
+            "hi": "आयन",
+            "ja": "イオン",
+            "ko": "이온",
+            "ml": "അയോൺ",
+            "ps": "آیون",
+            "ro": "ion",
+            "ru": "ион",
+            "ta": "அயனி",
+            "tl": "ion",
+            "ur": "آئن",
+            "vi": "ion"
            }
           }
          ],
@@ -173552,27 +173615,27 @@
           },
           {
            "surface": "ion",
-           "type": "suffix",
-           "meaning": "process / particle",
+           "type": "root",
+           "meaning": "charged particle",
            "translations": {
-            "vi": "quá trình / ion",
-            "zh-Hans": "过程 / 粒子",
-            "ja": "過程 / 粒子",
-            "zh-Hant": "過程 / 粒子",
-            "am": "ሂደት / ቅንጣት",
-            "ar": "عملية / جسيم",
-            "es": "proceso/partícula",
-            "fa": "فرآیند / ذره",
-            "fr": "processus / particule",
-            "hi": "प्रक्रिया / कण",
-            "ko": "과정 / 입자",
-            "ml": "പ്രക്രിയ / കണിക",
-            "ps": "پروسه / ذره",
-            "ro": "proces / particulă",
-            "ru": "процесс / частица",
-            "ta": "செயல்முறை / துகள்",
-            "tl": "proseso / partikulo",
-            "ur": "عمل / ذرہ"
+            "zh-Hans": "离子",
+            "zh-Hant": "離子",
+            "am": "አዮን",
+            "ar": "أيون",
+            "es": "partícula cargada",
+            "fa": "یون",
+            "fr": "ion",
+            "hi": "आयन",
+            "ja": "イオン",
+            "ko": "이온",
+            "ml": "അയോൺ",
+            "ps": "آیون",
+            "ro": "ion",
+            "ru": "ион",
+            "ta": "அயனி",
+            "tl": "ion",
+            "ur": "آئن",
+            "vi": "ion"
            }
           }
          ],
@@ -173605,27 +173668,27 @@
          "parts": [
           {
            "surface": "ion",
-           "type": "suffix",
-           "meaning": "process / particle",
+           "type": "root",
+           "meaning": "charged particle",
            "translations": {
-            "vi": "quá trình / ion",
-            "zh-Hans": "过程 / 粒子",
-            "ja": "過程 / 粒子",
-            "zh-Hant": "過程 / 粒子",
-            "am": "ሂደት / ቅንጣት",
-            "ar": "عملية / جسيم",
-            "es": "proceso/partícula",
-            "fa": "فرآیند / ذره",
-            "fr": "processus / particule",
-            "hi": "प्रक्रिया / कण",
-            "ko": "과정 / 입자",
-            "ml": "പ്രക്രിയ / കണിക",
-            "ps": "پروسه / ذره",
-            "ro": "proces / particulă",
-            "ru": "процесс / частица",
-            "ta": "செயல்முறை / துகள்",
-            "tl": "proseso / partikulo",
-            "ur": "عمل / ذرہ"
+            "zh-Hans": "离子",
+            "zh-Hant": "離子",
+            "am": "አዮን",
+            "ar": "أيون",
+            "es": "partícula cargada",
+            "fa": "یون",
+            "fr": "ion",
+            "hi": "आयन",
+            "ja": "イオン",
+            "ko": "이온",
+            "ml": "അയോൺ",
+            "ps": "آیون",
+            "ro": "ion",
+            "ru": "ион",
+            "ta": "அயனி",
+            "tl": "ion",
+            "ur": "آئن",
+            "vi": "ion"
            }
           },
           {
@@ -175216,26 +175279,26 @@
           {
            "surface": "ion",
            "type": "suffix",
-           "meaning": "process / particle",
+           "meaning": "act/process",
            "translations": {
-            "vi": "quá trình / ion",
-            "zh-Hans": "过程 / 粒子",
-            "ja": "過程 / 粒子",
-            "zh-Hant": "過程 / 粒子",
-            "am": "ሂደት / ቅንጣት",
-            "ar": "عملية / جسيم",
-            "es": "proceso/partícula",
-            "fa": "فرآیند / ذره",
-            "fr": "processus / particule",
-            "hi": "प्रक्रिया / कण",
-            "ko": "과정 / 입자",
-            "ml": "പ്രക്രിയ / കണിക",
-            "ps": "پروسه / ذره",
-            "ro": "proces / particulă",
-            "ru": "процесс / частица",
-            "ta": "செயல்முறை / துகள்",
-            "tl": "proseso / partikulo",
-            "ur": "عمل / ذرہ"
+            "fa": "فرایند/عمل",
+            "am": "ሂደት/ድርጊት",
+            "ar": "عملية/فعل",
+            "es": "proceso/acción",
+            "fr": "processus/action",
+            "hi": "प्रक्रिया/क्रिया",
+            "ja": "過程/作用",
+            "ko": "과정/작용",
+            "ml": "പ്രക്രിയ/പ്രവർത്തനം",
+            "ps": "بهیر/کړنه",
+            "ro": "proces/acțiune",
+            "ru": "процесс/действие",
+            "ta": "செயல்முறை/செயல்",
+            "tl": "proseso/kilos",
+            "ur": "عمل/فعل",
+            "vi": "quá trình/hành động",
+            "zh-Hans": "过程/动作",
+            "zh-Hant": "過程/動作"
            }
           }
          ],
@@ -175345,26 +175408,26 @@
           {
            "surface": "ion",
            "type": "suffix",
-           "meaning": "process / particle",
+           "meaning": "act/process",
            "translations": {
-            "vi": "quá trình / ion",
-            "zh-Hans": "过程 / 粒子",
-            "ja": "過程 / 粒子",
-            "zh-Hant": "過程 / 粒子",
-            "am": "ሂደት / ቅንጣት",
-            "ar": "عملية / جسيم",
-            "es": "proceso/partícula",
-            "fa": "فرآیند / ذره",
-            "fr": "processus / particule",
-            "hi": "प्रक्रिया / कण",
-            "ko": "과정 / 입자",
-            "ml": "പ്രക്രിയ / കണിക",
-            "ps": "پروسه / ذره",
-            "ro": "proces / particulă",
-            "ru": "процесс / частица",
-            "ta": "செயல்முறை / துகள்",
-            "tl": "proseso / partikulo",
-            "ur": "عمل / ذرہ"
+            "fa": "فرایند/عمل",
+            "am": "ሂደት/ድርጊት",
+            "ar": "عملية/فعل",
+            "es": "proceso/acción",
+            "fr": "processus/action",
+            "hi": "प्रक्रिया/क्रिया",
+            "ja": "過程/作用",
+            "ko": "과정/작용",
+            "ml": "പ്രക്രിയ/പ്രവർത്തനം",
+            "ps": "بهیر/کړنه",
+            "ro": "proces/acțiune",
+            "ru": "процесс/действие",
+            "ta": "செயல்முறை/செயல்",
+            "tl": "proseso/kilos",
+            "ur": "عمل/فعل",
+            "vi": "quá trình/hành động",
+            "zh-Hans": "过程/动作",
+            "zh-Hant": "過程/動作"
            }
           }
          ],
@@ -175448,26 +175511,26 @@
           {
            "surface": "ion",
            "type": "suffix",
-           "meaning": "process / particle",
+           "meaning": "act/process",
            "translations": {
-            "vi": "quá trình / ion",
-            "zh-Hans": "过程 / 粒子",
-            "ja": "過程 / 粒子",
-            "zh-Hant": "過程 / 粒子",
-            "am": "ሂደት / ቅንጣት",
-            "ar": "عملية / جسيم",
-            "es": "proceso/partícula",
-            "fa": "فرآیند / ذره",
-            "fr": "processus / particule",
-            "hi": "प्रक्रिया / कण",
-            "ko": "과정 / 입자",
-            "ml": "പ്രക്രിയ / കണിക",
-            "ps": "پروسه / ذره",
-            "ro": "proces / particulă",
-            "ru": "процесс / частица",
-            "ta": "செயல்முறை / துகள்",
-            "tl": "proseso / partikulo",
-            "ur": "عمل / ذرہ"
+            "fa": "فرایند/عمل",
+            "am": "ሂደት/ድርጊት",
+            "ar": "عملية/فعل",
+            "es": "proceso/acción",
+            "fr": "processus/action",
+            "hi": "प्रक्रिया/क्रिया",
+            "ja": "過程/作用",
+            "ko": "과정/작용",
+            "ml": "പ്രക്രിയ/പ്രവർത്തനം",
+            "ps": "بهیر/کړنه",
+            "ro": "proces/acțiune",
+            "ru": "процесс/действие",
+            "ta": "செயல்முறை/செயல்",
+            "tl": "proseso/kilos",
+            "ur": "عمل/فعل",
+            "vi": "quá trình/hành động",
+            "zh-Hans": "过程/动作",
+            "zh-Hant": "過程/動作"
            }
           }
          ],
@@ -175759,27 +175822,27 @@
          "parts": [
           {
            "surface": "ion",
-           "type": "suffix",
-           "meaning": "process / particle",
+           "type": "root",
+           "meaning": "charged particle",
            "translations": {
-            "vi": "quá trình / ion",
-            "zh-Hans": "过程 / 粒子",
-            "ja": "過程 / 粒子",
-            "zh-Hant": "過程 / 粒子",
-            "am": "ሂደት / ቅንጣት",
-            "ar": "عملية / جسيم",
-            "es": "proceso/partícula",
-            "fa": "فرآیند / ذره",
-            "fr": "processus / particule",
-            "hi": "प्रक्रिया / कण",
-            "ko": "과정 / 입자",
-            "ml": "പ്രക്രിയ / കണിക",
-            "ps": "پروسه / ذره",
-            "ro": "proces / particulă",
-            "ru": "процесс / частица",
-            "ta": "செயல்முறை / துகள்",
-            "tl": "proseso / partikulo",
-            "ur": "عمل / ذرہ"
+            "zh-Hans": "离子",
+            "zh-Hant": "離子",
+            "am": "አዮን",
+            "ar": "أيون",
+            "es": "partícula cargada",
+            "fa": "یون",
+            "fr": "ion",
+            "hi": "आयन",
+            "ja": "イオン",
+            "ko": "이온",
+            "ml": "അയോൺ",
+            "ps": "آیون",
+            "ro": "ion",
+            "ru": "ион",
+            "ta": "அயனி",
+            "tl": "ion",
+            "ur": "آئن",
+            "vi": "ion"
            }
           },
           {
@@ -176493,7 +176556,8 @@
             "ur": "میں/اندر",
             "vi": "vào/trong",
             "zh-Hans": "进入/在...里",
-            "zh-Hant": "進入/在...裡"
+            "zh-Hant": "進入/在...裡",
+            "other": "نه"
            }
           },
           {
@@ -176622,7 +176686,8 @@
             "ur": "میں/اندر",
             "vi": "vào/trong",
             "zh-Hans": "进入/在...里",
-            "zh-Hant": "進入/在...裡"
+            "zh-Hant": "進入/在...裡",
+            "other": "نه"
            }
           },
           {
@@ -177451,7 +177516,8 @@
             "ur": "میں / اندر",
             "vi": "trong / vào",
             "zh-Hans": "在……里/进入",
-            "zh-Hant": "在……裡/進入"
+            "zh-Hant": "在……裡/進入",
+            "other": "نه"
            }
           },
           {
@@ -179220,26 +179286,26 @@
           {
            "surface": "im",
            "type": "prefix",
-           "meaning": "not/into",
+           "meaning": "into",
            "translations": {
-            "ja": "否定／中へ",
-            "am": "አይደለም / ወደ ውስጥ",
-            "ar": "نفي / إلى الداخل",
-            "es": "no / hacia dentro",
-            "fa": "نفی / به درون",
-            "fr": "non / dans",
-            "hi": "नहीं / में",
-            "ko": "부정 / 안으로",
-            "ml": "അല്ല / അകത്തേക്ക്",
-            "ps": "نه / دننه",
-            "ro": "nu / în interior",
-            "ru": "не / внутрь",
-            "ta": "இல்லை / உள்ளே",
-            "tl": "hindi / papasok",
-            "ur": "نہیں / اندر",
-            "vi": "không / vào trong",
-            "zh-Hans": "否定／向内",
-            "zh-Hant": "否定／向內",
+            "am": "ወደ",
+            "ar": "نحو",
+            "es": "hacia",
+            "fa": "سمت",
+            "fr": "vers",
+            "hi": "ओर",
+            "ja": "へ",
+            "ko": "향해",
+            "ml": "നേരെ",
+            "ps": "طرف ته",
+            "ro": "spre",
+            "ru": "к",
+            "ta": "நோக்கி",
+            "tl": "patungo",
+            "ur": "طرف",
+            "vi": "hướng",
+            "zh-Hans": "向",
+            "zh-Hant": "向",
             "other": "نه"
            }
           },
@@ -184029,26 +184095,26 @@
           {
            "surface": "in",
            "type": "prefix",
-           "meaning": "not / into",
+           "meaning": "into",
            "translations": {
-            "zh-Hans": "不 / 进入",
-            "vi": "không / vào",
-            "zh-Hant": "不 / 進入",
-            "am": "ያልሆነ",
-            "ar": "غير",
-            "es": "no / hacia dentro",
-            "fa": "در",
-            "fr": "non",
-            "hi": "नहीं",
-            "ja": "不 / 中へ",
-            "ko": "아닌",
-            "ml": "അല്ലാത്ത",
-            "ps": "نه",
-            "ro": "ne-",
-            "ru": "не-",
-            "ta": "இல்லாத",
-            "tl": "sa loob",
-            "ur": "اندر",
+            "am": "ወደ",
+            "ar": "نحو",
+            "es": "hacia",
+            "fa": "سمت",
+            "fr": "vers",
+            "hi": "ओर",
+            "ja": "へ",
+            "ko": "향해",
+            "ml": "നേരെ",
+            "ps": "طرف ته",
+            "ro": "spre",
+            "ru": "к",
+            "ta": "நோக்கி",
+            "tl": "patungo",
+            "ur": "طرف",
+            "vi": "hướng",
+            "zh-Hans": "向",
+            "zh-Hant": "向",
             "other": "نه"
            }
           },
@@ -184211,26 +184277,26 @@
           {
            "surface": "in",
            "type": "prefix",
-           "meaning": "not / into",
+           "meaning": "into",
            "translations": {
-            "zh-Hans": "不 / 进入",
-            "vi": "không / vào",
-            "zh-Hant": "不 / 進入",
-            "am": "ያልሆነ",
-            "ar": "غير",
-            "es": "no / hacia dentro",
-            "fa": "در",
-            "fr": "non",
-            "hi": "नहीं",
-            "ja": "不 / 中へ",
-            "ko": "아닌",
-            "ml": "അല്ലാത്ത",
-            "ps": "نه",
-            "ro": "ne-",
-            "ru": "не-",
-            "ta": "இல்லாத",
-            "tl": "sa loob",
-            "ur": "اندر",
+            "am": "ወደ",
+            "ar": "نحو",
+            "es": "hacia",
+            "fa": "سمت",
+            "fr": "vers",
+            "hi": "ओर",
+            "ja": "へ",
+            "ko": "향해",
+            "ml": "നേരെ",
+            "ps": "طرف ته",
+            "ro": "spre",
+            "ru": "к",
+            "ta": "நோக்கி",
+            "tl": "patungo",
+            "ur": "طرف",
+            "vi": "hướng",
+            "zh-Hans": "向",
+            "zh-Hant": "向",
             "other": "نه"
            }
           },
@@ -186369,7 +186435,8 @@
             "ur": "میں",
             "vi": "vào",
             "zh-Hans": "进入",
-            "zh-Hant": "進入"
+            "zh-Hant": "進入",
+            "other": "نه"
            }
           },
           {
@@ -193049,26 +193116,27 @@
           {
            "surface": "in",
            "type": "prefix",
-           "meaning": "in / into",
+           "meaning": "into",
            "translations": {
-            "am": "ወደ ውስጥ",
-            "ar": "في",
-            "es": "en / hacia dentro",
-            "fa": "در",
-            "fr": "dans",
-            "hi": "में",
-            "ja": "中に",
-            "ko": "안으로",
-            "ml": "അകത്ത്",
-            "ps": "دننه",
-            "ro": "în",
-            "ru": "в",
-            "ta": "உள்ளே",
-            "tl": "sa loob",
-            "ur": "میں",
-            "vi": "trong",
-            "zh-Hans": "在 / 进入",
-            "zh-Hant": "在 / 進入"
+            "am": "ወደ",
+            "ar": "نحو",
+            "es": "hacia",
+            "fa": "سمت",
+            "fr": "vers",
+            "hi": "ओर",
+            "ja": "へ",
+            "ko": "향해",
+            "ml": "നേരെ",
+            "ps": "طرف ته",
+            "ro": "spre",
+            "ru": "к",
+            "ta": "நோக்கி",
+            "tl": "patungo",
+            "ur": "طرف",
+            "vi": "hướng",
+            "zh-Hans": "向",
+            "zh-Hant": "向",
+            "other": "نه"
            }
           },
           {
@@ -193897,7 +193965,8 @@
             "ur": "اندر/پر",
             "vi": "vào/lên",
             "zh-Hans": "进入/在……上",
-            "zh-Hant": "進入/在……上"
+            "zh-Hant": "進入/在……上",
+            "other": "نه"
            }
           },
           {
@@ -200141,26 +200210,26 @@
           {
            "surface": "in",
            "type": "prefix",
-           "meaning": "not / into",
+           "meaning": "into",
            "translations": {
-            "zh-Hans": "不 / 进入",
-            "zh-Hant": "不 / 進入",
-            "ja": "不 / 中へ",
-            "am": "ያልሆነ",
-            "ar": "غير",
-            "es": "no / hacia dentro",
-            "fa": "در",
-            "fr": "non",
-            "hi": "नहीं",
-            "ko": "아닌",
-            "ml": "അല്ലാത്ത",
-            "ps": "نه",
-            "ro": "ne-",
-            "ru": "не-",
-            "ta": "இல்லாத",
-            "tl": "sa loob",
-            "ur": "اندر",
-            "vi": "không/trong",
+            "am": "ወደ",
+            "ar": "نحو",
+            "es": "hacia",
+            "fa": "سمت",
+            "fr": "vers",
+            "hi": "ओर",
+            "ja": "へ",
+            "ko": "향해",
+            "ml": "നേരെ",
+            "ps": "طرف ته",
+            "ro": "spre",
+            "ru": "к",
+            "ta": "நோக்கி",
+            "tl": "patungo",
+            "ur": "طرف",
+            "vi": "hướng",
+            "zh-Hans": "向",
+            "zh-Hant": "向",
             "other": "نه"
            }
           },
@@ -200246,26 +200315,26 @@
           {
            "surface": "in",
            "type": "prefix",
-           "meaning": "not / into",
+           "meaning": "into",
            "translations": {
-            "zh-Hans": "不 / 进入",
-            "zh-Hant": "不 / 進入",
-            "ja": "不 / 中へ",
-            "am": "ያልሆነ",
-            "ar": "غير",
-            "es": "no / hacia dentro",
-            "fa": "در",
-            "fr": "non",
-            "hi": "नहीं",
-            "ko": "아닌",
-            "ml": "അല്ലാത്ത",
-            "ps": "نه",
-            "ro": "ne-",
-            "ru": "не-",
-            "ta": "இல்லாத",
-            "tl": "sa loob",
-            "ur": "اندر",
-            "vi": "không/trong",
+            "am": "ወደ",
+            "ar": "نحو",
+            "es": "hacia",
+            "fa": "سمت",
+            "fr": "vers",
+            "hi": "ओर",
+            "ja": "へ",
+            "ko": "향해",
+            "ml": "നേരെ",
+            "ps": "طرف ته",
+            "ro": "spre",
+            "ru": "к",
+            "ta": "நோக்கி",
+            "tl": "patungo",
+            "ur": "طرف",
+            "vi": "hướng",
+            "zh-Hans": "向",
+            "zh-Hant": "向",
             "other": "نه"
            }
           },
@@ -200640,26 +200709,26 @@
           {
            "surface": "in",
            "type": "prefix",
-           "meaning": "not / into",
+           "meaning": "into",
            "translations": {
-            "zh-Hans": "不 / 进入",
-            "zh-Hant": "不 / 進入",
-            "ja": "不 / 中へ",
-            "am": "ያልሆነ",
-            "ar": "غير",
-            "es": "no / hacia dentro",
-            "fa": "در",
-            "fr": "non",
-            "hi": "नहीं",
-            "ko": "아닌",
-            "ml": "അല്ലാത്ത",
-            "ps": "نه",
-            "ro": "ne-",
-            "ru": "не-",
-            "ta": "இல்லாத",
-            "tl": "sa loob",
-            "ur": "اندر",
-            "vi": "không/trong",
+            "am": "ወደ",
+            "ar": "نحو",
+            "es": "hacia",
+            "fa": "سمت",
+            "fr": "vers",
+            "hi": "ओर",
+            "ja": "へ",
+            "ko": "향해",
+            "ml": "നേരെ",
+            "ps": "طرف ته",
+            "ro": "spre",
+            "ru": "к",
+            "ta": "நோக்கி",
+            "tl": "patungo",
+            "ur": "طرف",
+            "vi": "hướng",
+            "zh-Hans": "向",
+            "zh-Hant": "向",
             "other": "نه"
            }
           },
@@ -207426,24 +207495,25 @@
            "type": "prefix",
            "meaning": "in",
            "translations": {
-            "am": "ውስጥ",
-            "ar": "في",
-            "es": "en",
-            "fa": "در",
-            "fr": "dans",
-            "hi": "में",
-            "ja": "中に",
-            "ko": "안에",
-            "ml": "അകത്ത്",
-            "ps": "کې",
-            "ro": "în",
-            "ru": "в",
-            "ta": "உள்ளே",
-            "tl": "sa loob",
-            "ur": "میں",
-            "vi": "trong",
-            "zh-Hans": "内",
-            "zh-Hant": "內"
+            "am": "ወደ",
+            "ar": "نحو",
+            "es": "hacia",
+            "fa": "سمت",
+            "fr": "vers",
+            "hi": "ओर",
+            "ja": "へ",
+            "ko": "향해",
+            "ml": "നേരെ",
+            "ps": "طرف ته",
+            "ro": "spre",
+            "ru": "к",
+            "ta": "நோக்கி",
+            "tl": "patungo",
+            "ur": "طرف",
+            "vi": "hướng",
+            "zh-Hans": "向",
+            "zh-Hant": "向",
+            "other": "نه"
            }
           },
           {
@@ -214773,26 +214843,27 @@
           {
            "surface": "in",
            "type": "prefix",
-           "meaning": "in/into",
+           "meaning": "into",
            "translations": {
-            "zh-Hans": "在/进入",
-            "zh-Hant": "在/進入",
-            "am": "ወደ ውስጥ",
-            "ar": "في",
-            "es": "en / hacia dentro",
-            "fa": "در",
-            "fr": "dans",
-            "hi": "में",
-            "ja": "中に",
-            "ko": "안으로",
-            "ml": "അകത്ത്",
-            "ps": "دننه",
-            "ro": "în",
-            "ru": "в",
-            "ta": "உள்ளே",
-            "tl": "sa loob",
-            "ur": "میں",
-            "vi": "trong"
+            "am": "ወደ",
+            "ar": "نحو",
+            "es": "hacia",
+            "fa": "سمت",
+            "fr": "vers",
+            "hi": "ओर",
+            "ja": "へ",
+            "ko": "향해",
+            "ml": "നേരെ",
+            "ps": "طرف ته",
+            "ro": "spre",
+            "ru": "к",
+            "ta": "நோக்கி",
+            "tl": "patungo",
+            "ur": "طرف",
+            "vi": "hướng",
+            "zh-Hans": "向",
+            "zh-Hant": "向",
+            "other": "نه"
            }
           },
           {
@@ -215187,26 +215258,27 @@
           {
            "surface": "in",
            "type": "prefix",
-           "meaning": "in/into",
+           "meaning": "into",
            "translations": {
-            "zh-Hans": "在/进入",
-            "zh-Hant": "在/進入",
-            "am": "ወደ ውስጥ",
-            "ar": "في",
-            "es": "en / hacia dentro",
-            "fa": "در",
-            "fr": "dans",
-            "hi": "में",
-            "ja": "中に",
-            "ko": "안으로",
-            "ml": "അകത്ത്",
-            "ps": "دننه",
-            "ro": "în",
-            "ru": "в",
-            "ta": "உள்ளே",
-            "tl": "sa loob",
-            "ur": "میں",
-            "vi": "trong"
+            "am": "ወደ",
+            "ar": "نحو",
+            "es": "hacia",
+            "fa": "سمت",
+            "fr": "vers",
+            "hi": "ओर",
+            "ja": "へ",
+            "ko": "향해",
+            "ml": "നേരെ",
+            "ps": "طرف ته",
+            "ro": "spre",
+            "ru": "к",
+            "ta": "நோக்கி",
+            "tl": "patungo",
+            "ur": "طرف",
+            "vi": "hướng",
+            "zh-Hans": "向",
+            "zh-Hant": "向",
+            "other": "نه"
            }
           },
           {
@@ -220027,27 +220099,27 @@
           },
           {
            "surface": "ion",
-           "type": "root",
-           "meaning": "charged particle",
+           "type": "suffix",
+           "meaning": "act/process",
            "translations": {
-            "fa": "یون",
-            "zh-Hans": "离子",
-            "vi": "ion",
-            "zh-Hant": "離子",
-            "am": "አዮን",
-            "ar": "أيون",
-            "es": "partícula cargada",
-            "fr": "ion",
-            "hi": "आयन",
-            "ja": "イオン",
-            "ko": "이온",
-            "ml": "അയോൺ",
-            "ps": "آیون",
-            "ro": "ion",
-            "ru": "ион",
-            "ta": "அயனி",
-            "tl": "ion",
-            "ur": "آئن"
+            "fa": "فرایند/عمل",
+            "am": "ሂደት/ድርጊት",
+            "ar": "عملية/فعل",
+            "es": "proceso/acción",
+            "fr": "processus/action",
+            "hi": "प्रक्रिया/क्रिया",
+            "ja": "過程/作用",
+            "ko": "과정/작용",
+            "ml": "പ്രക്രിയ/പ്രവർത്തനം",
+            "ps": "بهیر/کړنه",
+            "ro": "proces/acțiune",
+            "ru": "процесс/действие",
+            "ta": "செயல்முறை/செயல்",
+            "tl": "proseso/kilos",
+            "ur": "عمل/فعل",
+            "vi": "quá trình/hành động",
+            "zh-Hans": "过程/动作",
+            "zh-Hant": "過程/動作"
            }
           }
          ],
@@ -222552,12 +222624,14 @@
            }
           },
           {
-           "surface": "nom",
+           "surface": "nomin",
            "type": "root",
            "meaning": "name",
            "translations": {
-            "zh-Hans": "名称",
+            "vi": "gọi tên",
             "fa": "نام",
+            "zh-Hans": "名称",
+            "ru": "имя",
             "zh-Hant": "名稱",
             "am": "ስም",
             "ar": "اسم",
@@ -222569,89 +222643,34 @@
             "ml": "പേര്",
             "ps": "نوم",
             "ro": "nume",
-            "ru": "имя",
             "ta": "பெயர்",
             "tl": "pangalan",
-            "ur": "نام",
-            "vi": "tên"
+            "ur": "نام"
            }
           },
           {
-           "surface": "in",
+           "surface": "ator",
            "type": "suffix",
-           "meaning": "not/into",
+           "meaning": "agent or thing that does",
            "translations": {
-            "zh-Hans": "进入",
-            "fa": "در",
-            "zh-Hant": "進入",
-            "am": "ያልሆነ",
-            "ar": "غير",
-            "es": "no / hacia dentro",
-            "fr": "non",
-            "hi": "नहीं",
-            "ja": "不 / 中へ",
-            "ko": "아닌",
-            "ml": "അല്ലാത്ത",
-            "ps": "نه",
-            "ro": "ne-",
-            "ru": "не-",
-            "ta": "இல்லாத",
-            "tl": "sa loob",
-            "ur": "اندر",
-            "vi": "không/trong",
-            "other": "نه"
-           }
-          },
-          {
-           "surface": "at",
-           "type": "suffix",
-           "meaning": "action/process",
-           "translations": {
-            "zh-Hans": "行为",
-            "fa": "عمل",
-            "zh-Hant": "行爲",
-            "am": "ተግባር",
-            "ar": "عملية",
-            "es": "acción/proceso",
-            "fr": "action",
-            "hi": "क्रिया",
-            "ja": "行為",
-            "ko": "행위",
-            "ml": "പ്രവർത്തനം",
-            "ps": "عمل",
-            "ro": "acțiune",
-            "ru": "действие",
-            "ta": "செயல்",
-            "tl": "aksyon",
-            "ur": "عمل",
-            "vi": "hành động",
-            "other": "عمل"
-           }
-          },
-          {
-           "surface": "or",
-           "type": "suffix",
-           "meaning": "person/thing that",
-           "translations": {
-            "zh-Hans": "者",
+            "vi": "người / vật",
             "fa": "کننده",
+            "zh-Hans": "者",
+            "ru": "тот кто",
             "zh-Hant": "者",
-            "am": "-ኛ",
-            "ar": "من",
-            "es": "persona/cosa que",
-            "fr": "celui/ce qui",
+            "am": "አድራጊ",
+            "ar": "فاعل / أداة",
+            "es": "agente o cosa que hace",
+            "fr": "agent / celui qui fait",
             "hi": "करने वाला",
-            "ja": "者",
-            "ko": "～하는 사람",
-            "ml": "-കൻ",
+            "ja": "〜する者",
+            "ko": "하는 사람/것",
+            "ml": "ചെയ്യുന്നയാൾ / ഉപകരണം",
             "ps": "کوونکی",
-            "ro": "-or",
-            "ru": "тот, кто",
-            "ta": "செய்பவர்",
-            "tl": "ang gumagawa",
-            "ur": "کرنے والا",
-            "vi": "-người / vật",
-            "other": "کننده"
+            "ro": "agent / cel care face",
+            "ta": "செய்பவர் / கருவி",
+            "tl": "tagagawa",
+            "ur": "کرنے والا"
            }
           }
          ],
@@ -234096,7 +234115,8 @@
             "ru": "в",
             "ta": "உள்ளே",
             "tl": "sa loob ng",
-            "ur": "میں"
+            "ur": "میں",
+            "other": "نه"
            }
           },
           {
@@ -234305,7 +234325,8 @@
             "ru": "в",
             "ta": "உள்ளே",
             "tl": "sa loob ng",
-            "ur": "میں"
+            "ur": "میں",
+            "other": "نه"
            }
           },
           {
@@ -250250,26 +250271,27 @@
           {
            "surface": "em",
            "type": "prefix",
-           "meaning": "in, into",
+           "meaning": "into",
            "translations": {
-            "am": "ወደ ውስጥ",
-            "ar": "داخل",
-            "fa": "درون",
-            "ml": "ഉള്ളിലേക്ക്",
-            "ur": "اندر",
-            "zh-Hans": "进入",
-            "zh-Hant": "進入",
-            "es": "en/hacia dentro",
-            "fr": "dans / en",
-            "hi": "में / अंदर",
-            "ja": "中に／中へ",
-            "ko": "안에 / 안으로",
-            "ps": "په ... کې / دننه",
-            "ro": "în / înăuntru",
-            "ru": "в / внутрь",
-            "ta": "உள்ளே / உள்நோக்கி",
-            "tl": "sa loob / papaloob",
-            "vi": "trong / vào trong"
+            "am": "ወደ",
+            "ar": "نحو",
+            "es": "hacia",
+            "fa": "سمت",
+            "fr": "vers",
+            "hi": "ओर",
+            "ja": "へ",
+            "ko": "향해",
+            "ml": "നേരെ",
+            "ps": "طرف ته",
+            "ro": "spre",
+            "ru": "к",
+            "ta": "நோக்கி",
+            "tl": "patungo",
+            "ur": "طرف",
+            "vi": "hướng",
+            "zh-Hans": "向",
+            "zh-Hant": "向",
+            "other": "نه"
            }
           },
           {
@@ -250353,26 +250375,27 @@
           {
            "surface": "em",
            "type": "prefix",
-           "meaning": "in, into",
+           "meaning": "into",
            "translations": {
-            "am": "ወደ ውስጥ",
-            "ar": "داخل",
-            "fa": "درون",
-            "ml": "ഉള്ളിലേക്ക്",
-            "ur": "اندر",
-            "zh-Hans": "进入",
-            "zh-Hant": "進入",
-            "es": "en/hacia dentro",
-            "fr": "dans / en",
-            "hi": "में / अंदर",
-            "ja": "中に／中へ",
-            "ko": "안에 / 안으로",
-            "ps": "په ... کې / دننه",
-            "ro": "în / înăuntru",
-            "ru": "в / внутрь",
-            "ta": "உள்ளே / உள்நோக்கி",
-            "tl": "sa loob / papaloob",
-            "vi": "trong / vào trong"
+            "am": "ወደ",
+            "ar": "نحو",
+            "es": "hacia",
+            "fa": "سمت",
+            "fr": "vers",
+            "hi": "ओर",
+            "ja": "へ",
+            "ko": "향해",
+            "ml": "നേരെ",
+            "ps": "طرف ته",
+            "ro": "spre",
+            "ru": "к",
+            "ta": "நோக்கி",
+            "tl": "patungo",
+            "ur": "طرف",
+            "vi": "hướng",
+            "zh-Hans": "向",
+            "zh-Hant": "向",
+            "other": "نه"
            }
           },
           {
@@ -250875,24 +250898,25 @@
            "type": "prefix",
            "meaning": "in",
            "translations": {
-            "am": "ውስጥ",
-            "ar": "في",
-            "fa": "در",
-            "ml": "ഉള്ളിൽ",
-            "ur": "میں",
-            "zh-Hans": "在",
-            "zh-Hant": "在",
-            "es": "en",
-            "fr": "dans",
-            "hi": "में",
-            "ja": "中に",
-            "ko": "안에",
-            "ps": "پکې",
-            "ro": "în",
-            "ru": "в",
-            "ta": "உள்ளே",
-            "tl": "sa loob",
-            "vi": "trong"
+            "am": "ወደ",
+            "ar": "نحو",
+            "es": "hacia",
+            "fa": "سمت",
+            "fr": "vers",
+            "hi": "ओर",
+            "ja": "へ",
+            "ko": "향해",
+            "ml": "നേരെ",
+            "ps": "طرف ته",
+            "ro": "spre",
+            "ru": "к",
+            "ta": "நோக்கி",
+            "tl": "patungo",
+            "ur": "طرف",
+            "vi": "hướng",
+            "zh-Hans": "向",
+            "zh-Hant": "向",
+            "other": "نه"
            }
           },
           {
@@ -259957,7 +259981,8 @@
             "ur": "پر، میں",
             "vi": "lên, trong",
             "zh-Hans": "在…上，在…内",
-            "zh-Hant": "在…上，在…內"
+            "zh-Hant": "在…上，在…內",
+            "other": "نه"
            }
           },
           {
@@ -262380,7 +262405,8 @@
             "ur": "میں، پر",
             "vi": "trong, lên",
             "zh-Hans": "里、上",
-            "zh-Hant": "裡、上"
+            "zh-Hant": "裡、上",
+            "other": "نه"
            }
           },
           {
@@ -265883,7 +265909,8 @@
             "ur": "میں",
             "vi": "trong",
             "zh-Hans": "在 / 进入",
-            "zh-Hant": "在 / 進入"
+            "zh-Hant": "在 / 進入",
+            "other": "نه"
            }
           },
           {
@@ -270250,13 +270277,26 @@
           {
            "surface": "re",
            "type": "prefix",
-           "meaning": "again; closely",
+           "meaning": "again",
            "translations": {
-            "zh-Hans": "再次；仔细地",
-            "ja": "再び；よく",
-            "fa": "دوباره؛ با دقت",
-            "vi": "lại; kỹ",
-            "zh-Hant": "再次；仔細地"
+            "fa": "دوباره/باز",
+            "am": "እንደገና",
+            "ar": "مرة أخرى",
+            "es": "de nuevo / atrás",
+            "fr": "de nouveau / en arrière",
+            "hi": "फिर से / वापस",
+            "ja": "再び / 戻る",
+            "ko": "다시 / 뒤로",
+            "ml": "വീണ്ടും",
+            "ps": "بیا / شاته",
+            "ro": "din nou / înapoi",
+            "ru": "снова / назад",
+            "ta": "மீண்டும் / பின்",
+            "tl": "muli / pabalik",
+            "ur": "دوبارہ / واپس",
+            "vi": "lại",
+            "zh-Hans": "再次；回",
+            "zh-Hant": "再次；回"
            }
           },
           {
@@ -281953,12 +281993,14 @@
            }
           },
           {
-           "surface": "nom",
+           "surface": "nomin",
            "type": "root",
            "meaning": "name",
            "translations": {
-            "zh-Hans": "名称",
+            "vi": "gọi tên",
             "fa": "نام",
+            "zh-Hans": "名称",
+            "ru": "имя",
             "zh-Hant": "名稱",
             "am": "ስም",
             "ar": "اسم",
@@ -281970,89 +282012,34 @@
             "ml": "പേര്",
             "ps": "نوم",
             "ro": "nume",
-            "ru": "имя",
             "ta": "பெயர்",
             "tl": "pangalan",
-            "ur": "نام",
-            "vi": "tên"
+            "ur": "نام"
            }
           },
           {
-           "surface": "in",
+           "surface": "ator",
            "type": "suffix",
-           "meaning": "not/into",
+           "meaning": "agent or thing that does",
            "translations": {
-            "zh-Hans": "进入",
-            "fa": "در",
-            "zh-Hant": "進入",
-            "am": "ያልሆነ",
-            "ar": "غير",
-            "es": "no / hacia dentro",
-            "fr": "non",
-            "hi": "नहीं",
-            "ja": "不 / 中へ",
-            "ko": "아닌",
-            "ml": "അല്ലാത്ത",
-            "ps": "نه",
-            "ro": "ne-",
-            "ru": "не-",
-            "ta": "இல்லாத",
-            "tl": "sa loob",
-            "ur": "اندر",
-            "vi": "không/trong",
-            "other": "نه"
-           }
-          },
-          {
-           "surface": "at",
-           "type": "suffix",
-           "meaning": "action/process",
-           "translations": {
-            "zh-Hans": "行为",
-            "fa": "عمل",
-            "zh-Hant": "行爲",
-            "am": "ተግባር",
-            "ar": "عملية",
-            "es": "acción/proceso",
-            "fr": "action",
-            "hi": "क्रिया",
-            "ja": "行為",
-            "ko": "행위",
-            "ml": "പ്രവർത്തനം",
-            "ps": "عمل",
-            "ro": "acțiune",
-            "ru": "действие",
-            "ta": "செயல்",
-            "tl": "aksyon",
-            "ur": "عمل",
-            "vi": "hành động",
-            "other": "عمل"
-           }
-          },
-          {
-           "surface": "or",
-           "type": "suffix",
-           "meaning": "person/thing that",
-           "translations": {
-            "zh-Hans": "者",
+            "vi": "người / vật",
             "fa": "کننده",
+            "zh-Hans": "者",
+            "ru": "тот кто",
             "zh-Hant": "者",
-            "am": "-ኛ",
-            "ar": "من",
-            "es": "persona/cosa que",
-            "fr": "celui/ce qui",
+            "am": "አድራጊ",
+            "ar": "فاعل / أداة",
+            "es": "agente o cosa que hace",
+            "fr": "agent / celui qui fait",
             "hi": "करने वाला",
-            "ja": "者",
-            "ko": "～하는 사람",
-            "ml": "-കൻ",
+            "ja": "〜する者",
+            "ko": "하는 사람/것",
+            "ml": "ചെയ്യുന്നയാൾ / ഉപകരണം",
             "ps": "کوونکی",
-            "ro": "-or",
-            "ru": "тот, кто",
-            "ta": "செய்பவர்",
-            "tl": "ang gumagawa",
-            "ur": "کرنے والا",
-            "vi": "-người / vật",
-            "other": "کننده"
+            "ro": "agent / cel care face",
+            "ta": "செய்பவர் / கருவி",
+            "tl": "tagagawa",
+            "ur": "کرنے والا"
            }
           }
          ],
@@ -302901,7 +302888,8 @@
             "ur": "میں",
             "vi": "trong",
             "zh-Hans": "在 / 进入",
-            "zh-Hant": "在 / 進入"
+            "zh-Hant": "在 / 進入",
+            "other": "نه"
            }
           },
           {
@@ -338423,6 +338411,16 @@
    "words": [
     [
      "denominator",
+     "elc/mathematics/probability-basics",
+     "ator"
+    ],
+    [
+     "denominator",
+     "year-8/mathematics/algebra",
+     "ator"
+    ],
+    [
+     "denominator",
      "year-8/mathematics/equations-inequalities",
      "ator"
     ],
@@ -338496,11 +338494,6 @@
      "at"
     ],
     [
-     "denominator",
-     "elc/mathematics/probability-basics",
-     "at"
-    ],
-    [
      "numerator",
      "elc/mathematics/probability-basics",
      "at"
@@ -338548,11 +338541,6 @@
     [
      "evaluate",
      "year-7/mathematics/number",
-     "at"
-    ],
-    [
-     "denominator",
-     "year-8/mathematics/algebra",
      "at"
     ],
     [
@@ -344582,14 +344570,19 @@
     ]
    ]
   },
-  "em|in/into": {
+  "em|into": {
    "surface": "em",
-   "meaning": "in/into",
+   "meaning": "into",
    "type": "prefix",
    "words": [
     [
      "embedded",
      "vce/eal/unit-1-aos-1",
+     "em"
+    ],
+    [
+     "embed",
+     "vce/theatre-studies/unit-4-aos-2",
      "em"
     ],
     [
@@ -349967,8 +349960,18 @@
      "im"
     ],
     [
+     "implications",
+     "vce/math-methods/unit-1-aos-1",
+     "im"
+    ],
+    [
      "implication",
      "vce/philosophy/unit-2-aos-3",
+     "im"
+    ],
+    [
+     "improvement",
+     "year-10/geography/topics-2-4",
      "im"
     ]
    ]
@@ -350731,48 +350734,6 @@
     ]
    ]
   },
-  "in|in/into": {
-   "surface": "in",
-   "meaning": "in/into",
-   "type": "prefix",
-   "words": [
-    [
-     "inflammatory",
-     "vce/biology/unit-4-aos-1",
-     "in"
-    ],
-    [
-     "disincentive",
-     "vce/economics/unit-1-aos-3",
-     "in"
-    ],
-    [
-     "incentive",
-     "vce/economics/unit-1-aos-3",
-     "in"
-    ],
-    [
-     "inclusion",
-     "vce/vm-personal-development-skills/unit-2-aos-2",
-     "in"
-    ],
-    [
-     "investigate",
-     "year-10/forensic-science/intro-crime-scene",
-     "in"
-    ],
-    [
-     "indicator",
-     "year-9/humanities/economics",
-     "in"
-    ],
-    [
-     "inflation",
-     "year-9/humanities/economics",
-     "in"
-    ]
-   ]
-  },
   "in|in/toward": {
    "surface": "in",
    "meaning": "in/toward",
@@ -350803,6 +350764,26 @@
     [
      "intrusion",
      "vce/applied-computing/unit-2-aos-2",
+     "in"
+    ],
+    [
+     "inflammatory",
+     "vce/biology/unit-4-aos-1",
+     "in"
+    ],
+    [
+     "incorporated",
+     "vce/business-management/unit-1-aos-2",
+     "in"
+    ],
+    [
+     "influenced",
+     "vce/business-management/unit-1-aos-2",
+     "in"
+    ],
+    [
+     "unincorporated",
+     "vce/business-management/unit-1-aos-2",
      "in"
     ],
     [
@@ -350861,6 +350842,16 @@
      "in"
     ],
     [
+     "disincentive",
+     "vce/economics/unit-1-aos-3",
+     "in"
+    ],
+    [
+     "incentive",
+     "vce/economics/unit-1-aos-3",
+     "in"
+    ],
+    [
      "inflation",
      "vce/economics/unit-2-aos-1",
      "in"
@@ -350888,6 +350879,11 @@
     [
      "investment",
      "vce/geography/unit-2-aos-1",
+     "in"
+    ],
+    [
+     "incidence",
+     "vce/health/year-12-health",
      "in"
     ],
     [
@@ -350961,6 +350957,31 @@
      "in"
     ],
     [
+     "inclusion",
+     "vce/vm-personal-development-skills/unit-2-aos-2",
+     "in"
+    ],
+    [
+     "inheritance",
+     "year-10/biology/build-biology",
+     "in"
+    ],
+    [
+     "investigate",
+     "year-10/forensic-science/intro-crime-scene",
+     "in"
+    ],
+    [
+     "incentive",
+     "year-10/humanities/politics",
+     "in"
+    ],
+    [
+     "innovation",
+     "year-10/humanities/politics",
+     "in"
+    ],
+    [
      "incorporate",
      "year-10/sports-science/vocab-list",
      "in"
@@ -350978,6 +350999,31 @@
     [
      "investment",
      "year-8/humanities/business-economics",
+     "in"
+    ],
+    [
+     "indicator",
+     "year-9/humanities/economics",
+     "in"
+    ],
+    [
+     "inflation",
+     "year-9/humanities/economics",
+     "in"
+    ],
+    [
+     "infection",
+     "year-9/science/fighting-infections",
+     "in"
+    ],
+    [
+     "infectious",
+     "year-9/science/fighting-infections",
+     "in"
+    ],
+    [
+     "inflammation",
+     "year-9/science/fighting-infections",
      "in"
     ]
    ]
@@ -351117,73 +351163,6 @@
     [
      "independent",
      "year-9/humanities/political-systems",
-     "in"
-    ]
-   ]
-  },
-  "in|not/into": {
-   "surface": "in",
-   "meaning": "not/into",
-   "type": "prefix",
-   "words": [
-    [
-     "denominator",
-     "elc/mathematics/probability-basics",
-     "in"
-    ],
-    [
-     "incorporated",
-     "vce/business-management/unit-1-aos-2",
-     "in"
-    ],
-    [
-     "influenced",
-     "vce/business-management/unit-1-aos-2",
-     "in"
-    ],
-    [
-     "unincorporated",
-     "vce/business-management/unit-1-aos-2",
-     "in"
-    ],
-    [
-     "incidence",
-     "vce/health/year-12-health",
-     "in"
-    ],
-    [
-     "inheritance",
-     "year-10/biology/build-biology",
-     "in"
-    ],
-    [
-     "incentive",
-     "year-10/humanities/politics",
-     "in"
-    ],
-    [
-     "innovation",
-     "year-10/humanities/politics",
-     "in"
-    ],
-    [
-     "denominator",
-     "year-8/mathematics/algebra",
-     "in"
-    ],
-    [
-     "infection",
-     "year-9/science/fighting-infections",
-     "in"
-    ],
-    [
-     "infectious",
-     "year-9/science/fighting-infections",
-     "in"
-    ],
-    [
-     "inflammation",
-     "year-9/science/fighting-infections",
      "in"
     ]
    ]
@@ -351807,6 +351786,21 @@
      "ion"
     ],
     [
+     "education",
+     "year-10/chemistry/unit-1",
+     "ion"
+    ],
+    [
+     "revision",
+     "year-10/chemistry/unit-1",
+     "ion"
+    ],
+    [
+     "simulation",
+     "year-10/chemistry/unit-1",
+     "ion"
+    ],
+    [
      "disruption",
      "year-10/commerce/unit-1",
      "ion"
@@ -351909,6 +351903,11 @@
     [
      "subtraction",
      "year-8/mathematics/algebra",
+     "ion"
+    ],
+    [
+     "reaction",
+     "year-8/science/chemistry",
      "ion"
     ],
     [
@@ -352085,12 +352084,27 @@
    "type": "root",
    "words": [
     [
-     "ion",
-     "year-8/science/chemistry",
+     "anion",
+     "year-10/chemistry/unit-1",
      "ion"
     ],
     [
-     "reaction",
+     "cation",
+     "year-10/chemistry/unit-1",
+     "ion"
+    ],
+    [
+     "ionic",
+     "year-10/chemistry/unit-1",
+     "ion"
+    ],
+    [
+     "ionization",
+     "year-10/chemistry/unit-1",
+     "ion"
+    ],
+    [
+     "ion",
      "year-8/science/chemistry",
      "ion"
     ],
@@ -352535,48 +352549,6 @@
     [
      "malfunction",
      "vce/biology/unit-1-aos-1",
-     "ion"
-    ]
-   ]
-  },
-  "ion|process/particle": {
-   "surface": "ion",
-   "meaning": "process/particle",
-   "type": "suffix",
-   "words": [
-    [
-     "anion",
-     "year-10/chemistry/unit-1",
-     "ion"
-    ],
-    [
-     "cation",
-     "year-10/chemistry/unit-1",
-     "ion"
-    ],
-    [
-     "education",
-     "year-10/chemistry/unit-1",
-     "ion"
-    ],
-    [
-     "ionic",
-     "year-10/chemistry/unit-1",
-     "ion"
-    ],
-    [
-     "ionization",
-     "year-10/chemistry/unit-1",
-     "ion"
-    ],
-    [
-     "revision",
-     "year-10/chemistry/unit-1",
-     "ion"
-    ],
-    [
-     "simulation",
-     "year-10/chemistry/unit-1",
      "ion"
     ]
    ]
@@ -357808,8 +357780,18 @@
    "type": "root",
    "words": [
     [
+     "denominator",
+     "elc/mathematics/probability-basics",
+     "nomin"
+    ],
+    [
      "nominal",
      "year-7/mathematics/data-types",
+     "nomin"
+    ],
+    [
+     "denominator",
+     "year-8/mathematics/algebra",
      "nomin"
     ],
     [
@@ -357886,23 +357868,6 @@
     [
      "microeconomics",
      "vce/economics/unit-1-aos-1",
-     "nom"
-    ]
-   ]
-  },
-  "nom|name": {
-   "surface": "nom",
-   "meaning": "name",
-   "type": "root",
-   "words": [
-    [
-     "denominator",
-     "elc/mathematics/probability-basics",
-     "nom"
-    ],
-    [
-     "denominator",
-     "year-8/mathematics/algebra",
      "nom"
     ]
    ]
@@ -358665,11 +358630,6 @@
      "or"
     ],
     [
-     "denominator",
-     "elc/mathematics/probability-basics",
-     "or"
-    ],
-    [
      "numerator",
      "elc/mathematics/probability-basics",
      "or"
@@ -358692,11 +358652,6 @@
     [
      "factor",
      "year-7/mathematics/number",
-     "or"
-    ],
-    [
-     "denominator",
-     "year-8/mathematics/algebra",
      "or"
     ],
     [
@@ -362237,6 +362192,11 @@
    "meaning": "again",
    "type": "prefix",
    "words": [
+    [
+     "remark",
+     "elc/english/ironbark-stanza-8",
+     "re"
+    ],
     [
      "reconciliation",
      "elc/humanities/general-vocabulary",
@@ -373096,7 +373056,8 @@
      "ate"
     ]
    ],
-   "extras": []
+   "extras": [],
+   "origin": "Latin"
   },
   "ate|to make/do": {
    "surface": "ate",
@@ -373579,7 +373540,8 @@
     "celebrate",
     "educate",
     "motivate"
-   ]
+   ],
+   "origin": "Latin"
   },
   "ating|doing": {
    "surface": "ating",
@@ -375278,6 +375240,16 @@
      "indicator",
      "vce/accounting/unit-2-aos-1",
      "ator"
+    ],
+    [
+     "denominator",
+     "year-8/mathematics/algebra",
+     "ator"
+    ],
+    [
+     "denominator",
+     "elc/mathematics/probability-basics",
+     "ator"
     ]
    ],
    "extras": []
@@ -376051,7 +376023,8 @@
     "anonymous",
     "atheist",
     "amorphous"
-   ]
+   ],
+   "origin": "Greek"
   },
   "a|noun ending": {
    "surface": "a",
@@ -376142,7 +376115,8 @@
      "a"
     ]
    ],
-   "extras": []
+   "extras": [],
+   "origin": "Latin"
   },
   "back|behind/rear": {
    "surface": "back",
@@ -378012,13 +377986,7 @@
    "type": "root",
    "gloss": "center",
    "aka": [],
-   "words": [
-    [
-     "centralised",
-     "year-8/humanities/shogun",
-     "centr"
-    ]
-   ],
+   "words": [],
    "extras": []
   },
   "centr|centre": {
@@ -386867,7 +386835,6 @@
     "on/into",
     "to make/put into",
     "to put into a state",
-    "in/into",
     "in",
     "into",
     "to put into a state of",
@@ -396244,165 +396211,28 @@
    ],
    "extras": []
   },
-  "in|in": {
-   "surface": "in",
-   "variants": [
-    "in",
-    "im",
-    "ir"
-   ],
-   "type": "prefix",
-   "gloss": "in",
-   "aka": [
-    "in/toward",
-    "in/onto",
-    "in/within",
-    "in/into",
-    "in/into (variant of in)",
-    "onto/in (the shape in- takes before r)"
-   ],
-   "words": [
-    [
-     "imagery",
-     "year-7/english/film",
-     "im"
-    ],
-    [
-     "implement",
-     "year-10/commerce/unit-1",
-     "im"
-    ],
-    [
-     "implementation",
-     "vce/vm-personal-development-skills/unit-4-aos-1",
-     "im"
-    ],
-    [
-     "implications",
-     "vce/math-methods/unit-1-aos-1",
-     "im"
-    ],
-    [
-     "implicit",
-     "vce/eal/unit-4-aos-1",
-     "im"
-    ],
-    [
-     "imports",
-     "vce/economics/unit-2-aos-2b",
-     "im"
-    ],
-    [
-     "impromptu",
-     "vce/eal/extra-vocab",
-     "im"
-    ],
-    [
-     "incentive",
-     "vce/economics/unit-1-aos-1",
-     "in"
-    ],
-    [
-     "inclusive",
-     "vce/theatre-studies/unit-2-aos-2",
-     "in"
-    ],
-    [
-     "income statement",
-     "vce/accounting/unit-1-aos-1",
-     "in"
-    ],
-    [
-     "indicator",
-     "vce/accounting/unit-2-aos-1",
-     "in"
-    ],
-    [
-     "induction",
-     "year-9/science/magnetism",
-     "in"
-    ],
-    [
-     "misinformation",
-     "vce/food-studies/unit-4-aos-1",
-     "in"
-    ],
-    [
-     "terminology",
-     "vce/accounting/unit-1-aos-1",
-     "in"
-    ],
-    [
-     "inflammatory",
-     "vce/biology/unit-4-aos-1",
-     "in"
-    ],
-    [
-     "incentive",
-     "vce/economics/unit-1-aos-3",
-     "in"
-    ],
-    [
-     "disincentive",
-     "vce/economics/unit-1-aos-3",
-     "in"
-    ],
-    [
-     "inclusive",
-     "vce/visual-communication-design/unit-2-aos-3",
-     "in"
-    ],
-    [
-     "inclusion",
-     "vce/vm-personal-development-skills/unit-2-aos-2",
-     "in"
-    ],
-    [
-     "investigate",
-     "year-10/forensic-science/intro-crime-scene",
-     "in"
-    ],
-    [
-     "inflation",
-     "year-9/humanities/economics",
-     "in"
-    ],
-    [
-     "indicator",
-     "year-9/humanities/economics",
-     "in"
-    ],
-    [
-     "irrigation",
-     "year-7/humanities-civics/water-2-1",
-     "ir"
-    ],
-    [
-     "inundation",
-     "year-7/humanities-civics/water-3-2",
-     "in"
-    ]
-   ],
-   "extras": [
-    "import",
-    "impose",
-    "imprint",
-    "immerse"
-   ]
-  },
   "in|into": {
    "surface": "in",
    "variants": [
     "in",
-    "im"
+    "im",
+    "em",
+    "ir"
    ],
    "type": "prefix",
    "gloss": "into",
    "aka": [
-    "not/into",
-    "in/into",
     "into/in",
-    "into/onto"
+    "into/onto",
+    "in",
+    "in/toward",
+    "in/onto",
+    "in/within",
+    "in/into (variant of in)",
+    "onto/in (the shape in- takes before r)",
+    "toward",
+    "upon",
+    "upon/against"
    ],
    "words": [
     [
@@ -396724,6 +396554,131 @@
      "financial implications",
      "vce/accounting/unit-1-aos-1",
      "im"
+    ],
+    [
+     "indicator",
+     "vce/chemistry/unit-2-aos-2",
+     "in"
+    ],
+    [
+     "instantaneous",
+     "vce/math-methods/unit-2-aos-3",
+     "in"
+    ],
+    [
+     "terminology",
+     "vce/accounting/unit-1-aos-1",
+     "in"
+    ],
+    [
+     "income statement",
+     "vce/accounting/unit-1-aos-1",
+     "in"
+    ],
+    [
+     "indicator",
+     "vce/accounting/unit-2-aos-1",
+     "in"
+    ],
+    [
+     "incentive",
+     "vce/economics/unit-1-aos-1",
+     "in"
+    ],
+    [
+     "incentive",
+     "vce/economics/unit-1-aos-3",
+     "in"
+    ],
+    [
+     "imports",
+     "vce/economics/unit-2-aos-2b",
+     "im"
+    ],
+    [
+     "impromptu",
+     "vce/eal/extra-vocab",
+     "im"
+    ],
+    [
+     "implicit",
+     "vce/eal/unit-4-aos-1",
+     "im"
+    ],
+    [
+     "misinformation",
+     "vce/food-studies/unit-4-aos-1",
+     "in"
+    ],
+    [
+     "injunction",
+     "vce/legal-studies/unit-2-aos-2",
+     "in"
+    ],
+    [
+     "intended",
+     "vce/music/unit-2-aos-2",
+     "in"
+    ],
+    [
+     "inclusive",
+     "vce/theatre-studies/unit-2-aos-2",
+     "in"
+    ],
+    [
+     "intention",
+     "vce/theatre-studies/unit-4-aos-1",
+     "in"
+    ],
+    [
+     "inclusive",
+     "vce/visual-communication-design/unit-2-aos-3",
+     "in"
+    ],
+    [
+     "inclusion",
+     "vce/vm-personal-development-skills/unit-2-aos-2",
+     "in"
+    ],
+    [
+     "implementation",
+     "vce/vm-personal-development-skills/unit-4-aos-1",
+     "im"
+    ],
+    [
+     "implement",
+     "year-10/commerce/unit-1",
+     "im"
+    ],
+    [
+     "induction",
+     "year-9/science/magnetism",
+     "in"
+    ],
+    [
+     "inflation",
+     "year-9/humanities/economics",
+     "in"
+    ],
+    [
+     "imagery",
+     "year-7/english/film",
+     "im"
+    ],
+    [
+     "inundation",
+     "year-7/humanities-civics/water-3-2",
+     "in"
+    ],
+    [
+     "irrigation",
+     "year-7/humanities-civics/water-2-1",
+     "ir"
+    ],
+    [
+     "implications",
+     "vce/math-methods/unit-1-aos-1",
+     "im"
     ]
    ],
    "extras": [
@@ -396736,7 +396691,8 @@
     "implant",
     "imprison",
     "immerse"
-   ]
+   ],
+   "origin": "Latin"
   },
   "in|member of a group": {
    "surface": "in",
@@ -396766,8 +396722,7 @@
    "gloss": "not",
    "aka": [
     "not/opposite",
-    "in/not",
-    "not/into"
+    "in/not"
    ],
    "words": [
     [
@@ -396803,11 +396758,6 @@
     [
      "impossible",
      "year-7/mathematics/chance",
-     "im"
-    ],
-    [
-     "improvement",
-     "year-10/geography/topics-2-4",
      "im"
     ],
     [
@@ -396968,7 +396918,8 @@
     "immature",
     "improper",
     "immobile"
-   ]
+   ],
+   "origin": "Latin"
   },
   "in|the thing that": {
    "surface": "in",
@@ -396985,61 +396936,6 @@
      "in"
     ]
    ]
-  },
-  "in|toward": {
-   "surface": "in",
-   "variants": [
-    "in"
-   ],
-   "type": "prefix",
-   "gloss": "toward",
-   "aka": [],
-   "words": [
-    [
-     "indicator",
-     "vce/chemistry/unit-2-aos-2",
-     "in"
-    ],
-    [
-     "intended",
-     "vce/music/unit-2-aos-2",
-     "in"
-    ],
-    [
-     "intention",
-     "vce/theatre-studies/unit-4-aos-1",
-     "in"
-    ]
-   ],
-   "extras": [
-    "incline",
-    "invite",
-    "induce"
-   ]
-  },
-  "in|upon": {
-   "surface": "in",
-   "variants": [
-    "in"
-   ],
-   "type": "prefix",
-   "gloss": "upon",
-   "aka": [
-    "upon/against"
-   ],
-   "words": [
-    [
-     "injunction",
-     "vce/legal-studies/unit-2-aos-2",
-     "in"
-    ],
-    [
-     "instantaneous",
-     "vce/math-methods/unit-2-aos-3",
-     "in"
-    ]
-   ],
-   "extras": []
   },
   "ional|relating to": {
    "surface": "ional",
@@ -397149,7 +397045,6 @@
     "the process of",
     "act of",
     "process or result",
-    "process/particle",
     "act or process of",
     "process or condition",
     "act or result of",
@@ -397172,7 +397067,9 @@
     "noun",
     "the result of (makes a noun)",
     "act; result",
-    "the act of"
+    "the act of",
+    "state of",
+    "state or result of"
    ],
    "words": [
     [
@@ -397191,11 +397088,6 @@
      "ion"
     ],
     [
-     "anion",
-     "year-10/chemistry/unit-1",
-     "ion"
-    ],
-    [
      "application",
      "year-10/mathematics/build-number-algebra",
      "ion"
@@ -397208,11 +397100,6 @@
     [
      "automation",
      "vce/economics/unit-2-aos-2a",
-     "ion"
-    ],
-    [
-     "cation",
-     "year-10/chemistry/unit-1",
      "ion"
     ],
     [
@@ -397608,16 +397495,6 @@
     [
      "intuition",
      "vce/philosophy/unit-2-aos-1",
-     "ion"
-    ],
-    [
-     "ionic",
-     "year-10/chemistry/unit-1",
-     "ion"
-    ],
-    [
-     "ionization",
-     "year-10/chemistry/unit-1",
      "ion"
     ],
     [
@@ -398589,13 +398466,59 @@
      "division",
      "year-7/mathematics/command-terms",
      "ion"
+    ],
+    [
+     "distinction",
+     "vce/accounting/unit-4-aos-1",
+     "ion"
+    ],
+    [
+     "recession",
+     "vce/economics/unit-2-aos-1",
+     "ion"
+    ],
+    [
+     "expansion",
+     "vce/economics/unit-2-aos-1",
+     "ion"
+    ],
+    [
+     "inflation",
+     "vce/economics/unit-2-aos-1",
+     "ion"
+    ],
+    [
+     "tension",
+     "vce/eal/unit-4-aos-1",
+     "ion"
+    ],
+    [
+     "dimension",
+     "vce/health/unit-2-aos-2",
+     "ion"
+    ],
+    [
+     "position",
+     "vce/vm-numeracy/unit-2-aos-2",
+     "ion"
+    ],
+    [
+     "relationship",
+     "vce/vm-personal-development-skills/unit-4-aos-2",
+     "ion"
+    ],
+    [
+     "reaction",
+     "year-8/science/chemistry",
+     "ion"
     ]
    ],
    "extras": [
     "celebration",
     "decision",
     "invitation"
-   ]
+   ],
+   "origin": "Latin"
   },
   "ion|charged particle": {
    "surface": "ion",
@@ -398622,13 +398545,28 @@
      "ion"
     ],
     [
-     "reaction",
+     "ion",
      "year-8/science/chemistry",
      "ion"
     ],
     [
-     "ion",
-     "year-8/science/chemistry",
+     "cation",
+     "year-10/chemistry/unit-1",
+     "ion"
+    ],
+    [
+     "anion",
+     "year-10/chemistry/unit-1",
+     "ion"
+    ],
+    [
+     "ionic",
+     "year-10/chemistry/unit-1",
+     "ion"
+    ],
+    [
+     "ionization",
+     "year-10/chemistry/unit-1",
      "ion"
     ]
    ],
@@ -398637,61 +398575,8 @@
     "ionise",
     "cationic",
     "ioniser"
-   ]
-  },
-  "ion|state of": {
-   "surface": "ion",
-   "variants": [
-    "ion"
    ],
-   "type": "suffix",
-   "gloss": "state of",
-   "aka": [
-    "state or result of"
-   ],
-   "words": [
-    [
-     "dimension",
-     "vce/health/unit-2-aos-2",
-     "ion"
-    ],
-    [
-     "distinction",
-     "vce/accounting/unit-4-aos-1",
-     "ion"
-    ],
-    [
-     "expansion",
-     "vce/economics/unit-2-aos-1",
-     "ion"
-    ],
-    [
-     "inflation",
-     "vce/economics/unit-2-aos-1",
-     "ion"
-    ],
-    [
-     "position",
-     "vce/vm-numeracy/unit-2-aos-2",
-     "ion"
-    ],
-    [
-     "recession",
-     "vce/economics/unit-2-aos-1",
-     "ion"
-    ],
-    [
-     "relationship",
-     "vce/vm-personal-development-skills/unit-4-aos-2",
-     "ion"
-    ],
-    [
-     "tension",
-     "vce/eal/unit-4-aos-1",
-     "ion"
-    ]
-   ],
-   "extras": []
+   "origin": "Greek"
   },
   "ious|full of": {
    "surface": "ious",
@@ -407800,6 +407685,16 @@
      "denominator",
      "elc/mathematics/probability-basics",
      "nom"
+    ],
+    [
+     "denominator",
+     "year-8/mathematics/algebra",
+     "nomin"
+    ],
+    [
+     "denominator",
+     "elc/mathematics/probability-basics",
+     "nomin"
     ]
    ],
    "extras": [
@@ -416266,7 +416161,8 @@
    "aka": [
     "again/back",
     "back/again",
-    "again/intensifier"
+    "again/intensifier",
+    "again; closely"
    ],
    "words": [
     [
@@ -416728,6 +416624,11 @@
      "reliability",
      "year-7/humanities-civics/history-china",
      "re"
+    ],
+    [
+     "remark",
+     "elc/english/ironbark-stanza-8",
+     "re"
     ]
    ],
    "extras": [
@@ -416737,23 +416638,8 @@
     "recycle",
     "replay",
     "renew"
-   ]
-  },
-  "re|again/closely": {
-   "surface": "re",
-   "variants": [
-    "re"
    ],
-   "type": "prefix",
-   "gloss": "again; closely",
-   "aka": [],
-   "words": [
-    [
-     "remark",
-     "elc/english/ironbark-stanza-8",
-     "re"
-    ]
-   ]
+   "origin": "Latin"
   },
   "re|against": {
    "surface": "re",
@@ -416790,7 +416676,8 @@
     "rebel",
     "repel",
     "resist"
-   ]
+   ],
+   "origin": "Latin"
   },
   "re|back": {
    "surface": "re",
@@ -417091,7 +416978,8 @@
     "retreat",
     "reverse",
     "recede"
-   ]
+   ],
+   "origin": "Latin"
   },
   "ribo|ribose (the sugar in rna)": {
    "surface": "ribo",
