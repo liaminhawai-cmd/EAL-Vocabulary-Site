@@ -148696,7 +148696,26 @@
          "root": "net",
          "meaning": "A diagram of points joined by lines, showing how things connect.",
          "example": "Draw a network of the roads between the six towns.",
-         "translations": {}
+         "translations": {
+          "zh-Hans": "网络（图）",
+          "zh-Hant": "網絡（圖）",
+          "ja": "ネットワーク（グラフ）",
+          "ko": "네트워크(그래프)",
+          "vi": "mạng lưới (đồ thị)",
+          "ar": "الشبكة",
+          "fa": "شبکه (گراف)",
+          "ur": "نیٹ ورک (گراف)",
+          "am": "አውታረ መረብ",
+          "ml": "ശൃംഖല (നെറ്റ്‌വർക്ക്)",
+          "ta": "வலைப்பின்னல்",
+          "tl": "network (grap)",
+          "ps": "شبکه",
+          "ro": "rețea (graf)",
+          "ru": "сеть (граф)",
+          "fr": "réseau (graphe)",
+          "hi": "नेटवर्क (आलेख)",
+          "es": "red (grafo)"
+         }
         },
         {
          "word": "vertex",
@@ -148730,7 +148749,26 @@
          "root": "vert",
          "meaning": "A point in a network. Plural: vertices.",
          "example": "This network has five vertices.",
-         "translations": {}
+         "translations": {
+          "zh-Hans": "顶点",
+          "zh-Hant": "頂點",
+          "ja": "頂点",
+          "ko": "정점",
+          "vi": "đỉnh",
+          "ar": "الرأس",
+          "fa": "رأس",
+          "ur": "ورٹیکس (نقطہ)",
+          "am": "መስቀለኛ ነጥብ",
+          "ml": "ശീർഷബിന്ദു",
+          "ta": "உச்சிப்புள்ளி",
+          "tl": "vertex (tuktok)",
+          "ps": "سرببه",
+          "ro": "vârf (nod)",
+          "ru": "вершина",
+          "fr": "sommet",
+          "hi": "शीर्ष (वर्टेक्स)",
+          "es": "vértice"
+         }
         },
         {
          "word": "adjacent",
@@ -148815,7 +148853,26 @@
          "root": "jac",
          "meaning": "Next to each other — joined directly by one edge.",
          "example": "Vertices A and B are adjacent.",
-         "translations": {}
+         "translations": {
+          "zh-Hans": "相邻的",
+          "zh-Hant": "相鄰的",
+          "ja": "隣接する",
+          "ko": "인접한",
+          "vi": "kề nhau",
+          "ar": "متجاور",
+          "fa": "مجاور",
+          "ur": "ملحقہ (پڑوسی)",
+          "am": "ተጎራባች",
+          "ml": "സമീപസ്ഥമായ",
+          "ta": "அருகிலுள்ள",
+          "tl": "katabi (adjacent)",
+          "ps": "ګاونډي",
+          "ro": "adiacent",
+          "ru": "смежный",
+          "fr": "adjacent",
+          "hi": "समीपवर्ती",
+          "es": "adyacente"
+         }
         },
         {
          "word": "circuit",
@@ -148874,7 +148931,26 @@
          "root": "circ",
          "meaning": "A route that starts and finishes at the same vertex.",
          "example": "Find a circuit that uses every edge once.",
-         "translations": {}
+         "translations": {
+          "zh-Hans": "回路（环路）",
+          "zh-Hant": "迴路（環路）",
+          "ja": "回路（閉路）",
+          "ko": "회로(닫힌 경로)",
+          "vi": "chu trình (mạch kín)",
+          "ar": "الدارة (المسار المغلق)",
+          "fa": "مدار (مسیر بسته)",
+          "ur": "دائرہ (بند راستہ)",
+          "am": "ዙር መስመር (ሰርክዩት)",
+          "ml": "ചക്ര പഥം",
+          "ta": "சுற்று வழி",
+          "tl": "circuit (saradong ruta)",
+          "ps": "دايره",
+          "ro": "circuit (drum închis)",
+          "ru": "цикл (замкнутый маршрут)",
+          "fr": "circuit (chemin fermé)",
+          "hi": "परिपथ",
+          "es": "circuito (camino cerrado)"
+         }
         },
         {
          "word": "connected",
@@ -148940,7 +149016,26 @@
          "root": "nect",
          "meaning": "Where you can get from any point to any other point.",
          "example": "The network is connected, so every town is reachable.",
-         "translations": {}
+         "translations": {
+          "zh-Hans": "连通的",
+          "zh-Hant": "連通的",
+          "ja": "連結した",
+          "ko": "연결된",
+          "vi": "liên thông",
+          "ar": "متصل",
+          "fa": "همبند (متصل)",
+          "ur": "منسلک (کنیکٹڈ)",
+          "am": "የተገናኘ",
+          "ml": "ബന്ധിതമായ",
+          "ta": "இணைக்கப்பட்ட",
+          "tl": "konektado",
+          "ps": "تړلی",
+          "ro": "conex",
+          "ru": "связный",
+          "fr": "connexe",
+          "hi": "संबद्ध (कनेक्टेड)",
+          "es": "conexo"
+         }
         },
         {
          "word": "planar",
@@ -148980,7 +149075,26 @@
          "root": "plan",
          "meaning": "A network you can draw flat with no edges crossing.",
          "example": "Redraw the graph to show it is planar.",
-         "translations": {}
+         "translations": {
+          "zh-Hans": "平面的",
+          "zh-Hant": "平面的",
+          "ja": "平面的な",
+          "ko": "평면적인",
+          "vi": "phẳng (đồ thị phẳng)",
+          "ar": "مستوٍ (قابل للرسم بدون تقاطع)",
+          "fa": "همسطح (تخت)",
+          "ur": "مسطحی (پلینر)",
+          "am": "ጠፍጣፋ (ፕላናር)",
+          "ml": "സമതലീയമായ",
+          "ta": "தளவியல் (பிளானார்)",
+          "tl": "planar (patag na grap)",
+          "ps": "هوارې",
+          "ro": "planar",
+          "ru": "плоский (граф)",
+          "fr": "planaire",
+          "hi": "समतलीय",
+          "es": "planar"
+         }
         },
         {
          "word": "traversable",
@@ -149064,7 +149178,26 @@
          "root": "vers",
          "meaning": "A network you can trace in one go without lifting your pen or repeating an edge.",
          "example": "The network is traversable because only two vertices are odd.",
-         "translations": {}
+         "translations": {
+          "zh-Hans": "可遍历的（一笔画）",
+          "zh-Hant": "可遍歷的（一筆畫）",
+          "ja": "一筆書き可能な",
+          "ko": "한붓그리기 가능한",
+          "vi": "có thể vẽ một nét (đi qua tất cả cạnh)",
+          "ar": "قابل للاجتياز (رسمة واحدة)",
+          "fa": "قابل پیمایش (یک‌خط)",
+          "ur": "قابل عبور (ایک لکیر میں قابل ترسیم)",
+          "am": "በአንድ መስመር ሊሳል የሚችል",
+          "ml": "ഒറ്റവരയിൽ വരയ്ക്കാവുന്ന",
+          "ta": "ஒற்றைக்கோட்டில் வரையக்கூடிய",
+          "tl": "matatawid (traversable)",
+          "ps": "د تیریدو وړ",
+          "ro": "traversabil (desenabil dintr-o linie)",
+          "ru": "проходимый (одним росчерком)",
+          "fr": "traçable (en un seul trait)",
+          "hi": "एक-रेखा-चित्रणीय",
+          "es": "trazable (de un solo trazo)"
+         }
         },
         {
          "word": "spanning tree",
@@ -149104,7 +149237,26 @@
          "root": "span",
          "meaning": "A set of edges that reaches every vertex with no cycles.",
          "example": "The minimum spanning tree gives the cheapest cabling.",
-         "translations": {}
+         "translations": {
+          "zh-Hans": "生成树",
+          "zh-Hant": "生成樹",
+          "ja": "全域木",
+          "ko": "신장 트리",
+          "vi": "cây khung",
+          "ar": "الشجرة الممتدة",
+          "fa": "درخت فراگیر",
+          "ur": "پھیلا ہوا درخت (اسپیننگ ٹری)",
+          "am": "ሁሉንም መስቀለኛ ነጥቦች የሚያካትት ዛፍ",
+          "ml": "വ്യാപന വൃക്ഷം",
+          "ta": "பரவல் மரம் (ஸ்பேனிங் ட்ரீ)",
+          "tl": "spanning tree",
+          "ps": "غځول شوی ونه",
+          "ro": "arbore parțial de acoperire",
+          "ru": "остовное дерево",
+          "fr": "arbre couvrant",
+          "hi": "व्यापक वृक्ष (स्पैनिंग ट्री)",
+          "es": "árbol de expansión"
+         }
         },
         {
          "word": "bipartite",
@@ -149169,7 +149321,26 @@
          "root": "part",
          "meaning": "A network with two groups, where edges only run between the groups.",
          "example": "Matching workers to jobs is a bipartite problem.",
-         "translations": {}
+         "translations": {
+          "zh-Hans": "二部图的",
+          "zh-Hant": "二部圖的",
+          "ja": "二部の（二部グラフ）",
+          "ko": "이분(그래프)의",
+          "vi": "hai phía (đồ thị lưỡng phân)",
+          "ar": "ثنائي التجزئة",
+          "fa": "دوبخشی",
+          "ur": "دو حصوں والا (بائی پارٹائٹ)",
+          "am": "ሁለት ክፍል ያለው",
+          "ml": "ദ്വിഭാഗ",
+          "ta": "இருபிரிவு",
+          "tl": "bipartite (dalawang grupo)",
+          "ps": "دوه برخیز",
+          "ro": "bipartit",
+          "ru": "двудольный",
+          "fr": "biparti",
+          "hi": "द्विभाजित",
+          "es": "bipartito"
+         }
         },
         {
          "word": "allocation",
@@ -149254,7 +149425,26 @@
          "root": "loc",
          "meaning": "Assigning each worker or resource to one task at least total cost.",
          "example": "Use the Hungarian algorithm to find the best allocation.",
-         "translations": {}
+         "translations": {
+          "zh-Hans": "分配",
+          "zh-Hant": "分配",
+          "ja": "割り当て",
+          "ko": "할당",
+          "vi": "sự phân bổ",
+          "ar": "التخصيص",
+          "fa": "تخصیص",
+          "ur": "تفویض (الاٹمنٹ)",
+          "am": "ምደባ",
+          "ml": "വിഭജനം (അലോക്കേഷൻ)",
+          "ta": "ஒதுக்கீடு",
+          "tl": "alokasyon",
+          "ps": "ویش",
+          "ro": "alocare",
+          "ru": "распределение (назначение)",
+          "fr": "allocation",
+          "hi": "आबंटन",
+          "es": "asignación"
+         }
         },
         {
          "word": "precedence",
@@ -149338,7 +149528,26 @@
          "root": "ced",
          "meaning": "Which tasks must be finished before another one can start.",
          "example": "The precedence table shows task C follows A and B.",
-         "translations": {}
+         "translations": {
+          "zh-Hans": "先后顺序",
+          "zh-Hant": "先後順序",
+          "ja": "先行順位",
+          "ko": "선행순서",
+          "vi": "thứ tự trước sau",
+          "ar": "الأولوية (الترتيب السابق)",
+          "fa": "تقدم (ترتیب پیشین)",
+          "ur": "تقدم (ترجیحی ترتیب)",
+          "am": "ቅድሚያ ተከታታይነት",
+          "ml": "മുൻഗണനാ ക്രമം",
+          "ta": "முன்னுரிமை வரிசை",
+          "tl": "pagkakasunod-sunod (precedence)",
+          "ps": "لومړیتوب",
+          "ro": "precedență",
+          "ru": "порядок предшествования",
+          "fr": "précédence (ordre de priorité)",
+          "hi": "पूर्वता क्रम",
+          "es": "precedencia"
+         }
         },
         {
          "word": "critical",
@@ -149422,7 +149631,26 @@
          "root": "crit",
          "meaning": "On the longest path through a project — any delay here delays everything.",
          "example": "Task D is on the critical path.",
-         "translations": {}
+         "translations": {
+          "zh-Hans": "关键的（关键路径）",
+          "zh-Hant": "關鍵的（關鍵路徑）",
+          "ja": "クリティカルな（臨界経路）",
+          "ko": "임계(경로)의",
+          "vi": "then chốt (đường găng)",
+          "ar": "حرج (المسار الحرج)",
+          "fa": "بحرانی (مسیر بحرانی)",
+          "ur": "نازک (کریٹیکل پاتھ)",
+          "am": "ወሳኝ (ክሪቲካል ፓዝ)",
+          "ml": "നിർണ്ണായകമായ (ക്രിട്ടിക്കൽ പാത്ത്)",
+          "ta": "முக்கியமான (சிக்கல் பாதை)",
+          "tl": "kritikal (critical path)",
+          "ps": "حساس (بحراني)",
+          "ro": "critic (drum critic)",
+          "ru": "критический (путь)",
+          "fr": "critique (chemin critique)",
+          "hi": "क्रांतिक (क्रिटिकल पाथ)",
+          "es": "crítico (ruta crítica)"
+         }
         }
        ],
        "path": "vce/general-mathematics/unit-4-aos-2"
