@@ -317703,7 +317703,20 @@
           "zh-Hans": "冲突 (chōngtū)",
           "fa": "درگیری (dargiri)",
           "vi": "xung đột",
-          "zh-Hant": "衝突 (chōngtū)"
+          "zh-Hant": "衝突 (chōngtū)",
+          "am": "ግጭት",
+          "ar": "الصراع",
+          "es": "conflicto",
+          "fr": "conflit",
+          "hi": "संघर्ष",
+          "ko": "갈등(분쟁)",
+          "ml": "സംഘർഷം",
+          "ps": "شخړه",
+          "ro": "conflict",
+          "ru": "конфликт",
+          "ta": "மோதல்",
+          "tl": "alitan (conflict)",
+          "ur": "تنازعہ"
          }
         },
         {
@@ -317718,7 +317731,20 @@
           "zh-Hans": "囚犯 (qiúfàn)",
           "fa": "زندانیان (zendāniyān)",
           "vi": "tù nhân",
-          "zh-Hant": "囚犯 (qiúfàn)"
+          "zh-Hant": "囚犯 (qiúfàn)",
+          "am": "እስረኞች (የተፈረደባቸው)",
+          "ar": "المدانون (السجناء المرحّلون)",
+          "es": "convictos (presidiarios)",
+          "fr": "condamnés (bagnards)",
+          "hi": "दोषी (सज़ायाफ्ता कैदी)",
+          "ko": "죄수들(유형수)",
+          "ml": "ശിക്ഷിക്കപ്പെട്ട തടവുകാർ",
+          "ps": "محکوم بندیان",
+          "ro": "condamnați (deportați)",
+          "ru": "каторжники (осуждённые)",
+          "ta": "தண்டனை பெற்ற கைதிகள்",
+          "tl": "mga bilanggong ipinatapon (convicts)",
+          "ur": "سزا یافتہ قیدی"
          }
         },
         {
@@ -317733,7 +317759,20 @@
           "zh-Hans": "尽管",
           "fa": "با وجود",
           "vi": "mặc dù",
-          "zh-Hant": "儘管"
+          "zh-Hant": "儘管",
+          "am": "ቢሆንም",
+          "ar": "على الرغم من",
+          "es": "a pesar de",
+          "fr": "malgré",
+          "hi": "के बावजूद",
+          "ko": "~에도 불구하고",
+          "ml": "എന്നിരുന്നാലും",
+          "ps": "سره سره",
+          "ro": "în ciuda",
+          "ru": "несмотря на",
+          "ta": "இருந்தபோதிலும்",
+          "tl": "sa kabila ng (despite)",
+          "ur": "کے باوجود"
          }
         },
         {
@@ -317806,7 +317845,20 @@
           "zh-Hans": "疾病",
           "fa": "بیماری‌ها",
           "vi": "bệnh tật",
-          "zh-Hant": "疾病"
+          "zh-Hant": "疾病",
+          "am": "በሽታዎች",
+          "ar": "الأمراض",
+          "es": "enfermedades",
+          "fr": "maladies",
+          "hi": "बीमारियां",
+          "ko": "질병들",
+          "ml": "രോഗങ്ങൾ",
+          "ps": "ناروغۍ",
+          "ro": "boli",
+          "ru": "болезни",
+          "ta": "நோய்கள்",
+          "tl": "mga sakit (diseases)",
+          "ur": "بیماریاں"
          }
         },
         {
@@ -317898,7 +317950,20 @@
           "zh-Hans": "灭绝",
           "fa": "انقراض",
           "vi": "tuyệt chủng",
-          "zh-Hant": "滅絕"
+          "zh-Hant": "滅絕",
+          "am": "መጥፋት (ከምድር ላይ መጥፋት)",
+          "ar": "الانقراض",
+          "es": "extinción",
+          "fr": "extinction",
+          "hi": "विलुप्ति",
+          "ko": "멸종",
+          "ml": "വംശനാശം",
+          "ps": "له منځه تلل",
+          "ro": "extincție",
+          "ru": "вымирание",
+          "ta": "அழிவு (இனம் அழிதல்)",
+          "tl": "pagkalipol (extinction)",
+          "ur": "معدومیت"
          }
         },
         {
@@ -317913,7 +317978,20 @@
           "zh-Hans": "被害怕的 (bèi hàipà de)",
           "fa": "ترسیده / مورد ترس (tarsideh / mored-e tars)",
           "vi": "bị sợ hãi",
-          "zh-Hant": "被害怕的 (bèi hàipà de)"
+          "zh-Hant": "被害怕的 (bèi hàipà de)",
+          "am": "ፈራ (ፈርቶ ነበር)",
+          "ar": "خاف (كان يخشى)",
+          "es": "temió (tenía miedo)",
+          "fr": "craignit (avait peur)",
+          "hi": "डर गया था",
+          "ko": "두려워했다",
+          "ml": "ഭയപ്പെട്ടു",
+          "ps": "ویریدلی",
+          "ro": "s-a temut",
+          "ru": "боялся",
+          "ta": "பயந்தான்",
+          "tl": "natakot (feared)",
+          "ur": "ڈرا ہوا تھا"
          }
         },
         {
@@ -317980,7 +318058,20 @@
           "zh-Hans": "免疫 (miǎnyì)",
           "fa": "ایمنی (imeni)",
           "vi": "miễn dịch",
-          "zh-Hant": "免疫 (miǎnyì)"
+          "zh-Hant": "免疫 (miǎnyì)",
+          "am": "የበሽታ መከላከል (ተከላካይነት)",
+          "ar": "المناعة",
+          "es": "inmunidad",
+          "fr": "immunité",
+          "hi": "प्रतिरक्षा (रोग प्रतिरोधक क्षमता)",
+          "ko": "면역력",
+          "ml": "പ്രതിരോധശക്തി",
+          "ps": "معافیت (له ناروغۍ)",
+          "ro": "imunitate",
+          "ru": "иммунитет",
+          "ta": "நோய் எதிர்ப்பு சக்தி",
+          "tl": "kaligtasan sa sakit (immunity)",
+          "ur": "مدافعت"
          }
         },
         {
@@ -317995,7 +318086,20 @@
           "zh-Hans": "流感 (liúgǎn) / 流行性感冒 (liúxíngxìng gǎnmào)",
           "fa": "آنفلوآنزا (ānlūānzā)",
           "vi": "cúm / cảm cúm",
-          "zh-Hant": "流感 (liúgǎn) / 流行性感冒 (liúxíngxìng gǎnmào)"
+          "zh-Hant": "流感 (liúgǎn) / 流行性感冒 (liúxíngxìng gǎnmào)",
+          "am": "ኢንፍሉዌንዛ (ጉንፋን)",
+          "ar": "الإنفلونزا",
+          "es": "influenza (gripe)",
+          "fr": "grippe",
+          "hi": "इन्फ्लुएंज़ा (फ्लू)",
+          "ko": "인플루엔자(독감)",
+          "ml": "ഇൻഫ്ലുവൻസ",
+          "ps": "انفلونزا",
+          "ro": "gripă",
+          "ru": "грипп",
+          "ta": "இன்ஃப்ளூயன்ஸா",
+          "tl": "trangkaso (influenza)",
+          "ur": "انفلوئنزا"
          }
         },
         {
@@ -318010,7 +318114,20 @@
           "zh-Hans": "被占领的 (bèi zhànlǐng de)",
           "fa": "اشغال‌شده (eshghāl-shodeh)",
           "vi": "bị chiếm đóng",
-          "zh-Hant": "被佔領的 (bèi zhànlǐng de)"
+          "zh-Hant": "被佔領的 (bèi zhànlǐng de)",
+          "am": "ተያዘ (ተገዛ)",
+          "ar": "احتلّ",
+          "es": "ocupó",
+          "fr": "occupa",
+          "hi": "अधिकृत कर लिया",
+          "ko": "점령했다",
+          "ml": "കൈവശപ്പെടുത്തി",
+          "ps": "ونیول شو",
+          "ro": "a ocupat",
+          "ru": "оккупировал",
+          "ta": "ஆக்கிரமித்தான்",
+          "tl": "sinakop (occupied)",
+          "ur": "قبضہ کر لیا"
          }
         },
         {
@@ -318025,7 +318142,20 @@
           "zh-Hans": "业主 (yèzhǔ)",
           "fa": "مالکین (mālekin)",
           "vi": "chủ sở hữu",
-          "zh-Hant": "業主 (yèzhǔ)"
+          "zh-Hant": "業主 (yèzhǔ)",
+          "am": "ባለቤቶች (ባለንብረቶች)",
+          "ar": "الملّاك (أصحاب الملكية)",
+          "es": "propietarios",
+          "fr": "propriétaires",
+          "hi": "मालिक (स्वामी)",
+          "ko": "소유주들",
+          "ml": "ഉടമകൾ",
+          "ps": "مالکان",
+          "ro": "proprietari",
+          "ru": "владельцы",
+          "ta": "உரிமையாளர்கள்",
+          "tl": "mga may-ari (proprietors)",
+          "ur": "مالکان"
          }
         },
         {
@@ -318040,7 +318170,20 @@
           "zh-Hans": "不管 (bùguǎn)",
           "fa": "بدون توجه (bedūn tavajoh)",
           "vi": "bất kể",
-          "zh-Hant": "不管 (bùguǎn)"
+          "zh-Hant": "不管 (bùguǎn)",
+          "am": "ምንም ይሁን ምን",
+          "ar": "بغض النظر",
+          "es": "sin importar (de todos modos)",
+          "fr": "quoi qu'il en soit",
+          "hi": "बावजूद इसके",
+          "ko": "상관없이",
+          "ml": "എന്തായാലും",
+          "ps": "پرته له پامه",
+          "ro": "indiferent de",
+          "ru": "несмотря ни на что",
+          "ta": "எப்படியிருந்தாலும்",
+          "tl": "kahit anong mangyari (regardless)",
+          "ur": "بہرحال"
          }
         },
         {
@@ -318055,7 +318198,20 @@
           "zh-Hans": "天花 (tiānhuā)",
           "fa": "آبله (ābleh)",
           "vi": "đậu mùa",
-          "zh-Hant": "天花 (tiānhuā)"
+          "zh-Hant": "天花 (tiānhuā)",
+          "am": "ፈንጣጣ",
+          "ar": "الجدري",
+          "es": "viruela",
+          "fr": "variole",
+          "hi": "चेचक",
+          "ko": "천연두",
+          "ml": "വസൂരി",
+          "ps": "ښه ونې",
+          "ro": "variolă",
+          "ru": "оспа",
+          "ta": "பெரியம்மை",
+          "tl": "bulutong (smallpox)",
+          "ur": "چیچک"
          }
         },
         {
@@ -318070,7 +318226,20 @@
           "zh-Hans": "践踏 (jiàntà)",
           "fa": "لگدمال کردن (lagdmāl kardan)",
           "vi": "giẫm đạp",
-          "zh-Hant": "踐踏 (jiàntà)"
+          "zh-Hant": "踐踏 (jiàntà)",
+          "am": "እየረገጠ (እየደፈጠጠ)",
+          "ar": "الدوس (السحق)",
+          "es": "pisoteando",
+          "fr": "piétinant",
+          "hi": "रौंदना",
+          "ko": "짓밟는",
+          "ml": "ചവിട്ടിമെതിക്കുന്നു",
+          "ps": "ښکون کول",
+          "ro": "călcând în picioare",
+          "ru": "топча (растаптывая)",
+          "ta": "மிதித்தல்",
+          "tl": "yinuyurakan (trampling)",
+          "ur": "روندنا"
          }
         },
         {
@@ -318085,7 +318254,20 @@
           "zh-Hans": "结核",
           "fa": "سل",
           "vi": "bệnh lao",
-          "zh-Hant": "結核"
+          "zh-Hant": "結核",
+          "am": "የሳንባ ነቀርሳ",
+          "ar": "السل",
+          "es": "tuberculosis",
+          "fr": "tuberculose",
+          "hi": "क्षय रोग (टीबी)",
+          "ko": "결핵",
+          "ml": "ക്ഷയരോഗം",
+          "ps": "سل ناروغي",
+          "ro": "tuberculoză",
+          "ru": "туберкулёз",
+          "ta": "காசநோய்",
+          "tl": "tuberkulosis",
+          "ur": "تپ دق"
          }
         },
         {
@@ -318202,7 +318384,20 @@
           "zh-Hans": "未受干扰 (wèi shòu gānrǎo)",
           "fa": "بی‌مزاحمت (bi-mazāhemat)",
           "vi": "không bị xáo trộn",
-          "zh-Hant": "未受干擾 (wèi shòu gānrǎo)"
+          "zh-Hant": "未受干擾 (wèi shòu gānrǎo)",
+          "am": "ያልተረበሸ",
+          "ar": "غير مضطرب (لم يُمس)",
+          "es": "sin perturbar",
+          "fr": "non perturbé (intact)",
+          "hi": "अविचलित (अछूता)",
+          "ko": "방해받지 않은",
+          "ml": "അസ്വസ്ഥമാകാത്ത",
+          "ps": "ناخوابه شوی",
+          "ro": "netulburat",
+          "ru": "нетронутый (невозмутимый)",
+          "ta": "தொந்தரவற்ற",
+          "tl": "walang gulo (undisturbed)",
+          "ur": "غیر متاثر"
          }
         },
         {
@@ -318217,7 +318412,20 @@
           "zh-Hans": "反对 (fǎnduì)",
           "fa": "علیه / بر ضد (aleyh / bar zedd)",
           "vi": "chống lại",
-          "zh-Hant": "反對 (fǎnduì)"
+          "zh-Hant": "反對 (fǎnduì)",
+          "am": "ላይ (ተቃራኒ)",
+          "ar": "ضد",
+          "es": "en contra de",
+          "fr": "contre",
+          "hi": "के विरुद्ध",
+          "ko": "~에 반대하여",
+          "ml": "എതിരായി",
+          "ps": "پروړاندې",
+          "ro": "împotriva",
+          "ru": "против",
+          "ta": "எதிராக",
+          "tl": "laban sa (against)",
+          "ur": "کے خلاف"
          }
         },
         {
@@ -318309,7 +318517,20 @@
           "zh-Hans": "侵略 (qīnlüè)",
           "fa": "تجاوز (tajāvuz)",
           "vi": "sự xâm lược",
-          "zh-Hant": "侵略 (qīnlüè)"
+          "zh-Hant": "侵略 (qīnlüè)",
+          "am": "ጥቃት (ጦርነት ማድረግ)",
+          "ar": "العدوان",
+          "es": "agresión",
+          "fr": "agression",
+          "hi": "आक्रामकता",
+          "ko": "공격(침략)",
+          "ml": "ആക്രമണം",
+          "ps": "تیری",
+          "ro": "agresiune",
+          "ru": "агрессия",
+          "ta": "தாக்குதல் மனப்பான்மை",
+          "tl": "agresyon",
+          "ur": "جارحیت"
          }
         },
         {
@@ -318375,7 +318596,20 @@
           "zh-Hans": "体现 (tǐxiàn)",
           "fa": "تجسم بخشیدن (tajassom bakhshidan)",
           "vi": "hiện thân",
-          "zh-Hant": "體現 (tǐxiàn)"
+          "zh-Hant": "體現 (tǐxiàn)",
+          "am": "ማካተት (ማካተት)",
+          "ar": "يجسّد",
+          "es": "encarnar (personificar)",
+          "fr": "incarner",
+          "hi": "मूर्त रूप देना",
+          "ko": "구현하다(형상화하다)",
+          "ml": "ഉൾക്കൊള്ളുക (പ്രതിനിധീകരിക്കുക)",
+          "ps": "مجسم کول",
+          "ro": "a întruchipa",
+          "ru": "воплощать",
+          "ta": "உருவகப்படுத்து",
+          "tl": "isakatawan (embody)",
+          "ur": "مجسم کرنا"
          }
         },
         {
@@ -318390,7 +318624,20 @@
           "zh-Hans": "游击队 (yóujīduì)",
           "fa": "چریک (cherik)",
           "vi": "du kích",
-          "zh-Hant": "游擊隊 (yóujīduì)"
+          "zh-Hant": "游擊隊 (yóujīduì)",
+          "am": "የሽምቅ ተዋጊ",
+          "ar": "حرب العصابات",
+          "es": "guerrilla",
+          "fr": "guérilla",
+          "hi": "छापामार (गुरिल्ला)",
+          "ko": "게릴라",
+          "ml": "ഗറില്ലാ (പോരാളി)",
+          "ps": "ازاد ملی جګړه",
+          "ro": "gherilă",
+          "ru": "партизан (партизанская война)",
+          "ta": "கெரில்லா",
+          "tl": "gerilya",
+          "ur": "گوریلا"
          }
         },
         {
@@ -318405,7 +318652,20 @@
           "zh-Hans": "不管 (bùguǎn) / 尽管 (jǐnguǎn)",
           "fa": "علی‌رغم (aleraqm)",
           "vi": "mặc dù",
-          "zh-Hant": "不管 (bùguǎn) / 儘管 (jǐnguǎn)"
+          "zh-Hant": "不管 (bùguǎn) / 儘管 (jǐnguǎn)",
+          "am": "ቢሆንም",
+          "ar": "على الرغم من",
+          "es": "a pesar de",
+          "fr": "malgré",
+          "hi": "के बावजूद",
+          "ko": "~에도 불구하고",
+          "ml": "എന്നിരുന്നാലും",
+          "ps": "سره سره",
+          "ro": "în ciuda",
+          "ru": "несмотря на",
+          "ta": "இருந்தபோதிலும்",
+          "tl": "sa kabila ng (in spite of)",
+          "ur": "کے باوجود"
          }
         },
         {
@@ -318420,7 +318680,20 @@
           "zh-Hans": "占领 (zhànlǐng)",
           "fa": "اشغال (eshghāl)",
           "vi": "sự chiếm đóng",
-          "zh-Hant": "佔領 (zhànlǐng)"
+          "zh-Hant": "佔領 (zhànlǐng)",
+          "am": "ወረራ (ይዞታ)",
+          "ar": "الاحتلال",
+          "es": "ocupación",
+          "fr": "occupation",
+          "hi": "अधिग्रहण (कब्ज़ा)",
+          "ko": "점령(점거)",
+          "ml": "അധിനിവേശം",
+          "ps": "نیونه",
+          "ro": "ocupație",
+          "ru": "оккупация",
+          "ta": "ஆக்கிரமிப்பு",
+          "tl": "pananakop (occupation)",
+          "ur": "قبضہ"
          }
         },
         {
@@ -318511,7 +318784,20 @@
           "zh-Hans": "击退了 (jītuì le)",
           "fa": "دفع کرد (daf‘ kard)",
           "vi": "đẩy lùi",
-          "zh-Hant": "擊退了 (jītuì le)"
+          "zh-Hant": "擊退了 (jītuì le)",
+          "am": "አባረረ (ገፈተረ)",
+          "ar": "صدّ (طرد)",
+          "es": "repelió (rechazó)",
+          "fr": "repoussa",
+          "hi": "खदेड़ दिया",
+          "ko": "격퇴했다",
+          "ml": "തിരിച്ചോടിച്ചു",
+          "ps": "شاته یې کړل",
+          "ro": "a respins",
+          "ru": "отразил (отбил)",
+          "ta": "விரட்டியடித்தான்",
+          "tl": "itinaboy (repelled)",
+          "ur": "دھکیل دیا"
          }
         },
         {
@@ -318602,7 +318888,20 @@
           "zh-Hans": "抵抗力",
           "fa": "مقاومت کرد (moghāwemat kard)",
           "vi": "chống lại",
-          "zh-Hant": "抵抗力"
+          "zh-Hant": "抵抗力",
+          "am": "ተቃወመ",
+          "ar": "قاوم",
+          "es": "resistió",
+          "fr": "résista",
+          "hi": "प्रतिरोध किया",
+          "ko": "저항했다",
+          "ml": "ചെറുത്തുനിന്നു",
+          "ps": "مقاومت یې وکړ",
+          "ro": "a rezistat",
+          "ru": "сопротивлялся",
+          "ta": "எதிர்த்தான்",
+          "tl": "lumaban (resisted)",
+          "ur": "مزاحمت کی"
          }
         },
         {
@@ -318617,7 +318916,20 @@
           "zh-Hans": "定居点 (dìngjūdiǎn)",
           "fa": "سکونت‌گاه (sokunatgāh)",
           "vi": "khu định cư",
-          "zh-Hant": "定居點 (dìngjūdiǎn)"
+          "zh-Hant": "定居點 (dìngjūdiǎn)",
+          "am": "ሰፈሮች",
+          "ar": "المستوطنات",
+          "es": "asentamientos",
+          "fr": "colonies (établissements)",
+          "hi": "बस्तियां",
+          "ko": "정착지들",
+          "ml": "കുടിയേറ്റ കേന്ദ്രങ്ങൾ",
+          "ps": "میشتوني",
+          "ro": "așezări",
+          "ru": "поселения",
+          "ta": "குடியேற்றங்கள்",
+          "tl": "mga pamayanan (settlements)",
+          "ur": "آبادکاریاں"
          }
         },
         {
@@ -318709,7 +319021,20 @@
           "zh-Hans": "重要的 (zhòngyào de)",
           "fa": "مهم (mohemm)",
           "vi": "quan trọng",
-          "zh-Hant": "重要的 (zhòngyào de)"
+          "zh-Hant": "重要的 (zhòngyào de)",
+          "am": "ጉልህ (አስፈላጊ)",
+          "ar": "مهم (ذو دلالة)",
+          "es": "significativo",
+          "fr": "significatif",
+          "hi": "महत्वपूर्ण",
+          "ko": "중요한(상당한)",
+          "ml": "പ്രാധാന്യമുള്ള",
+          "ps": "د پام وړ",
+          "ro": "semnificativ",
+          "ru": "значительный",
+          "ta": "குறிப்பிடத்தக்க",
+          "tl": "makabuluhan (significant)",
+          "ur": "اہم"
          }
         },
         {
@@ -318724,7 +319049,20 @@
           "zh-Hans": "牛 (niú) / 牲畜 (shēngchù)",
           "fa": "گاوها (gāvhā) / دام (dām)",
           "vi": "gia súc",
-          "zh-Hant": "牛 (niú) / 牲畜 (shēngchù)"
+          "zh-Hant": "牛 (niú) / 牲畜 (shēngchù)",
+          "am": "ከብቶች",
+          "ar": "الماشية",
+          "es": "ganado",
+          "fr": "bétail",
+          "hi": "मवेशी",
+          "ko": "소(가축)",
+          "ml": "കന്നുകാലികൾ",
+          "ps": "څاروي",
+          "ro": "vite",
+          "ru": "скот",
+          "ta": "கால்நடைகள்",
+          "tl": "baka (cattle)",
+          "ur": "مویشی"
          }
         },
         {
@@ -318790,7 +319128,20 @@
           "zh-Hans": "殖民者 (zhímín zhě)",
           "fa": "استعمارگر (este‘mārgar)",
           "vi": "người khai hoang / người định cư",
-          "zh-Hant": "殖民者 (zhímín zhě)"
+          "zh-Hant": "殖民者 (zhímín zhě)",
+          "am": "ቅኝ ገዢ",
+          "ar": "المستعمِر",
+          "es": "colono",
+          "fr": "colon",
+          "hi": "उपनिवेशवादी (बसने वाला)",
+          "ko": "식민지 개척자",
+          "ml": "കോളനിക്കാരൻ",
+          "ps": "استعماري میشت",
+          "ro": "colonist",
+          "ru": "колонист",
+          "ta": "குடியேற்றக்காரர்",
+          "tl": "kolonisador (colonist)",
+          "ur": "نوآبادکار"
          }
         },
         {
@@ -318805,7 +319156,20 @@
           "zh-Hans": "殖民地 (zhímín dì)",
           "fa": "مستعمره (mosta‘mere)",
           "vi": "thuộc địa",
-          "zh-Hant": "殖民地 (zhímín dì)"
+          "zh-Hant": "殖民地 (zhímín dì)",
+          "am": "ቅኝ ግዛት",
+          "ar": "المستعمرة",
+          "es": "colonia",
+          "fr": "colonie",
+          "hi": "उपनिवेश",
+          "ko": "식민지",
+          "ml": "കോളനി",
+          "ps": "استعمار",
+          "ro": "colonie",
+          "ru": "колония",
+          "ta": "காலனி",
+          "tl": "kolonya",
+          "ur": "کالونی (نوآبادی)"
          }
         },
         {
@@ -318820,7 +319184,20 @@
           "zh-Hans": "囚犯 (qiúfàn)",
           "fa": "محکوم (mahkūm)",
           "vi": "tù nhân",
-          "zh-Hant": "囚犯 (qiúfàn)"
+          "zh-Hant": "囚犯 (qiúfàn)",
+          "am": "እስረኛ (የተፈረደበት)",
+          "ar": "المدان (السجين المرحّل)",
+          "es": "convicto (presidiario)",
+          "fr": "condamné (bagnard)",
+          "hi": "दोषी (सज़ायाफ्ता कैदी)",
+          "ko": "죄수(유형수)",
+          "ml": "ശിക്ഷിക്കപ്പെട്ട തടവുകാരൻ",
+          "ps": "محکوم بندي",
+          "ro": "condamnat (deportat)",
+          "ru": "каторжник",
+          "ta": "தண்டனை பெற்ற கைதி",
+          "tl": "bilanggong ipinatapon (convict)",
+          "ur": "سزا یافتہ قیدی"
          }
         },
         {
@@ -318911,7 +319288,20 @@
           "zh-Hans": "斩首的 (zhǎnshǒu de)",
           "fa": "سر بریده (sar borīde)",
           "vi": "bị chặt đầu",
-          "zh-Hant": "斬首的 (zhǎnshǒu de)"
+          "zh-Hant": "斬首的 (zhǎnshǒu de)",
+          "am": "ራስ የተቆረጠ",
+          "ar": "مقطوع الرأس",
+          "es": "decapitado",
+          "fr": "décapité",
+          "hi": "सिर काटा गया",
+          "ko": "참수된",
+          "ml": "തലയറുക്കപ്പെട്ട",
+          "ps": "سر پرې شوی",
+          "ro": "decapitat",
+          "ru": "обезглавленный",
+          "ta": "தலை துண்டிக்கப்பட்ட",
+          "tl": "pinugutan ng ulo (decapitated)",
+          "ur": "سر قلم کیا گیا"
          }
         },
         {
@@ -318926,7 +319316,20 @@
           "zh-Hans": "证据 (zhèngjù)",
           "fa": "مدرک (madrek)",
           "vi": "bằng chứng",
-          "zh-Hant": "證據 (zhèngjù)"
+          "zh-Hant": "證據 (zhèngjù)",
+          "am": "ማስረጃ",
+          "ar": "الدليل",
+          "es": "evidencia",
+          "fr": "preuve",
+          "hi": "साक्ष्य",
+          "ko": "증거",
+          "ml": "തെളിവ്",
+          "ps": "شواهد",
+          "ro": "dovezi",
+          "ru": "доказательства",
+          "ta": "சான்று",
+          "tl": "ebidensya (evidence)",
+          "ur": "ثبوت"
          }
         },
         {
@@ -318941,7 +319344,20 @@
           "zh-Hans": "边境 (biānjìng)",
           "fa": "مرز (marz)",
           "vi": "biên giới",
-          "zh-Hant": "邊境 (biānjìng)"
+          "zh-Hant": "邊境 (biānjìng)",
+          "am": "ድንበር (ወሰን)",
+          "ar": "الحدود (الخط الأمامي للاستيطان)",
+          "es": "frontera",
+          "fr": "frontière (front pionnier)",
+          "hi": "सीमा (सरहद)",
+          "ko": "변경(개척지)",
+          "ml": "അതിർത്തി",
+          "ps": "پوله",
+          "ro": "graniță (zonă de frontieră)",
+          "ru": "граница (фронтир)",
+          "ta": "எல்லைப்புறம்",
+          "tl": "hangganan (frontier)",
+          "ur": "سرحد"
          }
         },
         {
@@ -319008,7 +319424,20 @@
           "zh-Hans": "州长 (zhōuzhǎng)",
           "fa": "فرماندار (farmāndār)",
           "vi": "thống đốc",
-          "zh-Hant": "州長 (zhōuzhǎng)"
+          "zh-Hant": "州長 (zhōuzhǎng)",
+          "am": "ገዢ",
+          "ar": "الحاكم",
+          "es": "gobernador",
+          "fr": "gouverneur",
+          "hi": "गवर्नर (राज्यपाल)",
+          "ko": "총독(주지사)",
+          "ml": "ഗവർണ്ണർ",
+          "ps": "والي",
+          "ro": "guvernator",
+          "ru": "губернатор",
+          "ta": "ஆளுநர்",
+          "tl": "gobernador",
+          "ur": "گورنر"
          }
         },
         {
@@ -319074,7 +319503,20 @@
           "zh-Hans": "正义 (zhèngyì)",
           "fa": "عدالت (edālat)",
           "vi": "công lý",
-          "zh-Hant": "正義 (zhèngyì)"
+          "zh-Hant": "正義 (zhèngyì)",
+          "am": "ፍትህ",
+          "ar": "العدالة",
+          "es": "justicia",
+          "fr": "justice",
+          "hi": "न्याय",
+          "ko": "정의(사법)",
+          "ml": "നീതി",
+          "ps": "عدالت",
+          "ro": "justiție",
+          "ru": "правосудие",
+          "ta": "நீதி",
+          "tl": "katarungan (justice)",
+          "ur": "انصاف"
          }
         },
         {
@@ -319089,7 +319531,20 @@
           "zh-Hans": "地方法官 (dìfāng fǎguān)",
           "fa": "قاضی (qāzī)",
           "vi": "thẩm phán",
-          "zh-Hant": "地方法官 (dìfāng fǎguān)"
+          "zh-Hant": "地方法官 (dìfāng fǎguān)",
+          "am": "ዳኛ (የአካባቢ ፍርድ ቤት)",
+          "ar": "قاضي الصلح",
+          "es": "magistrado",
+          "fr": "magistrat",
+          "hi": "मजिस्ट्रेट",
+          "ko": "치안판사",
+          "ml": "മജിസ്‌ട്രേറ്റ്",
+          "ps": "قاضي",
+          "ro": "magistrat",
+          "ru": "мировой судья",
+          "ta": "நீதவான்",
+          "tl": "hukom (magistrate)",
+          "ur": "مجسٹریٹ"
          }
         },
         {
@@ -319104,7 +319559,20 @@
           "zh-Hans": "大屠杀 (dà túshā)",
           "fa": "قتل‌عام (qatl-e ‘ām)",
           "vi": "thảm sát",
-          "zh-Hant": "大屠殺 (dà túshā)"
+          "zh-Hant": "大屠殺 (dà túshā)",
+          "am": "ጭፍጨፋ",
+          "ar": "المجزرة",
+          "es": "masacre",
+          "fr": "massacre",
+          "hi": "नरसंहार",
+          "ko": "학살",
+          "ml": "കൂട്ടക്കൊല",
+          "ps": "لوی وژنه",
+          "ro": "masacru",
+          "ru": "резня (массовое убийство)",
+          "ta": "படுகொலை",
+          "tl": "malawakang pagpatay (massacre)",
+          "ur": "قتل عام"
          }
         },
         {
@@ -319195,7 +319663,20 @@
           "zh-Hans": "虐待 (nüèdài)",
           "fa": "بدرفتاری (badraftārī)",
           "vi": "ngược đãi",
-          "zh-Hant": "虐待 (nüèdài)"
+          "zh-Hant": "虐待 (nüèdài)",
+          "am": "ክፉ አያያዝ",
+          "ar": "سوء المعاملة",
+          "es": "maltrato",
+          "fr": "mauvais traitement",
+          "hi": "दुर्व्यवहार",
+          "ko": "학대(부당한 대우)",
+          "ml": "ദുരുപയോഗം",
+          "ps": "بد چلند",
+          "ro": "maltratare",
+          "ru": "жестокое обращение",
+          "ta": "தவறான நடத்தை",
+          "tl": "maling pagtrato (mistreatment)",
+          "ur": "بدسلوکی"
          }
         },
         {
@@ -319210,7 +319691,20 @@
           "zh-Hans": "谋杀 (móushā)",
           "fa": "قتل (qatl)",
           "vi": "giết người",
-          "zh-Hant": "謀殺 (móushā)"
+          "zh-Hant": "謀殺 (móushā)",
+          "am": "ግድያ",
+          "ar": "القتل",
+          "es": "asesinato",
+          "fr": "meurtre",
+          "hi": "हत्या",
+          "ko": "살인",
+          "ml": "കൊലപാതകം",
+          "ps": "قتل",
+          "ro": "crimă",
+          "ru": "убийство",
+          "ta": "கொலை",
+          "tl": "pagpatay (murder)",
+          "ur": "قتل"
          }
         },
         {
@@ -319225,7 +319719,20 @@
           "zh-Hans": "愤慨 (fèngǎi)",
           "fa": "خشم (khashm)",
           "vi": "phẫn nộ",
-          "zh-Hant": "憤慨 (fèngǎi)"
+          "zh-Hant": "憤慨 (fèngǎi)",
+          "am": "ቁጣ (ብስጭት)",
+          "ar": "السخط (الاستفزاز)",
+          "es": "indignación (ultraje)",
+          "fr": "indignation (outrage)",
+          "hi": "आक्रोश (अत्याचार)",
+          "ko": "격분(만행)",
+          "ml": "രോഷം",
+          "ps": "غوسه (سختي)",
+          "ro": "indignare (ultraj)",
+          "ru": "возмущение (произвол)",
+          "ta": "கடும் கோபம்",
+          "tl": "galit na pagtutol (outrage)",
+          "ur": "شدید غم و غصہ"
          }
         },
         {
@@ -319240,7 +319747,20 @@
           "zh-Hans": "搜捕队 (sōubǔ duì)",
           "fa": "گروه تعقیب (gorūh-e ta‘qīb)",
           "vi": "đội truy bắt",
-          "zh-Hant": "搜捕隊 (sōubǔ duì)"
+          "zh-Hant": "搜捕隊 (sōubǔ duì)",
+          "am": "የፖሊስ ቡድን (ተከታታይ ቡድን)",
+          "ar": "مجموعة مطاردة (شرطة تطوعية)",
+          "es": "partida de búsqueda (grupo de persecución)",
+          "fr": "groupe de poursuite (posse)",
+          "hi": "खोजी दल (पीछा करने वाला समूह)",
+          "ko": "추적대(포시)",
+          "ml": "പിന്തുടരൽ സംഘം",
+          "ps": "تعقیب کوونکی ډله",
+          "ro": "grup de urmărire",
+          "ru": "отряд преследования",
+          "ta": "துரத்தும் குழு",
+          "tl": "grupong humahabol (posse)",
+          "ur": "تعاقب کرنے والا گروہ"
          }
         },
         {
@@ -319255,7 +319775,20 @@
           "zh-Hans": "惩罚 (chéngfá)",
           "fa": "مجازات کردن (mojāzāt kardan)",
           "vi": "trừng phạt",
-          "zh-Hant": "懲罰 (chéngfá)"
+          "zh-Hant": "懲罰 (chéngfá)",
+          "am": "መቅጣት",
+          "ar": "يعاقب",
+          "es": "castigar",
+          "fr": "punir",
+          "hi": "दंड देना",
+          "ko": "처벌하다",
+          "ml": "ശിക്ഷിക്കുക",
+          "ps": "سزا ورکول",
+          "ro": "a pedepsi",
+          "ru": "наказывать",
+          "ta": "தண்டி",
+          "tl": "parusahan (punish)",
+          "ur": "سزا دینا"
          }
         },
         {
@@ -319374,7 +319907,20 @@
           "zh-Hans": "沙沙作响 (shāshā zuòxiǎng) / 偷牛 (tōu niú)",
           "fa": "خش‌خش کردن / دزدیدن گاو (khashkhash kardan / dozdīdan-e gāv)",
           "vi": "sột soạt / ăn trộm gia súc",
-          "zh-Hant": "沙沙作響 (shāshā zuòxiǎng) / 偷牛 (tōu niú)"
+          "zh-Hant": "沙沙作響 (shāshā zuòxiǎng) / 偷牛 (tōu niú)",
+          "am": "መስረቅ (ከብት መስረቅ)",
+          "ar": "سرقة الماشية",
+          "es": "robar ganado (cuatrerismo)",
+          "fr": "voler du bétail",
+          "hi": "मवेशी चुराना",
+          "ko": "가축을 훔치다",
+          "ml": "കന്നുകാലികളെ മോഷ്ടിക്കുക",
+          "ps": "څاروي غلا کول",
+          "ro": "a fura vite",
+          "ru": "угонять скот (конокрадство)",
+          "ta": "கால்நடைகளைத் திருடு",
+          "tl": "magnakaw ng baka (rustle)",
+          "ur": "مویشی چوری کرنا"
          }
         },
         {
@@ -319389,7 +319935,20 @@
           "zh-Hans": "擅自占用者 (shànzì zhànyòng zhě)",
           "fa": "متصرفان غیرقانونی (motasarrefān-e gheyr-e qānūnī)",
           "vi": "người chiếm dụng",
-          "zh-Hant": "擅自佔用者 (shànzì zhànyòng zhě)"
+          "zh-Hant": "擅自佔用者 (shànzì zhànyòng zhě)",
+          "am": "ያለፈቃድ ተቀማጮች (የመሬት ወራሪዎች)",
+          "ar": "المستقطنون (المستوطنون بلا إذن)",
+          "es": "ocupantes ilegales (colonos sin título)",
+          "fr": "squatteurs (colons sans titre)",
+          "hi": "अनधिकृत बसने वाले (भूमि हड़पने वाले)",
+          "ko": "무단 정착민들",
+          "ml": "അനധികൃത കുടിയേറ്റക്കാർ",
+          "ps": "بې اجازې میشت",
+          "ro": "ocupanți ilegali de teren",
+          "ru": "самовольные поселенцы (скваттеры)",
+          "ta": "அனுமதியின்றி குடியேறியவர்கள்",
+          "tl": "lumuluklok nang walang pahintulot (squatters)",
+          "ur": "غیر مجاز آبادکار"
          }
         },
         {
@@ -319404,7 +319963,20 @@
           "zh-Hans": "审判 (shěnpàn)",
           "fa": "محاکمه (mahākame)",
           "vi": "phiên tòa",
-          "zh-Hant": "審判 (shěnpàn)"
+          "zh-Hant": "審判 (shěnpàn)",
+          "am": "ችሎት (ፍርድ)",
+          "ar": "المحاكمة",
+          "es": "juicio",
+          "fr": "procès",
+          "hi": "मुकदमा",
+          "ko": "재판",
+          "ml": "വിചാരണ",
+          "ps": "محاکمه",
+          "ro": "proces",
+          "ru": "суд (судебный процесс)",
+          "ta": "விசாரணை",
+          "tl": "paglilitis (trial)",
+          "ur": "مقدمہ"
          }
         },
         {
@@ -319419,7 +319991,20 @@
           "zh-Hans": "受害者 (shòuhài zhě)",
           "fa": "قربانی (qorbānī)",
           "vi": "nạn nhân",
-          "zh-Hant": "受害者 (shòuhài zhě)"
+          "zh-Hant": "受害者 (shòuhài zhě)",
+          "am": "ተጠቂ",
+          "ar": "الضحية",
+          "es": "víctima",
+          "fr": "victime",
+          "hi": "पीड़ित",
+          "ko": "희생자",
+          "ml": "ഇര",
+          "ps": "قربانی",
+          "ro": "victimă",
+          "ru": "жертва",
+          "ta": "பாதிக்கப்பட்டவர்",
+          "tl": "biktima (victim)",
+          "ur": "شکار"
          }
         },
         {
@@ -319434,7 +320019,20 @@
           "zh-Hans": "目击者 (mùjī zhě)",
           "fa": "شاهد (shāhed)",
           "vi": "nhân chứng",
-          "zh-Hant": "目擊者 (mùjī zhě)"
+          "zh-Hant": "目擊者 (mùjī zhě)",
+          "am": "ምስክር",
+          "ar": "الشاهد",
+          "es": "testigo",
+          "fr": "témoin",
+          "hi": "गवाह",
+          "ko": "목격자(증인)",
+          "ml": "സാക്ഷി",
+          "ps": "شاهد",
+          "ro": "martor",
+          "ru": "свидетель",
+          "ta": "சாட்சி",
+          "tl": "saksi (witness)",
+          "ur": "گواہ"
          }
         },
         {
