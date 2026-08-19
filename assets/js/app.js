@@ -253,10 +253,82 @@ function famKeyFor(part) {
   const nm = normMeaning(part.meaning);
   return nm ? `${surf}|${nm}` : null;
 }
+// The raw key uses whatever wording the author of that unit happened to type,
+// and the same morpheme gets glossed a dozen ways across the file: "-ion" is
+// written as "act of", "process of", "act or result of", "the act of (makes a
+// noun)" and thirty other ways. Keyed literally, that one suffix shatters into
+// thirty-odd families, and a student who learned "reflection" is never shown
+// "explanation" — the exact connection the app exists to make.
+//
+// morpheme_dictionary is the curated layer that already knows this: each sense
+// carries the wordings it answers to in `aka`. Resolving through it collapses
+// the noise while keeping senses the dictionary deliberately separates (the
+// "in-" of "immune" stays apart from the "in-" of "immigration").
+let SENSE_INDEX = null;
+function senseIndex() {
+  if (SENSE_INDEX) return SENSE_INDEX;
+  const dict = (DATA && DATA.morpheme_dictionary) || {};
+  const claims = new Map();      // raw key -> Set of senses that answer to it
+  for (const [key, entry] of Object.entries(dict)) {
+    const surf = (entry.surface || '').trim().toLowerCase();
+    for (const g of [entry.gloss, ...(entry.aka || [])]) {
+      const nm = normMeaning(g);
+      if (!nm) continue;
+      const raw = `${surf}|${nm}`;
+      if (!claims.has(raw)) claims.set(raw, new Set());
+      claims.get(raw).add(key);
+    }
+  }
+  const idx = new Map();
+  for (const [raw, senses] of claims) {
+    // A wording two senses both answer to cannot be resolved — "in|not/into"
+    // is claimed by both the "not" and the "into" prefix, and guessing would
+    // teach the wrong link. Left alone, it keeps its own literal key.
+    if (senses.size === 1) idx.set(raw, [...senses][0]);
+  }
+  SENSE_INDEX = idx;
+  return idx;
+}
+// The curated sense a part belongs to — this, not the raw gloss, is what
+// "the same piece" means everywhere in the app.
+function senseKeyFor(part) {
+  const raw = famKeyFor(part);
+  if (!raw) return null;
+  return senseIndex().get(raw) || raw;
+}
+// morpheme_families is built with the raw keys too, so it is fragmented the
+// same way. Union the fragments that belong to one sense, once, on first use.
+let MERGED_FAMILIES = null;
+function mergedFamilies() {
+  if (MERGED_FAMILIES) return MERGED_FAMILIES;
+  const dict = (DATA && DATA.morpheme_dictionary) || {};
+  const out = new Map();
+  const seen = new Map();
+  for (const [raw, fam] of Object.entries((DATA && DATA.morpheme_families) || {})) {
+    const key = senseIndex().get(raw) || raw;
+    let cur = out.get(key);
+    if (!cur) {
+      const sense = dict[key];
+      // Prefer the dictionary's wording for the header: it is the reviewed one.
+      cur = { surface: fam.surface, type: fam.type,
+        meaning: (sense && sense.gloss) || fam.meaning, words: [] };
+      out.set(key, cur);
+      seen.set(key, new Set());
+    }
+    for (const w of fam.words) {
+      const id = `${w[1]}::${w[0]}`;
+      if (seen.get(key).has(id)) continue;
+      seen.get(key).add(id);
+      cur.words.push(w);
+    }
+  }
+  for (const fam of out.values()) fam.words.sort((a, b) => a[0].localeCompare(b[0]));
+  MERGED_FAMILIES = out;
+  return out;
+}
 function morphemeFamily(part) {
-  const key = famKeyFor(part);
-  const fams = (DATA && DATA.morpheme_families) || {};
-  return key ? fams[key] || null : null;
+  const key = senseKeyFor(part);
+  return key ? mergedFamilies().get(key) || null : null;
 }
 // Bold the shared morpheme inside a whole word, e.g. photo → **photo**synthesis.
 function highlightMorph(word, surface) {
@@ -378,7 +450,7 @@ function personalEchoIndex() {
     const w = unit && unit.words.find((x) => x.word === it.word);
     if (!w || !(w.parts || []).length) continue;
     for (const p of w.parts) {
-      const key = famKeyFor(p);
+      const key = senseKeyFor(p);
       if (!key) continue;
       if (!idx.has(key)) idx.set(key, []);
       idx.get(key).push({ word: w, item: it });
@@ -399,7 +471,7 @@ const ECHO_BIN_RANK = { mastered: 0, consolidating: 1, learning: 2 };
 // showing those here would hand over the answer, so they are held back until
 // built.
 function echoesFor(part, hide) {
-  const key = famKeyFor(part);
+  const key = senseKeyFor(part);
   if (!key) return { key: null, list: [], total: 0 };
   // A word met in two units is two collection entries but one word to the
   // student, so it earns one line — the stronger entry's.
@@ -439,7 +511,7 @@ function echoWordEl(w, key) {
     if (i < 0) continue;
     if (i > at) spans.push(h('span', { class: 'echo-part' }, word.slice(at, i)));
     spans.push(h('span', {
-      class: `echo-part ${famKeyFor(p) === key ? `hit ${p.type || ''}` : ''}`.trim(),
+      class: `echo-part ${senseKeyFor(p) === key ? `hit ${p.type || ''}` : ''}`.trim(),
     }, word.slice(i, i + surf.length)));
     at = i + surf.length;
   }
@@ -1046,7 +1118,7 @@ function renderBuildBoard({ levelId, subjectId, unitId }) {
       (w.parts && w.parts.length >= 2) && h('div', { class: 'study-morphs' },
         ...w.parts.map((p) => {
           const native = pickExact(p.translations, dispLang);
-          const on = echoPart && famKeyFor(echoPart) === famKeyFor(p);
+          const on = echoPart && senseKeyFor(echoPart) === senseKeyFor(p);
           return h('button', {
             type: 'button',
             class: `mo-chip ${p.type || ''} echoable ${on ? 'echoing' : ''}`.trim(),
