@@ -292477,7 +292477,8 @@
           "ru": "щупальца",
           "ta": "வாலியங்கள்",
           "tl": "tentakulo",
-          "ur": "لمسک (ٹینٹیکل)"
+          "ur": "لمسک (ٹینٹیکل)",
+          "vi": "xúc tu"
          }
         },
         {
@@ -292855,7 +292856,8 @@
           "ru": "хемосинтез",
           "ta": "வேதிச் சேர்க்கை",
           "tl": "chemosynthesis",
-          "ur": "کیمیائی تالیف"
+          "ur": "کیمیائی تالیف",
+          "vi": "hóa tổng hợp"
          }
         },
         {
@@ -293802,7 +293804,20 @@
           "zh-Hans": "农业 (nóngyè)",
           "fa": "کشاورزی (keshāvarzī)",
           "vi": "Nông nghiệp",
-          "zh-Hant": "農業 (nóngyè)"
+          "zh-Hant": "農業 (nóngyè)",
+          "am": "ግብርና",
+          "ar": "الزراعة",
+          "es": "agricultura",
+          "fr": "agriculture",
+          "hi": "कृषि",
+          "ko": "농업",
+          "ml": "കൃഷി",
+          "ps": "کرنه",
+          "ro": "agricultură",
+          "ru": "сельское хозяйство",
+          "ta": "வேளாண்மை",
+          "tl": "agrikultura",
+          "ur": "زراعت"
          }
         },
         {
@@ -294254,7 +294269,20 @@
           "zh-Hans": "定居点",
           "fa": "سکونتگاه (sokūnatgāh)",
           "vi": "Khu định cư",
-          "zh-Hant": "定居點"
+          "zh-Hant": "定居點",
+          "am": "ሰፈራ",
+          "ar": "الاستيطان (الاستقرار)",
+          "es": "asentamiento",
+          "fr": "établissement (colonie)",
+          "hi": "बस्ती (आबादकारी)",
+          "ko": "정착지",
+          "ml": "സെറ്റിൽമെന്റ്",
+          "ps": "میشتوالی",
+          "ro": "așezare",
+          "ru": "поселение",
+          "ta": "குடியேற்றம்",
+          "tl": "pamayanan (settlement)",
+          "ur": "آبادکاری"
          }
         },
         {
@@ -294269,7 +294297,20 @@
           "zh-Hans": "复杂的 (fùzá de) / 精密的 (jīngmì de)",
           "fa": "پیشرفته (pīshrafteh)",
           "vi": "Tinh vi, phức tạp",
-          "zh-Hant": "複雜的 (fùzá de) / 精密的 (jīngmì de)"
+          "zh-Hant": "複雜的 (fùzá de) / 精密的 (jīngmì de)",
+          "am": "የተራቀቀ",
+          "ar": "متطور (معقد)",
+          "es": "sofisticado",
+          "fr": "sophistiqué",
+          "hi": "परिष्कृत",
+          "ko": "정교한",
+          "ml": "സങ്കീർണ്ണമായ",
+          "ps": "پرمختللی",
+          "ro": "sofisticat",
+          "ru": "сложный (совершенный)",
+          "ta": "நுட்பமான",
+          "tl": "sopistikado",
+          "ur": "پیچیدہ (جدید)"
          }
         },
         {
@@ -294335,7 +294376,20 @@
           "zh-Hans": "可持续性",
           "fa": "پایداری",
           "vi": "phát triển bền vững",
-          "zh-Hant": "可持續性"
+          "zh-Hant": "可持續性",
+          "am": "ዘላቂነት",
+          "ar": "الاستدامة",
+          "es": "sostenibilidad",
+          "fr": "durabilité",
+          "hi": "स्थिरता (सततता)",
+          "ko": "지속가능성",
+          "ml": "സുസ്ഥിരത",
+          "ps": "دوامدارتوب",
+          "ro": "sustenabilitate",
+          "ru": "устойчивость (экологическая)",
+          "ta": "நிலைத்தன்மை",
+          "tl": "sustainability (pagpapanatili)",
+          "ur": "پائیداری"
          }
         },
         {
@@ -294348,7 +294402,22 @@
          "translations": {
           "ja": "傾向",
           "zh-Hans": "趋势",
-          "zh-Hant": "趨勢"
+          "zh-Hant": "趨勢",
+          "am": "ዝንባሌ",
+          "ar": "الميل (النزعة)",
+          "es": "tendencia",
+          "fa": "گرایش",
+          "fr": "tendance",
+          "hi": "प्रवृत्ति",
+          "ko": "경향",
+          "ml": "പ്രവണത",
+          "ps": "لېوالتیا",
+          "ro": "tendință",
+          "ru": "склонность",
+          "ta": "போக்கு",
+          "tl": "hilig (tendency)",
+          "ur": "رجحان",
+          "vi": "xu hướng"
          }
         },
         {
@@ -294360,7 +294429,23 @@
          "tier": 2,
          "translations": {
           "ja": "表土",
-          "zh-Hant": "表土；土壤表層"
+          "zh-Hant": "表土；土壤表層",
+          "am": "የላይኛው የአፈር ንብርብር",
+          "ar": "التربة السطحية",
+          "es": "capa superior del suelo",
+          "fa": "خاک سطحی",
+          "fr": "terre arable (couche superficielle)",
+          "hi": "ऊपरी मिट्टी",
+          "ko": "표토",
+          "ml": "മേൽമണ്ണ്",
+          "ps": "پاسنۍ خاورې",
+          "ro": "sol de suprafață",
+          "ru": "верхний слой почвы",
+          "ta": "மேல்மண்",
+          "tl": "ibabaw na lupa (topsoil)",
+          "ur": "بالائی مٹی",
+          "vi": "lớp đất mặt",
+          "zh-Hans": "表土"
          }
         },
         {
@@ -294373,7 +294458,22 @@
          "translations": {
           "ja": "卸売",
           "zh-Hans": "批发",
-          "zh-Hant": "批發"
+          "zh-Hant": "批發",
+          "am": "በጅምላ",
+          "ar": "بالجملة",
+          "es": "al por mayor",
+          "fa": "عمده‌فروشی",
+          "fr": "en gros (vente en gros)",
+          "hi": "थोक (होलसेल)",
+          "ko": "도매",
+          "ml": "മൊത്തവ്യാപാരം",
+          "ps": "بائيسکه پلور",
+          "ro": "en gros",
+          "ru": "оптовый",
+          "ta": "மொத்த விற்பனை",
+          "tl": "wholesale (pakyawan)",
+          "ur": "تھوک فروخت",
+          "vi": "bán buôn"
          }
         },
         {
@@ -294439,7 +294539,20 @@
           "zh-Hans": "种群",
           "fa": "جمعیت",
           "vi": "quần thể",
-          "zh-Hant": "種群"
+          "zh-Hant": "種群",
+          "am": "ብዛት (ህዝብ)",
+          "ar": "التعداد السكاني (المجتمع الحيوي)",
+          "es": "población",
+          "fr": "population",
+          "hi": "जनसंख्या",
+          "ko": "개체군(인구)",
+          "ml": "ജനസംഖ്യ",
+          "ps": "نفوس",
+          "ro": "populație",
+          "ru": "популяция (население)",
+          "ta": "மக்கள்தொகை",
+          "tl": "populasyon",
+          "ur": "آبادی"
          }
         },
         {
@@ -294454,7 +294567,20 @@
           "zh-Hans": "竞争优势 (jìngzhēng yōushì)",
           "fa": "مزیت رقابتی (maziyyat-e reghābatī)",
           "vi": "lợi thế cạnh tranh",
-          "zh-Hant": "競爭優勢 (jìngzhēng yōushì)"
+          "zh-Hant": "競爭優勢 (jìngzhēng yōushì)",
+          "am": "የተወዳዳሪነት ብልጫ",
+          "ar": "الميزة التنافسية",
+          "es": "ventaja competitiva",
+          "fr": "avantage concurrentiel",
+          "hi": "प्रतिस्पर्धी लाभ",
+          "ko": "경쟁 우위",
+          "ml": "മത്സരാധിഷ്ഠിത നേട്ടം",
+          "ps": "سیالۍ برتری",
+          "ro": "avantaj competitiv",
+          "ru": "конкурентное преимущество",
+          "ta": "போட்டி நன்மை",
+          "tl": "kalamangan sa kompetisyon",
+          "ur": "مسابقتی برتری"
          }
         },
         {
@@ -294782,7 +294908,20 @@
           "zh-Hans": "劣势",
           "fa": "نقطه‌ضعف (noqte-zaʿf) / عیب (eyb)",
           "vi": "bất lợi",
-          "zh-Hant": "劣勢"
+          "zh-Hant": "劣勢",
+          "am": "ጉዳት (ኪሳራ)",
+          "ar": "العيب (الضرر)",
+          "es": "desventaja",
+          "fr": "désavantage",
+          "hi": "नुकसान (हानि)",
+          "ko": "불리한 점",
+          "ml": "പോരായ്മ",
+          "ps": "زیان",
+          "ro": "dezavantaj",
+          "ru": "недостаток (невыгода)",
+          "ta": "பாதகம்",
+          "tl": "kawalang-tiyak (disadvantage)",
+          "ur": "نقصان"
          }
         },
         {
@@ -294797,7 +294936,20 @@
           "zh-Hans": "繁殖 (fánzhí)",
           "fa": "پرورش دادن (parvaresh dādan) / زاد و ولد (zād o valad)",
           "vi": "sinh sản / nuôi giống",
-          "zh-Hant": "繁殖 (fánzhí)"
+          "zh-Hant": "繁殖 (fánzhí)",
+          "am": "ዘር (ማራባት)",
+          "ar": "يتكاثر (سلالة)",
+          "es": "reproducirse (raza)",
+          "fr": "se reproduire (race)",
+          "hi": "प्रजनन करना (नस्ल)",
+          "ko": "번식하다(품종)",
+          "ml": "പ്രജനനം നടത്തുക",
+          "ps": "ژنو کول",
+          "ro": "a se reproduce (rasă)",
+          "ru": "размножаться (порода)",
+          "ta": "இனப்பெருக்கம் செய்",
+          "tl": "magparami (lahi)",
+          "ur": "افزائش نسل کرنا (نسل)"
          }
         },
         {
@@ -294812,7 +294964,20 @@
           "zh-Hans": "伪装 (wěizhuāng) / 伪装术 (wěizhuāng shù)",
           "fa": "استتار (estetār) /伪装 (ghiyāb)",
           "vi": "ngụy trang",
-          "zh-Hant": "偽裝 (wěizhuāng) / 偽裝術 (wěizhuāng shù)"
+          "zh-Hant": "偽裝 (wěizhuāng) / 偽裝術 (wěizhuāng shù)",
+          "am": "ራስን መደበቅ (ካሙፍላዥ)",
+          "ar": "التمويه",
+          "es": "camuflaje",
+          "fr": "camouflage",
+          "hi": "छद्मावरण",
+          "ko": "위장",
+          "ml": "വേഷപ്രച്ഛന്നത",
+          "ps": "پټون (کاموفلاژ)",
+          "ro": "camuflaj",
+          "ru": "камуфляж (маскировка)",
+          "ta": "மறைவேடம்",
+          "tl": "camouflage (pagtatago)",
+          "ur": "بھیس بدلنا (کیموفلاج)"
          }
         },
         {
@@ -294827,7 +294992,20 @@
           "zh-Hans": "图形 (túxíng) / 数字 (shùzì)",
           "fa": "شکل (shekl) / عدد (ʿadad)",
           "vi": "hình / con số",
-          "zh-Hant": "圖形 (túxíng) / 數字 (shùzì)"
+          "zh-Hant": "圖形 (túxíng) / 數字 (shùzì)",
+          "am": "አሃዝ (ቁጥር)",
+          "ar": "الرقم (الشكل)",
+          "es": "cifra (figura)",
+          "fr": "chiffre (figure)",
+          "hi": "आंकड़ा (चित्र)",
+          "ko": "수치(그림)",
+          "ml": "സംഖ്യ (ചിത്രം)",
+          "ps": "شمېره (شکل)",
+          "ro": "cifră (figură)",
+          "ru": "цифра (рисунок)",
+          "ta": "எண் (உருவம்)",
+          "tl": "bilang (larawan/figure)",
+          "ur": "عدد (شکل)"
          }
         },
         {
@@ -294842,7 +295020,20 @@
           "zh-Hans": "侏儒负鼠 (zhūrú fùshǔ)",
           "fa": "پوزوم کوتوله (pūzum-e kutūle)",
           "vi": "chuột túi nhỏ tí hon",
-          "zh-Hant": "侏儒負鼠 (zhūrú fùshǔ)"
+          "zh-Hant": "侏儒負鼠 (zhūrú fùshǔ)",
+          "am": "ድንክ ፖሰም (ትንሽ አውስትራሊያዊ አጥቢ)",
+          "ar": "الأبوسوم القزم",
+          "es": "possum pigmeo",
+          "fr": "opossum pygmée",
+          "hi": "पिग्मी पॉसम",
+          "ko": "피그미 주머니쥐",
+          "ml": "കുള്ളൻ പോസം",
+          "ps": "کوچنی پوسم",
+          "ro": "posum pigmeu",
+          "ru": "карликовый поссум",
+          "ta": "குள்ள பாசம்",
+          "tl": "pygmy possum (maliit na hayop)",
+          "ur": "بونا پوسم (چھوٹا جانور)"
          }
         },
         {
@@ -294857,7 +295048,20 @@
           "zh-Hans": "财富 (cáifù)",
           "fa": "ثروت (servat)",
           "vi": "sự giàu có",
-          "zh-Hant": "財富 (cáifù)"
+          "zh-Hant": "財富 (cáifù)",
+          "am": "ሀብት",
+          "ar": "الثروة",
+          "es": "riqueza",
+          "fr": "richesse",
+          "hi": "धन (संपत्ति)",
+          "ko": "부(재산)",
+          "ml": "സമ്പത്ത്",
+          "ps": "شتمني",
+          "ro": "avere (bogăție)",
+          "ru": "богатство",
+          "ta": "செல்வம்",
+          "tl": "kayamanan",
+          "ur": "دولت"
          }
         }
        ],
