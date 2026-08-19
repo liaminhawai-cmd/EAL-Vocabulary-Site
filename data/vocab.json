@@ -128622,7 +128622,26 @@
          "root": "lyse",
          "meaning": "Break something into its parts and show how the parts work together.",
          "example": "Analyse how the writer builds tension in the opening chapter.",
-         "translations": {}
+         "translations": {
+          "zh-Hans": "分析",
+          "zh-Hant": "分析",
+          "ja": "分析する",
+          "ko": "분석하다",
+          "vi": "phân tích",
+          "ar": "يحلل",
+          "fa": "تحلیل کردن",
+          "ur": "تجزیہ کرنا",
+          "am": "መተንተን",
+          "ml": "വിശകലനം ചെയ്യുക",
+          "ta": "பகுப்பாய்வு செய்",
+          "tl": "suriin",
+          "ps": "شنډل",
+          "ro": "a analiza",
+          "ru": "анализировать",
+          "fr": "analyser",
+          "hi": "विश्लेषण करना",
+          "es": "analizar"
+         }
         },
         {
          "word": "evaluate",
@@ -128708,7 +128727,26 @@
          "root": "valu",
          "meaning": "Judge how good, useful or successful something is, and give reasons for your judgement.",
          "example": "Evaluate the effectiveness of the government's response to the crisis.",
-         "translations": {}
+         "translations": {
+          "zh-Hans": "评价",
+          "zh-Hant": "評價",
+          "ja": "評価する",
+          "ko": "평가하다",
+          "vi": "đánh giá",
+          "ar": "يقيّم",
+          "fa": "ارزیابی کردن",
+          "ur": "جانچنا",
+          "am": "መገምገም",
+          "ml": "വിലയിരുത്തുക",
+          "ta": "மதிப்பீடு செய்",
+          "tl": "suriin ang halaga",
+          "ps": "ارزول",
+          "ro": "a evalua",
+          "ru": "оценивать",
+          "fr": "évaluer",
+          "hi": "मूल्यांकन करना",
+          "es": "evaluar"
+         }
         },
         {
          "word": "describe",
@@ -128767,7 +128805,26 @@
          "root": "scribe",
          "meaning": "Give the main features of something in detail. You are not judging it.",
          "example": "Describe the structure of a plant cell.",
-         "translations": {}
+         "translations": {
+          "zh-Hans": "描述",
+          "zh-Hant": "描述",
+          "ja": "説明する",
+          "ko": "묘사하다",
+          "vi": "mô tả",
+          "ar": "يصف",
+          "fa": "توصیف کردن",
+          "ur": "بیان کرنا",
+          "am": "መግለጽ",
+          "ml": "വിവരിക്കുക",
+          "ta": "விவரி",
+          "tl": "ilarawan",
+          "ps": "بیانول",
+          "ro": "a descrie",
+          "ru": "описывать",
+          "fr": "décrire",
+          "hi": "वर्णन करना",
+          "es": "describir"
+         }
         },
         {
          "word": "explain",
@@ -128808,7 +128865,26 @@
          "root": "plain",
          "meaning": "Make something clear by giving reasons or showing how it works.",
          "example": "Explain why the price of housing rose in this period.",
-         "translations": {}
+         "translations": {
+          "zh-Hans": "解释",
+          "zh-Hant": "解釋",
+          "ja": "説明する",
+          "ko": "설명하다",
+          "vi": "giải thích",
+          "ar": "يشرح",
+          "fa": "توضیح دادن",
+          "ur": "وضاحت کرنا",
+          "am": "ማብራራት",
+          "ml": "വിശദീകരിക്കുക",
+          "ta": "விளக்கு",
+          "tl": "ipaliwanag",
+          "ps": "تشریح کول",
+          "ro": "a explica",
+          "ru": "объяснять",
+          "fr": "expliquer",
+          "hi": "समझाना",
+          "es": "explicar"
+         }
         },
         {
          "word": "discuss",
@@ -128868,7 +128944,26 @@
          "root": "cuss",
          "meaning": "Look at more than one side of an idea before reaching a view.",
          "example": "Discuss whether the law achieves justice for victims.",
-         "translations": {}
+         "translations": {
+          "zh-Hans": "讨论",
+          "zh-Hant": "討論",
+          "ja": "議論する",
+          "ko": "논의하다",
+          "vi": "thảo luận",
+          "ar": "يناقش",
+          "fa": "بحث کردن",
+          "ur": "بحث کرنا",
+          "am": "መወያየት",
+          "ml": "ചർച്ച ചെയ്യുക",
+          "ta": "விவாதி",
+          "tl": "talakayin",
+          "ps": "بحث کول",
+          "ro": "a discuta",
+          "ru": "обсуждать",
+          "fr": "discuter",
+          "hi": "चर्चा करना",
+          "es": "discutir"
+         }
         },
         {
          "word": "compare",
@@ -128928,7 +129023,26 @@
          "root": "par",
          "meaning": "Show how two or more things are similar, and usually how they differ.",
          "example": "Compare the two experiments' results.",
-         "translations": {}
+         "translations": {
+          "zh-Hans": "比较",
+          "zh-Hant": "比較",
+          "ja": "比較する",
+          "ko": "비교하다",
+          "vi": "so sánh",
+          "ar": "يقارن",
+          "fa": "مقایسه کردن",
+          "ur": "موازنہ کرنا",
+          "am": "ማወዳደር",
+          "ml": "താരതമ്യം ചെയ്യുക",
+          "ta": "ஒப்பிடு",
+          "tl": "ihambing",
+          "ps": "پرتله کول",
+          "ro": "a compara",
+          "ru": "сравнивать",
+          "fr": "comparer",
+          "hi": "तुलना करना",
+          "es": "comparar"
+         }
         },
         {
          "word": "contrast",
@@ -128987,7 +129101,26 @@
          "root": "st",
          "meaning": "Show how two or more things are different from each other.",
          "example": "Contrast life in the city with life in the country.",
-         "translations": {}
+         "translations": {
+          "zh-Hans": "对比",
+          "zh-Hant": "對比",
+          "ja": "対比する",
+          "ko": "대조하다",
+          "vi": "đối chiếu",
+          "ar": "يقارن ويميّز",
+          "fa": "تضاد نشان دادن",
+          "ur": "تضاد ظاہر کرنا",
+          "am": "ማነጻጸር",
+          "ml": "വൈരുദ്ധ്യം കാണിക്കുക",
+          "ta": "வேறுபடுத்து",
+          "tl": "ipagkaiba",
+          "ps": "توپیر ښودل",
+          "ro": "a contrasta",
+          "ru": "противопоставлять",
+          "fr": "opposer",
+          "hi": "तुलना कर अंतर बताना",
+          "es": "contrastar"
+         }
         },
         {
          "word": "outline",
@@ -129046,7 +129179,26 @@
          "root": "line",
          "meaning": "Give the main points only, without the detail.",
          "example": "Outline the three stages of the water cycle.",
-         "translations": {}
+         "translations": {
+          "zh-Hans": "概述",
+          "zh-Hant": "概述",
+          "ja": "概説する",
+          "ko": "개요를 서술하다",
+          "vi": "phác thảo",
+          "ar": "يوجز",
+          "fa": "خلاصه بیان کردن",
+          "ur": "خاکہ بیان کرنا",
+          "am": "አጭር ማጠቃለያ መስጠት",
+          "ml": "രൂപരേഖ നൽകുക",
+          "ta": "சுருக்கமாகக் கூறு",
+          "tl": "balangkasin",
+          "ps": "لنډیز ورکول",
+          "ro": "a schița",
+          "ru": "обрисовывать в общих чертах",
+          "fr": "esquisser",
+          "hi": "रूपरेखा देना",
+          "es": "esbozar"
+         }
         },
         {
          "word": "identify",
@@ -129105,7 +129257,26 @@
          "root": "ident",
          "meaning": "Name or point out exactly what something is. A short answer is enough.",
          "example": "Identify two features of a persuasive text.",
-         "translations": {}
+         "translations": {
+          "zh-Hans": "识别",
+          "zh-Hant": "識別",
+          "ja": "特定する",
+          "ko": "식별하다",
+          "vi": "xác định",
+          "ar": "يحدد",
+          "fa": "شناسایی کردن",
+          "ur": "شناخت کرنا",
+          "am": "መለየት",
+          "ml": "തിരിച്ചറിയുക",
+          "ta": "அடையாளம் காண்",
+          "tl": "tukuyin",
+          "ps": "پیژندل",
+          "ro": "a identifica",
+          "ru": "определять",
+          "fr": "identifier",
+          "hi": "पहचानना",
+          "es": "identificar"
+         }
         },
         {
          "word": "define",
@@ -129164,7 +129335,26 @@
          "root": "fin",
          "meaning": "Give the exact meaning of a term — where its limits are.",
          "example": "Define 'opportunity cost'.",
-         "translations": {}
+         "translations": {
+          "zh-Hans": "定义",
+          "zh-Hant": "定義",
+          "ja": "定義する",
+          "ko": "정의하다",
+          "vi": "định nghĩa",
+          "ar": "يعرّف",
+          "fa": "تعریف کردن",
+          "ur": "تعریف کرنا",
+          "am": "መተርጎም",
+          "ml": "നിർവചിക്കുക",
+          "ta": "வரையறு",
+          "tl": "tukuyin ang kahulugan",
+          "ps": "تعریفول",
+          "ro": "a defini",
+          "ru": "определять",
+          "fr": "définir",
+          "hi": "परिभाषित करना",
+          "es": "definir"
+         }
         },
         {
          "word": "distinguish",
@@ -129211,7 +129401,26 @@
          "root": "stingu",
          "meaning": "Show clearly how two things are different from each other.",
          "example": "Distinguish between weather and climate.",
-         "translations": {}
+         "translations": {
+          "zh-Hans": "区分",
+          "zh-Hant": "區分",
+          "ja": "区別する",
+          "ko": "구별하다",
+          "vi": "phân biệt",
+          "ar": "يميّز",
+          "fa": "تمایز قائل شدن",
+          "ur": "فرق کرنا",
+          "am": "መለየት",
+          "ml": "വേർതിരിച്ചറിയുക",
+          "ta": "வேறுபடுத்திக் காட்டு",
+          "tl": "ibahin",
+          "ps": "توپیر کول",
+          "ro": "a distinge",
+          "ru": "различать",
+          "fr": "distinguer",
+          "hi": "अंतर करना",
+          "es": "distinguir"
+         }
         },
         {
          "word": "examine",
@@ -129252,7 +129461,26 @@
          "root": "amin",
          "meaning": "Look closely at something and say what you find.",
          "example": "Examine the causes of the Great Depression.",
-         "translations": {}
+         "translations": {
+          "zh-Hans": "考查",
+          "zh-Hant": "考查",
+          "ja": "検討する",
+          "ko": "검토하다",
+          "vi": "xem xét",
+          "ar": "يفحص",
+          "fa": "بررسی کردن",
+          "ur": "جانچنا",
+          "am": "መመርመር",
+          "ml": "പരിശോധിക്കുക",
+          "ta": "ஆராய்",
+          "tl": "suriin",
+          "ps": "معاینه کول",
+          "ro": "a examina",
+          "ru": "рассматривать",
+          "fr": "examiner",
+          "hi": "जाँचना",
+          "es": "examinar"
+         }
         },
         {
          "word": "assess",
@@ -129312,7 +129540,26 @@
          "root": "sess",
          "meaning": "Decide how important, valuable or successful something is, and say why.",
          "example": "Assess the impact of social media on teenagers' sleep.",
-         "translations": {}
+         "translations": {
+          "zh-Hans": "评估",
+          "zh-Hant": "評估",
+          "ja": "評価する",
+          "ko": "평가하다",
+          "vi": "đánh giá",
+          "ar": "يُقيّم",
+          "fa": "ارزیابی کردن",
+          "ur": "جائزہ لینا",
+          "am": "መገምገም",
+          "ml": "വിലയിരുത്തുക",
+          "ta": "மதிப்பிடு",
+          "tl": "tasahin",
+          "ps": "ارزونه کول",
+          "ro": "a evalua",
+          "ru": "оценивать",
+          "fr": "évaluer",
+          "hi": "आकलन करना",
+          "es": "evaluar"
+         }
         },
         {
          "word": "interpret",
@@ -129371,7 +129618,26 @@
          "root": "pret",
          "meaning": "Explain what something means, especially data, a source or a text.",
          "example": "Interpret the trend shown in the graph.",
-         "translations": {}
+         "translations": {
+          "zh-Hans": "解读",
+          "zh-Hant": "解讀",
+          "ja": "解釈する",
+          "ko": "해석하다",
+          "vi": "diễn giải",
+          "ar": "يفسّر",
+          "fa": "تفسیر کردن",
+          "ur": "تشریح کرنا",
+          "am": "መተርጎም",
+          "ml": "വ്യാഖ്യാനിക്കുക",
+          "ta": "விளக்கம் தரு",
+          "tl": "bigyang-kahulugan",
+          "ps": "تفسیر کول",
+          "ro": "a interpreta",
+          "ru": "интерпретировать",
+          "fr": "interpréter",
+          "hi": "व्याख्या करना",
+          "es": "interpretar"
+         }
         },
         {
          "word": "summarise",
@@ -129411,7 +129677,26 @@
          "root": "summ",
          "meaning": "Give the main ideas briefly, in your own words.",
          "example": "Summarise the article in three sentences.",
-         "translations": {}
+         "translations": {
+          "zh-Hans": "总结",
+          "zh-Hant": "總結",
+          "ja": "要約する",
+          "ko": "요약하다",
+          "vi": "tóm tắt",
+          "ar": "يلخّص",
+          "fa": "خلاصه کردن",
+          "ur": "خلاصہ کرنا",
+          "am": "ማጠቃለል",
+          "ml": "സംഗ്രഹിക്കുക",
+          "ta": "சுருக்கு",
+          "tl": "buodin",
+          "ps": "لنډیز کول",
+          "ro": "a rezuma",
+          "ru": "суммировать",
+          "fr": "résumer",
+          "hi": "सारांश देना",
+          "es": "resumir"
+         }
         },
         {
          "word": "justify",
@@ -129470,7 +129755,26 @@
          "root": "just",
          "meaning": "Give reasons that show your answer or choice is the right one.",
          "example": "Justify your choice of method.",
-         "translations": {}
+         "translations": {
+          "zh-Hans": "证明合理",
+          "zh-Hant": "證明合理",
+          "ja": "正当化する",
+          "ko": "정당화하다",
+          "vi": "biện minh",
+          "ar": "يبرر",
+          "fa": "توجیه کردن",
+          "ur": "جواز پیش کرنا",
+          "am": "ማጽደቅ",
+          "ml": "ന്യായീകരിക്കുക",
+          "ta": "நியாயப்படுத்து",
+          "tl": "bigyang-katwiran",
+          "ps": "توجیه کول",
+          "ro": "a justifica",
+          "ru": "обосновывать",
+          "fr": "justifier",
+          "hi": "औचित्य सिद्ध करना",
+          "es": "justificar"
+         }
         },
         {
          "word": "demonstrate",
@@ -129554,7 +129858,26 @@
          "root": "monstr",
          "meaning": "Show clearly that something is true, usually by using evidence or an example.",
          "example": "Demonstrate how the formula is applied.",
-         "translations": {}
+         "translations": {
+          "zh-Hans": "证明",
+          "zh-Hant": "證明",
+          "ja": "実証する",
+          "ko": "입증하다",
+          "vi": "chứng minh",
+          "ar": "يوضح ويثبت",
+          "fa": "نشان دادن",
+          "ur": "ثابت کرنا",
+          "am": "ማሳየት",
+          "ml": "തെളിയിക്കുക",
+          "ta": "நிரூபி",
+          "tl": "ipakita",
+          "ps": "ښودل",
+          "ro": "a demonstra",
+          "ru": "демонстрировать",
+          "fr": "démontrer",
+          "hi": "प्रदर्शित करना",
+          "es": "demostrar"
+         }
         },
         {
          "word": "illustrate",
@@ -129619,7 +129942,26 @@
          "root": "lustr",
          "meaning": "Make an idea clear by giving an example. (It does not mean 'draw a picture'.)",
          "example": "Illustrate your point with an example from the text.",
-         "translations": {}
+         "translations": {
+          "zh-Hans": "举例说明",
+          "zh-Hant": "舉例說明",
+          "ja": "例示する",
+          "ko": "예시하다",
+          "vi": "minh họa",
+          "ar": "يوضح بمثال",
+          "fa": "با مثال نشان دادن",
+          "ur": "مثال سے واضح کرنا",
+          "am": "በምሳሌ ማስረዳት",
+          "ml": "ഉദാഹരണത്തിലൂടെ വ്യക്തമാക്കുക",
+          "ta": "எடுத்துக்காட்டுடன் விளக்கு",
+          "tl": "ilarawan sa halimbawa",
+          "ps": "بېلګه ورکول",
+          "ro": "a ilustra",
+          "ru": "иллюстрировать",
+          "fr": "illustrer",
+          "hi": "उदाहरण से स्पष्ट करना",
+          "es": "ilustrar"
+         }
         }
        ],
        "path": "vce/command-terms/command-core"
@@ -129711,7 +130053,26 @@
          "root": "thes",
          "meaning": "Put ideas from several sources together to make one new whole.",
          "example": "Synthesise the findings of the three studies.",
-         "translations": {}
+         "translations": {
+          "zh-Hans": "综合",
+          "zh-Hant": "綜合",
+          "ja": "統合する",
+          "ko": "종합하다",
+          "vi": "tổng hợp",
+          "ar": "يركّب ويدمج",
+          "fa": "ترکیب کردن",
+          "ur": "ترکیب کرنا",
+          "am": "ማዋሃድ",
+          "ml": "സമന്വയിപ്പിക്കുക",
+          "ta": "தொகுத்து இணை",
+          "tl": "pagsamahin",
+          "ps": "یوځای کول",
+          "ro": "a sintetiza",
+          "ru": "синтезировать",
+          "fr": "synthétiser",
+          "hi": "संश्लेषण करना",
+          "es": "sintetizar"
+         }
         },
         {
          "word": "critique",
@@ -129770,7 +130131,26 @@
          "root": "crit",
          "meaning": "Judge the strengths and weaknesses of something carefully.",
          "example": "Critique the artist's use of colour.",
-         "translations": {}
+         "translations": {
+          "zh-Hans": "评论",
+          "zh-Hant": "評論",
+          "ja": "批評する",
+          "ko": "비평하다",
+          "vi": "phê bình",
+          "ar": "ينقد",
+          "fa": "نقد کردن",
+          "ur": "تنقید کرنا",
+          "am": "መተቸት",
+          "ml": "വിമർശനാത്മകമായി വിലയിരുത്തുക",
+          "ta": "விமர்சி",
+          "tl": "puna",
+          "ps": "نیوکه کول",
+          "ro": "a critica",
+          "ru": "критиковать",
+          "fr": "critiquer",
+          "hi": "आलोचना करना",
+          "es": "criticar"
+         }
         },
         {
          "word": "substantiate",
@@ -129854,7 +130234,26 @@
          "root": "stant",
          "meaning": "Support a claim with evidence so it stands up.",
          "example": "Substantiate your argument with data from the table.",
-         "translations": {}
+         "translations": {
+          "zh-Hans": "证实",
+          "zh-Hant": "證實",
+          "ja": "実証する",
+          "ko": "입증하다",
+          "vi": "chứng thực",
+          "ar": "يثبت بالأدلة",
+          "fa": "اثبات کردن",
+          "ur": "ثابت کرنا",
+          "am": "በማስረጃ ማረጋገጥ",
+          "ml": "സ്ഥിരീകരിക്കുക",
+          "ta": "உறுதிப்படுத்து",
+          "tl": "patunayan",
+          "ps": "تایید کول",
+          "ro": "a susține cu dovezi",
+          "ru": "подтверждать",
+          "fr": "étayer",
+          "hi": "पुष्टि करना",
+          "es": "fundamentar"
+         }
         },
         {
          "word": "extrapolate",
@@ -129900,7 +130299,26 @@
          "root": "pol",
          "meaning": "Use what you know to work out what happens beyond the data you have.",
          "example": "Extrapolate the population trend to 2050.",
-         "translations": {}
+         "translations": {
+          "zh-Hans": "推断",
+          "zh-Hant": "推斷",
+          "ja": "推定する",
+          "ko": "추정하다",
+          "vi": "ngoại suy",
+          "ar": "يستقرئ",
+          "fa": "برون‌یابی کردن",
+          "ur": "اندازہ لگانا",
+          "am": "በመገመት ማራዘም",
+          "ml": "അനുമാനിച്ച് വിപുലീകരിക്കുക",
+          "ta": "வெளியீடு செய்",
+          "tl": "hulaan batay sa datos",
+          "ps": "اټکل کول",
+          "ro": "a extrapola",
+          "ru": "экстраполировать",
+          "fr": "extrapoler",
+          "hi": "बहिर्वेशन करना",
+          "es": "extrapolar"
+         }
         },
         {
          "word": "hypothesise",
@@ -129984,7 +130402,26 @@
          "root": "thes",
          "meaning": "Suggest an explanation that can be tested.",
          "example": "Hypothesise why the plants in the dark grew taller.",
-         "translations": {}
+         "translations": {
+          "zh-Hans": "假设",
+          "zh-Hant": "假設",
+          "ja": "仮説を立てる",
+          "ko": "가설을 세우다",
+          "vi": "đưa ra giả thuyết",
+          "ar": "يفترض",
+          "fa": "فرض کردن",
+          "ur": "قیاس کرنا",
+          "am": "መላምት ማቅረብ",
+          "ml": "അനുമാനിക്കുക",
+          "ta": "கருதுகோள் கூறு",
+          "tl": "magbigay ng haka-haka",
+          "ps": "فرضیه ورکول",
+          "ro": "a formula o ipoteză",
+          "ru": "выдвигать гипотезу",
+          "fr": "émettre une hypothèse",
+          "hi": "परिकल्पना करना",
+          "es": "formular una hipótesis"
+         }
         },
         {
          "word": "formulate",
@@ -130068,7 +130505,26 @@
          "root": "form",
          "meaning": "Put an idea, plan or question into a clear, careful form.",
          "example": "Formulate a research question for your investigation.",
-         "translations": {}
+         "translations": {
+          "zh-Hans": "制定",
+          "zh-Hant": "制定",
+          "ja": "策定する",
+          "ko": "구체화하다",
+          "vi": "hình thành",
+          "ar": "يصوغ",
+          "fa": "فرمول‌بندی کردن",
+          "ur": "ترتیب دینا",
+          "am": "ማዘጋጀት",
+          "ml": "രൂപപ്പെടുത്തുക",
+          "ta": "வடிவமை",
+          "tl": "bumuo",
+          "ps": "جوړول",
+          "ro": "a formula",
+          "ru": "формулировать",
+          "fr": "formuler",
+          "hi": "सूत्रबद्ध करना",
+          "es": "formular"
+         }
         },
         {
          "word": "propose",
@@ -130128,7 +130584,26 @@
          "root": "pos",
          "meaning": "Put forward an idea or plan for others to consider.",
          "example": "Propose a solution to the traffic problem.",
-         "translations": {}
+         "translations": {
+          "zh-Hans": "提出",
+          "zh-Hant": "提出",
+          "ja": "提案する",
+          "ko": "제안하다",
+          "vi": "đề xuất",
+          "ar": "يقترح",
+          "fa": "پیشنهاد دادن",
+          "ur": "تجویز پیش کرنا",
+          "am": "ማቅረብ",
+          "ml": "നിർദ്ദേശിക്കുക",
+          "ta": "முன்மொழி",
+          "tl": "iminungkahi",
+          "ps": "وړاندیز کول",
+          "ro": "a propune",
+          "ru": "предлагать",
+          "fr": "proposer",
+          "hi": "प्रस्ताव करना",
+          "es": "proponer"
+         }
         },
         {
          "word": "recommend",
@@ -130187,7 +130662,26 @@
          "root": "commend",
          "meaning": "Say what you think should be done, and why.",
          "example": "Recommend a strategy for the business to increase sales.",
-         "translations": {}
+         "translations": {
+          "zh-Hans": "建议",
+          "zh-Hant": "建議",
+          "ja": "勧める",
+          "ko": "권장하다",
+          "vi": "đề nghị",
+          "ar": "يوصي",
+          "fa": "توصیه کردن",
+          "ur": "تجویز دینا",
+          "am": "መምከር",
+          "ml": "ശുപാർശ ചെയ്യുക",
+          "ta": "பரிந்துரை செய்",
+          "tl": "irekomenda",
+          "ps": "سپارښتنه کول",
+          "ro": "a recomanda",
+          "ru": "рекомендовать",
+          "fr": "recommander",
+          "hi": "सिफारिश करना",
+          "es": "recomendar"
+         }
         },
         {
          "word": "elaborate",
@@ -130272,7 +130766,26 @@
          "root": "labor",
          "meaning": "Add more detail to an idea you have already given.",
          "example": "Elaborate on your second reason.",
-         "translations": {}
+         "translations": {
+          "zh-Hans": "详述",
+          "zh-Hant": "詳述",
+          "ja": "詳しく説明する",
+          "ko": "상세히 설명하다",
+          "vi": "trình bày chi tiết",
+          "ar": "يوضح بالتفصيل",
+          "fa": "شرح دادن",
+          "ur": "تفصیل سے بیان کرنا",
+          "am": "በዝርዝር ማብራራት",
+          "ml": "വിശദമായി വിവരിക്കുക",
+          "ta": "விரிவாகக் கூறு",
+          "tl": "detalyehin",
+          "ps": "توضیح ورکول",
+          "ro": "a detalia",
+          "ru": "разрабатывать подробно",
+          "fr": "développer",
+          "hi": "विस्तार से बताना",
+          "es": "elaborar"
+         }
         },
         {
          "word": "appraise",
@@ -130313,7 +130826,26 @@
          "root": "praise",
          "meaning": "Judge the worth or quality of something.",
          "example": "Appraise the reliability of this source.",
-         "translations": {}
+         "translations": {
+          "zh-Hans": "评定",
+          "zh-Hant": "評定",
+          "ja": "査定する",
+          "ko": "감정하다",
+          "vi": "thẩm định",
+          "ar": "يُقيّم القيمة",
+          "fa": "ارزیابی کردن",
+          "ur": "قدر کا تعین کرنا",
+          "am": "ግምት መስጠት",
+          "ml": "മൂല്യനിർണ്ണയം ചെയ്യുക",
+          "ta": "மதிப்பீடு செய்",
+          "tl": "husgahan ang halaga",
+          "ps": "ارزښت ټاکل",
+          "ro": "a aprecia",
+          "ru": "оценивать",
+          "fr": "évaluer",
+          "hi": "मूल्यांकन करना",
+          "es": "tasar"
+         }
         },
         {
          "word": "differentiate",
@@ -130423,7 +130955,26 @@
          "root": "fer",
          "meaning": "Show what makes two things different. (In Maths Methods it also means 'find the derivative'.)",
          "example": "Differentiate between mass and weight.",
-         "translations": {}
+         "translations": {
+          "zh-Hans": "区别",
+          "zh-Hant": "區別",
+          "ja": "区別する",
+          "ko": "구별하다",
+          "vi": "phân biệt",
+          "ar": "يميّز",
+          "fa": "تفاوت گذاشتن",
+          "ur": "فرق واضح کرنا",
+          "am": "መለየት",
+          "ml": "വേർതിരിക്കുക",
+          "ta": "வேறுபடுத்து",
+          "tl": "ibahin",
+          "ps": "توپیر کول",
+          "ro": "a diferenția",
+          "ru": "различать",
+          "fr": "différencier",
+          "hi": "अंतर करना",
+          "es": "diferenciar"
+         }
         },
         {
          "word": "categorise",
@@ -130482,7 +131033,26 @@
          "root": "categor",
          "meaning": "Sort things into groups that share features.",
          "example": "Categorise the responses as positive, negative or neutral.",
-         "translations": {}
+         "translations": {
+          "zh-Hans": "分类",
+          "zh-Hant": "分類",
+          "ja": "分類する",
+          "ko": "분류하다",
+          "vi": "phân loại",
+          "ar": "يصنّف",
+          "fa": "دسته‌بندی کردن",
+          "ur": "درجہ بندی کرنا",
+          "am": "መደብ ማድረግ",
+          "ml": "വർഗ്ഗീകരിക്കുക",
+          "ta": "வகைப்படுத்து",
+          "tl": "uriin",
+          "ps": "طبقه بندي کول",
+          "ro": "a categorisi",
+          "ru": "классифицировать",
+          "fr": "catégoriser",
+          "hi": "वर्गीकृत करना",
+          "es": "categorizar"
+         }
         },
         {
          "word": "prioritise",
@@ -130541,7 +131111,26 @@
          "root": "prior",
          "meaning": "Put things in order of importance, most important first.",
          "example": "Prioritise the three risks for the committee.",
-         "translations": {}
+         "translations": {
+          "zh-Hans": "排定优先次序",
+          "zh-Hant": "排定優先次序",
+          "ja": "優先順位をつける",
+          "ko": "우선순위를 정하다",
+          "vi": "ưu tiên",
+          "ar": "يرتب حسب الأولوية",
+          "fa": "اولویت‌بندی کردن",
+          "ur": "ترجیح دینا",
+          "am": "ቅድሚያ መስጠት",
+          "ml": "മുൻഗണന നൽകുക",
+          "ta": "முன்னுரிமை அளி",
+          "tl": "unahin",
+          "ps": "لومړیتوب ورکول",
+          "ro": "a prioritiza",
+          "ru": "расставлять приоритеты",
+          "fr": "prioriser",
+          "hi": "प्राथमिकता देना",
+          "es": "priorizar"
+         }
         },
         {
          "word": "deduce",
@@ -130600,7 +131189,26 @@
          "root": "duc",
          "meaning": "Work out an answer by reasoning from what you already know.",
          "example": "Deduce the missing angle from the information given.",
-         "translations": {}
+         "translations": {
+          "zh-Hans": "推断",
+          "zh-Hant": "推斷",
+          "ja": "推論する",
+          "ko": "추론하다",
+          "vi": "suy luận",
+          "ar": "يستنتج",
+          "fa": "استنتاج کردن",
+          "ur": "نتیجہ اخذ کرنا",
+          "am": "መደምደም",
+          "ml": "അനുമാനിക്കുക",
+          "ta": "அனுமானி",
+          "tl": "ideduce",
+          "ps": "پایله اخیستل",
+          "ro": "a deduce",
+          "ru": "выводить",
+          "fr": "déduire",
+          "hi": "निष्कर्ष निकालना",
+          "es": "deducir"
+         }
         },
         {
          "word": "infer",
@@ -130659,7 +131267,26 @@
          "root": "fer",
          "meaning": "Work out something that is not stated directly, using clues.",
          "example": "Infer the character's feelings from her actions.",
-         "translations": {}
+         "translations": {
+          "zh-Hans": "推论",
+          "zh-Hant": "推論",
+          "ja": "推測する",
+          "ko": "추론하다",
+          "vi": "suy ra",
+          "ar": "يستدل",
+          "fa": "استنباط کردن",
+          "ur": "قیاس کرنا",
+          "am": "መገመት",
+          "ml": "അനുമാനിക്കുക",
+          "ta": "ஊகி",
+          "tl": "ipahiwatig",
+          "ps": "استنباط کول",
+          "ro": "a deduce",
+          "ru": "делать вывод",
+          "fr": "inférer",
+          "hi": "अनुमान लगाना",
+          "es": "inferir"
+         }
         },
         {
          "word": "validate",
@@ -130718,7 +131345,26 @@
          "root": "val",
          "meaning": "Check that something is sound, accurate or acceptable.",
          "example": "Validate your results by repeating the experiment.",
-         "translations": {}
+         "translations": {
+          "zh-Hans": "验证",
+          "zh-Hant": "驗證",
+          "ja": "検証する",
+          "ko": "검증하다",
+          "vi": "xác nhận",
+          "ar": "يتحقق من صحة",
+          "fa": "معتبر ساختن",
+          "ur": "توثیق کرنا",
+          "am": "ማረጋገጥ",
+          "ml": "സാധൂകരിക്കുക",
+          "ta": "சரிபார்",
+          "tl": "patunayan ang bisa",
+          "ps": "تایید کول",
+          "ro": "a valida",
+          "ru": "подтверждать",
+          "fr": "valider",
+          "hi": "सत्यापित करना",
+          "es": "validar"
+         }
         }
        ],
        "path": "vce/command-terms/command-higher"
@@ -130786,7 +131432,26 @@
          "root": "tent",
          "meaning": "How much, or how far, is something true? Your answer must take a position, not just describe.",
          "example": "To what extent did the reforms improve living standards?",
-         "translations": {}
+         "translations": {
+          "zh-Hans": "在多大程度上",
+          "zh-Hant": "在多大程度上",
+          "ja": "どの程度まで",
+          "ko": "어느 정도까지",
+          "vi": "ở mức độ nào",
+          "ar": "إلى أي مدى",
+          "fa": "تا چه حد",
+          "ur": "کس حد تک",
+          "am": "እስከ ምን ድረስ",
+          "ml": "എത്രത്തോളം",
+          "ta": "எந்த அளவுக்கு",
+          "tl": "hanggang saan",
+          "ps": "تر کومې کچې",
+          "ro": "în ce măsură",
+          "ru": "в какой степени",
+          "fr": "dans quelle mesure",
+          "hi": "किस हद तक",
+          "es": "hasta qué punto"
+         }
         },
         {
          "word": "with reference to",
@@ -130870,7 +131535,26 @@
          "root": "fer",
          "meaning": "You must use the named source, text or material in your answer.",
          "example": "With reference to Source B, explain the artist's purpose.",
-         "translations": {}
+         "translations": {
+          "zh-Hans": "参照",
+          "zh-Hant": "參照",
+          "ja": "〜を参照して",
+          "ko": "~을 참조하여",
+          "vi": "tham chiếu đến",
+          "ar": "بالإشارة إلى",
+          "fa": "با اشاره به",
+          "ur": "کے حوالے سے",
+          "am": "በማጣቀስ",
+          "ml": "പരാമർശിച്ചുകൊണ്ട്",
+          "ta": "குறிப்பிட்டு",
+          "tl": "may sanggunian sa",
+          "ps": "په حواله",
+          "ro": "cu referire la",
+          "ru": "со ссылкой на",
+          "fr": "en référence à",
+          "hi": "के संदर्भ में",
+          "es": "con referencia a"
+         }
         },
         {
          "word": "in relation to",
@@ -130954,7 +131638,26 @@
          "root": "lat",
          "meaning": "Answer by connecting your point to the thing named.",
          "example": "Discuss the result in relation to your hypothesis.",
-         "translations": {}
+         "translations": {
+          "zh-Hans": "关于",
+          "zh-Hant": "關於",
+          "ja": "〜に関連して",
+          "ko": "~와 관련하여",
+          "vi": "liên quan đến",
+          "ar": "فيما يتعلق بـ",
+          "fa": "در ارتباط با",
+          "ur": "کے متعلق",
+          "am": "ከ...ጋር በተያያዘ",
+          "ml": "സംബന്ധിച്ച്",
+          "ta": "தொடர்பாக",
+          "tl": "kaugnay ng",
+          "ps": "په اړه",
+          "ro": "în raport cu",
+          "ru": "по отношению к",
+          "fr": "par rapport à",
+          "hi": "के संबंध में",
+          "es": "en relación con"
+         }
         },
         {
          "word": "respectively",
@@ -131038,7 +131741,26 @@
          "root": "spect",
          "meaning": "In the same order as the things just listed.",
          "example": "Groups A and B scored 12 and 15 respectively.",
-         "translations": {}
+         "translations": {
+          "zh-Hans": "分别",
+          "zh-Hant": "分別",
+          "ja": "それぞれ",
+          "ko": "각각",
+          "vi": "lần lượt",
+          "ar": "على التوالي",
+          "fa": "به ترتیب",
+          "ur": "بالترتیب",
+          "am": "በቅደም ተከተል",
+          "ml": "യഥാക്രമം",
+          "ta": "முறையே",
+          "tl": "ayon sa pagkakabanggit",
+          "ps": "په ترتیب سره",
+          "ro": "respectiv",
+          "ru": "соответственно",
+          "fr": "respectivement",
+          "hi": "क्रमशः",
+          "es": "respectivamente"
+         }
         },
         {
          "word": "briefly",
@@ -131065,7 +131787,26 @@
          "root": "brief",
          "meaning": "Answer in a few words or one or two sentences — long answers waste time.",
          "example": "Briefly outline the purpose of the study.",
-         "translations": {}
+         "translations": {
+          "zh-Hans": "简要地",
+          "zh-Hant": "簡要地",
+          "ja": "簡潔に",
+          "ko": "간략히",
+          "vi": "ngắn gọn",
+          "ar": "بإيجاز",
+          "fa": "به‌طور خلاصه",
+          "ur": "مختصر طور پر",
+          "am": "በአጭሩ",
+          "ml": "സംക്ഷിപ്തമായി",
+          "ta": "சுருக்கமாக",
+          "tl": "sa maikling paraan",
+          "ps": "په لنډه توګه",
+          "ro": "pe scurt",
+          "ru": "кратко",
+          "fr": "brièvement",
+          "hi": "संक्षेप में",
+          "es": "brevemente"
+         }
         },
         {
          "word": "annotate",
@@ -131150,7 +131891,26 @@
          "root": "not",
          "meaning": "Add short notes or labels onto a diagram, text or image.",
          "example": "Annotate the diagram to show where energy is lost.",
-         "translations": {}
+         "translations": {
+          "zh-Hans": "批注",
+          "zh-Hant": "批註",
+          "ja": "注釈を付ける",
+          "ko": "주석을 달다",
+          "vi": "chú thích",
+          "ar": "يعلّق ويشرح",
+          "fa": "حاشیه‌نویسی کردن",
+          "ur": "حاشیہ لکھنا",
+          "am": "ማብራሪያ መጨመር",
+          "ml": "കുറിപ്പുകൾ ചേർക്കുക",
+          "ta": "குறிப்பு எழுது",
+          "tl": "lagyan ng tala",
+          "ps": "تشرېحي یادښتونه لیکل",
+          "ro": "a adnota",
+          "ru": "аннотировать",
+          "fr": "annoter",
+          "hi": "टिप्पणी लिखना",
+          "es": "anotar"
+         }
         },
         {
          "word": "approximate",
@@ -131216,7 +131976,26 @@
          "root": "prox",
          "meaning": "Close to the real value, but not exact.",
          "example": "Give an approximate value to two decimal places.",
-         "translations": {}
+         "translations": {
+          "zh-Hans": "近似的",
+          "zh-Hant": "近似的",
+          "ja": "おおよその",
+          "ko": "대략적인",
+          "vi": "gần đúng",
+          "ar": "تقريبي",
+          "fa": "تقریبی",
+          "ur": "تخمینی",
+          "am": "ግምታዊ",
+          "ml": "ഏകദേശ",
+          "ta": "தோராயமான",
+          "tl": "tinatayang",
+          "ps": "نږدې اټکل",
+          "ro": "aproximativ",
+          "ru": "приблизительный",
+          "fr": "approximatif",
+          "hi": "अनुमानित",
+          "es": "aproximado"
+         }
         },
         {
          "word": "where appropriate",
@@ -131301,7 +132080,26 @@
          "root": "propri",
          "meaning": "Do this only in the places where it suits — not everywhere.",
          "example": "Use a diagram where appropriate.",
-         "translations": {}
+         "translations": {
+          "zh-Hans": "在适当的地方",
+          "zh-Hant": "在適當的地方",
+          "ja": "適切な場合",
+          "ko": "적절한 경우",
+          "vi": "khi thích hợp",
+          "ar": "عند الاقتضاء",
+          "fa": "در جای مناسب",
+          "ur": "جہاں مناسب ہو",
+          "am": "አግባብ ባለበት ቦታ",
+          "ml": "അനുയോജ്യമായിടത്ത്",
+          "ta": "பொருத்தமான இடத்தில்",
+          "tl": "kung angkop",
+          "ps": "چیرې چې مناسب وي",
+          "ro": "unde este cazul",
+          "ru": "где уместно",
+          "fr": "le cas échéant",
+          "hi": "जहाँ उचित हो",
+          "es": "cuando corresponda"
+         }
         },
         {
          "word": "stimulus",
@@ -131316,7 +132114,26 @@
          "root": "stimul",
          "meaning": "The source material — text, image, data or scenario — a question is built on.",
          "example": "Read the stimulus material before answering Question 3.",
-         "translations": {}
+         "translations": {
+          "zh-Hans": "刺激材料",
+          "zh-Hant": "刺激材料",
+          "ja": "刺激材料",
+          "ko": "자극 자료",
+          "vi": "tài liệu gợi ý",
+          "ar": "مادة محفزة",
+          "fa": "محرک",
+          "ur": "محرک مواد",
+          "am": "አነቃቂ ቁሳቁስ",
+          "ml": "ഉദ്ദീപക സാമഗ്രി",
+          "ta": "தூண்டல் பொருள்",
+          "tl": "pampukaw na materyal",
+          "ps": "هڅوونکی موادد",
+          "ro": "material stimul",
+          "ru": "стимульный материал",
+          "fr": "matériel stimulus",
+          "hi": "उत्तेजक सामग्री",
+          "es": "material de estímulo"
+         }
         },
         {
          "word": "extract",
@@ -131376,7 +132193,26 @@
          "root": "tract",
          "meaning": "A short piece taken out of a longer text.",
          "example": "Read the extract from the novel on page 4.",
-         "translations": {}
+         "translations": {
+          "zh-Hans": "节选",
+          "zh-Hant": "節選",
+          "ja": "抜粋",
+          "ko": "발췌문",
+          "vi": "đoạn trích",
+          "ar": "مقتطف",
+          "fa": "گزیده",
+          "ur": "اقتباس",
+          "am": "ቅንጭብ",
+          "ml": "ഭാഗം (എക്‌സ്ട്രാക്റ്റ്)",
+          "ta": "பகுதி (சாரம்)",
+          "tl": "sipi",
+          "ps": "لنډه برخه",
+          "ro": "extras",
+          "ru": "отрывок",
+          "fr": "extrait",
+          "hi": "उद्धरण",
+          "es": "extracto"
+         }
         },
         {
          "word": "scenario",
@@ -131416,7 +132252,26 @@
          "root": "scen",
          "meaning": "A described situation you must respond to as if it were real.",
          "example": "In this scenario, you are the manager of a small business.",
-         "translations": {}
+         "translations": {
+          "zh-Hans": "情境",
+          "zh-Hant": "情境",
+          "ja": "シナリオ",
+          "ko": "시나리오",
+          "vi": "kịch bản tình huống",
+          "ar": "سيناريو",
+          "fa": "سناریو",
+          "ur": "منظرنامہ",
+          "am": "ሁኔታ (ሲናርዮ)",
+          "ml": "സാഹചര്യം (സിനാരിയോ)",
+          "ta": "சூழ்நிலை",
+          "tl": "sitwasyon",
+          "ps": "سناریو",
+          "ro": "scenariu",
+          "ru": "сценарий",
+          "fr": "scénario",
+          "hi": "परिदृश्य",
+          "es": "escenario"
+         }
         },
         {
          "word": "exemplify",
@@ -131482,7 +132337,26 @@
          "root": "empl",
          "meaning": "Show what something is like by giving an example of it.",
          "example": "Exemplify each technique with a quotation.",
-         "translations": {}
+         "translations": {
+          "zh-Hans": "举例说明",
+          "zh-Hant": "舉例說明",
+          "ja": "例証する",
+          "ko": "예를 들어 보이다",
+          "vi": "minh họa bằng ví dụ",
+          "ar": "يُمثّل بمثال",
+          "fa": "نمونه‌ای ارائه دادن",
+          "ur": "مثال دینا",
+          "am": "በምሳሌ ማሳየት",
+          "ml": "ഉദാഹരണം കാണിക്കുക",
+          "ta": "எடுத்துக்காட்டு தா",
+          "tl": "bigyan ng halimbawa",
+          "ps": "بېلګه ورکول",
+          "ro": "a exemplifica",
+          "ru": "иллюстрировать примером",
+          "fr": "illustrer par un exemple",
+          "hi": "उदाहरण देना",
+          "es": "ejemplificar"
+         }
         },
         {
          "word": "specify",
@@ -131541,7 +132415,26 @@
          "root": "spec",
          "meaning": "Say exactly which one, or exactly how much — be precise.",
          "example": "Specify the units in your answer.",
-         "translations": {}
+         "translations": {
+          "zh-Hans": "明确说明",
+          "zh-Hant": "明確說明",
+          "ja": "明記する",
+          "ko": "명시하다",
+          "vi": "chỉ rõ",
+          "ar": "يحدد بدقة",
+          "fa": "مشخص کردن",
+          "ur": "واضح کرنا",
+          "am": "በትክክል መግለጽ",
+          "ml": "വ്യക്തമായി പറയുക",
+          "ta": "குறிப்பிட்டுக் கூறு",
+          "tl": "tukuyin nang eksakto",
+          "ps": "ټاکل",
+          "ro": "a specifica",
+          "ru": "уточнять",
+          "fr": "préciser",
+          "hi": "स्पष्ट रूप से बताना",
+          "es": "especificar"
+         }
         },
         {
          "word": "clarify",
@@ -131600,7 +132493,26 @@
          "root": "clar",
          "meaning": "Make something easier to understand by explaining it more clearly.",
          "example": "Clarify what you mean by 'fair'.",
-         "translations": {}
+         "translations": {
+          "zh-Hans": "澄清",
+          "zh-Hant": "澄清",
+          "ja": "明確にする",
+          "ko": "명확히 하다",
+          "vi": "làm rõ",
+          "ar": "يوضح",
+          "fa": "روشن کردن",
+          "ur": "واضح کرنا",
+          "am": "ግልጽ ማድረግ",
+          "ml": "വ്യക്തമാക്കുക",
+          "ta": "தெளிவுபடுத்து",
+          "tl": "linawin",
+          "ps": "روښانه کول",
+          "ro": "a clarifica",
+          "ru": "прояснять",
+          "fr": "clarifier",
+          "hi": "स्पष्ट करना",
+          "es": "aclarar"
+         }
         }
        ],
        "path": "vce/command-terms/exam-instructions"
@@ -131667,7 +132579,26 @@
          "root": "sign",
          "meaning": "The official VCAA document that says exactly what a subject teaches and assesses.",
          "example": "Every question on the exam comes from the study design.",
-         "translations": {}
+         "translations": {
+          "zh-Hans": "课程设计大纲",
+          "zh-Hant": "課程設計大綱",
+          "ja": "スタディデザイン（教科要綱）",
+          "ko": "스터디 디자인(교과 요강)",
+          "vi": "khung chương trình học (study design)",
+          "ar": "وثيقة تصميم المقرر",
+          "fa": "طرح درسی (study design)",
+          "ur": "اسٹڈی ڈیزائن (نصابی خاکہ)",
+          "am": "የጥናት ንድፍ (ካሪኩለም ማብራሪያ)",
+          "ml": "പഠന രൂപരേഖ (സ്റ്റഡി ഡിസൈൻ)",
+          "ta": "பாட வடிவமைப்பு ஆவணம்",
+          "tl": "study design (balangkas ng asignatura)",
+          "ps": "د زده کړې طرح",
+          "ro": "planul de studii (study design)",
+          "ru": "программа предмета (study design)",
+          "fr": "programme d'études officiel (study design)",
+          "hi": "स्टडी डिज़ाइन (पाठ्यक्रम रूपरेखा)",
+          "es": "diseño de estudios oficial (study design)"
+         }
         },
         {
          "word": "curriculum",
@@ -131726,7 +132657,26 @@
          "root": "cur",
          "meaning": "The whole course of study — everything you are taught across the years.",
          "example": "Civics is part of the Victorian Curriculum in Years 7 to 10.",
-         "translations": {}
+         "translations": {
+          "zh-Hans": "课程",
+          "zh-Hant": "課程",
+          "ja": "カリキュラム",
+          "ko": "교육과정",
+          "vi": "chương trình giảng dạy",
+          "ar": "المنهج الدراسي",
+          "fa": "برنامه درسی",
+          "ur": "نصاب",
+          "am": "ስርአተ ትምህርት",
+          "ml": "പാഠ്യപദ്ധതി",
+          "ta": "பாடத்திட்டம்",
+          "tl": "kurikulum",
+          "ps": "نصاب",
+          "ro": "curriculum",
+          "ru": "учебная программа",
+          "fr": "programme scolaire",
+          "hi": "पाठ्यक्रम",
+          "es": "currículo"
+         }
         },
         {
          "word": "knowledge",
@@ -131747,7 +132697,26 @@
          "root": "know",
          "meaning": "The facts and ideas you have learned. 'Key knowledge' lists what you must know for each outcome.",
          "example": "Each area of study lists its key knowledge and key skills.",
-         "translations": {}
+         "translations": {
+          "zh-Hans": "知识",
+          "zh-Hant": "知識",
+          "ja": "知識",
+          "ko": "지식",
+          "vi": "kiến thức",
+          "ar": "المعرفة",
+          "fa": "دانش",
+          "ur": "علم",
+          "am": "እውቀት",
+          "ml": "അറിവ്",
+          "ta": "அறிவு",
+          "tl": "kaalaman",
+          "ps": "پوهه",
+          "ro": "cunoștințe",
+          "ru": "знания",
+          "fr": "connaissances",
+          "hi": "ज्ञान",
+          "es": "conocimiento"
+         }
         },
         {
          "word": "outcome",
@@ -131787,7 +132756,26 @@
          "root": "come",
          "meaning": "What you must be able to do by the end of an area of study. You must pass every outcome.",
          "example": "There are two outcomes in Unit 3.",
-         "translations": {}
+         "translations": {
+          "zh-Hans": "学习成果",
+          "zh-Hant": "學習成果",
+          "ja": "学習成果",
+          "ko": "학습 성과",
+          "vi": "kết quả học tập",
+          "ar": "المخرج التعليمي",
+          "fa": "دستاورد آموزشی",
+          "ur": "نتیجہ (آؤٹ کم)",
+          "am": "የመማር ውጤት",
+          "ml": "പഠന ഫലം",
+          "ta": "கற்றல் விளைவு",
+          "tl": "resulta ng pag-aaral",
+          "ps": "زده کړې پایله",
+          "ro": "rezultat al învățării",
+          "ru": "результат обучения",
+          "fr": "acquis d'apprentissage",
+          "hi": "अधिगम परिणाम",
+          "es": "resultado de aprendizaje"
+         }
         },
         {
          "word": "School-assessed Coursework",
@@ -131847,7 +132835,26 @@
          "root": "sess",
          "meaning": "SAC — work assessed by your teacher at school that counts towards your final score.",
          "example": "The first School-assessed Coursework is in week 6.",
-         "translations": {}
+         "translations": {
+          "zh-Hans": "校内评核课业（SAC）",
+          "zh-Hant": "校內評核課業（SAC）",
+          "ja": "校内評価課題（SAC）",
+          "ko": "학교 평가 과제(SAC)",
+          "vi": "bài tập đánh giá tại trường (SAC)",
+          "ar": "عمل دراسي يقيّمه المدرسة (SAC)",
+          "fa": "تکلیف ارزیابی‌شده در مدرسه (SAC)",
+          "ur": "اسکول کی جانچی گئی کورس ورک (SAC)",
+          "am": "በትምህርት ቤት የሚገመገም ስራ (SAC)",
+          "ml": "സ്കൂൾ വിലയിരുത്തുന്ന കോഴ്‌സ്‌വർക്ക് (SAC)",
+          "ta": "பள்ளியில் மதிப்பிடப்படும் பாடப்பணி (SAC)",
+          "tl": "gawaing tinasa ng paaralan (SAC)",
+          "ps": "د ښوونځي لخوا ارزول شوی کار (SAC)",
+          "ro": "lucrare evaluată la școală (SAC)",
+          "ru": "школьная оцениваемая работа (SAC)",
+          "fr": "travail évalué à l'école (SAC)",
+          "hi": "स्कूल-मूल्यांकित कोर्सवर्क (SAC)",
+          "es": "trabajo evaluado en la escuela (SAC)"
+         }
         },
         {
          "word": "School-assessed Task",
@@ -131907,7 +132914,26 @@
          "root": "sess",
          "meaning": "SAT — a large piece of work, usually a folio or product, assessed at school over a long period.",
          "example": "Visual Communication Design has a School-assessed Task, not just SACs.",
-         "translations": {}
+         "translations": {
+          "zh-Hans": "校内评核作业（SAT）",
+          "zh-Hant": "校內評核作業（SAT）",
+          "ja": "校内評価課題（SAT）",
+          "ko": "학교 평가 과제(SAT)",
+          "vi": "nhiệm vụ đánh giá tại trường (SAT)",
+          "ar": "مهمة يقيّمها المدرسة (SAT)",
+          "fa": "تکلیف بزرگ ارزیابی‌شده در مدرسه (SAT)",
+          "ur": "اسکول کی جانچی گئی ٹاسک (SAT)",
+          "am": "በትምህርት ቤት የሚገመገም ትልቅ ስራ (SAT)",
+          "ml": "സ്കൂൾ വിലയിരുത്തുന്ന വലിയ ടാസ്ക് (SAT)",
+          "ta": "பள்ளியில் மதிப்பிடப்படும் பணி (SAT)",
+          "tl": "gawaing tinasa ng paaralan, malaking proyekto (SAT)",
+          "ps": "د ښوونځي لخوا ارزول شوی دنده (SAT)",
+          "ro": "proiect evaluat la școală (SAT)",
+          "ru": "школьное оцениваемое задание (SAT)",
+          "fr": "tâche évaluée à l'école (SAT)",
+          "hi": "स्कूल-मूल्यांकित बड़ा कार्य (SAT)",
+          "es": "tarea evaluada en la escuela (SAT)"
+         }
         },
         {
          "word": "General Achievement Test",
@@ -131966,7 +132992,26 @@
          "root": "gen",
          "meaning": "GAT — a test all VCE students sit, used to check that scores are fair.",
          "example": "The General Achievement Test is held in the middle of the year.",
-         "translations": {}
+         "translations": {
+          "zh-Hans": "综合成绩测试（GAT）",
+          "zh-Hant": "綜合成績測試（GAT）",
+          "ja": "総合達成度テスト（GAT）",
+          "ko": "일반 성취도 시험(GAT)",
+          "vi": "Bài kiểm tra thành tích chung (GAT)",
+          "ar": "اختبار الإنجاز العام (GAT)",
+          "fa": "آزمون کلی پیشرفت (GAT)",
+          "ur": "جنرل اچیومنٹ ٹیسٹ (GAT)",
+          "am": "አጠቃላይ የስኬት ፈተና (GAT)",
+          "ml": "പൊതു നേട്ട പരീക്ഷ (GAT)",
+          "ta": "பொது சாதனைச் சோதனை (GAT)",
+          "tl": "Pangkalahatang Pagsusulit sa Tagumpay (GAT)",
+          "ps": "عمومي لاسته راوړنو ازموینه (GAT)",
+          "ro": "Testul general de performanță (GAT)",
+          "ru": "общий тест успеваемости (GAT)",
+          "fr": "test général de réussite (GAT)",
+          "hi": "सामान्य उपलब्धि परीक्षा (GAT)",
+          "es": "prueba general de rendimiento (GAT)"
+         }
         },
         {
          "word": "ATAR",
@@ -131981,7 +133026,26 @@
          "root": "ATAR",
          "meaning": "The rank from 0 to 99.95 that universities use to compare students who finish Year 12.",
          "example": "She needed an ATAR of 85 for that course.",
-         "translations": {}
+         "translations": {
+          "zh-Hans": "澳洲高等教育入学排名（ATAR）",
+          "zh-Hant": "澳洲高等教育入學排名（ATAR）",
+          "ja": "ATAR（豪州大学入学ランク）",
+          "ko": "ATAR(호주 대학 입학 순위)",
+          "vi": "ATAR (xếp hạng xét tuyển đại học Úc)",
+          "ar": "ATAR (ترتيب القبول الجامعي الأسترالي)",
+          "fa": "ATAR (رتبه ورود به دانشگاه در استرالیا)",
+          "ur": "اے ٹی اے آر (آسٹریلوی جامعہ داخلہ درجہ بندی)",
+          "am": "ATAR (የአውስትራሊያ ዩኒቨርሲቲ መግቢያ ደረጃ)",
+          "ml": "ATAR (ഓസ്‌ട്രേലിയൻ സർവ്വകലാശാലാ പ്രവേശന റാങ്ക്)",
+          "ta": "ATAR (ஆஸ்திரேலிய பல்கலைக்கழக நுழைவு தரவரிசை)",
+          "tl": "ATAR (ranggo sa pagpasok sa unibersidad ng Australia)",
+          "ps": "ATAR (د آسټرالیا پوهنتون د دننې درجه بندي)",
+          "ro": "ATAR (clasament de admitere universitară din Australia)",
+          "ru": "ATAR (рейтинг для поступления в университет Австралии)",
+          "fr": "ATAR (classement d'admission universitaire australien)",
+          "hi": "एटीएआर (ऑस्ट्रेलियाई विश्वविद्यालय प्रवेश रैंक)",
+          "es": "ATAR (rango de admisión universitaria australiano)"
+         }
         },
         {
          "word": "scaling",
@@ -132002,7 +133066,26 @@
          "root": "scal",
          "meaning": "Adjusting subject scores so that the same score means the same standard in every subject.",
          "example": "Scaling means your study score can change slightly.",
-         "translations": {}
+         "translations": {
+          "zh-Hans": "分数换算",
+          "zh-Hant": "分數換算",
+          "ja": "スケーリング（得点調整）",
+          "ko": "점수 조정(스케일링)",
+          "vi": "quy đổi điểm (scaling)",
+          "ar": "معايرة الدرجات",
+          "fa": "مقیاس‌بندی نمرات",
+          "ur": "اسکورز کی سکیلنگ",
+          "am": "የነጥብ ማስተካከያ (ስኬሊንግ)",
+          "ml": "സ്കോർ ക്രമീകരണം (സ്കെയിലിംഗ്)",
+          "ta": "மதிப்பெண் அளவீடு (ஸ்கேலிங்)",
+          "tl": "pagsasaayos ng iskor (scaling)",
+          "ps": "د نمرو تعدیل (سکیلینګ)",
+          "ro": "ajustarea scorurilor (scaling)",
+          "ru": "шкалирование баллов",
+          "fr": "ajustement des scores (scaling)",
+          "hi": "स्कोर समायोजन (स्केलिंग)",
+          "es": "escalado de puntuaciones"
+         }
         },
         {
          "word": "authentication",
@@ -132086,7 +133169,26 @@
          "root": "authent",
          "meaning": "Proving that the work you handed in is really your own.",
          "example": "Keep your drafts — they are used for authentication.",
-         "translations": {}
+         "translations": {
+          "zh-Hans": "作业真实性核实",
+          "zh-Hant": "作業真實性核實",
+          "ja": "本人性の確認（オーセンティケーション）",
+          "ko": "본인 확인(진위 확인)",
+          "vi": "xác thực bài làm",
+          "ar": "التحقق من صحة العمل",
+          "fa": "احراز اصالت کار",
+          "ur": "کام کی تصدیق",
+          "am": "የስራ ትክክለኛነት ማረጋገጫ",
+          "ml": "ജോലിയുടെ ആധികാരികത ഉറപ്പാക്കൽ",
+          "ta": "பணியின் நம்பகத்தன்மை உறுதிப்படுத்தல்",
+          "tl": "pagpapatunay ng pagka-orihinal ng gawa",
+          "ps": "د کار د اصالت تایید",
+          "ro": "verificarea autenticității lucrării",
+          "ru": "подтверждение подлинности работы",
+          "fr": "authentification du travail",
+          "hi": "कार्य की प्रामाणिकता सत्यापन",
+          "es": "autenticación del trabajo"
+         }
         },
         {
          "word": "prerequisite",
@@ -132170,7 +133272,26 @@
          "root": "quis",
          "meaning": "Something you must have done before you are allowed to start a course.",
          "example": "Units 1 and 2 are not a prerequisite for Units 3 and 4.",
-         "translations": {}
+         "translations": {
+          "zh-Hans": "先修要求",
+          "zh-Hant": "先修要求",
+          "ja": "前提条件（履修要件）",
+          "ko": "선수 조건(이수 요건)",
+          "vi": "điều kiện tiên quyết",
+          "ar": "متطلب مسبق",
+          "fa": "پیش‌نیاز",
+          "ur": "پیشگی شرط",
+          "am": "ቅድመ ሁኔታ",
+          "ml": "മുൻ‌വ്യവസ്ഥ",
+          "ta": "முன்நிபந்தனை",
+          "tl": "kinakailangang paunang kondisyon",
+          "ps": "مخکنی شرط",
+          "ro": "condiție prealabilă",
+          "ru": "необходимое предварительное условие",
+          "fr": "préalable requis",
+          "hi": "पूर्वापेक्षा",
+          "es": "requisito previo"
+         }
         },
         {
          "word": "moderation",
@@ -132229,7 +133350,26 @@
          "root": "mod",
          "meaning": "Checking school marks against exam results so schools mark to the same standard.",
          "example": "Statistical moderation may change the school's SAC marks.",
-         "translations": {}
+         "translations": {
+          "zh-Hans": "评分调节",
+          "zh-Hant": "評分調節",
+          "ja": "モデレーション（採点調整）",
+          "ko": "채점 조정(모더레이션)",
+          "vi": "điều chỉnh điểm (moderation)",
+          "ar": "معايرة التقييم",
+          "fa": "تعدیل نمره‌دهی",
+          "ur": "نمبروں کی موڈریشن",
+          "am": "የውጤት ማስተካከያ (ሞደሬሽን)",
+          "ml": "മൂല്യനിർണ്ണയ ക്രമീകരണം (മോഡറേഷൻ)",
+          "ta": "மதிப்பீட்டு சீரமைப்பு (மாடரேஷன்)",
+          "tl": "pagsasaayos ng pagmamarka (moderation)",
+          "ps": "د نمرو تعدیل (مودریشن)",
+          "ro": "ajustarea notării (moderation)",
+          "ru": "модерация оценивания",
+          "fr": "harmonisation des notes (moderation)",
+          "hi": "अंकों का समायोजन (मॉडरेशन)",
+          "es": "moderación de calificaciones"
+         }
         },
         {
          "word": "satisfactory completion",
@@ -132295,7 +133435,26 @@
          "root": "satis",
          "meaning": "Passing a unit by showing you achieved every outcome — an S, rather than an N.",
          "example": "You need satisfactory completion of 16 units to get your VCE.",
-         "translations": {}
+         "translations": {
+          "zh-Hans": "合格完成",
+          "zh-Hant": "合格完成",
+          "ja": "満足な履修達成（合格）",
+          "ko": "이수 인정(만족 요건 충족)",
+          "vi": "hoàn thành đạt yêu cầu",
+          "ar": "إتمام مُرضٍ",
+          "fa": "اتمام رضایت‌بخش",
+          "ur": "تسلی بخش تکمیل",
+          "am": "አጥጋቢ ማጠናቀቅ",
+          "ml": "തൃപ്തികരമായ പൂർത്തീകരണം",
+          "ta": "திருப்திகரமான நிறைவு",
+          "tl": "kasiya-siyang pagkumpleto",
+          "ps": "رضایتمنده بشپړونه",
+          "ro": "finalizare satisfăcătoare",
+          "ru": "удовлетворительное завершение",
+          "fr": "achèvement satisfaisant",
+          "hi": "संतोषजनक पूर्णता",
+          "es": "finalización satisfactoria"
+         }
         },
         {
          "word": "special provision",
@@ -132379,7 +133538,26 @@
          "root": "vis",
          "meaning": "Extra help or time in assessment for students with illness, disability or hardship.",
          "example": "She applied for special provision because of her injury.",
-         "translations": {}
+         "translations": {
+          "zh-Hans": "特殊照顾安排",
+          "zh-Hant": "特殊照顧安排",
+          "ja": "特別措置（スペシャルプロビジョン）",
+          "ko": "특별 배려 조치",
+          "vi": "hỗ trợ đặc biệt trong thi cử",
+          "ar": "ترتيب خاص",
+          "fa": "تسهیلات ویژه",
+          "ur": "خصوصی رعایت",
+          "am": "ልዩ ድጋፍ",
+          "ml": "പ്രത്യേക പരിഗണന",
+          "ta": "சிறப்பு ஏற்பாடு",
+          "tl": "espesyal na akomodasyon",
+          "ps": "ځانګړی تدارک",
+          "ro": "măsuri speciale",
+          "ru": "особые условия",
+          "fr": "mesures spéciales",
+          "hi": "विशेष प्रावधान",
+          "es": "disposición especial"
+         }
         }
        ],
        "path": "vce/command-terms/vce-system"
