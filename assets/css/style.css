@@ -762,3 +762,20 @@ a.dict-word:hover { background: rgba(0,0,0,.1); }
 .mo-origin { font-size: .68em; font-style: normal; font-weight: 600;
   opacity: .6; letter-spacing: .04em; margin-left: 2px; text-transform: uppercase; }
 .dict-homograph { margin: 2px 0 6px; }
+
+/* --- level page: compact subject cards -----------------------------------
+   With 30+ subjects in a level, tall cards padded around one repeated
+   boilerplate line buried the list below the fold. Cards now hold exactly
+   what differs between subjects — name, word count, progress — and a
+   subtitle only when a subject genuinely has one. The featured subject
+   (VCE Command Terms) spans the grid as a banner: it is the one list that
+   serves every student regardless of their subjects, so it goes first and
+   looks different from the pack. */
+.grid.subjects { grid-template-columns: repeat(auto-fill, minmax(190px, 1fr)); gap: 10px; }
+.grid.subjects .subject-card { padding: 12px 14px; }
+.grid.subjects .subject-card h3 { margin: 3px 0 0; font-size: 1.05rem; }
+.subj-sub { margin: 4px 0 0; font-size: .82rem; line-height: 1.35; }
+.subject-card.featured { grid-column: 1 / -1;
+  border-color: color-mix(in srgb, var(--brand) 55%, var(--line));
+  background: color-mix(in srgb, var(--brand) 6%, var(--surface)); }
+.subject-card.featured h3 { font-size: 1.2rem; }

@@ -808,17 +808,20 @@ function renderHome() {
 function renderLevel({ levelId }) {
   const level = levelById(levelId);
   if (!level) return renderHome();
-  const grid = h('div', { class: 'grid' });
+  const grid = h('div', { class: 'grid subjects' });
   level.subjects.forEach((sub) => {
     const words = subjectWordCount(sub);
     const ready = sub.units.length > 0;
     const href = ready ? `#/l/${level.id}/${sub.id}` : `#/request/${level.id}/${sub.id}`;
     const prog = ready ? subjectProgress(sub) : null;
-    grid.append(h('a', { class: `card subject-card ${ready ? '' : 'soon'}`, href },
+    // A featured subject (Command Terms — the language every exam is written
+    // in, useful whatever else the student picked) spans the grid as a banner
+    // instead of hiding alphabetically among 30 look-alike cards.
+    grid.append(h('a', { class: `card subject-card ${sub.featured ? 'featured' : ''} ${ready ? '' : 'soon'}`.trim(), href },
       h('div', { class: 'card-tag' }, ready ? `${words} words` : 'Request this list'),
       h('h3', {}, sub.name),
-      h('p', { class: 'muted' }, sub.subtitle || ''),
-      prog && h('p', { class: 'card-progress muted small' },
+      sub.subtitle && h('p', { class: 'muted subj-sub' }, sub.subtitle),
+      prog && prog.started > 0 && h('p', { class: 'card-progress muted small' },
         `${prog.started} topic${prog.started === 1 ? '' : 's'} started`,
         prog.masteredUnits > 0 ? ` · ${prog.masteredUnits} mastered` : '')));
   });
