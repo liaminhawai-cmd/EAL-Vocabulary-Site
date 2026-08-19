@@ -133650,7 +133650,26 @@
          "root": "tent",
          "meaning": "The main point a writer argues for — what they want you to accept.",
          "example": "The writer's contention is that phones should be banned in class.",
-         "translations": {}
+         "translations": {
+          "zh-Hans": "论点",
+          "zh-Hant": "論點",
+          "ja": "主張",
+          "ko": "주장",
+          "vi": "luận điểm",
+          "ar": "الحجة الرئيسية",
+          "fa": "ادعای اصلی",
+          "ur": "دعویٰ",
+          "am": "ዋና ክርክር",
+          "ml": "വാദം",
+          "ta": "வாதம்",
+          "tl": "pangunahing argumento",
+          "ps": "اصلي دلیل",
+          "ro": "afirmația principală",
+          "ru": "основной тезис",
+          "fr": "thèse défendue",
+          "hi": "मुख्य तर्क",
+          "es": "tesis principal"
+         }
         },
         {
          "word": "thesis",
@@ -133709,7 +133728,26 @@
          "root": "thes",
          "meaning": "The central argument of your essay, usually stated in the introduction.",
          "example": "Your thesis should answer the question directly.",
-         "translations": {}
+         "translations": {
+          "zh-Hans": "论文中心论点",
+          "zh-Hant": "論文中心論點",
+          "ja": "テーゼ（中心論題）",
+          "ko": "논지(테제)",
+          "vi": "luận đề",
+          "ar": "الأطروحة",
+          "fa": "پایان‌نامه/رساله (تز)",
+          "ur": "مقالہ/مرکزی دعویٰ",
+          "am": "ማዕከላዊ ሀሳብ (ተሲስ)",
+          "ml": "പ്രബന്ധ കേന്ദ്ര ആശയം",
+          "ta": "மைய வாதம் (தீசிஸ்)",
+          "tl": "sentral na argumento (thesis)",
+          "ps": "مرکزي دلیل (تیزس)",
+          "ro": "teza centrală",
+          "ru": "тезис",
+          "fr": "thèse",
+          "hi": "केंद्रीय तर्क (थीसिस)",
+          "es": "tesis"
+         }
         },
         {
          "word": "premise",
@@ -133768,7 +133806,26 @@
          "root": "mis",
          "meaning": "An idea you accept as true and build your argument on.",
          "example": "The argument rests on the premise that all students have internet at home.",
-         "translations": {}
+         "translations": {
+          "zh-Hans": "前提",
+          "zh-Hant": "前提",
+          "ja": "前提",
+          "ko": "전제",
+          "vi": "tiền đề",
+          "ar": "المقدمة المنطقية",
+          "fa": "مقدمه (پیش‌فرض)",
+          "ur": "بنیادی مفروضہ",
+          "am": "መነሻ ሀሳብ",
+          "ml": "മുന്നുപാധി",
+          "ta": "முன்முடிவு",
+          "tl": "batayang paniniwala",
+          "ps": "بنسټیزه فرضیه",
+          "ro": "premisă",
+          "ru": "предпосылка",
+          "fr": "prémisse",
+          "hi": "आधार-वाक्य",
+          "es": "premisa"
+         }
         },
         {
          "word": "evidence",
@@ -133853,7 +133910,26 @@
          "root": "vid",
          "meaning": "Facts, data or quotations that show your point is true.",
          "example": "Support each idea with evidence from the text.",
-         "translations": {}
+         "translations": {
+          "zh-Hans": "证据",
+          "zh-Hant": "證據",
+          "ja": "証拠",
+          "ko": "증거",
+          "vi": "bằng chứng",
+          "ar": "الدليل",
+          "fa": "شواهد",
+          "ur": "ثبوت",
+          "am": "ማስረጃ",
+          "ml": "തെളിവ്",
+          "ta": "சான்று",
+          "tl": "ebidensya",
+          "ps": "شواهد",
+          "ro": "dovezi",
+          "ru": "доказательства",
+          "fr": "preuve",
+          "hi": "साक्ष्य",
+          "es": "evidencia"
+         }
         },
         {
          "word": "counterargument",
@@ -133918,7 +133994,26 @@
          "root": "argu",
          "meaning": "An argument against your own — you raise it so you can answer it.",
          "example": "A strong essay deals with the counterargument.",
-         "translations": {}
+         "translations": {
+          "zh-Hans": "反驳论点",
+          "zh-Hant": "反駁論點",
+          "ja": "反論",
+          "ko": "반론",
+          "vi": "luận điểm phản bác",
+          "ar": "الحجة المضادة",
+          "fa": "استدلال مخالف",
+          "ur": "جوابی دلیل",
+          "am": "ተቃራኒ ክርክር",
+          "ml": "എതിർവാദം",
+          "ta": "எதிர்வாதம்",
+          "tl": "kontra-argumento",
+          "ps": "متقابل دلیل",
+          "ro": "contraargument",
+          "ru": "контраргумент",
+          "fr": "contre-argument",
+          "hi": "प्रति-तर्क",
+          "es": "contraargumento"
+         }
         },
         {
          "word": "implication",
@@ -134003,7 +134098,26 @@
          "root": "plic",
          "meaning": "A result or meaning that follows from something, without being said directly.",
          "example": "Discuss the implications of the new policy for small business.",
-         "translations": {}
+         "translations": {
+          "zh-Hans": "隐含意义",
+          "zh-Hant": "隱含意義",
+          "ja": "含意",
+          "ko": "함의",
+          "vi": "hàm ý",
+          "ar": "الدلالة الضمنية",
+          "fa": "پیامد ضمنی",
+          "ur": "مضمر مفہوم",
+          "am": "ስውር ውጤት",
+          "ml": "പരോക്ഷഫലം",
+          "ta": "மறைமுக விளைவு",
+          "tl": "di-tuwirang kahihinatnan",
+          "ps": "ضمني پایله",
+          "ro": "implicație",
+          "ru": "подразумеваемое следствие",
+          "fr": "implication",
+          "hi": "निहितार्थ",
+          "es": "implicación"
+         }
         },
         {
          "word": "consequently",
@@ -134100,7 +134214,26 @@
          "root": "sequ",
          "meaning": "As a result of what was just said.",
          "example": "Rainfall fell sharply; consequently, the crop failed.",
-         "translations": {}
+         "translations": {
+          "zh-Hans": "因此",
+          "zh-Hant": "因此",
+          "ja": "その結果",
+          "ko": "결과적으로",
+          "vi": "do đó",
+          "ar": "بالتالي",
+          "fa": "در نتیجه",
+          "ur": "چنانچہ",
+          "am": "በዚህ ምክንያት",
+          "ml": "അതിനാൽ",
+          "ta": "இதன் விளைவாக",
+          "tl": "kaya naman",
+          "ps": "له همدې امله",
+          "ro": "prin urmare",
+          "ru": "следовательно",
+          "fr": "par conséquent",
+          "hi": "फलस्वरूप",
+          "es": "en consecuencia"
+         }
         },
         {
          "word": "conversely",
@@ -134172,7 +134305,26 @@
          "root": "vers",
          "meaning": "Looking at it the opposite way round.",
          "example": "City rents rose. Conversely, country rents fell.",
-         "translations": {}
+         "translations": {
+          "zh-Hans": "相反",
+          "zh-Hant": "相反",
+          "ja": "逆に",
+          "ko": "반대로",
+          "vi": "ngược lại",
+          "ar": "على العكس",
+          "fa": "برعکس",
+          "ur": "برعکس",
+          "am": "በተቃራኒው",
+          "ml": "നേരെ മറിച്ച്",
+          "ta": "மாறாக",
+          "tl": "sa kabaligtaran",
+          "ps": "برعکس",
+          "ro": "dimpotrivă",
+          "ru": "напротив",
+          "fr": "inversement",
+          "hi": "इसके विपरीत",
+          "es": "por el contrario"
+         }
         },
         {
          "word": "subsequently",
@@ -134268,7 +134420,26 @@
          "root": "sequ",
          "meaning": "After that; later.",
          "example": "The law passed in 1975 and was subsequently amended twice.",
-         "translations": {}
+         "translations": {
+          "zh-Hans": "随后",
+          "zh-Hant": "隨後",
+          "ja": "その後",
+          "ko": "그 후에",
+          "vi": "sau đó",
+          "ar": "لاحقًا",
+          "fa": "متعاقباً",
+          "ur": "بعد ازاں",
+          "am": "ከዚያ በኋላ",
+          "ml": "പിന്നീട്",
+          "ta": "பின்னர்",
+          "tl": "kalaunan",
+          "ps": "وروسته",
+          "ro": "ulterior",
+          "ru": "впоследствии",
+          "fr": "par la suite",
+          "hi": "बाद में",
+          "es": "posteriormente"
+         }
         },
         {
          "word": "refute",
@@ -134308,7 +134479,26 @@
          "root": "fut",
          "meaning": "Prove that an argument is wrong.",
          "example": "She refutes the claim with evidence from the census.",
-         "translations": {}
+         "translations": {
+          "zh-Hans": "反驳",
+          "zh-Hant": "反駁",
+          "ja": "反証する",
+          "ko": "반박하다",
+          "vi": "bác bỏ",
+          "ar": "يدحض",
+          "fa": "رد کردن",
+          "ur": "تردید کرنا",
+          "am": "ማስተባበል",
+          "ml": "ഖണ്ഡിക്കുക",
+          "ta": "மறுத்துரை",
+          "tl": "pabulaanan",
+          "ps": "رد کول",
+          "ro": "a respinge",
+          "ru": "опровергать",
+          "fr": "réfuter",
+          "hi": "खंडन करना",
+          "es": "refutar"
+         }
         },
         {
          "word": "concede",
@@ -134368,7 +134558,26 @@
          "root": "ced",
          "meaning": "Admit that part of the other side's argument is fair, before answering it.",
          "example": "The writer concedes that the cost is high, but argues it is worth paying.",
-         "translations": {}
+         "translations": {
+          "zh-Hans": "承认",
+          "zh-Hant": "承認",
+          "ja": "譲歩する",
+          "ko": "인정하다(양보하다)",
+          "vi": "thừa nhận",
+          "ar": "يعترف بجزء",
+          "fa": "پذیرفتن (تا حدی)",
+          "ur": "تسلیم کرنا",
+          "am": "በከፊል መቀበል",
+          "ml": "ഭാഗികമായി അംഗീകരിക്കുക",
+          "ta": "ஒப்புக்கொள்",
+          "tl": "aminin",
+          "ps": "منل",
+          "ro": "a admite parțial",
+          "ru": "признавать (частично)",
+          "fr": "concéder",
+          "hi": "मान लेना",
+          "es": "conceder"
+         }
         },
         {
          "word": "coherent",
@@ -134453,7 +134662,26 @@
          "root": "her",
          "meaning": "Making sense as a whole, with ideas that fit together logically.",
          "example": "A coherent essay answers one question from start to finish.",
-         "translations": {}
+         "translations": {
+          "zh-Hans": "连贯的（逻辑上）",
+          "zh-Hant": "連貫的（邏輯上）",
+          "ja": "首尾一貫した",
+          "ko": "논리적으로 일관된",
+          "vi": "mạch lạc (về logic)",
+          "ar": "متماسك منطقيًا",
+          "fa": "منسجم (از نظر منطقی)",
+          "ur": "منطقی طور پر مربوط",
+          "am": "አመክንዮአዊ ወጥነት ያለው",
+          "ml": "യുക്തിസഹമായി യോജിച്ച",
+          "ta": "தர்க்கரீதியாக ஒத்திசைவான",
+          "tl": "makatwirang magkakaugnay",
+          "ps": "منطقي یووالی لرونکی",
+          "ro": "coerent",
+          "ru": "логически последовательный",
+          "fr": "cohérent",
+          "hi": "तार्किक रूप से सुसंगत",
+          "es": "coherente"
+         }
         },
         {
          "word": "cohesive",
@@ -134538,7 +134766,26 @@
          "root": "hes",
          "meaning": "Held together by words and phrases that link sentence to sentence.",
          "example": "Linking words such as 'however' make writing cohesive.",
-         "translations": {}
+         "translations": {
+          "zh-Hans": "衔接紧密的（语言上）",
+          "zh-Hant": "銜接緊密的（語言上）",
+          "ja": "結束性のある",
+          "ko": "결속력 있는",
+          "vi": "liên kết chặt chẽ (về câu chữ)",
+          "ar": "متماسك لغويًا",
+          "fa": "پیوسته (از نظر زبانی)",
+          "ur": "لسانی طور پر مربوط",
+          "am": "ቋንቋዊ ትስስር ያለው",
+          "ml": "ഭാഷാപരമായി ബന്ധിതമായ",
+          "ta": "மொழிரீதியாக இணைந்த",
+          "tl": "magkakaugnay sa paggamit ng salita",
+          "ps": "ژبني تړاو لرونکی",
+          "ro": "coeziv",
+          "ru": "связный (о тексте)",
+          "fr": "cohésif",
+          "hi": "भाषिक रूप से संबद्ध",
+          "es": "cohesivo"
+         }
         },
         {
          "word": "rebuttal",
@@ -134603,7 +134850,26 @@
          "root": "butt",
          "meaning": "Your answer to an argument against you.",
          "example": "The final paragraph is a rebuttal of the opposing view.",
-         "translations": {}
+         "translations": {
+          "zh-Hans": "反驳陈述",
+          "zh-Hant": "反駁陳述",
+          "ja": "反駁",
+          "ko": "재반박",
+          "vi": "lời phản bác",
+          "ar": "الرد المفنّد",
+          "fa": "پاسخ رد کننده",
+          "ur": "تردیدی جواب",
+          "am": "የመልስ ክርክር",
+          "ml": "മറുപടി വാദം",
+          "ta": "மறுப்புரை",
+          "tl": "sagot na pambulaan",
+          "ps": "ځوابي رد",
+          "ro": "replică (respingere)",
+          "ru": "опровержение (ответ)",
+          "fr": "réfutation",
+          "hi": "प्रत्युत्तर",
+          "es": "refutación"
+         }
         },
         {
          "word": "paragraph",
@@ -134662,7 +134928,26 @@
          "root": "graph",
          "meaning": "A block of sentences developing one idea.",
          "example": "Start a new paragraph for each new point.",
-         "translations": {}
+         "translations": {
+          "zh-Hans": "段落",
+          "zh-Hant": "段落",
+          "ja": "段落",
+          "ko": "단락",
+          "vi": "đoạn văn",
+          "ar": "الفقرة",
+          "fa": "پاراگراف",
+          "ur": "پیراگراف",
+          "am": "አንቀጽ",
+          "ml": "ഖണ്ഡിക",
+          "ta": "பத்தி",
+          "tl": "talata",
+          "ps": "پراګراف",
+          "ro": "paragraf",
+          "ru": "абзац",
+          "fr": "paragraphe",
+          "hi": "अनुच्छेद",
+          "es": "párrafo"
+         }
         },
         {
          "word": "juxtapose",
@@ -134703,7 +134988,26 @@
          "root": "pos",
          "meaning": "Put two things side by side so the difference between them stands out.",
          "example": "The film juxtaposes the wedding with the funeral.",
-         "translations": {}
+         "translations": {
+          "zh-Hans": "并置对比",
+          "zh-Hant": "並置對比",
+          "ja": "並置する",
+          "ko": "병치하다",
+          "vi": "đặt cạnh nhau để đối chiếu",
+          "ar": "يضع جنبًا إلى جنب للمقارنة",
+          "fa": "کنار هم قرار دادن برای مقایسه",
+          "ur": "موازنے کے لیے پہلو بہ پہلو رکھنا",
+          "am": "ለንፅፅር ጎን ለጎን ማስቀመጥ",
+          "ml": "താരതമ്യത്തിനായി അടുത്തടുത്ത് വയ്ക്കുക",
+          "ta": "ஒப்பிட அருகருகே வை",
+          "tl": "ipantay para sa paghahambing",
+          "ps": "د پرتلې لپاره تر څنګ ایښودل",
+          "ro": "a juxtapune",
+          "ru": "сопоставлять рядом",
+          "fr": "juxtaposer",
+          "hi": "तुलना के लिए साथ-साथ रखना",
+          "es": "yuxtaponer"
+         }
         }
        ],
        "path": "vce/command-terms/argument-essay"
@@ -134726,7 +135030,26 @@
          "root": "trend",
          "meaning": "The general direction data moves in over time.",
          "example": "The graph shows an upward trend in temperature.",
-         "translations": {}
+         "translations": {
+          "zh-Hans": "趋势",
+          "zh-Hant": "趨勢",
+          "ja": "傾向",
+          "ko": "추세",
+          "vi": "xu hướng",
+          "ar": "الاتجاه",
+          "fa": "روند",
+          "ur": "رجحان",
+          "am": "አዝማሚያ",
+          "ml": "പ്രവണത",
+          "ta": "போக்கு",
+          "tl": "kalakaran",
+          "ps": "روند",
+          "ro": "tendință",
+          "ru": "тенденция",
+          "fr": "tendance",
+          "hi": "प्रवृत्ति",
+          "es": "tendencia"
+         }
         },
         {
          "word": "correlation",
@@ -134836,7 +135159,26 @@
          "root": "lat",
          "meaning": "A relationship where two things change together. It does not prove one causes the other.",
          "example": "There is a strong correlation between study hours and results.",
-         "translations": {}
+         "translations": {
+          "zh-Hans": "相关性",
+          "zh-Hant": "相關性",
+          "ja": "相関関係",
+          "ko": "상관관계",
+          "vi": "mối tương quan",
+          "ar": "الارتباط",
+          "fa": "همبستگی",
+          "ur": "باہمی تعلق",
+          "am": "ትስስር",
+          "ml": "പരസ്പര ബന്ധം",
+          "ta": "தொடர்பு (கோரிலேஷன்)",
+          "tl": "ugnayan (correlation)",
+          "ps": "اړیکه",
+          "ro": "corelație",
+          "ru": "корреляция",
+          "fr": "corrélation",
+          "hi": "सहसंबंध",
+          "es": "correlación"
+         }
         },
         {
          "word": "proportion",
@@ -134920,7 +135262,26 @@
          "root": "port",
          "meaning": "A part compared with the whole, often written as a fraction or percentage.",
          "example": "A large proportion of the sample was under 20.",
-         "translations": {}
+         "translations": {
+          "zh-Hans": "比例",
+          "zh-Hant": "比例",
+          "ja": "割合",
+          "ko": "비율",
+          "vi": "tỷ lệ",
+          "ar": "النسبة",
+          "fa": "نسبت",
+          "ur": "تناسب",
+          "am": "መጠን (ተመጣጣኝ ድርሻ)",
+          "ml": "അനുപാതം",
+          "ta": "விகிதம்",
+          "tl": "proporsyon",
+          "ps": "تناسب",
+          "ro": "proporție",
+          "ru": "доля",
+          "fr": "proportion",
+          "hi": "अनुपात",
+          "es": "proporción"
+         }
         },
         {
          "word": "significant",
@@ -135005,7 +135366,26 @@
          "root": "sign",
          "meaning": "Big enough to matter. In statistics it means the result is unlikely to be chance.",
          "example": "The difference between the groups was significant.",
-         "translations": {}
+         "translations": {
+          "zh-Hans": "显著的",
+          "zh-Hant": "顯著的",
+          "ja": "有意な",
+          "ko": "유의미한",
+          "vi": "đáng kể",
+          "ar": "ذو دلالة",
+          "fa": "معنادار",
+          "ur": "اہم (نمایاں)",
+          "am": "ጉልህ",
+          "ml": "സാരവത്തായ",
+          "ta": "குறிப்பிடத்தக்க",
+          "tl": "makabuluhan",
+          "ps": "د پام وړ",
+          "ro": "semnificativ",
+          "ru": "значимый",
+          "fr": "significatif",
+          "hi": "सार्थक (महत्वपूर्ण)",
+          "es": "significativo"
+         }
         },
         {
          "word": "fluctuate",
@@ -135045,7 +135425,26 @@
          "root": "fluctu",
          "meaning": "Go up and down repeatedly, without a steady direction.",
          "example": "Prices fluctuated throughout the year.",
-         "translations": {}
+         "translations": {
+          "zh-Hans": "波动",
+          "zh-Hant": "波動",
+          "ja": "変動する",
+          "ko": "변동하다",
+          "vi": "biến động",
+          "ar": "يتذبذب",
+          "fa": "نوسان کردن",
+          "ur": "اتار چڑھاؤ آنا",
+          "am": "መዋዠቅ",
+          "ml": "ചാഞ്ചാടുക",
+          "ta": "ஏற்றத்தாழ்வு அடை",
+          "tl": "umindayog",
+          "ps": "ګډوډ کیدل",
+          "ro": "a fluctua",
+          "ru": "колебаться",
+          "fr": "fluctuer",
+          "hi": "उतार-चढ़ाव होना",
+          "es": "fluctuar"
+         }
         },
         {
          "word": "plateau",
@@ -135060,7 +135459,26 @@
          "root": "plat",
          "meaning": "A period where a value stops changing and stays level.",
          "example": "Growth rose quickly, then reached a plateau in 2019.",
-         "translations": {}
+         "translations": {
+          "zh-Hans": "平台期",
+          "zh-Hant": "平台期",
+          "ja": "横ばい状態",
+          "ko": "정체기(안정 구간)",
+          "vi": "giai đoạn ổn định (bình nguyên)",
+          "ar": "مرحلة الاستقرار",
+          "fa": "دوره ثبات (فلات)",
+          "ur": "استحکام کا مرحلہ",
+          "am": "የመረጋጋት ደረጃ",
+          "ml": "സ്ഥിരതയുള്ള ഘട്ടം",
+          "ta": "நிலைப்படுத்தும் கட்டம்",
+          "tl": "yugto ng katatagan",
+          "ps": "دثبات دوره",
+          "ro": "platou (perioadă de stabilitate)",
+          "ru": "плато (период стабильности)",
+          "fr": "plateau (stabilisation)",
+          "hi": "स्थिरता का चरण",
+          "es": "meseta (estabilización)"
+         }
         },
         {
          "word": "decline",
@@ -135100,7 +135518,26 @@
          "root": "clin",
          "meaning": "A fall or decrease over time.",
          "example": "There was a steady decline in newspaper sales.",
-         "translations": {}
+         "translations": {
+          "zh-Hans": "下降",
+          "zh-Hant": "下降",
+          "ja": "減少",
+          "ko": "감소",
+          "vi": "sự suy giảm",
+          "ar": "الانخفاض",
+          "fa": "کاهش",
+          "ur": "کمی",
+          "am": "ማሽቆልቆል",
+          "ml": "ഇടിവ്",
+          "ta": "வீழ்ச்சி",
+          "tl": "pagbaba",
+          "ps": "کمښت",
+          "ro": "declin",
+          "ru": "снижение",
+          "fr": "déclin",
+          "hi": "गिरावट",
+          "es": "disminución"
+         }
         },
         {
          "word": "gradual",
@@ -135159,7 +135596,26 @@
          "root": "grad",
          "meaning": "Happening slowly, in small steps.",
          "example": "The graph shows a gradual increase, not a sudden jump.",
-         "translations": {}
+         "translations": {
+          "zh-Hans": "逐渐的",
+          "zh-Hant": "逐漸的",
+          "ja": "緩やかな",
+          "ko": "점진적인",
+          "vi": "dần dần",
+          "ar": "تدريجي",
+          "fa": "تدریجی",
+          "ur": "بتدریج",
+          "am": "ቀስ በቀስ",
+          "ml": "ക്രമേണയുള്ള",
+          "ta": "படிப்படியான",
+          "tl": "unti-unti",
+          "ps": "تدریجي",
+          "ro": "gradual",
+          "ru": "постепенный",
+          "fr": "graduel",
+          "hi": "क्रमिक",
+          "es": "gradual"
+         }
         },
         {
          "word": "magnitude",
@@ -135199,7 +135655,26 @@
          "root": "magn",
          "meaning": "How big something is — its size or scale.",
          "example": "An earthquake of magnitude 6.5 struck the region.",
-         "translations": {}
+         "translations": {
+          "zh-Hans": "量级",
+          "zh-Hant": "量級",
+          "ja": "大きさ（規模）",
+          "ko": "크기(규모)",
+          "vi": "độ lớn (cường độ)",
+          "ar": "الحجم (المقدار)",
+          "fa": "بزرگی (اندازه)",
+          "ur": "شدت (مقدار)",
+          "am": "መጠን (ግዝፈት)",
+          "ml": "വ്യാപ്തി",
+          "ta": "அளவு (பருமன்)",
+          "tl": "laki (magnitude)",
+          "ps": "کچه (اندازه)",
+          "ro": "magnitudine",
+          "ru": "величина",
+          "fr": "ampleur",
+          "hi": "परिमाण",
+          "es": "magnitud"
+         }
         },
         {
          "word": "variable",
@@ -135258,7 +135733,26 @@
          "root": "vari",
          "meaning": "Something that can change, and that you measure or control in an experiment.",
          "example": "Temperature was the independent variable.",
-         "translations": {}
+         "translations": {
+          "zh-Hans": "变量",
+          "zh-Hant": "變量",
+          "ja": "変数",
+          "ko": "변수",
+          "vi": "biến số",
+          "ar": "المتغيّر",
+          "fa": "متغیر",
+          "ur": "متغیر",
+          "am": "ተለዋዋጭ",
+          "ml": "ചരം",
+          "ta": "மாறி",
+          "tl": "baryabol",
+          "ps": "متغیر",
+          "ro": "variabilă",
+          "ru": "переменная",
+          "fr": "variable",
+          "hi": "चर (वैरिएबल)",
+          "es": "variable"
+         }
         },
         {
          "word": "median",
@@ -135317,7 +135811,26 @@
          "root": "medi",
          "meaning": "The middle value when all values are put in order.",
          "example": "The median house price was $780,000.",
-         "translations": {}
+         "translations": {
+          "zh-Hans": "中位数",
+          "zh-Hant": "中位數",
+          "ja": "中央値",
+          "ko": "중앙값",
+          "vi": "trung vị",
+          "ar": "الوسيط",
+          "fa": "میانه",
+          "ur": "وسطانی قدر",
+          "am": "መካከለኛ ዋጋ",
+          "ml": "മധ്യമൂല്യം",
+          "ta": "இடைநிலை மதிப்பு",
+          "tl": "median (gitnang halaga)",
+          "ps": "منځنۍ ارزښت",
+          "ro": "mediană",
+          "ru": "медиана",
+          "fr": "médiane",
+          "hi": "माध्यिका",
+          "es": "mediana"
+         }
         },
         {
          "word": "distribution",
@@ -135402,7 +135915,26 @@
          "root": "tribut",
          "meaning": "How values are spread out across a range.",
          "example": "The distribution of scores was close to normal.",
-         "translations": {}
+         "translations": {
+          "zh-Hans": "分布",
+          "zh-Hant": "分布",
+          "ja": "分布",
+          "ko": "분포",
+          "vi": "sự phân bố",
+          "ar": "التوزيع",
+          "fa": "توزیع",
+          "ur": "تقسیم",
+          "am": "ስርጭት",
+          "ml": "വിതരണം",
+          "ta": "பரவல்",
+          "tl": "distribusyon",
+          "ps": "ویش",
+          "ro": "distribuție",
+          "ru": "распределение",
+          "fr": "distribution",
+          "hi": "वितरण",
+          "es": "distribución"
+         }
         },
         {
          "word": "exponential",
@@ -135513,7 +136045,26 @@
          "root": "pon",
          "meaning": "Growth that gets faster and faster as the amount gets bigger.",
          "example": "The population showed exponential growth after 1950.",
-         "translations": {}
+         "translations": {
+          "zh-Hans": "指数式的",
+          "zh-Hant": "指數式的",
+          "ja": "指数関数的な",
+          "ko": "지수적인",
+          "vi": "theo hàm mũ",
+          "ar": "أُسّي",
+          "fa": "نمایی (تصاعدی)",
+          "ur": "اسّی (تیزی سے بڑھتا ہوا)",
+          "am": "አክሳሪ (በፍጥነት የሚያድግ)",
+          "ml": "ഘാതീയമായ",
+          "ta": "அடுக்குக்குறி வளர்ச்சி",
+          "tl": "exponential (mabilis na paglaki)",
+          "ro": "exponențial",
+          "ru": "экспоненциальный",
+          "fr": "exponentiel",
+          "hi": "चरघातांकी",
+          "es": "exponencial",
+          "ps": "نمایی (چټک ودې)"
+         }
         },
         {
          "word": "deviation",
@@ -135597,7 +136148,26 @@
          "root": "via",
          "meaning": "How far a value moves away from the average.",
          "example": "The standard deviation tells you how spread out the data is.",
-         "translations": {}
+         "translations": {
+          "zh-Hans": "偏差",
+          "zh-Hant": "偏差",
+          "ja": "偏差",
+          "ko": "편차",
+          "vi": "độ lệch",
+          "ar": "الانحراف",
+          "fa": "انحراف",
+          "ur": "انحراف",
+          "am": "ልዩነት (ማዛነፍ)",
+          "ml": "വ്യതിയാനം",
+          "ta": "விலகல்",
+          "tl": "paglihis",
+          "ps": "انحراف",
+          "ro": "deviație",
+          "ru": "отклонение",
+          "fr": "écart",
+          "hi": "विचलन",
+          "es": "desviación"
+         }
         },
         {
          "word": "accumulate",
@@ -135663,7 +136233,26 @@
          "root": "cumul",
          "meaning": "Build up in amount over time.",
          "example": "Sediment accumulates at the mouth of the river.",
-         "translations": {}
+         "translations": {
+          "zh-Hans": "累积",
+          "zh-Hant": "累積",
+          "ja": "蓄積する",
+          "ko": "누적되다",
+          "vi": "tích lũy",
+          "ar": "يتراكم",
+          "fa": "انباشته شدن",
+          "ur": "جمع ہونا",
+          "am": "መከማቸት",
+          "ml": "ശേഖരിക്കുക",
+          "ta": "குவி",
+          "tl": "maipon",
+          "ps": "راټولیدل",
+          "ro": "a se acumula",
+          "ru": "накапливаться",
+          "fr": "s'accumuler",
+          "hi": "संचित होना",
+          "es": "acumular"
+         }
         },
         {
          "word": "anomaly",
@@ -135703,7 +136292,26 @@
          "root": "omal",
          "meaning": "A value or result that does not fit the pattern.",
          "example": "The reading of 92 is an anomaly and should be checked.",
-         "translations": {}
+         "translations": {
+          "zh-Hans": "异常值",
+          "zh-Hant": "異常值",
+          "ja": "異常値",
+          "ko": "이상치",
+          "vi": "giá trị bất thường",
+          "ar": "الشذوذ (القيمة الشاذة)",
+          "fa": "ناهنجاری (مقدار غیرعادی)",
+          "ur": "غیر معمولی قدر",
+          "am": "ያልተለመደ (ውጭ የሆነ) ዋጋ",
+          "ml": "അസാധാരണ മൂല്യം",
+          "ta": "முரண்பாடு (இயல்பிலிருந்து விலகல்)",
+          "tl": "kakaibang halaga (anomaly)",
+          "ps": "غیر معمولي ارزښت",
+          "ro": "anomalie",
+          "ru": "аномалия",
+          "fr": "anomalie",
+          "hi": "विसंगति",
+          "es": "anomalía"
+         }
         }
        ],
        "path": "vce/command-terms/data-graphs"
@@ -135770,7 +136378,26 @@
          "root": "tend",
          "meaning": "Something that usually happens, but not always.",
          "example": "There is a tendency for prices to rise before Christmas.",
-         "translations": {}
+         "translations": {
+          "zh-Hans": "倾向",
+          "zh-Hant": "傾向",
+          "ja": "傾向",
+          "ko": "경향",
+          "vi": "xu hướng",
+          "ar": "الميل (النزعة)",
+          "fa": "گرایش",
+          "ur": "رجحان",
+          "am": "ዝንባሌ",
+          "ml": "പ്രവണത",
+          "ta": "போக்கு",
+          "tl": "hilig (tendency)",
+          "ps": "لېوالتیا",
+          "ro": "tendință",
+          "ru": "склонность",
+          "fr": "tendance",
+          "hi": "प्रवृत्ति",
+          "es": "tendencia"
+         }
         },
         {
          "word": "indicate",
@@ -135854,7 +136481,26 @@
          "root": "dic",
          "meaning": "Show or point to something — weaker than 'prove'.",
          "example": "The results indicate a link between sleep and memory.",
-         "translations": {}
+         "translations": {
+          "zh-Hans": "表明",
+          "zh-Hant": "表明",
+          "ja": "示す",
+          "ko": "나타내다",
+          "vi": "chỉ ra",
+          "ar": "يشير إلى",
+          "fa": "نشان دادن",
+          "ur": "اشارہ کرنا",
+          "am": "ማመልከት",
+          "ml": "സൂചിപ്പിക്കുക",
+          "ta": "குறிக்கிறது",
+          "tl": "ipahiwatig",
+          "ps": "ښودل",
+          "ro": "a indica",
+          "ru": "указывать",
+          "fr": "indiquer",
+          "hi": "इंगित करना",
+          "es": "indicar"
+         }
         },
         {
          "word": "suggest",
@@ -135894,7 +136540,26 @@
          "root": "gest",
          "meaning": "Point towards a conclusion without proving it. Very common in academic writing.",
          "example": "The evidence suggests that the trend will continue.",
-         "translations": {}
+         "translations": {
+          "zh-Hans": "暗示",
+          "zh-Hant": "暗示",
+          "ja": "示唆する",
+          "ko": "시사하다",
+          "vi": "gợi ý",
+          "ar": "يوحي بـ",
+          "fa": "حاکی بودن از",
+          "ur": "ظاہر کرنا",
+          "am": "ማመልከት (ፍንጭ መስጠት)",
+          "ml": "സൂചന നൽകുക",
+          "ta": "குறிப்புத் தருகிறது",
+          "tl": "magmungkahi",
+          "ps": "وړاندیز کول",
+          "ro": "a sugera",
+          "ru": "предполагать",
+          "fr": "suggérer",
+          "hi": "सुझाव देना",
+          "es": "sugerir"
+         }
         },
         {
          "word": "likely",
@@ -135921,7 +136586,26 @@
          "root": "like",
          "meaning": "Probably true or probably going to happen.",
          "example": "Rain is likely in the afternoon.",
-         "translations": {}
+         "translations": {
+          "zh-Hans": "很可能的",
+          "zh-Hant": "很可能的",
+          "ja": "起こりそうな",
+          "ko": "가능성이 있는",
+          "vi": "có khả năng",
+          "ar": "من المحتمل",
+          "fa": "محتمل",
+          "ur": "ممکنہ طور پر",
+          "am": "ሊሆን የሚችል",
+          "ml": "സാധ്യതയുള്ള",
+          "ta": "வாய்ப்புள்ள",
+          "tl": "malamang",
+          "ps": "احتمالي",
+          "ro": "probabil",
+          "ru": "вероятный",
+          "fr": "probable",
+          "hi": "संभावित",
+          "es": "probable"
+         }
         },
         {
          "word": "arguably",
@@ -135961,7 +136645,26 @@
          "root": "argu",
          "meaning": "A reasonable case can be made for this, though others may disagree.",
          "example": "This is arguably the poet's finest work.",
-         "translations": {}
+         "translations": {
+          "zh-Hans": "可以说",
+          "zh-Hant": "可以說",
+          "ja": "おそらく（議論の余地はあるが）",
+          "ko": "주장컨대",
+          "vi": "có thể lập luận rằng",
+          "ar": "يمكن القول إن",
+          "fa": "می‌توان استدلال کرد که",
+          "ur": "بحث کے قابل طور پر",
+          "am": "እንደሚያከራክር",
+          "ml": "വാദിക്കാവുന്നതുപോലെ",
+          "ta": "வாதிடக்கூடிய வகையில்",
+          "tl": "maaaring ipagtalo na",
+          "ps": "ښایي ووایو چې",
+          "ro": "s-ar putea argumenta că",
+          "ru": "можно утверждать, что",
+          "fr": "on peut soutenir que",
+          "hi": "तर्कसंगत रूप से कहा जा सकता है",
+          "es": "podría decirse que"
+         }
         },
         {
          "word": "primarily",
@@ -136032,7 +136735,26 @@
          "root": "prim",
          "meaning": "Mainly; more than any other reason.",
          "example": "The decline was primarily caused by drought.",
-         "translations": {}
+         "translations": {
+          "zh-Hans": "主要地",
+          "zh-Hant": "主要地",
+          "ja": "主に",
+          "ko": "주로",
+          "vi": "chủ yếu",
+          "ar": "بشكل أساسي",
+          "fa": "عمدتاً",
+          "ur": "بنیادی طور پر",
+          "am": "በዋነኛነት",
+          "ml": "പ്രധാനമായും",
+          "ta": "முதன்மையாக",
+          "tl": "pangunahin",
+          "ps": "په لومړي سر کې",
+          "ro": "în principal",
+          "ru": "главным образом",
+          "fr": "principalement",
+          "hi": "मुख्यतः",
+          "es": "principalmente"
+         }
         },
         {
          "word": "potentially",
@@ -136084,7 +136806,26 @@
          "root": "potent",
          "meaning": "Possibly, in the future — it could happen but has not yet.",
          "example": "The change is potentially damaging to small businesses.",
-         "translations": {}
+         "translations": {
+          "zh-Hans": "潜在地",
+          "zh-Hant": "潛在地",
+          "ja": "潜在的に",
+          "ko": "잠재적으로",
+          "vi": "có khả năng xảy ra",
+          "ar": "من المحتمل أن",
+          "fa": "بالقوه",
+          "ur": "ممکنہ طور پر",
+          "am": "በተቻለ መጠን (ሊሆን በሚችል)",
+          "ml": "സാധ്യതയോടെ",
+          "ta": "சாத்தியமான வகையில்",
+          "tl": "posibleng",
+          "ps": "احتمالي توګه",
+          "ro": "potențial",
+          "ru": "потенциально",
+          "fr": "potentiellement",
+          "hi": "संभावित रूप से",
+          "es": "potencialmente"
+         }
         },
         {
          "word": "apparent",
@@ -136169,7 +136910,26 @@
          "root": "par",
          "meaning": "Easy to see; or seeming true but perhaps not really true.",
          "example": "It became apparent that the sample was too small.",
-         "translations": {}
+         "translations": {
+          "zh-Hans": "明显的",
+          "zh-Hant": "明顯的",
+          "ja": "明白な",
+          "ko": "명백한(겉으로 보이는)",
+          "vi": "rõ ràng (bề ngoài)",
+          "ar": "واضح (ظاهر)",
+          "fa": "آشکار",
+          "ur": "بظاہر واضح",
+          "am": "የሚታይ (ግልጽ)",
+          "ml": "പ്രത്യക്ഷമായ",
+          "ta": "வெளிப்படையான",
+          "tl": "malinaw (sa unang tingin)",
+          "ps": "ښکاره",
+          "ro": "aparent",
+          "ru": "очевидный",
+          "fr": "apparent",
+          "hi": "प्रत्यक्ष",
+          "es": "aparente"
+         }
         },
         {
          "word": "presumably",
@@ -136253,7 +137013,26 @@
          "root": "sum",
          "meaning": "Probably, judging by what we know — though it has not been checked.",
          "example": "The author, presumably writing in 1890, describes the city.",
-         "translations": {}
+         "translations": {
+          "zh-Hans": "据推测",
+          "zh-Hant": "據推測",
+          "ja": "おそらく（推定されるに）",
+          "ko": "아마도(추정컨대)",
+          "vi": "có lẽ (theo suy đoán)",
+          "ar": "على الأرجح",
+          "fa": "احتمالاً (به فرض)",
+          "ur": "غالباً (بظن غالب)",
+          "am": "እንደሚገመተው",
+          "ml": "ഊഹിക്കാവുന്നതുപോലെ",
+          "ta": "ஊகிக்கக்கூடிய வகையில்",
+          "tl": "malamang (base sa palagay)",
+          "ps": "داسې ګمان کیږي چې",
+          "ro": "probabil (se presupune că)",
+          "ru": "предположительно",
+          "fr": "vraisemblablement",
+          "hi": "अनुमानतः",
+          "es": "presumiblemente"
+         }
         },
         {
          "word": "substantial",
@@ -136337,7 +137116,26 @@
          "root": "stant",
          "meaning": "Large and important enough to matter.",
          "example": "There was a substantial increase in demand.",
-         "translations": {}
+         "translations": {
+          "zh-Hans": "相当大的",
+          "zh-Hant": "相當大的",
+          "ja": "かなりの",
+          "ko": "상당한",
+          "vi": "đáng kể",
+          "ar": "كبير (جوهري)",
+          "fa": "قابل توجه",
+          "ur": "کافی حد تک",
+          "am": "ጉልህ የሆነ",
+          "ml": "ഗണ്യമായ",
+          "ta": "கணிசமான",
+          "tl": "malaki (substansyal)",
+          "ps": "د پام وړ (زیات)",
+          "ro": "substanțial",
+          "ru": "существенный",
+          "fr": "substantiel",
+          "hi": "पर्याप्त",
+          "es": "sustancial"
+         }
         },
         {
          "word": "negligible",
@@ -136384,7 +137182,26 @@
          "root": "lig",
          "meaning": "So small that it can be ignored.",
          "example": "The effect on the result was negligible.",
-         "translations": {}
+         "translations": {
+          "zh-Hans": "微不足道的",
+          "zh-Hant": "微不足道的",
+          "ja": "無視できるほどの",
+          "ko": "무시할 수 있는",
+          "vi": "không đáng kể",
+          "ar": "لا يُعتد به",
+          "fa": "ناچیز",
+          "ur": "نہایت معمولی",
+          "am": "ችላ ሊባል የሚችል",
+          "ml": "അവഗണിക്കാവുന്ന",
+          "ta": "புறக்கணிக்கக்கூடிய",
+          "tl": "hindi gaanong mahalaga",
+          "ps": "قابل چشم پوشي",
+          "ro": "neglijabil",
+          "ru": "незначительный",
+          "fr": "négligeable",
+          "hi": "नगण्य",
+          "es": "insignificante"
+         }
         },
         {
          "word": "moderate",
@@ -136443,7 +137260,26 @@
          "root": "mod",
          "meaning": "Neither large nor small; in the middle.",
          "example": "The study found a moderate improvement in scores.",
-         "translations": {}
+         "translations": {
+          "zh-Hans": "适中的",
+          "zh-Hant": "適中的",
+          "ja": "中程度の",
+          "ko": "중간 정도의",
+          "vi": "vừa phải",
+          "ar": "معتدل",
+          "fa": "متوسط",
+          "ur": "معتدل",
+          "am": "መጠነኛ",
+          "ml": "മിതമായ",
+          "ta": "மிதமான",
+          "tl": "katamtaman",
+          "ps": "منځنی",
+          "ro": "moderat",
+          "ru": "умеренный",
+          "fr": "modéré",
+          "hi": "मध्यम",
+          "es": "moderado"
+         }
         },
         {
          "word": "predominantly",
@@ -136520,7 +137356,26 @@
          "root": "domin",
          "meaning": "Mostly; the largest part.",
          "example": "The population is predominantly under 30.",
-         "translations": {}
+         "translations": {
+          "zh-Hans": "主要地（占主导地）",
+          "zh-Hant": "主要地（佔主導地）",
+          "ja": "主として",
+          "ko": "대부분(주로)",
+          "vi": "chủ yếu (chiếm ưu thế)",
+          "ar": "في الغالب",
+          "fa": "به طور غالب",
+          "ur": "غالب طور پر",
+          "am": "በአብዛኛው (የበላይነት ባለው)",
+          "ml": "പ്രധാനമായും (ആധിപത്യമുള്ള)",
+          "ta": "பெரும்பாலும்",
+          "tl": "karamihan (dominante)",
+          "ps": "زیاتره",
+          "ro": "predominant",
+          "ru": "преимущественно",
+          "fr": "principalement (majoritairement)",
+          "hi": "अधिकांशतः",
+          "es": "predominantemente"
+         }
         },
         {
          "word": "conceivably",
@@ -136605,7 +137460,26 @@
          "root": "ceiv",
          "meaning": "It is possible to imagine this, though it is not likely.",
          "example": "The result could conceivably be explained by measurement error.",
-         "translations": {}
+         "translations": {
+          "zh-Hans": "可以想见地",
+          "zh-Hant": "可以想見地",
+          "ja": "考えられる限りでは",
+          "ko": "생각건대(가능한 한)",
+          "vi": "có thể hình dung được",
+          "ar": "من الممكن تصوره",
+          "fa": "به طور قابل تصور",
+          "ur": "قابل تصور طور پر",
+          "am": "ሊታሰብ በሚችል መልኩ",
+          "ml": "സങ്കൽപ്പിക്കാവുന്ന വിധം",
+          "ta": "கற்பனை செய்யக்கூடிய வகையில்",
+          "tl": "posibleng maisip",
+          "ps": "د تصور وړ توګه",
+          "ro": "concepibil",
+          "ru": "теоретически возможно",
+          "fr": "vraisemblablement (concevablement)",
+          "hi": "कल्पनीय रूप से",
+          "es": "concebiblemente"
+         }
         }
        ],
        "path": "vce/command-terms/hedging-certainty"
