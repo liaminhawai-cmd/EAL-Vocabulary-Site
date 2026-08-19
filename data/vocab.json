@@ -154,7 +154,7 @@
           }
          ],
          "root": "lyse",
-         "meaning": "Break something into its parts and show how the parts work together.",
+         "meaning": "Break something into its parts and show how the parts work together. In VCE: name the parts, then spend your marks on the LINKS between them — cause, effect, relationship. If your answer has no 'because' or 'which leads to', you have described, not analysed.",
          "example": "Analyse how the writer builds tension in the opening chapter.",
          "translations": {
           "zh-Hans": "分析",
@@ -259,7 +259,7 @@
           }
          ],
          "root": "valu",
-         "meaning": "Judge how good, useful or successful something is, and give reasons for your judgement.",
+         "meaning": "Judge how good, useful or successful something is, and give reasons for your judgement. In VCE: give strengths AND limitations, then commit to a judgement ('overall, … because …'). Sitting on the fence loses the judgement mark — the verdict is what makes it evaluation.",
          "example": "Evaluate the effectiveness of the government's response to the crisis.",
          "translations": {
           "zh-Hans": "评价",
@@ -337,7 +337,7 @@
           }
          ],
          "root": "scribe",
-         "meaning": "Give the main features of something in detail. You are not judging it.",
+         "meaning": "Give the main features of something in detail. You are not judging it. In VCE: features and characteristics only — no reasons, no judgement. Usually low-mark questions: be accurate and quick, and save the 'why' for explain questions.",
          "example": "Describe the structure of a plant cell.",
          "translations": {
           "zh-Hans": "描述",
@@ -397,7 +397,7 @@
           }
          ],
          "root": "plain",
-         "meaning": "Make something clear by giving reasons or showing how it works.",
+         "meaning": "Make something clear by giving reasons or showing how it works. In VCE: every explain answer needs a 'because' chain — state the point, give the reason, link it back to the question. Marks are usually one per link in the chain.",
          "example": "Explain why the price of housing rose in this period.",
          "translations": {
           "zh-Hans": "解释",
@@ -476,7 +476,7 @@
           }
          ],
          "root": "cuss",
-         "meaning": "Look at more than one side of an idea before reaching a view.",
+         "meaning": "Look at more than one side of an idea before reaching a view. In VCE: present more than one side or factor with evidence, and show tension between them. One-sided answers cap out early; you usually finish with a considered position.",
          "example": "Discuss whether the law achieves justice for victims.",
          "translations": {
           "zh-Hans": "讨论",
@@ -555,7 +555,7 @@
           }
          ],
          "root": "par",
-         "meaning": "Show how two or more things are similar, and usually how they differ.",
+         "meaning": "Show how two or more things are similar, and usually how they differ. In VCE: similarities AND differences, point by point — 'X does this, whereas Y does that'. Writing two separate paragraphs about X then Y is the classic way to lose these marks.",
          "example": "Compare the two experiments' results.",
          "translations": {
           "zh-Hans": "比较",
@@ -633,7 +633,7 @@
           }
          ],
          "root": "st",
-         "meaning": "Show how two or more things are different from each other.",
+         "meaning": "Show how two or more things are different from each other. In VCE: differences only, drawn sharply — 'whereas', 'while', 'unlike'. You still need both things in every sentence; describing only one is not contrasting.",
          "example": "Contrast life in the city with life in the country.",
          "translations": {
           "zh-Hans": "对比",
@@ -711,7 +711,7 @@
           }
          ],
          "root": "line",
-         "meaning": "Give the main points only, without the detail.",
+         "meaning": "Give the main points only, without the detail. In VCE: the main points in order, briefly — a sketch, not an essay. Depth earns nothing here; coverage and sequence do.",
          "example": "Outline the three stages of the water cycle.",
          "translations": {
           "zh-Hans": "概述",
@@ -789,7 +789,7 @@
           }
          ],
          "root": "ident",
-         "meaning": "Name or point out exactly what something is. A short answer is enough.",
+         "meaning": "Name or point out exactly what something is. A short answer is enough. In VCE: name or point to it — often one word or phrase, worth one mark. Do not explain; a paragraph on a 1-mark identify question steals time from the 10-markers.",
          "example": "Identify two features of a persuasive text.",
          "translations": {
           "zh-Hans": "识别",
@@ -867,7 +867,7 @@
           }
          ],
          "root": "fin",
-         "meaning": "Give the exact meaning of a term — where its limits are.",
+         "meaning": "Give the exact meaning of a term — where its limits are. In VCE: give the precise meaning as your subject uses it — the study design's wording, not everyday English. In sciences and business, learned definitions are free marks.",
          "example": "Define 'opportunity cost'.",
          "translations": {
           "zh-Hans": "定义",
@@ -933,7 +933,7 @@
           }
          ],
          "root": "stingu",
-         "meaning": "Show clearly how two things are different from each other.",
+         "meaning": "Show clearly how two things are different from each other. In VCE: state the difference between two things — the boundary line, not full descriptions of each. 'X is …, whereas Y is …' in one or two sentences usually earns full marks.",
          "example": "Distinguish between weather and climate.",
          "translations": {
           "zh-Hans": "区分",
@@ -993,7 +993,7 @@
           }
          ],
          "root": "amin",
-         "meaning": "Look closely at something and say what you find.",
+         "meaning": "Look closely at something and say what you find. In VCE: inspect closely and question as you go — how it works, why it matters, where it falls short. Sits between analyse and evaluate; evidence is expected.",
          "example": "Examine the causes of the Great Depression.",
          "translations": {
           "zh-Hans": "考查",
@@ -1072,7 +1072,7 @@
           }
          ],
          "root": "sess",
-         "meaning": "Decide how important, valuable or successful something is, and say why.",
+         "meaning": "Decide how important, valuable or successful something is, and say why. In VCE: like evaluate — weigh importance, effectiveness or value against evidence and reach a judgement. Often paired with a criterion ('assess the impact on …'): judge against THAT, not in general.",
          "example": "Assess the impact of social media on teenagers' sleep.",
          "translations": {
           "zh-Hans": "评估",
@@ -1150,7 +1150,7 @@
           }
          ],
          "root": "pret",
-         "meaning": "Explain what something means, especially data, a source or a text.",
+         "meaning": "Explain what something means, especially data, a source or a text. In VCE: say what the data, text or source MEANS, not what it shows. Translate the pattern into significance: 'the sharp rise suggests …'. Restating numbers is not interpreting.",
          "example": "Interpret the trend shown in the graph.",
          "translations": {
           "zh-Hans": "解读",
@@ -1209,7 +1209,7 @@
           }
          ],
          "root": "summ",
-         "meaning": "Give the main ideas briefly, in your own words.",
+         "meaning": "Give the main ideas briefly, in your own words. In VCE: the essential ideas only, in your own words, shorter than the original. No new information, no opinion — selection is the skill being marked.",
          "example": "Summarise the article in three sentences.",
          "translations": {
           "zh-Hans": "总结",
@@ -1287,7 +1287,7 @@
           }
          ],
          "root": "just",
-         "meaning": "Give reasons that show your answer or choice is the right one.",
+         "meaning": "Give reasons that show your answer or choice is the right one. In VCE: defend a position with evidence and reasoning — why THIS choice and, often, why not the alternative. Every claim needs support; 'I think' without grounds earns nothing.",
          "example": "Justify your choice of method.",
          "translations": {
           "zh-Hans": "证明合理",
@@ -1390,7 +1390,7 @@
           }
          ],
          "root": "monstr",
-         "meaning": "Show clearly that something is true, usually by using evidence or an example.",
+         "meaning": "Show clearly that something is true, usually by using evidence or an example. In VCE: prove it by showing, with evidence or worked reasoning — 'demonstrate your understanding' means apply the concept to the case, not recite the definition.",
          "example": "Demonstrate how the formula is applied.",
          "translations": {
           "zh-Hans": "证明",
@@ -1474,7 +1474,7 @@
           }
          ],
          "root": "lustr",
-         "meaning": "Make an idea clear by giving an example. (It does not mean 'draw a picture'.)",
+         "meaning": "Make an idea clear by giving an example. (It does not mean 'draw a picture'.). In VCE: make the point concrete with an example, case or diagram. The example IS the answer — a general statement without one has not illustrated anything.",
          "example": "Illustrate your point with an example from the text.",
          "translations": {
           "zh-Hans": "举例说明",
@@ -1585,7 +1585,7 @@
           }
          ],
          "root": "thes",
-         "meaning": "Put ideas from several sources together to make one new whole.",
+         "meaning": "Put ideas from several sources together to make one new whole. In VCE: combine ideas from different sources or areas into one coherent whole — the mark is for the connections you build, not for retelling each source in turn.",
          "example": "Synthesise the findings of the three studies.",
          "translations": {
           "zh-Hans": "综合",
@@ -1663,7 +1663,7 @@
           }
          ],
          "root": "crit",
-         "meaning": "Judge the strengths and weaknesses of something carefully.",
+         "meaning": "Judge the strengths and weaknesses of something carefully. In VCE: judge strengths and weaknesses against criteria, with evidence. It is not 'criticise' — a fair critique acknowledges what works before weighing what does not.",
          "example": "Critique the artist's use of colour.",
          "translations": {
           "zh-Hans": "评论",
@@ -1766,7 +1766,7 @@
           }
          ],
          "root": "stant",
-         "meaning": "Support a claim with evidence so it stands up.",
+         "meaning": "Support a claim with evidence so it stands up. In VCE: back the claim with specific evidence — data, quotes, cases. 'Substantiate your answer' means: no evidence, no marks, however good the argument sounds.",
          "example": "Substantiate your argument with data from the table.",
          "translations": {
           "zh-Hans": "证实",
@@ -1831,7 +1831,7 @@
           }
          ],
          "root": "pol",
-         "meaning": "Use what you know to work out what happens beyond the data you have.",
+         "meaning": "Use what you know to work out what happens beyond the data you have. In VCE: extend the pattern beyond the data you were given — and flag the assumption you are making. Common in graphs: continue the trend, and say why that is (or is not) reasonable.",
          "example": "Extrapolate the population trend to 2050.",
          "translations": {
           "zh-Hans": "推断",
@@ -1934,7 +1934,7 @@
           }
          ],
          "root": "thes",
-         "meaning": "Suggest an explanation that can be tested.",
+         "meaning": "Suggest an explanation that can be tested. In VCE: propose a testable explanation BEFORE the evidence is in — usually 'If X, then Y, because Z'. It is marked on logic and testability, not on being right.",
          "example": "Hypothesise why the plants in the dark grew taller.",
          "translations": {
           "zh-Hans": "假设",
@@ -2037,7 +2037,7 @@
           }
          ],
          "root": "form",
-         "meaning": "Put an idea, plan or question into a clear, careful form.",
+         "meaning": "Put an idea, plan or question into a clear, careful form. In VCE: build something precise from the material — an equation, a research question, a plan. The wording is the work: vague formulations lose the mark even when the idea is right.",
          "example": "Formulate a research question for your investigation.",
          "translations": {
           "zh-Hans": "制定",
@@ -2116,7 +2116,7 @@
           }
          ],
          "root": "pos",
-         "meaning": "Put forward an idea or plan for others to consider.",
+         "meaning": "Put forward an idea or plan for others to consider. In VCE: put forward a course of action or solution and give your reasons. Usually wants something specific and workable, tied to the scenario — not 'they should raise awareness'.",
          "example": "Propose a solution to the traffic problem.",
          "translations": {
           "zh-Hans": "提出",
@@ -2194,7 +2194,7 @@
           }
          ],
          "root": "commend",
-         "meaning": "Say what you think should be done, and why.",
+         "meaning": "Say what you think should be done, and why. In VCE: choose the best option and defend the choice — criteria, evidence, and often why the alternatives lose. A recommendation without a reason is just a preference.",
          "example": "Recommend a strategy for the business to increase sales.",
          "translations": {
           "zh-Hans": "建议",
@@ -2298,7 +2298,7 @@
           }
          ],
          "root": "labor",
-         "meaning": "Add more detail to an idea you have already given.",
+         "meaning": "Add more detail to an idea you have already given. In VCE: take the point further — more detail, an example, an implication. Repeating the same sentence in new words is the classic non-elaboration.",
          "example": "Elaborate on your second reason.",
          "translations": {
           "zh-Hans": "详述",
@@ -2358,7 +2358,7 @@
           }
          ],
          "root": "praise",
-         "meaning": "Judge the worth or quality of something.",
+         "meaning": "Judge the worth or quality of something. In VCE: weigh value or quality against evidence and land on a judgement — evaluate's formal twin, common in Business and HHD.",
          "example": "Appraise the reliability of this source.",
          "translations": {
           "zh-Hans": "评定",
@@ -2487,7 +2487,7 @@
           }
          ],
          "root": "fer",
-         "meaning": "Show what makes two things different. (In Maths Methods it also means 'find the derivative'.)",
+         "meaning": "Show what makes two things different. (In Maths Methods it also means 'find the derivative'.). In VCE: show precisely what separates two things that look similar — definitions, then the distinguishing feature. (In Maths it also means find the derivative — check which subject you are in.)",
          "example": "Differentiate between mass and weight.",
          "translations": {
           "zh-Hans": "区别",
@@ -2565,7 +2565,7 @@
           }
          ],
          "root": "categor",
-         "meaning": "Sort things into groups that share features.",
+         "meaning": "Sort things into groups that share features. In VCE: sort items into groups AND name the principle you sorted by — the classification scheme is what earns the marks, not the sorting.",
          "example": "Categorise the responses as positive, negative or neutral.",
          "translations": {
           "zh-Hans": "分类",
@@ -2643,7 +2643,7 @@
           }
          ],
          "root": "prior",
-         "meaning": "Put things in order of importance, most important first.",
+         "meaning": "Put things in order of importance, most important first. In VCE: rank by importance or urgency and justify the order — especially the top choice. An unranked list is not prioritising.",
          "example": "Prioritise the three risks for the committee.",
          "translations": {
           "zh-Hans": "排定优先次序",
@@ -2721,7 +2721,7 @@
           }
          ],
          "root": "duc",
-         "meaning": "Work out an answer by reasoning from what you already know.",
+         "meaning": "Work out an answer by reasoning from what you already know. In VCE: reason from the general rule to the specific case — 'all X are Y; this is X; so …'. Show the steps: the working is the answer.",
          "example": "Deduce the missing angle from the information given.",
          "translations": {
           "zh-Hans": "推断",
@@ -2800,7 +2800,7 @@
           }
          ],
          "root": "fer",
-         "meaning": "Work out something that is not stated directly, using clues.",
+         "meaning": "Work out something that is not stated directly, using clues. In VCE: read what is implied but not stated, from evidence — 'the data suggests …'. Name the evidence you inferred FROM, or it reads as a guess.",
          "example": "Infer the character's feelings from her actions.",
          "translations": {
           "zh-Hans": "推论",
@@ -2878,7 +2878,7 @@
           }
          ],
          "root": "val",
-         "meaning": "Check that something is sound, accurate or acceptable.",
+         "meaning": "Check that something is sound, accurate or acceptable. In VCE: check soundness against evidence or criteria — in science, whether the method measures what it claims; in data, whether results hold. Say HOW you checked.",
          "example": "Validate your results by repeating the experiment.",
          "translations": {
           "zh-Hans": "验证",
@@ -2965,7 +2965,7 @@
           }
          ],
          "root": "tent",
-         "meaning": "How much, or how far, is something true? Your answer must take a position, not just describe.",
+         "meaning": "How much, or how far, is something true? Your answer must take a position, not just describe. In VCE: never fully yes or no. Argue a POSITION on the spectrum ('to a significant extent, because … however …') — the counter-evidence paragraph is what separates high answers.",
          "example": "To what extent did the reforms improve living standards?",
          "translations": {
           "zh-Hans": "在多大程度上",
@@ -3068,7 +3068,7 @@
           }
          ],
          "root": "fer",
-         "meaning": "You must use the named source, text or material in your answer.",
+         "meaning": "You must use the named source, text or material in your answer. In VCE: you MUST use the named source, case or text explicitly — quote it, cite its data, name its parts. An answer that never touches the reference fails the question even if otherwise correct.",
          "example": "With reference to Source B, explain the artist's purpose.",
          "translations": {
           "zh-Hans": "参照",
@@ -3171,7 +3171,7 @@
           }
          ],
          "root": "lat",
-         "meaning": "Answer by connecting your point to the thing named.",
+         "meaning": "Answer by connecting your point to the thing named. In VCE: answer only within the named context — 'in relation to the Australian economy' means every point tied to Australia. General answers score general marks.",
          "example": "Discuss the result in relation to your hypothesis.",
          "translations": {
           "zh-Hans": "关于",
@@ -3274,7 +3274,7 @@
           }
          ],
          "root": "spect",
-         "meaning": "In the same order as the things just listed.",
+         "meaning": "In the same order as the things just listed. In VCE: 'in the order given' — 'A and B scored 7 and 9 respectively' means A=7, B=9. Misreading it reverses the data; read twice in maths and science questions.",
          "example": "Groups A and B scored 12 and 15 respectively.",
          "translations": {
           "zh-Hans": "分别",
@@ -3320,7 +3320,7 @@
           }
          ],
          "root": "brief",
-         "meaning": "Answer in a few words or one or two sentences — long answers waste time.",
+         "meaning": "Answer in a few words or one or two sentences — long answers waste time. In VCE: one or two sentences, low marks, no development. The skill is stopping — time saved here is spent on the extended-response questions.",
          "example": "Briefly outline the purpose of the study.",
          "translations": {
           "zh-Hans": "简要地",
@@ -3424,7 +3424,7 @@
           }
          ],
          "root": "not",
-         "meaning": "Add short notes or labels onto a diagram, text or image.",
+         "meaning": "Add short notes or labels onto a diagram, text or image. In VCE: add short labels or notes ON the diagram, graph or text itself — arrows, phrases, not paragraphs. Marks are per useful label.",
          "example": "Annotate the diagram to show where energy is lost.",
          "translations": {
           "zh-Hans": "批注",
@@ -3509,7 +3509,7 @@
           }
          ],
          "root": "prox",
-         "meaning": "Close to the real value, but not exact.",
+         "meaning": "Close to the real value, but not exact. In VCE: a sensible estimate is wanted, not a precise value — show the rounding or reading you made ('≈ 40 from the graph'). Precision theatre wastes time.",
          "example": "Give an approximate value to two decimal places.",
          "translations": {
           "zh-Hans": "近似的",
@@ -3613,7 +3613,7 @@
           }
          ],
          "root": "propri",
-         "meaning": "Do this only in the places where it suits — not everywhere.",
+         "meaning": "Do this only in the places where it suits — not everywhere. In VCE: a signal that judgement is being assessed — include the thing (units, examples, working) exactly where it belongs, not everywhere. It usually means marks are attached to it.",
          "example": "Use a diagram where appropriate.",
          "translations": {
           "zh-Hans": "在适当的地方",
@@ -3647,7 +3647,7 @@
           }
          ],
          "root": "stimul",
-         "meaning": "The source material — text, image, data or scenario — a question is built on.",
+         "meaning": "The source material — text, image, data or scenario — a question is built on. In VCE: the provided material — graph, photo, quote, case — that your answer must engage with. Stimulus questions are 'with reference to' in disguise: use it or lose it.",
          "example": "Read the stimulus material before answering Question 3.",
          "translations": {
           "zh-Hans": "刺激材料",
@@ -3726,7 +3726,7 @@
           }
          ],
          "root": "tract",
-         "meaning": "A short piece taken out of a longer text.",
+         "meaning": "A short piece taken out of a longer text. In VCE: a passage taken from a longer text. Questions on an extract are marked from THAT passage — evidence from elsewhere in the text usually earns nothing unless asked for.",
          "example": "Read the extract from the novel on page 4.",
          "translations": {
           "zh-Hans": "节选",
@@ -3785,7 +3785,7 @@
           }
          ],
          "root": "scen",
-         "meaning": "A described situation you must respond to as if it were real.",
+         "meaning": "A described situation you must respond to as if it were real. In VCE: an invented case you must apply your knowledge to. Marks come from linking theory to the scenario's details by name — generic theory answers cap at half.",
          "example": "In this scenario, you are the manager of a small business.",
          "translations": {
           "zh-Hans": "情境",
@@ -3870,7 +3870,7 @@
           }
          ],
          "root": "empl",
-         "meaning": "Show what something is like by giving an example of it.",
+         "meaning": "Show what something is like by giving an example of it. In VCE: give a specific example that shows the concept in action — real or from the studied material. One well-chosen example beats three vague ones.",
          "example": "Exemplify each technique with a quotation.",
          "translations": {
           "zh-Hans": "举例说明",
@@ -3948,7 +3948,7 @@
           }
          ],
          "root": "spec",
-         "meaning": "Say exactly which one, or exactly how much — be precise.",
+         "meaning": "Say exactly which one, or exactly how much — be precise. In VCE: state it exactly — the value, the name, the condition. Ranges and hedges ('around', 'maybe') lose the mark when a specific answer is asked for.",
          "example": "Specify the units in your answer.",
          "translations": {
           "zh-Hans": "明确说明",
@@ -4026,7 +4026,7 @@
           }
          ],
          "root": "clar",
-         "meaning": "Make something easier to understand by explaining it more clearly.",
+         "meaning": "Make something easier to understand by explaining it more clearly. In VCE: make the meaning plain — simpler terms, sharper boundaries, an example if it helps. You are being marked on removing ambiguity, not adding information.",
          "example": "Clarify what you mean by 'fair'.",
          "translations": {
           "zh-Hans": "澄清",
@@ -254146,7 +254146,7 @@
       },
       {
        "id": "bone-sparrow",
-       "name": "The Bone Sparrow",
+       "name": "The Bone Sparrow — Before you read",
        "interactive": true,
        "words": [
         {
@@ -255706,6 +255706,3120 @@
         }
        ],
        "path": "year-7/english/bone-sparrow"
+      },
+      {
+       "id": "bone-sparrow-early",
+       "name": "The Bone Sparrow — Early chapters: inside the fence",
+       "interactive": true,
+       "words": [
+        {
+         "word": "perimeter",
+         "parts": [
+          {
+           "surface": "peri",
+           "type": "prefix",
+           "meaning": "around",
+           "translations": {
+            "am": "ዙሪያ",
+            "ar": "حول",
+            "es": "alrededor",
+            "fa": "پیرامون / گرداگرد",
+            "fr": "autour",
+            "hi": "चारों ओर / परितः",
+            "ja": "周りに／周囲",
+            "ko": "주위에 / 둘레",
+            "ml": "ചുറ്റും",
+            "ps": "چاپېر / شاوخوا",
+            "ro": "în jur",
+            "ru": "вокруг",
+            "ta": "சுற்றி",
+            "tl": "sa palibot",
+            "ur": "کے گرد / ارد گرد",
+            "vi": "xung quanh",
+            "zh-Hans": "周围／环绕",
+            "zh-Hant": "周圍／環繞"
+           }
+          },
+          {
+           "surface": "meter",
+           "type": "root",
+           "meaning": "measure",
+           "translations": {
+            "zh-Hans": "测量",
+            "zh-Hant": "測量",
+            "ja": "測る",
+            "ko": "재다",
+            "vi": "đo",
+            "ar": "يقيس",
+            "fa": "اندازه",
+            "ur": "ناپنا",
+            "am": "መለካት",
+            "ml": "അളക്കുക",
+            "ta": "அளவிடு",
+            "tl": "sukatin",
+            "ps": "اندازه کول",
+            "ro": "a măsura",
+            "ru": "измерять",
+            "fr": "mesurer",
+            "hi": "मापना",
+            "es": "medir"
+           }
+          }
+         ],
+         "root": "meter",
+         "meaning": "The outer boundary of an area — the fence line the camp is measured by.",
+         "example": "Subhi knows every step of the perimeter fence.",
+         "translations": {
+          "zh-Hans": "周界",
+          "zh-Hant": "周界",
+          "ja": "外周",
+          "ko": "둘레",
+          "vi": "chu vi khu vực",
+          "ar": "المحيط الخارجي",
+          "fa": "محیط",
+          "ur": "احاطہ",
+          "am": "ዙሪያ ወሰን",
+          "ml": "ചുറ്റളവ്",
+          "ta": "சுற்றெல்லை",
+          "tl": "palibot",
+          "ps": "چاپېريال کرښه",
+          "ro": "perimetru",
+          "ru": "периметр",
+          "fr": "périmètre",
+          "hi": "परिधि",
+          "es": "perímetro"
+         },
+         "origin": "Greek peri (around) + metron (measure) — the distance measured around the outside. Same peri- as periscope, looking around."
+        },
+        {
+         "word": "surveillance",
+         "parts": [
+          {
+           "surface": "sur",
+           "type": "prefix",
+           "meaning": "over/above",
+           "translations": {
+            "am": "በላይ",
+            "ar": "فوق / أعلى",
+            "es": "sobre/encima",
+            "fa": "بالای / فراتر",
+            "fr": "sur / au-dessus",
+            "hi": "ऊपर / से अधिक",
+            "ja": "上に／超えて",
+            "ko": "위에 / 넘어서",
+            "ml": "മുകളിൽ / മേലെ",
+            "ps": "پورته / باندې",
+            "ro": "peste / deasupra",
+            "ru": "над / сверх",
+            "ta": "மேல் / மேலாக",
+            "tl": "sa itaas / lampas",
+            "ur": "اوپر / بالا",
+            "vi": "trên / vượt quá",
+            "zh-Hans": "在……之上／超过",
+            "zh-Hant": "在……之上／超過"
+           }
+          },
+          {
+           "surface": "veill",
+           "type": "root",
+           "meaning": "watch",
+           "translations": {
+            "zh-Hans": "看守",
+            "zh-Hant": "看守",
+            "ja": "見張る",
+            "ko": "지켜보다",
+            "vi": "canh chừng",
+            "ar": "يراقب",
+            "fa": "نگاه داشتن",
+            "ur": "نگرانی کرنا",
+            "am": "መጠበቅ",
+            "ml": "നിരീക്ഷിക്കുക",
+            "ta": "கண்காணி",
+            "tl": "bantayan",
+            "ps": "څارل",
+            "ro": "a veghea",
+            "ru": "следить",
+            "fr": "veiller",
+            "hi": "निगरानी करना",
+            "es": "vigilar"
+           }
+          },
+          {
+           "surface": "ance",
+           "type": "suffix",
+           "meaning": "state of",
+           "translations": {
+            "am": "ሁኔታ",
+            "ar": "حالة",
+            "es": "estado de",
+            "fa": "حالت",
+            "fr": "état",
+            "hi": "अवस्था",
+            "ja": "状態",
+            "ko": "상태",
+            "ml": "അവസ്ഥ",
+            "ps": "حالت",
+            "ro": "stare",
+            "ru": "состояние",
+            "ta": "நிலை",
+            "tl": "kalagayan",
+            "ur": "حالت",
+            "vi": "trạng thái",
+            "zh-Hans": "状态",
+            "zh-Hant": "狀態"
+           }
+          }
+         ],
+         "root": "veill",
+         "meaning": "Close, constant watching, especially by authorities.",
+         "example": "The cameras keep the whole compound under surveillance.",
+         "translations": {
+          "zh-Hans": "监视",
+          "zh-Hant": "監視",
+          "ja": "監視",
+          "ko": "감시",
+          "vi": "sự giám sát",
+          "ar": "مراقبة",
+          "fa": "نظارت",
+          "ur": "نگرانی",
+          "am": "ክትትል",
+          "ml": "നിരീക്ഷണം",
+          "ta": "கண்காணிப்பு",
+          "tl": "pagmamanman",
+          "ps": "څارنه",
+          "ro": "supraveghere",
+          "ru": "наблюдение",
+          "fr": "surveillance",
+          "hi": "निगरानी",
+          "es": "vigilancia"
+         },
+         "origin": "French sur- (over) + veiller (to watch, from Latin vigilare — same root as vigilant). Literally 'watching from above'."
+        },
+        {
+         "word": "restriction",
+         "parts": [
+          {
+           "surface": "re",
+           "type": "prefix",
+           "meaning": "back",
+           "translations": {
+            "am": "ወደኋላ",
+            "ar": "إلى الخلف",
+            "es": "atrás",
+            "fa": "دوباره",
+            "fr": "arrière",
+            "hi": "पीछे",
+            "ja": "後ろ",
+            "ko": "뒤로",
+            "ml": "പിന്നിൽ",
+            "ps": "شاته",
+            "ro": "înapoi",
+            "ru": "назад",
+            "ta": "பின்னால்",
+            "tl": "pabalik",
+            "ur": "پیچھے",
+            "vi": "lùi",
+            "zh-Hans": "回",
+            "zh-Hant": "回"
+           }
+          },
+          {
+           "surface": "strict",
+           "type": "root",
+           "meaning": "bind tight",
+           "translations": {
+            "zh-Hans": "绑紧",
+            "zh-Hant": "綁緊",
+            "ja": "固く縛る",
+            "ko": "단단히 묶다",
+            "vi": "buộc chặt",
+            "ar": "يشد",
+            "fa": "سفت بستن",
+            "ur": "کس کر باندھنا",
+            "am": "አጥብቆ ማሰር",
+            "ml": "മുറുക്കുക",
+            "ta": "இறுக்கு",
+            "tl": "higpitan",
+            "ps": "کلک تړل",
+            "ro": "a strânge",
+            "ru": "стягивать",
+            "fr": "serrer",
+            "hi": "कसना",
+            "es": "atar fuerte"
+           }
+          },
+          {
+           "surface": "ion",
+           "type": "suffix",
+           "meaning": "act/process",
+           "translations": {
+            "fa": "فرایند/عمل",
+            "am": "ሂደት/ድርጊት",
+            "ar": "عملية/فعل",
+            "es": "proceso/acción",
+            "fr": "processus/action",
+            "hi": "प्रक्रिया/क्रिया",
+            "ja": "過程/作用",
+            "ko": "과정/작용",
+            "ml": "പ്രക്രിയ/പ്രവർത്തനം",
+            "ps": "بهیر/کړنه",
+            "ro": "proces/acțiune",
+            "ru": "процесс/действие",
+            "ta": "செயல்முறை/செயல்",
+            "tl": "proseso/kilos",
+            "ur": "عمل/فعل",
+            "vi": "quá trình/hành động",
+            "zh-Hans": "过程/动作",
+            "zh-Hant": "過程/動作"
+           }
+          }
+         ],
+         "root": "strict",
+         "meaning": "A rule that limits what people are allowed to do.",
+         "example": "A new restriction says no one may cross between the compounds after dark.",
+         "translations": {
+          "zh-Hans": "限制",
+          "zh-Hant": "限制",
+          "ja": "制限",
+          "ko": "제한",
+          "vi": "sự hạn chế",
+          "ar": "قيد",
+          "fa": "محدودیت",
+          "ur": "پابندی",
+          "am": "ገደብ",
+          "ml": "നിയന്ത്രണം",
+          "ta": "கட்டுப்பாடு",
+          "tl": "paghihigpit",
+          "ps": "محدوديت",
+          "ro": "restricție",
+          "ru": "ограничение",
+          "fr": "restriction",
+          "hi": "प्रतिबंध",
+          "es": "restricción"
+         },
+         "origin": "Latin re- + stringere, to bind tight — the same stringere hiding in 'strict' and 'strain'."
+        },
+        {
+         "word": "confinement",
+         "parts": [
+          {
+           "surface": "con",
+           "type": "prefix",
+           "meaning": "together",
+           "translations": {
+            "am": "አብሮ",
+            "ar": "معًا",
+            "es": "juntos",
+            "fa": "باهم",
+            "fr": "ensemble",
+            "hi": "साथ",
+            "ja": "共に",
+            "ko": "함께",
+            "ml": "ഒരുമിച്ച്",
+            "ps": "يوځای",
+            "ro": "împreună",
+            "ru": "вместе",
+            "ta": "ஒன்றாக",
+            "tl": "magkasama",
+            "ur": "اکٹھا",
+            "vi": "cùng",
+            "zh-Hans": "共同",
+            "zh-Hant": "共同",
+            "other": "باهم"
+           }
+          },
+          {
+           "surface": "fin",
+           "type": "root",
+           "meaning": "end/limit/boundary",
+           "translations": {
+            "am": "መጨረሻ፣ ወሰን",
+            "ar": "نهاية، حدّ",
+            "es": "fin, límite",
+            "fa": "پایان، مرز",
+            "fr": "fin, limite",
+            "hi": "अंत, सीमा",
+            "ja": "終わり・限界",
+            "ko": "끝, 경계",
+            "ml": "അവസാനം, അതിര്",
+            "ps": "پای، حد، پوله",
+            "ro": "sfârșit, limită",
+            "ru": "конец, предел",
+            "ta": "முடிவு, எல்லை",
+            "tl": "wakas, hangganan",
+            "ur": "انتہا، حد",
+            "vi": "kết thúc, ranh giới",
+            "zh-Hans": "结束，界限",
+            "zh-Hant": "結束，界限"
+           }
+          },
+          {
+           "surface": "ment",
+           "type": "suffix",
+           "meaning": "result of",
+           "translations": {
+            "am": "ውጤት",
+            "ar": "نتيجة",
+            "es": "resultado de",
+            "fa": "نتیجه",
+            "fr": "résultat de",
+            "hi": "परिणाम",
+            "ja": "結果",
+            "ko": "결과",
+            "ml": "ഫലം",
+            "ps": "پایله",
+            "ro": "rezultat",
+            "ru": "результат",
+            "ta": "விளைவு",
+            "tl": "resulta",
+            "ur": "نتیجہ",
+            "vi": "kết quả",
+            "zh-Hans": "结果",
+            "zh-Hant": "結果"
+           }
+          }
+         ],
+         "root": "fin",
+         "meaning": "Being kept inside limits or a closed space.",
+         "example": "The confinement presses on everyone, even the youngest children.",
+         "translations": {
+          "zh-Hans": "禁闭",
+          "zh-Hant": "禁閉",
+          "ja": "監禁状態",
+          "ko": "감금",
+          "vi": "sự giam hãm",
+          "ar": "احتجاز ضيق",
+          "fa": "محبوس بودن",
+          "ur": "بندش",
+          "am": "መታጎር",
+          "ml": "അടച്ചിടൽ",
+          "ta": "அடைப்பு",
+          "tl": "pagkakakulong",
+          "ps": "بندي توب",
+          "ro": "izolare",
+          "ru": "заточение",
+          "fr": "enfermement",
+          "hi": "बंदी होना",
+          "es": "encierro"
+         },
+         "origin": "Latin con- + finis (boundary, limit) — held together inside a boundary. The same finis as 'finish' and 'final': the end line."
+        },
+        {
+         "word": "ration",
+         "parts": [
+          {
+           "surface": "rat",
+           "type": "root",
+           "meaning": "calculate",
+           "translations": {
+            "zh-Hans": "比率",
+            "ja": "比",
+            "vi": "tỷ lệ",
+            "zh-Hant": "比率",
+            "am": "ጥምርታ",
+            "ar": "نسبة",
+            "es": "proporción / calcular",
+            "fa": "نسبت",
+            "fr": "rapport",
+            "hi": "अनुपात",
+            "ko": "비율",
+            "ml": "അനുപാതം",
+            "ps": "تناسب",
+            "ro": "raport",
+            "ru": "отношение",
+            "ta": "விகிதம்",
+            "tl": "proporsyon",
+            "ur": "تناسب"
+           }
+          },
+          {
+           "surface": "ion",
+           "type": "suffix",
+           "meaning": "act/process",
+           "translations": {
+            "fa": "فرایند/عمل",
+            "am": "ሂደት/ድርጊት",
+            "ar": "عملية/فعل",
+            "es": "proceso/acción",
+            "fr": "processus/action",
+            "hi": "प्रक्रिया/क्रिया",
+            "ja": "過程/作用",
+            "ko": "과정/작용",
+            "ml": "പ്രക്രിയ/പ്രവർത്തനം",
+            "ps": "بهیر/کړنه",
+            "ro": "proces/acțiune",
+            "ru": "процесс/действие",
+            "ta": "செயல்முறை/செயல்",
+            "tl": "proseso/kilos",
+            "ur": "عمل/فعل",
+            "vi": "quá trình/hành động",
+            "zh-Hans": "过程/动作",
+            "zh-Hant": "過程/動作"
+           }
+          }
+         ],
+         "root": "rat",
+         "meaning": "A fixed, limited share of food or supplies.",
+         "example": "Each family collects its ration with a queue number.",
+         "translations": {
+          "zh-Hans": "配给",
+          "zh-Hant": "配給",
+          "ja": "配給",
+          "ko": "배급",
+          "vi": "khẩu phần",
+          "ar": "حصة مقننة",
+          "fa": "جیره",
+          "ur": "راشن",
+          "am": "ራሽን",
+          "ml": "റേഷൻ",
+          "ta": "பங்கீடு",
+          "tl": "rasyon",
+          "ps": "راشن",
+          "ro": "rație",
+          "ru": "паёк",
+          "fr": "ration",
+          "hi": "राशन",
+          "es": "ración"
+         },
+         "origin": "Latin ratio — a reckoning or calculation. A ration is a calculated share; 'rational' is thinking by calculation. Same root, two lives."
+        },
+        {
+         "word": "malnutrition",
+         "parts": [
+          {
+           "surface": "mal",
+           "type": "prefix",
+           "meaning": "bad",
+           "translations": {
+            "fa": "بد",
+            "am": "መጥፎ",
+            "ar": "سيّئ",
+            "es": "malo",
+            "fr": "mauvais",
+            "hi": "बुरा",
+            "ja": "悪い",
+            "ko": "나쁜",
+            "ml": "മോശം",
+            "ps": "بد",
+            "ro": "rău",
+            "ru": "плохой",
+            "ta": "கெட்ட",
+            "tl": "masama",
+            "ur": "برا",
+            "vi": "xấu",
+            "zh-Hans": "坏",
+            "zh-Hant": "壞"
+           }
+          },
+          {
+           "surface": "nutri",
+           "type": "root",
+           "meaning": "nourish",
+           "translations": {
+            "zh-Hans": "滋养",
+            "zh-Hant": "滋養",
+            "ja": "養う",
+            "ko": "영양을 주다",
+            "vi": "nuôi dưỡng",
+            "ar": "يغذي",
+            "fa": "تغذیه کردن",
+            "ur": "پرورش دینا",
+            "am": "መመገብ",
+            "ml": "പോഷിപ്പിക്കുക",
+            "ta": "ஊட்டு",
+            "tl": "pakainin",
+            "ps": "تغذيه کول",
+            "ro": "a hrăni",
+            "ru": "питать",
+            "fr": "nourrir",
+            "hi": "पोषण देना",
+            "es": "nutrir"
+           }
+          },
+          {
+           "surface": "tion",
+           "type": "suffix",
+           "meaning": "act/process",
+           "translations": {
+            "am": "ተግባር",
+            "ar": "فعل",
+            "es": "acción de",
+            "fa": "عمل",
+            "fr": "action de",
+            "hi": "क्रिया",
+            "ja": "〜すること",
+            "ko": "행위",
+            "ml": "പ്രവൃത്തി",
+            "ps": "عمل",
+            "ro": "acțiune de",
+            "ru": "действие",
+            "ta": "செயல்",
+            "tl": "kilos ng",
+            "ur": "عمل",
+            "vi": "hành động",
+            "zh-Hans": "行为",
+            "zh-Hant": "行為"
+           }
+          }
+         ],
+         "root": "nutri",
+         "meaning": "Poor health caused by not getting enough of the right food.",
+         "example": "The doctor warned that malnutrition was stunting the children's growth.",
+         "translations": {
+          "zh-Hans": "营养不良",
+          "zh-Hant": "營養不良",
+          "ja": "栄養失調",
+          "ko": "영양실조",
+          "vi": "suy dinh dưỡng",
+          "ar": "سوء التغذية",
+          "fa": "سوءتغذیه",
+          "ur": "غذائی قلت",
+          "am": "የተመጣጠነ ምግብ እጥረት",
+          "ml": "പോഷകാഹാരക്കുറവ്",
+          "ta": "ஊட்டச்சத்து குறைபாடு",
+          "tl": "malnutrisyon",
+          "ps": "خوارځواکي",
+          "ro": "malnutriție",
+          "ru": "недоедание",
+          "fr": "malnutrition",
+          "hi": "कुपोषण",
+          "es": "desnutrición"
+         },
+         "origin": "Mal- (badly) + nutrire (to nourish). Mal- flags that something is going wrong: malfunction, malpractice."
+        },
+        {
+         "word": "overcrowded",
+         "parts": [
+          {
+           "surface": "over",
+           "type": "prefix",
+           "meaning": "too much",
+           "translations": {
+            "am": "ከመጠን በላይ",
+            "ar": "مفرط",
+            "es": "demasiado",
+            "fa": "بیش از حد",
+            "fr": "trop",
+            "hi": "अत्यधिक",
+            "ja": "過度に",
+            "ko": "과도하게",
+            "ml": "അമിതമായി",
+            "ps": "ډیر زیات",
+            "ro": "prea mult",
+            "ru": "чрезмерно",
+            "ta": "அதிகமாக",
+            "tl": "labis",
+            "ur": "حد سے زیادہ",
+            "vi": "quá nhiều",
+            "zh-Hans": "过度",
+            "zh-Hant": "過度"
+           }
+          },
+          {
+           "surface": "crowd",
+           "type": "root",
+           "meaning": "press together",
+           "translations": {
+            "zh-Hans": "挤",
+            "zh-Hant": "擠",
+            "ja": "押し合う",
+            "ko": "밀집하다",
+            "vi": "chen chúc",
+            "ar": "يزدحم",
+            "fa": "فشردن",
+            "ur": "ہجوم کرنا",
+            "am": "መጨናነቅ",
+            "ml": "തിക്കുക",
+            "ta": "நெருக்கு",
+            "tl": "magsiksikan",
+            "ps": "ګڼېدل",
+            "ro": "a se înghesui",
+            "ru": "толпиться",
+            "fr": "se presser",
+            "hi": "भीड़ करना",
+            "es": "apiñarse"
+           }
+          },
+          {
+           "surface": "ed",
+           "type": "suffix",
+           "meaning": "having been (makes an adjective)",
+           "translations": {
+            "am": "የተለወጠ ወይም ቅርጽ ያለው",
+            "ar": "محوّل إلى / له شكل",
+            "es": "convertido en/con la forma de",
+            "fa": "تبدیل‌شده به / دارای شکل",
+            "fr": "transformé en / ayant la forme de",
+            "hi": "में परिवर्तित / रूप वाला",
+            "ja": "〜にされた・〜の形をした",
+            "ko": "만들어진 상태·형태를 가진",
+            "ml": "ആക്കിയത് / രൂപമുള്ളത്",
+            "ps": "بدل شوی / بڼه لرونکی",
+            "ro": "transformat în / având forma de",
+            "ru": "превращённый в / имеющий форму",
+            "ta": "மாற்றப்பட்டது / வடிவம் கொண்டது",
+            "tl": "ginawang / may hugis ng",
+            "ur": "میں تبدیل شدہ / شکل رکھنے والا",
+            "vi": "được biến thành / có dạng",
+            "zh-Hans": "使成为…的;具有…形式的",
+            "zh-Hant": "使成為…的;具有…形式的"
+           }
+          }
+         ],
+         "root": "crowd",
+         "meaning": "Holding far more people than the space is meant for.",
+         "example": "The overcrowded tents leak when the rains come.",
+         "translations": {
+          "zh-Hans": "过度拥挤的",
+          "zh-Hant": "過度擁擠的",
+          "ja": "過密な",
+          "ko": "과밀한",
+          "vi": "quá đông đúc",
+          "ar": "مكتظ",
+          "fa": "بیش از حد شلوغ",
+          "ur": "حد سے زیادہ بھرا ہوا",
+          "am": "እጅግ የተጨናነቀ",
+          "ml": "തിങ്ങിനിറഞ്ഞ",
+          "ta": "நெரிசலான",
+          "tl": "siksikan",
+          "ps": "ډېر ګڼ",
+          "ro": "supraaglomerat",
+          "ru": "переполненный",
+          "fr": "surpeuplé",
+          "hi": "अत्यधिक भीड़भाड़",
+          "es": "superpoblado"
+         },
+         "origin": "Crowd comes from Old English crūdan, to press. Over- tips it past the limit — more pressing-together than the space can take."
+        },
+        {
+         "word": "imagination",
+         "parts": [
+          {
+           "surface": "imagin",
+           "type": "root",
+           "meaning": "picture in the mind",
+           "translations": {
+            "zh-Hans": "心中描绘",
+            "zh-Hant": "心中描繪",
+            "ja": "心に描く",
+            "ko": "마음에 그리다",
+            "vi": "hình dung",
+            "ar": "يتخيل",
+            "fa": "تصور کردن",
+            "ur": "تصور کرنا",
+            "am": "በምናብ መሳል",
+            "ml": "മനസ്സിൽ കാണുക",
+            "ta": "மனதில் காண்",
+            "tl": "ilarawan sa isip",
+            "ps": "انځورول",
+            "ro": "a-și imagina",
+            "ru": "представлять",
+            "fr": "imaginer",
+            "hi": "कल्पना करना",
+            "es": "imaginar"
+           }
+          },
+          {
+           "surface": "ation",
+           "type": "suffix",
+           "meaning": "process of",
+           "translations": {
+            "am": "ሂደት",
+            "ar": "عملية",
+            "es": "proceso de",
+            "fa": "فرآیند",
+            "fr": "processus",
+            "hi": "प्रक्रिया",
+            "ja": "過程",
+            "ko": "과정",
+            "ml": "പ്രക്രിയ",
+            "ps": "پروسه",
+            "ro": "proces",
+            "ru": "процесс",
+            "ta": "செயல்முறை",
+            "tl": "proseso",
+            "ur": "عمل",
+            "vi": "quá trình",
+            "zh-Hans": "过程",
+            "zh-Hant": "過程"
+           }
+          }
+         ],
+         "root": "imagin",
+         "meaning": "The power to picture things that are not in front of you.",
+         "example": "Subhi's imagination turns the night into a sea with whales.",
+         "translations": {
+          "zh-Hans": "想象力",
+          "zh-Hant": "想像力",
+          "ja": "想像力",
+          "ko": "상상력",
+          "vi": "trí tưởng tượng",
+          "ar": "خيال",
+          "fa": "تخیل",
+          "ur": "تخیل",
+          "am": "ምናብ",
+          "ml": "ഭാവന",
+          "ta": "கற்பனை",
+          "tl": "imahinasyon",
+          "ps": "تخیل",
+          "ro": "imaginație",
+          "ru": "воображение",
+          "fr": "imagination",
+          "hi": "कल्पना",
+          "es": "imaginación"
+         },
+         "origin": "Latin imago — an image, a picture. Imagination is making pictures in the mind; Subhi's runs to whales and night seas."
+        },
+        {
+         "word": "routine",
+         "parts": [
+          {
+           "surface": "rout",
+           "type": "root",
+           "meaning": "way/road",
+           "translations": {
+            "zh-Hans": "路",
+            "zh-Hant": "路",
+            "ja": "道",
+            "ko": "길",
+            "vi": "đường",
+            "ar": "طريق",
+            "fa": "راه",
+            "ur": "راستہ",
+            "am": "መንገድ",
+            "ml": "വഴി",
+            "ta": "வழி",
+            "tl": "daan",
+            "ps": "لار",
+            "ro": "drum",
+            "ru": "путь",
+            "fr": "chemin",
+            "hi": "मार्ग",
+            "es": "camino"
+           }
+          },
+          {
+           "surface": "ine",
+           "type": "suffix",
+           "meaning": "makes a noun",
+           "translations": {
+            "am": "ስም ሰሪ",
+            "ar": "لتكوين اسم",
+            "es": "forma un sustantivo",
+            "fa": "اسم‌ساز",
+            "fr": "forme un nom",
+            "hi": "संज्ञा बनाता है",
+            "ja": "名詞をつくる",
+            "ko": "명사를 만듦",
+            "ml": "നാമം ഉണ്ടാക്കുന്നു",
+            "ps": "نوم جوړوي",
+            "ro": "formează substantiv",
+            "ru": "образует существительное",
+            "ta": "பெயர்ச்சொல் ஆக்கி",
+            "tl": "bumubuo ng pangngalan",
+            "ur": "اسم بنانے والا",
+            "vi": "tạo danh từ",
+            "zh-Hans": "构成名词",
+            "zh-Hant": "構成名詞"
+           }
+          }
+         ],
+         "root": "rout",
+         "meaning": "The same fixed order of actions, repeated every day.",
+         "example": "Queue, count, wait — the routine never changes.",
+         "translations": {
+          "zh-Hans": "例行程序",
+          "zh-Hant": "例行程序",
+          "ja": "決まった日課",
+          "ko": "일과",
+          "vi": "lệ thường ngày",
+          "ar": "روتين",
+          "fa": "روال روزانه",
+          "ur": "معمول",
+          "am": "የዕለት ተግባር",
+          "ml": "ദിനചര്യ",
+          "ta": "அன்றாட நடைமுறை",
+          "tl": "rutina",
+          "ps": "ورځنی معمول",
+          "ro": "rutină",
+          "ru": "распорядок",
+          "fr": "routine",
+          "hi": "दिनचर्या",
+          "es": "rutina"
+         },
+         "origin": "French route — the road. A routine is the road you take every day, worn smooth by repetition."
+        },
+        {
+         "word": "monotonous",
+         "parts": [
+          {
+           "surface": "mono",
+           "type": "prefix",
+           "meaning": "one",
+           "translations": {
+            "am": "አንድ",
+            "ar": "واحد",
+            "es": "uno",
+            "fa": "تک",
+            "fr": "un seul",
+            "hi": "एक",
+            "ja": "単",
+            "ko": "단",
+            "ml": "ഒറ്റ",
+            "ps": "يو",
+            "ro": "unu",
+            "ru": "один",
+            "ta": "ஒன்று",
+            "tl": "isa",
+            "ur": "ایک",
+            "vi": "một",
+            "zh-Hans": "单一",
+            "zh-Hant": "單一"
+           }
+          },
+          {
+           "surface": "ton",
+           "type": "root",
+           "meaning": "tone",
+           "translations": {
+            "am": "ድምጽ / ቃና",
+            "ar": "نغمة / صوت",
+            "es": "tono/sonido",
+            "fa": "لحن / صدا",
+            "fr": "ton / son",
+            "hi": "स्वर / ध्वनि",
+            "ja": "音調／音",
+            "ko": "음조 / 소리",
+            "ml": "സ്വരം / ശബ്ദം",
+            "ps": "غږ / آواز",
+            "ro": "ton / sunet",
+            "ru": "тон / звук",
+            "ta": "தொனி / ஒலி",
+            "tl": "tono / tunog",
+            "ur": "لہجہ / آواز",
+            "vi": "âm điệu / âm thanh",
+            "zh-Hans": "音调；声音",
+            "zh-Hant": "音調；聲音"
+           }
+          },
+          {
+           "surface": "ous",
+           "type": "suffix",
+           "meaning": "full of",
+           "translations": {
+            "am": "የተሞላ",
+            "ar": "ممتلئ بـ/ذو",
+            "es": "lleno de/que tiene",
+            "fa": "پر از / دارای",
+            "fr": "plein de / ayant",
+            "hi": "से भरा / रखने वाला",
+            "ja": "〜に満ちた／持つ",
+            "ko": "~로 가득한／가진",
+            "ml": "നിറഞ്ഞ / ഉള്ള",
+            "ps": "ډک / لرونکی",
+            "ro": "plin de / având",
+            "ru": "полный / имеющий",
+            "ta": "நிறைந்த / கொண்ட",
+            "tl": "puno ng / may",
+            "ur": "سے بھرا / رکھنے والا",
+            "vi": "đầy / có",
+            "zh-Hans": "充满／具有",
+            "zh-Hant": "充滿／具有"
+           }
+          }
+         ],
+         "root": "ton",
+         "meaning": "Boring because it never varies — all one tone.",
+         "example": "The monotonous days blur into each other.",
+         "translations": {
+          "zh-Hans": "单调的",
+          "zh-Hant": "單調的",
+          "ja": "単調な",
+          "ko": "단조로운",
+          "vi": "đơn điệu",
+          "ar": "رتيب",
+          "fa": "یکنواخت",
+          "ur": "یکسانیت بھرا",
+          "am": "አሰልቺ",
+          "ml": "ഏകതാനമായ",
+          "ta": "ஒரே மாதிரியான",
+          "tl": "paulit-ulit",
+          "ps": "یو شان",
+          "ro": "monoton",
+          "ru": "однообразный",
+          "fr": "monotone",
+          "hi": "नीरस",
+          "es": "monótono"
+         },
+         "origin": "Greek monos (one) + tonos (tone) — all on one note. A monotone voice and a monotonous week share the exact same complaint."
+        },
+        {
+         "word": "horizon",
+         "parts": [
+          {
+           "surface": "horizon",
+           "type": "root",
+           "meaning": "boundary line",
+           "translations": {
+            "zh-Hans": "边界线",
+            "zh-Hant": "邊界線",
+            "ja": "境界線",
+            "ko": "경계선",
+            "vi": "đường ranh giới",
+            "ar": "خط الحد",
+            "fa": "خط مرز",
+            "ur": "حد کی لکیر",
+            "am": "የወሰን መስመር",
+            "ml": "അതിർവര",
+            "ta": "எல்லைக்கோடு",
+            "tl": "hangganan",
+            "ps": "د پولې کرښه",
+            "ro": "linie de hotar",
+            "ru": "граница",
+            "fr": "ligne frontière",
+            "hi": "सीमा रेखा",
+            "es": "línea límite"
+           }
+          }
+         ],
+         "root": "horizon",
+         "meaning": "The line where the sky seems to meet the land or sea — the edge of what you can see.",
+         "example": "From inside the fence, the horizon is a rumour.",
+         "translations": {
+          "zh-Hans": "地平线",
+          "zh-Hant": "地平線",
+          "ja": "地平線",
+          "ko": "수평선",
+          "vi": "đường chân trời",
+          "ar": "الأفق",
+          "fa": "افق",
+          "ur": "افق",
+          "am": "አድማስ",
+          "ml": "ചക്രവാളം",
+          "ta": "அடிவானம்",
+          "tl": "abot-tanaw",
+          "ps": "افق",
+          "ro": "orizont",
+          "ru": "горизонт",
+          "fr": "horizon",
+          "hi": "क्षितिज",
+          "es": "horizonte"
+         },
+         "origin": "Greek horizein — to set a boundary. The horizon is the 'bounding line' of your sight. Same idea inside 'horizontal'."
+        },
+        {
+         "word": "queue",
+         "parts": [
+          {
+           "surface": "queue",
+           "type": "root",
+           "meaning": "tail",
+           "translations": {
+            "zh-Hans": "尾巴",
+            "zh-Hant": "尾巴",
+            "ja": "しっぽ",
+            "ko": "꼬리",
+            "vi": "cái đuôi",
+            "ar": "ذيل",
+            "fa": "دم",
+            "ur": "دم",
+            "am": "ጭራ",
+            "ml": "വാൽ",
+            "ta": "வால்",
+            "tl": "buntot",
+            "ps": "لکۍ",
+            "ro": "coadă",
+            "ru": "хвост",
+            "fr": "queue",
+            "hi": "पूंछ",
+            "es": "cola"
+           }
+          }
+         ],
+         "root": "queue",
+         "meaning": "A line of people waiting for their turn.",
+         "example": "The breakfast queue forms before the sun is up.",
+         "translations": {
+          "zh-Hans": "队列",
+          "zh-Hant": "排隊隊伍",
+          "ja": "行列",
+          "ko": "줄",
+          "vi": "hàng chờ",
+          "ar": "طابور",
+          "fa": "صف",
+          "ur": "قطار",
+          "am": "ሰልፍ",
+          "ml": "ക്യൂ",
+          "ta": "வரிசை",
+          "tl": "pila",
+          "ps": "قطار",
+          "ro": "coadă",
+          "ru": "очередь",
+          "fr": "file d'attente",
+          "hi": "कतार",
+          "es": "fila"
+         },
+         "origin": "French for 'tail', from Latin cauda. A queue is the tail a crowd grows when it has to wait one by one."
+        }
+       ],
+       "path": "year-7/english/bone-sparrow-early"
+      },
+      {
+       "id": "bone-sparrow-middle",
+       "name": "The Bone Sparrow — Middle chapters: Jimmie and the stories",
+       "interactive": true,
+       "words": [
+        {
+         "word": "trespass",
+         "parts": [
+          {
+           "surface": "tres",
+           "type": "prefix",
+           "meaning": "across",
+           "translations": {
+            "zh-Hans": "横过",
+            "zh-Hant": "橫過",
+            "ja": "越えて",
+            "ko": "가로질러",
+            "vi": "băng qua",
+            "ar": "عبر",
+            "fa": "از میان",
+            "ur": "کے پار",
+            "am": "አቋርጦ",
+            "ml": "കുറുകെ",
+            "ta": "குறுக்கே",
+            "tl": "tawid",
+            "ps": "له لارې",
+            "ro": "peste",
+            "ru": "через",
+            "fr": "à travers",
+            "hi": "के पार",
+            "es": "a través"
+           }
+          },
+          {
+           "surface": "pass",
+           "type": "root",
+           "meaning": "step",
+           "translations": {
+            "am": "እርምጃ / መሄድ",
+            "ar": "يخطو / يذهب",
+            "es": "dar un paso/ir",
+            "fa": "گام برداشتن / رفتن",
+            "fr": "faire un pas / aller",
+            "hi": "कदम रखना / जाना",
+            "ja": "歩む／進む",
+            "ko": "걷다 / 가다",
+            "ml": "ചുവടുവയ്ക്കുക / പോകുക",
+            "ps": "ګام اخيستل / تلل",
+            "ro": "a păși / a merge",
+            "ru": "шагать / идти",
+            "ta": "அடிவைத்தல் / செல்லுதல்",
+            "tl": "humakbang / pumunta",
+            "ur": "قدم رکھنا / جانا",
+            "vi": "bước / đi",
+            "zh-Hans": "跨步／行走",
+            "zh-Hant": "跨步／行走"
+           }
+          }
+         ],
+         "root": "pass",
+         "meaning": "To enter a place you are not allowed to be.",
+         "example": "Jimmie has to trespass just to reach the fence.",
+         "translations": {
+          "zh-Hans": "擅自闯入",
+          "zh-Hant": "擅自闖入",
+          "ja": "不法侵入する",
+          "ko": "무단 침입하다",
+          "vi": "xâm nhập trái phép",
+          "ar": "التعدي على ملكية",
+          "fa": "ورود غیرمجاز",
+          "ur": "بلا اجازت داخل ہونا",
+          "am": "ያለፈቃድ መግባት",
+          "ml": "അതിക്രമിച്ചു കടക്കുക",
+          "ta": "அத்துமீறி நுழைதல்",
+          "tl": "pagpasok nang walang pahintulot",
+          "ps": "بې اجازې ننوتل",
+          "ro": "a pătrunde ilegal",
+          "ru": "вторгаться",
+          "fr": "pénétrer sans autorisation",
+          "hi": "अनधिकृत प्रवेश",
+          "es": "entrar sin permiso"
+         },
+         "origin": "Old French trespasser — to pass across (Latin trans + passus, step). To trespass is to step across a line you were not meant to cross."
+        },
+        {
+         "word": "forbidden",
+         "parts": [
+          {
+           "surface": "for",
+           "type": "prefix",
+           "meaning": "against/away",
+           "translations": {
+            "zh-Hans": "反对/离",
+            "zh-Hant": "反對/離",
+            "ja": "反対に/離れて",
+            "ko": "반대로/떨어져",
+            "vi": "chống lại/rời xa",
+            "ar": "ضد/بعيدا",
+            "fa": "برضد/دور",
+            "ur": "خلاف/دور",
+            "am": "ተቃራኒ/ርቆ",
+            "ml": "എതിരായി/അകലെ",
+            "ta": "எதிராக/விலகி",
+            "tl": "laban/palayo",
+            "ps": "پر ضد/لرې",
+            "ro": "împotrivă/departe",
+            "ru": "против/прочь",
+            "fr": "contre/au loin",
+            "hi": "विरुद्ध/दूर",
+            "es": "contra/lejos"
+           }
+          },
+          {
+           "surface": "bidd",
+           "type": "root",
+           "meaning": "command",
+           "translations": {
+            "zh-Hans": "命令",
+            "zh-Hant": "命令",
+            "ja": "命じる",
+            "ko": "명령하다",
+            "vi": "ra lệnh",
+            "ar": "يأمر",
+            "fa": "فرمان دادن",
+            "ur": "حکم دینا",
+            "am": "ማዘዝ",
+            "ml": "കൽപ്പിക്കുക",
+            "ta": "கட்டளையிடு",
+            "tl": "utusan",
+            "ps": "امر کول",
+            "ro": "a porunci",
+            "ru": "велеть",
+            "fr": "ordonner",
+            "hi": "आदेश देना",
+            "es": "ordenar"
+           }
+          },
+          {
+           "surface": "en",
+           "type": "suffix",
+           "meaning": "having been (makes an adjective)",
+           "translations": {}
+          }
+         ],
+         "root": "bidd",
+         "meaning": "Not allowed by a rule or an order.",
+         "example": "Visitors are forbidden, so their meetings stay secret.",
+         "translations": {
+          "zh-Hans": "被禁止的",
+          "zh-Hant": "被禁止的",
+          "ja": "禁じられた",
+          "ko": "금지된",
+          "vi": "bị cấm",
+          "ar": "محظور",
+          "fa": "ممنوع",
+          "ur": "ممنوع",
+          "am": "የተከለከለ",
+          "ml": "വിലക്കപ്പെട്ട",
+          "ta": "தடைசெய்யப்பட்ட",
+          "tl": "ipinagbabawal",
+          "ps": "منع شوی",
+          "ro": "interzis",
+          "ru": "запрещённый",
+          "fr": "interdit",
+          "hi": "निषिद्ध",
+          "es": "prohibido"
+         },
+         "origin": "Old English for- (against, away) + bēodan (to command) — commanded away. The same for- as in 'forbear' and 'forgo'."
+        },
+        {
+         "word": "illiterate",
+         "parts": [
+          {
+           "surface": "il",
+           "type": "prefix",
+           "meaning": "not",
+           "translations": {
+            "am": "ያልሆነ",
+            "ar": "غير",
+            "es": "no / opuesto",
+            "fa": "غیر",
+            "fr": "non",
+            "hi": "अ-",
+            "ja": "不",
+            "ko": "비-",
+            "ml": "അല്ലാത്ത",
+            "ps": "نه",
+            "ro": "ne-",
+            "ru": "не-",
+            "ta": "இல்லாத",
+            "tl": "hindi",
+            "ur": "غیر",
+            "vi": "không",
+            "zh-Hans": "不/非",
+            "zh-Hant": "不/非",
+            "other": "نه"
+           }
+          },
+          {
+           "surface": "liter",
+           "type": "root",
+           "meaning": "letter",
+           "translations": {
+            "zh-Hans": "字母",
+            "zh-Hant": "字母",
+            "ja": "文字",
+            "ko": "글자",
+            "vi": "chữ cái",
+            "ar": "حرف",
+            "fa": "حرف",
+            "ur": "حرف",
+            "am": "ፊደል",
+            "ml": "അക്ഷരം",
+            "ta": "எழுத்து",
+            "tl": "titik",
+            "ps": "توری",
+            "ro": "literă",
+            "ru": "буква",
+            "fr": "lettre",
+            "hi": "अक्षर",
+            "es": "letra"
+           }
+          },
+          {
+           "surface": "ate",
+           "type": "suffix",
+           "meaning": "having (makes an adjective)",
+           "translations": {
+            "am": "ማድረግ",
+            "ar": "جعل",
+            "es": "tener/hacer",
+            "fa": "ساختن",
+            "fr": "rendre",
+            "hi": "बनाना",
+            "ja": "〜化する",
+            "ko": "만들다",
+            "ml": "ഉണ്ടാക്കുക",
+            "ps": "لرونکی/جوړونکی",
+            "ro": "a face",
+            "ru": "делать",
+            "ta": "செய்தல்",
+            "tl": "gumawa",
+            "ur": "بنانا",
+            "vi": "làm",
+            "zh-Hans": "使…化",
+            "zh-Hant": "使…化"
+           }
+          }
+         ],
+         "root": "liter",
+         "meaning": "Unable to read or write.",
+         "example": "Jimmie is illiterate, so her mother's stories stay locked in the notebook.",
+         "translations": {
+          "zh-Hans": "不识字的",
+          "zh-Hant": "不識字的",
+          "ja": "読み書きできない",
+          "ko": "문맹의",
+          "vi": "mù chữ",
+          "ar": "أمي",
+          "fa": "بی‌سواد",
+          "ur": "ناخواندہ",
+          "am": "ማንበብና መጻፍ የማይችል",
+          "ml": "നിരക്ഷരനായ",
+          "ta": "எழுத்தறிவற்ற",
+          "tl": "hindi marunong bumasa",
+          "ps": "بېسواده",
+          "ro": "analfabet",
+          "ru": "неграмотный",
+          "fr": "analphabète",
+          "hi": "निरक्षर",
+          "es": "analfabeto"
+         },
+         "origin": "Latin in- (not, assimilated to il- before l) + littera (letter) — 'without letters'. Literature, literal and literacy all grow from littera."
+        },
+        {
+         "word": "storyteller",
+         "parts": [
+          {
+           "surface": "story",
+           "type": "root",
+           "meaning": "story",
+           "translations": {
+            "zh-Hans": "故事",
+            "zh-Hant": "故事",
+            "ja": "物語",
+            "ko": "이야기",
+            "vi": "câu chuyện",
+            "ar": "قصة",
+            "fa": "داستان",
+            "ur": "کہانی",
+            "am": "ተረት",
+            "ml": "കഥ",
+            "ta": "கதை",
+            "tl": "kuwento",
+            "ps": "کيسه",
+            "ro": "poveste",
+            "ru": "история",
+            "fr": "histoire",
+            "hi": "कहानी",
+            "es": "cuento"
+           }
+          },
+          {
+           "surface": "tell",
+           "type": "root",
+           "meaning": "say",
+           "translations": {
+            "zh-Hans": "讲述",
+            "zh-Hant": "講述",
+            "ja": "語る",
+            "ko": "말하다",
+            "vi": "kể",
+            "ar": "يحكي",
+            "fa": "گفتن",
+            "ur": "بتانا",
+            "am": "መናገር",
+            "ml": "പറയുക",
+            "ta": "சொல்",
+            "tl": "sabihin",
+            "ps": "ویل",
+            "ro": "a spune",
+            "ru": "рассказывать",
+            "fr": "raconter",
+            "hi": "कहना",
+            "es": "contar"
+           }
+          },
+          {
+           "surface": "er",
+           "type": "suffix",
+           "meaning": "one who",
+           "translations": {
+            "vi": "người",
+            "am": "ሰው",
+            "ar": "شخص",
+            "es": "persona que",
+            "fa": "شخص",
+            "fr": "personne qui",
+            "hi": "व्यक्ति जो",
+            "ja": "~する人",
+            "ko": "~하는 사람",
+            "ml": "ആൾ",
+            "ps": "هغه څوک چې",
+            "ro": "persoană care",
+            "ru": "тот, кто",
+            "ta": "செய்பவர்",
+            "tl": "taong",
+            "ur": "کرنے والا",
+            "zh-Hans": "人",
+            "zh-Hant": "人"
+           }
+          }
+         ],
+         "root": "story",
+         "meaning": "A person who tells stories.",
+         "example": "Subhi becomes the storyteller, reading Jimmie's book aloud.",
+         "translations": {
+          "zh-Hans": "讲故事的人",
+          "zh-Hant": "說故事的人",
+          "ja": "語り手",
+          "ko": "이야기꾼",
+          "vi": "người kể chuyện",
+          "ar": "راوي القصص",
+          "fa": "قصه‌گو",
+          "ur": "کہانی سنانے والا",
+          "am": "ተረት ተናጋሪ",
+          "ml": "കഥപറച്ചിലുകാരൻ",
+          "ta": "கதைசொல்லி",
+          "tl": "tagapagkuwento",
+          "ps": "کيسه ويونکی",
+          "ro": "povestitor",
+          "ru": "рассказчик",
+          "fr": "conteur",
+          "hi": "कथावाचक",
+          "es": "narrador de cuentos"
+         },
+         "origin": "Story reached English from Latin historia; the teller is Old English tellan, which meant both 'count' and 'recount' — a teller counts events like coins."
+        },
+        {
+         "word": "generation",
+         "parts": [
+          {
+           "surface": "gener",
+           "type": "root",
+           "meaning": "birth/produce",
+           "translations": {
+            "zh-Hans": "出生/产生",
+            "zh-Hant": "出生/產生",
+            "ja": "生む",
+            "ko": "낳다/만들다",
+            "vi": "sinh ra",
+            "ar": "يولد/ينتج",
+            "fa": "زادن/تولید",
+            "ur": "پیدا کرنا",
+            "am": "መውለድ/ማፍራት",
+            "ml": "ജനിപ്പിക്കുക",
+            "ta": "பிறப்பி/உருவாக்கு",
+            "tl": "isilang/lumikha",
+            "ps": "زېږول",
+            "ro": "a naște/a produce",
+            "ru": "рождать",
+            "fr": "engendrer",
+            "hi": "जन्म देना",
+            "es": "engendrar"
+           }
+          },
+          {
+           "surface": "ation",
+           "type": "suffix",
+           "meaning": "process of",
+           "translations": {
+            "am": "ሂደት",
+            "ar": "عملية",
+            "es": "proceso de",
+            "fa": "فرآیند",
+            "fr": "processus",
+            "hi": "प्रक्रिया",
+            "ja": "過程",
+            "ko": "과정",
+            "ml": "പ്രക്രിയ",
+            "ps": "پروسه",
+            "ro": "proces",
+            "ru": "процесс",
+            "ta": "செயல்முறை",
+            "tl": "proseso",
+            "ur": "عمل",
+            "vi": "quá trình",
+            "zh-Hans": "过程",
+            "zh-Hant": "過程"
+           }
+          }
+         ],
+         "root": "gener",
+         "meaning": "All the people born around the same time; one step in a family line.",
+         "example": "The stories have been passed down generation after generation.",
+         "translations": {
+          "zh-Hans": "世代",
+          "zh-Hant": "世代",
+          "ja": "世代",
+          "ko": "세대",
+          "vi": "thế hệ",
+          "ar": "جيل",
+          "fa": "نسل",
+          "ur": "نسل",
+          "am": "ትውልድ",
+          "ml": "തലമുറ",
+          "ta": "தலைமுறை",
+          "tl": "henerasyon",
+          "ps": "نسل",
+          "ro": "generație",
+          "ru": "поколение",
+          "fr": "génération",
+          "hi": "पीढ़ी",
+          "es": "generación"
+         },
+         "origin": "Latin generare, to bring to birth — one 'birthing' of a family at a time. Same root in 'generate' and 'generous' (well-born, hence giving)."
+        },
+        {
+         "word": "heirloom",
+         "parts": [
+          {
+           "surface": "heir",
+           "type": "root",
+           "meaning": "inheritor",
+           "translations": {
+            "zh-Hans": "继承人",
+            "zh-Hant": "繼承人",
+            "ja": "相続人",
+            "ko": "상속자",
+            "vi": "người thừa kế",
+            "ar": "وريث",
+            "fa": "وارث",
+            "ur": "وارث",
+            "am": "ወራሽ",
+            "ml": "അവകാശി",
+            "ta": "வாரிசு",
+            "tl": "tagapagmana",
+            "ps": "وارث",
+            "ro": "moștenitor",
+            "ru": "наследник",
+            "fr": "héritier",
+            "hi": "उत्तराधिकारी",
+            "es": "heredero"
+           }
+          },
+          {
+           "surface": "loom",
+           "type": "root",
+           "meaning": "tool/frame",
+           "translations": {
+            "zh-Hans": "工具/织机",
+            "zh-Hant": "工具/織機",
+            "ja": "道具・織機",
+            "ko": "도구/베틀",
+            "vi": "dụng cụ/khung cửi",
+            "ar": "أداة/نول",
+            "fa": "ابزار/دستگاه بافندگی",
+            "ur": "اوزار/کرگھا",
+            "am": "መሣሪያ/ማግ",
+            "ml": "ഉപകരണം/തറി",
+            "ta": "கருவி/தறி",
+            "tl": "kasangkapan/habihan",
+            "ps": "اوزار/اوبدلو چوکاټ",
+            "ro": "unealtă/război de țesut",
+            "ru": "орудие/станок",
+            "fr": "outil/métier",
+            "hi": "औज़ार/करघा",
+            "es": "herramienta/telar"
+           }
+          }
+         ],
+         "root": "heir",
+         "meaning": "A treasured object passed down through a family.",
+         "example": "The bone sparrow is an heirloom from Jimmie's mother's family.",
+         "translations": {
+          "zh-Hans": "传家宝",
+          "zh-Hant": "傳家寶",
+          "ja": "家宝",
+          "ko": "가보",
+          "vi": "vật gia truyền",
+          "ar": "إرث عائلي",
+          "fa": "یادگار خانوادگی",
+          "ur": "خاندانی وراثت",
+          "am": "የቤተሰብ ቅርስ",
+          "ml": "കുടുംബപൈതൃകവസ്തു",
+          "ta": "குடும்பச் சின்னம்",
+          "tl": "pamanang gamit",
+          "ps": "کورنۍ میراث",
+          "ro": "obiect de familie",
+          "ru": "семейная реликвия",
+          "fr": "héritage de famille",
+          "hi": "पुश्तैनी धरोहर",
+          "es": "reliquia familiar"
+         },
+         "origin": "Heir (Latin heres, inheritor) + loom, which once meant any tool. An heirloom was literally the tool handed down — now any treasure that is."
+        },
+        {
+         "word": "pendant",
+         "parts": [
+          {
+           "surface": "pend",
+           "type": "root",
+           "meaning": "hang",
+           "translations": {
+            "am": "መስቀል / መተማመን",
+            "ar": "يعلّق / يعتمد",
+            "es": "colgar/depender",
+            "fa": "آویزان شدن / وابسته بودن",
+            "fr": "pendre / dépendre",
+            "hi": "लटकना / निर्भर होना",
+            "ja": "掛かる / 頼る",
+            "ko": "매달리다 / 의존하다",
+            "ml": "തൂങ്ങുക / ആശ്രയിക്കുക",
+            "ps": "ځړول / تکیه کول",
+            "ro": "a atârna / a depinde",
+            "ru": "висеть / зависеть",
+            "ta": "தொங்குதல் / சார்ந்திருத்தல்",
+            "tl": "sumabit / umasa",
+            "ur": "لٹکنا / انحصار کرنا",
+            "vi": "treo / phụ thuộc",
+            "zh-Hans": "悬挂 / 依赖",
+            "zh-Hant": "懸掛 / 依賴"
+           }
+          },
+          {
+           "surface": "ant",
+           "type": "suffix",
+           "meaning": "thing that (makes a noun)",
+           "translations": {
+            "am": "አድራጊ",
+            "ar": "فاعل",
+            "es": "cosa que hace",
+            "fa": "انجام‌دهنده",
+            "fr": "agent / ce qui fait",
+            "hi": "करने वाला",
+            "ja": "〜するもの",
+            "ko": "~하는 것",
+            "ml": "ചെയ്യുന്നത്",
+            "ps": "کوونکی",
+            "ro": "agent",
+            "ru": "то, что делает",
+            "ta": "செய்வது",
+            "tl": "ang gumagawa",
+            "ur": "کرنے والا",
+            "vi": "tác nhân",
+            "zh-Hans": "事物",
+            "zh-Hant": "事物"
+           }
+          }
+         ],
+         "root": "pend",
+         "meaning": "A small hanging ornament, usually worn on a chain.",
+         "example": "Jimmie never takes off the sparrow pendant.",
+         "translations": {
+          "zh-Hans": "吊坠",
+          "zh-Hant": "吊墜",
+          "ja": "ペンダント",
+          "ko": "펜던트",
+          "vi": "mặt dây chuyền",
+          "ar": "قلادة",
+          "fa": "آویز",
+          "ur": "لاکٹ",
+          "am": "የአንገት ጌጥ",
+          "ml": "പെൻഡന്റ്",
+          "ta": "தொங்கல் நகை",
+          "tl": "palawit",
+          "ps": "امېل",
+          "ro": "pandantiv",
+          "ru": "кулон",
+          "fr": "pendentif",
+          "hi": "लटकन",
+          "es": "colgante"
+         },
+         "origin": "Latin pendere, to hang — the same pend as in 'pending' (hanging, undecided) and 'suspend'. A pendant is simply 'the hanging thing'."
+        },
+        {
+         "word": "protection",
+         "parts": [
+          {
+           "surface": "pro",
+           "type": "prefix",
+           "meaning": "forward",
+           "translations": {
+            "am": "በፊት / ወደፊት",
+            "ar": "قبل / إلى الأمام",
+            "es": "antes / adelante",
+            "fa": "پیش / جلو",
+            "fr": "avant / en avant",
+            "hi": "पहले / आगे",
+            "ja": "前に / 前方へ",
+            "ko": "이전에 / 앞으로",
+            "ml": "മുമ്പ് / മുന്നോട്ട്",
+            "ps": "مخکې / وړاندې",
+            "ro": "înainte",
+            "ru": "перед / вперёд",
+            "ta": "முன் / முன்னோக்கி",
+            "tl": "bago / pasulong",
+            "ur": "پہلے / آگے",
+            "vi": "trước / về phía trước",
+            "zh-Hans": "在前 / 向前",
+            "zh-Hant": "在前 / 向前"
+           }
+          },
+          {
+           "surface": "tect",
+           "type": "root",
+           "meaning": "cover/protect",
+           "translations": {
+            "zh-Hans": "保护",
+            "zh-Hant": "保護",
+            "ja": "保護する / 守る",
+            "am": "መሸፈን / መጠበቅ",
+            "ar": "يغطي / يحمي",
+            "es": "cubrir/proteger",
+            "fa": "پوشاندن / محافظت کردن",
+            "fr": "couvrir / protéger",
+            "hi": "ढकना / रक्षा करना",
+            "ko": "덮다/보호하다",
+            "ml": "മൂടുക / സംരക്ഷിക്കുക",
+            "ps": "پوښل / ساتل",
+            "ro": "a acoperi / a proteja",
+            "ru": "покрывать / защищать",
+            "ta": "மூடு / பாதுகா",
+            "tl": "takpan / protektahan",
+            "ur": "ڈھانپنا / حفاظت کرنا",
+            "vi": "che chở / bảo vệ"
+           }
+          },
+          {
+           "surface": "ion",
+           "type": "suffix",
+           "meaning": "act/process",
+           "translations": {
+            "fa": "فرایند/عمل",
+            "am": "ሂደት/ድርጊት",
+            "ar": "عملية/فعل",
+            "es": "proceso/acción",
+            "fr": "processus/action",
+            "hi": "प्रक्रिया/क्रिया",
+            "ja": "過程/作用",
+            "ko": "과정/작용",
+            "ml": "പ്രക്രിയ/പ്രവർത്തനം",
+            "ps": "بهیر/کړنه",
+            "ro": "proces/acțiune",
+            "ru": "процесс/действие",
+            "ta": "செயல்முறை/செயல்",
+            "tl": "proseso/kilos",
+            "ur": "عمل/فعل",
+            "vi": "quá trình/hành động",
+            "zh-Hans": "过程/动作",
+            "zh-Hant": "過程/動作"
+           }
+          }
+         ],
+         "root": "tect",
+         "meaning": "Keeping someone or something safe from harm.",
+         "example": "The bone sparrow is meant to bring protection to whoever wears it.",
+         "translations": {
+          "zh-Hans": "保护",
+          "zh-Hant": "保護",
+          "ja": "保護",
+          "ko": "보호",
+          "vi": "sự bảo vệ",
+          "ar": "حماية",
+          "fa": "محافظت",
+          "ur": "تحفظ",
+          "am": "ጥበቃ",
+          "ml": "സംരക്ഷണം",
+          "ta": "பாதுகாப்பு",
+          "tl": "proteksyon",
+          "ps": "ساتنه",
+          "ro": "protecție",
+          "ru": "защита",
+          "fr": "protection",
+          "hi": "सुरक्षा",
+          "es": "protección"
+         },
+         "origin": "Latin pro- (in front) + tegere (to cover) — to hold a cover in front of someone. A pro-tect-or stands between you and harm."
+        },
+        {
+         "word": "superstition",
+         "parts": [
+          {
+           "surface": "super",
+           "type": "prefix",
+           "meaning": "above/beyond",
+           "translations": {
+            "am": "ከላይ",
+            "ar": "فوق",
+            "es": "encima de",
+            "fa": "بالای",
+            "fr": "au-dessus de",
+            "hi": "ऊपर",
+            "ja": "上に",
+            "ko": "위에",
+            "ml": "മുകളിൽ",
+            "ps": "پورته",
+            "ro": "deasupra",
+            "ru": "сверху",
+            "ta": "மேலே",
+            "tl": "sa ibabaw",
+            "ur": "اوپر",
+            "vi": "trên",
+            "zh-Hans": "上",
+            "zh-Hant": "上"
+           }
+          },
+          {
+           "surface": "stit",
+           "type": "root",
+           "meaning": "stand",
+           "translations": {
+            "zh-Hans": "站立",
+            "zh-Hant": "站立",
+            "ja": "立つ",
+            "ko": "서다",
+            "vi": "đứng",
+            "ar": "يقف",
+            "fa": "ایستادن",
+            "ur": "کھڑا ہونا",
+            "am": "መቆም",
+            "ml": "നിൽക്കുക",
+            "ta": "நில்",
+            "tl": "tumayo",
+            "ps": "درېدل",
+            "ro": "a sta",
+            "ru": "стоять",
+            "fr": "se tenir",
+            "hi": "खड़ा होना",
+            "es": "estar de pie"
+           }
+          },
+          {
+           "surface": "ion",
+           "type": "suffix",
+           "meaning": "act/process",
+           "translations": {
+            "fa": "فرایند/عمل",
+            "am": "ሂደት/ድርጊት",
+            "ar": "عملية/فعل",
+            "es": "proceso/acción",
+            "fr": "processus/action",
+            "hi": "प्रक्रिया/क्रिया",
+            "ja": "過程/作用",
+            "ko": "과정/작용",
+            "ml": "പ്രക്രിയ/പ്രവർത്തനം",
+            "ps": "بهیر/کړنه",
+            "ro": "proces/acțiune",
+            "ru": "процесс/действие",
+            "ta": "செயல்முறை/செயல்",
+            "tl": "proseso/kilos",
+            "ur": "عمل/فعل",
+            "vi": "quá trình/hành động",
+            "zh-Hans": "过程/动作",
+            "zh-Hant": "過程/動作"
+           }
+          }
+         ],
+         "root": "stit",
+         "meaning": "A belief in luck or magic that is not based on reason or evidence.",
+         "example": "Maybe the charm is superstition — but nobody dares to test it.",
+         "translations": {
+          "zh-Hans": "迷信",
+          "zh-Hant": "迷信",
+          "ja": "迷信",
+          "ko": "미신",
+          "vi": "mê tín",
+          "ar": "خرافة",
+          "fa": "خرافه",
+          "ur": "توہم پرستی",
+          "am": "አጉል እምነት",
+          "ml": "അന്ധവിശ്വാസം",
+          "ta": "மூடநம்பிக்கை",
+          "tl": "pamahiin",
+          "ps": "خرافات",
+          "ro": "superstiție",
+          "ru": "суеверие",
+          "fr": "superstition",
+          "hi": "अंधविश्वास",
+          "es": "superstición"
+         },
+         "origin": "Latin super (over) + stare (to stand) — a 'standing over' in awe. Belief that stands over you, whether or not reason holds it up."
+        },
+        {
+         "word": "curiosity",
+         "parts": [
+          {
+           "surface": "curi",
+           "type": "root",
+           "meaning": "care/want to know",
+           "translations": {
+            "zh-Hans": "关心/想知道",
+            "zh-Hant": "關心/想知道",
+            "ja": "知りたがる",
+            "ko": "알고 싶어 하다",
+            "vi": "muốn biết",
+            "ar": "يهتم/يريد أن يعرف",
+            "fa": "کنجکاو بودن",
+            "ur": "جاننے کی چاہ",
+            "am": "ማወቅ መፈለግ",
+            "ml": "അറിയാൻ ആഗ്രഹിക്കുക",
+            "ta": "அறிய விரும்பு",
+            "tl": "gustong malaman",
+            "ps": "پوهېدل غوښتل",
+            "ro": "a vrea să știe",
+            "ru": "хотеть знать",
+            "fr": "vouloir savoir",
+            "hi": "जानना चाहना",
+            "es": "querer saber"
+           }
+          },
+          {
+           "surface": "osity",
+           "type": "suffix",
+           "meaning": "quality of",
+           "translations": {
+            "zh-Hans": "……的性质",
+            "zh-Hant": "……的性質",
+            "ja": "〜という性質",
+            "ko": "~한 성질",
+            "vi": "tính chất",
+            "ar": "صفة",
+            "fa": "کیفیتِ",
+            "ur": "کیفیت",
+            "am": "ባሕርይ",
+            "ml": "ഗുണം",
+            "ta": "தன்மை",
+            "tl": "katangian ng",
+            "ps": "څرنګوالی",
+            "ro": "calitatea de",
+            "ru": "качество",
+            "fr": "qualité de",
+            "hi": "गुण",
+            "es": "cualidad de"
+           }
+          }
+         ],
+         "root": "curi",
+         "meaning": "The strong desire to find things out.",
+         "example": "Curiosity pulls Jimmie back to the fence night after night.",
+         "translations": {
+          "zh-Hans": "好奇心",
+          "zh-Hant": "好奇心",
+          "ja": "好奇心",
+          "ko": "호기심",
+          "vi": "sự tò mò",
+          "ar": "فضول",
+          "fa": "کنجکاوی",
+          "ur": "تجسس",
+          "am": "ጉጉት",
+          "ml": "ജിജ്ഞാസ",
+          "ta": "ஆர்வம்",
+          "tl": "pagkamausisa",
+          "ps": "لېوالتیا",
+          "ro": "curiozitate",
+          "ru": "любопытство",
+          "fr": "curiosité",
+          "hi": "जिज्ञासा",
+          "es": "curiosidad"
+         },
+         "origin": "Latin cura — care. The curious take care over things: they attend, ask, poke. 'Curious' once meant careful; the nosiness came later."
+        },
+        {
+         "word": "midnight",
+         "parts": [
+          {
+           "surface": "mid",
+           "type": "prefix",
+           "meaning": "middle",
+           "translations": {
+            "zh-Hans": "中间",
+            "zh-Hant": "中間",
+            "ja": "真ん中",
+            "ko": "가운데",
+            "vi": "giữa",
+            "ar": "وسط",
+            "fa": "میان",
+            "ur": "درمیانی",
+            "am": "መካከል",
+            "ml": "മധ്യ",
+            "ta": "நடு",
+            "tl": "gitna",
+            "ps": "منځ",
+            "ro": "mijloc",
+            "ru": "середина",
+            "fr": "milieu",
+            "hi": "मध्य",
+            "es": "medio"
+           }
+          },
+          {
+           "surface": "night",
+           "type": "root",
+           "meaning": "night",
+           "translations": {
+            "zh-Hans": "夜",
+            "zh-Hant": "夜",
+            "ja": "夜",
+            "ko": "밤",
+            "vi": "đêm",
+            "ar": "ليل",
+            "fa": "شب",
+            "ur": "رات",
+            "am": "ሌሊት",
+            "ml": "രാത്രി",
+            "ta": "இரவு",
+            "tl": "gabi",
+            "ps": "شپه",
+            "ro": "noapte",
+            "ru": "ночь",
+            "fr": "nuit",
+            "hi": "रात",
+            "es": "noche"
+           }
+          }
+         ],
+         "root": "night",
+         "meaning": "Twelve o'clock at night; the middle of the night.",
+         "example": "Their meetings happen close to midnight, after the guards change.",
+         "translations": {
+          "zh-Hans": "午夜",
+          "zh-Hant": "午夜",
+          "ja": "真夜中",
+          "ko": "자정",
+          "vi": "nửa đêm",
+          "ar": "منتصف الليل",
+          "fa": "نیمه‌شب",
+          "ur": "آدھی رات",
+          "am": "እኩለ ሌሊት",
+          "ml": "അർധരാത്രി",
+          "ta": "நள்ளிரவு",
+          "tl": "hatinggabi",
+          "ps": "نیمه شپه",
+          "ro": "miezul nopții",
+          "ru": "полночь",
+          "fr": "minuit",
+          "hi": "आधी रात",
+          "es": "medianoche"
+         },
+         "origin": "Old English through and through: mid + niht. English builds words this way too — morphology is not only Latin and Greek."
+        },
+        {
+         "word": "courage",
+         "parts": [
+          {
+           "surface": "cour",
+           "type": "root",
+           "meaning": "heart",
+           "translations": {}
+          },
+          {
+           "surface": "age",
+           "type": "suffix",
+           "meaning": "state/condition",
+           "translations": {
+            "am": "ሁኔታ፣ ቦታ ወይም ውጤት",
+            "ar": "حالة أو مكان أو نتاج",
+            "es": "estado, lugar o producto de",
+            "fa": "حالت، مکان یا محصول",
+            "fr": "état, lieu ou produit de",
+            "hi": "स्थिति, स्थान या उत्पाद",
+            "ja": "状態や産物",
+            "ko": "상태, 장소 또는 산물",
+            "ml": "അവസ്ഥ, സ്ഥലം അല്ലെങ്കിൽ ഉൽപ്പന്നം",
+            "ps": "حالت، ځای یا محصول",
+            "ro": "stare, loc sau produs",
+            "ru": "состояние, место или продукт",
+            "ta": "நிலை, இடம் அல்லது விளைபொருள்",
+            "tl": "kalagayan, lugar o produkto",
+            "ur": "حالت، جگہ یا پیداوار",
+            "vi": "trạng thái, nơi chốn hoặc sản phẩm",
+            "zh-Hans": "状态、地点或产物",
+            "zh-Hant": "狀態、地點或產物"
+           }
+          }
+         ],
+         "root": "cour",
+         "meaning": "The strength of heart to face fear or difficulty.",
+         "example": "It takes courage to squeeze through a fence into a detention centre.",
+         "translations": {
+          "zh-Hans": "勇气",
+          "zh-Hant": "勇氣",
+          "ja": "勇気",
+          "ko": "용기",
+          "vi": "lòng can đảm",
+          "ar": "شجاعة",
+          "fa": "شجاعت",
+          "ur": "ہمت",
+          "am": "ድፍረት",
+          "ml": "ധൈര്യം",
+          "ta": "தைரியம்",
+          "tl": "tapang",
+          "ps": "زړورتیا",
+          "ro": "curaj",
+          "ru": "мужество",
+          "fr": "courage",
+          "hi": "साहस",
+          "es": "valentía"
+         },
+         "origin": "Latin cor — the heart, through French corage. Courage is literally 'heart-stuff': the same cor as in 'core' and en-cour-age."
+        }
+       ],
+       "path": "year-7/english/bone-sparrow-middle"
+      },
+      {
+       "id": "bone-sparrow-final",
+       "name": "The Bone Sparrow — Final chapters: the protest",
+       "interactive": true,
+       "words": [
+        {
+         "word": "injustice",
+         "parts": [
+          {
+           "surface": "in",
+           "type": "prefix",
+           "meaning": "not",
+           "translations": {
+            "am": "ያልሆነ",
+            "ar": "غير",
+            "es": "no / opuesto",
+            "fa": "غیر",
+            "fr": "non",
+            "hi": "अ-",
+            "ja": "不",
+            "ko": "비-",
+            "ml": "അല്ലാത്ത",
+            "ps": "نه",
+            "ro": "ne-",
+            "ru": "не-",
+            "ta": "இல்லாத",
+            "tl": "hindi",
+            "ur": "غیر",
+            "vi": "không",
+            "zh-Hans": "不/非",
+            "zh-Hant": "不/非",
+            "other": "نه"
+           }
+          },
+          {
+           "surface": "just",
+           "type": "root",
+           "meaning": "fair/right",
+           "translations": {
+            "am": "ትክክል ወይም ፍትሃዊ",
+            "ar": "عادل",
+            "es": "correcto/justo",
+            "fa": "عادلانه",
+            "fr": "juste",
+            "hi": "उचित न्यायसंगत",
+            "ja": "正しい・公正な",
+            "ko": "옳은·공정한",
+            "ml": "ശരിയായ അല്ലെങ്കിൽ നീതിയുക്തമായ",
+            "ps": "سم یا عادلانه",
+            "ro": "drept sau corect",
+            "ru": "справедливый",
+            "ta": "சரியான அல்லது நியாயமான",
+            "tl": "tama o makatarungan",
+            "ur": "منصفانہ یا درست",
+            "vi": "đúng hoặc công bằng",
+            "zh-Hans": "正当的/公正的",
+            "zh-Hant": "正當的/公正的"
+           }
+          },
+          {
+           "surface": "ice",
+           "type": "suffix",
+           "meaning": "state of",
+           "translations": {
+            "am": "ሁኔታ",
+            "ar": "حالة",
+            "es": "estado de",
+            "fa": "حالت",
+            "fr": "état",
+            "hi": "अवस्था",
+            "ja": "状態",
+            "ko": "상태",
+            "ml": "അവസ്ഥ",
+            "ps": "حالت",
+            "ro": "stare",
+            "ru": "состояние",
+            "ta": "நிலை",
+            "tl": "kalagayan",
+            "ur": "حالت",
+            "vi": "trạng thái",
+            "zh-Hans": "状态",
+            "zh-Hant": "狀態"
+           }
+          }
+         ],
+         "root": "just",
+         "meaning": "Treatment that is not fair or not right.",
+         "example": "Eli will not stay quiet about the injustice of the camp.",
+         "translations": {
+          "zh-Hans": "不公正",
+          "zh-Hant": "不公義",
+          "ja": "不正義",
+          "ko": "불의",
+          "vi": "sự bất công",
+          "ar": "ظلم",
+          "fa": "بی‌عدالتی",
+          "ur": "ناانصافی",
+          "am": "ግፍ",
+          "ml": "അനീതി",
+          "ta": "அநீதி",
+          "tl": "kawalan ng katarungan",
+          "ps": "بې عدالتي",
+          "ro": "nedreptate",
+          "ru": "несправедливость",
+          "fr": "injustice",
+          "hi": "अन्याय",
+          "es": "injusticia"
+         },
+         "origin": "Latin in- (not) + iustus (fair, lawful). Justice, just and justify all stand on ius — law, right."
+        },
+        {
+         "word": "protest",
+         "parts": [
+          {
+           "surface": "pro",
+           "type": "prefix",
+           "meaning": "forward",
+           "translations": {
+            "am": "በፊት / ወደፊት",
+            "ar": "قبل / إلى الأمام",
+            "es": "antes / adelante",
+            "fa": "پیش / جلو",
+            "fr": "avant / en avant",
+            "hi": "पहले / आगे",
+            "ja": "前に / 前方へ",
+            "ko": "이전에 / 앞으로",
+            "ml": "മുമ്പ് / മുന്നോട്ട്",
+            "ps": "مخکې / وړاندې",
+            "ro": "înainte",
+            "ru": "перед / вперёд",
+            "ta": "முன் / முன்னோக்கி",
+            "tl": "bago / pasulong",
+            "ur": "پہلے / آگے",
+            "vi": "trước / về phía trước",
+            "zh-Hans": "在前 / 向前",
+            "zh-Hant": "在前 / 向前"
+           }
+          },
+          {
+           "surface": "test",
+           "type": "root",
+           "meaning": "bear witness/dispute",
+           "translations": {
+            "vi": "làm chứng",
+            "am": "መመስከር",
+            "ar": "يشهد",
+            "es": "atestiguar",
+            "fa": "شهادت دادن",
+            "fr": "témoigner",
+            "hi": "गवाही देना",
+            "ja": "証言する",
+            "ko": "증언하다",
+            "ml": "സാക്ഷ്യം വഹിക്കുക",
+            "ps": "شاهدي ورکول",
+            "ro": "a mărturisi",
+            "ru": "свидетельствовать",
+            "ta": "சாட்சியம்",
+            "tl": "sumaksi",
+            "ur": "گواہی دینا",
+            "zh-Hans": "见证",
+            "zh-Hant": "見證"
+           }
+          }
+         ],
+         "root": "test",
+         "meaning": "A public act that shows strong disagreement.",
+         "example": "The men plan a peaceful protest about the conditions.",
+         "translations": {
+          "zh-Hans": "抗议",
+          "zh-Hant": "抗議",
+          "ja": "抗議",
+          "ko": "항의",
+          "vi": "cuộc biểu tình",
+          "ar": "احتجاج",
+          "fa": "اعتراض",
+          "ur": "احتجاج",
+          "am": "ተቃውሞ",
+          "ml": "പ്രതിഷേധം",
+          "ta": "எதிர்ப்பு",
+          "tl": "protesta",
+          "ps": "اعتراض",
+          "ro": "protest",
+          "ru": "протест",
+          "fr": "manifestation",
+          "hi": "विरोध",
+          "es": "protesta"
+         },
+         "origin": "Latin pro- (forward, in public) + testari (to bear witness — the same test as in 'testify'). To protest is to witness out loud."
+        },
+        {
+         "word": "desperation",
+         "parts": [
+          {
+           "surface": "de",
+           "type": "prefix",
+           "meaning": "down/away",
+           "translations": {
+            "am": "ወደ ታች",
+            "ar": "أسفل",
+            "es": "abajo/lejos",
+            "fa": "پایین",
+            "fr": "vers le bas",
+            "hi": "नीचे",
+            "ja": "下方へ",
+            "ko": "아래로",
+            "ml": "താഴേക്ക്",
+            "ps": "ښکته / لرې",
+            "ro": "în jos",
+            "ru": "вниз",
+            "ta": "கீழே",
+            "tl": "pababa",
+            "ur": "نیچے",
+            "vi": "giảm/ra khỏi",
+            "zh-Hans": "向下；去除",
+            "zh-Hant": "向下；去除"
+           }
+          },
+          {
+           "surface": "sper",
+           "type": "root",
+           "meaning": "hope",
+           "translations": {
+            "zh-Hans": "希望",
+            "zh-Hant": "希望",
+            "ja": "希望",
+            "ko": "희망",
+            "vi": "hy vọng",
+            "ar": "أمل",
+            "fa": "امید",
+            "ur": "امید",
+            "am": "ተስፋ",
+            "ml": "പ്രതീക്ഷ",
+            "ta": "நம்பிக்கை",
+            "tl": "pag-asa",
+            "ps": "هیله",
+            "ro": "speranță",
+            "ru": "надежда",
+            "fr": "espoir",
+            "hi": "आशा",
+            "es": "esperanza"
+           }
+          },
+          {
+           "surface": "ation",
+           "type": "suffix",
+           "meaning": "process of",
+           "translations": {
+            "am": "ሂደት",
+            "ar": "عملية",
+            "es": "proceso de",
+            "fa": "فرآیند",
+            "fr": "processus",
+            "hi": "प्रक्रिया",
+            "ja": "過程",
+            "ko": "과정",
+            "ml": "പ്രക്രിയ",
+            "ps": "پروسه",
+            "ro": "proces",
+            "ru": "процесс",
+            "ta": "செயல்முறை",
+            "tl": "proseso",
+            "ur": "عمل",
+            "vi": "quá trình",
+            "zh-Hans": "过程",
+            "zh-Hant": "過程"
+           }
+          }
+         ],
+         "root": "sper",
+         "meaning": "The state of having almost no hope left, which drives extreme action.",
+         "example": "The hunger strike is an act of desperation, not a plan.",
+         "translations": {
+          "zh-Hans": "绝望",
+          "zh-Hant": "絕望",
+          "ja": "自暴自棄",
+          "ko": "자포자기",
+          "vi": "sự tuyệt vọng",
+          "ar": "يأس",
+          "fa": "استیصال",
+          "ur": "مایوسی کی انتہا",
+          "am": "ተስፋ መቁረጥ",
+          "ml": "നിരാശ",
+          "ta": "நம்பிக்கையிழப்பு",
+          "tl": "matinding kawalan ng pag-asa",
+          "ps": "نهيلي",
+          "ro": "disperare",
+          "ru": "отчаяние",
+          "fr": "désespoir",
+          "hi": "हताशा",
+          "es": "desesperación"
+         },
+         "origin": "Latin de- (away from) + sperare (to hope) — hope gone. Its opposite hides in 'prosper' (hope going forward)."
+        },
+        {
+         "word": "violence",
+         "parts": [
+          {
+           "surface": "viol",
+           "type": "root",
+           "meaning": "force",
+           "translations": {
+            "zh-Hans": "强力",
+            "zh-Hant": "強力",
+            "ja": "力ずく",
+            "ko": "힘",
+            "vi": "vũ lực",
+            "ar": "قوة",
+            "fa": "زور",
+            "ur": "زبردستی",
+            "am": "ኃይል",
+            "ml": "ബലം",
+            "ta": "வலு",
+            "tl": "puwersa",
+            "ps": "زور",
+            "ro": "forță",
+            "ru": "сила",
+            "fr": "force",
+            "hi": "बल",
+            "es": "fuerza"
+           }
+          },
+          {
+           "surface": "ence",
+           "type": "suffix",
+           "meaning": "state of",
+           "translations": {
+            "am": "ሁኔታ",
+            "ar": "حالة",
+            "es": "estado de",
+            "fa": "حالت",
+            "fr": "état de",
+            "hi": "अवस्था",
+            "ja": "状態",
+            "ko": "상태",
+            "ml": "അവസ്ഥ",
+            "ps": "حالت",
+            "ro": "stare de",
+            "ru": "состояние",
+            "ta": "நிலை",
+            "tl": "kalagayan",
+            "ur": "حالت",
+            "vi": "trạng thái",
+            "zh-Hans": "状态",
+            "zh-Hant": "狀態"
+           }
+          }
+         ],
+         "root": "viol",
+         "meaning": "The use of physical force to hurt or damage.",
+         "example": "When the riot starts, the violence catches everyone, guilty or not.",
+         "translations": {
+          "zh-Hans": "暴力",
+          "zh-Hant": "暴力",
+          "ja": "暴力",
+          "ko": "폭력",
+          "vi": "bạo lực",
+          "ar": "عنف",
+          "fa": "خشونت",
+          "ur": "تشدد",
+          "am": "ጥቃት",
+          "ml": "അക്രമം",
+          "ta": "வன்முறை",
+          "tl": "karahasan",
+          "ps": "تاوتریخوالی",
+          "ro": "violență",
+          "ru": "насилие",
+          "fr": "violence",
+          "hi": "हिंसा",
+          "es": "violencia"
+         },
+         "origin": "Latin vis — force, strength. Violence is force let loose; to 'violate' is to force a boundary."
+        },
+        {
+         "word": "uprising",
+         "parts": [
+          {
+           "surface": "up",
+           "type": "prefix",
+           "meaning": "upward",
+           "translations": {}
+          },
+          {
+           "surface": "ris",
+           "type": "root",
+           "meaning": "rise",
+           "translations": {
+            "zh-Hans": "升起",
+            "zh-Hant": "升起",
+            "ja": "立ち上がる",
+            "ko": "일어나다",
+            "vi": "vùng lên",
+            "ar": "ينهض",
+            "fa": "برخاستن",
+            "ur": "اٹھنا",
+            "am": "መነሳት",
+            "ml": "ഉയരുക",
+            "ta": "எழு",
+            "tl": "bumangon",
+            "ps": "پورته کېدل",
+            "ro": "a se ridica",
+            "ru": "подниматься",
+            "fr": "se lever",
+            "hi": "उठना",
+            "es": "levantarse"
+           }
+          },
+          {
+           "surface": "ing",
+           "type": "suffix",
+           "meaning": "action/process",
+           "translations": {
+            "zh-Hans": "过程",
+            "zh-Hant": "過程",
+            "am": "ሂደት",
+            "ar": "عملية",
+            "es": "acción/proceso",
+            "fa": "فرآیند / عمل",
+            "fr": "action de",
+            "hi": "क्रिया",
+            "ja": "行為 / 過程",
+            "ko": "행위",
+            "ml": "പ്രക്രിയ",
+            "ps": "بهير",
+            "ro": "acțiunea de",
+            "ru": "действие",
+            "ta": "செயல்",
+            "tl": "kilos",
+            "ur": "عمل",
+            "vi": "quá trình"
+           }
+          }
+         ],
+         "root": "ris",
+         "meaning": "A rising-up of many people against those in power.",
+         "example": "What the news calls a riot, the men call an uprising.",
+         "translations": {
+          "zh-Hans": "起义",
+          "zh-Hant": "起義",
+          "ja": "蜂起",
+          "ko": "봉기",
+          "vi": "cuộc nổi dậy",
+          "ar": "انتفاضة",
+          "fa": "قیام",
+          "ur": "بغاوت",
+          "am": "አመፅ",
+          "ml": "കലാപം",
+          "ta": "எழுச்சி",
+          "tl": "pag-aalsa",
+          "ps": "پاڅون",
+          "ro": "revoltă",
+          "ru": "восстание",
+          "fr": "soulèvement",
+          "hi": "विद्रोह",
+          "es": "levantamiento"
+         },
+         "origin": "Plain English: rising up. The word takes a side — a 'riot' is chaos, an 'uprising' is people standing up. The camp and the news use different words for the same night."
+        },
+        {
+         "word": "witness",
+         "parts": [
+          {
+           "surface": "wit",
+           "type": "root",
+           "meaning": "know",
+           "translations": {
+            "zh-Hans": "知道",
+            "zh-Hant": "知道",
+            "ja": "知る",
+            "ko": "알다",
+            "vi": "biết",
+            "ar": "يعرف",
+            "fa": "دانستن",
+            "ur": "جاننا",
+            "am": "ማወቅ",
+            "ml": "അറിയുക",
+            "ta": "அறி",
+            "tl": "alam",
+            "ps": "پوهېدل",
+            "ro": "a ști",
+            "ru": "знать",
+            "fr": "savoir",
+            "hi": "जानना",
+            "es": "saber"
+           }
+          },
+          {
+           "surface": "ness",
+           "type": "suffix",
+           "meaning": "state or quality of",
+           "translations": {
+            "fa": "وضعیت/ویژگی",
+            "am": "ሁኔታ/ባህሪ",
+            "ar": "حالة/صفة",
+            "es": "estado/cualidad",
+            "fr": "état/qualité",
+            "hi": "स्थिति/गुण",
+            "ja": "状態/性質",
+            "ko": "상태/성질",
+            "ml": "അവസ്ഥ/ഗുണം",
+            "ps": "حالت/خاصیت",
+            "ro": "stare/calitate",
+            "ru": "состояние/качество",
+            "ta": "நிலை/பண்பு",
+            "tl": "kalagayan/katangian",
+            "ur": "حالت/خاصیت",
+            "vi": "tính chất",
+            "zh-Hans": "状态",
+            "zh-Hant": "狀態"
+           }
+          }
+         ],
+         "root": "wit",
+         "meaning": "A person who sees something happen — or the act of seeing and telling it.",
+         "example": "Subhi is the only witness to what really happened that night.",
+         "translations": {
+          "zh-Hans": "目击者",
+          "zh-Hant": "目擊者",
+          "ja": "目撃者",
+          "ko": "목격자",
+          "vi": "nhân chứng",
+          "ar": "شاهد",
+          "fa": "شاهد",
+          "ur": "گواہ",
+          "am": "ምስክር",
+          "ml": "സാക്ഷി",
+          "ta": "சாட்சி",
+          "tl": "saksi",
+          "ps": "شاهد",
+          "ro": "martor",
+          "ru": "свидетель",
+          "fr": "témoin",
+          "hi": "गवाह",
+          "es": "testigo"
+         },
+         "origin": "Old English wit — knowledge (as in 'quick-witted'). A witness is one who knows because they were there, and -ness makes it a state of knowing."
+        },
+        {
+         "word": "memorial",
+         "parts": [
+          {
+           "surface": "memor",
+           "type": "root",
+           "meaning": "remember",
+           "translations": {
+            "zh-Hans": "记住",
+            "zh-Hant": "記住",
+            "ja": "覚えている",
+            "ko": "기억하다",
+            "vi": "ghi nhớ",
+            "ar": "يتذكر",
+            "fa": "به یاد داشتن",
+            "ur": "یاد رکھنا",
+            "am": "ማስታወስ",
+            "ml": "ഓർമിക്കുക",
+            "ta": "நினைவுகூர்",
+            "tl": "tandaan",
+            "ps": "یادول",
+            "ro": "a-și aminti",
+            "ru": "помнить",
+            "fr": "se souvenir",
+            "hi": "याद रखना",
+            "es": "recordar"
+           }
+          },
+          {
+           "surface": "ial",
+           "type": "suffix",
+           "meaning": "relating to",
+           "translations": {
+            "zh-Hans": "与……有关的",
+            "zh-Hant": "與……有關的",
+            "vi": "liên quan",
+            "am": "የ… ያለ",
+            "ar": "متعلق بـ",
+            "es": "relativo a",
+            "fa": "مربوط به",
+            "fr": "relatif à",
+            "hi": "से संबंधित",
+            "ja": "～の",
+            "ko": "관련된",
+            "ml": "ബന്ധപ്പെട്ട",
+            "ps": "اړوند",
+            "ro": "referitor la",
+            "ru": "относящийся к",
+            "ta": "தொடர்பான",
+            "tl": "kaugnay sa",
+            "ur": "سے متعلق"
+           }
+          }
+         ],
+         "root": "memor",
+         "meaning": "Something made or done to remember a person or event.",
+         "example": "The paper boats become a memorial for Eli.",
+         "translations": {
+          "zh-Hans": "纪念物",
+          "zh-Hant": "紀念物",
+          "ja": "記念碑",
+          "ko": "추모물",
+          "vi": "đài tưởng niệm",
+          "ar": "نصب تذكاري",
+          "fa": "یادبود",
+          "ur": "یادگار",
+          "am": "መታሰቢያ",
+          "ml": "സ്മാരകം",
+          "ta": "நினைவுச் சின்னம்",
+          "tl": "alaala",
+          "ps": "یادگار",
+          "ro": "memorial",
+          "ru": "мемориал",
+          "fr": "mémorial",
+          "hi": "स्मारक",
+          "es": "monumento conmemorativo"
+         },
+         "origin": "Latin memor — mindful, remembering. Memory, remember, memorial: all keeping the mind full of someone."
+        },
+        {
+         "word": "tragedy",
+         "parts": [
+          {
+           "surface": "tragedy",
+           "type": "root",
+           "meaning": "goat-song",
+           "translations": {
+            "zh-Hans": "山羊之歌",
+            "zh-Hant": "山羊之歌",
+            "ja": "山羊の歌",
+            "ko": "염소의 노래",
+            "vi": "bài ca con dê",
+            "ar": "أغنية الماعز",
+            "fa": "آواز بز",
+            "ur": "بکرے کا گیت",
+            "am": "የፍየል መዝሙር",
+            "ml": "ആടിന്റെ പാട്ട്",
+            "ta": "ஆட்டுப் பாடல்",
+            "tl": "awit ng kambing",
+            "ps": "د وزې سندره",
+            "ro": "cântecul țapului",
+            "ru": "песнь козла",
+            "fr": "chant du bouc",
+            "hi": "बकरे का गीत",
+            "es": "canto del macho cabrío"
+           }
+          }
+         ],
+         "root": "tragedy",
+         "meaning": "A terribly sad event; in literature, a story that ends in loss.",
+         "example": "No report can hold the whole tragedy of one boy's death.",
+         "translations": {
+          "zh-Hans": "悲剧",
+          "zh-Hant": "悲劇",
+          "ja": "悲劇",
+          "ko": "비극",
+          "vi": "bi kịch",
+          "ar": "مأساة",
+          "fa": "تراژدی",
+          "ur": "المیہ",
+          "am": "አሳዛኝ ክስተት",
+          "ml": "ദുരന്തം",
+          "ta": "சோகம்",
+          "tl": "trahedya",
+          "ps": "غمیزه",
+          "ro": "tragedie",
+          "ru": "трагедия",
+          "fr": "tragédie",
+          "hi": "त्रासदी",
+          "es": "tragedia"
+         },
+         "origin": "Greek tragōidia — literally 'goat-song' (tragos + ōidē), from the earliest Greek theatre. Now the saddest word we have for the saddest events."
+        },
+        {
+         "word": "freedom",
+         "parts": [
+          {
+           "surface": "free",
+           "type": "root",
+           "meaning": "liberty",
+           "translations": {
+            "zh-Hans": "自由",
+            "zh-Hant": "自由",
+            "ja": "自由",
+            "am": "ነፃነት",
+            "ar": "حرية",
+            "es": "libertad",
+            "fa": "آزادی",
+            "fr": "liberté",
+            "hi": "स्वतंत्रता",
+            "ko": "자유",
+            "ml": "സ്വാതന്ത്ര്യം",
+            "ps": "ازادي",
+            "ro": "libertate",
+            "ru": "свобода",
+            "ta": "சுதந்திரம்",
+            "tl": "kalayaan",
+            "ur": "آزادی",
+            "vi": "tự do"
+           }
+          },
+          {
+           "surface": "dom",
+           "type": "suffix",
+           "meaning": "state/condition",
+           "translations": {
+            "zh-Hans": "状态",
+            "zh-Hant": "狀態",
+            "ja": "状態",
+            "am": "ሁኔታ",
+            "ar": "حالة",
+            "es": "estado/condición",
+            "fa": "وضعیت / حالت",
+            "fr": "état",
+            "hi": "अवस्था",
+            "ko": "상태",
+            "ml": "അവസ്ഥ",
+            "ps": "حالت",
+            "ro": "stare",
+            "ru": "состояние",
+            "ta": "நிலை",
+            "tl": "kalagayan",
+            "ur": "حالت",
+            "vi": "tình trạng"
+           }
+          }
+         ],
+         "root": "free",
+         "meaning": "The state of not being imprisoned or controlled.",
+         "example": "Freedom is the word Subhi knows best and has seen least.",
+         "translations": {
+          "zh-Hans": "自由",
+          "zh-Hant": "自由",
+          "ja": "自由",
+          "ko": "자유",
+          "vi": "tự do",
+          "ar": "حرية",
+          "fa": "آزادی",
+          "ur": "آزادی",
+          "am": "ነጻነት",
+          "ml": "സ്വാതന്ത്ര്യം",
+          "ta": "சுதந்திரம்",
+          "tl": "kalayaan",
+          "ps": "ازادي",
+          "ro": "libertate",
+          "ru": "свобода",
+          "fr": "liberté",
+          "hi": "स्वतंत्रता",
+          "es": "libertad"
+         },
+         "origin": "Old English frēo + -dom (the state of — as in kingdom, wisdom). Related to 'friend': in Old English, the free and the beloved shared a root."
+        },
+        {
+         "word": "hunger strike",
+         "parts": [
+          {
+           "surface": "hunger",
+           "type": "root",
+           "meaning": "hunger",
+           "translations": {
+            "zh-Hans": "饥饿",
+            "zh-Hant": "飢餓",
+            "ja": "飢え",
+            "ko": "굶주림",
+            "vi": "cơn đói",
+            "ar": "جوع",
+            "fa": "گرسنگی",
+            "ur": "بھوک",
+            "am": "ረሃብ",
+            "ml": "വിശപ്പ്",
+            "ta": "பசி",
+            "tl": "gutom",
+            "ps": "لوږه",
+            "ro": "foame",
+            "ru": "голод",
+            "fr": "faim",
+            "hi": "भूख",
+            "es": "hambre"
+           }
+          },
+          {
+           "surface": "strike",
+           "type": "root",
+           "meaning": "refuse together",
+           "translations": {
+            "zh-Hans": "集体拒绝",
+            "zh-Hant": "集體拒絕",
+            "ja": "共に拒む",
+            "ko": "함께 거부하다",
+            "vi": "cùng từ chối",
+            "ar": "يمتنع جماعيا",
+            "fa": "امتناع جمعی",
+            "ur": "مل کر انکار",
+            "am": "በጋራ እምቢ ማለት",
+            "ml": "ഒരുമിച്ച് നിരസിക്കുക",
+            "ta": "கூட்டாக மறு",
+            "tl": "sama-samang tumanggi",
+            "ps": "ګډ انکار",
+            "ro": "a refuza împreună",
+            "ru": "бастовать",
+            "fr": "refuser ensemble",
+            "hi": "मिलकर इनकार",
+            "es": "negarse juntos"
+           }
+          }
+         ],
+         "root": "hunger",
+         "meaning": "Refusing to eat as a form of protest.",
+         "example": "The hunger strike spreads through the family compound.",
+         "translations": {
+          "zh-Hans": "绝食抗议",
+          "zh-Hant": "絕食抗議",
+          "ja": "ハンガーストライキ",
+          "ko": "단식 투쟁",
+          "vi": "tuyệt thực",
+          "ar": "إضراب عن الطعام",
+          "fa": "اعتصاب غذا",
+          "ur": "بھوک ہڑتال",
+          "am": "የረሃብ አድማ",
+          "ml": "നിരാഹാരസമരം",
+          "ta": "உண்ணாவிரதப் போராட்டம்",
+          "tl": "welga sa gutom",
+          "ps": "د لوږې اعتصاب",
+          "ro": "greva foamei",
+          "ru": "голодовка",
+          "fr": "grève de la faim",
+          "hi": "भूख हड़ताल",
+          "es": "huelga de hambre"
+         },
+         "origin": "Strike here is from workers 'striking' (lowering) a ship's sails to stop work. A hunger strike stops eating instead — the only tool left when everything else is taken."
+        },
+        {
+         "word": "survival",
+         "parts": [
+          {
+           "surface": "sur",
+           "type": "prefix",
+           "meaning": "over/above",
+           "translations": {
+            "am": "በላይ",
+            "ar": "فوق / أعلى",
+            "es": "sobre/encima",
+            "fa": "بالای / فراتر",
+            "fr": "sur / au-dessus",
+            "hi": "ऊपर / से अधिक",
+            "ja": "上に／超えて",
+            "ko": "위에 / 넘어서",
+            "ml": "മുകളിൽ / മേലെ",
+            "ps": "پورته / باندې",
+            "ro": "peste / deasupra",
+            "ru": "над / сверх",
+            "ta": "மேல் / மேலாக",
+            "tl": "sa itaas / lampas",
+            "ur": "اوپر / بالا",
+            "vi": "trên / vượt quá",
+            "zh-Hans": "在……之上／超过",
+            "zh-Hant": "在……之上／超過"
+           }
+          },
+          {
+           "surface": "viv",
+           "type": "root",
+           "meaning": "live",
+           "translations": {
+            "zh-Hans": "活/活",
+            "zh-Hant": "活/活",
+            "am": "መኖር",
+            "ar": "يعيش",
+            "es": "vivir",
+            "fa": "زندگی کردن",
+            "fr": "vivre",
+            "hi": "जीना",
+            "ja": "生きる",
+            "ko": "살다",
+            "ml": "ജീവിക്കുക",
+            "ps": "ژوند کول",
+            "ro": "a trăi",
+            "ru": "жить",
+            "ta": "வாழ்",
+            "tl": "mabuhay",
+            "ur": "جینا",
+            "vi": "sống"
+           }
+          },
+          {
+           "surface": "al",
+           "type": "suffix",
+           "meaning": "relating to",
+           "translations": {
+            "fa": "وابسته به",
+            "am": "ተያያዥ",
+            "ar": "متعلق بـ",
+            "es": "relativo a",
+            "fr": "relatif à",
+            "hi": "संबंधी",
+            "ja": "～の",
+            "ko": "관련된",
+            "ml": "ബന്ധപ്പെട്ട",
+            "ps": "اړوند",
+            "ro": "legat de",
+            "ru": "относящийся к",
+            "ta": "தொடர்பான",
+            "tl": "may kaugnayan sa",
+            "ur": "متعلق",
+            "vi": "thuộc về",
+            "zh-Hans": "……的",
+            "zh-Hant": "……的"
+           }
+          }
+         ],
+         "root": "viv",
+         "meaning": "Staying alive through danger or hardship.",
+         "example": "In the camp, survival itself is an act of resistance.",
+         "translations": {
+          "zh-Hans": "生存",
+          "zh-Hant": "生存",
+          "ja": "生き延びること",
+          "ko": "생존",
+          "vi": "sự sống sót",
+          "ar": "البقاء",
+          "fa": "بقا",
+          "ur": "بقا",
+          "am": "መትረፍ",
+          "ml": "അതിജീവനം",
+          "ta": "உயிர்வாழ்தல்",
+          "tl": "pananatiling buhay",
+          "ps": "ژوندي پاتې کېدل",
+          "ro": "supraviețuire",
+          "ru": "выживание",
+          "fr": "survie",
+          "hi": "उत्तरजीविता",
+          "es": "supervivencia"
+         },
+         "origin": "Latin super (beyond) + vivere (to live) — to live beyond. The same viv as in 'vivid' and 'revive'."
+        },
+        {
+         "word": "silence",
+         "parts": [
+          {
+           "surface": "sil",
+           "type": "root",
+           "meaning": "quiet",
+           "translations": {
+            "zh-Hans": "安静",
+            "zh-Hant": "安靜",
+            "ja": "静か",
+            "ko": "조용한",
+            "vi": "yên lặng",
+            "ar": "هادئ",
+            "fa": "خاموش",
+            "ur": "خاموش",
+            "am": "ጸጥ",
+            "ml": "നിശ്ശബ്ദമായ",
+            "ta": "அமைதி",
+            "tl": "tahimik",
+            "ps": "غلی",
+            "ro": "liniștit",
+            "ru": "тихий",
+            "fr": "silencieux",
+            "hi": "शांत",
+            "es": "callado"
+           }
+          },
+          {
+           "surface": "ence",
+           "type": "suffix",
+           "meaning": "state of",
+           "translations": {
+            "am": "ሁኔታ",
+            "ar": "حالة",
+            "es": "estado de",
+            "fa": "حالت",
+            "fr": "état de",
+            "hi": "अवस्था",
+            "ja": "状態",
+            "ko": "상태",
+            "ml": "അവസ്ഥ",
+            "ps": "حالت",
+            "ro": "stare de",
+            "ru": "состояние",
+            "ta": "நிலை",
+            "tl": "kalagayan",
+            "ur": "حالت",
+            "vi": "trạng thái",
+            "zh-Hans": "状态",
+            "zh-Hant": "狀態"
+           }
+          }
+         ],
+         "root": "sil",
+         "meaning": "The absence of sound or speech — chosen or forced.",
+         "example": "After the riot, a heavy silence hangs over the camp.",
+         "translations": {
+          "zh-Hans": "寂静",
+          "zh-Hant": "寂靜",
+          "ja": "沈黙",
+          "ko": "침묵",
+          "vi": "sự im lặng",
+          "ar": "صمت",
+          "fa": "سکوت",
+          "ur": "خاموشی",
+          "am": "ጸጥታ",
+          "ml": "നിശ്ശബ്ദത",
+          "ta": "மௌனம்",
+          "tl": "katahimikan",
+          "ps": "چوپتیا",
+          "ro": "tăcere",
+          "ru": "тишина",
+          "fr": "silence",
+          "hi": "ख़ामोशी",
+          "es": "silencio"
+         },
+         "origin": "Latin silere, to be still. In the novel silence is both weapon and wound — chosen by the men with sewn lips, forced on everyone else."
+        }
+       ],
+       "path": "year-7/english/bone-sparrow-final"
       }
      ]
     },
@@ -335953,6 +339067,11 @@
      "disadvantage",
      "year-10/humanities/politics",
      "age"
+    ],
+    [
+     "courage",
+     "year-7/english/bone-sparrow-middle",
+     "age"
     ]
    ]
   },
@@ -336627,6 +339746,11 @@
      "al"
     ],
     [
+     "survival",
+     "year-7/english/bone-sparrow-final",
+     "al"
+    ],
+    [
      "judgemental",
      "year-7/english/film",
      "al"
@@ -337082,6 +340206,11 @@
      "variance",
      "vce/math-methods/unit-3-4-aos-4",
      "ance"
+    ],
+    [
+     "surveillance",
+     "year-7/english/bone-sparrow-early",
+     "ance"
     ]
    ]
   },
@@ -337311,6 +340440,11 @@
     [
      "reactant",
      "elc/science/chemical-reactions",
+     "ant"
+    ],
+    [
+     "pendant",
+     "year-7/english/bone-sparrow-middle",
      "ant"
     ],
     [
@@ -338112,6 +341246,23 @@
      "curated",
      "elc/humanities/social-media-ban",
      "ated"
+    ]
+   ]
+  },
+  "ate|having (makes an adjective)": {
+   "surface": "ate",
+   "meaning": "having (makes an adjective)",
+   "type": "suffix",
+   "words": [
+    [
+     "immaculately",
+     "vce/eal/extra-vocab",
+     "ate"
+    ],
+    [
+     "illiterate",
+     "year-7/english/bone-sparrow-middle",
+     "ate"
     ]
    ]
   },
@@ -339409,6 +342560,21 @@
     [
      "incarceration",
      "year-7/english/bone-sparrow",
+     "ation"
+    ],
+    [
+     "imagination",
+     "year-7/english/bone-sparrow-early",
+     "ation"
+    ],
+    [
+     "desperation",
+     "year-7/english/bone-sparrow-final",
+     "ation"
+    ],
+    [
+     "generation",
+     "year-7/english/bone-sparrow-middle",
      "ation"
     ],
     [
@@ -342932,6 +346098,11 @@
      "con"
     ],
     [
+     "confinement",
+     "year-7/english/bone-sparrow-early",
+     "con"
+    ],
+    [
      "conflict",
      "year-7/english/narrative",
      "con"
@@ -343460,6 +346631,11 @@
     [
      "encouraging",
      "elc/humanities/history",
+     "cour"
+    ],
+    [
+     "courage",
+     "year-7/english/bone-sparrow-middle",
      "cour"
     ]
    ]
@@ -344378,6 +347554,11 @@
     [
      "detention",
      "year-7/english/bone-sparrow",
+     "de"
+    ],
+    [
+     "desperation",
+     "year-7/english/bone-sparrow-final",
      "de"
     ],
     [
@@ -345311,6 +348492,11 @@
     ],
     [
      "freedom",
+     "year-7/english/bone-sparrow-final",
+     "dom"
+    ],
+    [
+     "freedom",
      "year-7/humanities-civics/civics",
      "dom"
     ],
@@ -345725,6 +348911,11 @@
     [
      "dispossessed",
      "year-7/english/bone-sparrow",
+     "ed"
+    ],
+    [
+     "overcrowded",
+     "year-7/english/bone-sparrow-early",
      "ed"
     ]
    ]
@@ -346400,6 +349591,16 @@
     [
      "adherence",
      "vce/vm-work-related-skills/unit-4-aos-1",
+     "ence"
+    ],
+    [
+     "silence",
+     "year-7/english/bone-sparrow-final",
+     "ence"
+    ],
+    [
+     "violence",
+     "year-7/english/bone-sparrow-final",
      "ence"
     ],
     [
@@ -347395,6 +350596,11 @@
     [
      "bystander",
      "year-7/english/bone-sparrow",
+     "er"
+    ],
+    [
+     "storyteller",
+     "year-7/english/bone-sparrow-middle",
      "er"
     ],
     [
@@ -348821,6 +352027,11 @@
      "fin"
     ],
     [
+     "confinement",
+     "year-7/english/bone-sparrow-early",
+     "fin"
+    ],
+    [
      "finite",
      "year-7/humanities-civics/water-2-2",
      "fin"
@@ -349254,6 +352465,11 @@
     ],
     [
      "freedom",
+     "year-7/english/bone-sparrow-final",
+     "free"
+    ],
+    [
+     "freedom",
      "year-7/humanities-civics/civics",
      "free"
     ],
@@ -349489,7 +352705,7 @@
   "geo|earth": {
    "surface": "geo",
    "meaning": "earth",
-   "type": "prefix",
+   "type": "root",
    "words": [
     [
      "geometric",
@@ -350242,6 +353458,11 @@
      "ial"
     ],
     [
+     "memorial",
+     "year-7/english/bone-sparrow-final",
+     "ial"
+    ],
+    [
      "judicial",
      "year-7/humanities-civics/civics",
      "ial"
@@ -350567,6 +353788,23 @@
     [
      "prejudice",
      "vce/psychology/unit-2-aos-1",
+     "ice"
+    ]
+   ]
+  },
+  "ice|state of": {
+   "surface": "ice",
+   "meaning": "state of",
+   "type": "suffix",
+   "words": [
+    [
+     "justice",
+     "vce/philosophy/unit-2-aos-2",
+     "ice"
+    ],
+    [
+     "injustice",
+     "year-7/english/bone-sparrow-final",
      "ice"
     ]
    ]
@@ -351526,6 +354764,23 @@
     ]
    ]
   },
+  "il|not": {
+   "surface": "il",
+   "meaning": "not",
+   "type": "prefix",
+   "words": [
+    [
+     "illiberalism",
+     "vce/politics/unit-2-aos-2",
+     "il"
+    ],
+    [
+     "illiterate",
+     "year-7/english/bone-sparrow-middle",
+     "il"
+    ]
+   ]
+  },
   "imag|likeness/picture": {
    "surface": "imag",
    "meaning": "likeness/picture",
@@ -351730,6 +354985,23 @@
     ]
    ]
   },
+  "ine|makes a noun": {
+   "surface": "ine",
+   "meaning": "makes a noun",
+   "type": "suffix",
+   "words": [
+    [
+     "routine",
+     "year-7/english/bone-sparrow-early",
+     "ine"
+    ],
+    [
+     "turbine",
+     "year-9/science/magnetism",
+     "ine"
+    ]
+   ]
+  },
   "inform|to give knowledge to": {
    "surface": "inform",
    "meaning": "to give knowledge to",
@@ -351921,6 +355193,11 @@
     [
      "advertising",
      "year-10/english-language/unit-1",
+     "ing"
+    ],
+    [
+     "uprising",
+     "year-7/english/bone-sparrow-final",
      "ing"
     ],
     [
@@ -352809,6 +356086,11 @@
      "in"
     ],
     [
+     "injustice",
+     "year-7/english/bone-sparrow-final",
+     "in"
+    ],
+    [
      "independent",
      "year-7/humanities-civics/civics",
      "in"
@@ -353551,6 +356833,26 @@
     [
      "persecution",
      "year-7/english/bone-sparrow",
+     "ion"
+    ],
+    [
+     "ration",
+     "year-7/english/bone-sparrow-early",
+     "ion"
+    ],
+    [
+     "restriction",
+     "year-7/english/bone-sparrow-early",
+     "ion"
+    ],
+    [
+     "protection",
+     "year-7/english/bone-sparrow-middle",
+     "ion"
+    ],
+    [
+     "superstition",
+     "year-7/english/bone-sparrow-middle",
      "ion"
     ],
     [
@@ -355852,7 +359154,7 @@
   "it|go": {
    "surface": "it",
    "meaning": "go",
-   "type": "suffix",
+   "type": "root",
    "words": [
     [
      "Ambition",
@@ -356685,6 +359987,11 @@
     [
      "justify",
      "vce/vm-personal-development-skills/unit-2-aos-3",
+     "just"
+    ],
+    [
+     "injustice",
+     "year-7/english/bone-sparrow-final",
      "just"
     ]
    ]
@@ -357834,6 +361141,23 @@
     ]
    ]
   },
+  "mal|bad": {
+   "surface": "mal",
+   "meaning": "bad",
+   "type": "prefix",
+   "words": [
+    [
+     "malfunction",
+     "vce/biology/unit-1-aos-1",
+     "mal"
+    ],
+    [
+     "malnutrition",
+     "year-7/english/bone-sparrow-early",
+     "mal"
+    ]
+   ]
+  },
   "mand|order/ask for": {
    "surface": "mand",
    "meaning": "order/ask for",
@@ -358138,6 +361462,11 @@
     [
      "engagement",
      "vce/vm-personal-development-skills/unit-2-aos-1",
+     "ment"
+    ],
+    [
+     "confinement",
+     "year-7/english/bone-sparrow-early",
      "ment"
     ],
     [
@@ -358611,6 +361940,11 @@
     ],
     [
      "perimeter",
+     "year-7/english/bone-sparrow-early",
+     "meter"
+    ],
+    [
+     "perimeter",
      "year-7/mathematics/measurement",
      "meter"
     ],
@@ -358913,6 +362247,11 @@
     [
      "monopoly",
      "vce/economics/unit-1-aos-2",
+     "mono"
+    ],
+    [
+     "monotonous",
+     "year-7/english/bone-sparrow-early",
      "mono"
     ]
    ]
@@ -359356,6 +362695,11 @@
     [
      "stillness",
      "vce/theatre-studies/unit-4-aos-3",
+     "ness"
+    ],
+    [
+     "witness",
+     "year-7/english/bone-sparrow-final",
      "ness"
     ]
    ]
@@ -360506,6 +363850,11 @@
      "simultaneous",
      "year-10/mathematics/build-number-algebra",
      "ous"
+    ],
+    [
+     "monotonous",
+     "year-7/english/bone-sparrow-early",
+     "ous"
     ]
    ]
   },
@@ -360682,6 +364031,11 @@
      "overdose",
      "year-10/forensic-science/toxicology",
      "over"
+    ],
+    [
+     "overcrowded",
+     "year-7/english/bone-sparrow-early",
+     "over"
     ]
    ]
   },
@@ -360849,6 +364203,11 @@
      "compass",
      "vce/vm-numeracy/unit-2-aos-2",
      "pass"
+    ],
+    [
+     "trespass",
+     "year-7/english/bone-sparrow-middle",
+     "pass"
     ]
    ]
   },
@@ -360988,6 +364347,11 @@
      "pend"
     ],
     [
+     "pendant",
+     "year-7/english/bone-sparrow-middle",
+     "pend"
+    ],
+    [
      "dependent variable",
      "year-7/mathematics/algebra-2",
      "pend"
@@ -361029,6 +364393,11 @@
     [
      "perimeter",
      "vce/general-mathematics/unit-1-2-measurement",
+     "peri"
+    ],
+    [
+     "perimeter",
+     "year-7/english/bone-sparrow-early",
      "peri"
     ],
     [
@@ -363374,6 +366743,16 @@
      "pro"
     ],
     [
+     "protest",
+     "year-7/english/bone-sparrow-final",
+     "pro"
+    ],
+    [
+     "protection",
+     "year-7/english/bone-sparrow-middle",
+     "pro"
+    ],
+    [
      "protagonist",
      "year-7/english/film",
      "pro"
@@ -363689,6 +367068,11 @@
     [
      "quadratic",
      "elc/mathematics/algebra",
+     "rat"
+    ],
+    [
+     "ration",
+     "year-7/english/bone-sparrow-early",
      "rat"
     ],
     [
@@ -364629,6 +368013,11 @@
     [
      "refugee",
      "year-7/english/bone-sparrow",
+     "re"
+    ],
+    [
+     "restriction",
+     "year-7/english/bone-sparrow-early",
      "re"
     ],
     [
@@ -366515,6 +369904,11 @@
      "supertaster",
      "vce/psychology/unit-2-aos-2",
      "super"
+    ],
+    [
+     "superstition",
+     "year-7/english/bone-sparrow-middle",
+     "super"
     ]
    ]
   },
@@ -366541,6 +369935,16 @@
     [
      "surface area",
      "vce/general-mathematics/unit-1-2-measurement",
+     "sur"
+    ],
+    [
+     "surveillance",
+     "year-7/english/bone-sparrow-early",
+     "sur"
+    ],
+    [
+     "survival",
+     "year-7/english/bone-sparrow-final",
      "sur"
     ]
    ]
@@ -367272,6 +370676,11 @@
    "type": "root",
    "words": [
     [
+     "protection",
+     "year-7/english/bone-sparrow-middle",
+     "tect"
+    ],
+    [
      "protect",
      "year-9/science/fighting-infections",
      "tect"
@@ -367609,6 +371018,11 @@
     [
      "contested",
      "vce/english-language/unit-4-aos-1",
+     "test"
+    ],
+    [
+     "protest",
+     "year-7/english/bone-sparrow-final",
      "test"
     ]
    ]
@@ -368049,6 +371463,11 @@
      "tion"
     ],
     [
+     "malnutrition",
+     "year-7/english/bone-sparrow-early",
+     "tion"
+    ],
+    [
      "substitution",
      "year-8/mathematics/algebra",
      "tion"
@@ -368156,6 +371575,11 @@
     [
      "intonation",
      "vce/vm-literacy/unit-4-aos-2",
+     "ton"
+    ],
+    [
+     "monotonous",
+     "year-7/english/bone-sparrow-early",
      "ton"
     ]
    ]
@@ -370109,6 +373533,11 @@
     [
      "Survival",
      "elc/humanities/social-media-ban",
+     "viv"
+    ],
+    [
+     "survival",
+     "year-7/english/bone-sparrow-final",
      "viv"
     ],
     [
@@ -372168,6 +375597,11 @@
      "disadvantage",
      "elc/science/ecosystems",
      "age"
+    ],
+    [
+     "courage",
+     "year-7/english/bone-sparrow-middle",
+     "age"
     ]
    ],
    "extras": []
@@ -373212,6 +376646,11 @@
      "centralised",
      "year-8/humanities/shogun",
      "al"
+    ],
+    [
+     "survival",
+     "year-7/english/bone-sparrow-final",
+     "al"
     ]
    ],
    "extras": [
@@ -373615,6 +377054,11 @@
      "dominance",
      "vce/general-mathematics/unit-4-aos-1",
      "ance"
+    ],
+    [
+     "surveillance",
+     "year-7/english/bone-sparrow-early",
+     "ance"
     ]
    ],
    "extras": [
@@ -373946,6 +377390,11 @@
     [
      "reactant",
      "elc/science/chemical-reactions",
+     "ant"
+    ],
+    [
+     "pendant",
+     "year-7/english/bone-sparrow-middle",
      "ant"
     ]
    ],
@@ -375292,6 +378741,11 @@
     [
      "evaluate",
      "year-7/mathematics/command-terms",
+     "ate"
+    ],
+    [
+     "illiterate",
+     "year-7/english/bone-sparrow-middle",
      "ate"
     ]
    ],
@@ -376670,6 +380124,21 @@
     [
      "dislocation",
      "year-7/english/bone-sparrow",
+     "ation"
+    ],
+    [
+     "imagination",
+     "year-7/english/bone-sparrow-early",
+     "ation"
+    ],
+    [
+     "generation",
+     "year-7/english/bone-sparrow-middle",
+     "ation"
+    ],
+    [
+     "desperation",
+     "year-7/english/bone-sparrow-final",
      "ation"
     ]
    ],
@@ -378277,6 +381746,22 @@
     ]
    ],
    "extras": []
+  },
+  "bidd|command": {
+   "surface": "bidd",
+   "variants": [
+    "bidd"
+   ],
+   "type": "root",
+   "gloss": "command",
+   "aka": [],
+   "words": [
+    [
+     "forbidden",
+     "year-7/english/bone-sparrow-middle",
+     "bidd"
+    ]
+   ]
   },
   "bility|capable of": {
    "surface": "bility",
@@ -382950,6 +386435,11 @@
      "compare",
      "year-7/mathematics/command-terms",
      "com"
+    ],
+    [
+     "confinement",
+     "year-7/english/bone-sparrow-early",
+     "con"
     ]
    ],
    "extras": [
@@ -383278,6 +386768,11 @@
      "courage",
      "elc/humanities/general-vocabulary",
      "cour"
+    ],
+    [
+     "courage",
+     "year-7/english/bone-sparrow-middle",
+     "cour"
     ]
    ]
   },
@@ -383578,6 +387073,22 @@
     "criticism"
    ]
   },
+  "crowd|press together": {
+   "surface": "crowd",
+   "variants": [
+    "crowd"
+   ],
+   "type": "root",
+   "gloss": "press together",
+   "aka": [],
+   "words": [
+    [
+     "overcrowded",
+     "year-7/english/bone-sparrow-early",
+     "crowd"
+    ]
+   ]
+  },
   "cru|grow/accumulate": {
    "surface": "cru",
    "variants": [
@@ -383742,6 +387253,22 @@
      "accumulate",
      "vce/command-terms/data-graphs",
      "cumul"
+    ]
+   ]
+  },
+  "curi|care/want to know": {
+   "surface": "curi",
+   "variants": [
+    "curi"
+   ],
+   "type": "root",
+   "gloss": "care/want to know",
+   "aka": [],
+   "words": [
+    [
+     "curiosity",
+     "year-7/english/bone-sparrow-middle",
+     "curi"
     ]
    ]
   },
@@ -384803,6 +388330,11 @@
     [
      "detention",
      "year-7/english/bone-sparrow",
+     "de"
+    ],
+    [
+     "desperation",
+     "year-7/english/bone-sparrow-final",
      "de"
     ]
    ],
@@ -386087,6 +389619,11 @@
      "freedom",
      "elc/humanities/general-vocabulary",
      "dom"
+    ],
+    [
+     "freedom",
+     "year-7/english/bone-sparrow-final",
+     "dom"
     ]
    ],
    "extras": []
@@ -386859,6 +390396,11 @@
     [
      "dispossessed",
      "year-7/english/bone-sparrow",
+     "ed"
+    ],
+    [
+     "overcrowded",
+     "year-7/english/bone-sparrow-early",
      "ed"
     ]
    ],
@@ -387938,6 +391480,16 @@
      "precedence",
      "vce/general-mathematics/unit-4-aos-2",
      "ence"
+    ],
+    [
+     "violence",
+     "year-7/english/bone-sparrow-final",
+     "ence"
+    ],
+    [
+     "silence",
+     "year-7/english/bone-sparrow-final",
+     "ence"
     ]
    ],
    "extras": [
@@ -388692,6 +392244,22 @@
    ],
    "extras": []
   },
+  "en|having been (makes an adjective)": {
+   "surface": "en",
+   "variants": [
+    "en"
+   ],
+   "type": "suffix",
+   "gloss": "having been (makes an adjective)",
+   "aka": [],
+   "words": [
+    [
+     "forbidden",
+     "year-7/english/bone-sparrow-middle",
+     "en"
+    ]
+   ]
+  },
   "en|make/put into": {
    "surface": "en",
    "variants": [
@@ -389388,6 +392956,11 @@
     [
      "bystander",
      "year-7/english/bone-sparrow",
+     "er"
+    ],
+    [
+     "storyteller",
+     "year-7/english/bone-sparrow-middle",
      "er"
     ]
    ],
@@ -391726,6 +395299,11 @@
      "finite",
      "year-7/humanities-civics/water-2-2",
      "fin"
+    ],
+    [
+     "confinement",
+     "year-7/english/bone-sparrow-early",
+     "fin"
     ]
    ],
    "extras": []
@@ -392384,6 +395962,22 @@
     "formal"
    ]
   },
+  "for|against/away": {
+   "surface": "for",
+   "variants": [
+    "for"
+   ],
+   "type": "prefix",
+   "gloss": "against/away",
+   "aka": [],
+   "words": [
+    [
+     "forbidden",
+     "year-7/english/bone-sparrow-middle",
+     "for"
+    ]
+   ]
+  },
   "for|outside": {
    "surface": "for",
    "variants": [
@@ -392540,6 +396134,11 @@
     [
      "freedom",
      "elc/humanities/general-vocabulary",
+     "free"
+    ],
+    [
+     "freedom",
+     "year-7/english/bone-sparrow-final",
      "free"
     ]
    ],
@@ -392977,6 +396576,22 @@
      "gas",
      "year-7/science/particles",
      "gas"
+    ]
+   ]
+  },
+  "gener|birth/produce": {
+   "surface": "gener",
+   "variants": [
+    "gener"
+   ],
+   "type": "root",
+   "gloss": "birth/produce",
+   "aka": [],
+   "words": [
+    [
+     "generation",
+     "year-7/english/bone-sparrow-middle",
+     "gener"
     ]
    ]
   },
@@ -394239,6 +397854,22 @@
    ],
    "extras": []
   },
+  "heir|inheritor": {
+   "surface": "heir",
+   "variants": [
+    "heir"
+   ],
+   "type": "root",
+   "gloss": "inheritor",
+   "aka": [],
+   "words": [
+    [
+     "heirloom",
+     "year-7/english/bone-sparrow-middle",
+     "heir"
+    ]
+   ]
+  },
   "helix|spiral": {
    "surface": "helix",
    "variants": [
@@ -394680,6 +398311,22 @@
     ]
    ]
   },
+  "horizon|boundary line": {
+   "surface": "horizon",
+   "variants": [
+    "horizon"
+   ],
+   "type": "root",
+   "gloss": "boundary line",
+   "aka": [],
+   "words": [
+    [
+     "horizon",
+     "year-7/english/bone-sparrow-early",
+     "horizon"
+    ]
+   ]
+  },
   "hormone|chemical messenger": {
    "surface": "hormone",
    "variants": [
@@ -394752,6 +398399,22 @@
      "humorist",
      "elc/english/ironbark-stanza-2",
      "humor"
+    ]
+   ]
+  },
+  "hunger|hunger": {
+   "surface": "hunger",
+   "variants": [
+    "hunger"
+   ],
+   "type": "root",
+   "gloss": "hunger",
+   "aka": [],
+   "words": [
+    [
+     "hunger strike",
+     "year-7/english/bone-sparrow-final",
+     "hunger"
     ]
    ]
   },
@@ -395079,6 +398742,11 @@
     [
      "imperial period",
      "year-7/humanities-civics/history-rome",
+     "ial"
+    ],
+    [
+     "memorial",
+     "year-7/english/bone-sparrow-final",
      "ial"
     ]
    ],
@@ -395568,6 +399236,11 @@
     [
      "justice",
      "vce/philosophy/unit-2-aos-2",
+     "ice"
+    ],
+    [
+     "injustice",
+     "year-7/english/bone-sparrow-final",
      "ice"
     ]
    ],
@@ -396986,6 +400659,22 @@
    ],
    "extras": []
   },
+  "imagin|picture in the mind": {
+   "surface": "imagin",
+   "variants": [
+    "imagin"
+   ],
+   "type": "root",
+   "gloss": "picture in the mind",
+   "aka": [],
+   "words": [
+    [
+     "imagination",
+     "year-7/english/bone-sparrow-early",
+     "imagin"
+    ]
+   ]
+  },
   "imag|likeness/picture": {
    "surface": "imag",
    "variants": [
@@ -397183,6 +400872,11 @@
     [
      "turbine",
      "year-9/science/magnetism",
+     "ine"
+    ],
+    [
+     "routine",
+     "year-7/english/bone-sparrow-early",
      "ine"
     ]
    ],
@@ -397555,6 +401249,11 @@
     [
      "shearing floor",
      "elc/english/ironbark-stanza-8",
+     "ing"
+    ],
+    [
+     "uprising",
+     "year-7/english/bone-sparrow-final",
      "ing"
     ]
    ],
@@ -398876,6 +402575,16 @@
     [
      "inequality",
      "year-7/mathematics/command-terms",
+     "in"
+    ],
+    [
+     "illiterate",
+     "year-7/english/bone-sparrow-middle",
+     "il"
+    ],
+    [
+     "injustice",
+     "year-7/english/bone-sparrow-final",
      "in"
     ]
    ],
@@ -400488,6 +404197,26 @@
     [
      "persecution",
      "year-7/english/bone-sparrow",
+     "ion"
+    ],
+    [
+     "restriction",
+     "year-7/english/bone-sparrow-early",
+     "ion"
+    ],
+    [
+     "ration",
+     "year-7/english/bone-sparrow-early",
+     "ion"
+    ],
+    [
+     "protection",
+     "year-7/english/bone-sparrow-middle",
+     "ion"
+    ],
+    [
+     "superstition",
+     "year-7/english/bone-sparrow-middle",
      "ion"
     ]
    ],
@@ -403765,6 +407494,11 @@
      "injustice",
      "elc/humanities/general-vocabulary",
      "just"
+    ],
+    [
+     "injustice",
+     "year-7/english/bone-sparrow-final",
+     "just"
     ]
    ],
    "extras": [
@@ -405121,6 +408855,22 @@
    ],
    "extras": []
   },
+  "liter|letter": {
+   "surface": "liter",
+   "variants": [
+    "liter"
+   ],
+   "type": "root",
+   "gloss": "letter",
+   "aka": [],
+   "words": [
+    [
+     "illiterate",
+     "year-7/english/bone-sparrow-middle",
+     "liter"
+    ]
+   ]
+  },
   "liver|set free/release": {
    "surface": "liver",
    "variants": [
@@ -405660,6 +409410,22 @@
      "loitered",
      "elc/english/ironbark-stanza-1",
      "loiter"
+    ]
+   ]
+  },
+  "loom|tool/frame": {
+   "surface": "loom",
+   "variants": [
+    "loom"
+   ],
+   "type": "root",
+   "gloss": "tool/frame",
+   "aka": [],
+   "words": [
+    [
+     "heirloom",
+     "year-7/english/bone-sparrow-middle",
+     "loom"
     ]
    ]
   },
@@ -406267,6 +410033,11 @@
      "malware",
      "vce/applied-computing/unit-2-aos-2",
      "mal"
+    ],
+    [
+     "malnutrition",
+     "year-7/english/bone-sparrow-early",
+     "mal"
     ]
    ],
    "extras": [
@@ -406699,6 +410470,22 @@
     ]
    ],
    "extras": []
+  },
+  "memor|remember": {
+   "surface": "memor",
+   "variants": [
+    "memor"
+   ],
+   "type": "root",
+   "gloss": "remember",
+   "aka": [],
+   "words": [
+    [
+     "memorial",
+     "year-7/english/bone-sparrow-final",
+     "memor"
+    ]
+   ]
   },
   "mensal|table/eating": {
    "surface": "mensal",
@@ -407242,6 +411029,11 @@
      "government",
      "year-8/humanities/shogun",
      "ment"
+    ],
+    [
+     "confinement",
+     "year-7/english/bone-sparrow-early",
+     "ment"
     ]
    ],
    "extras": [
@@ -407749,6 +411541,11 @@
      "geometric",
      "vce/general-mathematics/unit-3-aos-2",
      "metr"
+    ],
+    [
+     "perimeter",
+     "year-7/english/bone-sparrow-early",
+     "meter"
     ]
    ],
    "extras": [
@@ -407806,6 +411603,22 @@
     "microbe",
     "microplastic",
     "microfilm"
+   ]
+  },
+  "mid|middle": {
+   "surface": "mid",
+   "variants": [
+    "mid"
+   ],
+   "type": "prefix",
+   "gloss": "middle",
+   "aka": [],
+   "words": [
+    [
+     "midnight",
+     "year-7/english/bone-sparrow-middle",
+     "mid"
+    ]
    ]
   },
   "migr|move/travel": {
@@ -408356,6 +412169,11 @@
     [
      "monopoly",
      "vce/economics/unit-1-aos-2",
+     "mono"
+    ],
+    [
+     "monotonous",
+     "year-7/english/bone-sparrow-early",
      "mono"
     ]
    ],
@@ -409374,6 +413192,11 @@
      "effectiveness",
      "year-10/humanities/politics",
      "ness"
+    ],
+    [
+     "witness",
+     "year-7/english/bone-sparrow-final",
+     "ness"
     ]
    ],
    "extras": [
@@ -409532,6 +413355,22 @@
     ]
    ],
    "extras": []
+  },
+  "night|night": {
+   "surface": "night",
+   "variants": [
+    "night"
+   ],
+   "type": "root",
+   "gloss": "night",
+   "aka": [],
+   "words": [
+    [
+     "midnight",
+     "year-7/english/bone-sparrow-middle",
+     "night"
+    ]
+   ]
   },
   "nihil|nothing": {
    "surface": "nihil",
@@ -410124,6 +413963,22 @@
     "numerous",
     "enumerate",
     "innumerable"
+   ]
+  },
+  "nutri|nourish": {
+   "surface": "nutri",
+   "variants": [
+    "nutri"
+   ],
+   "type": "root",
+   "gloss": "nourish",
+   "aka": [],
+   "words": [
+    [
+     "malnutrition",
+     "year-7/english/bone-sparrow-early",
+     "nutri"
+    ]
    ]
   },
   "n|relating to": {
@@ -411388,6 +415243,22 @@
    ],
    "extras": []
   },
+  "osity|quality of": {
+   "surface": "osity",
+   "variants": [
+    "osity"
+   ],
+   "type": "suffix",
+   "gloss": "quality of",
+   "aka": [],
+   "words": [
+    [
+     "curiosity",
+     "year-7/english/bone-sparrow-middle",
+     "osity"
+    ]
+   ]
+  },
   "osmo|push/pressure": {
    "surface": "osmo",
    "variants": [
@@ -411525,6 +415396,11 @@
     [
      "simultaneous",
      "vce/general-mathematics/unit-1-2-algebra",
+     "ous"
+    ],
+    [
+     "monotonous",
+     "year-7/english/bone-sparrow-early",
      "ous"
     ]
    ],
@@ -411706,6 +415582,11 @@
     [
      "overtraining",
      "vce/physical-education/unit-4-aos-2",
+     "over"
+    ],
+    [
+     "overcrowded",
+     "year-7/english/bone-sparrow-early",
      "over"
     ]
    ],
@@ -412328,6 +416209,11 @@
      "Passing",
      "elc/humanities/social-media-ban",
      "pass"
+    ],
+    [
+     "trespass",
+     "year-7/english/bone-sparrow-middle",
+     "pass"
     ]
    ],
    "extras": []
@@ -412676,6 +416562,11 @@
      "suspense",
      "year-7/english/film",
      "pens"
+    ],
+    [
+     "pendant",
+     "year-7/english/bone-sparrow-middle",
+     "pend"
     ]
    ],
    "extras": [
@@ -412875,6 +416766,11 @@
     [
      "perimeter",
      "vce/general-mathematics/unit-1-2-measurement",
+     "peri"
+    ],
+    [
+     "perimeter",
+     "year-7/english/bone-sparrow-early",
      "peri"
     ]
    ],
@@ -416913,6 +420809,16 @@
      "progressive",
      "elc/humanities/general-vocabulary",
      "pro"
+    ],
+    [
+     "protection",
+     "year-7/english/bone-sparrow-middle",
+     "pro"
+    ],
+    [
+     "protest",
+     "year-7/english/bone-sparrow-final",
+     "pro"
     ]
    ],
    "extras": [
@@ -417384,6 +421290,22 @@
     ]
    ]
   },
+  "queue|tail": {
+   "surface": "queue",
+   "variants": [
+    "queue"
+   ],
+   "type": "root",
+   "gloss": "tail",
+   "aka": [],
+   "words": [
+    [
+     "queue",
+     "year-7/english/bone-sparrow-early",
+     "queue"
+    ]
+   ]
+  },
   "quir|ask/seek": {
    "surface": "quir",
    "variants": [
@@ -417663,6 +421585,11 @@
     [
      "quadratic",
      "elc/science/energy",
+     "rat"
+    ],
+    [
+     "ration",
+     "year-7/english/bone-sparrow-early",
      "rat"
     ]
    ],
@@ -419005,6 +422932,11 @@
      "refugee",
      "year-7/english/bone-sparrow",
      "re"
+    ],
+    [
+     "restriction",
+     "year-7/english/bone-sparrow-early",
+     "re"
     ]
    ],
    "extras": [
@@ -419071,6 +423003,22 @@
     ]
    ],
    "extras": []
+  },
+  "ris|rise": {
+   "surface": "ris",
+   "variants": [
+    "ris"
+   ],
+   "type": "root",
+   "gloss": "rise",
+   "aka": [],
+   "words": [
+    [
+     "uprising",
+     "year-7/english/bone-sparrow-final",
+     "ris"
+    ]
+   ]
   },
   "riv|stream/bank": {
    "surface": "riv",
@@ -419214,6 +423162,22 @@
     ]
    ],
    "extras": []
+  },
+  "rout|way/road": {
+   "surface": "rout",
+   "variants": [
+    "rout"
+   ],
+   "type": "root",
+   "gloss": "way/road",
+   "aka": [],
+   "words": [
+    [
+     "routine",
+     "year-7/english/bone-sparrow-early",
+     "rout"
+    ]
+   ]
   },
   "rupt|break": {
    "surface": "rupt",
@@ -420933,6 +424897,22 @@
    ],
    "extras": []
   },
+  "sil|quiet": {
+   "surface": "sil",
+   "variants": [
+    "sil"
+   ],
+   "type": "root",
+   "gloss": "quiet",
+   "aka": [],
+   "words": [
+    [
+     "silence",
+     "year-7/english/bone-sparrow-final",
+     "sil"
+    ]
+   ]
+  },
   "simil|at same time": {
    "surface": "simil",
    "variants": [
@@ -422139,6 +426119,22 @@
     ]
    ]
   },
+  "sper|hope": {
+   "surface": "sper",
+   "variants": [
+    "sper"
+   ],
+   "type": "root",
+   "gloss": "hope",
+   "aka": [],
+   "words": [
+    [
+     "desperation",
+     "year-7/english/bone-sparrow-final",
+     "sper"
+    ]
+   ]
+  },
   "spe|particular": {
    "surface": "spe",
    "variants": [
@@ -423113,6 +427109,22 @@
     ]
    ]
   },
+  "stit|stand": {
+   "surface": "stit",
+   "variants": [
+    "stit"
+   ],
+   "type": "root",
+   "gloss": "stand",
+   "aka": [],
+   "words": [
+    [
+     "superstition",
+     "year-7/english/bone-sparrow-middle",
+     "stit"
+    ]
+   ]
+  },
   "stoichio|element/component": {
    "surface": "stoichio",
    "variants": [
@@ -423190,6 +427202,22 @@
     ]
    ]
   },
+  "story|story": {
+   "surface": "story",
+   "variants": [
+    "story"
+   ],
+   "type": "root",
+   "gloss": "story",
+   "aka": [],
+   "words": [
+    [
+     "storyteller",
+     "year-7/english/bone-sparrow-middle",
+     "story"
+    ]
+   ]
+  },
   "strain|bind/draw tight": {
    "surface": "strain",
    "variants": [
@@ -423251,6 +427279,38 @@
     ]
    ],
    "extras": []
+  },
+  "strict|bind tight": {
+   "surface": "strict",
+   "variants": [
+    "strict"
+   ],
+   "type": "root",
+   "gloss": "bind tight",
+   "aka": [],
+   "words": [
+    [
+     "restriction",
+     "year-7/english/bone-sparrow-early",
+     "strict"
+    ]
+   ]
+  },
+  "strike|refuse together": {
+   "surface": "strike",
+   "variants": [
+    "strike"
+   ],
+   "type": "root",
+   "gloss": "refuse together",
+   "aka": [],
+   "words": [
+    [
+     "hunger strike",
+     "year-7/english/bone-sparrow-final",
+     "strike"
+    ]
+   ]
   },
   "stri|groove/furrow": {
    "surface": "stri",
@@ -423810,6 +427870,11 @@
      "supertaster",
      "vce/psychology/unit-2-aos-2",
      "super"
+    ],
+    [
+     "superstition",
+     "year-7/english/bone-sparrow-middle",
+     "super"
     ]
    ],
    "extras": [
@@ -423962,6 +428027,16 @@
     [
      "surface area",
      "vce/general-mathematics/unit-1-2-measurement",
+     "sur"
+    ],
+    [
+     "surveillance",
+     "year-7/english/bone-sparrow-early",
+     "sur"
+    ],
+    [
+     "survival",
+     "year-7/english/bone-sparrow-final",
      "sur"
     ]
    ],
@@ -424985,6 +429060,11 @@
      "protection",
      "year-9/science/fighting-infections",
      "tect"
+    ],
+    [
+     "protection",
+     "year-7/english/bone-sparrow-middle",
+     "tect"
     ]
    ],
    "extras": [
@@ -425053,6 +429133,22 @@
     ]
    ],
    "extras": []
+  },
+  "tell|say": {
+   "surface": "tell",
+   "variants": [
+    "tell"
+   ],
+   "type": "root",
+   "gloss": "say",
+   "aka": [],
+   "words": [
+    [
+     "storyteller",
+     "year-7/english/bone-sparrow-middle",
+     "tell"
+    ]
+   ]
   },
   "temper|heat": {
    "surface": "temper",
@@ -425614,6 +429710,11 @@
     [
      "protest",
      "elc/humanities/history",
+     "test"
+    ],
+    [
+     "protest",
+     "year-7/english/bone-sparrow-final",
      "test"
     ]
    ],
@@ -426433,6 +430534,11 @@
      "detention",
      "year-7/english/bone-sparrow",
      "tion"
+    ],
+    [
+     "malnutrition",
+     "year-7/english/bone-sparrow-early",
+     "tion"
     ]
    ],
    "extras": []
@@ -426558,6 +430664,11 @@
     [
      "intonation",
      "vce/vm-literacy/unit-4-aos-2",
+     "ton"
+    ],
+    [
+     "monotonous",
+     "year-7/english/bone-sparrow-early",
      "ton"
     ]
    ],
@@ -426827,6 +430938,22 @@
     ]
    ],
    "extras": []
+  },
+  "tragedy|goat-song": {
+   "surface": "tragedy",
+   "variants": [
+    "tragedy"
+   ],
+   "type": "root",
+   "gloss": "goat-song",
+   "aka": [],
+   "words": [
+    [
+     "tragedy",
+     "year-7/english/bone-sparrow-final",
+     "tragedy"
+    ]
+   ]
   },
   "train|prepare through practice": {
    "surface": "train",
@@ -427236,6 +431363,22 @@
      "trend",
      "elc/science/l3",
      "trend"
+    ]
+   ]
+  },
+  "tres|across": {
+   "surface": "tres",
+   "variants": [
+    "tres"
+   ],
+   "type": "prefix",
+   "gloss": "across",
+   "aka": [],
+   "words": [
+    [
+     "trespass",
+     "year-7/english/bone-sparrow-middle",
+     "tres"
     ]
    ]
   },
@@ -428509,6 +432652,22 @@
     ]
    ]
   },
+  "up|upward": {
+   "surface": "up",
+   "variants": [
+    "up"
+   ],
+   "type": "prefix",
+   "gloss": "upward",
+   "aka": [],
+   "words": [
+    [
+     "uprising",
+     "year-7/english/bone-sparrow-final",
+     "up"
+    ]
+   ]
+  },
   "ural|relating to": {
    "surface": "ural",
    "variants": [
@@ -429436,6 +433595,22 @@
     "invective"
    ]
   },
+  "veill|watch": {
+   "surface": "veill",
+   "variants": [
+    "veill"
+   ],
+   "type": "root",
+   "gloss": "watch",
+   "aka": [],
+   "words": [
+    [
+     "surveillance",
+     "year-7/english/bone-sparrow-early",
+     "veill"
+    ]
+   ]
+  },
   "veloc|speed": {
    "surface": "veloc",
    "variants": [
@@ -430164,6 +434339,22 @@
     ]
    ]
   },
+  "viol|force": {
+   "surface": "viol",
+   "variants": [
+    "viol"
+   ],
+   "type": "root",
+   "gloss": "force",
+   "aka": [],
+   "words": [
+    [
+     "violence",
+     "year-7/english/bone-sparrow-final",
+     "viol"
+    ]
+   ]
+  },
   "viron|surround": {
    "surface": "viron",
    "variants": [
@@ -430226,6 +434417,11 @@
     [
      "Survival",
      "elc/humanities/social-media-ban",
+     "viv"
+    ],
+    [
+     "survival",
+     "year-7/english/bone-sparrow-final",
      "viv"
     ]
    ],
@@ -430615,6 +434811,22 @@
      "eyewitness",
      "year-7/humanities-civics/source-analysis",
      "witness"
+    ]
+   ]
+  },
+  "wit|know": {
+   "surface": "wit",
+   "variants": [
+    "wit"
+   ],
+   "type": "root",
+   "gloss": "know",
+   "aka": [],
+   "words": [
+    [
+     "witness",
+     "year-7/english/bone-sparrow-final",
+     "wit"
     ]
    ]
   },

@@ -779,3 +779,7 @@ a.dict-word:hover { background: rgba(0,0,0,.1); }
   border-color: color-mix(in srgb, var(--brand) 55%, var(--line));
   background: color-mix(in srgb, var(--brand) 6%, var(--surface)); }
 .subject-card.featured h3 { font-size: 1.2rem; }
+
+/* Set picker on the learn board: the sets are a grouping, not a sequence. */
+.set-picker { display: flex; flex-wrap: wrap; gap: 5px; margin-bottom: 4px; }
+.set-chip { font-size: .78rem; padding: 3px 10px; }

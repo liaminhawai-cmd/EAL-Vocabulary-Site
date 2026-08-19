@@ -1143,9 +1143,20 @@ function renderBuildBoard({ levelId, subjectId, unitId }) {
     const totalDone = sets.slice(0, si).reduce((n, s) => n + s.length, 0)
       + (st ? st.build.filter((b) => b.done).length : 0);
     const totalWords = unit.words.length;
+    // The sets are a grouping, not a sequence: any of them is a fine place to
+    // start, so each is a tappable chip rather than a locked "Set 2 of 6"
+    // counter — a student can jump to the set their class is up to.
+    const setPicker = sets.length > 1
+      ? h('div', { class: 'set-picker' }, ...sets.map((_, i) =>
+          h('button', {
+            class: `bin-chip set-chip ${i === si ? 'active' : ''}`.trim(), type: 'button',
+            onclick: () => { if (i !== si) { si = i; phase = 'study'; st = null; echoPart = null; render_(); } },
+          }, `Set ${i + 1}`)))
+      : null;
     return h('div', { class: 'learn-head' },
       h('div', {},
-        h('span', { class: 'muted small' }, `Set ${si + 1} of ${sets.length} · ${sets[si].length} words`),
+        setPicker,
+        h('span', { class: 'muted small' }, `${sets[si].length} words in this set`),
         h('div', { class: 'progress thin' },
           h('div', { class: 'progress-fill', style: `width:${(totalDone / totalWords) * 100}%` }))),
       h('div', { class: 'row gap' }, buildLangPicker(),
