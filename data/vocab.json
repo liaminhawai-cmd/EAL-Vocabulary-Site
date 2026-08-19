@@ -144887,7 +144887,26 @@
          "root": "meter",
          "meaning": "The distance all the way around the outside of a shape.",
          "example": "Find the perimeter of the rectangle.",
-         "translations": {}
+         "translations": {
+          "zh-Hans": "周长",
+          "zh-Hant": "周長",
+          "ja": "周囲",
+          "ko": "둘레",
+          "vi": "chu vi",
+          "ar": "المحيط",
+          "fa": "محیط",
+          "ur": "محیط",
+          "am": "ዙሪያ (ፔሪሜትር)",
+          "ml": "ചുറ്റളവ്",
+          "ta": "சுற்றளவு",
+          "tl": "perimetro",
+          "ps": "پیرامیتر",
+          "ro": "perimetru",
+          "ru": "периметр",
+          "fr": "périmètre",
+          "hi": "परिमाप",
+          "es": "perímetro"
+         }
         },
         {
          "word": "circumference",
@@ -144971,7 +144990,26 @@
          "root": "fer",
          "meaning": "The distance around the outside of a circle.",
          "example": "The circumference is π times the diameter.",
-         "translations": {}
+         "translations": {
+          "zh-Hans": "圆周长",
+          "zh-Hant": "圓周長",
+          "ja": "円周",
+          "ko": "원둘레",
+          "vi": "chu vi đường tròn",
+          "ar": "محيط الدائرة",
+          "fa": "محیط دایره",
+          "ur": "دائرے کا محیط",
+          "am": "የክብ ዙሪያ",
+          "ml": "ചുറ്റളവ് (വൃത്തത്തിന്റെ)",
+          "ta": "வட்டச்சுற்றளவு",
+          "tl": "circumference (ng bilog)",
+          "ps": "د دایرې پیرامیتر",
+          "ro": "circumferință",
+          "ru": "длина окружности",
+          "fr": "circonférence",
+          "hi": "वृत्त परिधि",
+          "es": "circunferencia"
+         }
         },
         {
          "word": "volume",
@@ -144986,7 +145024,26 @@
          "root": "vol",
          "meaning": "How much space a solid takes up.",
          "example": "Calculate the volume of the cylinder.",
-         "translations": {}
+         "translations": {
+          "zh-Hans": "体积",
+          "zh-Hant": "體積",
+          "ja": "体積",
+          "ko": "부피",
+          "vi": "thể tích",
+          "ar": "الحجم",
+          "fa": "حجم",
+          "ur": "حجم",
+          "am": "መጠን (ቮሉም)",
+          "ml": "വ്യാപ്തം",
+          "ta": "கன அளவு",
+          "tl": "dami (volume)",
+          "ps": "حجم",
+          "ro": "volum",
+          "ru": "объём",
+          "fr": "volume",
+          "hi": "आयतन",
+          "es": "volumen"
+         }
         },
         {
          "word": "surface area",
@@ -145046,7 +145103,26 @@
          "root": "fac",
          "meaning": "The total area of all the outside faces of a solid.",
          "example": "Find the surface area of the box.",
-         "translations": {}
+         "translations": {
+          "zh-Hans": "表面积",
+          "zh-Hant": "表面積",
+          "ja": "表面積",
+          "ko": "겉넓이(표면적)",
+          "vi": "diện tích bề mặt",
+          "ar": "المساحة السطحية",
+          "fa": "مساحت سطح",
+          "ur": "سطحی رقبہ",
+          "am": "የገጽታ ስፋት",
+          "ml": "പ്രതലവിസ്തീർണ്ണം",
+          "ta": "பரப்பளவு",
+          "tl": "surface area (sukat ng ibabaw)",
+          "ps": "د سطحې مساحت",
+          "ro": "arie totală (suprafață)",
+          "ru": "площадь поверхности",
+          "fr": "aire de la surface",
+          "hi": "पृष्ठीय क्षेत्रफल",
+          "es": "área de superficie"
+         }
         },
         {
          "word": "similarity",
@@ -145087,7 +145163,26 @@
          "root": "simil",
          "meaning": "Same shape, different size — all lengths in the same ratio.",
          "example": "Similarity means the angles stay equal.",
-         "translations": {}
+         "translations": {
+          "zh-Hans": "相似",
+          "zh-Hant": "相似",
+          "ja": "相似",
+          "ko": "닮음",
+          "vi": "sự đồng dạng",
+          "ar": "التشابه",
+          "fa": "تشابه",
+          "ur": "مشابہت",
+          "am": "ተመሳሳይነት",
+          "ml": "സാദൃശ്യം",
+          "ta": "ஒப்புமை",
+          "tl": "pagkakatulad (similarity)",
+          "ps": "ورته والی",
+          "ro": "asemănare",
+          "ru": "подобие",
+          "fr": "similarité",
+          "hi": "समरूपता",
+          "es": "semejanza"
+         }
         },
         {
          "word": "congruent",
@@ -145153,7 +145248,26 @@
          "root": "gru",
          "meaning": "Exactly the same shape and size.",
          "example": "The two triangles are congruent.",
-         "translations": {}
+         "translations": {
+          "zh-Hans": "全等的",
+          "zh-Hant": "全等的",
+          "ja": "合同の",
+          "ko": "합동인",
+          "vi": "đồng dạng bằng nhau (đồng nhất)",
+          "ar": "متطابق",
+          "fa": "همنهشت",
+          "ur": "مطابق (کانگرونٹ)",
+          "am": "ተመጣጣኝ (ትክክለኛ ተመሳሳይ)",
+          "ml": "സർവ്വസമമായ",
+          "ta": "ஒத்த வடிவமான",
+          "tl": "congruent (magkatulad na sukat)",
+          "ps": "برابر (کانګروینت)",
+          "ro": "congruent",
+          "ru": "конгруэнтный",
+          "fr": "congruent",
+          "hi": "सर्वांगसम",
+          "es": "congruente"
+         }
         },
         {
          "word": "hypotenuse",
@@ -145212,7 +145326,26 @@
          "root": "ten",
          "meaning": "The longest side of a right-angled triangle, opposite the right angle.",
          "example": "Use Pythagoras to find the hypotenuse.",
-         "translations": {}
+         "translations": {
+          "zh-Hans": "斜边",
+          "zh-Hant": "斜邊",
+          "ja": "斜辺",
+          "ko": "빗변",
+          "vi": "cạnh huyền",
+          "ar": "الوتر",
+          "fa": "وتر",
+          "ur": "وتر (ہائپوٹینیوز)",
+          "am": "ሀይፖቴንዩስ",
+          "ml": "കർണ്ണം",
+          "ta": "கர்ணம்",
+          "tl": "hypotenuse",
+          "ps": "هایپوټینیوز",
+          "ro": "ipotenuză",
+          "ru": "гипотенуза",
+          "fr": "hypoténuse",
+          "hi": "कर्ण",
+          "es": "hipotenusa"
+         }
         },
         {
          "word": "trigonometry",
@@ -145277,7 +145410,26 @@
          "root": "gon",
          "meaning": "The maths of the sides and angles of triangles.",
          "example": "Use trigonometry to find the height of the tower.",
-         "translations": {}
+         "translations": {
+          "zh-Hans": "三角学",
+          "zh-Hant": "三角學",
+          "ja": "三角法",
+          "ko": "삼각법",
+          "vi": "lượng giác",
+          "ar": "حساب المثلثات",
+          "fa": "مثلثات",
+          "ur": "مثلثات (ٹریگنومیٹری)",
+          "am": "ትሪግኖሜትሪ",
+          "ml": "ത്രികോണമിതി",
+          "ta": "முக்கோணவியல்",
+          "tl": "trigonometry",
+          "ps": "ټریګونومتري",
+          "ro": "trigonometrie",
+          "ru": "тригонометрия",
+          "fr": "trigonométrie",
+          "hi": "त्रिकोणमिति",
+          "es": "trigonometría"
+         }
         },
         {
          "word": "bearing",
@@ -145317,7 +145469,26 @@
          "root": "bear",
          "meaning": "A direction given as an angle clockwise from north.",
          "example": "The ship sailed on a bearing of 135°.",
-         "translations": {}
+         "translations": {
+          "zh-Hans": "方位角",
+          "zh-Hant": "方位角",
+          "ja": "方位角",
+          "ko": "방위각",
+          "vi": "phương vị (góc phương hướng)",
+          "ar": "الاتجاه (الزاوية القطبية)",
+          "fa": "جهت‌یابی (زاویه سمت)",
+          "ur": "سمتی زاویہ (بیرنگ)",
+          "am": "አቅጣጫ (ቤሪንግ)",
+          "ml": "ദിക്കുകോൺ",
+          "ta": "திசைக்கோணம்",
+          "tl": "bearing (direksyon)",
+          "ps": "لوري زاویه",
+          "ro": "azimut",
+          "ru": "азимут (пеленг)",
+          "fr": "azimut (relèvement)",
+          "hi": "दिक् कोण",
+          "es": "rumbo (acimut)"
+         }
         },
         {
          "word": "symmetry",
@@ -145376,7 +145547,26 @@
          "root": "metr",
          "meaning": "When one half of a shape matches the other half.",
          "example": "A square has four lines of symmetry.",
-         "translations": {}
+         "translations": {
+          "zh-Hans": "对称",
+          "zh-Hant": "對稱",
+          "ja": "対称性",
+          "ko": "대칭",
+          "vi": "sự đối xứng",
+          "ar": "التماثل",
+          "fa": "تقارن",
+          "ur": "توازن (سمیٹری)",
+          "am": "ተመጣጣኝነት",
+          "ml": "സമമിതി",
+          "ta": "சமச்சீர்",
+          "tl": "simetriya",
+          "ps": "تناظر",
+          "ro": "simetrie",
+          "ru": "симметрия",
+          "fr": "symétrie",
+          "hi": "सममिति",
+          "es": "simetría"
+         }
         },
         {
          "word": "dimension",
@@ -145461,7 +145651,26 @@
          "root": "mens",
          "meaning": "A measurement of size in one direction, such as length or width.",
          "example": "Give the dimensions of the room.",
-         "translations": {}
+         "translations": {
+          "zh-Hans": "维度",
+          "zh-Hant": "維度",
+          "ja": "次元（寸法）",
+          "ko": "차원(치수)",
+          "vi": "kích thước (chiều)",
+          "ar": "البُعد",
+          "fa": "بعد (اندازه)",
+          "ur": "بُعد (سائز)",
+          "am": "ልኬት",
+          "ml": "മാനം (അളവ്)",
+          "ta": "பரிமாணம்",
+          "tl": "sukat (dimension)",
+          "ps": "بعد",
+          "ro": "dimensiune",
+          "ru": "измерение (размер)",
+          "fr": "dimension",
+          "hi": "आयाम",
+          "es": "dimensión"
+         }
         },
         {
          "word": "scale factor",
@@ -145528,7 +145737,26 @@
          "root": "scal",
          "meaning": "The number you multiply by to enlarge or reduce a shape.",
          "example": "A scale factor of 3 makes every length three times longer.",
-         "translations": {}
+         "translations": {
+          "zh-Hans": "比例因子",
+          "zh-Hant": "比例因子",
+          "ja": "拡大縮小率",
+          "ko": "확대축소 비율(배율)",
+          "vi": "hệ số tỷ lệ",
+          "ar": "عامل التحجيم",
+          "fa": "ضریب مقیاس",
+          "ur": "پیمانہ عنصر (سکیل فیکٹر)",
+          "am": "የመጠን ማካፈያ",
+          "ml": "സ്കെയിൽ ഘടകം",
+          "ta": "அளவீட்டு காரணி",
+          "tl": "scale factor",
+          "ps": "د کچې فکتور",
+          "ro": "factor de scală",
+          "ru": "коэффициент масштабирования",
+          "fr": "facteur d'échelle",
+          "hi": "पैमाना गुणक",
+          "es": "factor de escala"
+         }
         }
        ],
        "path": "vce/general-mathematics/unit-1-2-measurement"
@@ -145620,7 +145848,26 @@
          "root": "vari",
          "meaning": "Data about one variable only.",
          "example": "A histogram displays univariate data.",
-         "translations": {}
+         "translations": {
+          "zh-Hans": "单变量的",
+          "zh-Hant": "單變量的",
+          "ja": "一変量の",
+          "ko": "일변량의",
+          "vi": "một biến (đơn biến)",
+          "ar": "أحادي المتغير",
+          "fa": "تک‌متغیره",
+          "ur": "یک متغیری",
+          "am": "አንድ ተለዋዋጭ ያለው",
+          "ml": "ഏകചരം",
+          "ta": "ஒரு மாறி கொண்ட",
+          "tl": "univariate (isang variable)",
+          "ps": "یو متغیره",
+          "ro": "univariat",
+          "ru": "одномерный",
+          "fr": "univarié",
+          "hi": "एकचर",
+          "es": "univariado"
+         }
         },
         {
          "word": "bivariate",
@@ -145704,7 +145951,26 @@
          "root": "vari",
          "meaning": "Data about two variables, so you can look for a relationship.",
          "example": "A scatterplot displays bivariate data.",
-         "translations": {}
+         "translations": {
+          "zh-Hans": "双变量的",
+          "zh-Hant": "雙變量的",
+          "ja": "二変量の",
+          "ko": "이변량의",
+          "vi": "hai biến (song biến)",
+          "ar": "ثنائي المتغير",
+          "fa": "دومتغیره",
+          "ur": "دو متغیری",
+          "am": "ሁለት ተለዋዋጮች ያለው",
+          "ml": "ദ്വിചരം",
+          "ta": "இரு மாறி கொண்ட",
+          "tl": "bivariate (dalawang variable)",
+          "ps": "دوه متغیره",
+          "ro": "bivariat",
+          "ru": "двумерный",
+          "fr": "bivarié",
+          "hi": "द्विचर",
+          "es": "bivariado"
+         }
         },
         {
          "word": "explanatory",
@@ -145770,7 +146036,26 @@
          "root": "plan",
          "meaning": "The variable you think does the explaining — it goes on the x-axis.",
          "example": "Hours of study is the explanatory variable.",
-         "translations": {}
+         "translations": {
+          "zh-Hans": "解释变量的",
+          "zh-Hant": "解釋變量的",
+          "ja": "説明の（説明変数）",
+          "ko": "설명(변수)의",
+          "vi": "biến giải thích",
+          "ar": "تفسيري (متغير مستقل)",
+          "fa": "توضیحی (متغیر مستقل)",
+          "ur": "وضاحتی (آزاد متغیر)",
+          "am": "ገላጭ (ኤክስፕላናቶሪ)",
+          "ml": "വിശദീകരണപരമായ",
+          "ta": "விளக்கமளிக்கும் (மாறி)",
+          "tl": "nagpapaliwanag (explanatory variable)",
+          "ps": "تشریحي (بیړه)",
+          "ro": "explicativ (variabilă independentă)",
+          "ru": "объясняющая (переменная)",
+          "fr": "explicative",
+          "hi": "व्याख्यात्मक चर",
+          "es": "explicativa"
+         }
         },
         {
          "word": "response",
@@ -145829,7 +146114,26 @@
          "root": "spons",
          "meaning": "The variable you think is affected — it goes on the y-axis.",
          "example": "Test mark is the response variable.",
-         "translations": {}
+         "translations": {
+          "zh-Hans": "响应变量",
+          "zh-Hant": "響應變量",
+          "ja": "応答（従属変数）",
+          "ko": "반응(종속변수)",
+          "vi": "biến phản hồi",
+          "ar": "المتغير التابع (الاستجابة)",
+          "fa": "پاسخ (متغیر وابسته)",
+          "ur": "ردعمل (منحصر متغیر)",
+          "am": "ምላሽ (ተለዋዋጭ)",
+          "ml": "പ്രതികരണ വേരിയബിൾ",
+          "ta": "பதில் (மாறி)",
+          "tl": "tugon (response variable)",
+          "ps": "ځواب (بیړه)",
+          "ro": "variabilă dependentă (răspuns)",
+          "ru": "зависимая переменная (отклик)",
+          "fr": "variable réponse",
+          "hi": "अनुक्रिया चर",
+          "es": "variable de respuesta"
+         }
         },
         {
          "word": "residual",
@@ -145894,7 +146198,26 @@
          "root": "sid",
          "meaning": "What is left over: the gap between an actual value and the predicted one.",
          "example": "A residual plot shows whether a straight line fits.",
-         "translations": {}
+         "translations": {
+          "zh-Hans": "残差",
+          "zh-Hant": "殘差",
+          "ja": "残差",
+          "ko": "잔차",
+          "vi": "phần dư",
+          "ar": "الباقي (المتبقي)",
+          "fa": "باقیمانده",
+          "ur": "بقایا (ریزیجوول)",
+          "am": "ቀሪ (ውጤት)",
+          "ml": "അവശിഷ്ടം",
+          "ta": "மீதி (எச்சம்)",
+          "tl": "residual (natitira)",
+          "ps": "پاتې",
+          "ro": "reziduu",
+          "ru": "остаток (в регрессии)",
+          "fr": "résidu",
+          "hi": "अवशिष्ट",
+          "es": "residuo"
+         }
         },
         {
          "word": "logarithmic",
@@ -145978,7 +146301,26 @@
          "root": "log",
          "meaning": "Using logs to straighten out data that curves.",
          "example": "A logarithmic transformation made the plot linear.",
-         "translations": {}
+         "translations": {
+          "zh-Hans": "对数的",
+          "zh-Hant": "對數的",
+          "ja": "対数の",
+          "ko": "로그의",
+          "vi": "theo hàm logarit",
+          "ar": "لوغاريتمي",
+          "fa": "لگاریتمی",
+          "ur": "لوگارتھمی",
+          "am": "ሎጋሪዝማዊ",
+          "ml": "ലോഗരിതമിക്",
+          "ta": "மடக்கை சார்ந்த",
+          "tl": "logarithmic",
+          "ps": "لوغاریتمي",
+          "ro": "logaritmic",
+          "ru": "логарифмический",
+          "fr": "logarithmique",
+          "hi": "लघुगणकीय",
+          "es": "logarítmico"
+         }
         },
         {
          "word": "seasonal",
@@ -146018,7 +146360,26 @@
          "root": "season",
          "meaning": "A pattern that repeats at the same times each year.",
          "example": "Ice-cream sales show a strong seasonal pattern.",
-         "translations": {}
+         "translations": {
+          "zh-Hans": "季节性的",
+          "zh-Hant": "季節性的",
+          "ja": "季節的な",
+          "ko": "계절적인",
+          "vi": "theo mùa",
+          "ar": "موسمي",
+          "fa": "فصلی",
+          "ur": "موسمی",
+          "am": "ወቅታዊ",
+          "ml": "ഋതുപരമായ",
+          "ta": "பருவகால",
+          "tl": "pana-panahon (seasonal)",
+          "ps": "فصلي",
+          "ro": "sezonier",
+          "ru": "сезонный",
+          "fr": "saisonnier",
+          "hi": "मौसमी",
+          "es": "estacional"
+         }
         },
         {
          "word": "deseasonalise",
@@ -146108,7 +146469,26 @@
          "root": "season",
          "meaning": "Remove the seasonal pattern so the real trend shows.",
          "example": "Deseasonalise the quarterly figures before finding the trend.",
-         "translations": {}
+         "translations": {
+          "zh-Hans": "去季节化",
+          "zh-Hant": "去季節化",
+          "ja": "季節調整する",
+          "ko": "계절 조정하다",
+          "vi": "loại bỏ yếu tố mùa vụ",
+          "ar": "يزيل التأثير الموسمي",
+          "fa": "تعدیل فصلی کردن",
+          "ur": "موسمی اثر ختم کرنا",
+          "am": "ወቅታዊ ተጽእኖን ማስወገድ",
+          "ml": "ഋതുപ്രഭാവം നീക്കം ചെയ്യുക",
+          "ta": "பருவகால தாக்கத்தை நீக்கு",
+          "tl": "alisin ang seasonal effect",
+          "ps": "فصلي اغیز لرې کول",
+          "ro": "a desezonaliza",
+          "ru": "устранять сезонность",
+          "fr": "désaisonnaliser",
+          "hi": "मौसमी प्रभाव हटाना",
+          "es": "desestacionalizar"
+         }
         },
         {
          "word": "smoothing",
@@ -146148,7 +146528,26 @@
          "root": "smooth",
          "meaning": "Averaging nearby values to make a bumpy graph clearer.",
          "example": "Use three-point moving mean smoothing.",
-         "translations": {}
+         "translations": {
+          "zh-Hans": "平滑处理",
+          "zh-Hant": "平滑處理",
+          "ja": "平滑化",
+          "ko": "평활화(스무딩)",
+          "vi": "làm trơn (san bằng)",
+          "ar": "التنعيم (التمهيد الإحصائي)",
+          "fa": "هموارسازی",
+          "ur": "ہموار سازی (سموتھنگ)",
+          "am": "ማለስለስ (ስሙዚንግ)",
+          "ml": "സുഗമമാക്കൽ",
+          "ta": "மென்மையாக்கல்",
+          "tl": "smoothing (pagpapatag)",
+          "ps": "همواروالی",
+          "ro": "netezire (statistică)",
+          "ru": "сглаживание",
+          "fr": "lissage",
+          "hi": "स्मूदिंग (आंकड़ा समतलन)",
+          "es": "suavizado"
+         }
         },
         {
          "word": "extrapolation",
@@ -146194,7 +146593,26 @@
          "root": "pol",
          "meaning": "Predicting beyond the range of the data you actually have. It is risky.",
          "example": "Predicting 2050 from 10 years of data is extrapolation.",
-         "translations": {}
+         "translations": {
+          "zh-Hans": "外推法",
+          "zh-Hant": "外推法",
+          "ja": "外挿",
+          "ko": "외삽(외삽법)",
+          "vi": "phép ngoại suy",
+          "ar": "الاستقراء",
+          "fa": "برون‌یابی",
+          "ur": "بیرونی تخمین (ایکسٹراپولیشن)",
+          "am": "ግምት ማራዘሚያ (ኤክስትራፖሌሽን)",
+          "ml": "അനുമാന വിപുലീകരണം",
+          "ta": "வெளியீட்டு மதிப்பீடு",
+          "tl": "extrapolation",
+          "ps": "بهرنی اټکل",
+          "ro": "extrapolare",
+          "ru": "экстраполяция",
+          "fr": "extrapolation",
+          "hi": "बहिर्वेशन",
+          "es": "extrapolación"
+         }
         },
         {
          "word": "interpolation",
@@ -146259,7 +146677,26 @@
          "root": "pol",
          "meaning": "Predicting inside the range of the data you have. Safer than extrapolation.",
          "example": "Estimating the value at year 5 is interpolation.",
-         "translations": {}
+         "translations": {
+          "zh-Hans": "内插法",
+          "zh-Hant": "內插法",
+          "ja": "内挿",
+          "ko": "내삽(보간법)",
+          "vi": "phép nội suy",
+          "ar": "الاستيفاء",
+          "fa": "درون‌یابی",
+          "ur": "اندرونی تخمین (انٹرپولیشن)",
+          "am": "ውስጣዊ ግምት (ኢንተርፖሌሽን)",
+          "ml": "അന്തർവേശനം",
+          "ta": "இடைச்செருகல்",
+          "tl": "interpolation",
+          "ps": "منځنی اټکل",
+          "ro": "interpolare",
+          "ru": "интерполяция",
+          "fr": "interpolation",
+          "hi": "अंतर्वेशन",
+          "es": "interpolación"
+         }
         },
         {
          "word": "causation",
@@ -146318,7 +146755,26 @@
          "root": "caus",
          "meaning": "One thing actually making another happen. An association alone never proves it.",
          "example": "Correlation does not prove causation.",
-         "translations": {}
+         "translations": {
+          "zh-Hans": "因果关系",
+          "zh-Hant": "因果關係",
+          "ja": "因果関係",
+          "ko": "인과관계",
+          "vi": "quan hệ nhân quả",
+          "ar": "السببية",
+          "fa": "علیت",
+          "ur": "علت و معلول",
+          "am": "ምክንያታዊ ውጤት (ካውዜሽን)",
+          "ml": "കാരണബന്ധം",
+          "ta": "காரணத் தொடர்பு",
+          "tl": "sanhi at bunga (causation)",
+          "ps": "علیت",
+          "ro": "cauzalitate",
+          "ru": "причинно-следственная связь",
+          "fr": "causalité",
+          "hi": "कार्य-कारण संबंध",
+          "es": "causalidad"
+         }
         }
        ],
        "path": "vce/general-mathematics/unit-3-aos-1"
@@ -146410,7 +146866,26 @@
          "root": "preci",
          "meaning": "The loss in value of something as it gets older or is used.",
          "example": "The van loses $3,000 a year in depreciation.",
-         "translations": {}
+         "translations": {
+          "zh-Hans": "折旧",
+          "zh-Hant": "折舊",
+          "ja": "減価償却",
+          "ko": "감가상각",
+          "vi": "khấu hao",
+          "ar": "الإهلاك (انخفاض القيمة)",
+          "fa": "استهلاک",
+          "ur": "فرسودگی (قدر میں کمی)",
+          "am": "የዋጋ ቅናሽ (ዲፕሪሲየሽን)",
+          "ml": "മൂല്യശോഷണം",
+          "ta": "தேய்மானம்",
+          "tl": "depreciation (pagbaba ng halaga)",
+          "ps": "د ارزښت کمښت",
+          "ro": "depreciere",
+          "ru": "амортизация (обесценивание)",
+          "fr": "dépréciation",
+          "hi": "मूल्यह्रास",
+          "es": "depreciación"
+         }
         },
         {
          "word": "appreciation",
@@ -146495,7 +146970,26 @@
          "root": "preci",
          "meaning": "A rise in the value of something over time.",
          "example": "The house showed steady appreciation.",
-         "translations": {}
+         "translations": {
+          "zh-Hans": "增值",
+          "zh-Hant": "增值",
+          "ja": "価値の上昇",
+          "ko": "가치 상승",
+          "vi": "sự tăng giá trị",
+          "ar": "ارتفاع القيمة",
+          "fa": "افزایش ارزش",
+          "ur": "قدر میں اضافہ",
+          "am": "የዋጋ ጭማሪ",
+          "ml": "മൂല്യവർദ്ധന",
+          "ta": "மதிப்பு உயர்வு",
+          "tl": "appreciation (pagtaas ng halaga)",
+          "ps": "د ارزښت زیاتوالی",
+          "ro": "apreciere (creștere de valoare)",
+          "ru": "повышение стоимости",
+          "fr": "appréciation (augmentation de valeur)",
+          "hi": "मूल्यवृद्धि",
+          "es": "apreciación"
+         }
         },
         {
          "word": "annuity",
@@ -146536,7 +147030,26 @@
          "root": "ann",
          "meaning": "An investment or loan paid off by equal regular payments.",
          "example": "She bought an annuity paying $500 a month.",
-         "translations": {}
+         "translations": {
+          "zh-Hans": "年金",
+          "zh-Hant": "年金",
+          "ja": "年金（定期支払い）",
+          "ko": "연금(정기지급금)",
+          "vi": "niên kim (khoản trả định kỳ)",
+          "ar": "الدفعات السنوية (الراتب المرتب)",
+          "fa": "مستمری (پرداخت ادواری)",
+          "ur": "سالانہ وظیفہ (اینوئٹی)",
+          "am": "አመታዊ ክፍያ (አኑዊቲ)",
+          "ml": "വാർഷിക പേയ്‌മെന്റ്",
+          "ta": "வருடாந்திரி (தொடர் செலுத்துகை)",
+          "tl": "annuity (regular na bayad)",
+          "ps": "کلنۍ تادیه",
+          "ro": "anuitate",
+          "ru": "аннуитет (регулярная выплата)",
+          "fr": "annuité",
+          "hi": "वार्षिकी",
+          "es": "anualidad"
+         }
         },
         {
          "word": "perpetuity",
@@ -146602,7 +147115,26 @@
          "root": "petu",
          "meaning": "An annuity that pays out forever, because only the interest is taken.",
          "example": "The scholarship is funded in perpetuity.",
-         "translations": {}
+         "translations": {
+          "zh-Hans": "永续年金",
+          "zh-Hant": "永續年金",
+          "ja": "永久年金",
+          "ko": "영구연금",
+          "vi": "niên kim vĩnh viễn",
+          "ar": "الدفعات الدائمة (المؤبدة)",
+          "fa": "مستمری دائمی",
+          "ur": "دائمی وظیفہ",
+          "am": "ዘላቂ ክፍያ (ፐርፔቹዊቲ)",
+          "ml": "അനന്തകാല പേയ്‌മെന്റ്",
+          "ta": "நிரந்தர செலுத்துகை",
+          "tl": "perpetuity (walang hanggang bayad)",
+          "ps": "دايمي تادیه",
+          "ro": "perpetuitate",
+          "ru": "бессрочный аннуитет (перпетуитет)",
+          "fr": "rente perpétuelle",
+          "hi": "चिरस्थायी वार्षिकी",
+          "es": "perpetuidad"
+         }
         },
         {
          "word": "compound interest",
@@ -146663,7 +147195,26 @@
          "root": "pound",
          "meaning": "Interest paid on the interest already earned, as well as on the original amount.",
          "example": "Compound interest makes savings grow faster each year.",
-         "translations": {}
+         "translations": {
+          "zh-Hans": "复利",
+          "zh-Hant": "複利",
+          "ja": "複利",
+          "ko": "복리",
+          "vi": "lãi kép",
+          "ar": "الفائدة المركبة",
+          "fa": "سود مرکب",
+          "ur": "مرکب سود",
+          "am": "ውህድ ወለድ",
+          "ml": "സംയുക്ത പലിശ",
+          "ta": "கூட்டு வட்டி",
+          "tl": "compound interest (tinatambak na tubo)",
+          "ps": "مرکب سود",
+          "ro": "dobândă compusă",
+          "ru": "сложный процент",
+          "fr": "intérêt composé",
+          "hi": "चक्रवृद्धि ब्याज",
+          "es": "interés compuesto"
+         }
         },
         {
          "word": "principal",
@@ -146728,7 +147279,26 @@
          "root": "prin",
          "meaning": "The original amount borrowed or invested, before any interest.",
          "example": "The principal on the loan was $20,000.",
-         "translations": {}
+         "translations": {
+          "zh-Hans": "本金",
+          "zh-Hant": "本金",
+          "ja": "元金",
+          "ko": "원금",
+          "vi": "vốn gốc",
+          "ar": "المبلغ الأساسي (رأس المال)",
+          "fa": "اصل مبلغ (اصل سرمایه)",
+          "ur": "اصل رقم (پرنسپل)",
+          "am": "ዋና ገንዘብ (ካፒታል)",
+          "ml": "മുതൽ",
+          "ta": "அசல் தொகை",
+          "tl": "prinsipal (orihinal na halaga)",
+          "ps": "اصلي پانګه",
+          "ro": "sumă principală (capital)",
+          "ru": "основная сумма (капитал)",
+          "fr": "capital (principal)",
+          "hi": "मूलधन",
+          "es": "capital (principal)"
+         }
         },
         {
          "word": "balance",
@@ -146768,7 +147338,26 @@
          "root": "bal",
          "meaning": "How much is left in an account or owing on a loan at a given time.",
          "example": "The balance after two years was $12,400.",
-         "translations": {}
+         "translations": {
+          "zh-Hans": "余额",
+          "zh-Hant": "餘額",
+          "ja": "残高",
+          "ko": "잔액",
+          "vi": "số dư",
+          "ar": "الرصيد",
+          "fa": "مانده حساب",
+          "ur": "بقایا رقم",
+          "am": "ቀሪ ሂሳብ",
+          "ml": "ബാക്കി തുക",
+          "ta": "இருப்பு",
+          "tl": "balanse (natitirang halaga)",
+          "ps": "پاتې حساب",
+          "ro": "sold",
+          "ru": "остаток (баланс)",
+          "fr": "solde",
+          "hi": "शेष राशि",
+          "es": "saldo"
+         }
         },
         {
          "word": "instalment",
@@ -146833,7 +147422,26 @@
          "root": "stal",
          "meaning": "One of a series of equal regular payments.",
          "example": "He repaid the loan in 36 monthly instalments.",
-         "translations": {}
+         "translations": {
+          "zh-Hans": "分期付款",
+          "zh-Hant": "分期付款",
+          "ja": "分割払い",
+          "ko": "할부금",
+          "vi": "khoản trả góp",
+          "ar": "القسط",
+          "fa": "قسط",
+          "ur": "قسط",
+          "am": "ክፍያ (ኢንስታልመንት)",
+          "ml": "ഗഡു",
+          "ta": "தவணை",
+          "tl": "hulog (installment)",
+          "ps": "قسط",
+          "ro": "rată (plată eșalonată)",
+          "ru": "рассрочка (платёж)",
+          "fr": "versement (mensualité)",
+          "hi": "किश्त",
+          "es": "cuota (pago a plazos)"
+         }
         },
         {
          "word": "effective",
@@ -146919,7 +147527,26 @@
          "root": "fect",
          "meaning": "The real yearly rate once compounding is counted, so you can compare loans fairly.",
          "example": "The effective annual rate was 6.17%.",
-         "translations": {}
+         "translations": {
+          "zh-Hans": "实际（有效的）",
+          "zh-Hant": "實際（有效的）",
+          "ja": "実質の（実効の）",
+          "ko": "실효의(실질의)",
+          "vi": "thực tế (hiệu quả)",
+          "ar": "الفعلي (الفعّال)",
+          "fa": "مؤثر (واقعی)",
+          "ur": "مؤثر (حقیقی)",
+          "am": "ትክክለኛ (ውጤታማ)",
+          "ml": "യഥാർത്ഥ (ഫലപ്രദമായ)",
+          "ta": "நடைமுறை (உண்மையான)",
+          "tl": "epektibo (aktwal na rate)",
+          "ps": "اغیزمن (اصلي)",
+          "ro": "efectiv (real)",
+          "ru": "эффективный (реальный)",
+          "fr": "effectif (réel)",
+          "hi": "प्रभावी (वास्तविक)",
+          "es": "efectivo (real)"
+         }
         },
         {
          "word": "amortisation",
@@ -147003,7 +147630,26 @@
          "root": "mort",
          "meaning": "Paying a debt down to zero through regular payments — literally 'killing it off'.",
          "example": "The amortisation table shows the balance after each payment.",
-         "translations": {}
+         "translations": {
+          "zh-Hans": "分期偿还",
+          "zh-Hant": "分期償還",
+          "ja": "償却",
+          "ko": "상환(원리금균등상환)",
+          "vi": "sự trả nợ dần (khấu hao nợ)",
+          "ar": "الإطفاء (سداد الدين تدريجيًا)",
+          "fa": "استهلاک بدهی (بازپرداخت تدریجی)",
+          "ur": "قرض کی بتدریج ادائیگی",
+          "am": "ዕዳ ደረጃ በደረጃ መክፈል (አሞርታይዜሽን)",
+          "ml": "കടം ക്രമേണ തിരിച്ചടയ്ക്കൽ",
+          "ta": "படிப்படியான கடன் தீர்ப்பு",
+          "tl": "amortisasyon (unti-unting bayad ng utang)",
+          "ps": "د پور تدریجي ورکړه",
+          "ro": "amortizare (rambursare treptată)",
+          "ru": "погашение долга (амортизация)",
+          "fr": "amortissement (remboursement progressif)",
+          "hi": "ऋण की क्रमिक अदायगी",
+          "es": "amortización"
+         }
         },
         {
          "word": "reducing",
@@ -147087,7 +147733,26 @@
          "root": "duc",
          "meaning": "Where interest is charged only on what is still owing, so it falls over time.",
          "example": "A reducing balance loan costs less than a flat rate.",
-         "translations": {}
+         "translations": {
+          "zh-Hans": "递减的（余额递减法）",
+          "zh-Hant": "遞減的（餘額遞減法）",
+          "ja": "逓減する（残高逓減法）",
+          "ko": "체감하는(잔액체감법)",
+          "vi": "giảm dần (theo số dư giảm dần)",
+          "ar": "متناقص (الرصيد المتناقص)",
+          "fa": "کاهنده (روش مانده کاهشی)",
+          "ur": "کم ہوتا ہوا (بقایا کمی کا طریقہ)",
+          "am": "እየቀነሰ የሚሄድ (የቀሪ ሂሳብ ዘዴ)",
+          "ml": "കുറഞ്ഞുവരുന്ന (ബാക്കി ബാലൻസ് രീതി)",
+          "ta": "குறைந்துவரும் (இருப்பு முறை)",
+          "tl": "bumababang balanse (reducing balance)",
+          "ps": "کمېدونکی (پاتې حساب طریقه)",
+          "ro": "descrescător (sold descrescător)",
+          "ru": "уменьшающийся (метод уменьшающегося остатка)",
+          "fr": "dégressif (solde dégressif)",
+          "hi": "ह्रासमान शेष विधि",
+          "es": "decreciente (saldo decreciente)"
+         }
         },
         {
          "word": "geometric",
@@ -147171,7 +147836,26 @@
          "root": "geo",
          "meaning": "Growing or shrinking by multiplying by the same number each step.",
          "example": "Compound interest produces geometric growth.",
-         "translations": {}
+         "translations": {
+          "zh-Hans": "几何的",
+          "zh-Hant": "幾何的",
+          "ja": "幾何学的な",
+          "ko": "기하학적인(등비의)",
+          "vi": "theo cấp số nhân (hình học)",
+          "ar": "هندسي",
+          "fa": "هندسی",
+          "ur": "ہندسی",
+          "am": "ጂኦሜትሪያዊ",
+          "ml": "ജ്യാമിതീയമായ",
+          "ta": "வடிவியல் சார்ந்த",
+          "tl": "geometric",
+          "ps": "هندسي",
+          "ro": "geometric",
+          "ru": "геометрический",
+          "fr": "géométrique",
+          "hi": "ज्यामितीय",
+          "es": "geométrico"
+         }
         }
        ],
        "path": "vce/general-mathematics/unit-3-aos-2"
@@ -147194,7 +147878,26 @@
          "root": "matr",
          "meaning": "A rectangular table of numbers set out in rows and columns. Plural: matrices.",
          "example": "Write the costs as a 3 × 2 matrix.",
-         "translations": {}
+         "translations": {
+          "zh-Hans": "矩阵",
+          "zh-Hant": "矩陣",
+          "ja": "行列",
+          "ko": "행렬",
+          "vi": "ma trận",
+          "ar": "المصفوفة",
+          "fa": "ماتریس",
+          "ur": "میٹرکس",
+          "am": "ማትሪክስ",
+          "ml": "മാട്രിക്സ്",
+          "ta": "அணி (மேட்ரிக்ஸ்)",
+          "tl": "matrix",
+          "ps": "ماتریکس",
+          "ro": "matrice",
+          "ru": "матрица",
+          "fr": "matrice",
+          "hi": "आव्यूह (मैट्रिक्स)",
+          "es": "matriz"
+         }
         },
         {
          "word": "element",
@@ -147209,7 +147912,26 @@
          "root": "elem",
          "meaning": "One single number inside a matrix.",
          "example": "The element in row 2, column 3 is 7.",
-         "translations": {}
+         "translations": {
+          "zh-Hans": "元素",
+          "zh-Hant": "元素",
+          "ja": "要素",
+          "ko": "원소(요소)",
+          "vi": "phần tử",
+          "ar": "العنصر",
+          "fa": "عنصر",
+          "ur": "عنصر",
+          "am": "ንጥረ ነገር",
+          "ml": "മൂലകം (ഘടകം)",
+          "ta": "தனிமம் (உறுப்பு)",
+          "tl": "elemento",
+          "ps": "عنصر",
+          "ro": "element",
+          "ru": "элемент",
+          "fr": "élément",
+          "hi": "अवयव",
+          "es": "elemento"
+         }
         },
         {
          "word": "column",
@@ -147224,7 +147946,26 @@
          "root": "column",
          "meaning": "A line of numbers going down a matrix.",
          "example": "The second column shows the prices.",
-         "translations": {}
+         "translations": {
+          "zh-Hans": "列",
+          "zh-Hant": "列",
+          "ja": "列",
+          "ko": "열",
+          "vi": "cột",
+          "ar": "العمود",
+          "fa": "ستون",
+          "ur": "کالم (ستون)",
+          "am": "አምድ",
+          "ml": "കോളം",
+          "ta": "நெடுவரிசை",
+          "tl": "kolum",
+          "ps": "کالم",
+          "ro": "coloană",
+          "ru": "столбец",
+          "fr": "colonne",
+          "hi": "स्तंभ",
+          "es": "columna"
+         }
         },
         {
          "word": "transpose",
@@ -147284,7 +148025,26 @@
          "root": "pos",
          "meaning": "Swap the rows and columns of a matrix over.",
          "example": "The transpose of a 2 × 3 matrix is 3 × 2.",
-         "translations": {}
+         "translations": {
+          "zh-Hans": "转置",
+          "zh-Hant": "轉置",
+          "ja": "転置する",
+          "ko": "전치하다",
+          "vi": "chuyển vị",
+          "ar": "ينقل (المصفوفة المنقولة)",
+          "fa": "ترانهاده کردن",
+          "ur": "تبادلہ کرنا (ٹرانسپوز)",
+          "am": "መቀያየር (ትራንስፖዝ)",
+          "ml": "സ്ഥാനം മാറ്റുക (ട്രാൻസ്‌പോസ്)",
+          "ta": "இடமாற்று (டிரான்ஸ்போஸ்)",
+          "tl": "transpose (ipagpalit ang hanay at column)",
+          "ps": "ځای بدلول",
+          "ro": "a transpune",
+          "ru": "транспонировать",
+          "fr": "transposer",
+          "hi": "स्थानांतरित करना (ट्रांसपोज़)",
+          "es": "transponer"
+         }
         },
         {
          "word": "inverse",
@@ -147343,7 +148103,26 @@
          "root": "vers",
          "meaning": "The matrix that undoes another one, like dividing undoes multiplying.",
          "example": "Multiply by the inverse to solve the equations.",
-         "translations": {}
+         "translations": {
+          "zh-Hans": "逆矩阵",
+          "zh-Hant": "逆矩陣",
+          "ja": "逆行列",
+          "ko": "역행렬",
+          "vi": "ma trận nghịch đảo",
+          "ar": "المعكوس",
+          "fa": "معکوس",
+          "ur": "معکوس",
+          "am": "ተገላቢጦሽ (ኢንቨርስ)",
+          "ml": "വിപരീതം",
+          "ta": "தலைகீழ் (இன்வர்ஸ்)",
+          "tl": "inverse (kabaligtaran)",
+          "ps": "معکوس",
+          "ro": "invers",
+          "ru": "обратная матрица",
+          "fr": "inverse",
+          "hi": "प्रतिलोम",
+          "es": "inversa"
+         }
         },
         {
          "word": "scalar",
@@ -147383,7 +148162,26 @@
          "root": "scal",
          "meaning": "A single ordinary number, used to multiply every element of a matrix.",
          "example": "Multiply the matrix by the scalar 4.",
-         "translations": {}
+         "translations": {
+          "zh-Hans": "标量",
+          "zh-Hant": "標量",
+          "ja": "スカラー",
+          "ko": "스칼라(단일수)",
+          "vi": "vô hướng (số vô hướng)",
+          "ar": "الكمية القياسية (العددية)",
+          "fa": "کمیت نرده‌ای (اسکالر)",
+          "ur": "اسکیلر (سادہ عدد)",
+          "am": "ስካላር (ነጠላ ቁጥር)",
+          "ml": "സ്കെയിലർ",
+          "ta": "அளவெண் (ஸ்கேலார்)",
+          "tl": "scalar (ordinaryong bilang)",
+          "ps": "سکلر",
+          "ro": "scalar",
+          "ru": "скаляр",
+          "fr": "scalaire",
+          "hi": "अदिश (स्केलर)",
+          "es": "escalar"
+         }
         },
         {
          "word": "singular",
@@ -147423,7 +148221,26 @@
          "root": "singul",
          "meaning": "A matrix that has no inverse.",
          "example": "A singular matrix cannot be used to solve the system.",
-         "translations": {}
+         "translations": {
+          "zh-Hans": "奇异的（不可逆的）",
+          "zh-Hant": "奇異的（不可逆的）",
+          "ja": "特異な（逆行列を持たない）",
+          "ko": "특이한(역행렬 없는)",
+          "vi": "suy biến (không khả nghịch)",
+          "ar": "شاذ (لا معكوس له)",
+          "fa": "منفرد (بدون معکوس)",
+          "ur": "منفرد (معکوس نہ رکھنے والا)",
+          "am": "ተገላቢጦሽ የሌለው (ሲንጉላር)",
+          "ml": "വിപരീതമില്ലാത്ത",
+          "ta": "தலைகீழ் இல்லாத",
+          "tl": "singular (walang inverse)",
+          "ps": "بې معکوسه",
+          "ro": "singular (fără inversă)",
+          "ru": "вырожденная (без обратной)",
+          "fr": "singulière (sans inverse)",
+          "hi": "अद्वितीय (प्रतिलोमरहित)",
+          "es": "singular (sin inversa)"
+         }
         },
         {
          "word": "determinant",
@@ -147507,7 +148324,26 @@
          "root": "termin",
          "meaning": "A number worked out from a square matrix that tells you if an inverse exists.",
          "example": "If the determinant is zero, there is no inverse.",
-         "translations": {}
+         "translations": {
+          "zh-Hans": "行列式",
+          "zh-Hant": "行列式",
+          "ja": "行列式",
+          "ko": "행렬식",
+          "vi": "định thức",
+          "ar": "المحدد",
+          "fa": "دترمینان",
+          "ur": "متعین کنندہ (ڈیٹرمیننٹ)",
+          "am": "ዲተርሚናንት",
+          "ml": "നിർണ്ണായകം",
+          "ta": "நிர்ணயம் (டிடெர்மினன்ட்)",
+          "tl": "determinant",
+          "ps": "ديترمينانت",
+          "ro": "determinant",
+          "ru": "определитель",
+          "fr": "déterminant",
+          "hi": "सारणिक",
+          "es": "determinante"
+         }
         },
         {
          "word": "transition",
@@ -147591,7 +148427,26 @@
          "root": "it",
          "meaning": "A matrix showing how things move between states from one step to the next.",
          "example": "The transition matrix shows customers switching brands.",
-         "translations": {}
+         "translations": {
+          "zh-Hans": "转移（转移矩阵）",
+          "zh-Hant": "轉移（轉移矩陣）",
+          "ja": "遷移（推移行列）",
+          "ko": "전이(추이행렬)",
+          "vi": "chuyển tiếp (ma trận chuyển)",
+          "ar": "الانتقال (مصفوفة الانتقال)",
+          "fa": "گذار (ماتریس گذار)",
+          "ur": "منتقلی (ٹرانزیشن)",
+          "am": "ሽግግር (ትራንዚሽን)",
+          "ml": "പരിവർത്തനം",
+          "ta": "மாற்றம் (இடமாற்று அணி)",
+          "tl": "transition (paglipat)",
+          "ps": "لېږد",
+          "ro": "tranziție",
+          "ru": "переход",
+          "fr": "transition",
+          "hi": "संक्रमण",
+          "es": "transición"
+         }
         },
         {
          "word": "equilibrium",
@@ -147631,7 +148486,26 @@
          "root": "equi",
          "meaning": "The steady state a system settles into and then stops changing.",
          "example": "After many steps the population reaches equilibrium.",
-         "translations": {}
+         "translations": {
+          "zh-Hans": "平衡态",
+          "zh-Hant": "平衡態",
+          "ja": "均衡状態",
+          "ko": "평형(균형상태)",
+          "vi": "trạng thái cân bằng",
+          "ar": "التوازن",
+          "fa": "تعادل",
+          "ur": "توازن",
+          "am": "ሚዛን (ኢኩሊብሪየም)",
+          "ml": "സന്തുലനാവസ്ഥ",
+          "ta": "சமநிலை",
+          "tl": "equilibrium (balanseng estado)",
+          "ps": "توازن",
+          "ro": "echilibru",
+          "ru": "равновесие",
+          "fr": "équilibre",
+          "hi": "साम्यावस्था",
+          "es": "equilibrio"
+         }
         },
         {
          "word": "dominance",
@@ -147671,7 +148545,26 @@
          "root": "domin",
          "meaning": "A matrix used to rank players or teams by who beat whom.",
          "example": "Use a dominance matrix to rank the five teams.",
-         "translations": {}
+         "translations": {
+          "zh-Hans": "优势关系",
+          "zh-Hant": "優勢關係",
+          "ja": "優位性",
+          "ko": "우세(지배관계)",
+          "vi": "sự trội hơn (thế thượng phong)",
+          "ar": "السيادة (التفوق)",
+          "fa": "برتری (تسلط)",
+          "ur": "برتری (غلبہ)",
+          "am": "የበላይነት",
+          "ml": "മേധാവിത്വം",
+          "ta": "மேலாதிக்கம்",
+          "tl": "dominance (kalamangan)",
+          "ps": "برلاسي",
+          "ro": "dominanță",
+          "ru": "доминирование",
+          "fr": "dominance",
+          "hi": "प्रभुत्व",
+          "es": "dominancia"
+         }
         },
         {
          "word": "permutation",
@@ -147755,7 +148648,26 @@
          "root": "mut",
          "meaning": "An arrangement where the order does matter.",
          "example": "A permutation matrix reorders the rows.",
-         "translations": {}
+         "translations": {
+          "zh-Hans": "排列",
+          "zh-Hant": "排列",
+          "ja": "順列",
+          "ko": "순열",
+          "vi": "hoán vị",
+          "ar": "التباديل (الترتيب)",
+          "fa": "جایگشت (ترتیب)",
+          "ur": "ترتیب بندی (پرمیوٹیشن)",
+          "am": "ቅደም ተከተል (ፐርሙቴሽን)",
+          "ml": "ക്രമചയം",
+          "ta": "வரிசைமாற்று",
+          "tl": "permutasyon",
+          "ps": "ترتیب",
+          "ro": "permutare",
+          "ru": "перестановка",
+          "fr": "permutation",
+          "hi": "क्रमचय",
+          "es": "permutación"
+         }
         }
        ],
        "path": "vce/general-mathematics/unit-4-aos-1"
