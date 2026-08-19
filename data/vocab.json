@@ -162461,7 +162461,8 @@
           "ur": "میزبان",
           "vi": "vật chủ",
           "zh-Hans": "宿主",
-          "zh-Hant": "宿主"
+          "zh-Hant": "宿主",
+          "tl": "inaangkinang organismo"
          }
         },
         {
@@ -214050,7 +214051,8 @@
           "ur": "کھلے کھیتوں کا نظام",
           "vi": "hệ thống ruộng đất mở",
           "zh-Hans": "露天田地制度",
-          "zh-Hant": "露天田地制度"
+          "zh-Hant": "露天田地制度",
+          "ps": "خلاص ډګر سیسټم"
          }
         },
         {
@@ -214103,7 +214105,8 @@
           "ur": "زمین کی باڑ بندی",
           "vi": "rào đất",
           "zh-Hans": "圈地",
-          "zh-Hant": "圈地"
+          "zh-Hant": "圈地",
+          "ps": "احاطه کول"
          }
         },
         {
@@ -214156,7 +214159,8 @@
           "ur": "پڑتی زمین",
           "vi": "đất bỏ hoang",
           "zh-Hans": "休耕",
-          "zh-Hant": "休耕"
+          "zh-Hant": "休耕",
+          "ps": "پراته ځمکه"
          }
         },
         {
@@ -214263,7 +214267,8 @@
           "ur": "ہل",
           "vi": "cày",
           "zh-Hans": "犁",
-          "zh-Hant": "犁"
+          "zh-Hant": "犁",
+          "ps": "خج"
          }
         },
         {
@@ -218222,7 +218227,22 @@
          "translations": {
           "zh-Hans": "纺织品生产",
           "zh-Hant": "紡織品生產",
-          "es": "producción textil"
+          "es": "producción textil",
+          "ja": "繊維生産",
+          "ko": "직물 생산",
+          "vi": "sản xuất dệt may",
+          "ar": "إنتاج المنسوجات",
+          "fa": "تولید نساجی",
+          "ur": "ٹیکسٹائل کی پیداوار",
+          "am": "የጨርቃ ጨርቅ ምርት",
+          "ml": "തുണിത്തര ഉത്പാദനം",
+          "ta": "நெசவு உற்பத்தி",
+          "tl": "produksyon ng tela",
+          "ps": "د نسج تولید",
+          "ro": "producția de textile",
+          "ru": "текстильное производство",
+          "fr": "production textile",
+          "hi": "वस्त्र उत्पादन"
          }
         },
         {
@@ -218234,7 +218254,22 @@
          "translations": {
           "zh-Hans": "作坊",
           "zh-Hant": "作坊",
-          "es": "taller"
+          "es": "taller",
+          "ja": "工房",
+          "ko": "작업장",
+          "vi": "xưởng thủ công",
+          "ar": "الورشة",
+          "fa": "کارگاه",
+          "ur": "کارگاہ",
+          "am": "አውደ ጥናት (ወርክሾፕ)",
+          "ml": "പണിശാല",
+          "ta": "பட்டறை",
+          "tl": "pagawaan",
+          "ps": "کارگاه",
+          "ro": "atelier",
+          "ru": "мастерская",
+          "fr": "atelier",
+          "hi": "कार्यशाला"
          }
         },
         {
@@ -218246,7 +218281,22 @@
          "translations": {
           "zh-Hans": "纺纱工",
           "zh-Hant": "紡紗工",
-          "es": "hilandero"
+          "es": "hilandero",
+          "ja": "紡績工",
+          "ko": "방적공",
+          "vi": "thợ kéo sợi",
+          "ar": "الغزّال (عامل الغزل)",
+          "fa": "ریسنده",
+          "ur": "کاتنے والا",
+          "am": "ፈታይ (ስፒነር)",
+          "ml": "നൂൽ നൂൽക്കുന്നയാൾ",
+          "ta": "நூற்பாளர்",
+          "tl": "manghahabi ng sinulid",
+          "ps": "تارتنی",
+          "ro": "torcător",
+          "ru": "прядильщик",
+          "fr": "fileur",
+          "hi": "कातने वाला"
          }
         },
         {
@@ -218258,7 +218308,22 @@
          "translations": {
           "zh-Hans": "染色工",
           "zh-Hant": "染色工",
-          "es": "tintorero"
+          "es": "tintorero",
+          "ja": "染色工",
+          "ko": "염색공",
+          "vi": "thợ nhuộm",
+          "ar": "الصبّاغ",
+          "fa": "رنگرز",
+          "ur": "رنگ ریز",
+          "am": "ቀለም ቀቢ (ዳየር)",
+          "ml": "ചായം പൂശുന്നയാൾ",
+          "ta": "சாயமிடுபவர்",
+          "tl": "manglilinis (dyer)",
+          "ps": "رنګمال",
+          "ro": "vopsitor",
+          "ru": "красильщик",
+          "fr": "teinturier",
+          "hi": "रंगरेज"
          }
         },
         {
@@ -218297,7 +218362,22 @@
          "translations": {
           "zh-Hans": "过剩 / 剩余",
           "zh-Hant": "過剩 / 剩餘",
-          "es": "excedente"
+          "es": "excedente",
+          "ja": "余剰",
+          "ko": "잉여",
+          "vi": "thặng dư",
+          "ar": "الفائض",
+          "fa": "مازاد",
+          "ur": "زائد (فاضل)",
+          "am": "ትርፍ (ትርፍ ምርት)",
+          "ml": "മിച്ചം",
+          "ta": "உபரி",
+          "tl": "sobra (surplus)",
+          "ps": "زیاتی",
+          "ro": "surplus",
+          "ru": "излишек",
+          "fr": "surplus",
+          "hi": "अधिशेष"
          }
         },
         {
@@ -218309,7 +218389,22 @@
          "translations": {
           "zh-Hans": "贫困",
           "zh-Hant": "貧困",
-          "es": "pobreza"
+          "es": "pobreza",
+          "ja": "貧困",
+          "ko": "빈곤",
+          "vi": "nghèo đói",
+          "ar": "الفقر",
+          "fa": "فقر",
+          "ur": "غربت",
+          "am": "ድህነት",
+          "ml": "ദാരിദ്ര്യം",
+          "ta": "வறுமை",
+          "tl": "kahirapan",
+          "ps": "بېوزلي",
+          "ro": "sărăcie",
+          "ru": "бедность",
+          "fr": "pauvreté",
+          "hi": "गरीबी"
          }
         },
         {
@@ -218321,7 +218416,22 @@
          "translations": {
           "zh-Hans": "乡村",
           "zh-Hant": "鄉村",
-          "es": "campo"
+          "es": "campo",
+          "ja": "田舎",
+          "ko": "시골",
+          "vi": "vùng nông thôn",
+          "ar": "الريف",
+          "fa": "روستا (حومه)",
+          "ur": "دیہی علاقہ",
+          "am": "የገጠር አካባቢ",
+          "ml": "ഗ്രാമപ്രദേശം",
+          "ta": "கிராமப்புறம்",
+          "tl": "kanayunan",
+          "ps": "کلیوالی سیمه",
+          "ro": "zonă rurală",
+          "ru": "сельская местность",
+          "fr": "campagne",
+          "hi": "ग्रामीण क्षेत्र"
          }
         },
         {
@@ -218333,7 +218443,22 @@
          "translations": {
           "zh-Hans": "工厂制度",
           "zh-Hant": "工廠制度",
-          "es": "sistema fabril"
+          "es": "sistema fabril",
+          "ja": "工場制度",
+          "ko": "공장제 시스템",
+          "vi": "hệ thống nhà máy",
+          "ar": "نظام المصانع",
+          "fa": "نظام کارخانه‌ای",
+          "ur": "فیکٹری نظام",
+          "am": "የፋብሪካ ስርዓት",
+          "ml": "ഫാക്ടറി വ്യവസ്ഥ",
+          "ta": "தொழிற்சாலை முறை",
+          "tl": "sistema ng pabrika",
+          "ps": "کارخانه سیسټم",
+          "ro": "sistemul fabricilor",
+          "ru": "фабричная система",
+          "fr": "système d'usine",
+          "hi": "फैक्ट्री प्रणाली"
          }
         },
         {
@@ -218345,7 +218470,22 @@
          "translations": {
           "zh-Hans": "小规模的",
           "zh-Hant": "小規模的",
-          "es": "a pequeña escala"
+          "es": "a pequeña escala",
+          "ja": "小規模の",
+          "ko": "소규모의",
+          "vi": "quy mô nhỏ",
+          "ar": "صغير النطاق",
+          "fa": "کوچک‌مقیاس",
+          "ur": "چھوٹے پیمانے کا",
+          "am": "አነስተኛ መጠን ያለው",
+          "ml": "ചെറുകിട",
+          "ta": "சிறிய அளவிலான",
+          "tl": "maliit na sukat",
+          "ps": "کوچنی کچه",
+          "ro": "la scară mică",
+          "ru": "мелкомасштабный",
+          "fr": "à petite échelle",
+          "hi": "लघु-स्तरीय"
          }
         },
         {
@@ -218357,7 +218497,22 @@
          "translations": {
           "zh-Hans": "家庭手工业",
           "zh-Hant": "家庭手工業",
-          "es": "industria doméstica"
+          "es": "industria doméstica",
+          "ja": "家内工業",
+          "ko": "가내수공업",
+          "vi": "công nghiệp gia đình (thủ công tại nhà)",
+          "ar": "الصناعة المنزلية",
+          "fa": "صنعت خانگی",
+          "ur": "گھریلو صنعت",
+          "am": "የቤት ውስጥ ኢንዱስትሪ",
+          "ml": "കുടിൽ വ്യവസായം",
+          "ta": "குடிசைத் தொழில்",
+          "tl": "industriyang gawang-bahay",
+          "ps": "کورنی صنعت",
+          "ro": "industrie casnică",
+          "ru": "надомный промысел",
+          "fr": "industrie artisanale (à domicile)",
+          "hi": "कुटीर उद्योग"
          }
         },
         {
@@ -218369,7 +218524,22 @@
          "translations": {
           "zh-Hans": "织布工",
           "zh-Hant": "織布工",
-          "es": "tejedor"
+          "es": "tejedor",
+          "ja": "織工",
+          "ko": "직조공",
+          "vi": "thợ dệt",
+          "ar": "النسّاج",
+          "fa": "بافنده",
+          "ur": "بُنکر",
+          "am": "ሸማኔ (ውቨር)",
+          "ml": "നെയ്ത്തുകാരൻ",
+          "ta": "நெசவாளர்",
+          "tl": "manghahabi",
+          "ps": "نساج",
+          "ro": "țesător",
+          "ru": "ткач",
+          "fr": "tisserand",
+          "hi": "बुनकर"
          }
         },
         {
@@ -218462,7 +218632,22 @@
          "translations": {
           "zh-Hans": "农村地区",
           "zh-Hant": "農村地區",
-          "es": "zonas rurales"
+          "es": "zonas rurales",
+          "ja": "農村地域",
+          "ko": "농촌 지역",
+          "vi": "khu vực nông thôn",
+          "ar": "المناطق الريفية",
+          "fa": "مناطق روستایی",
+          "ur": "دیہی علاقے",
+          "am": "የገጠር አካባቢዎች",
+          "ml": "ഗ്രാമ പ്രദേശങ്ങൾ",
+          "ta": "கிராமப்புற பகுதிகள்",
+          "tl": "mga lugar sa kanayunan",
+          "ps": "کلیوالی سیمې",
+          "ro": "zone rurale",
+          "ru": "сельские районы",
+          "fr": "zones rurales",
+          "hi": "ग्रामीण क्षेत्र"
          }
         },
         {
@@ -218474,7 +218659,22 @@
          "translations": {
           "zh-Hans": "城市",
           "zh-Hant": "城市",
-          "es": "ciudades"
+          "es": "ciudades",
+          "ja": "都市",
+          "ko": "도시",
+          "vi": "thành phố",
+          "ar": "المدن",
+          "fa": "شهرها",
+          "ur": "شہر",
+          "am": "ከተሞች",
+          "ml": "നഗരങ്ങൾ",
+          "ta": "நகரங்கள்",
+          "tl": "mga lungsod",
+          "ps": "ښارونه",
+          "ro": "orașe",
+          "ru": "города",
+          "fr": "villes",
+          "hi": "शहर"
          }
         },
         {
@@ -218486,7 +218686,22 @@
          "translations": {
           "zh-Hans": "劳动力",
           "zh-Hant": "勞動力",
-          "es": "mano de obra"
+          "es": "mano de obra",
+          "ja": "労働",
+          "ko": "노동",
+          "vi": "lao động",
+          "ar": "العمالة",
+          "fa": "نیروی کار",
+          "ur": "مزدوری (محنت)",
+          "am": "የጉልበት ስራ",
+          "ml": "അധ്വാനം",
+          "ta": "உழைப்பு",
+          "tl": "paggawa",
+          "ps": "کارګري",
+          "ro": "muncă",
+          "ru": "труд (рабочая сила)",
+          "fr": "main-d'œuvre",
+          "hi": "श्रम"
          }
         }
        ],
