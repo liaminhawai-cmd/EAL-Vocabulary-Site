@@ -320047,7 +320047,20 @@
           "zh-Hans": "祖传土地",
           "fa": "سرزمین‌های اجدادی",
           "vi": "Đất tổ tiên",
-          "zh-Hant": "祖傳土地"
+          "zh-Hant": "祖傳土地",
+          "am": "የቅድመ አያቶች መሬቶች",
+          "ar": "الأراضي الموروثة (أراضي الأجداد)",
+          "es": "tierras ancestrales",
+          "fr": "terres ancestrales",
+          "hi": "पैतृक भूमि",
+          "ko": "조상의 땅",
+          "ml": "പൂർവ്വിക ഭൂമി",
+          "ps": "د پلرونو ځمکې",
+          "ro": "pământuri ancestrale",
+          "ru": "земли предков",
+          "ta": "மூதாதையர் நிலங்கள்",
+          "tl": "lupang ninuno (ancestral lands)",
+          "ur": "آبائی زمینیں"
          }
         },
         {
@@ -320094,7 +320107,20 @@
           "zh-Hans": "当局",
           "fa": "مقامات",
           "vi": "Cơ quan chức năng",
-          "zh-Hant": "當局"
+          "zh-Hant": "當局",
+          "am": "ባለስልጣናት",
+          "ar": "السلطات",
+          "es": "autoridades",
+          "fr": "autorités",
+          "hi": "अधिकारी (प्रशासन)",
+          "ko": "당국",
+          "ml": "അധികാരികൾ",
+          "ps": "چارواکي",
+          "ro": "autorități",
+          "ru": "власти",
+          "ta": "அதிகாரிகள்",
+          "tl": "mga awtoridad",
+          "ur": "حکام"
          }
         },
         {
@@ -320122,7 +320148,20 @@
           "zh-Hans": "死罪",
           "fa": "جرم بزرگ",
           "vi": "Tội tử hình",
-          "zh-Hant": "死罪"
+          "zh-Hant": "死罪",
+          "am": "የሞት ቅጣት የሚያስከትል ወንጀል",
+          "ar": "جريمة عقوبتها الإعدام",
+          "es": "delito capital",
+          "fr": "crime capital (passible de la peine de mort)",
+          "hi": "मृत्युदंड योग्य अपराध",
+          "ko": "사형에 해당하는 범죄",
+          "ml": "വധശിക്ഷ ലഭിക്കാവുന്ന കുറ്റം",
+          "ps": "د اعدام وړ جرم",
+          "ro": "infracțiune capitală",
+          "ru": "преступление, караемое смертью",
+          "ta": "மரண தண்டனைக்குரிய குற்றம்",
+          "tl": "krimeng may parusang kamatayan (capital offence)",
+          "ur": "سزائے موت کا جرم"
          }
         },
         {
@@ -320137,7 +320176,20 @@
           "zh-Hans": "殖民者",
           "fa": "استعمارگران",
           "vi": "Những người thực dân",
-          "zh-Hant": "殖民者"
+          "zh-Hant": "殖民者",
+          "am": "ቅኝ ገዢዎች",
+          "ar": "المستعمِرون",
+          "es": "colonizadores",
+          "fr": "colonisateurs",
+          "hi": "उपनिवेशवादी (उपनिवेश स्थापित करने वाले)",
+          "ko": "식민지 개척자들",
+          "ml": "കോളനിവൽക്കരണക്കാർ",
+          "ps": "استعمار کوونکي",
+          "ro": "colonizatori",
+          "ru": "колонизаторы",
+          "ta": "காலனித்துவவாதிகள்",
+          "tl": "mga kolonisador (colonisers)",
+          "ur": "نوآبادکار"
          }
         },
         {
@@ -320152,7 +320204,20 @@
           "zh-Hans": "边境定居点",
           "fa": "شهرک‌های مرزی",
           "vi": "Khu định cư biên giới",
-          "zh-Hant": "邊境定居點"
+          "zh-Hant": "邊境定居點",
+          "am": "የድንበር ሰፈሮች",
+          "ar": "مستوطنات الحدود",
+          "es": "asentamientos fronterizos",
+          "fr": "colonies frontalières",
+          "hi": "सीमांत बस्तियां",
+          "ko": "변경 정착지들",
+          "ml": "അതിർത്തി കുടിയേറ്റ കേന്ദ്രങ്ങൾ",
+          "ps": "پولې میشتونې",
+          "ro": "așezări de frontieră",
+          "ru": "приграничные поселения",
+          "ta": "எல்லைப்புற குடியேற்றங்கள்",
+          "tl": "mga pamayanan sa hangganan (frontier settlements)",
+          "ur": "سرحدی آبادکاریاں"
          }
         },
         {
@@ -320167,7 +320232,20 @@
           "zh-Hans": "边境战争",
           "fa": "جنگ‌های مرزی",
           "vi": "Chiến tranh biên giới",
-          "zh-Hant": "邊境戰爭"
+          "zh-Hant": "邊境戰爭",
+          "am": "የድንበር ጦርነቶች",
+          "ar": "حروب الحدود",
+          "es": "guerras fronterizas",
+          "fr": "guerres de la frontière",
+          "hi": "सीमांत युद्ध",
+          "ko": "변경 전쟁",
+          "ml": "അതിർത്തി യുദ്ധങ്ങൾ",
+          "ps": "د پولې جګړې",
+          "ro": "războaiele de frontieră",
+          "ru": "приграничные войны",
+          "ta": "எல்லைப்புற போர்கள்",
+          "tl": "mga digmaan sa hangganan (Frontier Wars)",
+          "ur": "سرحدی جنگیں"
          }
         },
         {
@@ -320182,7 +320260,20 @@
           "zh-Hans": "代际创伤",
           "fa": "آسیب‌های بین نسلی",
           "vi": "Chấn thương liên thế hệ",
-          "zh-Hant": "代際創傷"
+          "zh-Hant": "代際創傷",
+          "am": "ከትውልድ ወደ ትውልድ የሚተላለፍ ጉዳት",
+          "ar": "الصدمة العابرة للأجيال",
+          "es": "trauma intergeneracional",
+          "fr": "traumatisme intergénérationnel",
+          "hi": "अंतर-पीढ़ीगत आघात",
+          "ko": "세대 간 트라우마",
+          "ml": "തലമുറകൾ കൈമാറുന്ന ആഘാതം",
+          "ps": "د نسلونو ترمنځ رواني صدمه",
+          "ro": "traumă transgenerațională",
+          "ru": "межпоколенческая травма",
+          "ta": "தலைமுறை தலைமுறையாக பாதிக்கும் மனஅதிர்ச்சி",
+          "tl": "trauma na naipapasa sa henerasyon (intergenerational trauma)",
+          "ur": "نسل در نسل ذہنی صدمہ"
          }
         },
         {
@@ -320197,7 +320288,20 @@
           "zh-Hans": "任务和预备役",
           "fa": "ماموریت‌ها و ذخایر",
           "vi": "Nhiệm vụ và khu bảo tồn",
-          "zh-Hant": "任務和預備役"
+          "zh-Hant": "任務和預備役",
+          "am": "የሚስዮን ጣቢያዎችና ልዩ ግዛቶች",
+          "ar": "الإرساليات والمحميات",
+          "es": "misiones y reservas",
+          "fr": "missions et réserves",
+          "hi": "मिशन और आरक्षित क्षेत्र",
+          "ko": "선교지와 보호구역",
+          "ml": "മിഷനുകളും റിസർവുകളും",
+          "ps": "مشنونه او خوندي سیمې",
+          "ro": "misiuni și rezervații",
+          "ru": "миссии и резервации",
+          "ta": "மிஷன்கள் மற்றும் ஒதுக்கப்பட்ட பகுதிகள்",
+          "tl": "mga misyon at reserba (missions and reserves)",
+          "ur": "مشن اور مخصوص علاقے"
          }
         },
         {
@@ -320264,7 +320368,20 @@
           "zh-Hans": "道德",
           "fa": "اخلاقیات",
           "vi": "Đạo đức",
-          "zh-Hant": "道德"
+          "zh-Hant": "道德",
+          "am": "ስነ ምግባር",
+          "ar": "الأخلاق",
+          "es": "moralidad",
+          "fr": "moralité",
+          "hi": "नैतिकता",
+          "ko": "도덕성",
+          "ml": "സദാചാരം",
+          "ps": "اخلاق",
+          "ro": "moralitate",
+          "ru": "нравственность",
+          "ta": "ஒழுக்கம்",
+          "tl": "moralidad",
+          "ur": "اخلاقیات"
          }
         },
         {
@@ -320279,7 +320396,20 @@
           "zh-Hans": "肇事者",
           "fa": "عاملان جنایت",
           "vi": "Thủ phạm",
-          "zh-Hant": "肇事者"
+          "zh-Hant": "肇事者",
+          "am": "ወንጀል ፈጻሚዎች",
+          "ar": "الجناة (مرتكبو الجريمة)",
+          "es": "perpetradores",
+          "fr": "auteurs (du crime)",
+          "hi": "अपराधी (कृत्य करने वाले)",
+          "ko": "가해자들",
+          "ml": "കുറ്റം ചെയ്തവർ",
+          "ps": "مرتکبین",
+          "ro": "făptași",
+          "ru": "виновники (преступники)",
+          "ta": "குற்றவாளிகள்",
+          "tl": "mga gumawa ng krimen (perpetrators)",
+          "ur": "مجرمان"
          }
         },
         {
@@ -320294,7 +320424,20 @@
           "zh-Hans": "有预谋的",
           "fa": "از پیش طراحی‌شده",
           "vi": "có chủ đích",
-          "zh-Hant": "有預謀的"
+          "zh-Hant": "有預謀的",
+          "am": "አስቀድሞ የታቀደ",
+          "ar": "مُبيّت (مخطط له مسبقًا)",
+          "es": "premeditado",
+          "fr": "prémédité",
+          "hi": "पूर्वनियोजित",
+          "ko": "계획적인(사전 모의한)",
+          "ml": "മുൻകൂട്ടി ആസൂത്രണം ചെയ്ത",
+          "ps": "له مخکې پلان شوی",
+          "ro": "premeditat",
+          "ru": "преднамеренный",
+          "ta": "முன்கூட்டியே திட்டமிடப்பட்ட",
+          "tl": "pinag-isipan bago gawin (premeditated)",
+          "ur": "پیشگی منصوبہ بند"
          }
         },
         {
@@ -320385,7 +320528,20 @@
           "zh-Hans": "反抗",
           "fa": "مقاومت",
           "vi": "Phản kháng",
-          "zh-Hant": "反抗"
+          "zh-Hant": "反抗",
+          "am": "ተቃውሞ",
+          "ar": "المقاومة",
+          "es": "resistencia",
+          "fr": "résistance",
+          "hi": "प्रतिरोध",
+          "ko": "저항",
+          "ml": "പ്രതിരോധം",
+          "ps": "مقاومت",
+          "ro": "rezistență",
+          "ru": "сопротивление",
+          "ta": "எதிர்ப்பு",
+          "tl": "paglaban (resistance)",
+          "ur": "مزاحمت"
          }
         },
         {
@@ -320457,7 +320613,20 @@
           "zh-Hans": "报复",
           "fa": "تلافی",
           "vi": "Trả thù",
-          "zh-Hant": "報復"
+          "zh-Hant": "報復",
+          "am": "የበቀል ምላሽ",
+          "ar": "الانتقام (الرد بالمثل)",
+          "es": "represalia",
+          "fr": "représailles",
+          "hi": "प्रतिशोध",
+          "ko": "보복",
+          "ml": "പ്രതികാരം",
+          "ps": "انتقام",
+          "ro": "represalii",
+          "ru": "возмездие (ответный удар)",
+          "ta": "பழிவாங்குதல்",
+          "tl": "ganti (retaliation)",
+          "ur": "جوابی کارروائی"
          }
         },
         {
@@ -320472,7 +320641,20 @@
           "zh-Hans": "奴隶劳动",
           "fa": "کار اجباری",
           "vi": "Lao động nô lệ",
-          "zh-Hant": "奴隸勞動"
+          "zh-Hant": "奴隸勞動",
+          "am": "የባርነት ስራ",
+          "ar": "عمل العبيد (السخرة)",
+          "es": "trabajo esclavo",
+          "fr": "travail forcé (esclave)",
+          "hi": "गुलामी श्रम",
+          "ko": "노예 노동",
+          "ml": "അടിമവേല",
+          "ps": "غلامی کارګري",
+          "ro": "muncă de sclavi",
+          "ru": "рабский труд",
+          "ta": "அடிமைத்தொழில்",
+          "tl": "sapilitang paggawa (slave labour)",
+          "ur": "غلامانہ مشقت"
          }
         },
         {
@@ -320487,7 +320669,20 @@
           "zh-Hans": "最高法院",
           "fa": "دیوان عالی کشور",
           "vi": "Tòa án Tối cao",
-          "zh-Hant": "最高法院"
+          "zh-Hant": "最高法院",
+          "am": "ጠቅላይ ፍርድ ቤት",
+          "ar": "المحكمة العليا",
+          "es": "Tribunal Supremo",
+          "fr": "Cour suprême",
+          "hi": "सर्वोच्च न्यायालय",
+          "ko": "대법원",
+          "ml": "സുപ്രീം കോടതി",
+          "ps": "لوړ محکمه",
+          "ro": "Curtea Supremă",
+          "ru": "Верховный суд",
+          "ta": "உச்சநீதிமன்றம்",
+          "tl": "Kataas-taasang Hukuman (Supreme Court)",
+          "ur": "سپریم کورٹ"
          }
         },
         {
@@ -320502,7 +320697,20 @@
           "zh-Hans": "保护体系",
           "fa": "نظام حمایت (nezām-e hemāyat)",
           "vi": "Hệ thống bảo vệ",
-          "zh-Hant": "保護體系"
+          "zh-Hant": "保護體系",
+          "am": "የጥበቃ ስርዓት",
+          "ar": "نظام الحماية",
+          "es": "sistema de protección",
+          "fr": "système de protection",
+          "hi": "संरक्षण प्रणाली",
+          "ko": "보호 제도",
+          "ml": "സംരക്ഷണ സംവിധാനം",
+          "ps": "د ساتنې سیسټم",
+          "ro": "sistem de protecție",
+          "ru": "система защиты (опеки)",
+          "ta": "பாதுகாப்பு அமைப்பு",
+          "tl": "sistema ng proteksyon (system of protection)",
+          "ur": "تحفظ کا نظام"
          }
         },
         {
@@ -320517,7 +320725,20 @@
           "zh-Hans": "默许",
           "fa": "رضایت دادن بی‌صدا",
           "vi": "chấp thuận ngầm",
-          "zh-Hant": "默許"
+          "zh-Hant": "默許",
+          "am": "ማክበር (ተስማምቶ መቀበል)",
+          "ar": "يذعن (يوافق مضطرًا)",
+          "es": "acceder (aceptar de mala gana)",
+          "fr": "acquiescer (se soumettre)",
+          "hi": "मान लेना (चुपचाप स्वीकार करना)",
+          "ko": "묵인하다(마지못해 동의하다)",
+          "ml": "മൗനാനുവാദം നൽകുക",
+          "ps": "غاړه کیدل",
+          "ro": "a se supune (a accepta tacit)",
+          "ru": "молча соглашаться",
+          "ta": "மௌன ஒப்புதல் தருதல்",
+          "tl": "sumang-ayon nang tahimik (acquiesce)",
+          "ur": "خاموشی سے مان لینا"
          }
         },
         {
@@ -320621,7 +320842,20 @@
           "zh-Hans": "适当地 (shìdāng de)",
           "fa": "به‌طور مناسب (be towr-e monāseb)",
           "vi": "Thích hợp",
-          "zh-Hant": "適當地 (shìdāng de)"
+          "zh-Hant": "適當地 (shìdāng de)",
+          "am": "በተገቢው መንገድ",
+          "ar": "بشكل مناسب",
+          "es": "apropiadamente",
+          "fr": "de manière appropriée",
+          "hi": "उचित रूप से",
+          "ko": "적절하게",
+          "ml": "ഉചിതമായി",
+          "ps": "په مناسب ډول",
+          "ro": "în mod adecvat",
+          "ru": "надлежащим образом",
+          "ta": "பொருத்தமாக",
+          "tl": "nang naaayon (appropriately)",
+          "ur": "مناسب طریقے سے"
          }
         },
         {
@@ -320694,7 +320928,20 @@
           "zh-Hans": "同化 (tónghuà)",
           "fa": "همگون‌سازی (hamgon-sāzī)",
           "vi": "Đồng hóa",
-          "zh-Hant": "同化 (tónghuà)"
+          "zh-Hant": "同化 (tónghuà)",
+          "am": "መዋሃድ (ውህደት)",
+          "ar": "الاستيعاب (الاندماج)",
+          "es": "asimilación",
+          "fr": "assimilation",
+          "hi": "आत्मसातीकरण",
+          "ko": "동화(흡수)",
+          "ml": "സ്വാംശീകരണം",
+          "ps": "ادغام",
+          "ro": "asimilare",
+          "ru": "ассимиляция",
+          "ta": "இணைவு",
+          "tl": "asimilasyon",
+          "ur": "انضمام"
          }
         },
         {
@@ -320709,7 +320956,20 @@
           "zh-Hans": "暴行 (bàoxíng)",
           "fa": "فجایع (fajāye‘)",
           "vi": "Tàn bạo",
-          "zh-Hant": "暴行 (bàoxíng)"
+          "zh-Hant": "暴行 (bàoxíng)",
+          "am": "አሰቃቂ ድርጊቶች",
+          "ar": "الفظائع",
+          "es": "atrocidades",
+          "fr": "atrocités",
+          "hi": "अत्याचार",
+          "ko": "잔학행위",
+          "ml": "അതിക്രൂരതകൾ",
+          "ps": "بشپړ ظلمونه",
+          "ro": "atrocități",
+          "ru": "зверства",
+          "ta": "கொடூரங்கள்",
+          "tl": "kalupitan (atrocities)",
+          "ur": "مظالم"
          }
         },
         {
@@ -320775,7 +321035,20 @@
           "zh-Hans": "殖民 (zhímín)",
           "fa": "استعمار (este‘mār)",
           "vi": "Thuộc địa hóa",
-          "zh-Hant": "殖民 (zhímín)"
+          "zh-Hant": "殖民 (zhímín)",
+          "am": "ቅኝ ግዛት መመስረት",
+          "ar": "الاستعمار",
+          "es": "colonización",
+          "fr": "colonisation",
+          "hi": "उपनिवेशीकरण",
+          "ko": "식민지화",
+          "ml": "കോളനിവൽക്കരണം",
+          "ps": "استعمار کول",
+          "ro": "colonizare",
+          "ru": "колонизация",
+          "ta": "காலனித்துவமாக்கல்",
+          "tl": "kolonisasyon",
+          "ur": "نوآبادکاری"
          }
         },
         {
@@ -320848,7 +321121,20 @@
           "zh-Hans": "指挥官 (zhǐhuīguān)",
           "fa": "فرمانده (farmānde)",
           "vi": "Chỉ huy",
-          "zh-Hant": "指揮官 (zhǐhuīguān)"
+          "zh-Hant": "指揮官 (zhǐhuīguān)",
+          "am": "አዛዥ",
+          "ar": "القائد (الآمر)",
+          "es": "comandante",
+          "fr": "commandant",
+          "hi": "कमांडेंट (सेनापति)",
+          "ko": "사령관",
+          "ml": "കമാൻഡന്റ്",
+          "ps": "قوماندان",
+          "ro": "comandant",
+          "ru": "комендант",
+          "ta": "தளபதி",
+          "tl": "komandante",
+          "ur": "کمانڈنٹ"
          }
         },
         {
@@ -320863,7 +321149,20 @@
           "zh-Hans": "共产主义者 (gòngchǎn zhǔyì zhě)",
           "fa": "کمونیست‌ها (komonīst-hā)",
           "vi": "Cộng sản",
-          "zh-Hant": "共產主義者 (gòngchǎn zhǔyì zhě)"
+          "zh-Hant": "共產主義者 (gòngchǎn zhǔyì zhě)",
+          "am": "ኮሚኒስቶች",
+          "ar": "الشيوعيون",
+          "es": "comunistas",
+          "fr": "communistes",
+          "hi": "साम्यवादी (कम्युनिस्ट)",
+          "ko": "공산주의자들",
+          "ml": "കമ്യൂണിസ്റ്റുകൾ",
+          "ps": "کمونستان",
+          "ro": "comuniști",
+          "ru": "коммунисты",
+          "ta": "பொதுவுடைமைவாதிகள்",
+          "tl": "mga komunista",
+          "ur": "کمیونسٹ"
          }
         },
         {
@@ -320910,7 +321209,20 @@
           "zh-Hans": "勇气",
           "fa": "شجاعت",
           "vi": "dũng cảm",
-          "zh-Hant": "勇氣"
+          "zh-Hant": "勇氣",
+          "am": "ድፍረት",
+          "ar": "الشجاعة",
+          "es": "coraje (valentía)",
+          "fr": "courage",
+          "hi": "साहस",
+          "ko": "용기",
+          "ml": "ധൈര്യം",
+          "ps": "زړورتیا",
+          "ro": "curaj",
+          "ru": "смелость (мужество)",
+          "ta": "தைரியம்",
+          "tl": "tapang (courage)",
+          "ur": "ہمت"
          }
         },
         {
@@ -320988,7 +321300,20 @@
           "zh-Hans": "文化灭绝 (wénhuà mièjué)",
           "fa": "نسل‌کشی فرهنگی (nasl-koshi-e farhangī)",
           "vi": "Diệt chủng văn hóa (diệt chủng văn hóa)",
-          "zh-Hant": "文化滅絕 (wénhuà mièjué)"
+          "zh-Hant": "文化滅絕 (wénhuà mièjué)",
+          "am": "ባህላዊ የዘር ማጥፋት",
+          "ar": "الإبادة الثقافية",
+          "es": "genocidio cultural",
+          "fr": "génocide culturel",
+          "hi": "सांस्कृतिक नरसंहार",
+          "ko": "문화적 대량학살",
+          "ml": "സാംസ്കാരിക വംശഹത്യ",
+          "ps": "کلتوري توپان وژنه",
+          "ro": "genocid cultural",
+          "ru": "культурный геноцид",
+          "ta": "பண்பாட்டு இனப்படுகொலை",
+          "tl": "genocide sa kultura (cultural genocide)",
+          "ur": "ثقافتی نسل کشی"
          }
         },
         {
@@ -321079,7 +321404,20 @@
           "zh-Hans": "去人性化 (qù rénxìng huà)",
           "fa": "غیرانسانی‌سازی (gheyr-ensānī-sāzī)",
           "vi": "Phi nhân tính",
-          "zh-Hant": "去人性化 (qù rénxìng huà)"
+          "zh-Hant": "去人性化 (qù rénxìng huà)",
+          "am": "ሰብአዊነት የተነጠቀ",
+          "ar": "منزوعة إنسانيته",
+          "es": "deshumanizado",
+          "fr": "déshumanisé",
+          "hi": "अमानवीकृत",
+          "ko": "비인간화된",
+          "ml": "മനുഷ്യത്വരഹിതമാക്കപ്പെട്ട",
+          "ps": "له انسانیت څخه لرې شوی",
+          "ro": "dezumanizat",
+          "ru": "лишённый человечности",
+          "ta": "மனிதத்தன்மை பறிக்கப்பட்ட",
+          "tl": "hindi itinuturing na tao (dehumanised)",
+          "ur": "غیر انسانی سلوک کا شکار"
          }
         },
         {
@@ -321094,7 +321432,20 @@
           "zh-Hans": "否认 (fǒurèn)",
           "fa": "انکار (enkar)",
           "vi": "Phủ nhận",
-          "zh-Hant": "否認 (fǒurèn)"
+          "zh-Hant": "否認 (fǒurèn)",
+          "am": "ማስተባበል (እምቢታ)",
+          "ar": "الإنكار",
+          "es": "negación",
+          "fr": "déni",
+          "hi": "इनकार",
+          "ko": "부정(부인)",
+          "ml": "നിഷേധം",
+          "ps": "انکار",
+          "ro": "negare",
+          "ru": "отрицание",
+          "ta": "மறுப்பு",
+          "tl": "pagtanggi (denial)",
+          "ur": "انکار"
          }
         },
         {
@@ -321186,7 +321537,20 @@
           "zh-Hans": "流离失所 (liúlí shī suǒ)",
           "fa": "جابجایی (jāb-jāyī)",
           "vi": "Sự di chuyển (sự di chuyển)",
-          "zh-Hant": "流離失所 (liúlí shī suǒ)"
+          "zh-Hant": "流離失所 (liúlí shī suǒ)",
+          "am": "መፈናቀል",
+          "ar": "التهجير (النزوح)",
+          "es": "desplazamiento",
+          "fr": "déplacement",
+          "hi": "विस्थापन",
+          "ko": "이주(강제이동)",
+          "ml": "കുടിയിറക്കൽ",
+          "ps": "بې ځایه کیدل",
+          "ro": "strămutare",
+          "ru": "перемещение (вытеснение)",
+          "ta": "இடம்பெயர்வு",
+          "tl": "pagpapaalis sa tirahan (displacement)",
+          "ur": "بے گھری"
          }
         },
         {
