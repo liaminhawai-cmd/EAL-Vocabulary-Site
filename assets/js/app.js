@@ -358,6 +358,123 @@ function openMorphemePanel(part) {
 }
 
 // ---------------------------------------------------------------------------
+// morpheme echoes — the words the student ALREADY owns that share a piece
+// ---------------------------------------------------------------------------
+// Morphology only pays off when a piece learned in one word is recognised in
+// the next. The family panel above answers "what other words exist?"; this
+// answers the more motivating question, "which of these do I already know?" —
+// so meeting "photosynthesis" quietly recalls the photograph and telephoto
+// this student earned earlier, shared piece lit, the rest dimmed.
+//
+// Indexed by family key (surface AND meaning), never surface alone: the "re"
+// of "return" is a different piece from the "re" of "repeat", and lighting one
+// up for the other would teach a link that isn't there.
+let ECHO_INDEX = null;
+function personalEchoIndex() {
+  if (ECHO_INDEX) return ECHO_INDEX;
+  const idx = new Map();
+  for (const it of store.getCollection()) {
+    const { unit } = resolvePath(it.path);
+    const w = unit && unit.words.find((x) => x.word === it.word);
+    if (!w || !(w.parts || []).length) continue;
+    for (const p of w.parts) {
+      const key = famKeyFor(p);
+      if (!key) continue;
+      if (!idx.has(key)) idx.set(key, []);
+      idx.get(key).push({ word: w, item: it });
+    }
+  }
+  ECHO_INDEX = idx;
+  return idx;
+}
+// Words are added to the collection mid-build, so the echoes grow as the
+// student works. Drop the cache whenever the collection changes.
+store.subscribe(() => { ECHO_INDEX = null; });
+
+const ECHO_CAP = 6;
+// Strongest anchor first: a mastered word is the most convincing evidence of
+// "you already know this piece", so it leads.
+const ECHO_BIN_RANK = { mastered: 0, consolidating: 1, learning: 2 };
+// `hide` is the set of words the student is being asked to produce right now —
+// showing those here would hand over the answer, so they are held back until
+// built.
+function echoesFor(part, hide) {
+  const key = famKeyFor(part);
+  if (!key) return { key: null, list: [], total: 0 };
+  // A word met in two units is two collection entries but one word to the
+  // student, so it earns one line — the stronger entry's.
+  const seen = new Map();
+  for (const e of personalEchoIndex().get(key) || []) {
+    const k = e.word.word.toLowerCase();
+    if (hide && hide.has(k)) continue;
+    const prev = seen.get(k);
+    if (!prev || ECHO_BIN_RANK[store.binOf(e.item)] < ECHO_BIN_RANK[store.binOf(prev.item)]) {
+      seen.set(k, e);
+    }
+  }
+  const found = [...seen.values()]
+    .sort((a, b) =>
+      (ECHO_BIN_RANK[store.binOf(a.item)] - ECHO_BIN_RANK[store.binOf(b.item)])
+      || ((b.item.box || 1) - (a.item.box || 1))
+      || a.word.word.localeCompare(b.word.word));
+  return { key, list: found.slice(0, ECHO_CAP), total: found.length };
+}
+// One recalled word, with the shared piece lit in its type colour and the rest
+// dimmed — so the student sees *where* the piece sits inside a word they
+// already own, not merely that it is in there.
+//
+// Walks the real spelling rather than concatenating the part surfaces: the
+// parts do not always tile the word (the space in "cultural genocide", the
+// "ag" of "encour-ag-ing"), and gluing them together would show the student a
+// word they have never seen. Whatever falls between or after the parts renders
+// dim alongside the unshared morphemes.
+function echoWordEl(w, key) {
+  const word = w.word, lower = word.toLowerCase();
+  const spans = [];
+  let at = 0;
+  for (const p of w.parts) {
+    const surf = (p.surface || '').trim();
+    if (!surf) continue;
+    const i = lower.indexOf(surf.toLowerCase(), at);
+    if (i < 0) continue;
+    if (i > at) spans.push(h('span', { class: 'echo-part' }, word.slice(at, i)));
+    spans.push(h('span', {
+      class: `echo-part ${famKeyFor(p) === key ? `hit ${p.type || ''}` : ''}`.trim(),
+    }, word.slice(i, i + surf.length)));
+    at = i + surf.length;
+  }
+  if (at < word.length) spans.push(h('span', { class: 'echo-part' }, word.slice(at)));
+  return h('span', { class: 'echo-word' }, ...spans);
+}
+// The margin panel itself. Deliberately quiet: it is a glance, not a
+// destination — nothing to dismiss, no links to follow away mid-build.
+function echoRail(part, hide) {
+  const { key, list, total } = echoesFor(part, hide);
+  const rail = h('aside', { class: 'echo-rail', 'aria-live': 'polite' },
+    h('div', { class: 'echo-head' },
+      h('span', { class: `mo-chip ${part.type || ''} echo-key` }, ...spellingChip(part)),
+      part.meaning && h('span', { class: 'echo-head-gloss' }, part.meaning)));
+  if (!list.length) {
+    add(rail, h('p', { class: 'echo-empty' },
+      'The first word you have met with this piece — the next one will come easier.'));
+    return rail;
+  }
+  add(rail, h('p', { class: 'echo-lede' },
+    total === 1 ? 'You already know:' : 'You already know these:'));
+  const ul = h('ul', { class: 'echo-list' });
+  for (const e of list) {
+    add(ul, h('li', { class: `echo-item ${store.binOf(e.item)}` },
+      echoWordEl(e.word, key),
+      e.word.meaning && h('span', { class: 'echo-gloss' }, e.word.meaning)));
+  }
+  add(rail, ul);
+  if (total > list.length) {
+    add(rail, h('p', { class: 'echo-more' }, `+${total - list.length} more in your words`));
+  }
+  return rail;
+}
+
+// ---------------------------------------------------------------------------
 // scoped drills — seed the chosen words, then open /drill restricted to them
 // ---------------------------------------------------------------------------
 function startScopedDrill(pairs) {
@@ -860,6 +977,7 @@ function renderBuildBoard({ levelId, subjectId, unitId }) {
   let si = 0;              // current set index
   let phase = 'study';     // study | build | check
   let st = null;           // per-set state
+  let echoPart = null;     // morpheme whose personal echoes are in the margin
 
   function initSet() {
     const words = sets[si];
@@ -928,9 +1046,14 @@ function renderBuildBoard({ levelId, subjectId, unitId }) {
       (w.parts && w.parts.length >= 2) && h('div', { class: 'study-morphs' },
         ...w.parts.map((p) => {
           const native = pickExact(p.translations, dispLang);
-          return h('span', { class: `mo-chip ${p.type || ''}` },
-            ...spellingChip(p), h('i', { class: 'mo-gloss' },
-              p.meaning || '', native ? ` · ${native}` : ''));
+          const on = echoPart && famKeyFor(echoPart) === famKeyFor(p);
+          return h('button', {
+            type: 'button',
+            class: `mo-chip ${p.type || ''} echoable ${on ? 'echoing' : ''}`.trim(),
+            title: 'See your own words that share this piece',
+            onclick: () => { echoPart = on ? null : p; render_(); },
+          }, ...spellingChip(p), h('i', { class: 'mo-gloss' },
+            p.meaning || '', native ? ` · ${native}` : ''));
         })),
       h('p', { class: 'study-def' }, w.meaning || ''),
       (pickTranslation(w.translations, lang) || pickExact(w.translations, dispLang)) &&
@@ -943,7 +1066,8 @@ function renderBuildBoard({ levelId, subjectId, unitId }) {
       head(null),
       h('div', { class: 'board-intro' },
         h('h2', {}, 'Study the words'),
-        h('p', { class: 'muted small' }, 'Read each word, its parts and meaning. When you build, the words are hidden — so learn them now.')),
+        h('p', { class: 'muted small' }, 'Read each word, its parts and meaning. Tap any part to see your own words that already use it. When you build, the words are hidden — so learn them now.')),
+      echoPart && echoRail(echoPart),
       h('div', { class: 'study-list' }, ...cards),
       h('div', { class: 'row gap end' },
         h('button', { class: 'btn primary', onclick: () => { phase = 'build'; initSet(); render_(); } },
@@ -1050,9 +1174,21 @@ function renderBuildBoard({ levelId, subjectId, unitId }) {
         },
       }, o))));
   }
+  // The words this set is still asking the student to produce. Their own past
+  // words may legitimately echo, but a word they are mid-way through building
+  // must not appear in the margin spelling itself out.
+  function unbuiltHere() {
+    const s = new Set();
+    for (const b of (st ? st.build : [])) if (!b.done) s.add(b.w.word.toLowerCase());
+    return s;
+  }
   function buildView() {
     const bank = bankMorphemes();
     const dispLang = unitDisplayLang(unit, getLang());
+    // Lifting a part is already the gesture for "I am thinking about this
+    // piece", so it doubles as the echo trigger — no extra tap to earn the
+    // recall, and it costs nothing if the student ignores it.
+    const heldPart = st.held ? bank.find((p) => p.surface === st.held) : null;
     // done words minimise + sink to the bottom
     const rows = st.build.map((b, i) => ({ b, i }))
       .sort((a, x) => (a.b.done === x.b.done) ? 0 : a.b.done ? 1 : -1);
@@ -1101,6 +1237,7 @@ function renderBuildBoard({ levelId, subjectId, unitId }) {
         h('h2', {}, 'Build the words'),
         h('p', { class: 'muted small' }, 'Build any word, in any order — drag a part onto a box, or tap a part then tap a box. The words are hidden; build each from its meaning. Finished words drop to the bottom.')),
       bankEl,
+      heldPart && echoRail(heldPart, unbuiltHere()),
       list,
       remaining === 0 && h('div', { class: 'row gap end' },
         h('button', { class: 'btn primary', onclick: () => { phase = 'check'; render_(); } },
@@ -2739,7 +2876,32 @@ const HOWTO_STEPS = [
     h('p', { class: 'kicker howto-pop' }, 'This is the real task you’ll do'),
     howtoBuildDemo(),
   ],
-  // 7 — CTA
+  // 7 — the payoff: your own words come back when a piece repeats
+  () => {
+    // A hand-made preview of the margin panel, so the card shows the thing
+    // rather than describing it. Real ones are built from the student's own
+    // collected words by echoRail().
+    const echo = (segs) => h('li', { class: 'echo-item mastered' },
+      h('span', { class: 'echo-word' }, ...segs.map(([t, hit]) =>
+        h('span', { class: `echo-part ${hit ? 'hit root' : ''}`.trim() }, t))));
+    return [
+      h('p', { class: 'kicker howto-pop' }, 'And the words you already know come back'),
+      h('p', { class: 'muted howto-pop' },
+        'Tap any part while you study or build, and the words you have already ' +
+        'collected that use the same piece appear beside your work — the shared ' +
+        'part lit up, the rest faded.'),
+      h('aside', { class: 'echo-rail howto-pop' },
+        h('div', { class: 'echo-head' },
+          h('span', { class: 'mo-chip root echo-key' }, 'dict'),
+          h('span', { class: 'echo-head-gloss' }, 'say/speak')),
+        h('p', { class: 'echo-lede' }, 'You already know these:'),
+        h('ul', { class: 'echo-list' },
+          echo([['pre', 0], ['dict', 1], ['ed', 0]]),
+          echo([['dict', 1], ['ion', 0], ['ary', 0]]),
+          echo([['contra', 0], ['dict', 1], ['ory', 0]]))),
+    ];
+  },
+  // 8 — CTA
   () => [
     h('div', { class: 'big-emoji howto-pop' }, '🚀'),
     h('h2', { class: 'howto-pop' }, 'Now try it yourself!'),

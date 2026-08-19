@@ -660,3 +660,94 @@ a.dict-word:hover { background: rgba(0,0,0,.1); }
 .board-def.mini { flex: 1 1 auto; }
 .board-trans { display: inline-block; margin-top: 6px; }
 .board-row.mini .board-trans { margin-top: 0; }
+
+/* --- morpheme echoes: your own words in the margin ----------------------
+   Tapping a morpheme (in study) or lifting one (mid-build) recalls the words
+   the student has already collected that share that exact piece. Deliberately
+   faint: the whole point is that it sits beside the work without competing
+   with it, so nothing here is a link, a button, or anything to dismiss. */
+.echo-rail {
+  background: var(--surface); border: 1px solid var(--line-soft);
+  border-left: 3px solid color-mix(in srgb, var(--accent) 45%, var(--line));
+  border-radius: var(--radius); padding: 10px 13px; margin: 0 0 12px;
+  font-size: .88rem;
+}
+.echo-head { display: flex; align-items: baseline; flex-wrap: wrap; gap: 8px; }
+.mo-chip.echo-key { cursor: default; opacity: 1; font-size: .9rem; }
+.echo-head-gloss { color: var(--muted); font-style: italic; }
+.echo-lede, .echo-empty, .echo-more { margin: 7px 0 0; color: var(--muted); }
+.echo-lede { font-size: .82rem; }
+.echo-empty, .echo-more { font-size: .8rem; line-height: 1.4; }
+.echo-list { list-style: none; margin: 6px 0 0; padding: 0;
+  display: flex; flex-wrap: wrap; gap: 6px 14px; }
+.echo-item { display: flex; align-items: baseline; gap: 6px; flex-wrap: wrap; }
+/* Mastered words are the strongest anchors, so the sort puts them first and a
+   slight extra weight backs that up. Kept slight on purpose: this stacks on
+   top of the part fading below, and a steeper ramp made the newest words
+   almost unreadable — the wrong ones to hide. */
+.echo-item.mastered { opacity: 1; }
+.echo-item.consolidating { opacity: .93; }
+.echo-item.learning { opacity: .85; }
+.echo-word { font-family: var(--serif); font-size: 1.05rem; white-space: nowrap; }
+/* The unshared morphemes fade back so the shared one reads first — the word is
+   still legible, but the eye lands on the piece being taught. */
+.echo-part { color: var(--muted); font-weight: 400; opacity: .5; }
+.echo-part.hit { font-weight: 700; opacity: 1; color: var(--ink);
+  border-bottom: 2px solid currentColor; }
+.echo-part.hit.prefix { color: var(--prefix-ink); }
+.echo-part.hit.root   { color: var(--root-ink); }
+.echo-part.hit.suffix { color: var(--suffix-ink); }
+.echo-gloss { color: var(--muted); font-size: .74rem; opacity: .75;
+  /* Some meanings run long; the margin only needs enough to recognise the
+     word, and an unclamped one would push the rest of the list off-screen. */
+  display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical;
+  overflow: hidden; }
+/* Study-view chips become tappable once echoes are a thing they can show. */
+.mo-chip.echoable { cursor: pointer; opacity: 1; }
+.mo-chip.echoable:hover { box-shadow: inset 0 -2px 0 rgba(0,0,0,.16); }
+.mo-chip.echoing { box-shadow: 0 0 0 2px var(--accent); }
+
+/* Wide screens have real margin to spare, so the panel moves out of the
+   reading column entirely and becomes a true side rail. Below this the inline
+   strip above is the layout — it never overlaps the work. Scoped to the learn
+   board: the same markup appears inline as a preview on the How it works
+   card, and that one must stay in the flow at every width. */
+@media (min-width: 1400px) {
+  .learn > .echo-rail {
+    position: fixed; top: 96px;
+    left: calc(50% + (var(--maxw) / 2) + 18px);
+    width: min(250px, calc(50vw - (var(--maxw) / 2) - 32px));
+    max-height: calc(100vh - 130px); overflow-y: auto;
+    margin: 0; box-shadow: var(--shadow);
+  }
+  .learn > .echo-rail .echo-list { flex-direction: column; flex-wrap: nowrap; gap: 9px; }
+  .learn > .echo-rail .echo-item { display: block; }
+  .learn > .echo-rail .echo-word { white-space: normal; }
+  .learn > .echo-rail .echo-gloss { line-height: 1.35; }
+}
+/* Phones have no margin at all, and the board's part-bank is sticky, so an
+   in-flow panel below it scrolls out of sight the moment the student works
+   down the list — exactly when they are holding a part and might want it. It
+   becomes a shallow sheet along the bottom edge instead: always in view,
+   never covering more than a third of the screen, and it scrolls internally
+   rather than growing. */
+@media (max-width: 720px) {
+  .learn > .echo-rail {
+    position: fixed; left: 8px; right: 8px; bottom: 8px; z-index: 20;
+    margin: 0; max-height: 34vh; overflow-y: auto;
+    border-radius: var(--radius); box-shadow: var(--shadow);
+    padding: 9px 12px;
+  }
+  .learn > .echo-rail .echo-gloss { -webkit-line-clamp: 1; }
+  /* The sheet floats over the board, so the last row needs somewhere to go —
+     without this the student cannot scroll the bottom word out from under it. */
+  .learn:has(> .echo-rail) { padding-bottom: 36vh; }
+}
+@media (prefers-reduced-motion: no-preference) {
+  .echo-rail { animation: echo-in .18s ease-out; }
+  @keyframes echo-in { from { opacity: 0; transform: translateY(-4px); } }
+  @media (max-width: 720px) {
+    .learn > .echo-rail { animation-name: echo-up; }
+    @keyframes echo-up { from { opacity: 0; transform: translateY(6px); } }
+  }
+}
