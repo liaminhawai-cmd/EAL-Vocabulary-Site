@@ -327163,7 +327163,20 @@
           "zh-Hans": "联邦的 (liánbāng de)",
           "fa": "فدرال شده (fedrāl shodeh)",
           "vi": "liên bang",
-          "zh-Hant": "聯邦的 (liánbāng de)"
+          "zh-Hant": "聯邦的 (liánbāng de)",
+          "am": "የተዋሃደ (ፌዴራላዊ)",
+          "ar": "متحد فيدراليًا",
+          "es": "federado",
+          "fr": "fédéré",
+          "hi": "संघबद्ध",
+          "ko": "연방화된",
+          "ml": "ഫെഡറൽ ആയി ഒന്നിച്ച",
+          "ps": "فدرالي شوی",
+          "ro": "federalizat",
+          "ru": "объединённый в федерацию",
+          "ta": "கூட்டமைப்பாக்கப்பட்ட",
+          "tl": "pinagsama sa pederasyon (federated)",
+          "ur": "وفاقی طور پر متحد"
          }
         },
         {
@@ -327178,7 +327191,20 @@
           "zh-Hans": "可敬的 (kějìng de)",
           "fa": "محترمانه (mohtaramāneh)",
           "vi": "đáng kính",
-          "zh-Hant": "可敬的 (kějìng de)"
+          "zh-Hant": "可敬的 (kějìng de)",
+          "am": "የተከበረ (ክቡር)",
+          "ar": "شريف (نبيل)",
+          "es": "honorable",
+          "fr": "honorable",
+          "hi": "सम्माननीय",
+          "ko": "명예로운(존경할 만한)",
+          "ml": "മാന്യമായ",
+          "ps": "درنښت وړ",
+          "ro": "onorabil",
+          "ru": "почтенный (достопочтенный)",
+          "ta": "மரியாதைக்குரிய",
+          "tl": "kagalang-galang (honourable)",
+          "ur": "قابل احترام"
          }
         },
         {
@@ -327270,7 +327296,20 @@
           "zh-Hans": "不公正 (bùgōngzhèng)",
           "fa": "-",
           "vi": "-",
-          "zh-Hant": "不公正 (bùgōngzhèng)"
+          "zh-Hant": "不公正 (bùgōngzhèng)",
+          "am": "ኢፍትሃዊነት",
+          "ar": "الظلم",
+          "es": "injusticia",
+          "fr": "injustice",
+          "hi": "अन्याय",
+          "ko": "불의(부당함)",
+          "ml": "അനീതി",
+          "ps": "بې انصافي",
+          "ro": "nedreptate",
+          "ru": "несправедливость",
+          "ta": "அநீதி",
+          "tl": "kawalang-katarungan (injustice)",
+          "ur": "ناانصافی"
          }
         },
         {
@@ -327336,7 +327375,20 @@
           "zh-Hans": "-",
           "fa": "قانون‌گذاری (qānūn-gozārī)",
           "vi": "-",
-          "zh-Hant": "-"
+          "zh-Hant": "-",
+          "am": "ህግ (ህግ አውጭነት)",
+          "ar": "التشريع",
+          "es": "legislación",
+          "fr": "législation",
+          "hi": "विधान (कानून)",
+          "ko": "법률(입법)",
+          "ml": "നിയമനിർമ്മാണം",
+          "ps": "قانون جوړونه",
+          "ro": "legislație",
+          "ru": "законодательство",
+          "ta": "சட்டமியற்றல்",
+          "tl": "batas (legislation)",
+          "ur": "قانون سازی"
          }
         },
         {
@@ -327351,7 +327403,20 @@
           "zh-Hans": "殖民时期用于指代澳大利亚原住民女性的旧称，如今被认为具有歧视性 (Zhímín shíqī yòng yú zhǐdài àodàlìyà yuánzhùmín nǚxìng de jiùchēng, rújīn bèi rènwéi jùyǒu qíshì xìng)",
           "fa": "واژه‌ای قدیمی و توهین‌آمیز برای اشاره به زنان بومی استرالیا که در دوران استعمار استفاده می‌شد (vāzhe-ye ghadīmī va tohināmīz barāye eshāre be zanān-e bumī-ye Ostreliā ke dar dowrān-e este‘mār estefāde mishod)",
           "vi": "Từ cũ thời thuộc địa dùng để chỉ phụ nữ Thổ dân Úc, nay bị coi là xúc phạm (từ cũ thời thuộc địa dùng để chỉ phụ nữ Thổ dân Úc, nay bị coi là xúc phạm)",
-          "zh-Hant": "殖民時期用於指代澳洲原住民女性的舊稱，如今被認為具有歧視性 (Zhímín shíqī yòng yú zhǐdài àodàlìyà yuánzhùmín nǚxìng de jiùchēng, rújīn bèi rènwéi jùyǒu qíshì xìng)"
+          "zh-Hant": "殖民時期用於指代澳洲原住民女性的舊稱，如今被認為具有歧視性 (Zhímín shíqī yòng yú zhǐdài àodàlìyà yuánzhùmín nǚxìng de jiùchēng, rújīn bèi rènwéi jùyǒu qíshì xìng)",
+          "am": "የቅኝ ግዛት ዘመን ስም ለአውስትራሊያ ተወላጅ ሴቶች (ጥንታዊ፣ አሁን አክብሮት የጎደለው ተብሎ ይታያል)",
+          "ar": "مصطلح استعماري قديم للنساء الأستراليات الأصليات (يُعتبر الآن مهينًا)",
+          "es": "término colonial antiguo para mujeres aborígenes australianas (hoy considerado ofensivo)",
+          "fr": "terme colonial ancien pour les femmes aborigènes australiennes (aujourd'hui jugé offensant)",
+          "hi": "ऑस्ट्रेलियाई आदिवासी महिलाओं के लिए पुराना औपनिवेशिक शब्द (अब अपमानजनक माना जाता है)",
+          "ko": "호주 원주민 여성을 가리키던 옛 식민지 용어(현재는 모욕적으로 간주됨)",
+          "ml": "ഓസ്‌ട്രേലിയൻ ആദിവാസി സ്ത്രീകൾക്കായുള്ള പഴയ കൊളോണിയൽ പദം (ഇന്ന് അപമാനകരമായി കണക്കാക്കുന്നു)",
+          "ps": "د آسترالیا اصلي ښځو لپاره زوړ استعماري نوم (اوس سپکاوی ګڼل کیږي)",
+          "ro": "termen colonial vechi pentru femeile aborigene australiene (azi considerat jignitor)",
+          "ru": "устаревший колониальный термин для женщин-аборигенок Австралии (сейчас считается оскорбительным)",
+          "ta": "ஆஸ்திரேலிய பூர்வீக பெண்களுக்கான பழைய காலனித்துவ சொல் (இப்போது அவமதிப்பாகக் கருதப்படுகிறது)",
+          "tl": "lumang kolonyal na termino para sa katutubong babae ng Australia (itinuturing na nakakasakit ngayon)",
+          "ur": "آسٹریلوی آبائی خواتین کے لیے پرانی نوآبادیاتی اصطلاح (اب توہین آمیز سمجھی جاتی ہے)"
          }
         },
         {
@@ -327366,7 +327431,20 @@
           "zh-Hans": "-",
           "fa": "-",
           "vi": "-",
-          "zh-Hant": "-"
+          "zh-Hant": "-",
+          "am": "የተገለሉ",
+          "ar": "المهمّشون",
+          "es": "marginados",
+          "fr": "marginalisés",
+          "hi": "हाशिए पर धकेले गए",
+          "ko": "소외된",
+          "ml": "പാർശ്വവൽക്കരിക്കപ്പെട്ട",
+          "ps": "شاته پاتې شوي",
+          "ro": "marginalizați",
+          "ru": "маргинализированные",
+          "ta": "ஓரங்கட்டப்பட்ட",
+          "tl": "naisantabi (marginalised)",
+          "ur": "پسماندہ کیے گئے"
          }
         },
         {
@@ -327381,7 +327459,20 @@
           "zh-Hans": "军事的 (jūnshì de)",
           "fa": "نظامی (nezāmī)",
           "vi": "quân đội",
-          "zh-Hant": "軍事的 (jūnshì de)"
+          "zh-Hant": "軍事的 (jūnshì de)",
+          "am": "ወታደራዊ",
+          "ar": "العسكري",
+          "es": "militar",
+          "fr": "militaire",
+          "hi": "सैन्य",
+          "ko": "군사의",
+          "ml": "സൈനികമായ",
+          "ps": "پوځي",
+          "ro": "militar",
+          "ru": "военный",
+          "ta": "இராணுவ",
+          "tl": "militar",
+          "ur": "فوجی"
          }
         },
         {
@@ -327396,7 +327487,20 @@
           "zh-Hans": "养老金 (yǎnglǎo jīn)",
           "fa": "حقوق بازنشستگی (hoqūq-e bāzneshastegi)",
           "vi": "lương hưu",
-          "zh-Hant": "養老金 (yǎnglǎo jīn)"
+          "zh-Hant": "養老金 (yǎnglǎo jīn)",
+          "am": "የጡረታ ክፍያዎች",
+          "ar": "المعاشات التقاعدية",
+          "es": "pensiones",
+          "fr": "pensions",
+          "hi": "पेंशन",
+          "ko": "연금",
+          "ml": "പെൻഷനുകൾ",
+          "ps": "تقاعد معاشونه",
+          "ro": "pensii",
+          "ru": "пенсии",
+          "ta": "ஓய்வூதியங்கள்",
+          "tl": "pensyon",
+          "ur": "پنشن"
          }
         },
         {
@@ -327462,7 +327566,20 @@
           "zh-Hans": "请愿 (qǐngyuàn)",
           "fa": "-",
           "vi": "-",
-          "zh-Hant": "請願 (qǐngyuàn)"
+          "zh-Hant": "請願 (qǐngyuàn)",
+          "am": "አቤቱታ (ማመልከቻ)",
+          "ar": "العريضة",
+          "es": "petición",
+          "fr": "pétition",
+          "hi": "याचिका",
+          "ko": "청원(탄원서)",
+          "ml": "നിവേദനം",
+          "ps": "غوښتنلیک",
+          "ro": "petiție",
+          "ru": "петиция",
+          "ta": "மனு",
+          "tl": "petisyon",
+          "ur": "درخواست"
          }
         },
         {
@@ -327477,7 +327594,20 @@
           "zh-Hans": "-",
           "fa": "دادخواهان (dādkhvāhān)",
           "vi": "-",
-          "zh-Hant": "-"
+          "zh-Hant": "-",
+          "am": "አመልካቾች",
+          "ar": "مقدمو العريضة",
+          "es": "peticionarios",
+          "fr": "pétitionnaires",
+          "hi": "याचिकाकर्ता",
+          "ko": "청원자들",
+          "ml": "നിവേദകർ",
+          "ps": "غوښتونکي",
+          "ro": "petiționari",
+          "ru": "петиционеры (заявители)",
+          "ta": "மனுதாரர்கள்",
+          "tl": "mga humihiling (petitioners)",
+          "ur": "درخواست دہندگان"
          }
         },
         {
@@ -327492,7 +327622,20 @@
           "zh-Hans": "抗议 (kàngyì)",
           "fa": "تبلیغات",
           "vi": "-",
-          "zh-Hant": "抗議 (kàngyì)"
+          "zh-Hant": "抗議 (kàngyì)",
+          "am": "የህዝብ ግንኙነት (ማስታወቅ)",
+          "ar": "الدعاية (العلاقات العامة)",
+          "es": "publicidad (difusión)",
+          "fr": "publicité (couverture médiatique)",
+          "hi": "प्रचार-प्रसार",
+          "ko": "홍보(공개)",
+          "ml": "പരസ്യപ്പെടുത്തൽ",
+          "ps": "خبرتیا",
+          "ro": "publicitate",
+          "ru": "огласка (реклама)",
+          "ta": "விளம்பரம்",
+          "tl": "publisidad (publicity)",
+          "ur": "تشہیر"
          }
         },
         {
@@ -327507,7 +327650,20 @@
           "zh-Hans": "清除 (qīngchú)",
           "fa": "حذف (hazf)",
           "vi": "di dời",
-          "zh-Hant": "清除 (qīngchú)"
+          "zh-Hant": "清除 (qīngchú)",
+          "am": "ማስወገድ (ማነሳት)",
+          "ar": "الإزالة (الترحيل)",
+          "es": "remoción (traslado forzado)",
+          "fr": "retrait (déplacement forcé)",
+          "hi": "हटाना (जबरन स्थानांतरण)",
+          "ko": "제거(강제 이송)",
+          "ml": "നീക്കം ചെയ്യൽ",
+          "ps": "لرې کول",
+          "ro": "îndepărtare",
+          "ru": "изъятие (насильственное перемещение)",
+          "ta": "அகற்றுதல்",
+          "tl": "pagtanggal (removal)",
+          "ur": "ہٹانا"
          }
         },
         {
@@ -327522,7 +327678,20 @@
           "zh-Hans": "-",
           "fa": "محدودیت‌ها (mahdūdīyat-hā)",
           "vi": "-",
-          "zh-Hant": "-"
+          "zh-Hant": "-",
+          "am": "ገደብ",
+          "ar": "القيد",
+          "es": "restricción",
+          "fr": "restriction",
+          "hi": "प्रतिबंध",
+          "ko": "제한",
+          "ml": "നിയന്ത്രണം",
+          "ps": "محدودیت",
+          "ro": "restricție",
+          "ru": "ограничение",
+          "ta": "கட்டுப்பாடு",
+          "tl": "restriksyon",
+          "ur": "پابندی"
          }
         },
         {
@@ -327537,7 +327706,20 @@
           "zh-Hans": "限制 (xiànzhì)",
           "fa": "محدودیت‌ها (mahdūdīyat-hā)",
           "vi": "hạn chế",
-          "zh-Hant": "限制 (xiànzhì)"
+          "zh-Hant": "限制 (xiànzhì)",
+          "am": "ገደቦች",
+          "ar": "القيود",
+          "es": "restricciones",
+          "fr": "restrictions",
+          "hi": "प्रतिबंध (बहुवचन)",
+          "ko": "제한들",
+          "ml": "നിയന്ത്രണങ്ങൾ",
+          "ps": "محدودیتونه",
+          "ro": "restricții",
+          "ru": "ограничения",
+          "ta": "கட்டுப்பாடுகள்",
+          "tl": "mga restriksyon",
+          "ur": "پابندیاں"
          }
         },
         {
@@ -327552,7 +327734,20 @@
           "zh-Hans": "创伤 (chuāngshāng)",
           "fa": "آسیب روحی (āsīb-e rūhī)",
           "vi": "sang chấn",
-          "zh-Hant": "創傷 (chuāngshāng)"
+          "zh-Hant": "創傷 (chuāngshāng)",
+          "am": "ስነ ልቦናዊ ጉዳት",
+          "ar": "الصدمة النفسية",
+          "es": "trauma",
+          "fr": "traumatisme",
+          "hi": "आघात (ट्रॉमा)",
+          "ko": "트라우마(정신적 외상)",
+          "ml": "ആഘാതം",
+          "ps": "رواني صدمه",
+          "ro": "traumă",
+          "ru": "травма",
+          "ta": "மனஅதிர்ச்சி",
+          "tl": "trauma",
+          "ur": "ذہنی صدمہ"
          }
         },
         {
@@ -327567,7 +327762,20 @@
           "zh-Hans": "逮捕 (dàibǔ)",
           "fa": "دستگیر کردن (dastgīr kardan)",
           "vi": "bắt giữ",
-          "zh-Hant": "逮捕 (dàibǔ)"
+          "zh-Hant": "逮捕 (dàibǔ)",
+          "am": "መያዝ (ማሰር)",
+          "ar": "يقبض على (يوقف)",
+          "es": "aprehender (arrestar)",
+          "fr": "appréhender (arrêter)",
+          "hi": "गिरफ्तार करना",
+          "ko": "체포하다(붙잡다)",
+          "ml": "പിടികൂടുക",
+          "ps": "نیول",
+          "ro": "a aprehenda (a prinde)",
+          "ru": "задерживать (арестовывать)",
+          "ta": "கைது செய்",
+          "tl": "hulihin (apprehend)",
+          "ur": "گرفتار کرنا"
          }
         },
         {
@@ -327658,7 +327866,20 @@
           "zh-Hans": "驱逐出境 (qūzhú chūjìng)",
           "fa": "تبعید (tab‘īd)",
           "vi": "trục xuất",
-          "zh-Hant": "驅逐出境 (qūzhú chūjìng)"
+          "zh-Hant": "驅逐出境 (qūzhú chūjìng)",
+          "am": "ማባረር (ከሀገር ማስወጣት)",
+          "ar": "الترحيل",
+          "es": "deportación",
+          "fr": "déportation (expulsion)",
+          "hi": "निर्वासन",
+          "ko": "추방",
+          "ml": "നാടുകടത്തൽ",
+          "ps": "شړل",
+          "ro": "deportare",
+          "ru": "депортация",
+          "ta": "நாடுகடத்தல்",
+          "tl": "deportasyon",
+          "ur": "جلاوطنی"
          }
         },
         {
@@ -327673,7 +327894,20 @@
           "zh-Hans": "混血儿 (hùnxuèr)",
           "fa": "دورگه (doragheh)",
           "vi": "con lai",
-          "zh-Hant": "混血兒 (hùnxuèr)"
+          "zh-Hant": "混血兒 (hùnxuèr)",
+          "am": "ድብልቅ ዘር (ጥንታዊ፣ አሁን አክብሮት የጎደለው)",
+          "ar": "مصطلح استعماري قديم لمختلطي العرق (مهين حاليًا)",
+          "es": "término colonial antiguo para mestizo (hoy ofensivo)",
+          "fr": "terme colonial ancien pour métis (aujourd'hui offensant)",
+          "hi": "मिश्रित नस्ल के लिए पुराना औपनिवेशिक शब्द (अब अपमानजनक)",
+          "ko": "혼혈을 가리키던 옛 식민지 용어(현재는 모욕적)",
+          "ml": "സങ്കരവംശത്തിനുള്ള പഴയ കൊളോണിയൽ പദം (ഇന്ന് അപമാനകരം)",
+          "ps": "د دوه رنګه نسل لپاره زوړ استعماري نوم (اوس سپکاوی)",
+          "ro": "termen colonial vechi pentru rasă mixtă (azi jignitor)",
+          "ru": "устаревший колониальный термин для человека смешанной расы (сейчас оскорбительный)",
+          "ta": "கலப்பின இனத்திற்கான பழைய காலனித்துவ சொல் (இப்போது அவமதிப்பு)",
+          "tl": "lumang kolonyal na termino para sa halong lahi (nakakasakit ngayon)",
+          "ur": "مخلوط نسل کے لیے پرانی نوآبادیاتی اصطلاح (اب توہین آمیز)"
          }
         },
         {
@@ -327720,7 +327954,20 @@
           "zh-Hans": "内陆地区 (nèilù dìqū)",
           "fa": "مناطق دورافتاده (manāteq-e dūr-oftādeh)",
           "vi": "vùng hoang vu",
-          "zh-Hant": "內陸地區 (nèilù dìqū)"
+          "zh-Hant": "內陸地區 (nèilù dìqū)",
+          "am": "ጠቅላይ የገጠር አካባቢ (የአውስትራሊያ)",
+          "ar": "المناطق النائية (الأدغال الأسترالية)",
+          "es": "outback (interior remoto de Australia)",
+          "fr": "outback (arrière-pays australien)",
+          "hi": "आउटबैक (ऑस्ट्रेलिया का सुदूर भीतरी क्षेत्र)",
+          "ko": "아웃백(호주 오지)",
+          "ml": "ഔട്ട്ബാക്ക് (ഓസ്ട്രേലിയയിലെ വിദൂര ഉൾപ്രദേശം)",
+          "ps": "آوټ بیک (لرې کلیوالی سیمه)",
+          "ro": "outback (interiorul îndepărtat al Australiei)",
+          "ru": "аутбэк (глубинка Австралии)",
+          "ta": "அவுட்பேக் (ஆஸ்திரேலியாவின் தொலைதூர பகுதி)",
+          "tl": "outback (malayong bahagi ng Australia)",
+          "ur": "آؤٹ بیک (آسٹریلیا کا دور دراز علاقہ)"
          }
         },
         {
