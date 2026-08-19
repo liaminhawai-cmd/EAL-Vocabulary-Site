@@ -141071,7 +141071,26 @@
          "root": "categor",
          "meaning": "Data that names a group rather than measuring an amount, such as eye colour.",
          "example": "Suburb is a categorical variable.",
-         "translations": {}
+         "translations": {
+          "zh-Hans": "分类的（类别变量）",
+          "zh-Hant": "分類的（類別變量）",
+          "ja": "カテゴリカルな",
+          "ko": "범주형의",
+          "vi": "phân loại (biến định tính)",
+          "ar": "فئوي (تصنيفي)",
+          "fa": "مقوله‌ای",
+          "ur": "درجہ بند",
+          "am": "ምድብ ተኮር",
+          "ml": "വർഗ്ഗീകൃതമായ",
+          "ta": "வகைப்பாட்டு",
+          "tl": "kategoriko",
+          "ps": "طبقه ایز",
+          "ro": "categorial",
+          "ru": "категориальный",
+          "fr": "catégoriel",
+          "hi": "श्रेणीबद्ध",
+          "es": "categórico"
+         }
         },
         {
          "word": "numerical",
@@ -141155,7 +141174,26 @@
          "root": "numer",
          "meaning": "Data that is a number you can count or measure.",
          "example": "Height in centimetres is numerical data.",
-         "translations": {}
+         "translations": {
+          "zh-Hans": "数值的",
+          "zh-Hant": "數值的",
+          "ja": "数値の",
+          "ko": "수치형의",
+          "vi": "định lượng (dạng số)",
+          "ar": "عددي (رقمي)",
+          "fa": "عددی",
+          "ur": "عددی",
+          "am": "ቁጥራዊ",
+          "ml": "സംഖ്യാപരമായ",
+          "ta": "எண் சார்ந்த",
+          "tl": "numerikal",
+          "ps": "شمېریز",
+          "ro": "numeric",
+          "ru": "числовой",
+          "fr": "numérique",
+          "hi": "संख्यात्मक",
+          "es": "numérico"
+         }
         },
         {
          "word": "frequency",
@@ -141195,7 +141233,26 @@
          "root": "frequ",
          "meaning": "How many times a value appears in a set of data.",
          "example": "The frequency of the score 7 was four.",
-         "translations": {}
+         "translations": {
+          "zh-Hans": "频数",
+          "zh-Hant": "頻數",
+          "ja": "度数",
+          "ko": "도수(빈도)",
+          "vi": "tần số",
+          "ar": "التكرار",
+          "fa": "فراوانی",
+          "ur": "تعدد",
+          "am": "ድግግሞሽ",
+          "ml": "ആവൃത്തി",
+          "ta": "அதிர்வெண்",
+          "tl": "dalas",
+          "ps": "کثرت",
+          "ro": "frecvență",
+          "ru": "частота",
+          "fr": "fréquence",
+          "hi": "बारंबारता",
+          "es": "frecuencia"
+         }
         },
         {
          "word": "histogram",
@@ -141216,7 +141273,26 @@
          "root": "histo",
          "meaning": "A column graph for numerical data, where the columns touch.",
          "example": "Draw a histogram of the class's test scores.",
-         "translations": {}
+         "translations": {
+          "zh-Hans": "直方图",
+          "zh-Hant": "直方圖",
+          "ja": "ヒストグラム",
+          "ko": "히스토그램",
+          "vi": "biểu đồ tần số (histogram)",
+          "ar": "المدرج التكراري",
+          "fa": "هیستوگرام",
+          "ur": "ہسٹوگرام",
+          "am": "ሂስቶግራም",
+          "ml": "ഹിസ്റ്റോഗ്രാം",
+          "ta": "நிகழ்வெண் வரைபடம் (ஹிஸ்டோகிராம்)",
+          "tl": "histogram",
+          "ps": "هسټوګرام",
+          "ro": "histogramă",
+          "ru": "гистограмма",
+          "fr": "histogramme",
+          "hi": "बारंबारता आरेख (हिस्टोग्राम)",
+          "es": "histograma"
+         }
         },
         {
          "word": "symmetric",
@@ -141300,7 +141376,26 @@
          "root": "metr",
          "meaning": "The same shape on both sides of the centre.",
          "example": "The distribution of heights was roughly symmetric.",
-         "translations": {}
+         "translations": {
+          "zh-Hans": "对称的",
+          "zh-Hant": "對稱的",
+          "ja": "対称の",
+          "ko": "대칭인",
+          "vi": "đối xứng",
+          "ar": "متماثل",
+          "fa": "متقارن",
+          "ur": "متناظر (سڈول)",
+          "am": "ተመጣጣኝ",
+          "ml": "സമമിതി",
+          "ta": "சமச்சீரான",
+          "tl": "simetriko",
+          "ps": "متناظر",
+          "ro": "simetric",
+          "ru": "симметричный",
+          "fr": "symétrique",
+          "hi": "सममित",
+          "es": "simétrico"
+         }
         },
         {
          "word": "skewed",
@@ -141340,7 +141435,26 @@
          "root": "skew",
          "meaning": "Not symmetric — the data has a longer tail on one side.",
          "example": "Income data is usually positively skewed.",
-         "translations": {}
+         "translations": {
+          "zh-Hans": "偏态的",
+          "zh-Hant": "偏態的",
+          "ja": "歪んだ（非対称の）",
+          "ko": "치우친(비대칭인)",
+          "vi": "lệch (bất đối xứng)",
+          "ar": "منحرف (غير متماثل)",
+          "fa": "چوله (نامتقارن)",
+          "ur": "غیر متناظر",
+          "am": "ያልተመጣጠነ",
+          "ml": "വൈകൃതമായ (അസമമിതി)",
+          "ta": "சாய்ந்த (சமச்சீரற்ற)",
+          "tl": "hindi simetriko (baluktot)",
+          "ps": "کوږ (نامتناظر)",
+          "ro": "asimetric",
+          "ru": "асимметричный",
+          "fr": "asymétrique",
+          "hi": "विषम (असममित)",
+          "es": "asimétrico"
+         }
         },
         {
          "word": "outlier",
@@ -141405,7 +141519,26 @@
          "root": "li",
          "meaning": "A value that sits far away from the rest of the data.",
          "example": "The value 210 is an outlier in this data set.",
-         "translations": {}
+         "translations": {
+          "zh-Hans": "离群值",
+          "zh-Hant": "離群值",
+          "ja": "外れ値",
+          "ko": "이상치",
+          "vi": "giá trị ngoại lai",
+          "ar": "القيمة الشاذة",
+          "fa": "داده پرت",
+          "ur": "غیر معمولی قدر",
+          "am": "ወጣ ያለ ውጤት (አውትላየር)",
+          "ml": "പുറംതള്ളൽ മൂല്യം",
+          "ta": "விலகல் மதிப்பு",
+          "tl": "kakaibang datos (outlier)",
+          "ps": "بهرنی ارزښت",
+          "ro": "valoare aberantă",
+          "ru": "выброс (аномальное значение)",
+          "fr": "valeur aberrante",
+          "hi": "अपवाद मान",
+          "es": "valor atípico"
+         }
         },
         {
          "word": "quartile",
@@ -141426,7 +141559,26 @@
          "root": "quart",
          "meaning": "One of the three values that cut ordered data into four equal groups.",
          "example": "The upper quartile was 78 marks.",
-         "translations": {}
+         "translations": {
+          "zh-Hans": "四分位数",
+          "zh-Hant": "四分位數",
+          "ja": "四分位数",
+          "ko": "사분위수",
+          "vi": "tứ phân vị",
+          "ar": "الربيعي",
+          "fa": "چارک",
+          "ur": "چوتھائی حصہ",
+          "am": "አራተኛ ክፍል (ኳርታይል)",
+          "ml": "ചതുർത്ഥാംശം",
+          "ta": "காற்பகுதி",
+          "tl": "quartile (kwartil)",
+          "ps": "کوارتایل",
+          "ro": "cuartilă",
+          "ru": "квартиль",
+          "fr": "quartile",
+          "hi": "चतुर्थक",
+          "es": "cuartil"
+         }
         },
         {
          "word": "percentile",
@@ -141493,7 +141645,26 @@
          "root": "cent",
          "meaning": "The value below which a given percentage of the data falls.",
          "example": "A score in the 90th percentile beats 90% of students.",
-         "translations": {}
+         "translations": {
+          "zh-Hans": "百分位数",
+          "zh-Hant": "百分位數",
+          "ja": "パーセンタイル",
+          "ko": "백분위수",
+          "vi": "phân vị phần trăm",
+          "ar": "المئيني",
+          "fa": "صدک",
+          "ur": "فیصدی درجہ",
+          "am": "መቶኛ ደረጃ",
+          "ml": "ശതമാനക്രമം",
+          "ta": "நூற்றுவீதம்",
+          "tl": "percentile",
+          "ps": "سلنه ای درجه",
+          "ro": "percentilă",
+          "ru": "процентиль",
+          "fr": "centile",
+          "hi": "शतमक",
+          "es": "percentil"
+         }
         },
         {
          "word": "variance",
@@ -141552,7 +141723,26 @@
          "root": "vari",
          "meaning": "A measure of how spread out the data is around the mean.",
          "example": "A small variance means the scores are close together.",
-         "translations": {}
+         "translations": {
+          "zh-Hans": "方差",
+          "zh-Hant": "方差",
+          "ja": "分散",
+          "ko": "분산",
+          "vi": "phương sai",
+          "ar": "التباين",
+          "fa": "واریانس",
+          "ur": "تفاوت (ویریئنس)",
+          "am": "ልዩነት (ቫሪያንስ)",
+          "ml": "വ്യതിയാനം",
+          "ta": "பரவற்படி",
+          "tl": "baryans",
+          "ps": "توپیر (واریانس)",
+          "ro": "varianță",
+          "ru": "дисперсия",
+          "fr": "variance",
+          "hi": "प्रसरण",
+          "es": "varianza"
+         }
         },
         {
          "word": "association",
@@ -141637,7 +141827,26 @@
          "root": "soci",
          "meaning": "A relationship between two variables.",
          "example": "Is there an association between hours of sleep and marks?",
-         "translations": {}
+         "translations": {
+          "zh-Hans": "关联",
+          "zh-Hant": "關聯",
+          "ja": "関連",
+          "ko": "연관성",
+          "vi": "mối liên hệ",
+          "ar": "الارتباط",
+          "fa": "ارتباط",
+          "ur": "تعلق",
+          "am": "ግንኙነት",
+          "ml": "ബന്ധം",
+          "ta": "தொடர்பு",
+          "tl": "kaugnayan",
+          "ps": "اړیکه",
+          "ro": "asociere",
+          "ru": "связь",
+          "fr": "association",
+          "hi": "संबंध",
+          "es": "asociación"
+         }
         },
         {
          "word": "probability",
@@ -141703,7 +141912,26 @@
          "root": "prob",
          "meaning": "How likely something is, from 0 (never) to 1 (certain).",
          "example": "The probability of rolling a six is one sixth.",
-         "translations": {}
+         "translations": {
+          "zh-Hans": "概率",
+          "zh-Hant": "概率",
+          "ja": "確率",
+          "ko": "확률",
+          "vi": "xác suất",
+          "ar": "الاحتمال",
+          "fa": "احتمال",
+          "ur": "امکان",
+          "am": "እድል (ፕሮባቢሊቲ)",
+          "ml": "സാധ്യത",
+          "ta": "நிகழ்தகவு",
+          "tl": "posibilidad",
+          "ps": "احتمال",
+          "ro": "probabilitate",
+          "ru": "вероятность",
+          "fr": "probabilité",
+          "hi": "प्रायिकता",
+          "es": "probabilidad"
+         }
         },
         {
          "word": "simulation",
@@ -141762,7 +141990,26 @@
          "root": "simul",
          "meaning": "Modelling a real situation, often by repeating a random experiment many times.",
          "example": "Use a simulation to estimate the probability.",
-         "translations": {}
+         "translations": {
+          "zh-Hans": "模拟",
+          "zh-Hant": "模擬",
+          "ja": "シミュレーション",
+          "ko": "시뮬레이션",
+          "vi": "mô phỏng",
+          "ar": "المحاكاة",
+          "fa": "شبیه‌سازی",
+          "ur": "تمثیل (سیمولیشن)",
+          "am": "ማስመሰያ (ሲሙሌሽን)",
+          "ml": "അനുകരണം",
+          "ta": "உருவகப்படுத்துதல்",
+          "tl": "simulasyon",
+          "ps": "سمولیشن",
+          "ro": "simulare",
+          "ru": "моделирование",
+          "fr": "simulation",
+          "hi": "अनुकरण",
+          "es": "simulación"
+         }
         }
        ],
        "path": "vce/general-mathematics/unit-1-2-data"
@@ -141829,7 +142076,26 @@
          "root": "line",
          "meaning": "Making a straight line when graphed; changing by the same amount each step.",
          "example": "Distance against time gave a linear graph.",
-         "translations": {}
+         "translations": {
+          "zh-Hans": "线性的",
+          "zh-Hant": "線性的",
+          "ja": "線形の",
+          "ko": "선형의",
+          "vi": "tuyến tính",
+          "ar": "خطي",
+          "fa": "خطی",
+          "ur": "خطی",
+          "am": "መስመራዊ",
+          "ml": "രേഖീയമായ",
+          "ta": "நேரியல்",
+          "tl": "linear",
+          "ps": "خطي",
+          "ro": "liniar",
+          "ru": "линейный",
+          "fr": "linéaire",
+          "hi": "रैखिक",
+          "es": "lineal"
+         }
         },
         {
          "word": "coefficient",
@@ -141915,7 +142181,26 @@
          "root": "fic",
          "meaning": "The number in front of a variable, which multiplies it.",
          "example": "In 5x, the coefficient is 5.",
-         "translations": {}
+         "translations": {
+          "zh-Hans": "系数",
+          "zh-Hant": "係數",
+          "ja": "係数",
+          "ko": "계수",
+          "vi": "hệ số",
+          "ar": "المعامل",
+          "fa": "ضریب",
+          "ur": "ضریب",
+          "am": "ኮፊሺየንት (መጠን)",
+          "ml": "സഹഗുണകം",
+          "ta": "குணகம்",
+          "tl": "koepisyent",
+          "ps": "کوفیشنټ",
+          "ro": "coeficient",
+          "ru": "коэффициент",
+          "fr": "coefficient",
+          "hi": "गुणांक",
+          "es": "coeficiente"
+         }
         },
         {
          "word": "substitute",
@@ -141955,7 +142240,26 @@
          "root": "stitu",
          "meaning": "Put a number in place of a letter in a formula.",
          "example": "Substitute x = 3 into the equation.",
-         "translations": {}
+         "translations": {
+          "zh-Hans": "代入",
+          "zh-Hant": "代入",
+          "ja": "代入する",
+          "ko": "대입하다",
+          "vi": "thay thế (thế vào)",
+          "ar": "يعوّض (يستبدل)",
+          "fa": "جایگذاری کردن",
+          "ur": "متبادل رکھنا (تبدیل کرنا)",
+          "am": "መተካት",
+          "ml": "പകരം വയ്ക്കുക",
+          "ta": "பதிலீடு செய்",
+          "tl": "ipalit (substitute)",
+          "ps": "ځای پرځای کول",
+          "ro": "a substitui",
+          "ru": "подставлять",
+          "fr": "substituer",
+          "hi": "प्रतिस्थापित करना",
+          "es": "sustituir"
+         }
         },
         {
          "word": "expression",
@@ -142040,7 +142344,26 @@
          "root": "press",
          "meaning": "A group of numbers and letters with no equals sign.",
          "example": "3x + 7 is an expression, not an equation.",
-         "translations": {}
+         "translations": {
+          "zh-Hans": "表达式",
+          "zh-Hant": "表達式",
+          "ja": "式",
+          "ko": "식(수식)",
+          "vi": "biểu thức",
+          "ar": "التعبير الجبري",
+          "fa": "عبارت",
+          "ur": "اظہاریہ (ایکسپریشن)",
+          "am": "አገላለጽ (ኤክስፕረሽን)",
+          "ml": "സമവാക്യരൂപം",
+          "ta": "கணித வெளிப்பாடு",
+          "tl": "ekspresyon",
+          "ps": "بیان (اکسپریشن)",
+          "ro": "expresie",
+          "ru": "выражение",
+          "fr": "expression",
+          "hi": "व्यंजक",
+          "es": "expresión"
+         }
         },
         {
          "word": "equation",
@@ -142099,7 +142422,26 @@
          "root": "equ",
          "meaning": "A statement that two things are equal, using an equals sign.",
          "example": "Solve the equation 2x + 1 = 9.",
-         "translations": {}
+         "translations": {
+          "zh-Hans": "方程",
+          "zh-Hant": "方程",
+          "ja": "方程式",
+          "ko": "방정식",
+          "vi": "phương trình",
+          "ar": "المعادلة",
+          "fa": "معادله",
+          "ur": "مساوات",
+          "am": "እኩልታ",
+          "ml": "സമവാക്യം",
+          "ta": "சமன்பாடு",
+          "tl": "ekwasyon",
+          "ps": "معادله",
+          "ro": "ecuație",
+          "ru": "уравнение",
+          "fr": "équation",
+          "hi": "समीकरण",
+          "es": "ecuación"
+         }
         },
         {
          "word": "inequality",
@@ -142210,7 +142552,26 @@
          "root": "equ",
          "meaning": "A statement that one thing is bigger or smaller than another.",
          "example": "The inequality x > 5 means x is greater than 5.",
-         "translations": {}
+         "translations": {
+          "zh-Hans": "不等式",
+          "zh-Hant": "不等式",
+          "ja": "不等式",
+          "ko": "부등식",
+          "vi": "bất phương trình",
+          "ar": "المتباينة",
+          "fa": "نامعادله",
+          "ur": "عدم مساوات",
+          "am": "አለመመጣጠን",
+          "ml": "അസമത",
+          "ta": "சமனின்மை",
+          "tl": "hindi pagkakapantay",
+          "ps": "نابرابري",
+          "ro": "inecuație",
+          "ru": "неравенство",
+          "fr": "inéquation",
+          "hi": "असमिका",
+          "es": "desigualdad"
+         }
         },
         {
          "word": "simultaneous",
@@ -142269,7 +142630,26 @@
          "root": "simul",
          "meaning": "Two or more equations that must both be true at the same time.",
          "example": "Solve the simultaneous equations to find where the lines cross.",
-         "translations": {}
+         "translations": {
+          "zh-Hans": "联立的",
+          "zh-Hant": "聯立的",
+          "ja": "連立の",
+          "ko": "연립의",
+          "vi": "đồng thời (hệ phương trình)",
+          "ar": "متزامن (آني)",
+          "fa": "همزمان",
+          "ur": "بیک وقت",
+          "am": "በአንድ ላይ የሚፈታ",
+          "ml": "സമകാലികമായ",
+          "ta": "ஒரே நேரத்திய",
+          "tl": "sabayan (simultaneous)",
+          "ps": "همغږي",
+          "ro": "simultan",
+          "ru": "совместный (система уравнений)",
+          "fr": "simultané",
+          "hi": "युगपत (साथ-साथ)",
+          "es": "simultáneo"
+         }
         },
         {
          "word": "ratio",
@@ -142303,7 +142683,26 @@
          "root": "rat",
          "meaning": "A comparison of two amounts, written like 3 : 2.",
          "example": "Mix the concrete in the ratio 1 : 3.",
-         "translations": {}
+         "translations": {
+          "zh-Hans": "比率",
+          "zh-Hant": "比率",
+          "ja": "比",
+          "ko": "비율",
+          "vi": "tỷ lệ",
+          "ar": "النسبة",
+          "fa": "نسبت",
+          "ur": "تناسب",
+          "am": "ጥምርታ",
+          "ml": "അനുപാതം",
+          "ta": "விகிதம்",
+          "tl": "ratio (kaugnayan)",
+          "ps": "تناسب",
+          "ro": "raport",
+          "ru": "отношение",
+          "fr": "rapport",
+          "hi": "अनुपात",
+          "es": "razón"
+         }
         },
         {
          "word": "exponent",
@@ -142389,7 +142788,26 @@
          "root": "pon",
          "meaning": "The small raised number showing how many times to multiply.",
          "example": "In 2⁵, the exponent is 5.",
-         "translations": {}
+         "translations": {
+          "zh-Hans": "指数",
+          "zh-Hant": "指數",
+          "ja": "指数",
+          "ko": "지수",
+          "vi": "số mũ",
+          "ar": "الأس",
+          "fa": "توان (نما)",
+          "ur": "توانائی (ایکسپونینٹ)",
+          "am": "አካፋይ (ኤክስፖነንት)",
+          "ml": "ഘാതം",
+          "ta": "அடுக்கு",
+          "tl": "eksponent",
+          "ps": "پوړ",
+          "ro": "exponent",
+          "ru": "показатель степени",
+          "fr": "exposant",
+          "hi": "घातांक",
+          "es": "exponente"
+         }
         },
         {
          "word": "logarithm",
@@ -142448,7 +142866,26 @@
          "root": "log",
          "meaning": "The power you must raise a base to in order to get a number.",
          "example": "The logarithm of 100 to base 10 is 2.",
-         "translations": {}
+         "translations": {
+          "zh-Hans": "对数",
+          "zh-Hant": "對數",
+          "ja": "対数",
+          "ko": "로그",
+          "vi": "logarit",
+          "ar": "اللوغاريتم",
+          "fa": "لگاریتم",
+          "ur": "لوگارتھم",
+          "am": "ሎጋሪዝም",
+          "ml": "ലോഗരിതം",
+          "ta": "மடக்கை",
+          "tl": "logaritmo",
+          "ps": "لوغاریتم",
+          "ro": "logaritm",
+          "ru": "логарифм",
+          "fr": "logarithme",
+          "hi": "लघुगणक",
+          "es": "logaritmo"
+         }
         },
         {
          "word": "recursion",
@@ -142532,7 +142969,26 @@
          "root": "curs",
          "meaning": "A rule that builds each new term from the one before it.",
          "example": "Recursion lets you find each year's balance from last year's.",
-         "translations": {}
+         "translations": {
+          "zh-Hans": "递归",
+          "zh-Hant": "遞歸",
+          "ja": "再帰",
+          "ko": "재귀",
+          "vi": "đệ quy (truy hồi)",
+          "ar": "التكرار الاستدعائي",
+          "fa": "بازگشت (رکورسیون)",
+          "ur": "تکراری عمل (ریکرشن)",
+          "am": "ተመላሽ (ሪከርሺን)",
+          "ml": "ആവർത്തനക്രമം",
+          "ta": "மறுநிகழ்வு",
+          "tl": "recursion (paulit-ulit)",
+          "ps": "بیا راستنیدنه",
+          "ro": "recursivitate",
+          "ru": "рекурсия",
+          "fr": "récursivité",
+          "hi": "पुनरावर्तन",
+          "es": "recursión"
+         }
         },
         {
          "word": "sequence",
@@ -142591,7 +143047,26 @@
          "root": "sequ",
          "meaning": "A list of numbers in order, made by a rule.",
          "example": "3, 6, 12, 24 is a geometric sequence.",
-         "translations": {}
+         "translations": {
+          "zh-Hans": "数列",
+          "zh-Hant": "數列",
+          "ja": "数列",
+          "ko": "수열",
+          "vi": "dãy số",
+          "ar": "المتتالية",
+          "fa": "دنباله",
+          "ur": "تسلسل (سیکوئنس)",
+          "am": "ተከታታይ ቁጥሮች",
+          "ml": "ശ്രേണി",
+          "ta": "தொடர்",
+          "tl": "sunod-sunod na bilang (sequence)",
+          "ps": "لړۍ",
+          "ro": "șir",
+          "ru": "последовательность",
+          "fr": "suite",
+          "hi": "अनुक्रम",
+          "es": "sucesión"
+         }
         }
        ],
        "path": "vce/general-mathematics/unit-1-2-algebra"
@@ -142658,7 +143133,26 @@
          "root": "grad",
          "meaning": "How steep a line is — how much it rises for each step across.",
          "example": "A gradient of 2 means the line rises 2 for every 1 across.",
-         "translations": {}
+         "translations": {
+          "zh-Hans": "斜率",
+          "zh-Hant": "斜率",
+          "ja": "傾き",
+          "ko": "기울기",
+          "vi": "độ dốc (hệ số góc)",
+          "ar": "الميل",
+          "fa": "شیب",
+          "ur": "ڈھلان (گریڈینٹ)",
+          "am": "ተዳፋት",
+          "ml": "ചരിവ്",
+          "ta": "சாய்வு",
+          "tl": "gradient (dahilis)",
+          "ps": "میلان",
+          "ro": "pantă",
+          "ru": "уклон (градиент)",
+          "fr": "pente",
+          "hi": "प्रवणता (ढाल)",
+          "es": "pendiente"
+         }
         },
         {
          "word": "intercept",
@@ -142717,7 +143211,26 @@
          "root": "cept",
          "meaning": "Where a graph cuts an axis.",
          "example": "The y-intercept is where the line crosses the y-axis.",
-         "translations": {}
+         "translations": {
+          "zh-Hans": "截距",
+          "zh-Hant": "截距",
+          "ja": "切片",
+          "ko": "절편",
+          "vi": "giao điểm với trục",
+          "ar": "نقطة التقاطع",
+          "fa": "عرض از مبدأ (نقطه تقاطع)",
+          "ur": "قطع نقطہ (انٹرسیپٹ)",
+          "am": "የመስመር መገናኛ ነጥብ",
+          "ml": "അക്ഷഛേദനം",
+          "ta": "வெட்டுத்துண்டு",
+          "tl": "intercept (tagpuang punto)",
+          "ps": "پرتماس نقطه",
+          "ro": "intersecție (cu axa)",
+          "ru": "точка пересечения (с осью)",
+          "fr": "ordonnée à l'origine",
+          "hi": "अंतःखंड",
+          "es": "intercepto"
+         }
         },
         {
          "word": "parabola",
@@ -142776,7 +143289,26 @@
          "root": "bol",
          "meaning": "The U-shaped curve you get from a squared relationship.",
          "example": "The path of a thrown ball is a parabola.",
-         "translations": {}
+         "translations": {
+          "zh-Hans": "抛物线",
+          "zh-Hant": "拋物線",
+          "ja": "放物線",
+          "ko": "포물선",
+          "vi": "parabol",
+          "ar": "القطع المكافئ",
+          "fa": "سهمی (پارابولا)",
+          "ur": "شلجمی خط (پیرابولا)",
+          "am": "ፓራቦላ",
+          "ml": "പരവലയം",
+          "ta": "பரவளையம்",
+          "tl": "parabola",
+          "ps": "پارابولا",
+          "ro": "parabolă",
+          "ru": "парабола",
+          "fr": "parabole",
+          "hi": "परवलय",
+          "es": "parábola"
+         }
         },
         {
          "word": "asymptote",
@@ -142841,7 +143373,26 @@
          "root": "ptot",
          "meaning": "A line a graph gets closer and closer to but never touches.",
          "example": "The curve has an asymptote at x = 0.",
-         "translations": {}
+         "translations": {
+          "zh-Hans": "渐近线",
+          "zh-Hant": "漸近線",
+          "ja": "漸近線",
+          "ko": "점근선",
+          "vi": "đường tiệm cận",
+          "ar": "الخط المقارب",
+          "fa": "خط مجانب",
+          "ur": "قربی خط (اسمپٹوٹ)",
+          "am": "አሲምፕቶት",
+          "ml": "അനന്തസ്പർശരേഖ",
+          "ta": "அணுகுகோடு",
+          "tl": "asymptote",
+          "ps": "اسیمپټوت",
+          "ro": "asimptotă",
+          "ru": "асимптота",
+          "fr": "asymptote",
+          "hi": "अनंतस्पर्शी",
+          "es": "asíntota"
+         }
         },
         {
          "word": "coordinate",
@@ -142926,7 +143477,26 @@
          "root": "ordin",
          "meaning": "A pair of numbers giving a point's position, such as (3, 5).",
          "example": "Plot the coordinate (2, −4).",
-         "translations": {}
+         "translations": {
+          "zh-Hans": "坐标",
+          "zh-Hant": "坐標",
+          "ja": "座標",
+          "ko": "좌표",
+          "vi": "tọa độ",
+          "ar": "الإحداثي",
+          "fa": "مختصات",
+          "ur": "متناسق (کوآرڈینیٹ)",
+          "am": "መጋጠሚያ",
+          "ml": "നിർദ്ദേശാങ്കം",
+          "ta": "ஆயத்தொலைவு",
+          "tl": "coordinate",
+          "ps": "همغږې",
+          "ro": "coordonată",
+          "ru": "координата",
+          "fr": "coordonnée",
+          "hi": "निर्देशांक",
+          "es": "coordenada"
+         }
         },
         {
          "word": "quadrant",
@@ -142985,7 +143555,26 @@
          "root": "quadr",
          "meaning": "One of the four regions the axes cut a graph into.",
          "example": "The point (−2, 3) lies in the second quadrant.",
-         "translations": {}
+         "translations": {
+          "zh-Hans": "象限",
+          "zh-Hant": "象限",
+          "ja": "象限",
+          "ko": "사분면",
+          "vi": "góc phần tư",
+          "ar": "الربع الإحداثي",
+          "fa": "ربع (چهارم دستگاه مختصات)",
+          "ur": "ربع (کواڈرینٹ)",
+          "am": "ሩብ ክፍል",
+          "ml": "ചതുർഭാഗം",
+          "ta": "காற்பகுதி (குவாட்ரன்ட்)",
+          "tl": "quadrant",
+          "ps": "ربع",
+          "ro": "cadran",
+          "ru": "координатная четверть",
+          "fr": "quadrant",
+          "hi": "चतुर्थांश",
+          "es": "cuadrante"
+         }
         },
         {
          "word": "hyperbola",
@@ -143025,7 +143614,26 @@
          "root": "bol",
          "meaning": "The curve you get when two quantities multiply to a constant.",
          "example": "As speed rises, time falls along a hyperbola.",
-         "translations": {}
+         "translations": {
+          "zh-Hans": "双曲线",
+          "zh-Hant": "雙曲線",
+          "ja": "双曲線",
+          "ko": "쌍곡선",
+          "vi": "hyperbol (hypebol)",
+          "ar": "القطع الزائد",
+          "fa": "هذلولی (هایپربولا)",
+          "ur": "شلجمی منحنی (ہائپربولا)",
+          "am": "ሃይፐርቦላ",
+          "ml": "അതിവലയം",
+          "ta": "மிகைவளையம்",
+          "tl": "hyperbola",
+          "ps": "هایپربولا",
+          "ro": "hiperbolă",
+          "ru": "гипербола",
+          "fr": "hyperbole",
+          "hi": "अतिपरवलय",
+          "es": "hipérbola"
+         }
         },
         {
          "word": "vertical",
@@ -143109,7 +143717,26 @@
          "root": "vert",
          "meaning": "Going straight up and down.",
          "example": "The y-axis is the vertical axis.",
-         "translations": {}
+         "translations": {
+          "zh-Hans": "垂直的",
+          "zh-Hant": "垂直的",
+          "ja": "垂直の",
+          "ko": "수직의",
+          "vi": "thẳng đứng",
+          "ar": "عمودي (رأسي)",
+          "fa": "عمودی",
+          "ur": "عمودی",
+          "am": "ቀጥ ያለ",
+          "ml": "ലംബമായ",
+          "ta": "செங்குத்தான",
+          "tl": "patayo",
+          "ps": "عمودي",
+          "ro": "vertical",
+          "ru": "вертикальный",
+          "fr": "vertical",
+          "hi": "ऊर्ध्वाधर",
+          "es": "vertical"
+         }
         },
         {
          "word": "horizontal",
@@ -143149,7 +143776,26 @@
          "root": "horizont",
          "meaning": "Going flat across, left to right.",
          "example": "Draw a horizontal line through y = 4.",
-         "translations": {}
+         "translations": {
+          "zh-Hans": "水平的",
+          "zh-Hant": "水平的",
+          "ja": "水平の",
+          "ko": "수평의",
+          "vi": "nằm ngang",
+          "ar": "أفقي",
+          "fa": "افقی",
+          "ur": "افقی",
+          "am": "አግድም",
+          "ml": "തിരശ്ചീനമായ",
+          "ta": "கிடைமட்டமான",
+          "tl": "pahalang",
+          "ps": "افقي",
+          "ro": "orizontal",
+          "ru": "горизонтальный",
+          "fr": "horizontal",
+          "hi": "क्षैतिज",
+          "es": "horizontal"
+         }
         },
         {
          "word": "transformation",
@@ -143233,7 +143879,26 @@
          "root": "form",
          "meaning": "A change that moves, turns, flips or resizes a graph or shape.",
          "example": "This transformation shifts the graph two units up.",
-         "translations": {}
+         "translations": {
+          "zh-Hans": "变换",
+          "zh-Hant": "變換",
+          "ja": "変換",
+          "ko": "변환",
+          "vi": "phép biến đổi",
+          "ar": "التحويل الهندسي",
+          "fa": "تبدیل هندسی",
+          "ur": "تبدیلی (ٹرانسفارمیشن)",
+          "am": "ለውጥ (ትራንስፎርሜሽን)",
+          "ml": "രൂപാന്തരം",
+          "ta": "உருமாற்றம்",
+          "tl": "transpormasyon",
+          "ps": "بدلون",
+          "ro": "transformare",
+          "ru": "преобразование",
+          "fr": "transformation",
+          "hi": "रूपांतरण",
+          "es": "transformación"
+         }
         },
         {
          "word": "dilation",
@@ -143273,7 +143938,26 @@
          "root": "dil",
          "meaning": "Stretching or squashing a graph or shape.",
          "example": "A dilation by factor 2 makes the shape twice as wide.",
-         "translations": {}
+         "translations": {
+          "zh-Hans": "伸缩变换",
+          "zh-Hant": "伸縮變換",
+          "ja": "拡大縮小",
+          "ko": "확대축소(닮음변환)",
+          "vi": "phép co giãn (phóng to/thu nhỏ)",
+          "ar": "التمدد (التكبير/التصغير)",
+          "fa": "بزرگ‌نمایی/کوچک‌نمایی",
+          "ur": "پھیلاؤ (سکیل تبدیلی)",
+          "am": "ማስፋፋት/ማጥበብ (ዲላሽን)",
+          "ml": "വികസനം (സ്കെയിലിംഗ്)",
+          "ta": "விரிவாக்கம்/சுருக்கம்",
+          "tl": "pagpapalaki/pagpapaliit (dilation)",
+          "ps": "غځونه/کوچنی کول",
+          "ro": "dilatare (mărire/micșorare)",
+          "ru": "растяжение (масштабирование)",
+          "fr": "dilatation (agrandissement/réduction)",
+          "hi": "प्रसार (आकार परिवर्तन)",
+          "es": "dilatación (escalado)"
+         }
         },
         {
          "word": "translation",
@@ -143357,7 +144041,26 @@
          "root": "lat",
          "meaning": "Sliding a graph or shape without turning it.",
          "example": "A translation of 3 units right.",
-         "translations": {}
+         "translations": {
+          "zh-Hans": "平移",
+          "zh-Hant": "平移",
+          "ja": "平行移動",
+          "ko": "평행이동",
+          "vi": "phép tịnh tiến",
+          "ar": "الانسحاب (الإزاحة)",
+          "fa": "انتقال (جابجایی)",
+          "ur": "منتقلی (سرک جانا)",
+          "am": "ማዘዋወር (ትራንስሌሽን)",
+          "ml": "സ്ഥാനാന്തരം",
+          "ta": "இடமாற்றம்",
+          "tl": "paglipat (translation)",
+          "ps": "ځای پرځای کیدل",
+          "ro": "translație",
+          "ru": "перенос (сдвиг)",
+          "fr": "translation",
+          "hi": "स्थानांतरण",
+          "es": "traslación"
+         }
         }
        ],
        "path": "vce/general-mathematics/unit-1-2-graphs"
@@ -143380,7 +144083,26 @@
          "root": "algorithm",
          "meaning": "A set of steps you follow in order to solve a problem.",
          "example": "Follow the algorithm to find the shortest route.",
-         "translations": {}
+         "translations": {
+          "zh-Hans": "算法",
+          "zh-Hant": "演算法",
+          "ja": "アルゴリズム",
+          "ko": "알고리즘",
+          "vi": "thuật toán",
+          "ar": "الخوارزمية",
+          "fa": "الگوریتم",
+          "ur": "الگورتھم",
+          "am": "አልጎሪዝም",
+          "ml": "അൽഗോരിതം",
+          "ta": "வழிமுறை (அல்காரிதம்)",
+          "tl": "algorithm",
+          "ps": "الگوریتم",
+          "ro": "algoritm",
+          "ru": "алгоритм",
+          "fr": "algorithme",
+          "hi": "कलनविधि (एल्गोरिथम)",
+          "es": "algoritmo"
+         }
         },
         {
          "word": "iteration",
@@ -143420,7 +144142,26 @@
          "root": "iter",
          "meaning": "One repeat of a step that is done over and over.",
          "example": "After three iterations the value settles.",
-         "translations": {}
+         "translations": {
+          "zh-Hans": "迭代",
+          "zh-Hant": "迭代",
+          "ja": "反復",
+          "ko": "반복",
+          "vi": "phép lặp",
+          "ar": "التكرار",
+          "fa": "تکرار (ایتریشن)",
+          "ur": "تکرار (اٹریشن)",
+          "am": "ድግግሞሽ (ኢተሬሽን)",
+          "ml": "ആവർത്തനം",
+          "ta": "மறுசெயல்படுத்தல்",
+          "tl": "iteration (paulit-ulit na proseso)",
+          "ps": "تکرار",
+          "ro": "iterație",
+          "ru": "итерация",
+          "fr": "itération",
+          "hi": "पुनरावृत्ति",
+          "es": "iteración"
+         }
         },
         {
          "word": "combination",
@@ -143486,7 +144227,26 @@
          "root": "bin",
          "meaning": "A selection where the order does not matter.",
          "example": "How many combinations of 3 students from 10?",
-         "translations": {}
+         "translations": {
+          "zh-Hans": "组合",
+          "zh-Hant": "組合",
+          "ja": "組み合わせ",
+          "ko": "조합",
+          "vi": "tổ hợp",
+          "ar": "التوافيق",
+          "fa": "ترکیب (کومبیناسیون)",
+          "ur": "امتزاج (کمبی نیشن)",
+          "am": "ውህድ (ኮምቢኔሽን)",
+          "ml": "സഞ്ചയം",
+          "ta": "சேர்வு (கோம்பினேஷன்)",
+          "tl": "kombinasyon",
+          "ps": "ترکیب",
+          "ro": "combinare",
+          "ru": "сочетание",
+          "fr": "combinaison",
+          "hi": "संचय",
+          "es": "combinación"
+         }
         },
         {
          "word": "factorial",
@@ -143572,7 +144332,26 @@
          "root": "fact",
          "meaning": "Multiplying a number by every whole number below it, written 5!.",
          "example": "5 factorial is 5 × 4 × 3 × 2 × 1 = 120.",
-         "translations": {}
+         "translations": {
+          "zh-Hans": "阶乘",
+          "zh-Hant": "階乘",
+          "ja": "階乗",
+          "ko": "계승",
+          "vi": "giai thừa",
+          "ar": "المضروب",
+          "fa": "فاکتوریل",
+          "ur": "فیکٹوریل",
+          "am": "ፋክቶሪያል",
+          "ml": "ഗുണിതം (ഫാക്ടോറിയൽ)",
+          "ta": "தொடர்ப்பெருக்கம் (பாக்டோரியல்)",
+          "tl": "factorial",
+          "ps": "فکتوریل",
+          "ro": "factorial",
+          "ru": "факториал",
+          "fr": "factorielle",
+          "hi": "क्रमगुणित (फैक्टोरियल)",
+          "es": "factorial"
+         }
         },
         {
          "word": "recurrence",
@@ -143656,7 +144435,26 @@
          "root": "curr",
          "meaning": "A rule that gives the next term from the one before.",
          "example": "Write a recurrence relation for the balance each month.",
-         "translations": {}
+         "translations": {
+          "zh-Hans": "递推关系",
+          "zh-Hant": "遞推關係",
+          "ja": "漸化式",
+          "ko": "점화식(재귀 관계)",
+          "vi": "hệ thức truy hồi",
+          "ar": "العلاقة التكرارية",
+          "fa": "رابطه بازگشتی",
+          "ur": "تکراری تعلق (ریکرنس)",
+          "am": "ተመላሽ ግንኙነት",
+          "ml": "ആവർത്തന ബന്ധം",
+          "ta": "மீள்நிகழ்வு தொடர்பு",
+          "tl": "recurrence relation",
+          "ps": "بیا راستنیدونکی اړیکه",
+          "ro": "relație de recurență",
+          "ru": "рекуррентное соотношение",
+          "fr": "relation de récurrence",
+          "hi": "पुनरावृत्ति संबंध",
+          "es": "relación de recurrencia"
+         }
         },
         {
          "word": "cycle",
@@ -143690,7 +144488,26 @@
          "root": "cycl",
          "meaning": "A route that returns to where it started.",
          "example": "The tour forms a cycle through all six towns.",
-         "translations": {}
+         "translations": {
+          "zh-Hans": "回路",
+          "zh-Hant": "迴路",
+          "ja": "サイクル（閉路）",
+          "ko": "사이클(순환)",
+          "vi": "chu trình",
+          "ar": "الدورة",
+          "fa": "دور (چرخه)",
+          "ur": "چکر (سائیکل)",
+          "am": "ዑደት (ሳይክል)",
+          "ml": "ചക്രം",
+          "ta": "சுழற்சி",
+          "tl": "cycle (ikot)",
+          "ps": "دوره",
+          "ro": "ciclu",
+          "ru": "цикл",
+          "fr": "cycle",
+          "hi": "चक्र",
+          "es": "ciclo"
+         }
         },
         {
          "word": "degree",
@@ -143730,7 +144547,26 @@
          "root": "gree",
          "meaning": "In a network, the number of edges meeting at a point.",
          "example": "Vertex B has degree 3.",
-         "translations": {}
+         "translations": {
+          "zh-Hans": "度（顶点度数）",
+          "zh-Hant": "度（頂點度數）",
+          "ja": "次数",
+          "ko": "차수",
+          "vi": "bậc (đỉnh)",
+          "ar": "الدرجة (درجة الرأس)",
+          "fa": "درجه رأس",
+          "ur": "درجہ (ورٹیکس کا)",
+          "am": "ደረጃ (የመስቀለኛ ነጥብ)",
+          "ml": "ഡിഗ്രി (ശീർഷ ബിന്ദുവിന്റെ)",
+          "ta": "பட்டம் (உச்சிப்புள்ளியின்)",
+          "tl": "degree (ng vertex)",
+          "ps": "درجه",
+          "ro": "grad (al unui nod)",
+          "ru": "степень (вершины)",
+          "fr": "degré (d'un sommet)",
+          "hi": "कोटि (शीर्ष की)",
+          "es": "grado (de un vértice)"
+         }
         },
         {
          "word": "weighted",
@@ -143770,7 +144606,26 @@
          "root": "weigh",
          "meaning": "Where each connection carries a number, such as a distance or cost.",
          "example": "In a weighted graph the numbers show travel time.",
-         "translations": {}
+         "translations": {
+          "zh-Hans": "加权的",
+          "zh-Hant": "加權的",
+          "ja": "重み付きの",
+          "ko": "가중치가 있는",
+          "vi": "có trọng số",
+          "ar": "موزون",
+          "fa": "وزن‌دار",
+          "ur": "وزنی",
+          "am": "ክብደት ያለው",
+          "ml": "ഭാരം നൽകിയ",
+          "ta": "எடையிடப்பட்ட",
+          "tl": "may timbang (weighted)",
+          "ps": "درانه شوی",
+          "ro": "ponderat",
+          "ru": "взвешенный",
+          "fr": "pondéré",
+          "hi": "भारित",
+          "es": "ponderado"
+         }
         },
         {
          "word": "directed",
@@ -143836,7 +144691,26 @@
          "root": "rect",
          "meaning": "Where connections only go one way, shown by arrows.",
          "example": "A one-way street system is a directed graph.",
-         "translations": {}
+         "translations": {
+          "zh-Hans": "有向的",
+          "zh-Hant": "有向的",
+          "ja": "有向の",
+          "ko": "방향이 있는",
+          "vi": "có hướng",
+          "ar": "موجّه",
+          "fa": "جهت‌دار",
+          "ur": "سمت دار",
+          "am": "አቅጣጫ ያለው",
+          "ml": "ദിശാസൂചകമായ",
+          "ta": "திசைமுனைப்பட்ட",
+          "tl": "may direksyon (directed)",
+          "ps": "لوري لرونکی",
+          "ro": "orientat",
+          "ru": "ориентированный",
+          "fr": "orienté",
+          "hi": "दिशात्मक",
+          "es": "dirigido"
+         }
         },
         {
          "word": "undirected",
@@ -143927,7 +144801,26 @@
          "root": "rect",
          "meaning": "Where connections work both ways.",
          "example": "A friendship network is usually undirected.",
-         "translations": {}
+         "translations": {
+          "zh-Hans": "无向的",
+          "zh-Hant": "無向的",
+          "ja": "無向の",
+          "ko": "방향이 없는",
+          "vi": "vô hướng",
+          "ar": "غير موجّه",
+          "fa": "بدون جهت",
+          "ur": "غیر سمت دار",
+          "am": "አቅጣጫ የሌለው",
+          "ml": "ദിശാരഹിതമായ",
+          "ta": "திசைமுனைப்படாத",
+          "tl": "walang direksyon (undirected)",
+          "ps": "بې لوري",
+          "ro": "neorientat",
+          "ru": "неориентированный",
+          "fr": "non orienté",
+          "hi": "अदिशात्मक",
+          "es": "no dirigido"
+         }
         }
        ],
        "path": "vce/general-mathematics/unit-1-2-discrete"
