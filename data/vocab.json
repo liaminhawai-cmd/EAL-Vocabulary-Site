@@ -137502,7 +137502,26 @@
          "root": "cit",
          "meaning": "Name the source where an idea or quotation came from.",
          "example": "Cite the author and year for every quotation.",
-         "translations": {}
+         "translations": {
+          "zh-Hans": "引用",
+          "zh-Hant": "引用",
+          "ja": "引用する",
+          "ko": "인용하다",
+          "vi": "trích dẫn",
+          "ar": "يستشهد بـ",
+          "fa": "استناد کردن",
+          "ur": "حوالہ دینا",
+          "am": "መጥቀስ (ማጣቀሻ ማድረግ)",
+          "ml": "ഉദ്ധരിക്കുക",
+          "ta": "மேற்கோள் காட்டு",
+          "tl": "banggitin (source)",
+          "ps": "حواله ورکول",
+          "ro": "a cita",
+          "ru": "цитировать",
+          "fr": "citer",
+          "hi": "उद्धृत करना",
+          "es": "citar"
+         }
         },
         {
          "word": "reliable",
@@ -137567,7 +137586,26 @@
          "root": "li",
          "meaning": "You can trust it — it gives the same result again and again.",
          "example": "A single blog post is not a reliable source.",
-         "translations": {}
+         "translations": {
+          "zh-Hans": "可靠的",
+          "zh-Hant": "可靠的",
+          "ja": "信頼できる",
+          "ko": "신뢰할 수 있는",
+          "vi": "đáng tin cậy",
+          "ar": "موثوق",
+          "fa": "قابل اعتماد",
+          "ur": "قابل اعتماد",
+          "am": "አስተማማኝ",
+          "ml": "വിശ്വസനീയമായ",
+          "ta": "நம்பகமான",
+          "tl": "maaasahan",
+          "ps": "باوري",
+          "ro": "fiabil",
+          "ru": "надёжный",
+          "fr": "fiable",
+          "hi": "विश्वसनीय",
+          "es": "fiable"
+         }
         },
         {
          "word": "valid",
@@ -137607,7 +137645,26 @@
          "root": "val",
          "meaning": "Sound and well founded — it really measures or shows what it claims to.",
          "example": "The conclusion is valid only if the sample was random.",
-         "translations": {}
+         "translations": {
+          "zh-Hans": "有效的（站得住脚的）",
+          "zh-Hant": "有效的（站得住腳的）",
+          "ja": "妥当な",
+          "ko": "타당한",
+          "vi": "có giá trị (xác đáng)",
+          "ar": "صحيح (سليم منطقيًا)",
+          "fa": "معتبر",
+          "ur": "درست (معتبر)",
+          "am": "ትክክለኛ (ተቀባይነት ያለው)",
+          "ml": "സാധുവായ",
+          "ta": "செல்லுபடியான",
+          "tl": "makatwiran (may bisa)",
+          "ps": "معتبر",
+          "ro": "valid",
+          "ru": "обоснованный",
+          "fr": "valide",
+          "hi": "मान्य (सटीक)",
+          "es": "válido"
+         }
         },
         {
          "word": "unbiased",
@@ -137647,7 +137704,26 @@
          "root": "bias",
          "meaning": "Not leaning towards one side.",
          "example": "Try to find an unbiased account of the event.",
-         "translations": {}
+         "translations": {
+          "zh-Hans": "无偏见的",
+          "zh-Hant": "無偏見的",
+          "ja": "偏りのない",
+          "ko": "편향되지 않은",
+          "vi": "không thiên vị",
+          "ar": "غير متحيّز",
+          "fa": "بی‌طرف",
+          "ur": "غیر جانبدار",
+          "am": "አድልዎ የሌለው",
+          "ml": "പക്ഷപാതരഹിതമായ",
+          "ta": "பாரபட்சமற்ற",
+          "tl": "walang kinikilingan",
+          "ps": "بې طرفه",
+          "ro": "imparțial",
+          "ru": "непредвзятый",
+          "fr": "impartial",
+          "hi": "निष्पक्ष",
+          "es": "imparcial"
+         }
         },
         {
          "word": "perspective",
@@ -137731,7 +137807,26 @@
          "root": "spect",
          "meaning": "The point of view a person writes or speaks from.",
          "example": "The diary gives a soldier's perspective on the battle.",
-         "translations": {}
+         "translations": {
+          "zh-Hans": "视角",
+          "zh-Hant": "視角",
+          "ja": "視点",
+          "ko": "관점",
+          "vi": "quan điểm",
+          "ar": "وجهة النظر",
+          "fa": "دیدگاه",
+          "ur": "نقطہ نظر",
+          "am": "አመለካከት",
+          "ml": "വീക്ഷണം",
+          "ta": "பார்வை",
+          "tl": "pananaw",
+          "ps": "لید لوری",
+          "ro": "perspectivă",
+          "ru": "точка зрения",
+          "fr": "point de vue",
+          "hi": "दृष्टिकोण",
+          "es": "perspectiva"
+         }
         },
         {
          "word": "primary source",
@@ -137790,7 +137885,26 @@
          "root": "prim",
          "meaning": "Evidence made at the time by someone who was there.",
          "example": "A letter written in 1915 is a primary source.",
-         "translations": {}
+         "translations": {
+          "zh-Hans": "第一手资料",
+          "zh-Hant": "第一手資料",
+          "ja": "一次資料",
+          "ko": "1차 자료",
+          "vi": "nguồn sơ cấp",
+          "ar": "المصدر الأولي",
+          "fa": "منبع دست اول",
+          "ur": "بنیادی ماخذ",
+          "am": "የመጀመሪያ ደረጃ ምንጭ",
+          "ml": "പ്രാഥമിക സ്രോതസ്സ്",
+          "ta": "முதன்மை ஆதாரம்",
+          "tl": "pangunahing sanggunian",
+          "ps": "لومړنی سرچینه",
+          "ro": "sursă primară",
+          "ru": "первичный источник",
+          "fr": "source primaire",
+          "hi": "प्राथमिक स्रोत",
+          "es": "fuente primaria"
+         }
         },
         {
          "word": "secondary source",
@@ -137830,7 +137944,26 @@
          "root": "second",
          "meaning": "An account written later by someone who was not there.",
          "example": "Your textbook is a secondary source.",
-         "translations": {}
+         "translations": {
+          "zh-Hans": "第二手资料",
+          "zh-Hant": "第二手資料",
+          "ja": "二次資料",
+          "ko": "2차 자료",
+          "vi": "nguồn thứ cấp",
+          "ar": "المصدر الثانوي",
+          "fa": "منبع دست دوم",
+          "ur": "ثانوی ماخذ",
+          "am": "ሁለተኛ ደረጃ ምንጭ",
+          "ml": "ദ്വിതീയ സ്രോതസ്സ്",
+          "ta": "இரண்டாம்நிலை ஆதாரம்",
+          "tl": "pangalawang sanggunian",
+          "ps": "دویمه سرچینه",
+          "ro": "sursă secundară",
+          "ru": "вторичный источник",
+          "fr": "source secondaire",
+          "hi": "द्वितीयक स्रोत",
+          "es": "fuente secundaria"
+         }
         },
         {
          "word": "credibility",
@@ -137915,7 +138048,26 @@
          "root": "cred",
          "meaning": "How far a source deserves to be believed.",
          "example": "The author's expertise adds to the credibility of the report.",
-         "translations": {}
+         "translations": {
+          "zh-Hans": "可信度",
+          "zh-Hant": "可信度",
+          "ja": "信頼性",
+          "ko": "신뢰성",
+          "vi": "độ tin cậy",
+          "ar": "المصداقية",
+          "fa": "اعتبار",
+          "ur": "ساکھ (اعتبار)",
+          "am": "ታማኝነት",
+          "ml": "വിശ്വാസ്യത",
+          "ta": "நம்பகத்தன்மை",
+          "tl": "kredibilidad",
+          "ps": "باورمنتوب",
+          "ro": "credibilitate",
+          "ru": "достоверность",
+          "fr": "crédibilité",
+          "hi": "विश्वसनीयता",
+          "es": "credibilidad"
+         }
         },
         {
          "word": "corroborate",
@@ -137981,7 +138133,26 @@
          "root": "robor",
          "meaning": "Support a claim with a second, independent source that says the same.",
          "example": "Two other witnesses corroborate her account.",
-         "translations": {}
+         "translations": {
+          "zh-Hans": "证实",
+          "zh-Hant": "證實",
+          "ja": "裏付ける",
+          "ko": "뒷받침하다",
+          "vi": "củng cố (bằng chứng khác)",
+          "ar": "يؤكد ويدعم",
+          "fa": "تأیید کردن",
+          "ur": "تصدیق کرنا",
+          "am": "በሌላ ማስረጃ ማረጋገጥ",
+          "ml": "സ്ഥിരീകരിക്കുക (മറ്റൊരു തെളിവിനാൽ)",
+          "ta": "உறுதிப்படுத்து (மற்றொரு ஆதாரத்தால்)",
+          "tl": "patunayan (ng ibang ebidensya)",
+          "ps": "تایید کول",
+          "ro": "a confirma (cu altă dovadă)",
+          "ru": "подтверждать (другим источником)",
+          "fr": "corroborer",
+          "hi": "पुष्टि करना (अन्य साक्ष्य से)",
+          "es": "corroborar"
+         }
         },
         {
          "word": "plagiarism",
@@ -138021,7 +138192,26 @@
          "root": "plagiar",
          "meaning": "Using someone else's words or ideas as if they were your own. It is cheating.",
          "example": "Referencing your sources protects you from plagiarism.",
-         "translations": {}
+         "translations": {
+          "zh-Hans": "抄袭",
+          "zh-Hant": "抄襲",
+          "ja": "剽窃",
+          "ko": "표절",
+          "vi": "đạo văn",
+          "ar": "الانتحال (السرقة الأدبية)",
+          "fa": "سرقت ادبی",
+          "ur": "سرقہ (چوری شدہ تحریر)",
+          "am": "የሌላ ስራ መስረቅ (ፕላጃሪዝም)",
+          "ml": "കൃതി മോഷണം",
+          "ta": "கருத்துத் திருட்டு",
+          "tl": "plahiyo",
+          "ps": "د لیکنو غلا",
+          "ro": "plagiat",
+          "ru": "плагиат",
+          "fr": "plagiat",
+          "hi": "साहित्यिक चोरी",
+          "es": "plagio"
+         }
         },
         {
          "word": "paraphrase",
@@ -138061,7 +138251,26 @@
          "root": "phrase",
          "meaning": "Put someone else's idea into your own words. You still name the source.",
          "example": "Paraphrase the passage rather than quoting all of it.",
-         "translations": {}
+         "translations": {
+          "zh-Hans": "改述",
+          "zh-Hant": "改述",
+          "ja": "言い換える",
+          "ko": "바꾸어 표현하다",
+          "vi": "diễn giải lại bằng lời riêng",
+          "ar": "يعيد الصياغة",
+          "fa": "بازنویسی به زبان خود",
+          "ur": "اپنے الفاظ میں دوبارہ لکھنا",
+          "am": "በራስ ቃላት መጻፍ",
+          "ml": "സ്വന്തം വാക്കുകളിൽ പുനരാവിഷ്കരിക്കുക",
+          "ta": "சொந்த வார்த்தைகளில் மறுகூறு",
+          "tl": "ilahad sa sariling salita",
+          "ps": "په خپلو خبرو بیا لیکل",
+          "ro": "a parafraza",
+          "ru": "перефразировать",
+          "fr": "paraphraser",
+          "hi": "अपने शब्दों में लिखना",
+          "es": "parafrasear"
+         }
         },
         {
          "word": "attribution",
@@ -138146,7 +138355,26 @@
          "root": "tribut",
          "meaning": "Saying who an idea, quotation or image came from.",
          "example": "The image was used without attribution.",
-         "translations": {}
+         "translations": {
+          "zh-Hans": "来源标注",
+          "zh-Hant": "來源標注",
+          "ja": "出典明記",
+          "ko": "출처 표기",
+          "vi": "ghi nguồn",
+          "ar": "نسبة المصدر",
+          "fa": "استناد به منبع",
+          "ur": "ماخذ کا حوالہ",
+          "am": "ምንጭ መጥቀስ",
+          "ml": "സ്രോതസ്സ് വ്യക്തമാക്കൽ",
+          "ta": "மூல ஒப்படைப்பு",
+          "tl": "pagbanggit ng pinagmulan",
+          "ps": "د سرچینې یادونه",
+          "ro": "atribuirea sursei",
+          "ru": "указание источника",
+          "fr": "attribution de la source",
+          "hi": "स्रोत का उल्लेख",
+          "es": "atribución de la fuente"
+         }
         },
         {
          "word": "verify",
@@ -138186,7 +138414,26 @@
          "root": "ver",
          "meaning": "Check that something is true.",
          "example": "Verify the figure against the official statistics.",
-         "translations": {}
+         "translations": {
+          "zh-Hans": "核实",
+          "zh-Hant": "核實",
+          "ja": "検証する",
+          "ko": "검증하다",
+          "vi": "xác minh",
+          "ar": "يتحقق من",
+          "fa": "راستی‌آزمایی کردن",
+          "ur": "تصدیق کرنا",
+          "am": "ማረጋገጥ",
+          "ml": "സ്ഥിരീകരിക്കുക",
+          "ta": "சரிபார்",
+          "tl": "beripikahin",
+          "ps": "تایید کول",
+          "ro": "a verifica",
+          "ru": "проверять",
+          "fr": "vérifier",
+          "hi": "सत्यापित करना",
+          "es": "verificar"
+         }
         },
         {
          "word": "objective",
@@ -138270,7 +138517,26 @@
          "root": "ject",
          "meaning": "Based on facts, not on personal feelings.",
          "example": "A report should be objective.",
-         "translations": {}
+         "translations": {
+          "zh-Hans": "客观的",
+          "zh-Hant": "客觀的",
+          "ja": "客観的な",
+          "ko": "객관적인",
+          "vi": "khách quan",
+          "ar": "موضوعي",
+          "fa": "عینی (بی‌طرفانه)",
+          "ur": "معروضی",
+          "am": "ገለልተኛ (ተጨባጭ)",
+          "ml": "വസ്തുനിഷ്ഠമായ",
+          "ta": "புறநிலையான",
+          "tl": "walang kinikilingan (obhetibo)",
+          "ps": "بې طرفه (موضوعي)",
+          "ro": "obiectiv",
+          "ru": "объективный",
+          "fr": "objectif",
+          "hi": "वस्तुनिष्ठ",
+          "es": "objetivo"
+         }
         },
         {
          "word": "subjective",
@@ -138354,7 +138620,26 @@
          "root": "ject",
          "meaning": "Based on personal feelings or opinions.",
          "example": "'Beautiful' is a subjective judgement.",
-         "translations": {}
+         "translations": {
+          "zh-Hans": "主观的",
+          "zh-Hant": "主觀的",
+          "ja": "主観的な",
+          "ko": "주관적인",
+          "vi": "chủ quan",
+          "ar": "ذاتي",
+          "fa": "ذهنی (شخصی)",
+          "ur": "موضوعی (ذاتی رائے پر مبنی)",
+          "am": "የግል አመለካከት ያለው",
+          "ml": "ആത്മനിഷ്ഠമായ",
+          "ta": "அகநிலையான",
+          "tl": "personal na palagay (subhetibo)",
+          "ps": "شخصي (ذهني)",
+          "ro": "subiectiv",
+          "ru": "субъективный",
+          "fr": "subjectif",
+          "hi": "व्यक्तिनिष्ठ",
+          "es": "subjetivo"
+         }
         }
        ],
        "path": "vce/command-terms/sources-evidence"
@@ -138423,7 +138708,26 @@
          "root": "fact",
          "meaning": "One of the things that causes or affects a result.",
          "example": "Cost was the main factor in the decision.",
-         "translations": {}
+         "translations": {
+          "zh-Hans": "因素",
+          "zh-Hant": "因素",
+          "ja": "要因",
+          "ko": "요인",
+          "vi": "yếu tố",
+          "ar": "العامل",
+          "fa": "عامل",
+          "ur": "عنصر (فیکٹر)",
+          "am": "ምክንያት",
+          "ml": "ഘടകം",
+          "ta": "காரணி",
+          "tl": "salik",
+          "ps": "فکتور",
+          "ro": "factor",
+          "ru": "фактор",
+          "fr": "facteur",
+          "hi": "कारक",
+          "es": "factor"
+         }
         },
         {
          "word": "aspect",
@@ -138482,7 +138786,26 @@
          "root": "spect",
          "meaning": "One part or side of something you are looking at.",
          "example": "Consider the economic aspect of the problem.",
-         "translations": {}
+         "translations": {
+          "zh-Hans": "方面",
+          "zh-Hant": "方面",
+          "ja": "側面",
+          "ko": "측면",
+          "vi": "khía cạnh",
+          "ar": "الجانب",
+          "fa": "جنبه",
+          "ur": "پہلو",
+          "am": "ገጽታ",
+          "ml": "വശം",
+          "ta": "அம்சம்",
+          "tl": "aspeto",
+          "ps": "اړخ",
+          "ro": "aspect",
+          "ru": "аспект",
+          "fr": "aspect",
+          "hi": "पहलू",
+          "es": "aspecto"
+         }
         },
         {
          "word": "concept",
@@ -138542,7 +138865,26 @@
          "root": "cept",
          "meaning": "A general idea.",
          "example": "The concept of supply and demand is central to economics.",
-         "translations": {}
+         "translations": {
+          "zh-Hans": "概念",
+          "zh-Hant": "概念",
+          "ja": "概念",
+          "ko": "개념",
+          "vi": "khái niệm",
+          "ar": "المفهوم",
+          "fa": "مفهوم",
+          "ur": "تصور",
+          "am": "ጽንሰ ሀሳብ",
+          "ml": "ആശയം",
+          "ta": "கருத்து",
+          "tl": "konsepto",
+          "ps": "مفهوم",
+          "ro": "concept",
+          "ru": "концепция",
+          "fr": "concept",
+          "hi": "अवधारणा",
+          "es": "concepto"
+         }
         },
         {
          "word": "criterion",
@@ -138601,7 +138943,26 @@
          "root": "crit",
          "meaning": "A standard you judge something against. Plural: criteria.",
          "example": "Cost was one criterion; safety was another.",
-         "translations": {}
+         "translations": {
+          "zh-Hans": "标准",
+          "zh-Hant": "標準",
+          "ja": "基準",
+          "ko": "기준",
+          "vi": "tiêu chí",
+          "ar": "المعيار",
+          "fa": "معیار",
+          "ur": "معیار",
+          "am": "መስፈርት",
+          "ml": "മാനദണ്ഡം",
+          "ta": "அளவுகோல்",
+          "tl": "pamantayan",
+          "ps": "معیار",
+          "ro": "criteriu",
+          "ru": "критерий",
+          "fr": "critère",
+          "hi": "मानदंड",
+          "es": "criterio"
+         }
         },
         {
          "word": "framework",
@@ -138641,7 +139002,26 @@
          "root": "frame",
          "meaning": "A structure of ideas used to organise thinking about a topic.",
          "example": "Use the four-step framework to analyse the case.",
-         "translations": {}
+         "translations": {
+          "zh-Hans": "框架",
+          "zh-Hant": "框架",
+          "ja": "枠組み",
+          "ko": "틀(프레임워크)",
+          "vi": "khung (khuôn khổ)",
+          "ar": "الإطار",
+          "fa": "چارچوب",
+          "ur": "ڈھانچہ (فریم ورک)",
+          "am": "ማዕቀፍ",
+          "ml": "ചട്ടക്കൂട്",
+          "ta": "கட்டமைப்பு",
+          "tl": "balangkas",
+          "ps": "چوکاټ",
+          "ro": "cadru",
+          "ru": "структура (концепция)",
+          "fr": "cadre",
+          "hi": "ढांचा",
+          "es": "marco"
+         }
         },
         {
          "word": "principle",
@@ -138681,7 +139061,26 @@
          "root": "prin",
          "meaning": "A basic rule or truth that other ideas are built on.",
          "example": "The principle of equality before the law.",
-         "translations": {}
+         "translations": {
+          "zh-Hans": "原则",
+          "zh-Hant": "原則",
+          "ja": "原則",
+          "ko": "원칙",
+          "vi": "nguyên tắc",
+          "ar": "المبدأ",
+          "fa": "اصل",
+          "ur": "اصول",
+          "am": "መርህ",
+          "ml": "തത്ത്വം",
+          "ta": "தத்துவம்",
+          "tl": "prinsipyo",
+          "ps": "اصول",
+          "ro": "principiu",
+          "ru": "принцип",
+          "fr": "principe",
+          "hi": "सिद्धांत",
+          "es": "principio"
+         }
         },
         {
          "word": "phenomenon",
@@ -138696,7 +139095,26 @@
          "root": "phen",
          "meaning": "Something that happens and can be observed. Plural: phenomena.",
          "example": "El Niño is a weather phenomenon.",
-         "translations": {}
+         "translations": {
+          "zh-Hans": "现象",
+          "zh-Hant": "現象",
+          "ja": "現象",
+          "ko": "현상",
+          "vi": "hiện tượng",
+          "ar": "الظاهرة",
+          "fa": "پدیده",
+          "ur": "مظہر (رجحان)",
+          "am": "ክስተት",
+          "ml": "പ്രതിഭാസം",
+          "ta": "நிகழ்வு",
+          "tl": "penomenon",
+          "ps": "پدیده",
+          "ro": "fenomen",
+          "ru": "явление",
+          "fr": "phénomène",
+          "hi": "परिघटना",
+          "es": "fenómeno"
+         }
         },
         {
          "word": "hypothesis",
@@ -138780,7 +139198,26 @@
          "root": "thes",
          "meaning": "A testable prediction you make before an experiment. Plural: hypotheses.",
          "example": "State your hypothesis before collecting data.",
-         "translations": {}
+         "translations": {
+          "zh-Hans": "假设",
+          "zh-Hant": "假設",
+          "ja": "仮説",
+          "ko": "가설",
+          "vi": "giả thuyết",
+          "ar": "الفرضية",
+          "fa": "فرضیه",
+          "ur": "مفروضہ",
+          "am": "መላምት",
+          "ml": "പരികല്പന",
+          "ta": "கருதுகோள்",
+          "tl": "haypotesis",
+          "ps": "فرضیه",
+          "ro": "ipoteză",
+          "ru": "гипотеза",
+          "fr": "hypothèse",
+          "hi": "परिकल्पना",
+          "es": "hipótesis"
+         }
         },
         {
          "word": "methodology",
@@ -138826,7 +139263,26 @@
          "root": "od",
          "meaning": "The whole approach and set of methods used in a study, and why they were chosen.",
          "example": "The methodology section explains how the data was gathered.",
-         "translations": {}
+         "translations": {
+          "zh-Hans": "研究方法",
+          "zh-Hant": "研究方法",
+          "ja": "方法論",
+          "ko": "방법론",
+          "vi": "phương pháp luận",
+          "ar": "المنهجية",
+          "fa": "روش‌شناسی",
+          "ur": "طریقہ کار",
+          "am": "ዘዴ (ሜቶዶሎጂ)",
+          "ml": "രീതിശാസ്ത്രം",
+          "ta": "முறையியல்",
+          "tl": "metodolohiya",
+          "ps": "میتودولوژي",
+          "ro": "metodologie",
+          "ru": "методология",
+          "fr": "méthodologie",
+          "hi": "पद्धति",
+          "es": "metodología"
+         }
         },
         {
          "word": "significance",
@@ -138911,7 +139367,26 @@
          "root": "sign",
          "meaning": "How important something is, and why it matters.",
          "example": "Explain the significance of the 1967 referendum.",
-         "translations": {}
+         "translations": {
+          "zh-Hans": "重要性",
+          "zh-Hant": "重要性",
+          "ja": "重要性",
+          "ko": "중요성",
+          "vi": "ý nghĩa (tầm quan trọng)",
+          "ar": "الأهمية",
+          "fa": "اهمیت",
+          "ur": "اہمیت",
+          "am": "ጠቀሜታ",
+          "ml": "പ്രാധാന്യം",
+          "ta": "முக்கியத்துவம்",
+          "tl": "kahalagahan",
+          "ps": "اهمیت",
+          "ro": "semnificație",
+          "ru": "значимость",
+          "fr": "importance",
+          "hi": "महत्व",
+          "es": "importancia"
+         }
         },
         {
          "word": "inference",
@@ -138995,7 +139470,26 @@
          "root": "fer",
          "meaning": "A conclusion you reach from clues rather than from a direct statement.",
          "example": "Make an inference about the writer's attitude.",
-         "translations": {}
+         "translations": {
+          "zh-Hans": "推论",
+          "zh-Hant": "推論",
+          "ja": "推論",
+          "ko": "추론",
+          "vi": "sự suy luận",
+          "ar": "الاستنتاج",
+          "fa": "استنتاج",
+          "ur": "اخذ کردہ نتیجہ",
+          "am": "ግምት (ድምዳሜ)",
+          "ml": "അനുമാനം",
+          "ta": "அனுமானம்",
+          "tl": "konklusyon (inference)",
+          "ps": "پایله اخیستنه",
+          "ro": "deducție",
+          "ru": "умозаключение",
+          "fr": "inférence",
+          "hi": "अनुमान",
+          "es": "inferencia"
+         }
         },
         {
          "word": "context",
@@ -139055,7 +139549,26 @@
          "root": "text",
          "meaning": "The situation around something, which helps explain it.",
          "example": "Read the quotation in the context of the whole speech.",
-         "translations": {}
+         "translations": {
+          "zh-Hans": "语境",
+          "zh-Hant": "語境",
+          "ja": "文脈",
+          "ko": "맥락",
+          "vi": "bối cảnh",
+          "ar": "السياق",
+          "fa": "زمینه (متن)",
+          "ur": "سیاق و سباق",
+          "am": "አውድ",
+          "ml": "സന്ദർഭം",
+          "ta": "சூழல்",
+          "tl": "konteksto",
+          "ps": "شرایط",
+          "ro": "context",
+          "ru": "контекст",
+          "fr": "contexte",
+          "hi": "संदर्भ",
+          "es": "contexto"
+         }
         },
         {
          "word": "constraint",
@@ -139096,7 +139609,26 @@
          "root": "strain",
          "meaning": "A limit on what you can do.",
          "example": "Time was the biggest constraint on the project.",
-         "translations": {}
+         "translations": {
+          "zh-Hans": "限制",
+          "zh-Hant": "限制",
+          "ja": "制約",
+          "ko": "제약",
+          "vi": "ràng buộc (hạn chế)",
+          "ar": "القيد",
+          "fa": "محدودیت",
+          "ur": "پابندی (رکاوٹ)",
+          "am": "ገደብ",
+          "ml": "പരിമിതി",
+          "ta": "கட்டுப்பாடு",
+          "tl": "hadlang (limitasyon)",
+          "ps": "محدودیت",
+          "ro": "constrângere",
+          "ru": "ограничение",
+          "fr": "contrainte",
+          "hi": "बाधा",
+          "es": "restricción"
+         }
         },
         {
          "word": "parameter",
@@ -139155,7 +139687,26 @@
          "root": "meter",
          "meaning": "A fixed limit or setting within which something works.",
          "example": "The task set clear parameters for the design.",
-         "translations": {}
+         "translations": {
+          "zh-Hans": "参数",
+          "zh-Hant": "參數",
+          "ja": "パラメーター（変数条件）",
+          "ko": "매개변수",
+          "vi": "tham số",
+          "ar": "المعطى (المتغير المحدد)",
+          "fa": "پارامتر",
+          "ur": "پیرامیٹر",
+          "am": "መጠን (ገደብ)",
+          "ml": "പരാമീറ്റർ",
+          "ta": "அளவுரு",
+          "tl": "parametro",
+          "ps": "پارامتر",
+          "ro": "parametru",
+          "ru": "параметр",
+          "fr": "paramètre",
+          "hi": "पैरामीटर",
+          "es": "parámetro"
+         }
         },
         {
          "word": "rationale",
@@ -139214,7 +139765,26 @@
          "root": "rat",
          "meaning": "The reasons behind a decision or design.",
          "example": "Explain the rationale for your choice of materials.",
-         "translations": {}
+         "translations": {
+          "zh-Hans": "理由",
+          "zh-Hant": "理由",
+          "ja": "根拠",
+          "ko": "근거(이유)",
+          "vi": "lý do (căn cứ)",
+          "ar": "المبرر المنطقي",
+          "fa": "دلیل منطقی",
+          "ur": "منطقی جواز",
+          "am": "ምክንያታዊ ማብራሪያ",
+          "ml": "യുക്തിസഹമായ കാരണം",
+          "ta": "நியாயம்",
+          "tl": "katwiran",
+          "ps": "منطقي دلیل",
+          "ro": "raționament",
+          "ru": "обоснование",
+          "fr": "raisonnement (justification)",
+          "hi": "औचित्य",
+          "es": "razonamiento (justificación)"
+         }
         },
         {
          "word": "consensus",
@@ -139274,7 +139844,26 @@
          "root": "sens",
          "meaning": "General agreement among a group.",
          "example": "There is scientific consensus that the climate is warming.",
-         "translations": {}
+         "translations": {
+          "zh-Hans": "共识",
+          "zh-Hant": "共識",
+          "ja": "合意",
+          "ko": "합의(공감대)",
+          "vi": "sự đồng thuận",
+          "ar": "الإجماع",
+          "fa": "اجماع",
+          "ur": "اتفاق رائے",
+          "am": "የጋራ ስምምነት",
+          "ml": "പൊതു അഭിപ്രായം",
+          "ta": "பொது ஒப்பந்தம்",
+          "tl": "kasunduan (konsensus)",
+          "ps": "عمومي توافق",
+          "ro": "consens",
+          "ru": "консенсус",
+          "fr": "consensus",
+          "hi": "सर्वसम्मति",
+          "es": "consenso"
+         }
         }
        ],
        "path": "vce/command-terms/academic-nouns"
@@ -139323,7 +139912,26 @@
          "root": "stitu",
          "meaning": "Make up or form something.",
          "example": "Women constitute 51 per cent of the population.",
-         "translations": {}
+         "translations": {
+          "zh-Hans": "构成",
+          "zh-Hant": "構成",
+          "ja": "構成する",
+          "ko": "구성하다",
+          "vi": "cấu thành",
+          "ar": "يشكّل",
+          "fa": "تشکیل دادن",
+          "ur": "تشکیل دینا",
+          "am": "መመስረት (ማካተት)",
+          "ml": "രൂപീകരിക്കുക",
+          "ta": "அமைகிறது",
+          "tl": "bumuo",
+          "ps": "جوړول",
+          "ro": "a constitui",
+          "ru": "составлять",
+          "fr": "constituer",
+          "hi": "गठित करना",
+          "es": "constituir"
+         }
         },
         {
          "word": "comprise",
@@ -139383,7 +139991,26 @@
          "root": "pris",
          "meaning": "Be made up of; consist of.",
          "example": "The parliament comprises two houses.",
-         "translations": {}
+         "translations": {
+          "zh-Hans": "包括",
+          "zh-Hant": "包括",
+          "ja": "含む（構成される）",
+          "ko": "포함하다(구성되다)",
+          "vi": "bao gồm",
+          "ar": "يتألف من",
+          "fa": "شامل شدن",
+          "ur": "پر مشتمل ہونا",
+          "am": "ማካተት",
+          "ml": "ഉൾക്കൊള്ളുക",
+          "ta": "உள்ளடக்கியது",
+          "tl": "binubuo ng",
+          "ps": "لري (جوړ دی)",
+          "ro": "a cuprinde",
+          "ru": "включать в себя",
+          "fr": "comprendre (être composé de)",
+          "hi": "समाहित करना",
+          "es": "comprender (estar compuesto de)"
+         }
         },
         {
          "word": "derive",
@@ -139423,7 +140050,26 @@
          "root": "riv",
          "meaning": "Get or come from a source.",
          "example": "The word derives from Latin.",
-         "translations": {}
+         "translations": {
+          "zh-Hans": "源自",
+          "zh-Hant": "源自",
+          "ja": "由来する",
+          "ko": "유래하다",
+          "vi": "bắt nguồn từ",
+          "ar": "يشتق من",
+          "fa": "مشتق شدن از",
+          "ur": "اخذ کرنا",
+          "am": "ከ... መገኘት",
+          "ml": "ഉരുത്തിരിഞ്ഞുവരുക",
+          "ta": "பெறப்படுகிறது",
+          "tl": "manggaling",
+          "ps": "اخیستل کیدل",
+          "ro": "a deriva",
+          "ru": "происходить (от)",
+          "fr": "dériver",
+          "hi": "व्युत्पन्न होना",
+          "es": "derivar"
+         }
         },
         {
          "word": "undermine",
@@ -139444,7 +140090,26 @@
          "root": "mine",
          "meaning": "Weaken something gradually.",
          "example": "The scandal undermined public trust in the company.",
-         "translations": {}
+         "translations": {
+          "zh-Hans": "削弱",
+          "zh-Hant": "削弱",
+          "ja": "弱体化させる",
+          "ko": "약화시키다",
+          "vi": "làm suy yếu",
+          "ar": "يقوّض",
+          "fa": "تضعیف کردن",
+          "ur": "کمزور کرنا",
+          "am": "ማዳከም",
+          "ml": "ദുർബലപ്പെടുത്തുക",
+          "ta": "பலவீனப்படுத்து",
+          "tl": "manghina (pahinain)",
+          "ps": "کمزورول",
+          "ro": "a submina",
+          "ru": "подрывать",
+          "fr": "saper (affaiblir)",
+          "hi": "कमज़ोर करना",
+          "es": "socavar"
+         }
         },
         {
          "word": "facilitate",
@@ -139484,7 +140149,26 @@
          "root": "facil",
          "meaning": "Make something easier to happen.",
          "example": "Good roads facilitate trade between regions.",
-         "translations": {}
+         "translations": {
+          "zh-Hans": "促进",
+          "zh-Hant": "促進",
+          "ja": "促進する",
+          "ko": "촉진하다",
+          "vi": "tạo điều kiện thuận lợi",
+          "ar": "يُسهّل",
+          "fa": "تسهیل کردن",
+          "ur": "آسان بنانا",
+          "am": "ማመቻቸት",
+          "ml": "സഹായകമാക്കുക",
+          "ta": "எளிதாக்கு",
+          "tl": "padaliin",
+          "ps": "اسانه کول",
+          "ro": "a facilita",
+          "ru": "способствовать",
+          "fr": "faciliter",
+          "hi": "सुगम बनाना",
+          "es": "facilitar"
+         }
         },
         {
          "word": "mitigate",
@@ -139524,7 +140208,26 @@
          "root": "miti",
          "meaning": "Make something bad less severe.",
          "example": "Planting trees can mitigate the effects of heat.",
-         "translations": {}
+         "translations": {
+          "zh-Hans": "减轻",
+          "zh-Hant": "減輕",
+          "ja": "軽減する",
+          "ko": "완화하다",
+          "vi": "giảm nhẹ",
+          "ar": "يخفف من",
+          "fa": "کاهش دادن (تعدیل کردن)",
+          "ur": "کم کرنا (تخفیف کرنا)",
+          "am": "ማቅለል",
+          "ml": "ലഘൂകരിക്കുക",
+          "ta": "தணிக்க",
+          "tl": "pagaanin",
+          "ps": "کمول",
+          "ro": "a atenua",
+          "ru": "смягчать",
+          "fr": "atténuer",
+          "hi": "कम करना",
+          "es": "mitigar"
+         }
         },
         {
          "word": "exacerbate",
@@ -139590,7 +140293,26 @@
          "root": "acerb",
          "meaning": "Make a bad situation worse.",
          "example": "The drought exacerbated food shortages.",
-         "translations": {}
+         "translations": {
+          "zh-Hans": "加剧",
+          "zh-Hant": "加劇",
+          "ja": "悪化させる",
+          "ko": "악화시키다",
+          "vi": "làm trầm trọng thêm",
+          "ar": "يفاقم",
+          "fa": "تشدید کردن",
+          "ur": "بگاڑنا (شدت دینا)",
+          "am": "ማባባስ",
+          "ml": "വഷളാക്കുക",
+          "ta": "மோசமாக்கு",
+          "tl": "palalain",
+          "ps": "خرابول",
+          "ro": "a agrava",
+          "ru": "усугублять",
+          "fr": "aggraver",
+          "hi": "और बिगाड़ना",
+          "es": "agravar"
+         }
         },
         {
          "word": "accommodate",
@@ -139701,7 +140423,26 @@
          "root": "mod",
          "meaning": "Make room for something, or change to fit someone's needs.",
          "example": "The design accommodates wheelchair users.",
-         "translations": {}
+         "translations": {
+          "zh-Hans": "容纳（顺应）",
+          "zh-Hant": "容納（順應）",
+          "ja": "対応する（受け入れる）",
+          "ko": "수용하다",
+          "vi": "đáp ứng (điều chỉnh cho phù hợp)",
+          "ar": "يستوعب (يلائم)",
+          "fa": "جای دادن (تطبیق دادن)",
+          "ur": "ایڈجسٹ کرنا (سمو لینا)",
+          "am": "ማስተናገድ (ማመቻቸት)",
+          "ml": "ഉൾക്കൊള്ളുക",
+          "ta": "இடமளி (ஏற்பாடு செய்)",
+          "tl": "akomodahin",
+          "ps": "ځای پرځای کول",
+          "ro": "a acomoda (adapta)",
+          "ru": "приспосабливать",
+          "fr": "accommoder (s'adapter à)",
+          "hi": "समायोजित करना",
+          "es": "acomodar (adaptar)"
+         }
         },
         {
          "word": "allocate",
@@ -139786,7 +140527,26 @@
          "root": "loc",
          "meaning": "Give out a share of something, such as money or time.",
          "example": "The government allocated $2 million to the program.",
-         "translations": {}
+         "translations": {
+          "zh-Hans": "分配",
+          "zh-Hant": "分配",
+          "ja": "割り当てる",
+          "ko": "할당하다",
+          "vi": "phân bổ",
+          "ar": "يخصّص",
+          "fa": "تخصیص دادن",
+          "ur": "مختص کرنا",
+          "am": "መመደብ",
+          "ml": "വകയിരുത്തുക",
+          "ta": "ஒதுக்கீடு செய்",
+          "tl": "ilaan",
+          "ps": "ځانګړي کول",
+          "ro": "a aloca",
+          "ru": "распределять",
+          "fr": "allouer",
+          "hi": "आवंटित करना",
+          "es": "asignar"
+         }
         },
         {
          "word": "attribute",
@@ -139846,7 +140606,26 @@
          "root": "tribut",
          "meaning": "Say what caused something, or who made it.",
          "example": "The scientists attribute the rise to human activity.",
-         "translations": {}
+         "translations": {
+          "zh-Hans": "归因于",
+          "zh-Hant": "歸因於",
+          "ja": "〜のせいにする（帰する）",
+          "ko": "~탓으로 돌리다(귀속시키다)",
+          "vi": "quy cho (nguyên nhân)",
+          "ar": "يعزو إلى",
+          "fa": "نسبت دادن",
+          "ur": "منسوب کرنا",
+          "am": "ምክንያት አድርጎ መቁጠር",
+          "ml": "ആരോപിക്കുക",
+          "ta": "காரணம் என்று கூறு",
+          "tl": "iugnay (ituring na sanhi)",
+          "ps": "منسوب کول",
+          "ro": "a atribui",
+          "ru": "приписывать",
+          "fr": "attribuer",
+          "hi": "श्रेय देना (कारण मानना)",
+          "es": "atribuir"
+         }
         },
         {
          "word": "conform",
@@ -139906,7 +140685,26 @@
          "root": "form",
          "meaning": "Follow a rule, standard or expected pattern.",
          "example": "The building must conform to safety standards.",
-         "translations": {}
+         "translations": {
+          "zh-Hans": "符合",
+          "zh-Hant": "符合",
+          "ja": "従う（適合する）",
+          "ko": "따르다(부합하다)",
+          "vi": "tuân thủ (phù hợp)",
+          "ar": "يتوافق مع",
+          "fa": "مطابقت داشتن",
+          "ur": "مطابقت کرنا",
+          "am": "ተስማምቶ መገኘት",
+          "ml": "അനുസരിക്കുക",
+          "ta": "இணங்கு",
+          "tl": "sumunod (umayon)",
+          "ps": "سمون لرل",
+          "ro": "a se conforma",
+          "ru": "соответствовать",
+          "fr": "se conformer",
+          "hi": "अनुरूप होना",
+          "es": "ajustarse (cumplir con)"
+         }
         },
         {
          "word": "correspond",
@@ -139947,7 +140745,26 @@
          "root": "spond",
          "meaning": "Match or be equal to something else.",
          "example": "Each number corresponds to a name on the list.",
-         "translations": {}
+         "translations": {
+          "zh-Hans": "相符（对应）",
+          "zh-Hant": "相符（對應）",
+          "ja": "対応する",
+          "ko": "일치하다(대응하다)",
+          "vi": "tương ứng",
+          "ar": "يتوافق (يقابل)",
+          "fa": "مطابقت داشتن (متناظر بودن)",
+          "ur": "مطابقت رکھنا",
+          "am": "የሚዛመድ መሆን",
+          "ml": "പൊരുത്തപ്പെടുക",
+          "ta": "பொருந்து (இணைவாக இரு)",
+          "tl": "tumugma",
+          "ps": "سمون درلودل",
+          "ro": "a corespunde",
+          "ru": "соответствовать",
+          "fr": "correspondre",
+          "hi": "मेल खाना",
+          "es": "corresponder"
+         }
         },
         {
          "word": "denote",
@@ -140006,7 +140823,26 @@
          "root": "not",
          "meaning": "Be a sign for; mean.",
          "example": "In this graph, the dotted line denotes the average.",
-         "translations": {}
+         "translations": {
+          "zh-Hans": "表示",
+          "zh-Hant": "表示",
+          "ja": "示す（表す）",
+          "ko": "나타내다(표시하다)",
+          "vi": "biểu thị",
+          "ar": "يدل على",
+          "fa": "دلالت کردن بر",
+          "ur": "ظاہر کرنا",
+          "am": "መወከል (ማመልከት)",
+          "ml": "സൂചിപ്പിക്കുക",
+          "ta": "குறிக்கிறது",
+          "tl": "kumatawan sa (magpahiwatig)",
+          "ps": "ښودل",
+          "ro": "a desemna",
+          "ru": "обозначать",
+          "fr": "désigner (indiquer)",
+          "hi": "द्योतित करना",
+          "es": "denotar"
+         }
         },
         {
          "word": "encompass",
@@ -140072,7 +140908,26 @@
          "root": "pass",
          "meaning": "Include a wide range of things.",
          "example": "The course encompasses both theory and practice.",
-         "translations": {}
+         "translations": {
+          "zh-Hans": "涵盖",
+          "zh-Hant": "涵蓋",
+          "ja": "包含する",
+          "ko": "포괄하다",
+          "vi": "bao trùm",
+          "ar": "يشمل",
+          "fa": "دربرگرفتن",
+          "ur": "احاطہ کرنا",
+          "am": "ማካተት (መያዝ)",
+          "ml": "ഉൾക്കൊള്ളുക",
+          "ta": "உள்ளடக்கு",
+          "tl": "saklawin",
+          "ps": "شاملول",
+          "ro": "a cuprinde",
+          "ru": "охватывать",
+          "fr": "englober",
+          "hi": "समाविष्ट करना",
+          "es": "abarcar"
+         }
         },
         {
          "word": "underpin",
@@ -140093,7 +140948,26 @@
          "root": "pin",
          "meaning": "Support something from below; be the base of an idea.",
          "example": "These values underpin the whole legal system.",
-         "translations": {}
+         "translations": {
+          "zh-Hans": "支撑（作为基础）",
+          "zh-Hant": "支撐（作為基礎）",
+          "ja": "根底で支える",
+          "ko": "뒷받침하다(기초가 되다)",
+          "vi": "làm nền tảng cho",
+          "ar": "يدعم (يشكل الأساس لـ)",
+          "fa": "زیربنای چیزی بودن",
+          "ur": "بنیاد فراہم کرنا",
+          "am": "መሰረት መሆን",
+          "ml": "അടിസ്ഥാനമായി വർത്തിക്കുക",
+          "ta": "அடிப்படையாக இரு",
+          "tl": "maging batayan ng",
+          "ps": "بنسټ ورکول",
+          "ro": "a sta la baza",
+          "ru": "лежать в основе",
+          "fr": "sous-tendre",
+          "hi": "आधार प्रदान करना",
+          "es": "sustentar (servir de base)"
+         }
         }
        ],
        "path": "vce/command-terms/academic-verbs"
