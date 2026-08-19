@@ -270,13 +270,22 @@ function senseIndex() {
   const dict = (DATA && DATA.morpheme_dictionary) || {};
   const claims = new Map();      // raw key -> Set of senses that answer to it
   for (const [key, entry] of Object.entries(dict)) {
-    const surf = (entry.surface || '').trim().toLowerCase();
+    // Every spelling the sense wears claims its wordings: the im- of
+    // "immigration" and the ir- of "irrigation" are the in- entry in
+    // assimilated dress, and must resolve to it just as "in" does.
+    const surfs = (entry.variants && entry.variants.length ? entry.variants : [entry.surface])
+      .map((v) => (v || '').trim().toLowerCase()).filter(Boolean);
+    if (!surfs.includes((entry.surface || '').trim().toLowerCase())) {
+      surfs.push((entry.surface || '').trim().toLowerCase());
+    }
     for (const g of [entry.gloss, ...(entry.aka || [])]) {
       const nm = normMeaning(g);
       if (!nm) continue;
-      const raw = `${surf}|${nm}`;
-      if (!claims.has(raw)) claims.set(raw, new Set());
-      claims.get(raw).add(key);
+      for (const surf of surfs) {
+        const raw = `${surf}|${nm}`;
+        if (!claims.has(raw)) claims.set(raw, new Set());
+        claims.get(raw).add(key);
+      }
     }
   }
   const idx = new Map();

@@ -254142,6 +254142,1569 @@
         }
        ],
        "path": "year-7/english/narrative"
+      },
+      {
+       "id": "bone-sparrow",
+       "name": "The Bone Sparrow",
+       "interactive": true,
+       "words": [
+        {
+         "word": "immigration",
+         "parts": [
+          {
+           "surface": "im",
+           "type": "prefix",
+           "meaning": "into",
+           "translations": {
+            "am": "ወደ",
+            "ar": "نحو",
+            "es": "hacia",
+            "fa": "سمت",
+            "fr": "vers",
+            "hi": "ओर",
+            "ja": "へ",
+            "ko": "향해",
+            "ml": "നേരെ",
+            "ps": "طرف ته",
+            "ro": "spre",
+            "ru": "к",
+            "ta": "நோக்கி",
+            "tl": "patungo",
+            "ur": "طرف",
+            "vi": "hướng",
+            "zh-Hans": "向",
+            "zh-Hant": "向",
+            "other": "نه"
+           }
+          },
+          {
+           "surface": "migr",
+           "type": "root",
+           "meaning": "move/travel",
+           "translations": {
+            "am": "መፍለስ / መንቀሳቀስ",
+            "ar": "يهاجر / ينتقل",
+            "es": "moverse",
+            "fa": "مهاجرت / جابه‌جایی",
+            "fr": "migrer",
+            "hi": "प्रवास / स्थानांतरण",
+            "ja": "移動する",
+            "ko": "이동하다",
+            "ml": "കുടിയേറ്റം / നീങ്ങുക",
+            "ps": "کډه / لېږدېدل",
+            "ro": "a migra",
+            "ru": "мигрировать / перемещаться",
+            "ta": "இடம்பெயர்தல்",
+            "tl": "lumipat / mandayuhan",
+            "ur": "نقل مکانی / منتقل ہونا",
+            "vi": "di chuyển",
+            "zh-Hans": "迁移",
+            "zh-Hant": "遷移"
+           }
+          },
+          {
+           "surface": "ation",
+           "type": "suffix",
+           "meaning": "process of",
+           "translations": {
+            "am": "ሂደት",
+            "ar": "عملية",
+            "es": "proceso de",
+            "fa": "فرآیند",
+            "fr": "processus",
+            "hi": "प्रक्रिया",
+            "ja": "過程",
+            "ko": "과정",
+            "ml": "പ്രക്രിയ",
+            "ps": "پروسه",
+            "ro": "proces",
+            "ru": "процесс",
+            "ta": "செயல்முறை",
+            "tl": "proseso",
+            "ur": "عمل",
+            "vi": "quá trình",
+            "zh-Hans": "过程",
+            "zh-Hant": "過程"
+           }
+          }
+         ],
+         "root": "migr",
+         "meaning": "The process of coming to live permanently in a foreign country.",
+         "example": "Immigration meant a new country, a new language, and a camp called home.",
+         "translations": {
+          "zh-Hans": "移民",
+          "zh-Hant": "移民",
+          "ja": "移民",
+          "ko": "이민",
+          "vi": "nhập cư",
+          "ar": "الهجرة",
+          "fa": "مهاجرت",
+          "ur": "امیگریشن",
+          "am": "ፍልሰት",
+          "ml": "കുടിയേറ്റം",
+          "ta": "குடியேற்றம்",
+          "tl": "imigrasyon",
+          "ps": "مهاجرت",
+          "ro": "imigrație",
+          "ru": "иммиграция",
+          "fr": "immigration",
+          "hi": "आप्रवासन",
+          "es": "inmigración"
+         },
+         "origin": "Latin im- (into) + migrare (to move). Watch the twin: e-migration is moving OUT of a country."
+        },
+        {
+         "word": "refugee",
+         "parts": [
+          {
+           "surface": "re",
+           "type": "prefix",
+           "meaning": "back",
+           "translations": {
+            "am": "ወደኋላ",
+            "ar": "إلى الخلف",
+            "es": "atrás",
+            "fa": "دوباره",
+            "fr": "arrière",
+            "hi": "पीछे",
+            "ja": "後ろ",
+            "ko": "뒤로",
+            "ml": "പിന്നിൽ",
+            "ps": "شاته",
+            "ro": "înapoi",
+            "ru": "назад",
+            "ta": "பின்னால்",
+            "tl": "pabalik",
+            "ur": "پیچھے",
+            "vi": "lùi",
+            "zh-Hans": "回",
+            "zh-Hant": "回"
+           }
+          },
+          {
+           "surface": "fug",
+           "type": "root",
+           "meaning": "flee",
+           "translations": {
+            "zh-Hans": "逃",
+            "zh-Hant": "逃",
+            "ja": "逃げる",
+            "ko": "도망",
+            "vi": "chạy trốn",
+            "ar": "يهرب",
+            "fa": "گریختن",
+            "ur": "بھاگنا",
+            "am": "መሸሽ",
+            "ml": "ഓടിപ്പോകുക",
+            "ta": "ஓடு",
+            "tl": "tumakas",
+            "ps": "تښتېدل",
+            "ro": "a fugi",
+            "ru": "бежать",
+            "fr": "fuir",
+            "hi": "भागना",
+            "es": "huir"
+           }
+          },
+          {
+           "surface": "ee",
+           "type": "suffix",
+           "meaning": "person receiving the action",
+           "translations": {
+            "zh-Hans": "受事者",
+            "zh-Hant": "受事者",
+            "ja": "〜される人",
+            "ko": "받는 사람",
+            "vi": "người nhận",
+            "ar": "المتلقي",
+            "fa": "دریافت‌کننده",
+            "ur": "جس پر عمل ہو",
+            "am": "ተቀባይ",
+            "ml": "സ്വീകരിക്കുന്നയാൾ",
+            "ta": "பெறுபவர்",
+            "tl": "tumatanggap",
+            "ps": "ترلاسه کوونکی",
+            "ro": "persoana care primește",
+            "ru": "получатель действия",
+            "fr": "celui qui reçoit",
+            "hi": "जिस पर क्रिया हो",
+            "es": "quien recibe la acción"
+           }
+          }
+         ],
+         "root": "fug",
+         "meaning": "A person forced to leave their country to escape war, persecution, or disaster.",
+         "example": "Subhi was born a refugee, inside the detention centre.",
+         "translations": {
+          "zh-Hans": "难民",
+          "zh-Hant": "難民",
+          "ja": "難民",
+          "ko": "난민",
+          "vi": "người tị nạn",
+          "ar": "لاجئ",
+          "fa": "پناهنده",
+          "ur": "پناہ گزین",
+          "am": "ስደተኛ",
+          "ml": "അഭയാർഥി",
+          "ta": "அகதி",
+          "tl": "refugiyado",
+          "ps": "کډوال",
+          "ro": "refugiat",
+          "ru": "беженец",
+          "fr": "réfugié",
+          "hi": "शरणार्थी",
+          "es": "refugiado"
+         },
+         "origin": "From Latin refugium — to flee back to shelter. The suffix -ee marks the receiver (employee, trainee); the doer would be -er."
+        },
+        {
+         "word": "asylum seeker",
+         "parts": [
+          {
+           "surface": "asylum",
+           "type": "root",
+           "meaning": "place of safety",
+           "translations": {
+            "zh-Hans": "庇护所",
+            "zh-Hant": "庇護所",
+            "ja": "避難所",
+            "ko": "피난처",
+            "vi": "nơi trú ẩn an toàn",
+            "ar": "ملاذ آمن",
+            "fa": "پناهگاه",
+            "ur": "پناہ گاہ",
+            "am": "መጠጊያ",
+            "ml": "അഭയസ്ഥാനം",
+            "ta": "புகலிடம்",
+            "tl": "kanlungan",
+            "ps": "پناه ځای",
+            "ro": "loc de refugiu",
+            "ru": "убежище",
+            "fr": "refuge",
+            "hi": "शरण स्थल",
+            "es": "refugio"
+           }
+          },
+          {
+           "surface": "seek",
+           "type": "root",
+           "meaning": "search for",
+           "translations": {
+            "zh-Hans": "寻找",
+            "zh-Hant": "尋找",
+            "ja": "探す",
+            "ko": "찾다",
+            "vi": "tìm kiếm",
+            "ar": "يبحث عن",
+            "fa": "جستجو کردن",
+            "ur": "تلاش کرنا",
+            "am": "መፈለግ",
+            "ml": "തിരയുക",
+            "ta": "தேடு",
+            "tl": "hanapin",
+            "ps": "لټول",
+            "ro": "a căuta",
+            "ru": "искать",
+            "fr": "chercher",
+            "hi": "खोजना",
+            "es": "buscar"
+           }
+          },
+          {
+           "surface": "er",
+           "type": "suffix",
+           "meaning": "one who",
+           "translations": {
+            "vi": "người",
+            "am": "ሰው",
+            "ar": "شخص",
+            "es": "persona que",
+            "fa": "شخص",
+            "fr": "personne qui",
+            "hi": "व्यक्ति जो",
+            "ja": "~する人",
+            "ko": "~하는 사람",
+            "ml": "ആൾ",
+            "ps": "هغه څوک چې",
+            "ro": "persoană care",
+            "ru": "тот, кто",
+            "ta": "செய்பவர்",
+            "tl": "taong",
+            "ur": "کرنے والا",
+            "zh-Hans": "人",
+            "zh-Hant": "人"
+           }
+          }
+         ],
+         "root": "asylum",
+         "meaning": "A person seeking refuge whose claim for refugee status has not yet been assessed.",
+         "example": "Because their claims have not been assessed, the family are asylum seekers.",
+         "translations": {
+          "zh-Hans": "寻求庇护者",
+          "zh-Hant": "尋求庇護者",
+          "ja": "庇護希望者",
+          "ko": "망명 신청자",
+          "vi": "người xin tị nạn",
+          "ar": "طالب لجوء",
+          "fa": "پناهجو",
+          "ur": "پناہ کا متلاشی",
+          "am": "ጥገኝነት ጠያቂ",
+          "ml": "അഭയം തേടുന്നയാൾ",
+          "ta": "புகலிடம் கோருபவர்",
+          "tl": "naghahanap ng asylum",
+          "ps": "پناه غوښتونکی",
+          "ro": "solicitant de azil",
+          "ru": "проситель убежища",
+          "fr": "demandeur d'asile",
+          "hi": "शरण चाहने वाला",
+          "es": "solicitante de asilo"
+         },
+         "origin": "Greek ásylon — a place of safety beyond the law's reach. The key difference from refugee: an asylum seeker's claim is still waiting to be decided."
+        },
+        {
+         "word": "persecution",
+         "parts": [
+          {
+           "surface": "per",
+           "type": "prefix",
+           "meaning": "thoroughly",
+           "translations": {
+            "am": "ሙሉ በሙሉ",
+            "ar": "بالكامل",
+            "es": "completamente",
+            "fa": "کاملاً",
+            "fr": "entièrement / à fond",
+            "hi": "पूरी तरह से",
+            "ja": "完全に",
+            "ko": "철저히",
+            "ml": "പൂർണ്ണമായി",
+            "ps": "بشپړ",
+            "ro": "complet",
+            "ru": "тщательно",
+            "ta": "முழுமையாக",
+            "tl": "lubusan",
+            "ur": "مکمل طور پر",
+            "vi": "hoàn toàn",
+            "zh-Hans": "完全",
+            "zh-Hant": "完全"
+           }
+          },
+          {
+           "surface": "secut",
+           "type": "root",
+           "meaning": "follow/pursue",
+           "translations": {
+            "zh-Hans": "追随",
+            "zh-Hant": "追隨",
+            "ja": "追う",
+            "ko": "뒤쫓다",
+            "vi": "theo đuổi",
+            "ar": "يتبع",
+            "fa": "دنبال کردن",
+            "ur": "پیچھا کرنا",
+            "am": "መከተል",
+            "ml": "പിന്തുടരുക",
+            "ta": "பின்தொடர்",
+            "tl": "sundan",
+            "ps": "تعقيبول",
+            "ro": "a urmări",
+            "ru": "преследовать",
+            "fr": "suivre",
+            "hi": "पीछा करना",
+            "es": "perseguir"
+           }
+          },
+          {
+           "surface": "ion",
+           "type": "suffix",
+           "meaning": "act/process",
+           "translations": {
+            "fa": "فرایند/عمل",
+            "am": "ሂደት/ድርጊት",
+            "ar": "عملية/فعل",
+            "es": "proceso/acción",
+            "fr": "processus/action",
+            "hi": "प्रक्रिया/क्रिया",
+            "ja": "過程/作用",
+            "ko": "과정/작용",
+            "ml": "പ്രക്രിയ/പ്രവർത്തനം",
+            "ps": "بهیر/کړنه",
+            "ro": "proces/acțiune",
+            "ru": "процесс/действие",
+            "ta": "செயல்முறை/செயல்",
+            "tl": "proseso/kilos",
+            "ur": "عمل/فعل",
+            "vi": "quá trình/hành động",
+            "zh-Hans": "过程/动作",
+            "zh-Hant": "過程/動作"
+           }
+          }
+         ],
+         "root": "secut",
+         "meaning": "Hostility and ill-treatment, especially because of race, beliefs, or ethnicity.",
+         "example": "Maá fled Burma to escape the persecution of the Rohingya people.",
+         "translations": {
+          "zh-Hans": "迫害",
+          "zh-Hant": "迫害",
+          "ja": "迫害",
+          "ko": "박해",
+          "vi": "sự bức hại",
+          "ar": "اضطهاد",
+          "fa": "آزار و اذیت",
+          "ur": "ظلم و ستم",
+          "am": "ማሳደድ",
+          "ml": "പീഡനം",
+          "ta": "துன்புறுத்தல்",
+          "tl": "pag-uusig",
+          "ps": "ځورونه",
+          "ro": "persecuție",
+          "ru": "преследование",
+          "fr": "persécution",
+          "hi": "उत्पीड़न",
+          "es": "persecución"
+         },
+         "origin": "To pursue thoroughly and relentlessly. Its look-alike matters: pro-secution is taking someone to court."
+        },
+        {
+         "word": "inmate",
+         "parts": [
+          {
+           "surface": "in",
+           "type": "prefix",
+           "meaning": "in",
+           "translations": {
+            "am": "ወደ",
+            "ar": "نحو",
+            "es": "hacia",
+            "fa": "سمت",
+            "fr": "vers",
+            "hi": "ओर",
+            "ja": "へ",
+            "ko": "향해",
+            "ml": "നേരെ",
+            "ps": "طرف ته",
+            "ro": "spre",
+            "ru": "к",
+            "ta": "நோக்கி",
+            "tl": "patungo",
+            "ur": "طرف",
+            "vi": "hướng",
+            "zh-Hans": "向",
+            "zh-Hant": "向",
+            "other": "نه"
+           }
+          },
+          {
+           "surface": "mate",
+           "type": "root",
+           "meaning": "companion",
+           "translations": {
+            "zh-Hans": "同伴",
+            "zh-Hant": "同伴",
+            "ja": "仲間",
+            "ko": "동료",
+            "vi": "bạn đồng hành",
+            "ar": "رفيق",
+            "fa": "همراه",
+            "ur": "ساتھی",
+            "am": "ጓደኛ",
+            "ml": "കൂട്ടാളി",
+            "ta": "தோழர்",
+            "tl": "kasama",
+            "ps": "ملگری",
+            "ro": "tovarăș",
+            "ru": "товарищ",
+            "fr": "compagnon",
+            "hi": "साथी",
+            "es": "compañero"
+           }
+          }
+         ],
+         "root": "mate",
+         "meaning": "A person confined to an institution such as a prison or detention centre.",
+         "example": "Every inmate is called by a number instead of a name.",
+         "translations": {
+          "zh-Hans": "被拘留者",
+          "zh-Hant": "收容人",
+          "ja": "収容者",
+          "ko": "수감자",
+          "vi": "người bị giam",
+          "ar": "نزيل",
+          "fa": "زندانی",
+          "ur": "قیدی",
+          "am": "እስረኛ",
+          "ml": "തടവുകാരൻ",
+          "ta": "கைதி",
+          "tl": "bilanggo",
+          "ps": "بندي",
+          "ro": "deținut",
+          "ru": "заключённый",
+          "fr": "détenu",
+          "hi": "बंदी",
+          "es": "recluso"
+         },
+         "origin": "Originally 'one who shares a house' — the same mate as roommate and classmate. Don't confuse with intimate."
+        },
+        {
+         "word": "incarceration",
+         "parts": [
+          {
+           "surface": "in",
+           "type": "prefix",
+           "meaning": "into",
+           "translations": {
+            "am": "ወደ",
+            "ar": "نحو",
+            "es": "hacia",
+            "fa": "سمت",
+            "fr": "vers",
+            "hi": "ओर",
+            "ja": "へ",
+            "ko": "향해",
+            "ml": "നേരെ",
+            "ps": "طرف ته",
+            "ro": "spre",
+            "ru": "к",
+            "ta": "நோக்கி",
+            "tl": "patungo",
+            "ur": "طرف",
+            "vi": "hướng",
+            "zh-Hans": "向",
+            "zh-Hant": "向",
+            "other": "نه"
+           }
+          },
+          {
+           "surface": "carcer",
+           "type": "root",
+           "meaning": "prison",
+           "translations": {
+            "zh-Hans": "监狱",
+            "zh-Hant": "監獄",
+            "ja": "牢獄",
+            "ko": "감옥",
+            "vi": "nhà tù",
+            "ar": "سجن",
+            "fa": "زندان",
+            "ur": "قید خانہ",
+            "am": "እስር ቤት",
+            "ml": "ജയിൽ",
+            "ta": "சிறை",
+            "tl": "bilangguan",
+            "ps": "زندان",
+            "ro": "închisoare",
+            "ru": "тюрьма",
+            "fr": "prison",
+            "hi": "जेल",
+            "es": "cárcel"
+           }
+          },
+          {
+           "surface": "ation",
+           "type": "suffix",
+           "meaning": "process of",
+           "translations": {
+            "am": "ሂደት",
+            "ar": "عملية",
+            "es": "proceso de",
+            "fa": "فرآیند",
+            "fr": "processus",
+            "hi": "प्रक्रिया",
+            "ja": "過程",
+            "ko": "과정",
+            "ml": "പ്രക്രിയ",
+            "ps": "پروسه",
+            "ro": "proces",
+            "ru": "процесс",
+            "ta": "செயல்முறை",
+            "tl": "proseso",
+            "ur": "عمل",
+            "vi": "quá trình",
+            "zh-Hans": "过程",
+            "zh-Hant": "過程"
+           }
+          }
+         ],
+         "root": "carcer",
+         "meaning": "The state of being imprisoned or confined.",
+         "example": "Years of incarceration have worn Queeny's hope away.",
+         "translations": {
+          "zh-Hans": "监禁",
+          "zh-Hant": "監禁",
+          "ja": "収監",
+          "ko": "수감",
+          "vi": "sự giam giữ",
+          "ar": "الحبس",
+          "fa": "حبس",
+          "ur": "قید",
+          "am": "እስራት",
+          "ml": "തടവ്",
+          "ta": "சிறைவைப்பு",
+          "tl": "pagkakakulong",
+          "ps": "بندي کول",
+          "ro": "încarcerare",
+          "ru": "заключение",
+          "fr": "incarcération",
+          "hi": "क़ैद",
+          "es": "encarcelamiento"
+         },
+         "origin": "Latin carcer = prison. The classic mix-ups are incineration (burning — ciner, ash) and incarnation (taking bodily form — carn, flesh)."
+        },
+        {
+         "word": "bureaucracy",
+         "parts": [
+          {
+           "surface": "bureau",
+           "type": "root",
+           "meaning": "office",
+           "translations": {}
+          },
+          {
+           "surface": "cracy",
+           "type": "suffix",
+           "meaning": "rule by",
+           "translations": {
+            "am": "አገዛዝ",
+            "ar": "حكم",
+            "es": "gobierno de",
+            "fa": "حکومت",
+            "fr": "pouvoir",
+            "hi": "शासन",
+            "ja": "支配",
+            "ko": "통치",
+            "ml": "ഭരണം",
+            "ps": "واکمنۍ",
+            "ro": "guvernare",
+            "ru": "правление",
+            "ta": "ஆட்சி",
+            "tl": "pamamahala",
+            "ur": "حکومت",
+            "vi": "sự cai trị",
+            "zh-Hans": "统治",
+            "zh-Hant": "統治"
+           }
+          }
+         ],
+         "root": "bureau",
+         "meaning": "Administration through many complex rules and processes — often slow and frustrating.",
+         "example": "The bureaucracy loses forms faster than the family can fill them in.",
+         "translations": {
+          "zh-Hans": "官僚作风",
+          "zh-Hant": "官僚體系",
+          "ja": "官僚主義",
+          "ko": "관료주의",
+          "vi": "bộ máy quan liêu",
+          "ar": "بيروقراطية",
+          "fa": "بوروکراسی",
+          "ur": "دفتر شاہی",
+          "am": "ቢሮክራሲ",
+          "ml": "ബ്യൂറോക്രസി",
+          "ta": "அதிகாரத்துவம்",
+          "tl": "burukrasya",
+          "ps": "بيروکراسي",
+          "ro": "birocrație",
+          "ru": "бюрократия",
+          "fr": "bureaucratie",
+          "hi": "नौकरशाही",
+          "es": "burocracia"
+         },
+         "origin": "Rule by desks and paperwork: bureau (office) + -cracy (rule) — the same -cracy as democracy, rule by the people."
+        },
+        {
+         "word": "detention",
+         "parts": [
+          {
+           "surface": "de",
+           "type": "prefix",
+           "meaning": "down/away",
+           "translations": {
+            "am": "ወደ ታች",
+            "ar": "أسفل",
+            "es": "abajo/lejos",
+            "fa": "پایین",
+            "fr": "vers le bas",
+            "hi": "नीचे",
+            "ja": "下方へ",
+            "ko": "아래로",
+            "ml": "താഴേക്ക്",
+            "ps": "ښکته / لرې",
+            "ro": "în jos",
+            "ru": "вниз",
+            "ta": "கீழே",
+            "tl": "pababa",
+            "ur": "نیچے",
+            "vi": "giảm/ra khỏi",
+            "zh-Hans": "向下；去除",
+            "zh-Hant": "向下；去除"
+           }
+          },
+          {
+           "surface": "ten",
+           "type": "root",
+           "meaning": "hold",
+           "translations": {
+            "am": "መቀጠል",
+            "ar": "استمرار",
+            "es": "sostener / continuar",
+            "fa": "ادامه",
+            "fr": "continuer",
+            "hi": "जारी रहना",
+            "ja": "継続",
+            "ko": "지속",
+            "ml": "തുടരുക",
+            "ps": "دوام",
+            "ro": "continuare",
+            "ru": "продолжение",
+            "ta": "தொடர்ச்சி",
+            "tl": "magpatuloy",
+            "ur": "تسلسل",
+            "vi": "tiếp tục",
+            "zh-Hans": "持续",
+            "zh-Hant": "持續"
+           }
+          },
+          {
+           "surface": "tion",
+           "type": "suffix",
+           "meaning": "act/process",
+           "translations": {
+            "am": "ተግባር",
+            "ar": "فعل",
+            "es": "acción de",
+            "fa": "عمل",
+            "fr": "action de",
+            "hi": "क्रिया",
+            "ja": "〜すること",
+            "ko": "행위",
+            "ml": "പ്രവൃത്തി",
+            "ps": "عمل",
+            "ro": "acțiune de",
+            "ru": "действие",
+            "ta": "செயல்",
+            "tl": "kilos ng",
+            "ur": "عمل",
+            "vi": "hành động",
+            "zh-Hans": "行为",
+            "zh-Hant": "行為"
+           }
+          }
+         ],
+         "root": "ten",
+         "meaning": "Being held back and confined — for asylum seekers, often in off-shore centres while claims are processed.",
+         "example": "Subhi has spent his whole life in detention.",
+         "translations": {
+          "zh-Hans": "拘留",
+          "zh-Hant": "拘留",
+          "ja": "収容",
+          "ko": "구금",
+          "vi": "sự tạm giữ",
+          "ar": "احتجاز",
+          "fa": "بازداشت",
+          "ur": "حراست",
+          "am": "መታሰር",
+          "ml": "തടങ്കൽ",
+          "ta": "தடுப்புக்காவல்",
+          "tl": "detensyon",
+          "ps": "توقيف",
+          "ro": "detenție",
+          "ru": "содержание под стражей",
+          "fr": "détention",
+          "hi": "हिरासत",
+          "es": "detención"
+         },
+         "origin": "Latin de- + tenere, to hold back. In Australia, off-shore detention holds asylum seekers in centres outside the mainland, like Nauru, while claims are processed."
+        },
+        {
+         "word": "trauma",
+         "parts": [
+          {
+           "surface": "trauma",
+           "type": "root",
+           "meaning": "wound",
+           "translations": {
+            "zh-Hans": "伤口",
+            "zh-Hant": "傷口",
+            "ja": "傷",
+            "ko": "상처",
+            "vi": "vết thương",
+            "ar": "جرح",
+            "fa": "زخم",
+            "ur": "زخم",
+            "am": "ቁስል",
+            "ml": "മുറിവ്",
+            "ta": "காயம்",
+            "tl": "sugat",
+            "ps": "ټپ",
+            "ro": "rană",
+            "ru": "рана",
+            "fr": "blessure",
+            "hi": "घाव",
+            "es": "herida"
+           }
+          }
+         ],
+         "root": "trauma",
+         "meaning": "A deeply distressing experience, or the lasting psychological harm it causes.",
+         "example": "Some of the trauma the adults carry has no visible scars.",
+         "translations": {
+          "zh-Hans": "创伤",
+          "zh-Hant": "創傷",
+          "ja": "トラウマ",
+          "ko": "트라우마",
+          "vi": "chấn thương tâm lý",
+          "ar": "صدمة",
+          "fa": "تروما",
+          "ur": "صدمہ",
+          "am": "ሥነ ልቦናዊ ጉዳት",
+          "ml": "മാനസികാഘാതം",
+          "ta": "மன அதிர்ச்சி",
+          "tl": "trauma",
+          "ps": "رواني صدمه",
+          "ro": "traumă",
+          "ru": "травма",
+          "fr": "traumatisme",
+          "hi": "मानसिक आघात",
+          "es": "trauma"
+         },
+         "origin": "The ancient Greek word for wound. It first meant physical injuries, then grew to cover the wounds you can't see."
+        },
+        {
+         "word": "identification",
+         "parts": [
+          {
+           "surface": "ident",
+           "type": "root",
+           "meaning": "same",
+           "translations": {
+            "am": "ተመሳሳይ",
+            "ar": "مطابق",
+            "es": "mismo",
+            "fa": "همان / یکسان",
+            "fr": "même",
+            "hi": "समान",
+            "ja": "同じ",
+            "ko": "동일한",
+            "ml": "അതേ / സമാനമായ",
+            "ps": "يو شان",
+            "ro": "identic",
+            "ru": "одинаковый / тот же",
+            "ta": "அதே / ஒரே",
+            "tl": "pareho / kapareho",
+            "ur": "ایک جیسا / یکساں",
+            "vi": "giống nhau",
+            "zh-Hans": "相同",
+            "zh-Hant": "相同"
+           }
+          },
+          {
+           "surface": "ific",
+           "type": "suffix",
+           "meaning": "making",
+           "translations": {
+            "am": "ማድረግ",
+            "ar": "صانع، جاعل",
+            "es": "que hace",
+            "fa": "سازنده",
+            "fr": "qui fait",
+            "hi": "बनाने वाला",
+            "ja": "…にする、作る",
+            "ko": "만드는",
+            "ml": "ഉണ്ടാക്കുന്ന",
+            "ps": "جوړوونکی",
+            "ro": "care face",
+            "ru": "делающий",
+            "ta": "ஆக்குகிற, செய்கிற",
+            "tl": "gumagawa",
+            "ur": "بنانے والا",
+            "vi": "làm cho, tạo ra",
+            "zh-Hans": "使…的，制造的",
+            "zh-Hant": "使…的，製造的"
+           }
+          },
+          {
+           "surface": "ation",
+           "type": "suffix",
+           "meaning": "process of",
+           "translations": {
+            "am": "ሂደት",
+            "ar": "عملية",
+            "es": "proceso de",
+            "fa": "فرآیند",
+            "fr": "processus",
+            "hi": "प्रक्रिया",
+            "ja": "過程",
+            "ko": "과정",
+            "ml": "പ്രക്രിയ",
+            "ps": "پروسه",
+            "ro": "proces",
+            "ru": "процесс",
+            "ta": "செயல்முறை",
+            "tl": "proseso",
+            "ur": "عمل",
+            "vi": "quá trình",
+            "zh-Hans": "过程",
+            "zh-Hant": "過程"
+           }
+          }
+         ],
+         "root": "ident",
+         "meaning": "Establishing who someone is, or the documents that prove identity.",
+         "example": "The guards check identification before every meal.",
+         "translations": {
+          "zh-Hans": "身份证明",
+          "zh-Hant": "身分證明",
+          "ja": "身分証明",
+          "ko": "신분 증명",
+          "vi": "giấy tờ tùy thân",
+          "ar": "إثبات الهوية",
+          "fa": "شناسایی",
+          "ur": "شناخت",
+          "am": "መታወቂያ",
+          "ml": "തിരിച്ചറിയൽ",
+          "ta": "அடையாளம்",
+          "tl": "pagkakakilanlan",
+          "ps": "پېژندنه",
+          "ro": "identificare",
+          "ru": "удостоверение личности",
+          "fr": "identification",
+          "hi": "पहचान",
+          "es": "identificación"
+         },
+         "origin": "Literally 'making the same' (Latin idem) — matching a person to a record. Related: identity, identical."
+        },
+        {
+         "word": "dislocation",
+         "parts": [
+          {
+           "surface": "dis",
+           "type": "prefix",
+           "meaning": "apart",
+           "translations": {
+            "fa": "جدا/نفی",
+            "am": "መለያየት/አይ",
+            "ar": "غير",
+            "es": "aparte/no",
+            "fr": "séparé/non",
+            "hi": "अलग/नहीं",
+            "ja": "分離",
+            "ko": "분리/부정",
+            "ml": "വേർപെട്ട്/അല്ല",
+            "ps": "بېل",
+            "ro": "des",
+            "ru": "раздельно/не",
+            "ta": "பிரி/இல்லை",
+            "tl": "hiwalay/hindi",
+            "ur": "الگ/نہیں",
+            "vi": "tách/không",
+            "zh-Hans": "分开",
+            "zh-Hant": "分開",
+            "other": "دو"
+           }
+          },
+          {
+           "surface": "loc",
+           "type": "root",
+           "meaning": "place",
+           "translations": {
+            "am": "ቦታ",
+            "ar": "مكان",
+            "es": "lugar",
+            "fa": "مکان",
+            "fr": "lieu",
+            "hi": "स्थान",
+            "ja": "場所",
+            "ko": "장소",
+            "ml": "സ്ഥലം",
+            "ps": "ځای",
+            "ro": "loc",
+            "ru": "место",
+            "ta": "இடம்",
+            "tl": "lugar",
+            "ur": "جگہ",
+            "vi": "nơi",
+            "zh-Hans": "地方",
+            "zh-Hant": "地方"
+           }
+          },
+          {
+           "surface": "ation",
+           "type": "suffix",
+           "meaning": "process of",
+           "translations": {
+            "am": "ሂደት",
+            "ar": "عملية",
+            "es": "proceso de",
+            "fa": "فرآیند",
+            "fr": "processus",
+            "hi": "प्रक्रिया",
+            "ja": "過程",
+            "ko": "과정",
+            "ml": "പ്രക്രിയ",
+            "ps": "پروسه",
+            "ro": "proces",
+            "ru": "процесс",
+            "ta": "செயல்முறை",
+            "tl": "proseso",
+            "ur": "عمل",
+            "vi": "quá trình",
+            "zh-Hans": "过程",
+            "zh-Hant": "過程"
+           }
+          }
+         ],
+         "root": "loc",
+         "meaning": "Being torn from a familiar place, community or sense of belonging.",
+         "example": "Dislocation means losing not just a place but a whole way of life.",
+         "translations": {
+          "zh-Hans": "流离失所",
+          "zh-Hant": "流離失所",
+          "ja": "居場所の喪失",
+          "ko": "터전 상실",
+          "vi": "sự ly tán",
+          "ar": "التهجير",
+          "fa": "آوارگی",
+          "ur": "دربدری",
+          "am": "መፈናቀል",
+          "ml": "കുടിയിറക്കം",
+          "ta": "இடப்பெயர்வு",
+          "tl": "pagkawalay sa tahanan",
+          "ps": "بې ځايه کېدل",
+          "ro": "dezrădăcinare",
+          "ru": "вынужденное перемещение",
+          "fr": "déracinement",
+          "hi": "विस्थापन",
+          "es": "desarraigo"
+         },
+         "origin": "Literally 'put out of place'. Compare re-location, a deliberate move: dislocation is being torn out."
+        },
+        {
+         "word": "disheartened",
+         "parts": [
+          {
+           "surface": "dis",
+           "type": "prefix",
+           "meaning": "apart",
+           "translations": {
+            "fa": "جدا/نفی",
+            "am": "መለያየት/አይ",
+            "ar": "غير",
+            "es": "aparte/no",
+            "fr": "séparé/non",
+            "hi": "अलग/नहीं",
+            "ja": "分離",
+            "ko": "분리/부정",
+            "ml": "വേർപെട്ട്/അല്ല",
+            "ps": "بېل",
+            "ro": "des",
+            "ru": "раздельно/не",
+            "ta": "பிரி/இல்லை",
+            "tl": "hiwalay/hindi",
+            "ur": "الگ/نہیں",
+            "vi": "tách/không",
+            "zh-Hans": "分开",
+            "zh-Hant": "分開",
+            "other": "دو"
+           }
+          },
+          {
+           "surface": "heart",
+           "type": "root",
+           "meaning": "courage/spirit",
+           "translations": {
+            "zh-Hans": "勇气",
+            "zh-Hant": "勇氣",
+            "ja": "勇気",
+            "ko": "용기",
+            "vi": "lòng can đảm",
+            "ar": "شجاعة",
+            "fa": "دل و جرأت",
+            "ur": "حوصلہ",
+            "am": "ልብ (ድፍረት)",
+            "ml": "ധൈര്യം",
+            "ta": "தைரியம்",
+            "tl": "lakas ng loob",
+            "ps": "زړه (مېړانه)",
+            "ro": "curaj",
+            "ru": "мужество",
+            "fr": "courage",
+            "hi": "हिम्मत",
+            "es": "ánimo"
+           }
+          },
+          {
+           "surface": "en",
+           "type": "suffix",
+           "meaning": "make/put into",
+           "translations": {
+            "am": "ወደ ውስጥ",
+            "ar": "في",
+            "es": "en",
+            "fa": "در",
+            "fr": "dans",
+            "hi": "में",
+            "ja": "中に",
+            "ko": "안에",
+            "ml": "അകത്തേക്ക്",
+            "ps": "کې",
+            "ro": "în",
+            "ru": "в",
+            "ta": "-க்குள்",
+            "tl": "sa",
+            "ur": "میں",
+            "vi": "vào",
+            "zh-Hans": "入",
+            "zh-Hant": "入"
+           }
+          },
+          {
+           "surface": "ed",
+           "type": "suffix",
+           "meaning": "having been (makes an adjective)",
+           "translations": {
+            "am": "የተለወጠ ወይም ቅርጽ ያለው",
+            "ar": "محوّل إلى / له شكل",
+            "es": "convertido en/con la forma de",
+            "fa": "تبدیل‌شده به / دارای شکل",
+            "fr": "transformé en / ayant la forme de",
+            "hi": "में परिवर्तित / रूप वाला",
+            "ja": "〜にされた・〜の形をした",
+            "ko": "만들어진 상태·형태를 가진",
+            "ml": "ആക്കിയത് / രൂപമുള്ളത്",
+            "ps": "بدل شوی / بڼه لرونکی",
+            "ro": "transformat în / având forma de",
+            "ru": "превращённый в / имеющий форму",
+            "ta": "மாற்றப்பட்டது / வடிவம் கொண்டது",
+            "tl": "ginawang / may hugis ng",
+            "ur": "میں تبدیل شدہ / شکل رکھنے والا",
+            "vi": "được biến thành / có dạng",
+            "zh-Hans": "使成为…的;具有…形式的",
+            "zh-Hant": "使成為…的;具有…形式的"
+           }
+          }
+         ],
+         "root": "heart",
+         "meaning": "Having lost determination or confidence; discouraged.",
+         "example": "Even Harvey seems disheartened by the new rules.",
+         "translations": {
+          "zh-Hans": "灰心",
+          "zh-Hant": "氣餒",
+          "ja": "落胆した",
+          "ko": "낙담한",
+          "vi": "nản lòng",
+          "ar": "محبط",
+          "fa": "دلسرد",
+          "ur": "دل شکستہ",
+          "am": "ተስፋ የቆረጠ",
+          "ml": "നിരാശനായ",
+          "ta": "மனம் தளர்ந்த",
+          "tl": "pinanghinaan ng loob",
+          "ps": "زړه ماتی",
+          "ro": "descurajat",
+          "ru": "упавший духом",
+          "fr": "découragé",
+          "hi": "हतोत्साहित",
+          "es": "desanimado"
+         },
+         "origin": "The heart — courage — taken out of you. It's about how you feel; heartless (a different word) means cruel."
+        },
+        {
+         "word": "dispossessed",
+         "parts": [
+          {
+           "surface": "dis",
+           "type": "prefix",
+           "meaning": "apart",
+           "translations": {
+            "fa": "جدا/نفی",
+            "am": "መለያየት/አይ",
+            "ar": "غير",
+            "es": "aparte/no",
+            "fr": "séparé/non",
+            "hi": "अलग/नहीं",
+            "ja": "分離",
+            "ko": "분리/부정",
+            "ml": "വേർപെട്ട്/അല്ല",
+            "ps": "بېل",
+            "ro": "des",
+            "ru": "раздельно/не",
+            "ta": "பிரி/இல்லை",
+            "tl": "hiwalay/hindi",
+            "ur": "الگ/نہیں",
+            "vi": "tách/không",
+            "zh-Hans": "分开",
+            "zh-Hant": "分開",
+            "other": "دو"
+           }
+          },
+          {
+           "surface": "possess",
+           "type": "root",
+           "meaning": "own",
+           "translations": {
+            "am": "ማግኘት",
+            "ar": "يملك",
+            "fa": "داشتن",
+            "ml": "സ്വന്തം",
+            "ur": "ملکیت",
+            "zh-Hans": "拥有",
+            "zh-Hant": "擁有",
+            "es": "poseer",
+            "fr": "posséder",
+            "hi": "अधिकार में रखना",
+            "ja": "所有する",
+            "ko": "소유하다",
+            "ps": "لرل",
+            "ro": "a poseda",
+            "ru": "владеть",
+            "ta": "வைத்திருத்தல்",
+            "tl": "magkaroon",
+            "vi": "sở hữu"
+           }
+          },
+          {
+           "surface": "ed",
+           "type": "suffix",
+           "meaning": "having been (makes an adjective)",
+           "translations": {
+            "am": "የተለወጠ ወይም ቅርጽ ያለው",
+            "ar": "محوّل إلى / له شكل",
+            "es": "convertido en/con la forma de",
+            "fa": "تبدیل‌شده به / دارای شکل",
+            "fr": "transformé en / ayant la forme de",
+            "hi": "में परिवर्तित / रूप वाला",
+            "ja": "〜にされた・〜の形をした",
+            "ko": "만들어진 상태·형태를 가진",
+            "ml": "ആക്കിയത് / രൂപമുള്ളത്",
+            "ps": "بدل شوی / بڼه لرونکی",
+            "ro": "transformat în / având forma de",
+            "ru": "превращённый в / имеющий форму",
+            "ta": "மாற்றப்பட்டது / வடிவம் கொண்டது",
+            "tl": "ginawang / may hugis ng",
+            "ur": "میں تبدیل شدہ / شکل رکھنے والا",
+            "vi": "được biến thành / có dạng",
+            "zh-Hans": "使成为…的;具有…形式的",
+            "zh-Hant": "使成為…的;具有…形式的"
+           }
+          }
+         ],
+         "root": "possess",
+         "meaning": "Having had property, land, rights, or a sense of home taken away.",
+         "example": "The dispossessed family carried everything they still owned in two bags.",
+         "translations": {
+          "zh-Hans": "被剥夺家园的",
+          "zh-Hant": "被剝奪家園的",
+          "ja": "財産を奪われた",
+          "ko": "재산을 빼앗긴",
+          "vi": "bị tước đoạt",
+          "ar": "مجرد من ممتلكاته",
+          "fa": "محروم‌شده از دارایی",
+          "ur": "بے دخل",
+          "am": "ንብረቱን የተነጠቀ",
+          "ml": "സ്വത്ത് നഷ്ടപ്പെട്ട",
+          "ta": "உடைமை இழந்த",
+          "tl": "inagawan ng ari-arian",
+          "ps": "له شتمنۍ بې برخې شوی",
+          "ro": "deposedat",
+          "ru": "лишённый имущества",
+          "fr": "dépossédé",
+          "hi": "बेदख़ल",
+          "es": "despojado"
+         },
+         "origin": "What you owned or belonged to was taken — about your circumstances, not your feelings. Compare disheartened."
+        },
+        {
+         "word": "bystander",
+         "parts": [
+          {
+           "surface": "by",
+           "type": "prefix",
+           "meaning": "near/beside",
+           "translations": {
+            "zh-Hans": "旁",
+            "zh-Hant": "旁",
+            "ja": "そば",
+            "ko": "곁",
+            "vi": "bên cạnh",
+            "ar": "بجانب",
+            "fa": "کنار",
+            "ur": "پاس",
+            "am": "አጠገብ",
+            "ml": "അരികിൽ",
+            "ta": "அருகில்",
+            "tl": "tabi",
+            "ps": "ترڅنګ",
+            "ro": "lângă",
+            "ru": "рядом",
+            "fr": "à côté",
+            "hi": "पास",
+            "es": "al lado"
+           }
+          },
+          {
+           "surface": "stand",
+           "type": "root",
+           "meaning": "stand",
+           "translations": {
+            "zh-Hans": "站",
+            "zh-Hant": "站",
+            "ja": "立つ",
+            "ko": "서다",
+            "vi": "đứng",
+            "ar": "يقف",
+            "fa": "ایستادن",
+            "ur": "کھڑا ہونا",
+            "am": "መቆም",
+            "ml": "നിൽക്കുക",
+            "ta": "நிற்க",
+            "tl": "tumayo",
+            "ps": "ودرېدل",
+            "ro": "a sta în picioare",
+            "ru": "стоять",
+            "fr": "se tenir debout",
+            "hi": "खड़ा होना",
+            "es": "estar de pie"
+           }
+          },
+          {
+           "surface": "er",
+           "type": "suffix",
+           "meaning": "one who",
+           "translations": {
+            "vi": "người",
+            "am": "ሰው",
+            "ar": "شخص",
+            "es": "persona que",
+            "fa": "شخص",
+            "fr": "personne qui",
+            "hi": "व्यक्ति जो",
+            "ja": "~する人",
+            "ko": "~하는 사람",
+            "ml": "ആൾ",
+            "ps": "هغه څوک چې",
+            "ro": "persoană care",
+            "ru": "тот, кто",
+            "ta": "செய்பவர்",
+            "tl": "taong",
+            "ur": "کرنے والا",
+            "zh-Hans": "人",
+            "zh-Hant": "人"
+           }
+          }
+         ],
+         "root": "stand",
+         "meaning": "A person present at an event who watches but does not take part.",
+         "example": "A bystander watches; an upstander steps in.",
+         "translations": {
+          "zh-Hans": "旁观者",
+          "zh-Hant": "旁觀者",
+          "ja": "傍観者",
+          "ko": "방관자",
+          "vi": "người đứng ngoài",
+          "ar": "متفرج",
+          "fa": "تماشاگر",
+          "ur": "تماشائی",
+          "am": "ተመልካች",
+          "ml": "കാഴ്ചക്കാരൻ",
+          "ta": "வேடிக்கை பார்ப்பவர்",
+          "tl": "miron",
+          "ps": "ننداره کوونکی",
+          "ro": "spectator pasiv",
+          "ru": "сторонний наблюдатель",
+          "fr": "témoin passif",
+          "hi": "मूकदर्शक",
+          "es": "espectador pasivo"
+         },
+         "origin": "One who stands by without acting. The opposite idea is an upstander — someone who steps in."
+        },
+        {
+         "word": "grief",
+         "parts": [
+          {
+           "surface": "grief",
+           "type": "root",
+           "meaning": "heavy",
+           "translations": {
+            "zh-Hans": "沉重",
+            "zh-Hant": "沉重",
+            "ja": "重い",
+            "ko": "무거운",
+            "vi": "nặng",
+            "ar": "ثقيل",
+            "fa": "سنگین",
+            "ur": "بھاری",
+            "am": "ከባድ",
+            "ml": "ഭാരമുള്ള",
+            "ta": "கனமான",
+            "tl": "mabigat",
+            "ps": "دروند",
+            "ro": "greu",
+            "ru": "тяжёлый",
+            "fr": "lourd",
+            "hi": "भारी",
+            "es": "pesado"
+           }
+          }
+         ],
+         "root": "grief",
+         "meaning": "Intense sorrow, especially caused by someone's death or a great loss.",
+         "example": "Her grief was heaviest at night.",
+         "translations": {
+          "zh-Hans": "悲痛",
+          "zh-Hant": "悲慟",
+          "ja": "深い悲しみ",
+          "ko": "비탄",
+          "vi": "nỗi đau buồn",
+          "ar": "حزن عميق",
+          "fa": "سوگ",
+          "ur": "غم",
+          "am": "ሐዘን",
+          "ml": "ദുഃഖം",
+          "ta": "துயரம்",
+          "tl": "dalamhati",
+          "ps": "غم",
+          "ro": "mâhnire",
+          "ru": "горе",
+          "fr": "chagrin",
+          "hi": "शोक",
+          "es": "duelo"
+         },
+         "origin": "From Latin gravis, heavy: grief is literally a heaviness of feeling. Grief is the feeling; loss is the fact."
+        },
+        {
+         "word": "loss",
+         "parts": [
+          {
+           "surface": "loss",
+           "type": "root",
+           "meaning": "perish/lose",
+           "translations": {
+            "zh-Hans": "失去",
+            "zh-Hant": "失去",
+            "ja": "失う",
+            "ko": "잃다",
+            "vi": "mất",
+            "ar": "يفقد",
+            "fa": "از دست دادن",
+            "ur": "کھونا",
+            "am": "ማጣት",
+            "ml": "നഷ്ടപ്പെടുക",
+            "ta": "இழ",
+            "tl": "mawala",
+            "ps": "له لاسه ورکول",
+            "ro": "a pierde",
+            "ru": "терять",
+            "fr": "perdre",
+            "hi": "खोना",
+            "es": "perder"
+           }
+          }
+         ],
+         "root": "loss",
+         "meaning": "The fact of losing someone or something valued.",
+         "example": "Every person in the camp knows loss.",
+         "translations": {
+          "zh-Hans": "失去",
+          "zh-Hant": "失去",
+          "ja": "喪失",
+          "ko": "상실",
+          "vi": "sự mất mát",
+          "ar": "فقدان",
+          "fa": "فقدان",
+          "ur": "نقصان",
+          "am": "ማጣት",
+          "ml": "നഷ്ടം",
+          "ta": "இழப்பு",
+          "tl": "pagkawala",
+          "ps": "له لاسه ورکول",
+          "ro": "pierdere",
+          "ru": "утрата",
+          "fr": "perte",
+          "hi": "खोना",
+          "es": "pérdida"
+         },
+         "origin": "Old English losian, to perish. Loss is the noun, lose the verb, lost the past tense — and loose (not tight) is a different word entirely."
+        },
+        {
+         "word": "friendship",
+         "parts": [
+          {
+           "surface": "friend",
+           "type": "root",
+           "meaning": "one who loves",
+           "translations": {
+            "zh-Hans": "爱的人",
+            "zh-Hant": "愛的人",
+            "ja": "愛する人",
+            "ko": "사랑하는 사람",
+            "vi": "người yêu thương",
+            "ar": "من يحب",
+            "fa": "دوستدار",
+            "ur": "چاہنے والا",
+            "am": "የሚወድ ሰው",
+            "ml": "സ്നേഹിക്കുന്നയാൾ",
+            "ta": "அன்பு செய்பவர்",
+            "tl": "nagmamahal",
+            "ps": "مينه کوونکی",
+            "ro": "cel care iubește",
+            "ru": "тот, кто любит",
+            "fr": "celui qui aime",
+            "hi": "प्रेम करने वाला",
+            "es": "quien ama"
+           }
+          },
+          {
+           "surface": "ship",
+           "type": "suffix",
+           "meaning": "state/condition",
+           "translations": {
+            "vi": "mối quan hệ",
+            "am": "ሁኔታ",
+            "ar": "حالة",
+            "es": "estado / condición",
+            "fa": "وضعیت",
+            "fr": "état",
+            "hi": "अवस्था",
+            "ja": "状態",
+            "ko": "상태",
+            "ml": "അവസ്ഥ",
+            "ps": "حالت",
+            "ro": "stare",
+            "ru": "состояние",
+            "ta": "நிலை",
+            "tl": "kalagayan",
+            "ur": "حالت",
+            "zh-Hans": "状态",
+            "zh-Hant": "狀態"
+           }
+          }
+         ],
+         "root": "friend",
+         "meaning": "A close relationship marked by mutual affection, trust, and support.",
+         "example": "Subhi and Jimmie's friendship crosses the fence.",
+         "translations": {
+          "zh-Hans": "友谊",
+          "zh-Hant": "友誼",
+          "ja": "友情",
+          "ko": "우정",
+          "vi": "tình bạn",
+          "ar": "صداقة",
+          "fa": "دوستی",
+          "ur": "دوستی",
+          "am": "ወዳጅነት",
+          "ml": "സൗഹൃദം",
+          "ta": "நட்பு",
+          "tl": "pagkakaibigan",
+          "ps": "ملگرتيا",
+          "ro": "prietenie",
+          "ru": "дружба",
+          "fr": "amitié",
+          "hi": "मित्रता",
+          "es": "amistad"
+         },
+         "origin": "A friend is literally 'one who loves' (Old English freond) + -ship, the state of being: friendship, kinship, companionship."
+        }
+       ],
+       "path": "year-7/english/bone-sparrow"
       }
      ]
     },
@@ -337828,6 +339391,26 @@
      "ation"
     ],
     [
+     "dislocation",
+     "year-7/english/bone-sparrow",
+     "ation"
+    ],
+    [
+     "identification",
+     "year-7/english/bone-sparrow",
+     "ation"
+    ],
+    [
+     "immigration",
+     "year-7/english/bone-sparrow",
+     "ation"
+    ],
+    [
+     "incarceration",
+     "year-7/english/bone-sparrow",
+     "ation"
+    ],
+    [
      "equation",
      "year-7/mathematics/command-terms",
      "ation"
@@ -339407,6 +340990,23 @@
      "algebra",
      "year-9/mathematics/algebra",
      "br"
+    ]
+   ]
+  },
+  "bureau|office": {
+   "surface": "bureau",
+   "meaning": "office",
+   "type": "root",
+   "words": [
+    [
+     "bureaucracy",
+     "year-7/english/bone-sparrow",
+     "bureau"
+    ],
+    [
+     "bureaucratic",
+     "year-7/humanities-civics/history-china",
+     "bureau"
     ]
    ]
   },
@@ -341995,6 +343595,23 @@
     ]
    ]
   },
+  "cracy|rule by": {
+   "surface": "cracy",
+   "meaning": "rule by",
+   "type": "suffix",
+   "words": [
+    [
+     "theocracy",
+     "vce/history/unit-2-aos-2",
+     "cracy"
+    ],
+    [
+     "bureaucracy",
+     "year-7/english/bone-sparrow",
+     "cracy"
+    ]
+   ]
+  },
   "creat|make": {
    "surface": "creat",
    "meaning": "make",
@@ -342758,6 +344375,11 @@
      "de"
     ],
     [
+     "detention",
+     "year-7/english/bone-sparrow",
+     "de"
+    ],
+    [
      "depicted",
      "year-7/english/film",
      "de"
@@ -343239,6 +344861,21 @@
     [
      "practice distribution",
      "year-10/sports-science/vocab-list",
+     "dis"
+    ],
+    [
+     "disheartened",
+     "year-7/english/bone-sparrow",
+     "dis"
+    ],
+    [
+     "dislocation",
+     "year-7/english/bone-sparrow",
+     "dis"
+    ],
+    [
+     "dispossessed",
+     "year-7/english/bone-sparrow",
      "dis"
     ],
     [
@@ -344077,6 +345714,16 @@
     [
      "determinedly",
      "vce/eal/extra-vocab",
+     "ed"
+    ],
+    [
+     "disheartened",
+     "year-7/english/bone-sparrow",
+     "ed"
+    ],
+    [
+     "dispossessed",
+     "year-7/english/bone-sparrow",
      "ed"
     ]
    ]
@@ -345436,6 +347083,11 @@
      "encryption",
      "year-10/forensic-science/forgery-digital",
      "en"
+    ],
+    [
+     "disheartened",
+     "year-7/english/bone-sparrow",
+     "en"
     ]
    ]
   },
@@ -345732,6 +347384,16 @@
     [
      "enabler",
      "vce/physical-education/unit-2-aos-1",
+     "er"
+    ],
+    [
+     "asylum seeker",
+     "year-7/english/bone-sparrow",
+     "er"
+    ],
+    [
+     "bystander",
+     "year-7/english/bone-sparrow",
      "er"
     ],
     [
@@ -349491,6 +351153,11 @@
      "ident"
     ],
     [
+     "identification",
+     "year-7/english/bone-sparrow",
+     "ident"
+    ],
+    [
      "identity",
      "year-9/mathematics/algebra",
      "ident"
@@ -349713,6 +351380,11 @@
    "meaning": "making",
    "type": "suffix",
    "words": [
+    [
+     "identification",
+     "year-7/english/bone-sparrow",
+     "ific"
+    ],
     [
      "significance",
      "year-7/humanities-civics/history-china",
@@ -349972,6 +351644,11 @@
     [
      "improvement",
      "year-10/geography/topics-2-4",
+     "im"
+    ],
+    [
+     "immigration",
+     "year-7/english/bone-sparrow",
      "im"
     ]
    ]
@@ -350728,6 +352405,11 @@
      "in"
     ],
     [
+     "inmate",
+     "year-7/english/bone-sparrow",
+     "in"
+    ],
+    [
      "induction",
      "year-9/science/magnetism",
      "in"
@@ -350984,6 +352666,11 @@
     [
      "incorporate",
      "year-10/sports-science/vocab-list",
+     "in"
+    ],
+    [
+     "incarceration",
+     "year-7/english/bone-sparrow",
      "in"
     ],
     [
@@ -351858,6 +353545,11 @@
     [
      "representation",
      "year-10/mathematics/build-number-algebra",
+     "ion"
+    ],
+    [
+     "persecution",
+     "year-7/english/bone-sparrow",
      "ion"
     ],
     [
@@ -355688,6 +357380,11 @@
      "loc"
     ],
     [
+     "dislocation",
+     "year-7/english/bone-sparrow",
+     "loc"
+    ],
+    [
      "allocation",
      "year-8/humanities/business-economics",
      "loc"
@@ -357051,6 +358748,11 @@
     [
      "migration",
      "vce/health/unit-4-aos-1",
+     "migr"
+    ],
+    [
+     "immigration",
+     "year-7/english/bone-sparrow",
      "migr"
     ]
    ]
@@ -359459,6 +361161,11 @@
      "per"
     ],
     [
+     "persecution",
+     "year-7/english/bone-sparrow",
+     "per"
+    ],
+    [
      "perfect",
      "year-9/mathematics/algebra",
      "per"
@@ -360500,6 +362207,11 @@
     [
      "Dispossession",
      "elc/humanities/history",
+     "possess"
+    ],
+    [
+     "dispossessed",
+     "year-7/english/bone-sparrow",
      "possess"
     ],
     [
@@ -362914,6 +364626,11 @@
      "re"
     ],
     [
+     "refugee",
+     "year-7/english/bone-sparrow",
+     "re"
+    ],
+    [
      "residues",
      "year-7/humanities-civics/history-gs73",
      "re"
@@ -363455,6 +365172,11 @@
     [
      "relationship",
      "year-10/mathematics/build-number-algebra",
+     "ship"
+    ],
+    [
+     "friendship",
+     "year-7/english/bone-sparrow",
      "ship"
     ]
    ]
@@ -365792,6 +367514,23 @@
     ]
    ]
   },
+  "ten|hold": {
+   "surface": "ten",
+   "meaning": "hold",
+   "type": "root",
+   "words": [
+    [
+     "maintenance",
+     "vce/english-language/unit-2-aos-2",
+     "ten"
+    ],
+    [
+     "detention",
+     "year-7/english/bone-sparrow",
+     "ten"
+    ]
+   ]
+  },
   "termin|boundary/limit": {
    "surface": "termin",
    "meaning": "boundary/limit",
@@ -366301,6 +368040,11 @@
     [
      "substitution",
      "year-10/mathematics/build-number-algebra",
+     "tion"
+    ],
+    [
+     "detention",
+     "year-7/english/bone-sparrow",
      "tion"
     ],
     [
@@ -373002,6 +374746,22 @@
     "asterisk"
    ]
   },
+  "asylum|place of safety": {
+   "surface": "asylum",
+   "variants": [
+    "asylum"
+   ],
+   "type": "root",
+   "gloss": "place of safety",
+   "aka": [],
+   "words": [
+    [
+     "asylum seeker",
+     "year-7/english/bone-sparrow",
+     "asylum"
+    ]
+   ]
+  },
   "atar|australian tertiary admission rank": {
    "surface": "atar",
    "variants": [
@@ -374889,6 +376649,26 @@
     [
      "deforestation",
      "elc/science/ecosystems",
+     "ation"
+    ],
+    [
+     "immigration",
+     "year-7/english/bone-sparrow",
+     "ation"
+    ],
+    [
+     "incarceration",
+     "year-7/english/bone-sparrow",
+     "ation"
+    ],
+    [
+     "identification",
+     "year-7/english/bone-sparrow",
+     "ation"
+    ],
+    [
+     "dislocation",
+     "year-7/english/bone-sparrow",
      "ation"
     ]
    ],
@@ -377041,6 +378821,11 @@
      "bureaucratic",
      "year-7/humanities-civics/history-china",
      "bureau"
+    ],
+    [
+     "bureaucracy",
+     "year-7/english/bone-sparrow",
+     "bureau"
     ]
    ]
   },
@@ -377119,6 +378904,22 @@
     ]
    ],
    "extras": []
+  },
+  "by|near/beside": {
+   "surface": "by",
+   "variants": [
+    "by"
+   ],
+   "type": "prefix",
+   "gloss": "near/beside",
+   "aka": [],
+   "words": [
+    [
+     "bystander",
+     "year-7/english/bone-sparrow",
+     "by"
+    ]
+   ]
   },
   "b|life": {
    "surface": "b",
@@ -377498,6 +379299,22 @@
     ]
    ],
    "extras": []
+  },
+  "carcer|prison": {
+   "surface": "carcer",
+   "variants": [
+    "carcer"
+   ],
+   "type": "root",
+   "gloss": "prison",
+   "aka": [],
+   "words": [
+    [
+     "incarceration",
+     "year-7/english/bone-sparrow",
+     "carcer"
+    ]
+   ]
   },
   "carr|carry": {
    "surface": "carr",
@@ -381489,6 +383306,11 @@
      "democracy",
      "year-9/humanities/political-systems",
      "cracy"
+    ],
+    [
+     "bureaucracy",
+     "year-7/english/bone-sparrow",
+     "cracy"
     ]
    ],
    "extras": []
@@ -382976,6 +384798,11 @@
      "deforestation",
      "elc/science/ecosystems",
      "de"
+    ],
+    [
+     "detention",
+     "year-7/english/bone-sparrow",
+     "de"
     ]
    ],
    "extras": [
@@ -383805,6 +385632,21 @@
     [
      "displacement",
      "elc/science/l1",
+     "dis"
+    ],
+    [
+     "dislocation",
+     "year-7/english/bone-sparrow",
+     "dis"
+    ],
+    [
+     "disheartened",
+     "year-7/english/bone-sparrow",
+     "dis"
+    ],
+    [
+     "dispossessed",
+     "year-7/english/bone-sparrow",
      "dis"
     ]
    ],
@@ -385007,6 +386849,16 @@
      "gilded",
      "elc/english/ironbark-stanza-6",
      "ed"
+    ],
+    [
+     "disheartened",
+     "year-7/english/bone-sparrow",
+     "ed"
+    ],
+    [
+     "dispossessed",
+     "year-7/english/bone-sparrow",
+     "ed"
     ]
    ],
    "extras": []
@@ -385261,6 +387113,22 @@
     ]
    ],
    "extras": []
+  },
+  "ee|person receiving the action": {
+   "surface": "ee",
+   "variants": [
+    "ee"
+   ],
+   "type": "suffix",
+   "gloss": "person receiving the action",
+   "aka": [],
+   "words": [
+    [
+     "refugee",
+     "year-7/english/bone-sparrow",
+     "ee"
+    ]
+   ]
   },
   "effect|result": {
    "surface": "effect",
@@ -387002,6 +388870,11 @@
      "encouraging",
      "elc/humanities/history",
      "en"
+    ],
+    [
+     "disheartened",
+     "year-7/english/bone-sparrow",
+     "en"
     ]
    ],
    "extras": [
@@ -387505,6 +389378,16 @@
      "competitor",
      "year-7/humanities-civics/economics-business",
      "itor"
+    ],
+    [
+     "asylum seeker",
+     "year-7/english/bone-sparrow",
+     "er"
+    ],
+    [
+     "bystander",
+     "year-7/english/bone-sparrow",
+     "er"
     ]
    ],
    "extras": [
@@ -390721,6 +392604,22 @@
    ],
    "extras": []
   },
+  "friend|one who loves": {
+   "surface": "friend",
+   "variants": [
+    "friend"
+   ],
+   "type": "root",
+   "gloss": "one who loves",
+   "aka": [],
+   "words": [
+    [
+     "friendship",
+     "year-7/english/bone-sparrow",
+     "friend"
+    ]
+   ]
+  },
   "frost|frozen ground": {
    "surface": "frost",
    "variants": [
@@ -390734,6 +392633,22 @@
      "permafrost",
      "year-7/humanities-civics/geography-landforms",
      "frost"
+    ]
+   ]
+  },
+  "fug|flee": {
+   "surface": "fug",
+   "variants": [
+    "fug"
+   ],
+   "type": "root",
+   "gloss": "flee",
+   "aka": [],
+   "words": [
+    [
+     "refugee",
+     "year-7/english/bone-sparrow",
+     "fug"
     ]
    ]
   },
@@ -391998,6 +393913,22 @@
     "aggressive"
    ]
   },
+  "grief|heavy": {
+   "surface": "grief",
+   "variants": [
+    "grief"
+   ],
+   "type": "root",
+   "gloss": "heavy",
+   "aka": [],
+   "words": [
+    [
+     "grief",
+     "year-7/english/bone-sparrow",
+     "grief"
+    ]
+   ]
+  },
   "ground|the earth beneath us": {
    "surface": "ground",
    "variants": [
@@ -392223,6 +394154,22 @@
     ]
    ],
    "extras": []
+  },
+  "heart|courage/spirit": {
+   "surface": "heart",
+   "variants": [
+    "heart"
+   ],
+   "type": "root",
+   "gloss": "courage/spirit",
+   "aka": [],
+   "words": [
+    [
+     "disheartened",
+     "year-7/english/bone-sparrow",
+     "heart"
+    ]
+   ]
   },
   "hear|hear": {
    "surface": "hear",
@@ -394331,6 +396278,11 @@
      "identity",
      "elc/humanities/general-vocabulary",
      "ident"
+    ],
+    [
+     "identification",
+     "year-7/english/bone-sparrow",
+     "ident"
     ]
    ],
    "extras": [
@@ -394716,6 +396668,11 @@
     [
      "significance",
      "year-7/humanities-civics/history-china",
+     "ific"
+    ],
+    [
+     "identification",
+     "year-7/english/bone-sparrow",
      "ific"
     ]
    ],
@@ -396679,6 +398636,21 @@
      "implications",
      "vce/math-methods/unit-1-aos-1",
      "im"
+    ],
+    [
+     "immigration",
+     "year-7/english/bone-sparrow",
+     "im"
+    ],
+    [
+     "inmate",
+     "year-7/english/bone-sparrow",
+     "in"
+    ],
+    [
+     "incarceration",
+     "year-7/english/bone-sparrow",
+     "in"
     ]
    ],
    "extras": [
@@ -398510,6 +400482,11 @@
     [
      "reaction",
      "year-8/science/chemistry",
+     "ion"
+    ],
+    [
+     "persecution",
+     "year-7/english/bone-sparrow",
      "ion"
     ]
    ],
@@ -403302,6 +405279,11 @@
      "allocation",
      "vce/general-mathematics/unit-4-aos-2",
      "loc"
+    ],
+    [
+     "dislocation",
+     "year-7/english/bone-sparrow",
+     "loc"
     ]
    ],
    "extras": [
@@ -403677,6 +405659,22 @@
      "loitered",
      "elc/english/ironbark-stanza-1",
      "loiter"
+    ]
+   ]
+  },
+  "loss|perish/lose": {
+   "surface": "loss",
+   "variants": [
+    "loss"
+   ],
+   "type": "root",
+   "gloss": "perish/lose",
+   "aka": [],
+   "words": [
+    [
+     "loss",
+     "year-7/english/bone-sparrow",
+     "loss"
     ]
    ]
   },
@@ -404406,6 +406404,22 @@
      "remark",
      "elc/english/ironbark-stanza-8",
      "mark"
+    ]
+   ]
+  },
+  "mate|companion": {
+   "surface": "mate",
+   "variants": [
+    "mate"
+   ],
+   "type": "root",
+   "gloss": "companion",
+   "aka": [],
+   "words": [
+    [
+     "inmate",
+     "year-7/english/bone-sparrow",
+     "mate"
     ]
    ]
   },
@@ -405817,6 +407831,11 @@
     [
      "migration",
      "elc/science/ecosystems",
+     "migr"
+    ],
+    [
+     "immigration",
+     "year-7/english/bone-sparrow",
      "migr"
     ]
    ],
@@ -411060,6 +413079,11 @@
      "perpendicular",
      "elc/science/l4",
      "per"
+    ],
+    [
+     "persecution",
+     "year-7/english/bone-sparrow",
+     "per"
     ]
    ],
    "extras": [
@@ -413166,6 +415190,11 @@
     [
      "Dispossession",
      "elc/humanities/general-vocabulary",
+     "possess"
+    ],
+    [
+     "dispossessed",
+     "year-7/english/bone-sparrow",
      "possess"
     ]
    ],
@@ -416970,6 +418999,11 @@
      "reducing",
      "vce/general-mathematics/unit-3-aos-2",
      "re"
+    ],
+    [
+     "refugee",
+     "year-7/english/bone-sparrow",
+     "re"
     ]
    ],
    "extras": [
@@ -417836,6 +419870,22 @@
    ],
    "extras": []
   },
+  "secut|follow/pursue": {
+   "surface": "secut",
+   "variants": [
+    "secut"
+   ],
+   "type": "root",
+   "gloss": "follow/pursue",
+   "aka": [],
+   "words": [
+    [
+     "persecution",
+     "year-7/english/bone-sparrow",
+     "secut"
+    ]
+   ]
+  },
   "sedent|sit": {
    "surface": "sedent",
    "variants": [
@@ -417874,6 +419924,22 @@
     ]
    ],
    "extras": []
+  },
+  "seek|search for": {
+   "surface": "seek",
+   "variants": [
+    "seek"
+   ],
+   "type": "root",
+   "gloss": "search for",
+   "aka": [],
+   "words": [
+    [
+     "asylum seeker",
+     "year-7/english/bone-sparrow",
+     "seek"
+    ]
+   ]
   },
   "self|one's own": {
    "surface": "self",
@@ -418586,6 +420652,11 @@
     [
      "citizenship",
      "elc/humanities/general-vocabulary",
+     "ship"
+    ],
+    [
+     "friendship",
+     "year-7/english/bone-sparrow",
      "ship"
     ]
    ],
@@ -420423,6 +422494,22 @@
     "standard",
     "substandard",
     "nonstandard"
+   ]
+  },
+  "stand|stand": {
+   "surface": "stand",
+   "variants": [
+    "stand"
+   ],
+   "type": "root",
+   "gloss": "stand",
+   "aka": [],
+   "words": [
+    [
+     "bystander",
+     "year-7/english/bone-sparrow",
+     "stand"
+    ]
    ]
   },
   "stantaneous|happening now": {
@@ -423309,6 +425396,11 @@
      "content creator",
      "elc/humanities/social-media-ban",
      "tent"
+    ],
+    [
+     "detention",
+     "year-7/english/bone-sparrow",
+     "ten"
     ]
    ],
    "extras": [
@@ -424335,6 +426427,11 @@
      "absorption",
      "vce/physics/unit-1-aos-1",
      "tion"
+    ],
+    [
+     "detention",
+     "year-7/english/bone-sparrow",
+     "tion"
     ]
    ],
    "extras": []
@@ -425022,6 +427119,22 @@
     ]
    ],
    "extras": []
+  },
+  "trauma|wound": {
+   "surface": "trauma",
+   "variants": [
+    "trauma"
+   ],
+   "type": "root",
+   "gloss": "wound",
+   "aka": [],
+   "words": [
+    [
+     "trauma",
+     "year-7/english/bone-sparrow",
+     "trauma"
+    ]
+   ]
   },
   "treat|to handle or deal with": {
    "surface": "treat",
