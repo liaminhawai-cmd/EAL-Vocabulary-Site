@@ -172165,6 +172165,84 @@
           "zh-Hans": "多基因的",
           "zh-Hant": "多基因的"
          }
+        },
+        {
+         "word": "parent",
+         "parts": [
+          {
+           "surface": "par",
+           "type": "root",
+           "meaning": "give birth, produce",
+           "translations": {
+            "zh-Hans": "生育/产生",
+            "zh-Hant": "生育/產生",
+            "ja": "産む/生じさせる",
+            "ko": "낳다/생기게 하다",
+            "vi": "sinh ra/tạo ra",
+            "ar": "يلد/ينتج",
+            "fa": "زاییدن/تولید کردن",
+            "ur": "جنم دینا/پیدا کرنا",
+            "am": "መውለድ",
+            "ml": "ജന്മം നൽകുക",
+            "ta": "பெற்றெடுத்தல்",
+            "tl": "manganak/lumikha",
+            "ps": "زیږول",
+            "ro": "a naște/a produce",
+            "ru": "рождать/производить",
+            "fr": "enfanter/produire",
+            "hi": "जन्म देना",
+            "es": "engendrar/producir"
+           }
+          },
+          {
+           "surface": "ent",
+           "type": "suffix",
+           "meaning": "one who",
+           "translations": {
+            "zh-Hans": "…的人",
+            "zh-Hant": "…的人",
+            "ja": "〜する人",
+            "ko": "~하는 사람",
+            "vi": "người mà",
+            "ar": "الشخص الذي",
+            "fa": "کسی که",
+            "ur": "وہ جو",
+            "am": "የሚያደርግ ሰው",
+            "ml": "ചെയ്യുന്നയാൾ",
+            "ta": "செய்பவர்",
+            "tl": "ang gumagawa",
+            "ps": "هغه څوک چې",
+            "ro": "cel care",
+            "ru": "тот, кто",
+            "fr": "celui qui",
+            "hi": "करने वाला",
+            "es": "el que"
+           }
+          }
+         ],
+         "root": "par",
+         "meaning": "An organism that produces offspring. In a Punnett square the parents' alleles are written outside the grid, one parent along the top and one down the side.",
+         "example": "Both parents were carriers, so one in four of their offspring had the recessive trait.",
+         "translations": {
+          "zh-Hans": "亲本（亲代）",
+          "zh-Hant": "親代（親本）",
+          "ja": "親（親世代）",
+          "ko": "어버이(부모 세대)",
+          "vi": "bố mẹ (thế hệ P)",
+          "ar": "الأب أو الأم (الجيل الأبوي)",
+          "fa": "والد (نسل والد)",
+          "ur": "والدین (پیدا کرنے والا جاندار)",
+          "am": "ወላጅ",
+          "ml": "മാതാപിതാവ് (ജനക ജീവി)",
+          "ta": "பெற்றோர்",
+          "tl": "magulang",
+          "ps": "والد (مور/پلار)",
+          "ro": "părinte (generația parentală)",
+          "ru": "родитель (родительское поколение)",
+          "fr": "parent (génération parentale)",
+          "hi": "जनक (माता-पिता)",
+          "es": "progenitor (padre o madre)"
+         }
         }
        ],
        "path": "year-10/biology/genetics"
@@ -175463,6 +175541,137 @@
           "vi": "thống kê học",
           "zh-Hans": "统计学",
           "zh-Hant": "統計學"
+         }
+        },
+        {
+         "word": "rate",
+         "parts": [],
+         "root": "",
+         "meaning": "How fast something changes. A rate is an amount for each unit of time, such as 60 new cases per day.",
+         "example": "The rate of new infections fell from 60 per day to 20 per day.",
+         "translations": {
+          "zh-Hans": "率（速率）",
+          "zh-Hant": "率（速率）",
+          "ja": "率（割合・変化の速さ）",
+          "ko": "비율(율, 변화 속도)",
+          "vi": "tỉ lệ (tốc độ)",
+          "ar": "معدل",
+          "fa": "نرخ (میزان)",
+          "ur": "شرح (نرخ)",
+          "am": "ምጣኔ (መጠን)",
+          "ml": "നിരക്ക്",
+          "ta": "வீதம் (விகிதம்)",
+          "tl": "rate (tantos)",
+          "ps": "نرخ (کچه)",
+          "ro": "rată",
+          "ru": "темп (скорость изменения)",
+          "fr": "taux",
+          "hi": "दर",
+          "es": "tasa"
+         },
+         "origin": "From Latin rata (reckoned, calculated), in the phrase pro rata parte — “according to the calculated part”."
+        },
+        {
+         "word": "misleading",
+         "parts": [
+          {
+           "surface": "mis",
+           "type": "prefix",
+           "meaning": "wrongly",
+           "translations": {
+            "zh-Hans": "错误地",
+            "zh-Hant": "錯誤地",
+            "ja": "誤って",
+            "ko": "잘못",
+            "vi": "sai, nhầm",
+            "ar": "بشكل خاطئ",
+            "fa": "به اشتباه",
+            "ur": "غلط طور پر",
+            "am": "በስህተት",
+            "ml": "തെറ്റായി",
+            "ta": "தவறாக",
+            "tl": "mali",
+            "ps": "په غلط ډول",
+            "ro": "greșit",
+            "ru": "неправильно",
+            "fr": "à tort",
+            "hi": "गलत तरीके से",
+            "es": "erróneamente"
+           }
+          },
+          {
+           "surface": "lead",
+           "type": "root",
+           "meaning": "guide, take somewhere",
+           "translations": {
+            "zh-Hans": "引导",
+            "zh-Hant": "引導",
+            "ja": "導く",
+            "ko": "이끌다",
+            "vi": "dẫn dắt",
+            "ar": "يقود/يرشد",
+            "fa": "هدایت کردن",
+            "ur": "رہنمائی کرنا",
+            "am": "መምራት",
+            "ml": "നയിക്കുക",
+            "ta": "வழிநடத்துதல்",
+            "tl": "umakay/gumabay",
+            "ps": "لارښوونه کول",
+            "ro": "a conduce/a ghida",
+            "ru": "вести/направлять",
+            "fr": "guider/mener",
+            "hi": "मार्गदर्शन करना",
+            "es": "guiar/conducir"
+           }
+          },
+          {
+           "surface": "ing",
+           "type": "suffix",
+           "meaning": "doing, describing",
+           "translations": {
+            "zh-Hans": "…的（正在做）",
+            "zh-Hant": "…的（正在做）",
+            "ja": "〜している",
+            "ko": "~하는",
+            "vi": "đang, mang tính",
+            "ar": "صيغة اسم الفاعل",
+            "fa": "کننده",
+            "ur": "کرنے والا",
+            "am": "የሚያደርግ",
+            "ml": "ചെയ്യുന്ന",
+            "ta": "செய்கிற",
+            "tl": "na gumagawa",
+            "ps": "کوونکی",
+            "ro": "care face",
+            "ru": "делающий",
+            "fr": "qui fait",
+            "hi": "करने वाला",
+            "es": "que hace"
+           }
+          }
+         ],
+         "root": "lead",
+         "meaning": "Describing something that makes you believe a wrong thing, even when it does not exactly tell a lie.",
+         "example": "The graph was misleading because the y-axis started at 90, not at 0.",
+         "translations": {
+          "zh-Hans": "误导性的",
+          "zh-Hant": "誤導性的",
+          "ja": "誤解を招く",
+          "ko": "오해를 부르는(오도하는)",
+          "vi": "gây hiểu lầm",
+          "ar": "مضلل",
+          "fa": "گمراه‌کننده",
+          "ur": "گمراہ کن",
+          "am": "አሳሳች",
+          "ml": "തെറ്റിദ്ധരിപ്പിക്കുന്ന",
+          "ta": "தவறான எண்ணத்தைத் தரும்",
+          "tl": "nakalilinlang",
+          "ps": "ګمراه کوونکی",
+          "ro": "înșelător",
+          "ru": "вводящий в заблуждение",
+          "fr": "trompeur",
+          "hi": "भ्रामक",
+          "es": "engañoso"
          }
         }
        ],
@@ -435734,6 +435943,11 @@
      "misinformation",
      "vce/philosophy/unit-4-aos-2",
      "mis"
+    ],
+    [
+     "misleading",
+     "year-10/biology/epidemiology-pandemic-links",
+     "mis"
     ]
    ]
   },
@@ -475659,6 +475873,22 @@
     "patient"
    ]
   },
+  "ent|one who": {
+   "surface": "ent",
+   "variants": [
+    "ent"
+   ],
+   "type": "suffix",
+   "gloss": "one who",
+   "aka": [],
+   "words": [
+    [
+     "parent",
+     "year-10/biology/genetics",
+     "ent"
+    ]
+   ]
+  },
   "environ|surround": {
    "surface": "environ",
    "variants": [
@@ -487084,6 +487314,22 @@
    ],
    "extras": []
   },
+  "ing|doing/describing": {
+   "surface": "ing",
+   "variants": [
+    "ing"
+   ],
+   "type": "suffix",
+   "gloss": "doing, describing",
+   "aka": [],
+   "words": [
+    [
+     "misleading",
+     "year-10/biology/epidemiology-pandemic-links",
+     "ing"
+    ]
+   ]
+  },
   "initi|begin": {
    "surface": "initi",
    "variants": [
@@ -495152,6 +495398,22 @@
    ],
    "extras": []
   },
+  "lead|guide/take somewhere": {
+   "surface": "lead",
+   "variants": [
+    "lead"
+   ],
+   "type": "root",
+   "gloss": "guide, take somewhere",
+   "aka": [],
+   "words": [
+    [
+     "misleading",
+     "year-10/biology/epidemiology-pandemic-links",
+     "lead"
+    ]
+   ]
+  },
   "leak|escape out": {
    "surface": "leak",
    "variants": [
@@ -499987,6 +500249,11 @@
     [
      "misunderstanding",
      "elc/humanities/history",
+     "mis"
+    ],
+    [
+     "misleading",
+     "year-10/biology/epidemiology-pandemic-links",
      "mis"
     ]
    ],
@@ -505310,6 +505577,22 @@
     "parity",
     "disparity",
     "par"
+   ]
+  },
+  "par|give birth/produce": {
+   "surface": "par",
+   "variants": [
+    "par"
+   ],
+   "type": "root",
+   "gloss": "give birth, produce",
+   "aka": [],
+   "words": [
+    [
+     "parent",
+     "year-10/biology/genetics",
+     "par"
+    ]
    ]
   },
   "par|to appear/be visible": {
