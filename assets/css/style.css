@@ -783,3 +783,17 @@ a.dict-word:hover { background: rgba(0,0,0,.1); }
 /* Set picker on the learn board: the sets are a grouping, not a sequence. */
 .set-picker { display: flex; flex-wrap: wrap; gap: 5px; margin-bottom: 4px; }
 .set-chip { font-size: .78rem; padding: 3px 10px; }
+
+/* My words: each row is now revisable — translation beside the word, morpheme
+   chips with their glosses, and the meaning underneath. The meta line (unit,
+   streak, box, move buttons) drops to the bottom and stays quiet.
+   The row-direction reset matters: an earlier .wr-main rule sets
+   flex-direction:column and the later one never clears it, so without this the
+   translation drops under the word instead of sitting opposite it. */
+.wr-langbar { align-items: center; margin: -4px 0 4px; flex-wrap: wrap; }
+.word-list .wr-main { flex-direction: row; align-items: baseline; }
+.word-list .wr-trans { font-family: var(--serif); font-size: 1rem; text-align: right; }
+.word-list .wr-morphs { margin-top: 6px; }
+.word-list .wr-def { margin: 6px 0 0; font-size: .89rem; line-height: 1.4; }
+.word-list .wr-meta { flex-wrap: wrap; gap: 8px; margin-top: 8px; padding-top: 7px;
+  border-top: 1px solid var(--line-soft); }

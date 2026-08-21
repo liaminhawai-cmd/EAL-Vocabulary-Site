@@ -2480,9 +2480,37 @@ const BIN_META = {
   mastered: { icon: '⭐', name: 'Mastered', note: 'out of the revision pile' },
 };
 
+// A collection item stores only path + word; the full record (parts, meaning,
+// translations) lives in the unit it came from.
+function collectionWord(it) {
+  const { unit } = resolvePath(it.path);
+  return (unit && unit.words.find((x) => x.word === it.word)) || null;
+}
+// A morpheme chip for the word list: tappable into the family panel like the
+// browse view, but carrying its gloss and L1 translation like the study view.
+// This list is what a student revises from, so the meaning belongs ON the chip
+// rather than one tap away.
+function myWordMorphChip(part, word, lang) {
+  const native = pickExact(part.translations, lang);
+  const fam = FAMILY_TYPES.has(part.type) ? morphemeFamily(part) : null;
+  const inner = [
+    ...spellingChip(part),
+    h('i', { class: 'mo-gloss' }, part.meaning || '', native ? ' \u00b7 ' + native : ''),
+    ...glossAlts(part, word),
+  ];
+  if (!fam) return h('span', { class: ('mo-chip ' + (part.type || '')).trim() }, ...inner);
+  return h('button', {
+    type: 'button',
+    class: ('mo-chip ' + (part.type || '') + ' has-fam').trim(),
+    title: 'See ' + fam.words.length + ' words with \u201c' + part.surface + '\u201d',
+    onclick: (e) => { e.preventDefault(); e.stopPropagation(); openMorphemePanel(part); },
+  }, ...inner);
+}
+
 function renderWords() {
   const s = store.stats();
   const by = store.bins();
+  const lang = getLang();
 
   // Buttons to move a word into whichever bins it isn't already in.
   function moveBtns(it) {
@@ -2497,11 +2525,17 @@ function renderWords() {
   }
   function row(it) {
     const streak = it.streak || 0;
+    const w = collectionWord(it);
+    const tr = w && pickTranslation(w.translations, lang);
     return h('div', { class: 'word-row' },
       h('div', { class: 'wr-main' },
         h('span', { class: 'wr-word' }, it.word, say(it.word)),
-        h('span', { class: 'muted small' }, labelForPath(it.path))),
+        tr && h('span', { class: 'wr-trans' }, tr)),
+      w && (w.parts || []).length >= 2 && h('div', { class: 'wr-morphs' },
+        ...w.parts.map((pt) => myWordMorphChip(pt, w.word, lang))),
+      w && w.meaning && h('p', { class: 'wr-def' }, w.meaning),
       h('div', { class: 'wr-meta' },
+        h('span', { class: 'muted small' }, labelForPath(it.path)),
         streak >= 2 && h('span', { class: 'pill streak' }, `🔥 ${streak}`),
         it.mastered ? h('span', { class: 'pill good' }, 'Mastered') : h('span', { class: 'pill' }, `Box ${it.box}/5`),
         moveBtns(it)));
@@ -2525,6 +2559,9 @@ function renderWords() {
     h('div', { class: 'statbar' },
       stat('Total', s.total), stat('Mastered', s.mastered), stat('Learning', s.learning),
       store.dueForReview().length > 0 && h('a', { class: 'btn primary', href: '#/pick' }, 'Revise now')),
+    s.total > 0 && h('div', { class: 'row gap wr-langbar' },
+      h('span', { class: 'muted small' }, 'Translations in:'), langPicker(),
+      h('span', { class: 'muted small' }, '\u00b7 tap a word-part to see every word that shares it')),
     s.total === 0
       ? h('p', { class: 'muted' }, 'No words yet — build some from a unit to start your collection.')
       : h('div', { class: 'bins' }, ...store.BINS.map(binSection)),
