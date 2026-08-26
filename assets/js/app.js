@@ -2490,13 +2490,17 @@ function collectionWord(it) {
 // browse view, but carrying its gloss and L1 translation like the study view.
 // This list is what a student revises from, so the meaning belongs ON the chip
 // rather than one tap away.
-function myWordMorphChip(part, word, lang) {
-  const native = pickExact(part.translations, lang);
+// `compact` trims the chip for the tiled My-words cards: the word's own L1
+// translation already sits at the top of the card, and the homograph note is a
+// study-view nicety — on a 290px tile both wrap the chip onto a third line and
+// cost more room than the meaning underneath.
+function myWordMorphChip(part, word, lang, compact) {
+  const native = compact ? null : pickExact(part.translations, lang);
   const fam = FAMILY_TYPES.has(part.type) ? morphemeFamily(part) : null;
   const inner = [
     ...spellingChip(part),
     h('i', { class: 'mo-gloss' }, part.meaning || '', native ? ' \u00b7 ' + native : ''),
-    ...glossAlts(part, word),
+    ...(compact ? [] : glossAlts(part, word)),
   ];
   if (!fam) return h('span', { class: ('mo-chip ' + (part.type || '')).trim() }, ...inner);
   return h('button', {
@@ -2512,34 +2516,40 @@ function renderWords() {
   const by = store.bins();
   const lang = getLang();
 
-  // Buttons to move a word into whichever bins it isn't already in.
-  function moveBtns(it) {
-    const bin = store.binOf(it);
-    return h('div', { class: 'wr-move' },
-      h('span', { class: 'muted small' }, 'Move to:'),
-      ...store.BINS.filter((b) => b !== bin).map((b) =>
-        h('button', {
-          class: 'btn ghost xs', title: `Move “${it.word}” to ${BIN_META[b].name}`,
-          onclick: () => { store.moveToBin(it.key, b); renderWords(); },
-        }, `${BIN_META[b].icon} ${BIN_META[b].name}`)));
-  }
-  function row(it) {
+  // One collected word as a compact card. Everything a student revises from
+  // is here — translation, morphemes with their glosses, meaning — but the
+  // bookkeeping shrinks to icons so the cards tile instead of stacking. The
+  // old full-width rows fitted about four words on a screen; these fit ~15.
+  function card(it) {
     const streak = it.streak || 0;
     const w = collectionWord(it);
     const tr = w && pickTranslation(w.translations, lang);
-    return h('div', { class: 'word-row' },
-      h('div', { class: 'wr-main' },
+    const bin = store.binOf(it);
+    return h('div', { class: 'word-card' },
+      h('div', { class: 'wc-head' },
         h('span', { class: 'wr-word' }, it.word, say(it.word)),
-        tr && h('span', { class: 'wr-trans' }, tr)),
-      w && (w.parts || []).length >= 2 && h('div', { class: 'wr-morphs' },
-        ...w.parts.map((pt) => myWordMorphChip(pt, w.word, lang))),
-      w && w.meaning && h('p', { class: 'wr-def' }, w.meaning),
-      h('div', { class: 'wr-meta' },
-        h('span', { class: 'muted small' }, labelForPath(it.path)),
-        streak >= 2 && h('span', { class: 'pill streak' }, `🔥 ${streak}`),
-        it.mastered ? h('span', { class: 'pill good' }, 'Mastered') : h('span', { class: 'pill' }, `Box ${it.box}/5`),
-        moveBtns(it)));
+        tr && h('span', { class: 'wc-trans' }, tr)),
+      w && (w.parts || []).length >= 2 && h('div', { class: 'wc-morphs' },
+        ...w.parts.map((pt) => myWordMorphChip(pt, w.word, lang, true))),
+      w && w.meaning && h('p', { class: 'wc-def' }, w.meaning),
+      h('div', { class: 'wc-foot' },
+        h('span', { class: 'wc-unit', title: labelForPath(it.path) },
+          (resolvePath(it.path).subject || {}).name || labelForPath(it.path)),
+        streak >= 2 && h('span', { class: 'pill streak wc-pill' }, String(streak) + '\u{1f525}'),
+        it.mastered
+          ? h('span', { class: 'pill good wc-pill' }, 'Mastered')
+          : h('span', { class: 'pill wc-pill' }, it.box + '/5'),
+        // Icon-only: the label is in the tooltip, because on a tiled card the
+        // words "Move to: Consolidating" cost more room than the whole meaning.
+        ...store.BINS.filter((b) => b !== bin).map((b) =>
+          h('button', {
+            class: 'wc-move', type: 'button',
+            title: 'Move \u201c' + it.word + '\u201d to ' + BIN_META[b].name,
+            'aria-label': 'Move ' + it.word + ' to ' + BIN_META[b].name,
+            onclick: () => { store.moveToBin(it.key, b); renderWords(); },
+          }, BIN_META[b].icon))));
   }
+
   function binSection(binId) {
     const list = by[binId].sort((a, b) => (b.streak || 0) - (a.streak || 0)
       || a.path.localeCompare(b.path) || a.word.localeCompare(b.word));
@@ -2550,7 +2560,7 @@ function renderWords() {
         h('span', { class: 'pill' }, String(list.length)),
         h('span', { class: 'muted small' }, m.note)),
       list.length
-        ? h('div', { class: 'word-list' }, ...list.map(row))
+        ? h('div', { class: 'word-grid' }, ...list.map(card))
         : h('p', { class: 'muted small' }, 'Nothing here yet.'));
   }
   render(h('div', { class: 'stack' },
@@ -2829,48 +2839,186 @@ function dictSenseCard(e, q) {
   }
   return card;
 }
+// ---------------------------------------------------------------------------
+// WORD DICTIONARY — every word on the site, deduplicated across units
+// ---------------------------------------------------------------------------
+// The morpheme dictionary answers "what does this piece mean?". This answers
+// "what does this WORD mean, how does it break up, and where will I meet it?".
+// A word taught in five units is ONE dictionary entry with five locations —
+// that is what makes it a dictionary rather than a second copy of the lists.
+let WORD_INDEX = null;
+function wordIndex() {
+  if (WORD_INDEX) return WORD_INDEX;
+  const by = new Map();
+  for (const lvl of (DATA && DATA.levels) || []) {
+    for (const sub of lvl.subjects || []) {
+      for (const u of sub.units || []) {
+        for (const w of u.words || []) {
+          const k = w.word.trim().toLowerCase();
+          if (!by.has(k)) by.set(k, { word: w.word, best: w, places: [] });
+          const e = by.get(k);
+          e.places.push({ path: u.path, level: lvl, subject: sub, unit: u });
+          // The richest copy wins as the entry's face: parts first, then a
+          // meaning, then translations. Copies differ and the fullest is the
+          // one worth showing.
+          const score = (x) => ((x.parts || []).length ? 4 : 0) + (x.meaning ? 2 : 0)
+            + (Object.keys(x.translations || {}).length ? 1 : 0);
+          if (score(w) > score(e.best)) e.best = w;
+        }
+      }
+    }
+  }
+  WORD_INDEX = [...by.values()].sort((a, b) => a.word.localeCompare(b.word));
+  return WORD_INDEX;
+}
+// Scored so the word a student typed lands first, then words starting with it,
+// then meaning matches — and finally translation matches, so a student can
+// search in their OWN language and find the English word.
+function wordSearch(q, lang) {
+  if (!q) return [];
+  const out = [];
+  for (const e of wordIndex()) {
+    const w = e.word.toLowerCase();
+    let sc = 0;
+    if (w === q) sc = 1000;
+    else if (w.startsWith(q)) sc = 800;
+    else if (w.includes(q)) sc = 600;
+    if (!sc && (e.best.meaning || '').toLowerCase().includes(q)) sc = 400;
+    if (!sc) {
+      const trs = Object.values(e.best.translations || {});
+      if (trs.some((t) => String(t).toLowerCase().includes(q))) sc = 300;
+    }
+    if (!sc && (e.best.parts || []).some((pt) => (pt.surface || '').toLowerCase() === q)) sc = 250;
+    if (sc) out.push({ e, sc });
+  }
+  return out.sort((a, b) => b.sc - a.sc || a.e.word.localeCompare(b.e.word)).map((x) => x.e);
+}
+const WORD_CAP = 40;
+function dictWordCard(e, lang) {
+  const w = e.best;
+  const tr = pickTranslation(w.translations, lang);
+  const card = h('div', { class: 'dict-card' },
+    h('div', { class: 'dict-head' },
+      h('div', { class: 'dict-head-text' },
+        h('div', { class: 'dw-word' }, w.word, say(w.word)),
+        tr && h('div', { class: 'dw-trans' }, tr))));
+  if ((w.parts || []).length >= 2) {
+    add(card, h('div', { class: 'wc-morphs' },
+      ...w.parts.map((pt) => myWordMorphChip(pt, w.word, lang))));
+  }
+  if (w.meaning) add(card, h('p', { class: 'dw-def' }, w.meaning));
+  if (w.example) add(card, h('p', { class: 'dw-eg' }, '\u201c' + w.example + '\u201d'));
+  if (w.origin) {
+    add(card, h('details', { class: 'word-story compact' },
+      h('summary', {}, 'Word story'), h('p', {}, w.origin)));
+  }
+  // Where you will meet it — every unit that teaches it, each a live link.
+  add(card, h('p', { class: 'dw-places' },
+    h('span', { class: 'dict-tier-label' },
+      e.places.length === 1 ? 'Taught in' : 'Taught in ' + e.places.length + ' units'),
+    ...e.places.slice(0, 8).map((pl) => h('a', {
+      class: 'dw-place', href: '#/browse/' + pl.path,
+      title: labelForPath(pl.path),
+      // Level included: several levels teach a unit of the same name, so
+      // "Science - Photosynthesis" twice over reads as a duplicate rather than
+      // as the two different classes it actually is.
+    }, (pl.level.name || '') + ' \u00b7 ' + (pl.subject.name || '')
+       + ' \u00b7 ' + (pl.unit.name || pl.unit.id))),
+    e.places.length > 8 && h('span', { class: 'muted small' },
+      ' +' + (e.places.length - 8) + ' more')));
+  return card;
+}
+
 function renderDictionary() {
-  let q = (new URLSearchParams((window.location.hash.split('?')[1] || ''))).get('q') || '';
+  const params = new URLSearchParams(window.location.hash.split('?')[1] || '');
+  let q = params.get('q') || '';
+  let tab = params.get('tab') === 'words' ? 'words' : 'parts';
   let typeFilter = '';
+  const lang = getLang();
 
   const input = h('input', {
     class: 'field dict-search', type: 'search', value: q,
-    placeholder: 'Search a word-part, a meaning, or a whole word…',
-    'aria-label': 'Search morphemes',
+    'aria-label': 'Search the dictionary',
   });
   const results = h('div', { class: 'dict-results' });
   const summary = h('p', { class: 'muted small' });
+  const filterBar = h('div', { class: 'bin-filter' });
+  const tabBar = h('div', { class: 'dict-tabs', role: 'tablist' });
+
+  function syncHash() {
+    // Keep the tab and query in the URL so a search is linkable and the back
+    // button steps between tabs the way a student expects.
+    const qs = new URLSearchParams();
+    if (tab === 'words') qs.set('tab', 'words');
+    if (q.trim()) qs.set('q', q.trim());
+    const str = qs.toString();
+    const next = '#/dictionary' + (str ? '?' + str : '');
+    if (window.location.hash !== next) {
+      history.replaceState(null, '', next);
+    }
+  }
+
+  function drawTabs() {
+    tabBar.innerHTML = '';
+    for (const [id, label] of [['parts', 'Word parts'], ['words', 'Words']]) {
+      add(tabBar, h('button', {
+        class: 'dict-tab' + (tab === id ? ' active' : ''),
+        type: 'button', role: 'tab', 'aria-selected': String(tab === id),
+        onclick: () => { if (tab === id) return; tab = id; typeFilter = ''; draw(); input.focus(); },
+      }, label));
+    }
+  }
 
   function draw() {
+    drawTabs();
     const term = q.trim().toLowerCase();
-    const hits = dictSearch(term, typeFilter);
     results.innerHTML = '';
-    summary.textContent = q.trim()
-      ? (hits.length ? `${hits.length} matching word-part${hits.length === 1 ? '' : 's'}`
-                     : 'Nothing matched — try a shorter piece, or a meaning like “water”.')
-      : 'The pieces that build the most words. Start typing to search all '
-        + Object.keys((DATA && DATA.morpheme_dictionary) || {}).length + '.';
-    for (const e of hits) add(results, dictSenseCard(e, term));
+    filterBar.innerHTML = '';
+    input.placeholder = tab === 'parts'
+      ? 'Search a word-part, a meaning, or a whole word\u2026'
+      : 'Search a word, a meaning, or your own language\u2026';
+
+    if (tab === 'parts') {
+      for (const [label, val] of [['Prefixes', 'prefix'], ['Roots', 'root'], ['Suffixes', 'suffix']]) {
+        add(filterBar, h('button', {
+          class: 'bin-chip dict-type' + (typeFilter === val ? ' active' : ''),
+          type: 'button',
+          onclick: () => { typeFilter = typeFilter === val ? '' : val; draw(); },
+        }, label));
+      }
+      const hits = dictSearch(term, typeFilter);
+      summary.textContent = term
+        ? (hits.length ? hits.length + ' matching word-part' + (hits.length === 1 ? '' : 's')
+                       : 'Nothing matched \u2014 try a shorter piece, or a meaning like \u201cwater\u201d.')
+        : 'The pieces that build the most words. Start typing to search all '
+          + Object.keys((DATA && DATA.morpheme_dictionary) || {}).length + '.';
+      for (const e of hits) add(results, dictSenseCard(e, term));
+    } else {
+      const all = wordIndex();
+      if (!term) {
+        summary.textContent = 'Every word on the site. Start typing to search all '
+          + all.length + ' \u2014 in English, by meaning, or in your own language.';
+      } else {
+        const hits = wordSearch(term, lang);
+        summary.textContent = hits.length
+          ? hits.length + ' matching word' + (hits.length === 1 ? '' : 's')
+            + (hits.length > WORD_CAP ? ' \u2014 showing the closest ' + WORD_CAP : '')
+          : 'Nothing matched \u2014 try part of the word, or its meaning.';
+        for (const e of hits.slice(0, WORD_CAP)) add(results, dictWordCard(e, lang));
+      }
+    }
+    syncHash();
   }
   input.oninput = () => { q = input.value; draw(); };
 
-  const chip = (label, val) => h('button', {
-    class: `bin-chip dict-type${typeFilter === val ? ' active' : ''}`,
-    onclick: (ev) => {
-      typeFilter = typeFilter === val ? '' : val;
-      for (const b of ev.target.parentElement.children) b.classList.remove('active');
-      if (typeFilter) ev.target.classList.add('active');
-      draw();
-    },
-  }, label);
-
   render(h('div', { class: 'stack' },
-    crumb([['Home', '#/'], ['Morpheme dictionary', null]]),
-    h('h1', {}, 'Morpheme dictionary'),
+    crumb([['Home', '#/'], ['Dictionary', null]]),
+    h('h1', {}, 'Dictionary'),
     h('p', { class: 'muted' },
-      'Every prefix, root and suffix on the site — what it means, and which words use it.'),
+      'Two ways in: the word-parts that build the language, and every word the site teaches.'),
+    tabBar,
     input,
-    h('div', { class: 'bin-filter' }, chip('Prefixes', 'prefix'), chip('Roots', 'root'), chip('Suffixes', 'suffix')),
+    filterBar,
     summary,
     results));
   draw();
