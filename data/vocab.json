@@ -63256,24 +63256,24 @@
            "type": "root",
            "meaning": "study/word",
            "translations": {
-            "am": "ግንኙነት",
-            "ar": "علاقة",
-            "es": "relación/proporción",
-            "fa": "نسبت",
-            "fr": "relation",
-            "hi": "संबंध",
-            "ja": "関係",
-            "ko": "관계",
-            "ml": "ബന്ധം",
-            "ps": "اړیکه",
-            "ro": "relație",
-            "ru": "отношение",
-            "ta": "தொடர்பு",
-            "tl": "relasyon",
-            "ur": "تعلق",
-            "vi": "quan hệ",
-            "zh-Hans": "关系",
-            "zh-Hant": "關係"
+            "am": "ጥናት",
+            "ar": "دراسة",
+            "es": "estudio",
+            "fa": "مطالعه",
+            "fr": "étude",
+            "hi": "अध्ययन",
+            "ja": "学問",
+            "ko": "학문",
+            "ml": "പഠനം",
+            "ps": "مطالعه",
+            "ro": "studiu",
+            "ru": "изучение",
+            "ta": "ஆய்வு",
+            "tl": "pag-aaral",
+            "ur": "مطالعہ",
+            "vi": "nghiên cứu",
+            "zh-Hans": "研究",
+            "zh-Hant": "研究"
            }
           },
           {
@@ -121525,24 +121525,24 @@
            "type": "root",
            "meaning": "study/word",
            "translations": {
-            "am": "ግንኙነት",
-            "ar": "علاقة",
-            "es": "relación/proporción",
-            "fa": "نسبت",
-            "fr": "relation",
-            "hi": "संबंध",
-            "ja": "関係",
-            "ko": "관계",
-            "ml": "ബന്ധം",
-            "ps": "اړیکه",
-            "ro": "relație",
-            "ru": "отношение",
-            "ta": "தொடர்பு",
-            "tl": "relasyon",
-            "ur": "تعلق",
-            "vi": "quan hệ",
-            "zh-Hans": "关系",
-            "zh-Hant": "關係"
+            "am": "ጥናት",
+            "ar": "دراسة",
+            "es": "estudio",
+            "fa": "مطالعه",
+            "fr": "étude",
+            "hi": "अध्ययन",
+            "ja": "学問",
+            "ko": "학문",
+            "ml": "പഠനം",
+            "ps": "مطالعه",
+            "ro": "studiu",
+            "ru": "изучение",
+            "ta": "ஆய்வு",
+            "tl": "pag-aaral",
+            "ur": "مطالعہ",
+            "vi": "nghiên cứu",
+            "zh-Hans": "研究",
+            "zh-Hant": "研究"
            }
           },
           {
@@ -194022,24 +194022,24 @@
            "type": "root",
            "meaning": "study/word",
            "translations": {
-            "am": "ግንኙነት",
-            "ar": "علاقة",
-            "es": "relación/proporción",
-            "fa": "نسبت",
-            "fr": "relation",
-            "hi": "संबंध",
-            "ja": "関係",
-            "ko": "관계",
-            "ml": "ബന്ധം",
-            "ps": "اړیکه",
-            "ro": "relație",
-            "ru": "отношение",
-            "ta": "தொடர்பு",
-            "tl": "relasyon",
-            "ur": "تعلق",
-            "vi": "quan hệ",
-            "zh-Hans": "关系",
-            "zh-Hant": "關係"
+            "am": "ጥናት",
+            "ar": "دراسة",
+            "es": "estudio",
+            "fa": "مطالعه",
+            "fr": "étude",
+            "hi": "अध्ययन",
+            "ja": "学問",
+            "ko": "학문",
+            "ml": "പഠനം",
+            "ps": "مطالعه",
+            "ro": "studiu",
+            "ru": "изучение",
+            "ta": "ஆய்வு",
+            "tl": "pag-aaral",
+            "ur": "مطالعہ",
+            "vi": "nghiên cứu",
+            "zh-Hans": "研究",
+            "zh-Hant": "研究"
            }
           },
           {
@@ -258872,7 +258872,7 @@
            "translations": {
             "zh-Hans": "特性",
             "zh-Hant": "特徵",
-            "vi": "đặc性",
+            "vi": "đặc trưng",
             "ar": "خاصية",
             "fa": "ویژگی",
             "ml": "പ്രത്യേകത",
@@ -304980,7 +304980,7 @@
        "interactive": false,
        "words": [
         {
-         "word": "absemt-minded",
+         "word": "absent-minded",
          "parts": [],
          "root": "",
          "meaning": "",
@@ -309379,8 +309379,84 @@
         },
         {
          "word": "reveals",
-         "parts": [],
-         "root": "",
+         "parts": [
+          {
+           "surface": "re",
+           "type": "prefix",
+           "meaning": "back",
+           "translations": {
+            "am": "ወደኋላ",
+            "ar": "إلى الخلف",
+            "es": "atrás",
+            "fa": "دوباره",
+            "fr": "arrière",
+            "hi": "पीछे",
+            "ja": "後ろ",
+            "ko": "뒤로",
+            "ml": "പിന്നിൽ",
+            "ps": "شاته",
+            "ro": "înapoi",
+            "ru": "назад",
+            "ta": "பின்னால்",
+            "tl": "pabalik",
+            "ur": "پیچھے",
+            "vi": "lùi",
+            "zh-Hans": "回",
+            "zh-Hant": "回"
+           }
+          },
+          {
+           "surface": "veal",
+           "type": "root",
+           "meaning": "veil/cover",
+           "translations": {
+            "zh-Hans": "面纱/遮盖",
+            "zh-Hant": "面紗/遮蓋",
+            "ja": "ベール/覆い",
+            "ko": "베일/덮개",
+            "vi": "mạng che/che phủ",
+            "ar": "حجاب/غطاء",
+            "fa": "نقاب/پوشش",
+            "ur": "نقاب/پردہ",
+            "am": "መጋረጃ/ሽፋን",
+            "ml": "മൂടുപടം",
+            "ta": "முக்காடு/மறைப்பு",
+            "tl": "belo/takip",
+            "ps": "پرده/پوښښ",
+            "ro": "văl/acoperământ",
+            "ru": "вуаль/покров",
+            "fr": "voile/couverture",
+            "hi": "घूंघट/आवरण",
+            "es": "velo/cobertura"
+           }
+          },
+          {
+           "surface": "s",
+           "type": "suffix",
+           "meaning": "present tense with he/she/it",
+           "translations": {
+            "zh-Hans": "第三人称单数现在时",
+            "ja": "三人称単数現在",
+            "fa": "نشانهٔ سوم‌شخص مفرد حال",
+            "vi": "dấu hiện tại ngôi thứ ba số ít",
+            "zh-Hant": "第三人稱單數現在時",
+            "ko": "3인칭 단수 현재형",
+            "ar": "لاحقة الغائب المفرد",
+            "ur": "واحد غائب کا لاحقہ",
+            "am": "የሶስተኛ ሰው ነጠላ ማድረጊያ",
+            "ml": "മൂന്നാം പുരുഷ ഏകവചന പ്രത്യയം",
+            "ta": "மூன்றாம் நபர் ஒருமை விகுதி",
+            "tl": "panlaping pangkasalukuyan",
+            "ps": "د دریم کس یووالي شاخه",
+            "ro": "sufix pentru persoana a treia singular",
+            "ru": "суффикс 3-го лица ед.ч.",
+            "fr": "suffixe de la 3e personne du singulier",
+            "hi": "तृतीय पुरुष एकवचन प्रत्यय",
+            "es": "sufijo de tercera persona singular"
+           }
+          }
+         ],
+         "root": "veal",
          "meaning": "",
          "example": "",
          "tier": 2,
@@ -310966,34 +311042,6 @@
          }
         },
         {
-         "word": "bullet(in)",
-         "parts": [],
-         "root": "",
-         "meaning": "",
-         "example": "",
-         "tier": 2,
-         "translations": {
-          "ja": "速報",
-          "zh-Hans": "公告",
-          "fa": "گلوله",
-          "vi": "bản tin",
-          "zh-Hant": "公告",
-          "am": "ማስታወቂያ (ቡሌቲን)",
-          "ar": "النشرة",
-          "es": "boletín",
-          "fr": "bulletin",
-          "hi": "बुलेटिन (सूचना पत्र)",
-          "ko": "속보(공고)",
-          "ml": "ബുള്ളറ്റിൻ",
-          "ps": "خبرپاڼه",
-          "ro": "buletin",
-          "ru": "бюллетень (сводка)",
-          "ta": "செய்திக்குறிப்பு",
-          "tl": "balita (bulletin)",
-          "ur": "خبرنامہ"
-         }
-        },
-        {
          "word": "bulletin",
          "parts": [],
          "root": "",
@@ -311023,8 +311071,59 @@
         },
         {
          "word": "burdened",
-         "parts": [],
-         "root": "",
+         "parts": [
+          {
+           "surface": "burden",
+           "type": "root",
+           "meaning": "a heavy load",
+           "translations": {
+            "zh-Hans": "负担",
+            "zh-Hant": "負擔",
+            "ja": "重荷",
+            "ko": "짐",
+            "vi": "gánh nặng",
+            "ar": "عبء",
+            "fa": "بار",
+            "ur": "بوجھ",
+            "am": "ሸክም",
+            "ml": "ഭാരം",
+            "ta": "சுமை",
+            "tl": "pasanin",
+            "ps": "پېټی",
+            "ro": "povară",
+            "ru": "бремя",
+            "fr": "fardeau",
+            "hi": "बोझ",
+            "es": "carga"
+           }
+          },
+          {
+           "surface": "ed",
+           "type": "suffix",
+           "meaning": "having been (makes an adjective)",
+           "translations": {
+            "am": "የተለወጠ ወይም ቅርጽ ያለው",
+            "ar": "محوّل إلى / له شكل",
+            "es": "convertido en/con la forma de",
+            "fa": "تبدیل‌شده به / دارای شکل",
+            "fr": "transformé en / ayant la forme de",
+            "hi": "में परिवर्तित / रूप वाला",
+            "ja": "〜にされた・〜の形をした",
+            "ko": "만들어진 상태·형태를 가진",
+            "ml": "ആക്കിയത് / രൂപമുള്ളത്",
+            "ps": "بدل شوی / بڼه لرونکی",
+            "ro": "transformat în / având forma de",
+            "ru": "превращённый в / имеющий форму",
+            "ta": "மாற்றப்பட்டது / வடிவம் கொண்டது",
+            "tl": "ginawang / may hugis ng",
+            "ur": "میں تبدیل شدہ / شکل رکھنے والا",
+            "vi": "được biến thành / có dạng",
+            "zh-Hans": "使成为…的;具有…形式的",
+            "zh-Hant": "使成為…的;具有…形式的"
+           }
+          }
+         ],
+         "root": "burden",
          "meaning": "",
          "example": "",
          "tier": 2,
@@ -311856,8 +311955,59 @@
         },
         {
          "word": "escaped",
-         "parts": [],
-         "root": "",
+         "parts": [
+          {
+           "surface": "escape",
+           "type": "root",
+           "meaning": "get free",
+           "translations": {
+            "zh-Hans": "逃脱",
+            "zh-Hant": "逃脫",
+            "ja": "逃げる",
+            "ko": "탈출하다",
+            "vi": "trốn thoát",
+            "ar": "يهرب",
+            "fa": "فرار کردن",
+            "ur": "فرار ہونا",
+            "am": "ማምለጥ",
+            "ml": "രക്ഷപ്പെടുക",
+            "ta": "தப்பித்தல்",
+            "tl": "makatakas",
+            "ps": "تښتېدل",
+            "ro": "a scăpa",
+            "ru": "сбежать",
+            "fr": "s'échapper",
+            "hi": "भाग निकलना",
+            "es": "escapar"
+           }
+          },
+          {
+           "surface": "ed",
+           "type": "suffix",
+           "meaning": "past tense",
+           "translations": {
+            "vi": "đã",
+            "am": "ያለፈ",
+            "ar": "ماضي",
+            "es": "tiempo pasado",
+            "fa": "گذشته",
+            "fr": "passé",
+            "hi": "भूतकाल",
+            "ja": "過去形",
+            "ko": "과거형",
+            "ml": "കഴിഞ്ഞ",
+            "ps": "تیر مهال",
+            "ro": "timpul trecut",
+            "ru": "прошедшее время",
+            "ta": "இறந்த காலம்",
+            "tl": "nakaraang panahunan",
+            "ur": "گزشتہ",
+            "zh-Hans": "过去",
+            "zh-Hant": "過去"
+           }
+          }
+         ],
+         "root": "escape",
          "meaning": "",
          "example": "",
          "tier": 2,
@@ -312416,8 +312566,60 @@
         },
         {
          "word": "handicapper",
-         "parts": [],
-         "root": "",
+         "parts": [
+          {
+           "surface": "handicap",
+           "type": "root",
+           "meaning": "a disadvantage placed on someone",
+           "translations": {
+            "zh-Hans": "不利条件",
+            "zh-Hant": "不利條件",
+            "ja": "ハンディキャップ",
+            "ko": "불리한 조건",
+            "vi": "sự bất lợi",
+            "ar": "إعاقة",
+            "fa": "محدودیت",
+            "ur": "رکاوٹ",
+            "am": "እንቅፋት",
+            "ml": "പ്രതിബന്ധം",
+            "ta": "இடையூறு",
+            "tl": "kapansanan",
+            "ps": "خنډ",
+            "ro": "handicap",
+            "ru": "гандикап",
+            "fr": "handicap",
+            "hi": "बाधा",
+            "es": "desventaja"
+           }
+          },
+          {
+           "surface": "er",
+           "type": "suffix",
+           "meaning": "one who",
+           "translations": {
+            "vi": "người",
+            "am": "ሰው",
+            "ar": "شخص",
+            "es": "persona que",
+            "fa": "شخص",
+            "fr": "personne qui",
+            "hi": "व्यक्ति जो",
+            "ja": "~する人",
+            "ko": "~하는 사람",
+            "ml": "ആൾ",
+            "ps": "هغه څوک چې",
+            "ro": "persoană care",
+            "ru": "тот, кто",
+            "ta": "செய்பவர்",
+            "tl": "taong",
+            "ur": "کرنے والا",
+            "zh-Hans": "人",
+            "zh-Hant": "人",
+            "other": "کننده"
+           }
+          }
+         ],
+         "root": "handicap",
          "meaning": "",
          "example": "",
          "tier": 2,
@@ -313583,8 +313785,59 @@
         },
         {
          "word": "scattered",
-         "parts": [],
-         "root": "",
+         "parts": [
+          {
+           "surface": "scatter",
+           "type": "root",
+           "meaning": "throw about widely",
+           "translations": {
+            "zh-Hans": "散开",
+            "zh-Hant": "散開",
+            "ja": "まき散らす",
+            "ko": "흩뿌리다",
+            "vi": "rải rác",
+            "ar": "يبعثر",
+            "fa": "پراکندن",
+            "ur": "بکھیرنا",
+            "am": "መበተን",
+            "ml": "ചിതറിക്കുക",
+            "ta": "சிதறடித்தல்",
+            "tl": "magkalat",
+            "ps": "شیندل",
+            "ro": "a împrăștia",
+            "ru": "разбрасывать",
+            "fr": "éparpiller",
+            "hi": "बिखेरना",
+            "es": "esparcir"
+           }
+          },
+          {
+           "surface": "ed",
+           "type": "suffix",
+           "meaning": "past tense",
+           "translations": {
+            "vi": "đã",
+            "am": "ያለፈ",
+            "ar": "ماضي",
+            "es": "tiempo pasado",
+            "fa": "گذشته",
+            "fr": "passé",
+            "hi": "भूतकाल",
+            "ja": "過去形",
+            "ko": "과거형",
+            "ml": "കഴിഞ്ഞ",
+            "ps": "تیر مهال",
+            "ro": "timpul trecut",
+            "ru": "прошедшее время",
+            "ta": "இறந்த காலம்",
+            "tl": "nakaraang panahunan",
+            "ur": "گزشتہ",
+            "zh-Hans": "过去",
+            "zh-Hant": "過去"
+           }
+          }
+         ],
+         "root": "scatter",
          "meaning": "",
          "example": "",
          "tier": 2,
@@ -315007,8 +315260,59 @@
         },
         {
          "word": "winced",
-         "parts": [],
-         "root": "",
+         "parts": [
+          {
+           "surface": "wince",
+           "type": "root",
+           "meaning": "flinch in pain",
+           "translations": {
+            "zh-Hans": "痛得畏缩",
+            "zh-Hant": "痛得畏縮",
+            "ja": "ひるむ",
+            "ko": "움찔하다",
+            "vi": "nhăn mặt vì đau",
+            "ar": "يجفل من الألم",
+            "fa": "از درد جمع شدن",
+            "ur": "درد سے سٹپٹانا",
+            "am": "በሕመም መሸማቀቅ",
+            "ml": "വേദനയാൽ ചുളിയുക",
+            "ta": "வலியால் சுருங்குதல்",
+            "tl": "mangiwi sa sakit",
+            "ps": "له دردهه ټکېدل",
+            "ro": "a tresări de durere",
+            "ru": "вздрогнуть от боли",
+            "fr": "tressaillir de douleur",
+            "hi": "दर्द से सिहरना",
+            "es": "hacer una mueca de dolor"
+           }
+          },
+          {
+           "surface": "ed",
+           "type": "suffix",
+           "meaning": "past tense",
+           "translations": {
+            "vi": "đã",
+            "am": "ያለፈ",
+            "ar": "ماضي",
+            "es": "tiempo pasado",
+            "fa": "گذشته",
+            "fr": "passé",
+            "hi": "भूतकाल",
+            "ja": "過去形",
+            "ko": "과거형",
+            "ml": "കഴിഞ്ഞ",
+            "ps": "تیر مهال",
+            "ro": "timpul trecut",
+            "ru": "прошедшее время",
+            "ta": "இறந்த காலம்",
+            "tl": "nakaraang panahunan",
+            "ur": "گزشتہ",
+            "zh-Hans": "过去",
+            "zh-Hant": "過去"
+           }
+          }
+         ],
+         "root": "wince",
          "meaning": "",
          "example": "",
          "tier": 2,
@@ -329007,8 +329311,109 @@
           "ru": "защитные очки",
           "es": "gafas de seguridad"
          },
-         "parts": [],
-         "root": "",
+         "parts": [
+          {
+           "surface": "safe",
+           "type": "root",
+           "meaning": "free from danger",
+           "translations": {
+            "zh-Hans": "安全",
+            "zh-Hant": "安全",
+            "ja": "安全な",
+            "ko": "안전한",
+            "vi": "an toàn",
+            "ar": "آمن",
+            "fa": "ایمن",
+            "ur": "محفوظ",
+            "am": "ደኅንነቱ የተጠበቀ",
+            "ml": "സുരക്ഷിതം",
+            "ta": "பாதுகாப்பான",
+            "tl": "ligtas",
+            "ps": "خوندي",
+            "ro": "sigur",
+            "ru": "безопасный",
+            "fr": "sûr",
+            "hi": "सुरक्षित",
+            "es": "seguro"
+           }
+          },
+          {
+           "surface": "ty",
+           "type": "suffix",
+           "meaning": "state of",
+           "translations": {
+            "am": "ሁኔታ",
+            "ar": "حالة",
+            "es": "estado de",
+            "fa": "حالت",
+            "fr": "état de",
+            "hi": "अवस्था",
+            "ja": "状態",
+            "ko": "상태",
+            "ml": "അവസ്ഥ",
+            "ps": "حالت",
+            "ro": "stare de",
+            "ru": "состояние",
+            "ta": "நிலை",
+            "tl": "kalagayan",
+            "ur": "حالت",
+            "vi": "trạng thái",
+            "zh-Hans": "状态",
+            "zh-Hant": "狀態"
+           }
+          },
+          {
+           "surface": "glass",
+           "type": "root",
+           "meaning": "hard clear material",
+           "translations": {
+            "zh-Hans": "玻璃",
+            "zh-Hant": "玻璃",
+            "ja": "ガラス",
+            "ko": "유리",
+            "vi": "thủy tinh",
+            "ar": "زجاج",
+            "fa": "شیشه",
+            "ur": "شیشہ",
+            "am": "መስታወት",
+            "ml": "ഗ്ലാസ്",
+            "ta": "கண்ணாடி",
+            "tl": "salamin",
+            "ps": "ښیښه",
+            "ro": "sticlă",
+            "ru": "стекло",
+            "fr": "verre",
+            "hi": "काँच",
+            "es": "vidrio"
+           }
+          },
+          {
+           "surface": "es",
+           "type": "suffix",
+           "meaning": "plural",
+           "translations": {
+            "fa": "جمع",
+            "am": "ብዙ ቁጥር",
+            "ar": "جمع",
+            "es": "plural",
+            "fr": "pluriel",
+            "hi": "बहुवचन",
+            "ja": "複数",
+            "ko": "복수",
+            "ml": "ബഹുവചനം",
+            "ps": "جمع",
+            "ro": "plural",
+            "ru": "множественное число",
+            "ta": "பன்மை",
+            "tl": "maramihan",
+            "ur": "جمع",
+            "vi": "số nhiều",
+            "zh-Hans": "复数",
+            "zh-Hant": "複數"
+           }
+          }
+         ],
+         "root": "safe",
          "example": "",
          "tier": 2
         },
@@ -329035,8 +329440,59 @@
           "ru": "оборудование",
           "es": "equipo"
          },
-         "parts": [],
-         "root": "",
+         "parts": [
+          {
+           "surface": "equip",
+           "type": "root",
+           "meaning": "supply what is needed",
+           "translations": {
+            "zh-Hans": "装备",
+            "zh-Hant": "裝備",
+            "ja": "備え付ける",
+            "ko": "갖추다",
+            "vi": "trang bị",
+            "ar": "يجهّز",
+            "fa": "تجهیز کردن",
+            "ur": "سازوسامان مہیا کرنا",
+            "am": "ማስታጠቅ",
+            "ml": "സജ്ജമാക്കുക",
+            "ta": "தளவாடம் வழங்குதல்",
+            "tl": "bigyan ng kagamitan",
+            "ps": "سمبالول",
+            "ro": "a echipa",
+            "ru": "снаряжать",
+            "fr": "équiper",
+            "hi": "सुसज्जित करना",
+            "es": "equipar"
+           }
+          },
+          {
+           "surface": "ment",
+           "type": "suffix",
+           "meaning": "result of",
+           "translations": {
+            "am": "ውጤት",
+            "ar": "نتيجة",
+            "es": "resultado de",
+            "fa": "نتیجه",
+            "fr": "résultat de",
+            "hi": "परिणाम",
+            "ja": "結果",
+            "ko": "결과",
+            "ml": "ഫലം",
+            "ps": "پایله",
+            "ro": "rezultat",
+            "ru": "результат",
+            "ta": "விளைவு",
+            "tl": "resulta",
+            "ur": "نتیجہ",
+            "vi": "kết quả",
+            "zh-Hans": "结果",
+            "zh-Hant": "結果"
+           }
+          }
+         ],
+         "root": "equip",
          "example": "",
          "tier": 2
         },
@@ -329375,7 +329831,7 @@
           "ur": "چمٹا",
           "ps": "پینسه",
           "am": "መጭመቂያ",
-          "ml": "ട്ടോங்ஸ்",
+          "ml": "ചവണ (ടോങ്സ്)",
           "ta": "இடுக்கி",
           "hi": "चिमटा",
           "tl": "tenacillas",
@@ -329491,8 +329947,60 @@
           "ru": "горелка Бунзена",
           "es": "mechero Bunsen"
          },
-         "parts": [],
-         "root": "",
+         "parts": [
+          {
+           "surface": "burn",
+           "type": "root",
+           "meaning": "be on fire",
+           "translations": {
+            "zh-Hans": "燃烧",
+            "zh-Hant": "燃燒",
+            "ja": "燃える",
+            "ko": "타다",
+            "vi": "cháy",
+            "ar": "يحترق",
+            "fa": "سوختن",
+            "ur": "جلنا",
+            "am": "ማቃጠል",
+            "ml": "കത്തുക",
+            "ta": "எரிதல்",
+            "tl": "masunog",
+            "ps": "سوځېدل",
+            "ro": "a arde",
+            "ru": "гореть",
+            "fr": "brûler",
+            "hi": "जलना",
+            "es": "arder"
+           }
+          },
+          {
+           "surface": "er",
+           "type": "suffix",
+           "meaning": "thing that does",
+           "translations": {
+            "am": "የሚሠራ ሰው/ነገር",
+            "ar": "فاعل",
+            "es": "cosa que hace",
+            "fa": "انجام‌دهنده",
+            "fr": "celui qui fait",
+            "hi": "करने वाला",
+            "ja": "〜する人・物",
+            "ko": "~하는 사람/것",
+            "ml": "കർത്താവ്",
+            "ps": "کوونکی",
+            "ro": "făcător",
+            "ru": "деятель",
+            "ta": "செய்பவர்",
+            "tl": "tagagawa",
+            "ur": "کرنے والا",
+            "vi": "người/vật thực hiện",
+            "zh-Hans": "做…的人或物",
+            "zh-Hant": "做…的人或物",
+            "other": "کننده"
+           }
+          }
+         ],
+         "root": "burn",
          "example": "",
          "tier": 2
         },
@@ -329575,8 +330083,59 @@
           "ru": "защитное пламя",
           "es": "llama de seguridad"
          },
-         "parts": [],
-         "root": "",
+         "parts": [
+          {
+           "surface": "safe",
+           "type": "root",
+           "meaning": "free from danger",
+           "translations": {
+            "zh-Hans": "安全",
+            "zh-Hant": "安全",
+            "ja": "安全な",
+            "ko": "안전한",
+            "vi": "an toàn",
+            "ar": "آمن",
+            "fa": "ایمن",
+            "ur": "محفوظ",
+            "am": "ደኅንነቱ የተጠበቀ",
+            "ml": "സുരക്ഷിതം",
+            "ta": "பாதுகாப்பான",
+            "tl": "ligtas",
+            "ps": "خوندي",
+            "ro": "sigur",
+            "ru": "безопасный",
+            "fr": "sûr",
+            "hi": "सुरक्षित",
+            "es": "seguro"
+           }
+          },
+          {
+           "surface": "ty",
+           "type": "suffix",
+           "meaning": "state of",
+           "translations": {
+            "am": "ሁኔታ",
+            "ar": "حالة",
+            "es": "estado de",
+            "fa": "حالت",
+            "fr": "état de",
+            "hi": "अवस्था",
+            "ja": "状態",
+            "ko": "상태",
+            "ml": "അവസ്ഥ",
+            "ps": "حالت",
+            "ro": "stare de",
+            "ru": "состояние",
+            "ta": "நிலை",
+            "tl": "kalagayan",
+            "ur": "حالت",
+            "vi": "trạng thái",
+            "zh-Hans": "状态",
+            "zh-Hant": "狀態"
+           }
+          }
+         ],
+         "root": "safe",
          "example": "",
          "tier": 2
         },
@@ -329603,8 +330162,59 @@
           "ru": "нагревающее пламя",
           "es": "llama de calentamiento"
          },
-         "parts": [],
-         "root": "",
+         "parts": [
+          {
+           "surface": "heat",
+           "type": "root",
+           "meaning": "high temperature",
+           "translations": {
+            "zh-Hans": "热",
+            "zh-Hant": "熱",
+            "vi": "nhiệt",
+            "ar": "حرارة",
+            "fa": "گرما",
+            "ml": "ചൂട്",
+            "am": "ሙቀት",
+            "es": "calor",
+            "fr": "chaleur",
+            "hi": "ऊष्मा",
+            "ja": "熱",
+            "ko": "열",
+            "ps": "تودوخه",
+            "ro": "căldură",
+            "ru": "тепло",
+            "ta": "வெப்பம்",
+            "tl": "init",
+            "ur": "حرارت"
+           }
+          },
+          {
+           "surface": "ing",
+           "type": "suffix",
+           "meaning": "action / process",
+           "translations": {
+            "vi": "hành động / quá trình",
+            "zh-Hans": "行为 / 过程",
+            "ja": "行為 / 過程",
+            "zh-Hant": "行爲 / 過程",
+            "am": "ሂደት",
+            "ar": "عملية",
+            "es": "acción/proceso",
+            "fa": "فرآیند / عمل",
+            "fr": "action de",
+            "hi": "क्रिया",
+            "ko": "행위",
+            "ml": "പ്രക്രിയ",
+            "ps": "بهير",
+            "ro": "acțiunea de",
+            "ru": "действие",
+            "ta": "செயல்",
+            "tl": "kilos",
+            "ur": "عمل"
+           }
+          }
+         ],
+         "root": "heat",
          "example": "",
          "tier": 2
         },
@@ -329631,8 +330241,59 @@
           "ru": "термостойкий коврик",
           "es": "estera resistente al calor"
          },
-         "parts": [],
-         "root": "",
+         "parts": [
+          {
+           "surface": "heat",
+           "type": "root",
+           "meaning": "high temperature",
+           "translations": {
+            "zh-Hans": "热",
+            "zh-Hant": "熱",
+            "vi": "nhiệt",
+            "ar": "حرارة",
+            "fa": "گرما",
+            "ml": "ചൂട്",
+            "am": "ሙቀት",
+            "es": "calor",
+            "fr": "chaleur",
+            "hi": "ऊष्मा",
+            "ja": "熱",
+            "ko": "열",
+            "ps": "تودوخه",
+            "ro": "căldură",
+            "ru": "тепло",
+            "ta": "வெப்பம்",
+            "tl": "init",
+            "ur": "حرارت"
+           }
+          },
+          {
+           "surface": "proof",
+           "type": "suffix",
+           "meaning": "protected against",
+           "translations": {
+            "zh-Hans": "防…的",
+            "zh-Hant": "防…的",
+            "ja": "〜に強い",
+            "ko": "…을 막는",
+            "vi": "chống…",
+            "ar": "مقاوم لـ",
+            "fa": "ضدِ",
+            "ur": "…سے محفوظ",
+            "am": "የሚከላከል",
+            "ml": "പ്രതിരോധിക്കുന്ന",
+            "ta": "தாங்கக்கூடிய",
+            "tl": "hindi tinatablan ng",
+            "ps": "ضد",
+            "ro": "rezistent la",
+            "ru": "стойкий к",
+            "fr": "résistant à",
+            "hi": "…रोधी",
+            "es": "resistente a"
+           }
+          }
+         ],
+         "root": "heat",
          "example": "",
          "tier": 2
         }
@@ -331448,10 +332109,62 @@
           "hi": "जालक (क्रिस्टल जालक)",
           "es": "red cristalina"
          },
-         "parts": [],
+         "parts": [
+          {
+           "surface": "latt",
+           "type": "root",
+           "meaning": "frame/structure",
+           "translations": {
+            "zh-Hans": "框架/结构",
+            "zh-Hant": "框架/結構",
+            "ja": "枠組み/構造",
+            "ko": "틀/구조",
+            "vi": "khung/cấu trúc",
+            "ar": "إطار/هيكل",
+            "fa": "چارچوب/ساختار",
+            "ur": "ڈھانچہ/ساخت",
+            "am": "መዋቅር",
+            "ml": "ചട്ടക്കൂട്/ഘടന",
+            "ta": "கட்டமைப்பு",
+            "tl": "balangkas/istruktura",
+            "ps": "چوکاټ/جوړښت",
+            "ro": "cadru/structură",
+            "ru": "каркас/структура",
+            "fr": "cadre/structure",
+            "hi": "ढांचा/संरचना",
+            "es": "marco/estructura"
+           }
+          },
+          {
+           "surface": "ice",
+           "type": "suffix",
+           "meaning": "(noun form)",
+           "translations": {
+            "am": "(ስም መልክ)",
+            "ar": "(صيغة الاسم)",
+            "es": "(forma sustantiva)",
+            "fa": "(شکل اسمی)",
+            "fr": "(forme nominale)",
+            "hi": "(संज्ञा रूप)",
+            "ja": "(名詞形)",
+            "ko": "(명사형)",
+            "ml": "(നാമരൂപം)",
+            "ps": "(اسمي بڼه)",
+            "ro": "(formă substantivală)",
+            "ru": "(форма существительного)",
+            "ta": "(பெயர்ச்சொல் வடிவம்)",
+            "tl": "(anyong pangngalan)",
+            "ur": "(اسمی شکل)",
+            "vi": "(dạng danh từ)",
+            "zh-Hans": "(名词形式)",
+            "zh-Hant": "(名詞形式)"
+           }
+          }
+         ],
          "example": "A salt crystal has a lattice of sodium ions and chloride ions.",
          "tier": 3,
-         "origin": "From the Old French word latte, a thin strip of wood: a garden lattice is a criss-cross of strips, and a crystal lattice repeats in the same regular way."
+         "origin": "From the Old French word latte, a thin strip of wood: a garden lattice is a criss-cross of strips, and a crystal lattice repeats in the same regular way.",
+         "root": "latt"
         }
        ],
        "path": "elc/science/atoms-bonding"
@@ -343971,6 +344684,31 @@
            }
           },
           {
+           "surface": "foot",
+           "type": "root",
+           "meaning": "the foot you stand on",
+           "translations": {
+            "zh-Hans": "脚",
+            "zh-Hant": "腳",
+            "ja": "足",
+            "ko": "발",
+            "vi": "bàn chân",
+            "ar": "قدم",
+            "fa": "پا",
+            "ur": "پاؤں",
+            "am": "እግር",
+            "ml": "പാദം",
+            "ta": "பாதம்",
+            "tl": "paa",
+            "ps": "پښه",
+            "ro": "picior",
+            "ru": "ступня",
+            "fr": "pied",
+            "hi": "पैर",
+            "es": "pie"
+           }
+          },
+          {
            "surface": "print",
            "type": "root",
            "meaning": "a mark pressed onto a surface",
@@ -344760,8 +345498,59 @@
         },
         {
          "word": "camouflaged",
-         "parts": [],
-         "root": "",
+         "parts": [
+          {
+           "surface": "camouflage",
+           "type": "root",
+           "meaning": "a disguise that blends in",
+           "translations": {
+            "zh-Hans": "伪装",
+            "zh-Hant": "偽裝",
+            "ja": "迷彩",
+            "ko": "위장",
+            "vi": "ngụy trang",
+            "ar": "تمويه",
+            "fa": "استتار",
+            "ur": "چھپاؤ",
+            "am": "ማስመሰያ",
+            "ml": "വേഷപ്രച്ഛന്നം",
+            "ta": "உருமறைப்பு",
+            "tl": "pagbabalatkayo",
+            "ps": "پټونه",
+            "ro": "camuflaj",
+            "ru": "камуфляж",
+            "fr": "camouflage",
+            "hi": "छद्मावरण",
+            "es": "camuflaje"
+           }
+          },
+          {
+           "surface": "ed",
+           "type": "suffix",
+           "meaning": "having been (makes an adjective)",
+           "translations": {
+            "am": "የተለወጠ ወይም ቅርጽ ያለው",
+            "ar": "محوّل إلى / له شكل",
+            "es": "convertido en/con la forma de",
+            "fa": "تبدیل‌شده به / دارای شکل",
+            "fr": "transformé en / ayant la forme de",
+            "hi": "में परिवर्तित / रूप वाला",
+            "ja": "〜にされた・〜の形をした",
+            "ko": "만들어진 상태·형태를 가진",
+            "ml": "ആക്കിയത് / രൂപമുള്ളത്",
+            "ps": "بدل شوی / بڼه لرونکی",
+            "ro": "transformat în / având forma de",
+            "ru": "превращённый в / имеющий форму",
+            "ta": "மாற்றப்பட்டது / வடிவம் கொண்டது",
+            "tl": "ginawang / may hugis ng",
+            "ur": "میں تبدیل شدہ / شکل رکھنے والا",
+            "vi": "được biến thành / có dạng",
+            "zh-Hans": "使成为…的;具有…形式的",
+            "zh-Hant": "使成為…的;具有…形式的"
+           }
+          }
+         ],
+         "root": "camouflage",
          "meaning": "",
          "example": "",
          "tier": 2,
@@ -346995,6 +347784,31 @@
            }
           },
           {
+           "surface": "corm",
+           "type": "root",
+           "meaning": "tree trunk",
+           "translations": {
+            "zh-Hans": "树干",
+            "zh-Hant": "樹幹",
+            "ja": "幹",
+            "ko": "줄기",
+            "vi": "thân cây",
+            "ar": "جذع",
+            "fa": "تنه",
+            "ur": "تنا",
+            "am": "ግንድ",
+            "ml": "തടി",
+            "ta": "அடிமரம்",
+            "tl": "puno ng kahoy",
+            "ps": "ډډ",
+            "ro": "trunchi",
+            "ru": "ствол",
+            "fr": "tronc",
+            "hi": "तना",
+            "es": "tronco"
+           }
+          },
+          {
            "surface": "ic",
            "type": "suffix",
            "meaning": "relating to",
@@ -347020,7 +347834,7 @@
            }
           }
          ],
-         "root": "",
+         "root": "corm",
          "meaning": "A bud under a tree’s bark that grows after fire",
          "example": "",
          "tier": 2,
@@ -347650,8 +348464,59 @@
         },
         {
          "word": "Enhanced",
-         "parts": [],
-         "root": "",
+         "parts": [
+          {
+           "surface": "enhance",
+           "type": "root",
+           "meaning": "make greater",
+           "translations": {
+            "zh-Hans": "增强",
+            "zh-Hant": "增強",
+            "ja": "高める",
+            "ko": "강화하다",
+            "vi": "tăng cường",
+            "ar": "يعزّز",
+            "fa": "تقویت کردن",
+            "ur": "بڑھانا",
+            "am": "ማጠናከር",
+            "ml": "വർധിപ്പിക്കുക",
+            "ta": "மேம்படுத்துதல்",
+            "tl": "palakasin",
+            "ps": "پیاوړی کول",
+            "ro": "a spori",
+            "ru": "усиливать",
+            "fr": "renforcer",
+            "hi": "बढ़ाना",
+            "es": "realzar"
+           }
+          },
+          {
+           "surface": "ed",
+           "type": "suffix",
+           "meaning": "having been (makes an adjective)",
+           "translations": {
+            "am": "የተለወጠ ወይም ቅርጽ ያለው",
+            "ar": "محوّل إلى / له شكل",
+            "es": "convertido en/con la forma de",
+            "fa": "تبدیل‌شده به / دارای شکل",
+            "fr": "transformé en / ayant la forme de",
+            "hi": "में परिवर्तित / रूप वाला",
+            "ja": "〜にされた・〜の形をした",
+            "ko": "만들어진 상태·형태를 가진",
+            "ml": "ആക്കിയത് / രൂപമുള്ളത്",
+            "ps": "بدل شوی / بڼه لرونکی",
+            "ro": "transformat în / având forma de",
+            "ru": "превращённый в / имеющий форму",
+            "ta": "மாற்றப்பட்டது / வடிவம் கொண்டது",
+            "tl": "ginawang / may hugis ng",
+            "ur": "میں تبدیل شدہ / شکل رکھنے والا",
+            "vi": "được biến thành / có dạng",
+            "zh-Hans": "使成为…的;具有…形式的",
+            "zh-Hant": "使成為…的;具有…形式的"
+           }
+          }
+         ],
+         "root": "enhance",
          "meaning": "Improved in quality, value, or strength",
          "example": "",
          "tier": 2,
@@ -348752,7 +349617,7 @@
          "translations": {
           "ja": "カモフラージュ (kamofurāju)",
           "zh-Hans": "伪装 (wěizhuāng) / 伪装术 (wěizhuāng shù)",
-          "fa": "استتار (estetār) /伪装 (ghiyāb)",
+          "fa": "استتار (estetār)",
           "vi": "ngụy trang",
           "zh-Hant": "偽裝 (wěizhuāng) / 偽裝術 (wěizhuāng shù)",
           "am": "ራስን መደበቅ (ካሙፍላዥ)",
@@ -348920,8 +349785,84 @@
         },
         {
          "word": "Denial",
-         "parts": [],
-         "root": "",
+         "parts": [
+          {
+           "surface": "de",
+           "type": "prefix",
+           "meaning": "down/away",
+           "translations": {
+            "am": "ወደ ታች",
+            "ar": "أسفل",
+            "es": "abajo/lejos",
+            "fa": "پایین",
+            "fr": "vers le bas",
+            "hi": "नीचे",
+            "ja": "下方へ",
+            "ko": "아래로",
+            "ml": "താഴേക്ക്",
+            "ps": "ښکته / لرې",
+            "ro": "în jos",
+            "ru": "вниз",
+            "ta": "கீழே",
+            "tl": "pababa",
+            "ur": "نیچے",
+            "vi": "giảm/ra khỏi",
+            "zh-Hans": "向下；去除",
+            "zh-Hant": "向下；去除"
+           }
+          },
+          {
+           "surface": "ni",
+           "type": "root",
+           "meaning": "not/deny",
+           "translations": {
+            "am": "መካድ / እምቢ ማለት",
+            "ar": "ينكر / يرفض",
+            "es": "negar / decir que no",
+            "fa": "انکار کردن / نه گفتن",
+            "fr": "nier / refuser",
+            "hi": "इनकार करना",
+            "ja": "否定する",
+            "ko": "부정하다 / 거부하다",
+            "ml": "നിഷേധിക്കുക",
+            "ps": "نه ویل / انکار کول",
+            "ro": "a nega / a refuza",
+            "ru": "отрицать / отказывать",
+            "ta": "மறு / மறுத்துரை",
+            "tl": "itanggi / tumanggi",
+            "ur": "انکار کرنا",
+            "vi": "phủ nhận / từ chối",
+            "zh-Hans": "否认／拒绝",
+            "zh-Hant": "否認／拒絕"
+           }
+          },
+          {
+           "surface": "al",
+           "type": "suffix",
+           "meaning": "act of",
+           "translations": {
+            "am": "ተግባር",
+            "ar": "فعل",
+            "es": "acción de",
+            "fa": "عمل",
+            "fr": "action de",
+            "hi": "क्रिया",
+            "ja": "〜する行為",
+            "ko": "~하는 행위",
+            "ml": "പ്രവൃത്തി",
+            "ps": "کړنه",
+            "ro": "actul de",
+            "ru": "действие",
+            "ta": "செயல்",
+            "tl": "gawa ng",
+            "ur": "عمل",
+            "vi": "hành động",
+            "zh-Hans": "...的行为",
+            "zh-Hant": "...的行為"
+           }
+          }
+         ],
+         "root": "ni",
          "meaning": "refusal to accept or admit",
          "example": "",
          "tier": 2,
@@ -350287,8 +351228,59 @@
         },
         {
          "word": "spreadsheet",
-         "parts": [],
-         "root": "",
+         "parts": [
+          {
+           "surface": "spread",
+           "type": "root",
+           "meaning": "lay out over an area",
+           "translations": {
+            "zh-Hans": "铺开",
+            "zh-Hant": "鋪開",
+            "ja": "広げる",
+            "ko": "펼치다",
+            "vi": "trải ra",
+            "ar": "يبسط",
+            "fa": "گستردن",
+            "ur": "پھیلانا",
+            "am": "መዘርጋት",
+            "ml": "വിരിക്കുക",
+            "ta": "விரித்தல்",
+            "tl": "ikalat",
+            "ps": "خپرول",
+            "ro": "a întinde",
+            "ru": "расстилать",
+            "fr": "étaler",
+            "hi": "फैलाना",
+            "es": "extender"
+           }
+          },
+          {
+           "surface": "sheet",
+           "type": "root",
+           "meaning": "flat piece",
+           "translations": {
+            "zh-Hans": "薄片；一张",
+            "zh-Hant": "薄片；一張",
+            "ja": "一枚（シート）",
+            "ko": "낱장",
+            "vi": "tờ",
+            "ar": "ورقة",
+            "fa": "برگه",
+            "ur": "شیٹ",
+            "am": "ወረቀት",
+            "ml": "ഷീറ്റ്",
+            "ta": "தாள்",
+            "tl": "pilyego",
+            "ps": "پاڼه",
+            "ro": "foaie",
+            "ru": "лист",
+            "fr": "feuille",
+            "hi": "शीट",
+            "es": "hoja"
+           }
+          }
+         ],
+         "root": "spread",
          "meaning": "grid-based data table",
          "example": "",
          "tier": 2,
@@ -350872,32 +351864,57 @@
            }
           },
           {
-           "surface": "ions",
-           "type": "suffix",
-           "meaning": "act/process",
+           "surface": "caution",
+           "type": "root",
+           "meaning": "care to avoid danger",
            "translations": {
-            "fa": "فرایند/عمل",
-            "am": "ሂደት/ድርጊት",
-            "ar": "عملية/فعل",
-            "es": "proceso/acción",
-            "fr": "processus/action",
-            "hi": "प्रक्रिया/क्रिया",
-            "ja": "過程/作用",
-            "ko": "과정/작용",
-            "ml": "പ്രക്രിയ/പ്രവർത്തനം",
-            "ps": "بهیر/کړنه",
-            "ro": "proces/acțiune",
-            "ru": "процесс/действие",
-            "ta": "செயல்முறை/செயல்",
-            "tl": "proseso/kilos",
-            "ur": "عمل/فعل",
-            "vi": "quá trình/hành động",
-            "zh-Hans": "过程/动作",
-            "zh-Hant": "過程/動作"
+            "zh-Hans": "谨慎",
+            "zh-Hant": "謹慎",
+            "ja": "用心",
+            "ko": "조심",
+            "vi": "sự thận trọng",
+            "ar": "حذر",
+            "fa": "احتیاط",
+            "ur": "احتیاط",
+            "am": "ጥንቃቄ",
+            "ml": "ജാഗ്രത",
+            "ta": "எச்சரிக்கை",
+            "tl": "pag-iingat",
+            "ps": "احتیاط",
+            "ro": "precauție",
+            "ru": "осторожность",
+            "fr": "précaution",
+            "hi": "सावधानी",
+            "es": "precaución"
+           }
+          },
+          {
+           "surface": "s",
+           "type": "suffix",
+           "meaning": "plural",
+           "translations": {
+            "fa": "جمع",
+            "am": "ብዙ ቁጥር",
+            "ar": "جمع",
+            "es": "plural",
+            "fr": "pluriel",
+            "hi": "बहुवचन",
+            "ja": "複数",
+            "ko": "복수",
+            "ml": "ബഹുവചനം",
+            "ps": "جمع",
+            "ro": "plural",
+            "ru": "множественное число",
+            "ta": "பன்மை",
+            "tl": "maramihan",
+            "ur": "جمع",
+            "vi": "số nhiều",
+            "zh-Hans": "复数",
+            "zh-Hant": "複數"
            }
           }
          ],
-         "root": "",
+         "root": "caution",
          "meaning": "actions taken beforehand to prevent harm",
          "example": "",
          "tier": 2,
@@ -353703,28 +354720,54 @@
          "word": "cosine",
          "parts": [
           {
-           "surface": "cosine",
-           "type": "root",
-           "meaning": "complement of sine",
+           "surface": "co",
+           "type": "prefix",
+           "meaning": "together",
            "translations": {
-            "am": "የሳይን ማሟያ",
-            "ar": "متمم الجيب",
-            "es": "complemento del seno",
-            "fa": "متمم سینوس",
-            "fr": "complément du sinus",
-            "hi": "ज्या का पूरक",
-            "ja": "余角の正弦",
-            "ko": "여각의 사인",
-            "ml": "സൈനിന്റെ പൂരകം",
-            "ps": "د ساین بشپړونکی",
-            "ro": "complementul sinusului",
-            "ru": "синус дополнительного угла",
-            "ta": "சைனின் நிரப்பி",
-            "tl": "komplemento ng sine",
-            "ur": "جیب کا متمم",
-            "vi": "phần bù của sin",
-            "zh-Hans": "正弦的余角",
-            "zh-Hant": "正弦的餘角"
+            "am": "አብሮ",
+            "ar": "معًا",
+            "es": "juntos",
+            "fa": "باهم",
+            "fr": "ensemble",
+            "hi": "साथ",
+            "ja": "共に",
+            "ko": "함께",
+            "ml": "ഒരുമിച്ച്",
+            "ps": "يوځای",
+            "ro": "împreună",
+            "ru": "вместе",
+            "ta": "ஒன்றாக",
+            "tl": "magkasama",
+            "ur": "اکٹھا",
+            "vi": "cùng",
+            "zh-Hans": "共同",
+            "zh-Hant": "共同",
+            "other": "باهم"
+           }
+          },
+          {
+           "surface": "sine",
+           "type": "root",
+           "meaning": "curve, fold",
+           "translations": {
+            "am": "ማጠፍ",
+            "ar": "انحناء",
+            "es": "curva",
+            "fa": "خم",
+            "fr": "courbe",
+            "hi": "वक्र",
+            "ja": "曲線",
+            "ko": "곡선",
+            "ml": "വളവ്",
+            "ps": "کږوالی",
+            "ro": "curbă",
+            "ru": "изгиб",
+            "ta": "வளைவு",
+            "tl": "kurba",
+            "ur": "خم",
+            "vi": "đường cong",
+            "zh-Hans": "曲线",
+            "zh-Hant": "曲線"
            }
           }
          ],
@@ -355692,6 +356735,31 @@
             "fr": "effrayer",
             "hi": "डराना",
             "es": "asustar"
+           }
+          },
+          {
+           "surface": "ifi",
+           "type": "suffix",
+           "meaning": "to make",
+           "translations": {
+            "am": "ማድረግ",
+            "ar": "جعل",
+            "es": "hacer",
+            "fa": "ساختن",
+            "fr": "faire",
+            "hi": "बनाना",
+            "ja": "〜にする",
+            "ko": "~화하다",
+            "ml": "ആക്കുക",
+            "ps": "جوړول",
+            "ro": "a face",
+            "ru": "делать",
+            "ta": "ஆக்குதல்",
+            "tl": "gawin",
+            "ur": "بنانا",
+            "vi": "làm cho",
+            "zh-Hans": "使⋯化",
+            "zh-Hant": "使⋯化"
            }
           },
           {
@@ -358027,60 +359095,8 @@
         },
         {
          "word": "discipline",
-         "parts": [
-          {
-           "surface": "dis",
-           "type": "prefix",
-           "meaning": "apart",
-           "translations": {
-            "fa": "جدا/نفی",
-            "am": "መለያየት/አይ",
-            "ar": "غير",
-            "es": "aparte/no",
-            "fr": "séparé/non",
-            "hi": "अलग/नहीं",
-            "ja": "分離",
-            "ko": "분리/부정",
-            "ml": "വേർപെട്ട്/അല്ല",
-            "ps": "بېل",
-            "ro": "des",
-            "ru": "раздельно/не",
-            "ta": "பிரி/இல்லை",
-            "tl": "hiwalay/hindi",
-            "ur": "الگ/نہیں",
-            "vi": "tách/không",
-            "zh-Hans": "分开",
-            "zh-Hant": "分開",
-            "other": "دو"
-           }
-          },
-          {
-           "surface": "cip",
-           "type": "root",
-           "meaning": "take/seize",
-           "translations": {
-            "am": "መውሰድ / መቀበል",
-            "ar": "أخذ / استقبال",
-            "es": "tomar/recibir",
-            "fa": "گرفتن / دریافت کردن",
-            "fr": "prendre / recevoir",
-            "hi": "लेना / प्राप्त करना",
-            "ja": "取る・受け取る",
-            "ko": "가지다/받다",
-            "ml": "എടുക്കുക / സ്വീകരിക്കുക",
-            "ps": "اخیستل / ترلاسه کول",
-            "ro": "a lua / a primi",
-            "ru": "брать / получать",
-            "ta": "எடுத்தல் / பெறுதல்",
-            "tl": "kumuha / tumanggap",
-            "ur": "لینا / وصول کرنا",
-            "vi": "lấy / nhận",
-            "zh-Hans": "拿;接受",
-            "zh-Hant": "拿;接受"
-           }
-          }
-         ],
-         "root": "cip",
+         "parts": [],
+         "root": "",
          "meaning": "Training that enforces rules and control",
          "example": "",
          "tier": 2,
@@ -361058,28 +362074,28 @@
          "word": "citizens’ rights",
          "parts": [
           {
-           "surface": "citi",
+           "surface": "citizen",
            "type": "root",
-           "meaning": "city",
+           "meaning": "member of a country",
            "translations": {
-            "zh-Hans": "城市",
-            "zh-Hant": "城市",
-            "ja": "都市",
-            "ko": "도시",
-            "vi": "thành phố",
-            "ar": "مدينة",
-            "fa": "شهر",
-            "ur": "شہر",
-            "am": "ከተማ",
-            "ml": "നഗരം",
-            "ta": "நகரம்",
-            "tl": "lungsod",
-            "ps": "ښار",
-            "ro": "oraș",
-            "ru": "город",
-            "fr": "ville",
-            "hi": "शहर",
-            "es": "ciudad"
+            "zh-Hans": "公民",
+            "zh-Hant": "公民",
+            "ja": "市民",
+            "am": "ዜጋ",
+            "ar": "مواطن",
+            "es": "ciudadano",
+            "fa": "شهروند",
+            "fr": "citoyen",
+            "hi": "नागरिक",
+            "ko": "시민",
+            "ml": "പൗരൻ",
+            "ps": "اتباع / وګړی",
+            "ro": "cetățean",
+            "ru": "гражданин",
+            "ta": "குடிமகன்",
+            "tl": "mamamayan",
+            "ur": "شہری",
+            "vi": "công dân"
            }
           },
           {
@@ -365853,11 +366869,11 @@
          "example": "",
          "tier": 2,
          "translations": {
-          "ja": "ثثمه",
-          "zh-Hans": "ストライキ (sutoraiki)",
-          "fa": "罢工 (bàgōng)",
-          "vi": "اعتصاب (etesāb)",
-          "zh-Hant": "ストライキ (sutoraiki)",
+          "ja": "ストライキ",
+          "zh-Hans": "罢工",
+          "fa": "اعتصاب",
+          "vi": "cuộc đình công",
+          "zh-Hant": "罷工",
           "am": "አድማ",
           "ar": "الإضراب",
           "es": "huelga",
@@ -371401,8 +372417,59 @@
         },
         {
          "word": "Massacres",
-         "parts": [],
-         "root": "",
+         "parts": [
+          {
+           "surface": "massacre",
+           "type": "root",
+           "meaning": "the killing of many people",
+           "translations": {
+            "zh-Hans": "屠杀",
+            "zh-Hant": "屠殺",
+            "ja": "虐殺",
+            "ko": "학살",
+            "vi": "cuộc thảm sát",
+            "ar": "مجزرة",
+            "fa": "کشتار",
+            "ur": "قتلِ عام",
+            "am": "ጭፍጨፋ",
+            "ml": "കൂട്ടക്കൊല",
+            "ta": "படுகொலை",
+            "tl": "masaker",
+            "ps": "وژنه",
+            "ro": "masacru",
+            "ru": "резня",
+            "fr": "massacre",
+            "hi": "नरसंहार",
+            "es": "masacre"
+           }
+          },
+          {
+           "surface": "s",
+           "type": "suffix",
+           "meaning": "plural",
+           "translations": {
+            "fa": "جمع",
+            "am": "ብዙ ቁጥር",
+            "ar": "جمع",
+            "es": "plural",
+            "fr": "pluriel",
+            "hi": "बहुवचन",
+            "ja": "複数",
+            "ko": "복수",
+            "ml": "ബഹുവചനം",
+            "ps": "جمع",
+            "ro": "plural",
+            "ru": "множественное число",
+            "ta": "பன்மை",
+            "tl": "maramihan",
+            "ur": "جمع",
+            "vi": "số nhiều",
+            "zh-Hans": "复数",
+            "zh-Hant": "複數"
+           }
+          }
+         ],
+         "root": "massacre",
          "meaning": "Large-scale killings",
          "example": "",
          "tier": 2,
@@ -392151,8 +393218,59 @@
         },
         {
          "word": "Massacres",
-         "parts": [],
-         "root": "",
+         "parts": [
+          {
+           "surface": "massacre",
+           "type": "root",
+           "meaning": "the killing of many people",
+           "translations": {
+            "zh-Hans": "屠杀",
+            "zh-Hant": "屠殺",
+            "ja": "虐殺",
+            "ko": "학살",
+            "vi": "cuộc thảm sát",
+            "ar": "مجزرة",
+            "fa": "کشتار",
+            "ur": "قتلِ عام",
+            "am": "ጭፍጨፋ",
+            "ml": "കൂട്ടക്കൊല",
+            "ta": "படுகொலை",
+            "tl": "masaker",
+            "ps": "وژنه",
+            "ro": "masacru",
+            "ru": "резня",
+            "fr": "massacre",
+            "hi": "नरसंहार",
+            "es": "masacre"
+           }
+          },
+          {
+           "surface": "s",
+           "type": "suffix",
+           "meaning": "plural",
+           "translations": {
+            "fa": "جمع",
+            "am": "ብዙ ቁጥር",
+            "ar": "جمع",
+            "es": "plural",
+            "fr": "pluriel",
+            "hi": "बहुवचन",
+            "ja": "複数",
+            "ko": "복수",
+            "ml": "ബഹുവചനം",
+            "ps": "جمع",
+            "ro": "plural",
+            "ru": "множественное число",
+            "ta": "பன்மை",
+            "tl": "maramihan",
+            "ur": "جمع",
+            "vi": "số nhiều",
+            "zh-Hans": "复数",
+            "zh-Hant": "複數"
+           }
+          }
+         ],
+         "root": "massacre",
          "meaning": "Large-scale killings",
          "example": "",
          "tier": 2,
@@ -396577,9 +397695,9 @@
          "tier": 2,
          "translations": {
           "ja": "平和的な",
-          "zh-Hans": "",
-          "fa": "和平的",
-          "vi": "صلح آمیز",
+          "zh-Hans": "和平的",
+          "fa": "صلح‌آمیز",
+          "vi": "yêu hòa bình",
           "zh-Hant": "和平的；溫和的",
           "am": "ሰላማዊ",
           "ar": "مسالم",
@@ -399608,11 +400726,11 @@
          "example": "",
          "tier": 2,
          "translations": {
-          "ja": "ثثمه",
-          "zh-Hans": "ストライキ (sutoraiki)",
-          "fa": "罢工 (bàgōng)",
-          "vi": "اعتصاب (etesāb)",
-          "zh-Hant": "ストライキ (sutoraiki)",
+          "ja": "ストライキ",
+          "zh-Hans": "罢工",
+          "fa": "اعتصاب",
+          "vi": "cuộc đình công",
+          "zh-Hant": "罷工",
           "am": "አድማ",
           "ar": "الإضراب",
           "es": "huelga",
@@ -402173,60 +403291,8 @@
         },
         {
          "word": "discipline",
-         "parts": [
-          {
-           "surface": "dis",
-           "type": "prefix",
-           "meaning": "apart",
-           "translations": {
-            "fa": "جدا/نفی",
-            "am": "መለያየት/አይ",
-            "ar": "غير",
-            "es": "aparte/no",
-            "fr": "séparé/non",
-            "hi": "अलग/नहीं",
-            "ja": "分離",
-            "ko": "분리/부정",
-            "ml": "വേർപെട്ട്/അല്ല",
-            "ps": "بېل",
-            "ro": "des",
-            "ru": "раздельно/не",
-            "ta": "பிரி/இல்லை",
-            "tl": "hiwalay/hindi",
-            "ur": "الگ/نہیں",
-            "vi": "tách/không",
-            "zh-Hans": "分开",
-            "zh-Hant": "分開",
-            "other": "دو"
-           }
-          },
-          {
-           "surface": "cip",
-           "type": "root",
-           "meaning": "take/seize",
-           "translations": {
-            "am": "መውሰድ / መቀበል",
-            "ar": "أخذ / استقبال",
-            "es": "tomar/recibir",
-            "fa": "گرفتن / دریافت کردن",
-            "fr": "prendre / recevoir",
-            "hi": "लेना / प्राप्त करना",
-            "ja": "取る・受け取る",
-            "ko": "가지다/받다",
-            "ml": "എടുക്കുക / സ്വീകരിക്കുക",
-            "ps": "اخیستل / ترلاسه کول",
-            "ro": "a lua / a primi",
-            "ru": "брать / получать",
-            "ta": "எடுத்தல் / பெறுதல்",
-            "tl": "kumuha / tumanggap",
-            "ur": "لینا / وصول کرنا",
-            "vi": "lấy / nhận",
-            "zh-Hans": "拿;接受",
-            "zh-Hant": "拿;接受"
-           }
-          }
-         ],
-         "root": "cip",
+         "parts": [],
+         "root": "",
          "meaning": "Training that enforces rules and control",
          "example": "",
          "tier": 2,
@@ -406009,6 +407075,11 @@
      "al"
     ],
     [
+     "Denial",
+     "elc/science/pandemic",
+     "al"
+    ],
+    [
      "disposal",
      "vce/accounting/unit-4-aos-1",
      "al"
@@ -406260,6 +407331,11 @@
     [
      "normal distribution",
      "elc/mathematics/statistics-data",
+     "al"
+    ],
+    [
+     "neutral",
+     "elc/science/acids-bases",
      "al"
     ],
     [
@@ -411187,6 +412263,11 @@
     ],
     [
      "indicator",
+     "elc/science/acids-bases",
+     "ator"
+    ],
+    [
+     "indicator",
      "vce/accounting/unit-2-aos-1",
      "ator"
     ],
@@ -412312,6 +413393,11 @@
     [
      "soluble",
      "elc/science/chemical-reactions",
+     "ble"
+    ],
+    [
+     "insoluble",
+     "elc/science/mixtures-solubility",
      "ble"
     ],
     [
@@ -413752,16 +414838,6 @@
    "type": "root",
    "words": [
     [
-     "discipline",
-     "elc/humanities/general-vocabulary",
-     "cip"
-    ],
-    [
-     "discipline",
-     "elc/humanities/history",
-     "cip"
-    ],
-    [
      "principle",
      "vce/command-terms/academic-nouns",
      "cip"
@@ -413839,6 +414915,11 @@
     ],
     [
      "citizenship",
+     "elc/humanities/history",
+     "citizen"
+    ],
+    [
+     "citizens’ rights",
      "elc/humanities/history",
      "citizen"
     ],
@@ -415818,6 +416899,11 @@
    "type": "prefix",
    "words": [
     [
+     "corrosive",
+     "elc/science/acids-bases",
+     "cor"
+    ],
+    [
      "corrosion",
      "elc/science/chemical-reactions",
      "cor"
@@ -415883,23 +416969,6 @@
      "corroborate",
      "year-7/humanities-civics/source-analysis",
      "cor"
-    ]
-   ]
-  },
-  "cosine|complement of sine": {
-   "surface": "cosine",
-   "meaning": "complement of sine",
-   "type": "root",
-   "words": [
-    [
-     "cosine",
-     "elc/science/l4",
-     "cosine"
-    ],
-    [
-     "cosine",
-     "year-10/kinematics/l4",
-     "cosine"
     ]
    ]
   },
@@ -415992,6 +417061,16 @@
     [
      "coordinate",
      "elc/mathematics/number-algebra",
+     "co"
+    ],
+    [
+     "covalent bond",
+     "elc/science/atoms-bonding",
+     "co"
+    ],
+    [
+     "cosine",
+     "elc/science/l4",
      "co"
     ],
     [
@@ -417061,6 +418140,11 @@
      "de"
     ],
     [
+     "Denial",
+     "elc/science/pandemic",
+     "de"
+    ],
+    [
      "demonstrate",
      "vce/accounting/unit-1-aos-1",
      "de"
@@ -417533,6 +418617,11 @@
    "words": [
     [
      "indicator",
+     "elc/science/acids-bases",
+     "dic"
+    ],
+    [
+     "indicator",
      "vce/accounting/unit-2-aos-1",
      "dic"
     ],
@@ -417660,11 +418749,6 @@
      "dis"
     ],
     [
-     "discipline",
-     "elc/humanities/general-vocabulary",
-     "dis"
-    ],
-    [
      "diseases",
      "elc/humanities/general-vocabulary",
      "dis"
@@ -417676,11 +418760,6 @@
     ],
     [
      "Undisturbed",
-     "elc/humanities/history",
-     "dis"
-    ],
-    [
-     "discipline",
      "elc/humanities/history",
      "dis"
     ],
@@ -418980,6 +420059,21 @@
      "ed"
     ],
     [
+     "burdened",
+     "elc/english/harrison-bergeron",
+     "ed"
+    ],
+    [
+     "Enhanced",
+     "elc/science/ecosystems",
+     "ed"
+    ],
+    [
+     "camouflaged",
+     "elc/science/ecosystems",
+     "ed"
+    ],
+    [
      "balanced forces",
      "elc/science/forces",
      "ed"
@@ -419325,6 +420419,21 @@
    "meaning": "past tense",
    "type": "suffix",
    "words": [
+    [
+     "escaped",
+     "elc/english/harrison-bergeron",
+     "ed"
+    ],
+    [
+     "scattered",
+     "elc/english/harrison-bergeron",
+     "ed"
+    ],
+    [
+     "winced",
+     "elc/english/harrison-bergeron",
+     "ed"
+    ],
     [
      "loitered",
      "elc/english/ironbark-stanza-1",
@@ -420516,6 +421625,11 @@
      "ent"
     ],
     [
+     "covalent bond",
+     "elc/science/atoms-bonding",
+     "ent"
+    ],
+    [
      "solvent",
      "elc/science/mixtures-solubility",
      "ent"
@@ -421148,6 +422262,11 @@
      "er"
     ],
     [
+     "handicapper",
+     "elc/english/harrison-bergeron",
+     "er"
+    ],
+    [
      "transmitter",
      "elc/english/harrison-bergeron",
      "er"
@@ -421430,6 +422549,23 @@
     ]
    ]
   },
+  "er|thing that does": {
+   "surface": "er",
+   "meaning": "thing that does",
+   "type": "suffix",
+   "words": [
+    [
+     "Bunsen burner",
+     "elc/science/lab-safety-equipment",
+     "er"
+    ],
+    [
+     "promoter",
+     "vce/biology/unit-3-aos-1",
+     "er"
+    ]
+   ]
+  },
   "establish|set up": {
    "surface": "establish",
    "meaning": "set up",
@@ -421502,6 +422638,11 @@
     [
      "balanced forces",
      "elc/science/forces",
+     "es"
+    ],
+    [
+     "safety glasses",
+     "elc/science/lab-safety-equipment",
      "es"
     ],
     [
@@ -424151,6 +425292,11 @@
    "type": "suffix",
    "words": [
     [
+     "hydrogen ion",
+     "elc/science/acids-bases",
+     "gen"
+    ],
+    [
      "pathogen",
      "vce/biology/unit-4-aos-1",
      "gen"
@@ -424909,6 +426055,28 @@
     ]
    ]
   },
+  "heat|high temperature": {
+   "surface": "heat",
+   "meaning": "high temperature",
+   "type": "root",
+   "words": [
+    [
+     "heating flame",
+     "elc/science/lab-safety-equipment",
+     "heat"
+    ],
+    [
+     "heatproof mat",
+     "elc/science/lab-safety-equipment",
+     "heat"
+    ],
+    [
+     "heating",
+     "year-7/science/particles",
+     "heat"
+    ]
+   ]
+  },
   "herb|plant/grass": {
    "surface": "herb",
    "meaning": "plant/grass",
@@ -425355,6 +426523,16 @@
     [
      "dehydration",
      "elc/humanities/history",
+     "hydr"
+    ],
+    [
+     "hydrogen ion",
+     "elc/science/acids-bases",
+     "hydr"
+    ],
+    [
+     "hydroxide ion",
+     "elc/science/acids-bases",
      "hydr"
     ],
     [
@@ -425979,6 +427157,11 @@
      "ice"
     ],
     [
+     "lattice",
+     "elc/science/atoms-bonding",
+     "ice"
+    ],
+    [
      "prejudice",
      "vce/psychology/unit-2-aos-1",
      "ice"
@@ -426200,6 +427383,16 @@
     [
      "symmetric",
      "elc/mathematics/statistics-data",
+     "ic"
+    ],
+    [
+     "ionic bond",
+     "elc/science/atoms-bonding",
+     "ic"
+    ],
+    [
+     "metallic bonding",
+     "elc/science/atoms-bonding",
      "ic"
     ],
     [
@@ -426823,6 +428016,11 @@
    "meaning": "chemical compound",
    "type": "suffix",
    "words": [
+    [
+     "hydroxide ion",
+     "elc/science/acids-bases",
+     "ide"
+    ],
     [
      "carbon dioxide",
      "elc/science/photosynthesis",
@@ -427857,6 +429055,11 @@
      "ing"
     ],
     [
+     "heating flame",
+     "elc/science/lab-safety-equipment",
+     "ing"
+    ],
+    [
      "measuring cylinder",
      "elc/science/lab-safety-equipment",
      "ing"
@@ -428635,6 +429838,11 @@
      "in"
     ],
     [
+     "indicator",
+     "elc/science/acids-bases",
+     "in"
+    ],
+    [
      "Infections",
      "elc/science/pandemic",
      "in"
@@ -429022,6 +430230,11 @@
      "in"
     ],
     [
+     "insoluble",
+     "elc/science/mixtures-solubility",
+     "in"
+    ],
+    [
      "indigestion",
      "elc/science/pandemic",
      "in"
@@ -429210,23 +430423,6 @@
      "expansionary",
      "vce/economics/unit-4-aos-1",
      "ionary"
-    ]
-   ]
-  },
-  "ions|act/process": {
-   "surface": "ions",
-   "meaning": "act/process",
-   "type": "suffix",
-   "words": [
-    [
-     "Infections",
-     "elc/science/pandemic",
-     "ions"
-    ],
-    [
-     "precautions",
-     "elc/science/pandemic",
-     "ions"
     ]
    ]
   },
@@ -430452,6 +431648,11 @@
    "type": "root",
    "words": [
     [
+     "ionic bond",
+     "elc/science/atoms-bonding",
+     "ion"
+    ],
+    [
      "anion",
      "year-10/chemistry/unit-1",
      "ion"
@@ -431007,6 +432208,11 @@
     [
      "friction",
      "elc/science/forces",
+     "ion"
+    ],
+    [
+     "suspension",
+     "elc/science/mixtures-solubility",
      "ion"
     ],
     [
@@ -433130,6 +434336,11 @@
      "ive"
     ],
     [
+     "corrosive",
+     "elc/science/acids-bases",
+     "ive"
+    ],
+    [
      "positive",
      "elc/science/energy",
      "ive"
@@ -434074,6 +435285,11 @@
    "meaning": "frame/structure",
    "type": "root",
    "words": [
+    [
+     "lattice",
+     "elc/science/atoms-bonding",
+     "latt"
+    ],
     [
      "lattice",
      "year-10/chemistry/unit-1",
@@ -435702,6 +436918,23 @@
     ]
    ]
   },
+  "massacre|the killing of many people": {
+   "surface": "massacre",
+   "meaning": "the killing of many people",
+   "type": "root",
+   "words": [
+    [
+     "Massacres",
+     "elc/humanities/general-vocabulary",
+     "massacre"
+    ],
+    [
+     "Massacres",
+     "elc/humanities/history",
+     "massacre"
+    ]
+   ]
+  },
   "materi|matter": {
    "surface": "materi",
    "meaning": "matter",
@@ -436169,6 +437402,11 @@
      "ment"
     ],
     [
+     "equipment",
+     "elc/science/lab-safety-equipment",
+     "ment"
+    ],
+    [
      "impairment",
      "vce/applied-computing/unit-2-aos-1",
      "ment"
@@ -436613,6 +437851,11 @@
    "meaning": "metal",
    "type": "root",
    "words": [
+    [
+     "metallic bonding",
+     "elc/science/atoms-bonding",
+     "metal"
+    ],
     [
      "metallic",
      "year-10/chemistry/unit-1",
@@ -437939,6 +439182,23 @@
     ]
    ]
   },
+  "neutr|neither/neutral": {
+   "surface": "neutr",
+   "meaning": "neither/neutral",
+   "type": "root",
+   "words": [
+    [
+     "neutral",
+     "elc/science/acids-bases",
+     "neutr"
+    ],
+    [
+     "neutron",
+     "year-9/science/radioactivity",
+     "neutr"
+    ]
+   ]
+  },
   "neutr|neutral": {
    "surface": "neutr",
    "meaning": "neutral",
@@ -438028,6 +439288,11 @@
     [
      "denied access",
      "elc/humanities/history",
+     "ni"
+    ],
+    [
+     "Denial",
+     "elc/science/pandemic",
      "ni"
     ]
    ]
@@ -439790,6 +441055,23 @@
     ]
    ]
   },
+  "ox|oxygen": {
+   "surface": "ox",
+   "meaning": "oxygen",
+   "type": "root",
+   "words": [
+    [
+     "hydroxide ion",
+     "elc/science/acids-bases",
+     "ox"
+    ],
+    [
+     "carbon dioxide",
+     "elc/science/photosynthesis",
+     "ox"
+    ]
+   ]
+  },
   "pair|make worse": {
    "surface": "pair",
    "meaning": "make worse",
@@ -440390,6 +441672,11 @@
     [
      "pensions",
      "elc/humanities/history",
+     "pens"
+    ],
+    [
+     "suspension",
+     "elc/science/mixtures-solubility",
      "pens"
     ],
     [
@@ -443912,6 +445199,23 @@
     ]
    ]
   },
+  "pure|clean/unmixed": {
+   "surface": "pure",
+   "meaning": "clean/unmixed",
+   "type": "root",
+   "words": [
+    [
+     "pure substance",
+     "elc/science/mixtures-solubility",
+     "pure"
+    ],
+    [
+     "purebred",
+     "year-10/biology/genetics",
+     "pure"
+    ]
+   ]
+  },
   "pur|forth/forward": {
    "surface": "pur",
    "meaning": "forth/forward",
@@ -445201,6 +446505,11 @@
    "type": "prefix",
    "words": [
     [
+     "reveals",
+     "elc/english/flowers-for-algernon",
+     "re"
+    ],
+    [
      "repartee",
      "elc/english/ironbark-stanza-2",
      "re"
@@ -445715,6 +447024,11 @@
    "type": "root",
    "words": [
     [
+     "corrosive",
+     "elc/science/acids-bases",
+     "ros"
+    ],
+    [
      "corrosion",
      "elc/science/chemical-reactions",
      "ros"
@@ -445757,6 +447071,23 @@
      "sacrifice",
      "elc/humanities/history",
      "sacr"
+    ]
+   ]
+  },
+  "safe|free from danger": {
+   "surface": "safe",
+   "meaning": "free from danger",
+   "type": "root",
+   "words": [
+    [
+     "safety flame",
+     "elc/science/lab-safety-equipment",
+     "safe"
+    ],
+    [
+     "safety glasses",
+     "elc/science/lab-safety-equipment",
+     "safe"
     ]
    ]
   },
@@ -446860,6 +448191,11 @@
    "type": "root",
    "words": [
     [
+     "cosine",
+     "elc/science/l4",
+     "sine"
+    ],
+    [
      "sine",
      "elc/science/l4",
      "sine"
@@ -447233,6 +448569,11 @@
     [
      "soluble",
      "elc/science/chemical-reactions",
+     "solu"
+    ],
+    [
+     "insoluble",
+     "elc/science/mixtures-solubility",
      "solu"
     ],
     [
@@ -448814,6 +450155,11 @@
      "sus"
     ],
     [
+     "suspension",
+     "elc/science/mixtures-solubility",
+     "sus"
+    ],
+    [
      "sustainable",
      "year-10/geography/topics-2-4",
      "sus"
@@ -449194,6 +450540,11 @@
      "s"
     ],
     [
+     "Massacres",
+     "elc/humanities/general-vocabulary",
+     "s"
+    ],
+    [
      "Missions and reserves",
      "elc/humanities/general-vocabulary",
      "s"
@@ -449280,6 +450631,11 @@
     ],
     [
      "Convicts",
+     "elc/humanities/history",
+     "s"
+    ],
+    [
+     "Massacres",
      "elc/humanities/history",
      "s"
     ],
@@ -449386,6 +450742,11 @@
     [
      "parameters",
      "elc/humanities/social-media-ban",
+     "s"
+    ],
+    [
+     "precautions",
+     "elc/science/pandemic",
      "s"
     ],
     [
@@ -449592,6 +450953,11 @@
    "meaning": "present tense with he/she/it",
    "type": "suffix",
    "words": [
+    [
+     "reveals",
+     "elc/english/flowers-for-algernon",
+     "s"
+    ],
     [
      "brags",
      "elc/english/ironbark-stanza-8",
@@ -451941,6 +453307,16 @@
      "ty"
     ],
     [
+     "safety flame",
+     "elc/science/lab-safety-equipment",
+     "ty"
+    ],
+    [
+     "safety glasses",
+     "elc/science/lab-safety-equipment",
+     "ty"
+    ],
+    [
      "food sovereignty",
      "vce/food-studies/unit-2-aos-1",
      "ty"
@@ -452960,6 +454336,23 @@
     ]
    ]
   },
+  "val|strength/worth": {
+   "surface": "val",
+   "meaning": "strength/worth",
+   "type": "root",
+   "words": [
+    [
+     "covalent bond",
+     "elc/science/atoms-bonding",
+     "val"
+    ],
+    [
+     "covalent",
+     "year-10/chemistry/unit-1",
+     "val"
+    ]
+   ]
+  },
   "val|strong/worth": {
    "surface": "val",
    "meaning": "strong/worth",
@@ -453268,6 +454661,11 @@
    "meaning": "veil/cover",
    "type": "root",
    "words": [
+    [
+     "reveals",
+     "elc/english/flowers-for-algernon",
+     "veal"
+    ],
     [
      "revealed",
      "elc/humanities/general-vocabulary",
@@ -457027,6 +458425,11 @@
      "removal",
      "elc/humanities/general-vocabulary",
      "al"
+    ],
+    [
+     "Denial",
+     "elc/science/pandemic",
+     "al"
     ]
    ],
    "extras": []
@@ -457960,6 +459363,11 @@
     [
      "marginalised",
      "elc/humanities/general-vocabulary",
+     "al"
+    ],
+    [
+     "neutral",
+     "elc/science/acids-bases",
      "al"
     ]
    ],
@@ -462705,6 +464113,11 @@
      "numerator",
      "elc/mathematics/probability-basics",
      "ator"
+    ],
+    [
+     "indicator",
+     "elc/science/acids-bases",
+     "ator"
     ]
    ],
    "extras": []
@@ -464595,6 +466008,11 @@
      "soluble",
      "elc/science/chemical-reactions",
      "ble"
+    ],
+    [
+     "insoluble",
+     "elc/science/mixtures-solubility",
+     "ble"
     ]
    ],
    "extras": []
@@ -464969,6 +466387,22 @@
    ],
    "extras": []
   },
+  "burden|a heavy load": {
+   "surface": "burden",
+   "variants": [
+    "burden"
+   ],
+   "type": "root",
+   "gloss": "a heavy load",
+   "aka": [],
+   "words": [
+    [
+     "burdened",
+     "elc/english/harrison-bergeron",
+     "burden"
+    ]
+   ]
+  },
   "bureau|office": {
    "surface": "bureau",
    "variants": [
@@ -464987,6 +466421,22 @@
      "bureaucracy",
      "year-7/english/bone-sparrow",
      "bureau"
+    ]
+   ]
+  },
+  "burn|be on fire": {
+   "surface": "burn",
+   "variants": [
+    "burn"
+   ],
+   "type": "root",
+   "gloss": "be on fire",
+   "aka": [],
+   "words": [
+    [
+     "Bunsen burner",
+     "elc/science/lab-safety-equipment",
+     "burn"
     ]
    ]
   },
@@ -465241,6 +466691,22 @@
     ]
    ],
    "extras": []
+  },
+  "camouflage|a disguise that blends in": {
+   "surface": "camouflage",
+   "variants": [
+    "camouflage"
+   ],
+   "type": "root",
+   "gloss": "a disguise that blends in",
+   "aka": [],
+   "words": [
+    [
+     "camouflaged",
+     "elc/science/ecosystems",
+     "camouflage"
+    ]
+   ]
   },
   "capital|head/chief": {
    "surface": "capital",
@@ -465924,6 +467390,22 @@
     ]
    ],
    "extras": []
+  },
+  "caution|care to avoid danger": {
+   "surface": "caution",
+   "variants": [
+    "caution"
+   ],
+   "type": "root",
+   "gloss": "care to avoid danger",
+   "aka": [],
+   "words": [
+    [
+     "precautions",
+     "elc/science/pandemic",
+     "caution"
+    ]
+   ]
   },
   "cav|hollow": {
    "surface": "cav",
@@ -467482,6 +468964,11 @@
     [
      "citizenship",
      "elc/humanities/general-vocabulary",
+     "citizen"
+    ],
+    [
+     "citizens’ rights",
+     "elc/humanities/history",
      "citizen"
     ]
    ],
@@ -470226,6 +471713,21 @@
      "coordinate",
      "elc/mathematics/linear-graphs-revision",
      "co"
+    ],
+    [
+     "covalent bond",
+     "elc/science/atoms-bonding",
+     "co"
+    ],
+    [
+     "corrosive",
+     "elc/science/acids-bases",
+     "cor"
+    ],
+    [
+     "cosine",
+     "elc/science/l4",
+     "co"
     ]
    ],
    "extras": [
@@ -470285,6 +471787,22 @@
     ]
    ],
    "extras": []
+  },
+  "corm|tree trunk": {
+   "surface": "corm",
+   "variants": [
+    "corm"
+   ],
+   "type": "root",
+   "gloss": "tree trunk",
+   "aka": [],
+   "words": [
+    [
+     "epicormic bud",
+     "elc/science/ecosystems",
+     "corm"
+    ]
+   ]
   },
   "corner|angle/edge": {
    "surface": "corner",
@@ -472526,6 +474044,11 @@
      "Denial",
      "elc/humanities/general-vocabulary",
      "de"
+    ],
+    [
+     "Denial",
+     "elc/science/pandemic",
+     "de"
     ]
    ],
    "extras": [
@@ -472723,6 +474246,11 @@
     [
      "economic indicator",
      "vce/economics/unit-2-aos-1",
+     "dic"
+    ],
+    [
+     "indicator",
+     "elc/science/acids-bases",
      "dic"
     ]
    ],
@@ -474941,6 +476469,21 @@
      "bounded rationality",
      "vce/economics/unit-1-aos-3",
      "ed"
+    ],
+    [
+     "burdened",
+     "elc/english/harrison-bergeron",
+     "ed"
+    ],
+    [
+     "camouflaged",
+     "elc/science/ecosystems",
+     "ed"
+    ],
+    [
+     "Enhanced",
+     "elc/science/ecosystems",
+     "ed"
     ]
    ],
    "extras": []
@@ -475307,6 +476850,21 @@
     [
      "marginalised",
      "elc/humanities/general-vocabulary",
+     "ed"
+    ],
+    [
+     "escaped",
+     "elc/english/harrison-bergeron",
+     "ed"
+    ],
+    [
+     "scattered",
+     "elc/english/harrison-bergeron",
+     "ed"
+    ],
+    [
+     "winced",
+     "elc/english/harrison-bergeron",
      "ed"
     ]
    ],
@@ -476498,6 +478056,22 @@
    ],
    "extras": []
   },
+  "enhance|make greater": {
+   "surface": "enhance",
+   "variants": [
+    "enhance"
+   ],
+   "type": "root",
+   "gloss": "make greater",
+   "aka": [],
+   "words": [
+    [
+     "Enhanced",
+     "elc/science/ecosystems",
+     "enhance"
+    ]
+   ]
+  },
   "ental|relating to": {
    "surface": "ental",
    "variants": [
@@ -477040,6 +478614,11 @@
      "dependent (events)",
      "elc/mathematics/probability-basics",
      "ent"
+    ],
+    [
+     "covalent bond",
+     "elc/science/atoms-bonding",
+     "ent"
     ]
    ],
    "extras": [
@@ -477418,6 +478997,22 @@
    ],
    "words": [],
    "extras": []
+  },
+  "equip|supply what is needed": {
+   "surface": "equip",
+   "variants": [
+    "equip"
+   ],
+   "type": "root",
+   "gloss": "supply what is needed",
+   "aka": [],
+   "words": [
+    [
+     "equipment",
+     "elc/science/lab-safety-equipment",
+     "equip"
+    ]
+   ]
   },
   "equ|equal": {
    "surface": "equ",
@@ -478089,6 +479684,16 @@
      "tracker’s skill",
      "elc/humanities/general-vocabulary",
      "er"
+    ],
+    [
+     "handicapper",
+     "elc/english/harrison-bergeron",
+     "er"
+    ],
+    [
+     "Bunsen burner",
+     "elc/science/lab-safety-equipment",
+     "er"
     ]
    ],
    "extras": [
@@ -478097,6 +479702,22 @@
     "farmer",
     "painter",
     "singer"
+   ]
+  },
+  "escape|get free": {
+   "surface": "escape",
+   "variants": [
+    "escape"
+   ],
+   "type": "root",
+   "gloss": "get free",
+   "aka": [],
+   "words": [
+    [
+     "escaped",
+     "elc/english/harrison-bergeron",
+     "escape"
+    ]
    ]
   },
   "establish|set up": {
@@ -478288,6 +479909,11 @@
     [
      "Measures",
      "elc/science/pandemic",
+     "es"
+    ],
+    [
+     "safety glasses",
+     "elc/science/lab-safety-equipment",
      "es"
     ]
    ],
@@ -481289,6 +482915,22 @@
    ],
    "extras": []
   },
+  "foot|the foot you stand on": {
+   "surface": "foot",
+   "variants": [
+    "foot"
+   ],
+   "type": "root",
+   "gloss": "the foot you stand on",
+   "aka": [],
+   "words": [
+    [
+     "ecological footprint",
+     "elc/science/ecosystems",
+     "foot"
+    ]
+   ]
+  },
   "force|strength": {
    "surface": "force",
    "variants": [
@@ -482701,6 +484343,11 @@
      "generator",
      "year-9/science/magnetism",
      "gener"
+    ],
+    [
+     "hydrogen ion",
+     "elc/science/acids-bases",
+     "gen"
     ]
    ],
    "extras": [
@@ -482846,6 +484493,22 @@
     ]
    ],
    "extras": []
+  },
+  "glass|hard clear material": {
+   "surface": "glass",
+   "variants": [
+    "glass"
+   ],
+   "type": "root",
+   "gloss": "hard clear material",
+   "aka": [],
+   "words": [
+    [
+     "safety glasses",
+     "elc/science/lab-safety-equipment",
+     "glass"
+    ]
+   ]
   },
   "glimmer|shine faintly": {
    "surface": "glimmer",
@@ -483970,6 +485633,22 @@
    ],
    "extras": []
   },
+  "handicap|a disadvantage placed on someone": {
+   "surface": "handicap",
+   "variants": [
+    "handicap"
+   ],
+   "type": "root",
+   "gloss": "a disadvantage placed on someone",
+   "aka": [],
+   "words": [
+    [
+     "handicapper",
+     "elc/english/harrison-bergeron",
+     "handicap"
+    ]
+   ]
+  },
   "hand|hand": {
    "surface": "hand",
    "variants": [
@@ -484187,6 +485866,16 @@
     [
      "heating",
      "year-7/science/particles",
+     "heat"
+    ],
+    [
+     "heating flame",
+     "elc/science/lab-safety-equipment",
+     "heat"
+    ],
+    [
+     "heatproof mat",
+     "elc/science/lab-safety-equipment",
      "heat"
     ]
    ],
@@ -485042,6 +486731,16 @@
      "dehydration",
      "elc/humanities/general-vocabulary",
      "hydr"
+    ],
+    [
+     "hydrogen ion",
+     "elc/science/acids-bases",
+     "hydr"
+    ],
+    [
+     "hydroxide ion",
+     "elc/science/acids-bases",
+     "hydr"
     ]
    ],
    "extras": [
@@ -485720,6 +487419,11 @@
     [
      "lattice",
      "year-8/science/chemistry",
+     "ice"
+    ],
+    [
+     "lattice",
+     "elc/science/atoms-bonding",
      "ice"
     ]
    ],
@@ -486728,6 +488432,16 @@
      "publicity",
      "elc/humanities/general-vocabulary",
      "ic"
+    ],
+    [
+     "ionic bond",
+     "elc/science/atoms-bonding",
+     "ic"
+    ],
+    [
+     "metallic bonding",
+     "elc/science/atoms-bonding",
+     "ic"
     ]
    ],
    "extras": [
@@ -486855,6 +488569,11 @@
     [
      "carbon dioxide",
      "elc/science/photosynthesis",
+     "ide"
+    ],
+    [
+     "hydroxide ion",
+     "elc/science/acids-bases",
      "ide"
     ]
    ],
@@ -487237,7 +488956,8 @@
    "surface": "ify",
    "variants": [
     "ify",
-    "ific"
+    "ific",
+    "ifi"
    ],
    "type": "suffix",
    "gloss": "to make",
@@ -487355,6 +489075,11 @@
      "simplify",
      "elc/mathematics/number-algebra",
      "ify"
+    ],
+    [
+     "terrified",
+     "elc/humanities/history",
+     "ifi"
     ]
    ],
    "extras": [
@@ -488485,6 +490210,11 @@
     [
      "appalling crash",
      "elc/humanities/general-vocabulary",
+     "ing"
+    ],
+    [
+     "heating flame",
+     "elc/science/lab-safety-equipment",
      "ing"
     ]
    ],
@@ -489821,6 +491551,11 @@
      "indoctrinate",
      "elc/humanities/general-vocabulary",
      "in"
+    ],
+    [
+     "indicator",
+     "elc/science/acids-bases",
+     "in"
     ]
    ],
    "extras": [
@@ -490070,6 +491805,11 @@
     [
      "independent (events)",
      "elc/mathematics/probability-basics",
+     "in"
+    ],
+    [
+     "insoluble",
+     "elc/science/mixtures-solubility",
      "in"
     ]
    ],
@@ -492153,6 +493893,11 @@
      "solution",
      "elc/mathematics/linear-graphs-revision",
      "ion"
+    ],
+    [
+     "suspension",
+     "elc/science/mixtures-solubility",
+     "ion"
     ]
    ],
    "extras": [
@@ -492209,6 +493954,11 @@
     [
      "ionization",
      "year-10/chemistry/unit-1",
+     "ion"
+    ],
+    [
+     "ionic bond",
+     "elc/science/atoms-bonding",
      "ion"
     ]
    ],
@@ -495328,6 +497078,11 @@
      "uncompetitive",
      "elc/english/harrison-bergeron",
      "itive"
+    ],
+    [
+     "corrosive",
+     "elc/science/acids-bases",
+     "ive"
     ]
    ],
    "extras": [
@@ -496489,6 +498244,11 @@
     [
      "lattice",
      "year-8/science/chemistry",
+     "latt"
+    ],
+    [
+     "lattice",
+     "elc/science/atoms-bonding",
      "latt"
     ]
    ],
@@ -499325,6 +501085,27 @@
     ]
    ]
   },
+  "massacre|the killing of many people": {
+   "surface": "massacre",
+   "variants": [
+    "massacre"
+   ],
+   "type": "root",
+   "gloss": "the killing of many people",
+   "aka": [],
+   "words": [
+    [
+     "Massacres",
+     "elc/humanities/history",
+     "massacre"
+    ],
+    [
+     "Massacres",
+     "elc/humanities/general-vocabulary",
+     "massacre"
+    ]
+   ]
+  },
   "materi|matter": {
    "surface": "materi",
    "variants": [
@@ -500544,6 +502325,11 @@
      "concealment",
      "elc/humanities/general-vocabulary",
      "ment"
+    ],
+    [
+     "equipment",
+     "elc/science/lab-safety-equipment",
+     "ment"
     ]
    ],
    "extras": [
@@ -500672,6 +502458,11 @@
     [
      "metallic",
      "year-9/science/chemistry",
+     "metal"
+    ],
+    [
+     "metallic bonding",
+     "elc/science/atoms-bonding",
      "metal"
     ]
    ],
@@ -502976,6 +504767,11 @@
      "negotiated",
      "elc/humanities/general-vocabulary",
      "neg"
+    ],
+    [
+     "Denial",
+     "elc/science/pandemic",
+     "ni"
     ]
    ],
    "extras": [
@@ -503220,6 +505016,11 @@
     [
      "neutralizing",
      "elc/english/harrison-bergeron",
+     "neutr"
+    ],
+    [
+     "neutral",
+     "elc/science/acids-bases",
      "neutr"
     ]
    ],
@@ -506148,6 +507949,11 @@
      "carbon dioxide",
      "elc/science/photosynthesis",
      "ox"
+    ],
+    [
+     "hydroxide ion",
+     "elc/science/acids-bases",
+     "ox"
     ]
    ]
   },
@@ -507384,6 +509190,11 @@
      "perpendicular",
      "elc/mathematics/linear-graphs-revision",
      "pend"
+    ],
+    [
+     "suspension",
+     "elc/science/mixtures-solubility",
+     "pens"
     ]
    ],
    "extras": [
@@ -511826,6 +513637,22 @@
    ],
    "extras": []
   },
+  "proof|protected against": {
+   "surface": "proof",
+   "variants": [
+    "proof"
+   ],
+   "type": "suffix",
+   "gloss": "protected against",
+   "aka": [],
+   "words": [
+    [
+     "heatproof mat",
+     "elc/science/lab-safety-equipment",
+     "proof"
+    ]
+   ]
+  },
   "proof|test": {
    "surface": "proof",
    "variants": [
@@ -512796,6 +514623,11 @@
     [
      "purebred",
      "year-10/biology/genetics",
+     "pure"
+    ],
+    [
+     "pure substance",
+     "elc/science/mixtures-solubility",
      "pure"
     ]
    ]
@@ -515300,6 +517132,11 @@
      "restrictions",
      "elc/humanities/general-vocabulary",
      "re"
+    ],
+    [
+     "reveals",
+     "elc/english/flowers-for-algernon",
+     "re"
     ]
    ],
    "extras": [
@@ -515536,6 +517373,11 @@
      "corrosion",
      "elc/science/chemical-reactions",
      "ros"
+    ],
+    [
+     "corrosive",
+     "elc/science/acids-bases",
+     "ros"
     ]
    ],
    "extras": [
@@ -515704,6 +517546,27 @@
      "sacrifice",
      "elc/humanities/general-vocabulary",
      "sacr"
+    ]
+   ]
+  },
+  "safe|free from danger": {
+   "surface": "safe",
+   "variants": [
+    "safe"
+   ],
+   "type": "root",
+   "gloss": "free from danger",
+   "aka": [],
+   "words": [
+    [
+     "safety glasses",
+     "elc/science/lab-safety-equipment",
+     "safe"
+    ],
+    [
+     "safety flame",
+     "elc/science/lab-safety-equipment",
+     "safe"
     ]
    ]
   },
@@ -515978,6 +517841,22 @@
     ]
    ],
    "extras": []
+  },
+  "scatter|throw about widely": {
+   "surface": "scatter",
+   "variants": [
+    "scatter"
+   ],
+   "type": "root",
+   "gloss": "throw about widely",
+   "aka": [],
+   "words": [
+    [
+     "scattered",
+     "elc/english/harrison-bergeron",
+     "scatter"
+    ]
+   ]
   },
   "scence|process of becoming": {
    "surface": "scence",
@@ -517252,6 +519131,22 @@
     ]
    ]
   },
+  "sheet|flat piece": {
+   "surface": "sheet",
+   "variants": [
+    "sheet"
+   ],
+   "type": "root",
+   "gloss": "flat piece",
+   "aka": [],
+   "words": [
+    [
+     "spreadsheet",
+     "elc/science/pandemic",
+     "sheet"
+    ]
+   ]
+  },
   "ship|state/condition": {
    "surface": "ship",
    "variants": [
@@ -517903,6 +519798,11 @@
      "sine",
      "elc/science/l4",
      "sine"
+    ],
+    [
+     "cosine",
+     "elc/science/l4",
+     "sine"
     ]
    ]
   },
@@ -518478,6 +520378,11 @@
      "solution",
      "elc/mathematics/linear-graphs-revision",
      "solut"
+    ],
+    [
+     "insoluble",
+     "elc/science/mixtures-solubility",
+     "solu"
     ]
    ],
    "extras": [
@@ -519420,6 +521325,22 @@
     "sponsor",
     "correspond",
     "respondent"
+   ]
+  },
+  "spread|lay out over an area": {
+   "surface": "spread",
+   "variants": [
+    "spread"
+   ],
+   "type": "root",
+   "gloss": "lay out over an area",
+   "aka": [],
+   "words": [
+    [
+     "spreadsheet",
+     "elc/science/pandemic",
+     "spread"
+    ]
    ]
   },
   "spring|origin/source": {
@@ -521144,6 +523065,11 @@
      "substitution",
      "elc/mathematics/linear-graphs-revision",
      "sub"
+    ],
+    [
+     "suspension",
+     "elc/science/mixtures-solubility",
+     "sus"
     ]
    ],
    "extras": [
@@ -522432,6 +524358,21 @@
      "restrictions",
      "elc/humanities/general-vocabulary",
      "s"
+    ],
+    [
+     "precautions",
+     "elc/science/pandemic",
+     "s"
+    ],
+    [
+     "Massacres",
+     "elc/humanities/history",
+     "s"
+    ],
+    [
+     "Massacres",
+     "elc/humanities/general-vocabulary",
+     "s"
     ]
    ],
    "extras": []
@@ -522453,6 +524394,11 @@
     [
      "reveals",
      "elc/humanities/social-media-ban",
+     "s"
+    ],
+    [
+     "reveals",
+     "elc/english/flowers-for-algernon",
      "s"
     ]
    ]
@@ -526330,6 +528276,16 @@
      "Sovereignty",
      "elc/humanities/general-vocabulary",
      "ty"
+    ],
+    [
+     "safety glasses",
+     "elc/science/lab-safety-equipment",
+     "ty"
+    ],
+    [
+     "safety flame",
+     "elc/science/lab-safety-equipment",
+     "ty"
     ]
    ],
    "extras": []
@@ -528101,6 +530057,11 @@
      "evaluate",
      "year-7/mathematics/number",
      "valu"
+    ],
+    [
+     "covalent bond",
+     "elc/science/atoms-bonding",
+     "val"
     ]
    ],
    "extras": [
@@ -528417,6 +530378,11 @@
     [
      "revealed",
      "elc/humanities/general-vocabulary",
+     "veal"
+    ],
+    [
+     "reveals",
+     "elc/english/flowers-for-algernon",
      "veal"
     ]
    ]
@@ -530110,6 +532076,22 @@
      "bounded willpower",
      "vce/economics/unit-1-aos-3",
      "will"
+    ]
+   ]
+  },
+  "wince|flinch in pain": {
+   "surface": "wince",
+   "variants": [
+    "wince"
+   ],
+   "type": "root",
+   "gloss": "flinch in pain",
+   "aka": [],
+   "words": [
+    [
+     "winced",
+     "elc/english/harrison-bergeron",
+     "wince"
     ]
    ]
   },
