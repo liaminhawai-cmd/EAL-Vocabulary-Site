@@ -172165,6 +172165,84 @@
           "zh-Hans": "多基因的",
           "zh-Hant": "多基因的"
          }
+        },
+        {
+         "word": "parent",
+         "parts": [
+          {
+           "surface": "par",
+           "type": "root",
+           "meaning": "give birth, produce",
+           "translations": {
+            "zh-Hans": "生育/产生",
+            "zh-Hant": "生育/產生",
+            "ja": "産む/生じさせる",
+            "ko": "낳다/생기게 하다",
+            "vi": "sinh ra/tạo ra",
+            "ar": "يلد/ينتج",
+            "fa": "زاییدن/تولید کردن",
+            "ur": "جنم دینا/پیدا کرنا",
+            "am": "መውለድ",
+            "ml": "ജന്മം നൽകുക",
+            "ta": "பெற்றெடுத்தல்",
+            "tl": "manganak/lumikha",
+            "ps": "زیږول",
+            "ro": "a naște/a produce",
+            "ru": "рождать/производить",
+            "fr": "enfanter/produire",
+            "hi": "जन्म देना",
+            "es": "engendrar/producir"
+           }
+          },
+          {
+           "surface": "ent",
+           "type": "suffix",
+           "meaning": "one who",
+           "translations": {
+            "zh-Hans": "…的人",
+            "zh-Hant": "…的人",
+            "ja": "〜する人",
+            "ko": "~하는 사람",
+            "vi": "người mà",
+            "ar": "الشخص الذي",
+            "fa": "کسی که",
+            "ur": "وہ جو",
+            "am": "የሚያደርግ ሰው",
+            "ml": "ചെയ്യുന്നയാൾ",
+            "ta": "செய்பவர்",
+            "tl": "ang gumagawa",
+            "ps": "هغه څوک چې",
+            "ro": "cel care",
+            "ru": "тот, кто",
+            "fr": "celui qui",
+            "hi": "करने वाला",
+            "es": "el que"
+           }
+          }
+         ],
+         "root": "par",
+         "meaning": "An organism that produces offspring. In a Punnett square the parents' alleles are written outside the grid, one parent along the top and one down the side.",
+         "example": "Both parents were carriers, so one in four of their offspring had the recessive trait.",
+         "translations": {
+          "zh-Hans": "亲本（亲代）",
+          "zh-Hant": "親代（親本）",
+          "ja": "親（親世代）",
+          "ko": "어버이(부모 세대)",
+          "vi": "bố mẹ (thế hệ P)",
+          "ar": "الأب أو الأم (الجيل الأبوي)",
+          "fa": "والد (نسل والد)",
+          "ur": "والدین (پیدا کرنے والا جاندار)",
+          "am": "ወላጅ",
+          "ml": "മാതാപിതാവ് (ജനക ജീവി)",
+          "ta": "பெற்றோர்",
+          "tl": "magulang",
+          "ps": "والد (مور/پلار)",
+          "ro": "părinte (generația parentală)",
+          "ru": "родитель (родительское поколение)",
+          "fr": "parent (génération parentale)",
+          "hi": "जनक (माता-पिता)",
+          "es": "progenitor (padre o madre)"
+         }
         }
        ],
        "path": "year-10/biology/genetics"
@@ -175463,6 +175541,137 @@
           "vi": "thống kê học",
           "zh-Hans": "统计学",
           "zh-Hant": "統計學"
+         }
+        },
+        {
+         "word": "rate",
+         "parts": [],
+         "root": "",
+         "meaning": "How fast something changes. A rate is an amount for each unit of time, such as 60 new cases per day.",
+         "example": "The rate of new infections fell from 60 per day to 20 per day.",
+         "translations": {
+          "zh-Hans": "率（速率）",
+          "zh-Hant": "率（速率）",
+          "ja": "率（割合・変化の速さ）",
+          "ko": "비율(율, 변화 속도)",
+          "vi": "tỉ lệ (tốc độ)",
+          "ar": "معدل",
+          "fa": "نرخ (میزان)",
+          "ur": "شرح (نرخ)",
+          "am": "ምጣኔ (መጠን)",
+          "ml": "നിരക്ക്",
+          "ta": "வீதம் (விகிதம்)",
+          "tl": "rate (tantos)",
+          "ps": "نرخ (کچه)",
+          "ro": "rată",
+          "ru": "темп (скорость изменения)",
+          "fr": "taux",
+          "hi": "दर",
+          "es": "tasa"
+         },
+         "origin": "From Latin rata (reckoned, calculated), in the phrase pro rata parte — “according to the calculated part”."
+        },
+        {
+         "word": "misleading",
+         "parts": [
+          {
+           "surface": "mis",
+           "type": "prefix",
+           "meaning": "wrongly",
+           "translations": {
+            "zh-Hans": "错误地",
+            "zh-Hant": "錯誤地",
+            "ja": "誤って",
+            "ko": "잘못",
+            "vi": "sai, nhầm",
+            "ar": "بشكل خاطئ",
+            "fa": "به اشتباه",
+            "ur": "غلط طور پر",
+            "am": "በስህተት",
+            "ml": "തെറ്റായി",
+            "ta": "தவறாக",
+            "tl": "mali",
+            "ps": "په غلط ډول",
+            "ro": "greșit",
+            "ru": "неправильно",
+            "fr": "à tort",
+            "hi": "गलत तरीके से",
+            "es": "erróneamente"
+           }
+          },
+          {
+           "surface": "lead",
+           "type": "root",
+           "meaning": "guide, take somewhere",
+           "translations": {
+            "zh-Hans": "引导",
+            "zh-Hant": "引導",
+            "ja": "導く",
+            "ko": "이끌다",
+            "vi": "dẫn dắt",
+            "ar": "يقود/يرشد",
+            "fa": "هدایت کردن",
+            "ur": "رہنمائی کرنا",
+            "am": "መምራት",
+            "ml": "നയിക്കുക",
+            "ta": "வழிநடத்துதல்",
+            "tl": "umakay/gumabay",
+            "ps": "لارښوونه کول",
+            "ro": "a conduce/a ghida",
+            "ru": "вести/направлять",
+            "fr": "guider/mener",
+            "hi": "मार्गदर्शन करना",
+            "es": "guiar/conducir"
+           }
+          },
+          {
+           "surface": "ing",
+           "type": "suffix",
+           "meaning": "doing, describing",
+           "translations": {
+            "zh-Hans": "…的（正在做）",
+            "zh-Hant": "…的（正在做）",
+            "ja": "〜している",
+            "ko": "~하는",
+            "vi": "đang, mang tính",
+            "ar": "صيغة اسم الفاعل",
+            "fa": "کننده",
+            "ur": "کرنے والا",
+            "am": "የሚያደርግ",
+            "ml": "ചെയ്യുന്ന",
+            "ta": "செய்கிற",
+            "tl": "na gumagawa",
+            "ps": "کوونکی",
+            "ro": "care face",
+            "ru": "делающий",
+            "fr": "qui fait",
+            "hi": "करने वाला",
+            "es": "que hace"
+           }
+          }
+         ],
+         "root": "lead",
+         "meaning": "Describing something that makes you believe a wrong thing, even when it does not exactly tell a lie.",
+         "example": "The graph was misleading because the y-axis started at 90, not at 0.",
+         "translations": {
+          "zh-Hans": "误导性的",
+          "zh-Hant": "誤導性的",
+          "ja": "誤解を招く",
+          "ko": "오해를 부르는(오도하는)",
+          "vi": "gây hiểu lầm",
+          "ar": "مضلل",
+          "fa": "گمراه‌کننده",
+          "ur": "گمراہ کن",
+          "am": "አሳሳች",
+          "ml": "തെറ്റിദ്ധരിപ്പിക്കുന്ന",
+          "ta": "தவறான எண்ணத்தைத் தரும்",
+          "tl": "nakalilinlang",
+          "ps": "ګمراه کوونکی",
+          "ro": "înșelător",
+          "ru": "вводящий в заблуждение",
+          "fr": "trompeur",
+          "hi": "भ्रामक",
+          "es": "engañoso"
          }
         }
        ],
@@ -327167,6 +327376,1461 @@
         }
        ],
        "path": "elc/mathematics/statistics-data"
+      },
+      {
+       "id": "linear-graphs-revision",
+       "name": "Linear graphs — quiz language",
+       "path": "elc/mathematics/linear-graphs-revision",
+       "interactive": true,
+       "words": [
+        {
+         "word": "gradient",
+         "parts": [
+          {
+           "surface": "grad",
+           "type": "root",
+           "meaning": "step",
+           "translations": {
+            "am": "ደረጃ",
+            "ar": "خطوة",
+            "es": "paso",
+            "fa": "گام",
+            "fr": "pas",
+            "hi": "कदम",
+            "ja": "段階",
+            "ko": "단계",
+            "ml": "പടി",
+            "ps": "ګام",
+            "ro": "pas",
+            "ru": "шаг",
+            "ta": "படி",
+            "tl": "hakbang",
+            "ur": "قدم",
+            "vi": "bước",
+            "zh-Hans": "步",
+            "zh-Hant": "步"
+           }
+          },
+          {
+           "surface": "ient",
+           "type": "suffix",
+           "meaning": "doing (noun/adj)",
+           "translations": {
+            "am": "የሚያደርግ",
+            "ar": "فاعل",
+            "es": "que hace",
+            "fa": "انجام‌دهنده",
+            "fr": "faisant",
+            "hi": "करने वाला",
+            "ja": "～するもの",
+            "ko": "~하는 것",
+            "ml": "ചെയ്യുന്ന",
+            "ps": "کوونکی",
+            "ro": "care face",
+            "ru": "делающий",
+            "ta": "செய்பவர்",
+            "tl": "gumagawa",
+            "ur": "کرنے والا",
+            "vi": "đang làm",
+            "zh-Hans": "…的 / …者",
+            "zh-Hant": "…的 / …者"
+           }
+          }
+         ],
+         "root": "grad",
+         "meaning": "How steep a line is; the slope of a graph.",
+         "example": "A steep gradient means the object is speeding up quickly.",
+         "translations": {
+          "am": "ቁልቁለት",
+          "ar": "الميل",
+          "es": "pendiente",
+          "fa": "شیب",
+          "fr": "pente",
+          "hi": "ढाल",
+          "ja": "傾き",
+          "ko": "기울기",
+          "ml": "ചരിവ്",
+          "ps": "مايل",
+          "ro": "pantă",
+          "ru": "наклон",
+          "ta": "சாய்வு",
+          "tl": "dahilis",
+          "ur": "ڈھلان",
+          "vi": "độ dốc",
+          "zh-Hans": "斜率",
+          "zh-Hant": "斜率"
+         }
+        },
+        {
+         "word": "slope",
+         "parts": [
+          {
+           "surface": "slope",
+           "type": "root",
+           "meaning": "slope",
+           "translations": {
+            "am": "ቁልቁለት",
+            "ar": "ميل",
+            "es": "pendiente",
+            "fa": "شیب",
+            "fr": "pente",
+            "hi": "ढलान",
+            "ja": "傾き",
+            "ko": "기울기",
+            "ml": "ചരിവ്",
+            "ps": "میلان",
+            "ro": "pantă",
+            "ru": "наклон",
+            "ta": "சரிவு",
+            "tl": "dahilig",
+            "ur": "ڈھلان",
+            "vi": "độ dốc",
+            "zh-Hans": "斜率",
+            "zh-Hant": "斜率"
+           }
+          }
+         ],
+         "root": "slope",
+         "meaning": "The steepness of a line; another word for gradient.",
+         "example": "The slope of the line tells you the velocity.",
+         "translations": {
+          "am": "ቁልቁለት",
+          "ar": "الميل",
+          "es": "pendiente",
+          "fa": "شیب",
+          "fr": "pente",
+          "hi": "ढाल",
+          "ja": "傾き",
+          "ko": "기울기",
+          "ml": "ചരിവ്",
+          "ps": "ډډه",
+          "ro": "pantă",
+          "ru": "наклон",
+          "ta": "சாய்வு",
+          "tl": "dahilis",
+          "ur": "ڈھلان",
+          "vi": "độ dốc",
+          "zh-Hans": "斜率",
+          "zh-Hant": "斜率"
+         }
+        },
+        {
+         "word": "intercept",
+         "parts": [
+          {
+           "surface": "inter",
+           "type": "prefix",
+           "meaning": "between",
+           "translations": {
+            "am": "በ…መካከል",
+            "ar": "بين",
+            "es": "entre",
+            "fa": "بین",
+            "fr": "entre",
+            "hi": "के बीच",
+            "ja": "間",
+            "ko": "사이",
+            "ml": "ഇടയിൽ",
+            "ps": "تر منځ",
+            "ro": "între",
+            "ru": "между",
+            "ta": "இடையில்",
+            "tl": "pagitan",
+            "ur": "درمیان",
+            "vi": "giữa",
+            "zh-Hans": "之间",
+            "zh-Hant": "之間"
+           }
+          },
+          {
+           "surface": "cept",
+           "type": "root",
+           "meaning": "take, hold",
+           "translations": {
+            "am": "መያዝ",
+            "ar": "إمساك",
+            "es": "tomar/sostener",
+            "fa": "گرفتن",
+            "fr": "prendre",
+            "hi": "पकड़ना",
+            "ja": "つかむ",
+            "ko": "잡다",
+            "ml": "പിടിക്കുക",
+            "ps": "نیول",
+            "ro": "a prinde",
+            "ru": "хватать",
+            "ta": "பிடி",
+            "tl": "hawak",
+            "ur": "پکڑنا",
+            "vi": "cầm",
+            "zh-Hans": "抓住",
+            "zh-Hant": "抓住"
+           }
+          }
+         ],
+         "root": "cept",
+         "meaning": "The point where a line crosses an axis of a graph.",
+         "example": "The y-intercept shows the starting position.",
+         "translations": {
+          "am": "የዘንግ መገናኛ ነጥብ",
+          "ar": "التقاطع مع المحور",
+          "es": "intercepto",
+          "fa": "نقطه تقاطع با محور",
+          "fr": "point d'intersection avec l'axe",
+          "hi": "अक्ष के साथ प्रतिच्छेद बिंदु",
+          "ja": "切片",
+          "ko": "절편",
+          "ml": "അക്ഷഖണ്ഡം",
+          "ps": "د محور پرې کوونکی ټکی",
+          "ro": "intersecția cu axa",
+          "ru": "точка пересечения с осью",
+          "ta": "அச்சு வெட்டுப்புள்ளி",
+          "tl": "puntong pinagsalubungan sa aksis",
+          "ur": "محور کے ساتھ نقطہ تقاطع",
+          "vi": "giao điểm với trục",
+          "zh-Hans": "截距",
+          "zh-Hant": "截距"
+         }
+        },
+        {
+         "word": "linear",
+         "parts": [
+          {
+           "surface": "line",
+           "type": "root",
+           "meaning": "line",
+           "translations": {
+            "am": "መስመር",
+            "ar": "خط",
+            "es": "línea",
+            "fa": "خط",
+            "fr": "ligne",
+            "hi": "रेखा",
+            "ja": "線",
+            "ko": "선",
+            "ml": "രേഖ",
+            "ps": "کرښه",
+            "ro": "linie",
+            "ru": "линия",
+            "ta": "கோடு",
+            "tl": "linya",
+            "ur": "لکیر",
+            "vi": "đường",
+            "zh-Hans": "线",
+            "zh-Hant": "線"
+           }
+          },
+          {
+           "surface": "ar",
+           "type": "suffix",
+           "meaning": "relating to",
+           "translations": {
+            "am": "የተያያዘ",
+            "ar": "متعلق بـ",
+            "es": "relativo a",
+            "fa": "مربوط به",
+            "fr": "relatif à",
+            "hi": "से संबंधित",
+            "ja": "～に関する",
+            "ko": "~에 관한",
+            "ml": "ബന്ധപ്പെട്ട",
+            "ps": "اړوند",
+            "ro": "referitor la",
+            "ru": "относящийся к",
+            "ta": "தொடர்புடைய",
+            "tl": "may kaugnayan sa",
+            "ur": "سے متعلق",
+            "vi": "liên quan",
+            "zh-Hans": "与…有关的",
+            "zh-Hant": "與…有關的"
+           }
+          }
+         ],
+         "root": "line",
+         "meaning": "Making or relating to a straight line.",
+         "example": "The graph was linear, so the speed stayed constant.",
+         "translations": {
+          "am": "ቀጥተኛ",
+          "ar": "خطي",
+          "es": "lineal",
+          "fa": "خطی",
+          "fr": "linéaire",
+          "hi": "रैखिक",
+          "ja": "線形の",
+          "ko": "선형의",
+          "ml": "രേഖീയ",
+          "ps": "خطي",
+          "ro": "liniar",
+          "ru": "линейный",
+          "ta": "நேரியல்",
+          "tl": "tuwid",
+          "ur": "خطی",
+          "vi": "tuyến tính",
+          "zh-Hans": "线性的",
+          "zh-Hant": "線性的"
+         }
+        },
+        {
+         "word": "equation",
+         "parts": [
+          {
+           "surface": "equ",
+           "type": "root",
+           "meaning": "equal",
+           "translations": {
+            "am": "እኩል",
+            "ar": "متساو",
+            "es": "igual",
+            "fa": "برابر",
+            "fr": "égal",
+            "hi": "समान",
+            "ja": "等しい",
+            "ko": "동등",
+            "ml": "തുല്യം",
+            "ps": "برابر",
+            "ro": "egal",
+            "ru": "равный",
+            "ta": "சமமான",
+            "tl": "pantay",
+            "ur": "برابر",
+            "vi": "bằng",
+            "zh-Hans": "相等",
+            "zh-Hant": "相等"
+           }
+          },
+          {
+           "surface": "ation",
+           "type": "suffix",
+           "meaning": "process of",
+           "translations": {
+            "am": "ሂደት",
+            "ar": "عملية",
+            "es": "proceso de",
+            "fa": "فرآیند",
+            "fr": "processus",
+            "hi": "प्रक्रिया",
+            "ja": "過程",
+            "ko": "과정",
+            "ml": "പ്രക്രിയ",
+            "ps": "پروسه",
+            "ro": "proces",
+            "ru": "процесс",
+            "ta": "செயல்முறை",
+            "tl": "proseso",
+            "ur": "عمل",
+            "vi": "quá trình",
+            "zh-Hans": "过程",
+            "zh-Hant": "過程"
+           }
+          }
+         ],
+         "root": "equate",
+         "meaning": "A maths statement that two things are equal, using an = sign.",
+         "example": "The equation v = d/t links velocity, distance and time.",
+         "translations": {
+          "am": "እኩልታ",
+          "ar": "معادلة",
+          "es": "ecuación",
+          "fa": "معادله",
+          "fr": "équation",
+          "hi": "समीकरण",
+          "ja": "方程式",
+          "ko": "방정식",
+          "ml": "സമവാക്യം",
+          "ps": "معادله",
+          "ro": "ecuație",
+          "ru": "уравнение",
+          "ta": "சமன்பாடு",
+          "tl": "ekwasyon",
+          "ur": "مساوات",
+          "vi": "phương trình",
+          "zh-Hans": "方程",
+          "zh-Hant": "方程式"
+         }
+        },
+        {
+         "word": "plot",
+         "parts": [
+          {
+           "surface": "plot",
+           "type": "root",
+           "meaning": "mark out",
+           "translations": {
+            "am": "መሳል",
+            "ar": "رسم",
+            "es": "marcar",
+            "fa": "ترسیم",
+            "fr": "tracer",
+            "hi": "अंकित करना",
+            "ja": "プロットする",
+            "ko": "표시하다",
+            "ml": "അടയാളപ്പെടുത്തുക",
+            "ps": "نښه کول",
+            "ro": "a trasa",
+            "ru": "отмечать",
+            "ta": "குறித்தல்",
+            "tl": "markahan",
+            "ur": "نشان لگانا",
+            "vi": "đánh dấu",
+            "zh-Hans": "标出",
+            "zh-Hant": "標出"
+           }
+          }
+         ],
+         "root": "plot",
+         "meaning": "To mark points on a graph.",
+         "example": "Plot each point where time meets distance.",
+         "translations": {
+          "am": "ግራፍ መሳል",
+          "ar": "رسم",
+          "es": "graficar",
+          "fa": "رسم کردن",
+          "fr": "tracer",
+          "hi": "आलेखित करना",
+          "ja": "プロットする",
+          "ko": "점을 찍다",
+          "ml": "വരയ്ക്കുക",
+          "ps": "رسمول",
+          "ro": "a trasa",
+          "ru": "строить (график)",
+          "ta": "வரைதல்",
+          "tl": "iplot",
+          "ur": "ترسیم کرنا",
+          "vi": "vẽ đồ thị",
+          "zh-Hans": "绘制",
+          "zh-Hant": "繪製"
+         }
+        },
+        {
+         "word": "substitution",
+         "parts": [
+          {
+           "surface": "sub",
+           "type": "prefix",
+           "meaning": "under",
+           "translations": {
+            "am": "ከታች / በምትክ",
+            "ar": "تحت / بدلاً من",
+            "es": "bajo / en lugar de",
+            "fa": "زیر / به‌جای",
+            "fr": "sous / à la place de",
+            "hi": "नीचे / के स्थान पर",
+            "ja": "下に・代わりに",
+            "ko": "아래/대신",
+            "ml": "താഴെ / പകരം",
+            "ps": "لاندې / پرځای",
+            "ro": "sub / în locul",
+            "ru": "под / вместо",
+            "ta": "கீழ் / பதிலாக",
+            "tl": "sa ilalim / kapalit",
+            "ur": "نیچے / بجائے",
+            "vi": "dưới / thay thế",
+            "zh-Hans": "下/替代",
+            "zh-Hant": "下/替代"
+           }
+          },
+          {
+           "surface": "stitut",
+           "type": "root",
+           "meaning": "set up/establish",
+           "translations": {
+            "am": "መመስረት",
+            "ar": "يؤسس",
+            "es": "establecer",
+            "fa": "تأسیس کردن",
+            "fr": "établir",
+            "hi": "स्थापित करना",
+            "ja": "設立する",
+            "ko": "설립하다",
+            "ml": "സ്ഥാപിക്കുക",
+            "ps": "تاسیس کول",
+            "ro": "a înființa",
+            "ru": "учреждать",
+            "ta": "நிறுவு",
+            "tl": "itatag",
+            "ur": "قائم کرنا",
+            "vi": "thiết lập",
+            "zh-Hans": "建立",
+            "zh-Hant": "建立"
+           }
+          },
+          {
+           "surface": "ion",
+           "type": "suffix",
+           "meaning": "act/process",
+           "translations": {
+            "fa": "فرایند/عمل",
+            "am": "ሂደት/ድርጊት",
+            "ar": "عملية/فعل",
+            "es": "proceso/acción",
+            "fr": "processus/action",
+            "hi": "प्रक्रिया/क्रिया",
+            "ja": "過程/作用",
+            "ko": "과정/작용",
+            "ml": "പ്രക്രിയ/പ്രവർത്തനം",
+            "ps": "بهیر/کړنه",
+            "ro": "proces/acțiune",
+            "ru": "процесс/действие",
+            "ta": "செயல்முறை/செயல்",
+            "tl": "proseso/kilos",
+            "ur": "عمل/فعل",
+            "vi": "quá trình/hành động",
+            "zh-Hans": "过程/动作",
+            "zh-Hant": "過程/動作"
+           }
+          }
+         ],
+         "root": "stitu",
+         "meaning": "putting a number in place of a letter to work out the value",
+         "example": "Use substitution to find y when x = 3.",
+         "translations": {
+          "am": "መተካት",
+          "ar": "تعويض",
+          "es": "sustitución",
+          "fa": "جایگذاری",
+          "fr": "substitution",
+          "hi": "प्रतिस्थापन",
+          "ja": "代入",
+          "ko": "대입",
+          "ml": "പകരം വയ്ക്കൽ",
+          "ps": "ځای پرځای کول",
+          "ro": "substituție",
+          "ru": "подстановка",
+          "ta": "பதிலீடு",
+          "tl": "pagpapalit",
+          "ur": "متبادلہ",
+          "vi": "phép thế",
+          "zh-Hans": "代入",
+          "zh-Hant": "代入"
+         }
+        },
+        {
+         "word": "intersection",
+         "parts": [
+          {
+           "surface": "inter",
+           "type": "prefix",
+           "meaning": "between",
+           "translations": {
+            "ur": "درمیان",
+            "fa": "میان",
+            "zh-Hans": "在…之间",
+            "tl": "pagitan",
+            "zh-Hant": "在…之間",
+            "ps": "ترمنځ",
+            "am": "በ…መካከል",
+            "ar": "بين",
+            "es": "entre",
+            "fr": "entre",
+            "hi": "बीच में",
+            "ja": "間",
+            "ko": "사이",
+            "ml": "ഇടയിൽ",
+            "ro": "între",
+            "ru": "между",
+            "ta": "இடையே",
+            "vi": "giữa"
+           }
+          },
+          {
+           "surface": "sect",
+           "type": "root",
+           "meaning": "cut",
+           "translations": {
+            "ur": "کاٹنا",
+            "fa": "بریدن",
+            "zh-Hans": "切割",
+            "tl": "putulin",
+            "zh-Hant": "切割",
+            "ps": "پرې کول",
+            "am": "መቁረጥ",
+            "ar": "يقطع",
+            "es": "cortar",
+            "fr": "couper",
+            "hi": "काटना",
+            "ja": "切る",
+            "ko": "자르다",
+            "ml": "മുറിക്കുക",
+            "ro": "a tăia",
+            "ru": "резать",
+            "ta": "வெட்டு",
+            "vi": "cắt"
+           }
+          },
+          {
+           "surface": "ion",
+           "type": "suffix",
+           "meaning": "act/process",
+           "translations": {
+            "ur": "عمل",
+            "fa": "فرآیند",
+            "zh-Hans": "过程",
+            "tl": "proseso",
+            "zh-Hant": "過程",
+            "ps": "بهير",
+            "am": "ተግባር/ሂደት",
+            "ar": "عملية",
+            "es": "acto/proceso",
+            "fr": "action/processus",
+            "hi": "क्रिया/प्रक्रिया",
+            "ja": "過程",
+            "ko": "행위/과정",
+            "ml": "പ്രവൃത്തി/പ്രക്രിയ",
+            "ro": "proces",
+            "ru": "действие/процесс",
+            "ta": "செயல்/செயல்முறை",
+            "vi": "kết quả/quá trình"
+           }
+          }
+         ],
+         "root": "sect",
+         "meaning": "the point where two lines cross on a graph",
+         "example": "The intersection of the two lines is at (2, 5).",
+         "translations": {
+          "am": "የጋራ ክፍል",
+          "ar": "التقاطع",
+          "es": "intersección",
+          "fa": "اشتراک",
+          "fr": "intersection",
+          "hi": "प्रतिच्छेदन",
+          "ja": "共通部分",
+          "ko": "교집합",
+          "ml": "സംഗമം",
+          "ps": "تقاطع",
+          "ro": "intersecție",
+          "ru": "пересечение",
+          "ta": "வெட்டு",
+          "tl": "interseksyon",
+          "ur": "اشتراک",
+          "vi": "tập hợp giao",
+          "zh-Hans": "交集",
+          "zh-Hant": "交集"
+         }
+        },
+        {
+         "word": "coordinate",
+         "parts": [
+          {
+           "surface": "co",
+           "type": "prefix",
+           "meaning": "together",
+           "translations": {
+            "am": "አብሮ",
+            "ar": "معًا",
+            "es": "juntos",
+            "fa": "باهم",
+            "fr": "ensemble",
+            "hi": "साथ",
+            "ja": "共に",
+            "ko": "함께",
+            "ml": "ഒരുമിച്ച്",
+            "ps": "يوځای",
+            "ro": "împreună",
+            "ru": "вместе",
+            "ta": "ஒன்றாக",
+            "tl": "magkasama",
+            "ur": "اکٹھا",
+            "vi": "cùng",
+            "zh-Hans": "共同",
+            "zh-Hant": "共同",
+            "other": "باهم"
+           }
+          },
+          {
+           "surface": "ordin",
+           "type": "root",
+           "meaning": "order",
+           "translations": {
+            "am": "ተራ/ደረጃ",
+            "ar": "ترتيب/رتبة",
+            "es": "orden/rango",
+            "fa": "ترتیب/رتبه",
+            "fr": "ordre/rang",
+            "hi": "क्रम/श्रेणी",
+            "ja": "順序・順位",
+            "ko": "순서/순위",
+            "ml": "ക്രമം/സ്ഥാനം",
+            "ps": "ترتیب/درجه",
+            "ro": "ordine/rang",
+            "ru": "порядок/ранг",
+            "ta": "வரிசை/தரம்",
+            "tl": "ayos/ranggo",
+            "ur": "ترتیب/درجہ",
+            "vi": "thứ tự/thứ hạng",
+            "zh-Hans": "顺序/等级",
+            "zh-Hant": "順序/等級"
+           }
+          },
+          {
+           "surface": "ate",
+           "type": "suffix",
+           "meaning": "to make/do",
+           "translations": {
+            "am": "ማድረግ",
+            "ar": "جعل",
+            "es": "tener/hacer",
+            "fa": "ساختن",
+            "fr": "rendre",
+            "hi": "बनाना",
+            "ja": "〜化する",
+            "ko": "만들다",
+            "ml": "ഉണ്ടാക്കുക",
+            "ps": "لرونکی/جوړونکی",
+            "ro": "a face",
+            "ru": "делать",
+            "ta": "செய்தல்",
+            "tl": "gumawa",
+            "ur": "بنانا",
+            "vi": "làm",
+            "zh-Hans": "使…化",
+            "zh-Hant": "使…化"
+           }
+          }
+         ],
+         "root": "ordin",
+         "meaning": "a pair of numbers (x, y) that gives the position of a point on a grid",
+         "example": "Plot the coordinate (3, -1) on the grid.",
+         "translations": {
+          "am": "መጋጠሚያ",
+          "ar": "إحداثي",
+          "es": "coordenada",
+          "fa": "مختصات",
+          "fr": "coordonnée",
+          "hi": "निर्देशांक",
+          "ja": "座標",
+          "ko": "좌표",
+          "ml": "നിർദ്ദേശാങ്കം",
+          "ps": "کوارډینېټ",
+          "ro": "coordonată",
+          "ru": "координата",
+          "ta": "ஆயம்",
+          "tl": "koordinada",
+          "ur": "احداثیہ",
+          "vi": "tọa độ",
+          "zh-Hans": "坐标",
+          "zh-Hant": "座標"
+         }
+        },
+        {
+         "word": "solution",
+         "parts": [
+          {
+           "surface": "solut",
+           "type": "root",
+           "meaning": "loosen/solve",
+           "translations": {
+            "am": "መፍታት",
+            "ar": "حل",
+            "es": "resolver",
+            "fa": "حل",
+            "fr": "résoudre",
+            "hi": "सुलझाना",
+            "ja": "解く",
+            "ko": "풀다",
+            "ml": "പരിഹരിക്കുക",
+            "ps": "حل کول",
+            "ro": "a rezolva",
+            "ru": "решать",
+            "ta": "தீர்த்தல்",
+            "tl": "lutasin",
+            "ur": "حل کرنا",
+            "vi": "giải",
+            "zh-Hans": "解",
+            "zh-Hant": "解"
+           }
+          },
+          {
+           "surface": "ion",
+           "type": "suffix",
+           "meaning": "act/process",
+           "translations": {
+            "fa": "فرایند/عمل",
+            "am": "ሂደት/ድርጊት",
+            "ar": "عملية/فعل",
+            "es": "proceso/acción",
+            "fr": "processus/action",
+            "hi": "प्रक्रिया/क्रिया",
+            "ja": "過程/作用",
+            "ko": "과정/작용",
+            "ml": "പ്രക്രിയ/പ്രവർത്തനം",
+            "ps": "بهیر/کړنه",
+            "ro": "proces/acțiune",
+            "ru": "процесс/действие",
+            "ta": "செயல்முறை/செயல்",
+            "tl": "proseso/kilos",
+            "ur": "عمل/فعل",
+            "vi": "quá trình/hành động",
+            "zh-Hans": "过程/动作",
+            "zh-Hant": "過程/動作"
+           }
+          }
+         ],
+         "root": "solu",
+         "meaning": "the value of the variable that makes the equation true",
+         "example": "The solution to 2x = 10 is x = 5.",
+         "translations": {
+          "am": "መፍትሔ",
+          "ar": "حل",
+          "es": "solución",
+          "fa": "جواب",
+          "fr": "solution",
+          "hi": "हल",
+          "ja": "解",
+          "ko": "해",
+          "ml": "നിർദ്ധാരണം",
+          "ps": "حل",
+          "ro": "soluție",
+          "ru": "решение",
+          "ta": "தீர்வு",
+          "tl": "solusyon",
+          "ur": "حل",
+          "vi": "nghiệm",
+          "zh-Hans": "解",
+          "zh-Hant": "解"
+         }
+        },
+        {
+         "word": "simultaneous",
+         "parts": [
+          {
+           "surface": "simul",
+           "type": "root",
+           "meaning": "at same time",
+           "translations": {
+            "ur": "ایک ہی وقت میں",
+            "fa": "همزمان",
+            "zh-Hans": "同时",
+            "tl": "sabay",
+            "zh-Hant": "同時",
+            "ps": "يو وخت",
+            "am": "በተመሳሳይ ጊዜ",
+            "ar": "في نفس الوقت",
+            "es": "al mismo tiempo",
+            "fr": "en même temps",
+            "hi": "एक ही समय पर",
+            "ja": "同時に",
+            "ko": "동시에",
+            "ml": "ഒരേ സമയത്ത്",
+            "ro": "în același timp",
+            "ru": "одновременно",
+            "ta": "ஒரே நேரத்தில்",
+            "vi": "cùng lúc"
+           }
+          },
+          {
+           "surface": "tane",
+           "type": "root",
+           "meaning": "stretch",
+           "translations": {
+            "ur": "پھیلانا",
+            "fa": "گسترش",
+            "zh-Hans": "延伸",
+            "tl": "palawakin",
+            "zh-Hant": "延伸",
+            "ps": "غځول",
+            "am": "መዘርጋት",
+            "ar": "يمد",
+            "es": "estirar",
+            "fr": "étirer",
+            "hi": "फैलाना",
+            "ja": "伸ばす",
+            "ko": "늘이다",
+            "ml": "നീട്ടുക",
+            "ro": "a întinde",
+            "ru": "растягивать",
+            "ta": "நீட்டுதல்",
+            "vi": "kéo dài"
+           }
+          },
+          {
+           "surface": "ous",
+           "type": "suffix",
+           "meaning": "full of",
+           "translations": {
+            "ur": "سے بھرا",
+            "fa": "دارای",
+            "zh-Hans": "充满…的",
+            "tl": "puno ng",
+            "zh-Hant": "充滿…的",
+            "ps": "ډک له",
+            "am": "የተሞላ",
+            "ar": "مليء بـ",
+            "es": "lleno de",
+            "fr": "plein de",
+            "hi": "से भरा",
+            "ja": "～に満ちた",
+            "ko": "~로 가득한",
+            "ml": "നിറഞ്ഞ",
+            "ro": "plin de",
+            "ru": "полный",
+            "ta": "நிறைந்த",
+            "vi": "đầy"
+           }
+          }
+         ],
+         "root": "simul",
+         "meaning": "two equations solved together to find values that fit both",
+         "example": "Solve these simultaneous equations to find x and y.",
+         "translations": {
+          "am": "ተመሳሳይ ጊዜ",
+          "ar": "متزامن",
+          "es": "simultáneo",
+          "fa": "هم‌زمان",
+          "fr": "simultané",
+          "hi": "युगपत",
+          "ja": "連立の",
+          "ko": "연립",
+          "ml": "ഒരേസമയ",
+          "ps": "همزمان",
+          "ro": "simultan",
+          "ru": "одновременный",
+          "ta": "ஒரேநேர",
+          "tl": "sabay-sabay",
+          "ur": "بیک وقت",
+          "vi": "đồng thời",
+          "zh-Hans": "联立的",
+          "zh-Hant": "聯立的"
+         }
+        },
+        {
+         "word": "perpendicular",
+         "parts": [
+          {
+           "surface": "per",
+           "type": "prefix",
+           "meaning": "through",
+           "translations": {
+            "ur": "کے ذریعے",
+            "fa": "از طریق",
+            "zh-Hans": "通过",
+            "tl": "sa pamamagitan ng",
+            "zh-Hant": "通過",
+            "ps": "له لارې",
+            "am": "በኩል",
+            "ar": "خلال",
+            "es": "a través de",
+            "fr": "à travers",
+            "hi": "के माध्यम से",
+            "ja": "通して",
+            "ko": "통해",
+            "ml": "വഴി",
+            "ro": "prin",
+            "ru": "через",
+            "ta": "மூலம்",
+            "vi": "qua",
+            "other": "در هر"
+           }
+          },
+          {
+           "surface": "pend",
+           "type": "root",
+           "meaning": "hang",
+           "translations": {
+            "ur": "لٹکنا",
+            "fa": "آویختن",
+            "zh-Hans": "悬挂",
+            "tl": "nakabitin",
+            "zh-Hant": "懸掛",
+            "ps": "ځوړندول",
+            "am": "መስቀል",
+            "ar": "يعلّق",
+            "es": "colgar",
+            "fr": "pendre",
+            "hi": "लटकना",
+            "ja": "ぶら下がる",
+            "ko": "매달리다",
+            "ml": "തൂക്കുക",
+            "ro": "a atârna",
+            "ru": "висеть",
+            "ta": "தொங்குதல்",
+            "vi": "treo"
+           }
+          },
+          {
+           "surface": "icul",
+           "type": "root",
+           "meaning": "small part",
+           "translations": {
+            "ur": "چھوٹا حصہ",
+            "fa": "بخش کوچک",
+            "zh-Hans": "小部分",
+            "tl": "maliit na bahagi",
+            "zh-Hant": "小部分",
+            "ps": "وړه برخه",
+            "am": "ትንሽ ክፍል",
+            "ar": "جزء صغير",
+            "es": "parte pequeña",
+            "fr": "petite partie",
+            "hi": "छोटा भाग",
+            "ja": "小さな部分",
+            "ko": "작은 부분",
+            "ml": "ചെറിയ ഭാഗം",
+            "ro": "parte mică",
+            "ru": "маленькая часть",
+            "ta": "சிறிய பகுதி",
+            "vi": "phần nhỏ"
+           }
+          },
+          {
+           "surface": "ar",
+           "type": "suffix",
+           "meaning": "relating to",
+           "translations": {
+            "ur": "سے متعلق",
+            "fa": "مربوط به",
+            "zh-Hans": "与…有关的",
+            "tl": "may kaugnayan sa",
+            "zh-Hant": "與…有關的",
+            "ps": "اړوند",
+            "am": "የሚመለከት",
+            "ar": "متعلق بـ",
+            "es": "relacionado con",
+            "fr": "relatif à",
+            "hi": "से संबंधित",
+            "ja": "～の",
+            "ko": "관련된",
+            "ml": "സംബന്ധിച്ച",
+            "ro": "referitor la",
+            "ru": "относящийся к",
+            "ta": "தொடர்பான",
+            "vi": "thuộc về"
+           }
+          }
+         ],
+         "root": "pend",
+         "meaning": "meeting at a right angle; the two gradients multiply to make -1",
+         "example": "The line y = -2x is perpendicular to y = 0.5x.",
+         "translations": {
+          "am": "ቀጥ ያለ / ቋሚ",
+          "ar": "عمودي",
+          "es": "perpendicular",
+          "fa": "عمودی",
+          "fr": "perpendiculaire",
+          "hi": "लंबवत",
+          "ja": "垂直",
+          "ko": "수직",
+          "ml": "ലംബം",
+          "ps": "عمودي",
+          "ro": "perpendicular",
+          "ru": "перпендикулярный",
+          "ta": "செங்குத்து",
+          "tl": "perpendikular",
+          "ur": "عمود",
+          "vi": "vuông góc",
+          "zh-Hans": "垂直的",
+          "zh-Hant": "垂直的"
+         }
+        },
+        {
+         "word": "variable",
+         "parts": [
+          {
+           "surface": "vari",
+           "type": "root",
+           "meaning": "change",
+           "translations": {
+            "am": "ለውጥ",
+            "ar": "يغير",
+            "es": "cambio",
+            "fa": "تغییر",
+            "fr": "changement",
+            "hi": "परिवर्तन",
+            "ja": "変わる",
+            "ko": "변화",
+            "ml": "മാറ്റം",
+            "ps": "بدلون",
+            "ro": "varia",
+            "ru": "изменять",
+            "ta": "மாற்றம்",
+            "tl": "pagbabago",
+            "ur": "تبدیلی",
+            "vi": "thay đổi",
+            "zh-Hans": "变化",
+            "zh-Hant": "變化"
+           }
+          },
+          {
+           "surface": "able",
+           "type": "suffix",
+           "meaning": "able to be",
+           "translations": {
+            "am": "የሚችል",
+            "ar": "قابل",
+            "es": "capaz de ser",
+            "fa": "قابل",
+            "fr": "capable de",
+            "hi": "योग्य",
+            "ja": "できる",
+            "ko": "가능한",
+            "ml": "കഴിയുന്ന",
+            "ps": "وړ",
+            "ro": "care poate fi",
+            "ru": "способный",
+            "ta": "முடியும்",
+            "tl": "kaya",
+            "ur": "قابل",
+            "vi": "có thể",
+            "zh-Hans": "可以…的",
+            "zh-Hant": "可以…的"
+           }
+          }
+         ],
+         "root": "vari",
+         "meaning": "A quantity that can change or take different values.",
+         "example": "Time is the variable on the horizontal axis.",
+         "translations": {
+          "am": "ተለዋዋጭ",
+          "ar": "متغيّر",
+          "es": "variable",
+          "fa": "متغیر",
+          "fr": "variable",
+          "hi": "चर",
+          "ja": "変数",
+          "ko": "변수",
+          "ml": "ചരം",
+          "ps": "متغیر",
+          "ro": "variabilă",
+          "ru": "переменная",
+          "ta": "மாறி",
+          "tl": "variable",
+          "ur": "متغیر",
+          "vi": "biến số",
+          "zh-Hans": "变量",
+          "zh-Hant": "變量"
+         }
+        },
+        {
+         "word": "x-intercept",
+         "parts": [
+          {
+           "surface": "x",
+           "type": "prefix",
+           "meaning": "the horizontal axis",
+           "translations": {
+            "zh-Hans": "横轴",
+            "zh-Hant": "橫軸",
+            "ja": "横軸",
+            "ko": "가로축",
+            "vi": "trục ngang (trục hoành)",
+            "ar": "المحور الأفقي",
+            "fa": "محور افقی",
+            "ur": "افقی محور",
+            "am": "አግድም ዘንግ",
+            "ml": "തിരശ്ചീന അക്ഷം",
+            "ta": "கிடைமட்ட அச்சு",
+            "tl": "pahigang aksis",
+            "ps": "افقي محور",
+            "ro": "axa orizontală",
+            "ru": "горизонтальная ось",
+            "fr": "axe horizontal",
+            "hi": "क्षैतिज अक्ष",
+            "es": "eje horizontal"
+           }
+          },
+          {
+           "surface": "inter",
+           "type": "prefix",
+           "meaning": "between",
+           "translations": {
+            "am": "በ…መካከል",
+            "ar": "بين",
+            "es": "entre",
+            "fa": "میان",
+            "fr": "entre",
+            "hi": "बीच में",
+            "ja": "間",
+            "ko": "사이",
+            "ml": "ഇടയിൽ",
+            "ps": "ترمنځ",
+            "ro": "între",
+            "ru": "между",
+            "ta": "இடையே",
+            "tl": "pagitan",
+            "ur": "درمیان",
+            "vi": "giữa",
+            "zh-Hans": "之间",
+            "zh-Hant": "之間"
+           }
+          },
+          {
+           "surface": "cept",
+           "type": "root",
+           "meaning": "take / seize",
+           "translations": {
+            "am": "መያዝ",
+            "ar": "أخذ/إمساك",
+            "es": "tomar/agarrar",
+            "fa": "گرفتن",
+            "fr": "prendre/saisir",
+            "hi": "लेना/पकड़ना",
+            "ja": "取る/つかむ",
+            "ko": "잡다/취하다",
+            "ml": "എടുക്കുക/പിടിക്കുക",
+            "ps": "نیول",
+            "ro": "a lua/a apuca",
+            "ru": "брать/хватать",
+            "ta": "எடுத்தல்/பிடித்தல்",
+            "tl": "kunin/hulihin",
+            "ur": "لینا/پکڑنا",
+            "vi": "lấy/nắm giữ",
+            "zh-Hans": "取/抓",
+            "zh-Hant": "取/抓"
+           }
+          }
+         ],
+         "root": "cept",
+         "meaning": "The point where a line crosses the x-axis. At that point y = 0, so you find it by putting y = 0 into the equation and solving for x.",
+         "example": "The line y = 2x − 6 has its x-intercept at (3, 0).",
+         "translations": {
+          "zh-Hans": "x轴截距",
+          "zh-Hant": "x軸截距",
+          "ja": "x切片",
+          "ko": "x절편",
+          "vi": "hoành độ gốc",
+          "ar": "نقطة تقاطع x",
+          "fa": "طول از مبدأ",
+          "ur": "x محور کا تقاطع",
+          "am": "የ x ዘንግ መገናኛ ነጥብ",
+          "ml": "x-അക്ഷ ഖണ്ഡബിന്ദു",
+          "ta": "x-அச்சு வெட்டுத்துண்டு",
+          "tl": "puntong tawiran sa x-axis",
+          "ps": "د x محور تقاطع",
+          "ro": "abscisa la origine (intersecția cu axa Ox)",
+          "ru": "точка пересечения с осью x",
+          "fr": "abscisse à l'origine",
+          "hi": "x-अंतःखंड",
+          "es": "abscisa al origen (corte con el eje x)"
+         }
+        },
+        {
+         "word": "axis",
+         "parts": [],
+         "root": "",
+         "meaning": "One of the two lines on a graph that you measure from. The x-axis goes across and the y-axis goes up. Two or more of them are called axes.",
+         "example": "Put time on the x-axis and distance on the y-axis.",
+         "translations": {
+          "zh-Hans": "坐标轴（轴）",
+          "zh-Hant": "座標軸（軸）",
+          "ja": "軸（座標軸）",
+          "ko": "축(좌표축)",
+          "vi": "trục (trục tọa độ)",
+          "ar": "محور",
+          "fa": "محور",
+          "ur": "محور",
+          "am": "ዘንግ",
+          "ml": "അക്ഷം",
+          "ta": "அச்சு",
+          "tl": "aksis (ehe)",
+          "ps": "محور",
+          "ro": "axă",
+          "ru": "ось (координатная ось)",
+          "fr": "axe",
+          "hi": "अक्ष",
+          "es": "eje"
+         },
+         "origin": "From Greek axōn, an axle — the rod a wheel turns on; a graph turns around its two axes in the same way."
+        },
+        {
+         "word": "origin",
+         "parts": [
+          {
+           "surface": "orig",
+           "type": "root",
+           "meaning": "rise, begin",
+           "translations": {
+            "zh-Hans": "起源",
+            "zh-Hant": "起源",
+            "ja": "起こる/始まる",
+            "ko": "일어나다/시작하다",
+            "vi": "khởi nguồn",
+            "ar": "نشوء/بدء",
+            "fa": "برخاستن/آغاز کردن",
+            "ur": "اٹھنا/شروع ہونا",
+            "am": "መነሳት/መጀመር",
+            "ml": "ഉദയം/തുടക്കം",
+            "ta": "தொடக்கம்",
+            "tl": "mag-umpisa",
+            "ps": "پیل کیدل",
+            "ro": "a se ridica/începe",
+            "ru": "возникать/начинаться",
+            "fr": "surgir/commencer",
+            "hi": "उदय होना/शुरू होना",
+            "es": "surgir/comenzar"
+           }
+          },
+          {
+           "surface": "in",
+           "type": "suffix",
+           "meaning": "the thing that",
+           "translations": {
+            "zh-Hans": "…的东西",
+            "zh-Hant": "…的東西",
+            "ja": "〜であるもの",
+            "ko": "~인 것",
+            "vi": "thứ mà",
+            "ar": "الشيء الذي",
+            "fa": "چیزی که",
+            "ur": "وہ چیز جو",
+            "am": "ነገር",
+            "ml": "ഒരു കാര്യം",
+            "ta": "ஒன்று",
+            "tl": "bagay na",
+            "ps": "هغه شی چې",
+            "ro": "lucrul care",
+            "ru": "то, что",
+            "fr": "chose qui",
+            "hi": "वह चीज़ जो",
+            "es": "cosa que"
+           }
+          }
+         ],
+         "root": "orig",
+         "meaning": "The point (0, 0) on a graph, where the x-axis and the y-axis cross. Every coordinate is measured from here.",
+         "example": "The line y = 4x passes through the origin.",
+         "translations": {
+          "zh-Hans": "原点",
+          "zh-Hant": "原點",
+          "ja": "原点",
+          "ko": "원점",
+          "vi": "gốc tọa độ",
+          "ar": "نقطة الأصل",
+          "fa": "مبدأ مختصات",
+          "ur": "مبدأ (نقطۂ آغاز)",
+          "am": "መነሻ ነጥብ (0, 0)",
+          "ml": "ആദിബിന്ദു",
+          "ta": "ஆதிப்புள்ளி (மூலப்புள்ளி)",
+          "tl": "origin (pinagmulang punto)",
+          "ps": "مبدأ (د محورونو د پیل ټکی)",
+          "ro": "origine",
+          "ru": "начало координат",
+          "fr": "origine",
+          "hi": "मूल बिंदु",
+          "es": "origen"
+         }
+        },
+        {
+         "word": "sketch",
+         "parts": [],
+         "root": "",
+         "meaning": "To draw a quick graph that shows the important features, such as where the line crosses the axes and which way it slopes. A sketch does not have to be exact.",
+         "example": "Sketch y = 3x − 6 by marking (0, −6) and (2, 0), then joining them with a ruler.",
+         "translations": {
+          "zh-Hans": "草图（画草图）",
+          "zh-Hant": "草圖（作草圖）",
+          "ja": "概形をかく（スケッチ）",
+          "ko": "개형을 그리다(스케치)",
+          "vi": "vẽ phác (phác họa đồ thị)",
+          "ar": "رسم تخطيطي (يرسم تخطيطياً)",
+          "fa": "طرح کلی (رسم تقریبی)",
+          "ur": "خاکہ (خاکہ بنانا)",
+          "am": "ንድፍ (ንድፍ መሳል)",
+          "ml": "രൂപരേഖ (ഏകദേശ ചിത്രം വരയ്ക്കുക)",
+          "ta": "மேலோட்டமாக வரைதல் (கோட்டுரு)",
+          "tl": "iskets (magaspang na guhit)",
+          "ps": "خاکه (خاکه جوړول)",
+          "ro": "schiță (a schița)",
+          "ru": "эскиз (схематически построить график)",
+          "fr": "esquisse (esquisser)",
+          "hi": "रेखाचित्र (मोटा चित्र बनाना)",
+          "es": "esbozo (esbozar)"
+         },
+         "origin": "English borrowed sketch from Dutch schets, itself from Italian schizzo — a quick splash of a drawing made on the spot."
+        },
+        {
+         "word": "y-intercept",
+         "parts": [
+          {
+           "surface": "inter",
+           "type": "prefix",
+           "meaning": "between",
+           "translations": {
+            "am": "በ…መካከል",
+            "ar": "بين",
+            "es": "entre",
+            "fa": "میان",
+            "fr": "entre",
+            "hi": "बीच में",
+            "ja": "間",
+            "ko": "사이",
+            "ml": "ഇടയിൽ",
+            "ps": "ترمنځ",
+            "ro": "între",
+            "ru": "между",
+            "ta": "இடையே",
+            "tl": "pagitan",
+            "ur": "درمیان",
+            "vi": "giữa",
+            "zh-Hans": "之间",
+            "zh-Hant": "之間"
+           }
+          },
+          {
+           "surface": "cept",
+           "type": "root",
+           "meaning": "take / seize",
+           "translations": {
+            "am": "መያዝ",
+            "ar": "أخذ/إمساك",
+            "es": "tomar/agarrar",
+            "fa": "گرفتن",
+            "fr": "prendre/saisir",
+            "hi": "लेना/पकड़ना",
+            "ja": "取る/つかむ",
+            "ko": "잡다/취하다",
+            "ml": "എടുക്കുക/പിടിക്കുക",
+            "ps": "نیول",
+            "ro": "a lua/a apuca",
+            "ru": "брать/хватать",
+            "ta": "எடுத்தல்/பிடித்தல்",
+            "tl": "kunin/hulihin",
+            "ur": "لینا/پکڑنا",
+            "vi": "lấy/nắm giữ",
+            "zh-Hans": "取/抓",
+            "zh-Hant": "取/抓"
+           }
+          }
+         ],
+         "root": "cept",
+         "meaning": "the point where a line crosses the vertical (y) axis.",
+         "example": "",
+         "tier": 3,
+         "translations": {
+          "am": "የ y ዘንግ መገናኛ ነጥብ",
+          "ar": "نقطة تقاطع y",
+          "es": "ordenada al origen",
+          "fa": "عرض از مبدأ",
+          "fr": "ordonnée à l'origine",
+          "hi": "y-अंतःखंड",
+          "ja": "y切片",
+          "ko": "y절편",
+          "ml": "y-അക്ഷ ഖണ്ഡബിന്ദു",
+          "ps": "د y محور تقاطع",
+          "ro": "ordonata la origine",
+          "ru": "точка пересечения с осью y",
+          "ta": "y-அச்சு வெட்டுத்துண்டு",
+          "tl": "puntong tawiran sa y-axis",
+          "ur": "y محور کا تقاطع",
+          "vi": "tung độ gốc",
+          "zh-Hans": "y轴截距",
+          "zh-Hant": "y軸截距"
+         }
+        }
+       ]
+      }
+     ],
+     "folders": [
+      {
+       "id": "stem-maths",
+       "name": "STEM · Linear graphs & probability",
+       "subtitle": "Quiz language plus the probability words behind Punnett squares",
+       "unitIds": [
+        "linear-graphs-revision",
+        "probability-basics",
+        "probability-representations",
+        "statistics-data"
+       ],
+       "sourceUrl": "https://liaminhawai-cmd.github.io/ELC-Pages/stem.html",
+       "sourceLabel": "Open the STEM hub"
       }
      ]
     },
@@ -351200,6 +352864,22 @@
         }
        ],
        "path": "elc/science/l4"
+      }
+     ],
+     "folders": [
+      {
+       "id": "stem-kinematics",
+       "name": "STEM · Kinematics",
+       "subtitle": "The motion, graphs, data and trig words for the STEM course",
+       "unitIds": [
+        "l1",
+        "l2",
+        "l3",
+        "l4",
+        "data-graphs"
+       ],
+       "sourceUrl": "https://liaminhawai-cmd.github.io/ELC-Pages/stem-kinematics.html",
+       "sourceLabel": "Open the STEM hub — Kinematics"
       }
      ]
     },
@@ -401994,6 +403674,11 @@
    "words": [
     [
      "variable",
+     "elc/mathematics/linear-graphs-revision",
+     "able"
+    ],
+    [
+     "variable",
      "elc/science/l3",
      "able"
     ],
@@ -405504,6 +407189,16 @@
    "words": [
     [
      "linear",
+     "elc/mathematics/linear-graphs-revision",
+     "ar"
+    ],
+    [
+     "perpendicular",
+     "elc/mathematics/linear-graphs-revision",
+     "ar"
+    ],
+    [
+     "linear",
      "elc/mathematics/number-algebra",
      "ar"
     ],
@@ -406125,6 +407820,11 @@
     [
      "regulate",
      "elc/humanities/social-media-ban",
+     "ate"
+    ],
+    [
+     "coordinate",
+     "elc/mathematics/linear-graphs-revision",
      "ate"
     ],
     [
@@ -406834,6 +408534,11 @@
     [
      "organisations",
      "elc/humanities/social-media-ban",
+     "ation"
+    ],
+    [
+     "equation",
+     "elc/mathematics/linear-graphs-revision",
      "ation"
     ],
     [
@@ -410258,6 +411963,11 @@
    "words": [
     [
      "intercept",
+     "elc/mathematics/linear-graphs-revision",
+     "cept"
+    ],
+    [
+     "intercept",
      "elc/science/l2",
      "cept"
     ],
@@ -410293,6 +412003,16 @@
     [
      "apperception",
      "elc/english/flowers-for-algernon",
+     "cept"
+    ],
+    [
+     "x-intercept",
+     "elc/mathematics/linear-graphs-revision",
+     "cept"
+    ],
+    [
+     "y-intercept",
+     "elc/mathematics/linear-graphs-revision",
      "cept"
     ],
     [
@@ -413081,6 +414801,11 @@
     [
      "coefficient",
      "elc/mathematics/algebra",
+     "co"
+    ],
+    [
+     "coordinate",
+     "elc/mathematics/linear-graphs-revision",
      "co"
     ],
     [
@@ -418110,6 +419835,11 @@
     ],
     [
      "equation",
+     "elc/mathematics/linear-graphs-revision",
+     "equ"
+    ],
+    [
+     "equation",
      "elc/mathematics/number-algebra",
      "equ"
     ],
@@ -421461,6 +423191,11 @@
    "words": [
     [
      "gradient",
+     "elc/mathematics/linear-graphs-revision",
+     "grad"
+    ],
+    [
+     "gradient",
      "elc/mathematics/number-algebra",
      "grad"
     ],
@@ -423196,6 +424931,11 @@
    "words": [
     [
      "perpendicular",
+     "elc/mathematics/linear-graphs-revision",
+     "icul"
+    ],
+    [
+     "perpendicular",
      "elc/mathematics/number-algebra",
      "icul"
     ],
@@ -423997,6 +425737,11 @@
    "meaning": "doing (noun/adj)",
    "type": "suffix",
    "words": [
+    [
+     "gradient",
+     "elc/mathematics/linear-graphs-revision",
+     "ient"
+    ],
     [
      "gradient",
      "elc/science/l2",
@@ -425258,6 +427003,26 @@
     ],
     [
      "intercept",
+     "elc/mathematics/linear-graphs-revision",
+     "inter"
+    ],
+    [
+     "intersection",
+     "elc/mathematics/linear-graphs-revision",
+     "inter"
+    ],
+    [
+     "x-intercept",
+     "elc/mathematics/linear-graphs-revision",
+     "inter"
+    ],
+    [
+     "y-intercept",
+     "elc/mathematics/linear-graphs-revision",
+     "inter"
+    ],
+    [
+     "intercept",
      "elc/mathematics/number-algebra",
      "inter"
     ],
@@ -426194,6 +427959,23 @@
     ]
    ]
   },
+  "in|the thing that": {
+   "surface": "in",
+   "meaning": "the thing that",
+   "type": "suffix",
+   "words": [
+    [
+     "origin",
+     "elc/mathematics/linear-graphs-revision",
+     "in"
+    ],
+    [
+     "origin",
+     "year-7/humanities-civics/history-china",
+     "in"
+    ]
+   ]
+  },
   "in|toward": {
    "surface": "in",
    "meaning": "toward",
@@ -426718,6 +428500,21 @@
     [
      "subtraction",
      "elc/mathematics/algebra",
+     "ion"
+    ],
+    [
+     "intersection",
+     "elc/mathematics/linear-graphs-revision",
+     "ion"
+    ],
+    [
+     "solution",
+     "elc/mathematics/linear-graphs-revision",
+     "ion"
+    ],
+    [
+     "substitution",
+     "elc/mathematics/linear-graphs-revision",
      "ion"
     ],
     [
@@ -431775,6 +433572,11 @@
    "words": [
     [
      "linear",
+     "elc/mathematics/linear-graphs-revision",
+     "line"
+    ],
+    [
+     "linear",
      "elc/mathematics/number-algebra",
      "line"
     ],
@@ -434141,6 +435943,11 @@
      "misinformation",
      "vce/philosophy/unit-4-aos-2",
      "mis"
+    ],
+    [
+     "misleading",
+     "year-10/biology/epidemiology-pandemic-links",
+     "mis"
     ]
    ]
   },
@@ -436066,6 +437873,11 @@
     ],
     [
      "coordinate",
+     "elc/mathematics/linear-graphs-revision",
+     "ordin"
+    ],
+    [
+     "coordinate",
      "elc/mathematics/number-algebra",
      "ordin"
     ],
@@ -436105,6 +437917,23 @@
      "orientation",
      "year-9/english/creative-writing",
      "orient"
+    ]
+   ]
+  },
+  "orig|rise/begin": {
+   "surface": "orig",
+   "meaning": "rise/begin",
+   "type": "root",
+   "words": [
+    [
+     "origin",
+     "elc/mathematics/linear-graphs-revision",
+     "orig"
+    ],
+    [
+     "origin",
+     "year-7/humanities-civics/history-china",
+     "orig"
     ]
    ]
   },
@@ -436503,6 +438332,11 @@
     [
      "tremendous",
      "elc/english/harrison-bergeron",
+     "ous"
+    ],
+    [
+     "simultaneous",
+     "elc/mathematics/linear-graphs-revision",
      "ous"
     ],
     [
@@ -437307,6 +439141,11 @@
    "words": [
     [
      "perpendicular",
+     "elc/mathematics/linear-graphs-revision",
+     "pend"
+    ],
+    [
+     "perpendicular",
      "elc/mathematics/number-algebra",
      "pend"
     ],
@@ -437666,6 +439505,11 @@
     [
      "perseverance",
      "elc/humanities/history",
+     "per"
+    ],
+    [
+     "perpendicular",
+     "elc/mathematics/linear-graphs-revision",
      "per"
     ],
     [
@@ -438564,6 +440408,11 @@
    "meaning": "mark out",
    "type": "root",
    "words": [
+    [
+     "plot",
+     "elc/mathematics/linear-graphs-revision",
+     "plot"
+    ],
     [
      "box plot",
      "elc/mathematics/statistics-data",
@@ -442945,6 +444794,11 @@
     ],
     [
      "intersection",
+     "elc/mathematics/linear-graphs-revision",
+     "sect"
+    ],
+    [
+     "intersection",
      "elc/mathematics/number-algebra",
      "sect"
     ],
@@ -443755,6 +445609,11 @@
    "words": [
     [
      "simultaneous",
+     "elc/mathematics/linear-graphs-revision",
+     "simul"
+    ],
+    [
+     "simultaneous",
      "elc/mathematics/number-algebra",
      "simul"
     ],
@@ -444023,6 +445882,11 @@
    "words": [
     [
      "slope",
+     "elc/mathematics/linear-graphs-revision",
+     "slope"
+    ],
+    [
+     "slope",
      "elc/science/l2",
      "slope"
     ],
@@ -444111,6 +445975,11 @@
    "meaning": "loosen/solve",
    "type": "root",
    "words": [
+    [
+     "solution",
+     "elc/mathematics/linear-graphs-revision",
+     "solut"
+    ],
     [
      "solution",
      "elc/mathematics/number-algebra",
@@ -445075,6 +446944,11 @@
     ],
     [
      "substitution",
+     "elc/mathematics/linear-graphs-revision",
+     "stitut"
+    ],
+    [
+     "substitution",
      "elc/mathematics/number-algebra",
      "stitut"
     ],
@@ -445392,6 +447266,11 @@
     [
      "subtraction",
      "elc/mathematics/algebra",
+     "sub"
+    ],
+    [
+     "substitution",
+     "elc/mathematics/linear-graphs-revision",
      "sub"
     ],
     [
@@ -446721,6 +448600,11 @@
    "meaning": "stretch",
    "type": "root",
    "words": [
+    [
+     "simultaneous",
+     "elc/mathematics/linear-graphs-revision",
+     "tane"
+    ],
     [
      "simultaneous",
      "elc/mathematics/number-algebra",
@@ -450054,6 +451938,11 @@
     ],
     [
      "variable",
+     "elc/mathematics/linear-graphs-revision",
+     "vari"
+    ],
+    [
+     "variable",
      "elc/mathematics/number-algebra",
      "vari"
     ],
@@ -451991,6 +453880,11 @@
     [
      "honourable",
      "elc/humanities/general-vocabulary",
+     "able"
+    ],
+    [
+     "variable",
+     "elc/mathematics/linear-graphs-revision",
      "able"
     ]
    ],
@@ -456659,6 +458553,16 @@
      "perpendicular",
      "elc/science/l4",
      "ar"
+    ],
+    [
+     "linear",
+     "elc/mathematics/linear-graphs-revision",
+     "ar"
+    ],
+    [
+     "perpendicular",
+     "elc/mathematics/linear-graphs-revision",
+     "ar"
     ]
    ],
    "extras": []
@@ -457421,6 +459325,11 @@
     [
      "indoctrinate",
      "elc/humanities/general-vocabulary",
+     "ate"
+    ],
+    [
+     "coordinate",
+     "elc/mathematics/linear-graphs-revision",
      "ate"
     ]
    ],
@@ -459165,6 +461074,11 @@
     [
      "frustrations",
      "elc/humanities/general-vocabulary",
+     "ation"
+    ],
+    [
+     "equation",
+     "elc/mathematics/linear-graphs-revision",
      "ation"
     ]
    ],
@@ -462488,6 +464402,21 @@
      "discipline",
      "elc/humanities/general-vocabulary",
      "cip"
+    ],
+    [
+     "intercept",
+     "elc/mathematics/linear-graphs-revision",
+     "cept"
+    ],
+    [
+     "x-intercept",
+     "elc/mathematics/linear-graphs-revision",
+     "cept"
+    ],
+    [
+     "y-intercept",
+     "elc/mathematics/linear-graphs-revision",
+     "cept"
     ]
    ],
    "extras": [
@@ -467116,6 +469045,11 @@
      "concealment",
      "elc/humanities/general-vocabulary",
      "con"
+    ],
+    [
+     "coordinate",
+     "elc/mathematics/linear-graphs-revision",
+     "co"
     ]
    ],
    "extras": [
@@ -473939,6 +475873,22 @@
     "patient"
    ]
   },
+  "ent|one who": {
+   "surface": "ent",
+   "variants": [
+    "ent"
+   ],
+   "type": "suffix",
+   "gloss": "one who",
+   "aka": [],
+   "words": [
+    [
+     "parent",
+     "year-10/biology/genetics",
+     "ent"
+    ]
+   ]
+  },
   "environ|surround": {
    "surface": "environ",
    "variants": [
@@ -474501,6 +476451,11 @@
     [
      "equality speech",
      "elc/humanities/history",
+     "equ"
+    ],
+    [
+     "equation",
+     "elc/mathematics/linear-graphs-revision",
      "equ"
     ]
    ],
@@ -480537,6 +482492,11 @@
      "progressive tax",
      "vce/economics/unit-4-aos-1",
      "gress"
+    ],
+    [
+     "gradient",
+     "elc/mathematics/linear-graphs-revision",
+     "grad"
     ]
    ],
    "extras": [
@@ -482796,6 +484756,11 @@
      "perpendicular",
      "elc/science/l4",
      "icul"
+    ],
+    [
+     "perpendicular",
+     "elc/mathematics/linear-graphs-revision",
+     "icul"
     ]
    ],
    "extras": []
@@ -483941,6 +485906,11 @@
     [
      "coefficient",
      "year-8/mathematics/equations-inequalities",
+     "ient"
+    ],
+    [
+     "gradient",
+     "elc/mathematics/linear-graphs-revision",
      "ient"
     ]
    ],
@@ -485344,6 +487314,22 @@
    ],
    "extras": []
   },
+  "ing|doing/describing": {
+   "surface": "ing",
+   "variants": [
+    "ing"
+   ],
+   "type": "suffix",
+   "gloss": "doing, describing",
+   "aka": [],
+   "words": [
+    [
+     "misleading",
+     "year-10/biology/epidemiology-pandemic-links",
+     "ing"
+    ]
+   ]
+  },
   "initi|begin": {
    "surface": "initi",
    "variants": [
@@ -485825,6 +487811,26 @@
     [
      "Intergenerational trauma",
      "elc/humanities/general-vocabulary",
+     "inter"
+    ],
+    [
+     "intercept",
+     "elc/mathematics/linear-graphs-revision",
+     "inter"
+    ],
+    [
+     "intersection",
+     "elc/mathematics/linear-graphs-revision",
+     "inter"
+    ],
+    [
+     "x-intercept",
+     "elc/mathematics/linear-graphs-revision",
+     "inter"
+    ],
+    [
+     "y-intercept",
+     "elc/mathematics/linear-graphs-revision",
      "inter"
     ]
    ],
@@ -486918,6 +488924,11 @@
     [
      "origin",
      "year-7/humanities-civics/history-china",
+     "in"
+    ],
+    [
+     "origin",
+     "elc/mathematics/linear-graphs-revision",
      "in"
     ]
    ]
@@ -488950,6 +490961,21 @@
     [
      "exhaustion",
      "elc/humanities/general-vocabulary",
+     "ion"
+    ],
+    [
+     "substitution",
+     "elc/mathematics/linear-graphs-revision",
+     "ion"
+    ],
+    [
+     "intersection",
+     "elc/mathematics/linear-graphs-revision",
+     "ion"
+    ],
+    [
+     "solution",
+     "elc/mathematics/linear-graphs-revision",
      "ion"
     ]
    ],
@@ -493372,6 +495398,22 @@
    ],
    "extras": []
   },
+  "lead|guide/take somewhere": {
+   "surface": "lead",
+   "variants": [
+    "lead"
+   ],
+   "type": "root",
+   "gloss": "guide, take somewhere",
+   "aka": [],
+   "words": [
+    [
+     "misleading",
+     "year-10/biology/epidemiology-pandemic-links",
+     "lead"
+    ]
+   ]
+  },
   "leak|escape out": {
    "surface": "leak",
    "variants": [
@@ -494325,6 +496367,11 @@
     [
      "line graph",
      "elc/science/data-graphs",
+     "line"
+    ],
+    [
+     "linear",
+     "elc/mathematics/linear-graphs-revision",
      "line"
     ]
    ],
@@ -498203,6 +500250,11 @@
      "misunderstanding",
      "elc/humanities/history",
      "mis"
+    ],
+    [
+     "misleading",
+     "year-10/biology/epidemiology-pandemic-links",
+     "mis"
     ]
    ],
    "extras": [
@@ -501763,6 +503815,11 @@
      "ordinary",
      "elc/science/pandemic",
      "ordin"
+    ],
+    [
+     "coordinate",
+     "elc/mathematics/linear-graphs-revision",
+     "ordin"
     ]
    ],
    "extras": [
@@ -501890,6 +503947,11 @@
     [
      "origin",
      "year-7/humanities-civics/history-china",
+     "orig"
+    ],
+    [
+     "origin",
+     "elc/mathematics/linear-graphs-revision",
      "orig"
     ]
    ]
@@ -502601,6 +504663,11 @@
     [
      "homogeneous product",
      "vce/economics/unit-1-aos-2",
+     "ous"
+    ],
+    [
+     "simultaneous",
+     "elc/mathematics/linear-graphs-revision",
      "ous"
     ]
    ],
@@ -503512,6 +505579,22 @@
     "par"
    ]
   },
+  "par|give birth/produce": {
+   "surface": "par",
+   "variants": [
+    "par"
+   ],
+   "type": "root",
+   "gloss": "give birth, produce",
+   "aka": [],
+   "words": [
+    [
+     "parent",
+     "year-10/biology/genetics",
+     "par"
+    ]
+   ]
+  },
   "par|to appear/be visible": {
    "surface": "par",
    "variants": [
@@ -504120,6 +506203,11 @@
      "pensions",
      "elc/humanities/general-vocabulary",
      "pens"
+    ],
+    [
+     "perpendicular",
+     "elc/mathematics/linear-graphs-revision",
+     "pend"
     ]
    ],
    "extras": [
@@ -504750,6 +506838,11 @@
     [
      "perplexes",
      "elc/humanities/general-vocabulary",
+     "per"
+    ],
+    [
+     "perpendicular",
+     "elc/mathematics/linear-graphs-revision",
      "per"
     ]
    ],
@@ -506374,6 +508467,11 @@
     [
      "scatter plot",
      "elc/mathematics/statistics-data",
+     "plot"
+    ],
+    [
+     "plot",
+     "elc/mathematics/linear-graphs-revision",
      "plot"
     ]
    ]
@@ -513055,6 +515153,11 @@
      "three-sector circular flow model",
      "vce/economics/unit-1-aos-1",
      "sect"
+    ],
+    [
+     "intersection",
+     "elc/mathematics/linear-graphs-revision",
+     "sect"
     ]
    ],
    "extras": [
@@ -514464,6 +516567,11 @@
      "simulation",
      "year-10/chemistry/unit-1",
      "simul"
+    ],
+    [
+     "simultaneous",
+     "elc/mathematics/linear-graphs-revision",
+     "simul"
     ]
    ],
    "extras": [
@@ -514830,6 +516938,11 @@
      "slope",
      "elc/science/l2",
      "slope"
+    ],
+    [
+     "slope",
+     "elc/mathematics/linear-graphs-revision",
+     "slope"
     ]
    ]
   },
@@ -515183,6 +517296,11 @@
     [
      "solution",
      "elc/science/mixtures-solubility",
+     "solut"
+    ],
+    [
+     "solution",
+     "elc/mathematics/linear-graphs-revision",
      "solut"
     ]
    ],
@@ -517086,6 +519204,11 @@
      "institution",
      "elc/humanities/general-vocabulary",
      "stitut"
+    ],
+    [
+     "substitution",
+     "elc/mathematics/linear-graphs-revision",
+     "stitut"
     ]
    ],
    "extras": [
@@ -517839,6 +519962,11 @@
     [
      "subdued",
      "elc/humanities/general-vocabulary",
+     "sub"
+    ],
+    [
+     "substitution",
+     "elc/mathematics/linear-graphs-revision",
      "sub"
     ]
    ],
@@ -519375,6 +521503,11 @@
     [
      "simultaneous",
      "vce/general-mathematics/unit-1-2-algebra",
+     "tane"
+    ],
+    [
+     "simultaneous",
+     "elc/mathematics/linear-graphs-revision",
      "tane"
     ]
    ],
@@ -525071,6 +527204,11 @@
      "variance",
      "year-10/mathematics/statistics-data",
      "vari"
+    ],
+    [
+     "variable",
+     "elc/mathematics/linear-graphs-revision",
+     "vari"
     ]
    ],
    "extras": [
@@ -526973,6 +529111,22 @@
     ]
    ],
    "extras": []
+  },
+  "x|the horizontal axis": {
+   "surface": "x",
+   "variants": [
+    "x"
+   ],
+   "type": "prefix",
+   "gloss": "the horizontal axis",
+   "aka": [],
+   "words": [
+    [
+     "x-intercept",
+     "elc/mathematics/linear-graphs-revision",
+     "x"
+    ]
+   ]
   },
   "y|full of/having": {
    "surface": "y",
