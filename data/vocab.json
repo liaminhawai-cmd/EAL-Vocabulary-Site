@@ -331839,7 +331839,8 @@
             "ru": "вместе",
             "fr": "ensemble",
             "hi": "साथ",
-            "es": "juntos"
+            "es": "juntos",
+            "other": "باهم"
            }
           },
           {
@@ -331864,7 +331865,8 @@
             "ru": "сила/ценность",
             "fr": "force/valeur",
             "hi": "शक्ति/मूल्य",
-            "es": "fuerza/valor"
+            "es": "fuerza/valor",
+            "other": "ارزش"
            }
           },
           {
@@ -331889,7 +331891,8 @@
             "ru": "обладающий",
             "fr": "doté de",
             "hi": "युक्त",
-            "es": "que tiene la cualidad de"
+            "es": "que tiene la cualidad de",
+            "other": "بودن"
            }
           }
          ],
@@ -332935,7 +332938,8 @@
             "ru": "не-",
             "fr": "non",
             "hi": "अ-",
-            "es": "no / opuesto"
+            "es": "no / opuesto",
+            "other": "نه"
            }
           },
           {
@@ -333315,7 +333319,8 @@
             "ru": "в",
             "fr": "dans",
             "hi": "में",
-            "es": "en / hacia dentro"
+            "es": "en / hacia dentro",
+            "other": "نه"
            }
           },
           {
@@ -333604,7 +333609,8 @@
             "ru": "полностью",
             "fr": "complètement",
             "hi": "पूरी तरह",
-            "es": "completamente"
+            "es": "completamente",
+            "other": "باهم"
            }
           },
           {
