@@ -2,6 +2,9 @@
 
 This repository is **PUBLIC and LIVE**. It is a deployment repo, not a context library.
 
+Read `STYLE_GUIDE.md` first — the portable build principles for every teaching
+resource across these repos.
+
 Before changing teaching content, read the private `liaminhawai-cmd/ELC` repository's `AGENTS.md`, `ROADMAP.md`, and Word Builder boundary note.
 
 ## Hard rules
