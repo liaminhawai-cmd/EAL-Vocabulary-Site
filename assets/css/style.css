@@ -376,6 +376,16 @@ a.card:hover { transform: translateY(-2px); box-shadow: 0 10px 26px rgba(60,45,2
 .bank-legend i.prefix { background: var(--prefix-bg); }
 .bank-legend i.root { background: var(--root-bg); }
 .bank-legend i.suffix { background: var(--suffix-bg); }
+/* The bank legend describes the pale bank chips, so a pale swatch is right
+   there. The word-list legend describes the INK the morph line and headword
+   are written in, and a pale swatch reads as an empty box against the paper.
+   Same colours, solid, plus the label in its own colour like the word cards. */
+.bank-legend.ink i.prefix { background: var(--prefix-ink); }
+.bank-legend.ink i.root { background: var(--root-ink); }
+.bank-legend.ink i.suffix { background: var(--suffix-ink); }
+.bank-legend.ink span.prefix { color: var(--prefix-ink); font-weight: 700; }
+.bank-legend.ink span.root { color: var(--root-ink); font-weight: 700; }
+.bank-legend.ink span.suffix { color: var(--suffix-ink); font-weight: 700; }
 
 /* how it works — animated step-through, modeled on the teacher's own intro slides */
 @keyframes howtoPop { from { opacity: 0; transform: translateY(10px) scale(.94); } to { opacity: 1; transform: none; } }
