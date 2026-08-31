@@ -420,6 +420,25 @@ function spellingChip(part) {
   // any other change (assimilation, substitution): note the familiar form.
   return [surf, h('span', { class: 'mo-was', title: `usually spelt "${variant}"` }, `≈${variant}`)];
 }
+// Colour a word's own spelling letter-by-letter by morpheme role — prefix,
+// root and suffix tinted right inside the headword, not just in the chips
+// below it. Falls back to plain text if the surfaces don't tile the spelling
+// cleanly (e.g. an assimilated/variant spelling that spellingChip would flag).
+function colourWordNodes(w) {
+  if (!w.parts || w.parts.length < 2) return [w.word];
+  const nodes = [];
+  let rest = w.word;
+  for (const p of w.parts) {
+    const surf = p.surface;
+    const idx = rest.toLowerCase().indexOf((surf || '').toLowerCase());
+    if (!surf || idx === -1) return [w.word];
+    if (idx > 0) nodes.push(rest.slice(0, idx));
+    nodes.push(h('span', { class: `wb-part ${p.type || ''}` }, rest.slice(idx, idx + surf.length)));
+    rest = rest.slice(idx + surf.length);
+  }
+  if (rest) nodes.push(rest);
+  return nodes;
+}
 // A morpheme chip. Coloured by type; roots/prefixes with a family are tappable.
 function morphemeChip(part, extraCls = '') {
   const fam = FAMILY_TYPES.has(part.type) ? morphemeFamily(part) : null;
@@ -1183,7 +1202,8 @@ function renderBuildBoard({ levelId, subjectId, unitId }) {
     const lang = getLang();
     const dispLang = unitDisplayLang(unit, lang);
     const cards = sets[si].map((w) => h('div', { class: 'study-card' },
-      h('div', { class: 'study-word' }, h('strong', {}, w.word), say(w.word)),
+      h('div', { class: 'study-word' }, h('strong', {}, ...colourWordNodes(w)), say(w.word)),
+      h('p', { class: 'study-def' }, w.meaning || ''),
       (w.parts && w.parts.length >= 2) && h('div', { class: 'study-morphs' },
         ...w.parts.map((p) => {
           const native = pickExact(p.translations, dispLang);
@@ -1196,7 +1216,6 @@ function renderBuildBoard({ levelId, subjectId, unitId }) {
           }, ...spellingChip(p), h('i', { class: 'mo-gloss' },
             p.meaning || '', ...glossAlts(p, w.word), native ? ` · ${native}` : ''));
         })),
-      h('p', { class: 'study-def' }, w.meaning || ''),
       (pickTranslation(w.translations, lang) || pickExact(w.translations, dispLang)) &&
         h('p', { class: 'study-trans wtr' }, pickTranslation(w.translations, lang) || pickExact(w.translations, dispLang)),
       w.example && h('p', { class: 'study-example' }, '“' + w.example + '”'),
@@ -1208,6 +1227,11 @@ function renderBuildBoard({ levelId, subjectId, unitId }) {
       h('div', { class: 'board-intro' },
         h('h2', {}, 'Study the words'),
         h('p', { class: 'muted small' }, 'Read each word, its parts and meaning. Tap any part to see your own words that already use it. When you build, the words are hidden — so learn them now.')),
+      sets[si].some((w) => w.parts && w.parts.length >= 2) && h('div', { class: 'bank-legend' },
+        h('span', {}, h('i', { class: 'prefix' }), 'Prefix'),
+        h('span', {}, h('i', { class: 'root' }), 'Root'),
+        h('span', {}, h('i', { class: 'suffix' }), 'Suffix'),
+        h('span', { class: 'muted' }, '— the same colours mark each word’s parts below')),
       echoPart && echoRail(echoPart),
       h('div', { class: 'study-list' }, ...cards),
       h('div', { class: 'row gap end' },
@@ -2607,10 +2631,15 @@ function renderBrowse({ levelId, subjectId, unitId }) {
       h('span', { class: 'muted small' }, 'Showing translations in:'), langPicker()),
     h('p', { class: 'muted small' },
       'Tap any coloured word-part to see every other word that shares it.'),
+    unit.words.some((w) => w.parts && w.parts.length >= 2) && h('div', { class: 'bank-legend' },
+      h('span', {}, h('i', { class: 'prefix' }), 'Prefix'),
+      h('span', {}, h('i', { class: 'root' }), 'Root'),
+      h('span', {}, h('i', { class: 'suffix' }), 'Suffix'),
+      h('span', { class: 'muted' }, '— the same colours mark each word’s parts below')),
     anyTrans
       ? h('div', { class: 'word-list' }, ...unit.words.map((w) => h('div', { class: 'word-row' },
           h('div', { class: 'wr-main' },
-            h('span', { class: 'wr-word' }, w.word, say(w.word)),
+            h('span', { class: 'wr-word' }, ...colourWordNodes(w), say(w.word)),
             h('span', { class: 'wr-trans' }, pickTranslation(w.translations, lang) || h('span', { class: 'muted small' }, '—'))),
           w.meaning && h('p', { class: 'wr-def' }, w.meaning),
           (w.parts && w.parts.length >= 2) && h('div', { class: 'wr-morphs' },

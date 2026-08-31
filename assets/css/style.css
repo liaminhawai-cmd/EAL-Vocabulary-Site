@@ -325,6 +325,9 @@ a.card:hover { transform: translateY(-2px); box-shadow: 0 10px 26px rgba(60,45,2
 .wr-main { display: flex; flex-direction: column; }
 .wr-word { font-weight: 700; }
 .wr-word.sm { font-weight: 600; }
+.wr-word .wb-part.prefix { color: var(--prefix-ink); }
+.wr-word .wb-part.root   { color: var(--root-ink); }
+.wr-word .wb-part.suffix { color: var(--suffix-ink); }
 .wr-meta { display: flex; align-items: center; gap: 10px; }
 .pill { background: var(--surface-2); border-radius: 999px; padding: 3px 10px; font-size: .78rem; font-weight: 700; }
 .pill.good { background: color-mix(in srgb, var(--good) 18%, transparent); color: var(--good); }
@@ -483,7 +486,7 @@ a.card:hover { transform: translateY(-2px); box-shadow: 0 10px 26px rgba(60,45,2
 .mo-was { font-weight: 400; opacity: .55; font-size: .82em; margin-left: 4px; cursor: help; }
 .wr-main { display: flex; align-items: baseline; justify-content: space-between; gap: 12px; width: 100%; }
 .wr-trans { text-align: right; }
-.wr-morphs { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 8px; }
+.wr-morphs { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 8px; padding-top: 8px; border-top: 1px dashed var(--line-soft); }
 .word-row { flex-direction: column; align-items: stretch; }
 
 .mo-panel { max-width: 480px; width: 100%; text-align: left; max-height: 82vh;
@@ -587,7 +590,10 @@ a.dict-word:hover { background: rgba(0,0,0,.1); }
 .study-list { display: flex; flex-direction: column; gap: 10px; }
 .study-card { background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius); padding: 12px 14px; }
 .study-word { font-family: var(--serif); font-size: 1.2rem; font-weight: 700; display: flex; align-items: center; gap: 6px; }
-.study-morphs { display: flex; flex-wrap: wrap; gap: 6px; margin: 8px 0; }
+.study-word .wb-part.prefix { color: var(--prefix-ink); }
+.study-word .wb-part.root   { color: var(--root-ink); }
+.study-word .wb-part.suffix { color: var(--suffix-ink); }
+.study-morphs { display: flex; flex-wrap: wrap; gap: 6px; margin: 8px 0 0; padding-top: 8px; border-top: 1px dashed var(--line-soft); }
 .study-def { color: var(--ink); margin: 4px 0 2px; }
 .study-trans { display: inline-block; margin-top: 4px; }
 .wtr { color: var(--accent); background: color-mix(in srgb, var(--accent) 12%, transparent); border-radius: 6px; padding: 1px 8px; font-weight: 600; }
