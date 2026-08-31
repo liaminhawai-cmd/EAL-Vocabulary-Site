@@ -486,7 +486,29 @@ a.card:hover { transform: translateY(-2px); box-shadow: 0 10px 26px rgba(60,45,2
 .mo-was { font-weight: 400; opacity: .55; font-size: .82em; margin-left: 4px; cursor: help; }
 .wr-main { display: flex; align-items: baseline; justify-content: space-between; gap: 12px; width: 100%; }
 .wr-trans { text-align: right; }
-.wr-morphs { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 8px; padding-top: 8px; border-top: 1px dashed var(--line-soft); }
+/* --- the morph line (purple-lab pattern) -------------------------------
+   A word's breakdown, shown BELOW its meaning under a dashed rule: each
+   morpheme a coloured monospace <code>, its gloss in italics beside it,
+   parts joined by " + ", and the word-story note on the line below. Used
+   for display only — the tappable/draggable chips of the build board and
+   morpheme bank keep the .mo-chip pill treatment. */
+.morph-line { border-top: 1px dashed var(--line-soft); margin-top: 8px; padding-top: 6px;
+  font-size: .86rem; color: var(--muted); line-height: 1.75; }
+.morph-line .ml-gloss { font-style: italic; color: var(--ink); }
+.morph-line .ml-code { font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+  font-weight: 700; font-size: 1rem; }
+.morph-line .ml-code.prefix { color: var(--prefix-ink); }
+.morph-line .ml-code.root   { color: var(--root-ink); }
+.morph-line .ml-code.suffix { color: var(--suffix-ink); }
+.morph-line .ml-plus { margin: 0 7px; font-weight: 700; opacity: .5; }
+.morph-line .ml-tap { background: none; border: 0; padding: 0; margin: 0; font: inherit;
+  color: inherit; cursor: pointer; border-radius: 4px; }
+.morph-line .ml-tap:hover .ml-code { text-decoration: underline; text-underline-offset: 3px; }
+.morph-line .ml-tap:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+.morph-line .ml-tap.fam::after { content: '\203A'; font-weight: 700; opacity: .55; margin-left: 3px; }
+.morph-line .ml-tap.on .ml-code { box-shadow: 0 0 0 2px var(--accent); border-radius: 4px; }
+.morph-line .ml-note { display: block; margin-top: 5px; font-size: .82rem; line-height: 1.5; }
+.morph-line .ml-note b { color: var(--ink); }
 .word-row { flex-direction: column; align-items: stretch; }
 
 .mo-panel { max-width: 480px; width: 100%; text-align: left; max-height: 82vh;
@@ -593,7 +615,6 @@ a.dict-word:hover { background: rgba(0,0,0,.1); }
 .study-word .wb-part.prefix { color: var(--prefix-ink); }
 .study-word .wb-part.root   { color: var(--root-ink); }
 .study-word .wb-part.suffix { color: var(--suffix-ink); }
-.study-morphs { display: flex; flex-wrap: wrap; gap: 6px; margin: 8px 0 0; padding-top: 8px; border-top: 1px dashed var(--line-soft); }
 .study-def { color: var(--ink); margin: 4px 0 2px; }
 .study-trans { display: inline-block; margin-top: 4px; }
 .wtr { color: var(--accent); background: color-mix(in srgb, var(--accent) 12%, transparent); border-radius: 6px; padding: 1px 8px; font-weight: 600; }

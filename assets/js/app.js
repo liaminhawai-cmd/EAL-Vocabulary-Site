@@ -439,6 +439,41 @@ function colourWordNodes(w) {
   if (rest) nodes.push(rest);
   return nodes;
 }
+// The purple-lab morph line: each morpheme as a coloured monospace <code>
+// followed by its gloss in italics, the parts joined by " + ", sitting under a
+// dashed rule BELOW the meaning — and, where the word's origin note is short
+// enough to read at a glance, that note inline on the line beneath (purple-lab's
+// teaching note). A word with only one part gets no line at all rather than an
+// invented breakdown. `tap(part)` may return {title, on, fam, run} to make a
+// morpheme clickable; nothing else about it changes.
+function morphLine(w, opts = {}) {
+  if (!w.parts || w.parts.length < 2) return null;
+  const { dispLang = '', tap = null, note = '' } = opts;
+  const line = h('div', { class: 'morph-line' });
+  w.parts.forEach((p, i) => {
+    if (i) add(line, h('span', { class: 'ml-plus' }, '+'));
+    const code = h('code', { class: `ml-code ${p.type || ''}`.trim(), title: p.surface }, ...spellingChip(p));
+    const t = tap ? tap(p) : null;
+    if (t) {
+      add(line, h('button', {
+        type: 'button',
+        class: `ml-tap${t.on ? ' on' : ''}${t.fam ? ' fam' : ''}`,
+        title: t.title || '',
+        onclick: (e) => { e.preventDefault(); e.stopPropagation(); t.run(); },
+      }, code));
+    } else {
+      add(line, code);
+    }
+    const native = dispLang ? pickExact(p.translations, dispLang) : '';
+    add(line, ' ', h('i', { class: 'ml-gloss' },
+      p.meaning || '', ...glossAlts(p, w.word), native ? ` · ${native}` : ''));
+  });
+  if (note) add(line, h('span', { class: 'ml-note' }, h('b', {}, 'Word story '), note));
+  return line;
+}
+// An origin note longer than this stays behind the "Word story" disclosure
+// rather than crowding the card; shorter ones read as purple-lab's note line.
+const NOTE_INLINE_MAX = 200;
 // A morpheme chip. Coloured by type; roots/prefixes with a family are tappable.
 function morphemeChip(part, extraCls = '') {
   const fam = FAMILY_TYPES.has(part.type) ? morphemeFamily(part) : null;
@@ -1201,27 +1236,27 @@ function renderBuildBoard({ levelId, subjectId, unitId }) {
   function studyView() {
     const lang = getLang();
     const dispLang = unitDisplayLang(unit, lang);
-    const cards = sets[si].map((w) => h('div', { class: 'study-card' },
-      h('div', { class: 'study-word' }, h('strong', {}, ...colourWordNodes(w)), say(w.word)),
-      h('p', { class: 'study-def' }, w.meaning || ''),
-      (w.parts && w.parts.length >= 2) && h('div', { class: 'study-morphs' },
-        ...w.parts.map((p) => {
-          const native = pickExact(p.translations, dispLang);
-          const on = echoPart && senseKeyFor(echoPart) === senseKeyFor(p);
-          return h('button', {
-            type: 'button',
-            class: `mo-chip ${p.type || ''} echoable ${on ? 'echoing' : ''}`.trim(),
-            title: 'See your own words that share this piece',
-            onclick: () => { echoPart = on ? null : p; render_(); },
-          }, ...spellingChip(p), h('i', { class: 'mo-gloss' },
-            p.meaning || '', ...glossAlts(p, w.word), native ? ` · ${native}` : ''));
-        })),
-      (pickTranslation(w.translations, lang) || pickExact(w.translations, dispLang)) &&
-        h('p', { class: 'study-trans wtr' }, pickTranslation(w.translations, lang) || pickExact(w.translations, dispLang)),
-      w.example && h('p', { class: 'study-example' }, '“' + w.example + '”'),
-      w.context && h('p', { class: 'study-context' }, h('b', {}, 'In the text: '), w.context),
-      w.origin && h('details', { class: 'word-story' },
-        h('summary', {}, 'Word story'), h('p', {}, w.origin))));
+    const cards = sets[si].map((w) => {
+      const inlineNote = w.origin && w.origin.length <= NOTE_INLINE_MAX ? w.origin : '';
+      return h('div', { class: 'study-card' },
+        h('div', { class: 'study-word' }, h('strong', {}, ...colourWordNodes(w)), say(w.word)),
+        h('p', { class: 'study-def' }, w.meaning || ''),
+        morphLine(w, {
+          dispLang,
+          note: inlineNote,
+          tap: (p) => {
+            const on = !!(echoPart && senseKeyFor(echoPart) === senseKeyFor(p));
+            return { title: 'See your own words that share this piece', on,
+              run: () => { echoPart = on ? null : p; render_(); } };
+          },
+        }),
+        (pickTranslation(w.translations, lang) || pickExact(w.translations, dispLang)) &&
+          h('p', { class: 'study-trans wtr' }, pickTranslation(w.translations, lang) || pickExact(w.translations, dispLang)),
+        w.example && h('p', { class: 'study-example' }, '“' + w.example + '”'),
+        w.context && h('p', { class: 'study-context' }, h('b', {}, 'In the text: '), w.context),
+        w.origin && !inlineNote && h('details', { class: 'word-story' },
+          h('summary', {}, 'Word story'), h('p', {}, w.origin)));
+    });
     return h('div', { class: 'stack learn' }, crumbBar(),
       head(null),
       h('div', { class: 'board-intro' },
@@ -2622,6 +2657,7 @@ function renderBrowse({ levelId, subjectId, unitId }) {
   const { level, subject, unit } = resolvePath(path);
   if (!unit) return renderHome();
   const lang = getLang();
+  const dispLang = unitDisplayLang(unit, lang);
   const anyTrans = unit.words.some((w) => w.translations && Object.keys(w.translations).length);
   render(h('div', { class: 'stack' },
     crumb(unitCrumbItems(level, subject, unit)),
@@ -2637,17 +2673,28 @@ function renderBrowse({ levelId, subjectId, unitId }) {
       h('span', {}, h('i', { class: 'suffix' }), 'Suffix'),
       h('span', { class: 'muted' }, '— the same colours mark each word’s parts below')),
     anyTrans
-      ? h('div', { class: 'word-list' }, ...unit.words.map((w) => h('div', { class: 'word-row' },
-          h('div', { class: 'wr-main' },
-            h('span', { class: 'wr-word' }, ...colourWordNodes(w), say(w.word)),
-            h('span', { class: 'wr-trans' }, pickTranslation(w.translations, lang) || h('span', { class: 'muted small' }, '—'))),
-          w.meaning && h('p', { class: 'wr-def' }, w.meaning),
-          (w.parts && w.parts.length >= 2) && h('div', { class: 'wr-morphs' },
-            ...w.parts.map((p) => morphemeChip(p))),
-          w.example && h('p', { class: 'wr-example' }, '“' + w.example + '”'),
-          w.context && h('p', { class: 'wr-context' }, h('b', {}, 'In the text: '), w.context),
-          w.origin && h('details', { class: 'word-story compact' },
-            h('summary', {}, 'Word story'), h('p', {}, w.origin)))))
+      ? h('div', { class: 'word-list' }, ...unit.words.map((w) => {
+          const inlineNote = w.origin && w.origin.length <= NOTE_INLINE_MAX ? w.origin : '';
+          return h('div', { class: 'word-row' },
+            h('div', { class: 'wr-main' },
+              h('span', { class: 'wr-word' }, ...colourWordNodes(w), say(w.word)),
+              h('span', { class: 'wr-trans' }, pickTranslation(w.translations, lang) || h('span', { class: 'muted small' }, '—'))),
+            w.meaning && h('p', { class: 'wr-def' }, w.meaning),
+            morphLine(w, {
+              dispLang,
+              note: inlineNote,
+              tap: (p) => {
+                const fam = FAMILY_TYPES.has(p.type) ? morphemeFamily(p) : null;
+                if (!fam) return null;
+                return { title: `See ${fam.words.length} words with “${p.surface}”`, fam: true,
+                  run: () => openMorphemePanel(p) };
+              },
+            }),
+            w.example && h('p', { class: 'wr-example' }, '“' + w.example + '”'),
+            w.context && h('p', { class: 'wr-context' }, h('b', {}, 'In the text: '), w.context),
+            w.origin && !inlineNote && h('details', { class: 'word-story compact' },
+              h('summary', {}, 'Word story'), h('p', {}, w.origin)));
+        }))
       : h('div', { class: 'chips' }, ...unit.words.map((w) => h('span', { class: 'chip ghost lg' }, w.word, say(w.word))))));
 }
 
