@@ -872,3 +872,44 @@ a.dict-word:hover { background: rgba(0,0,0,.1); }
 .dw-place { font-size: .78rem; background: var(--surface-2); border-radius: 999px;
   padding: 3px 10px; text-decoration: none; color: var(--ink); border: 1px solid transparent; }
 .dw-place:hover { border-color: var(--brand); color: var(--brand); }
+
+/* Pronunciation ruby — pinyin over Simplified, bopomofo over Traditional.
+   Off by default; the button below turns it on for this device only. The
+   toggle only appears while the student is reading Chinese. */
+.ruby-toggle { font: inherit; font-size: .8rem; line-height: 1; cursor: pointer;
+  padding: 6px 10px; border-radius: 999px; border: 1px solid var(--line);
+  background: var(--surface); color: var(--muted); white-space: nowrap; }
+.ruby-toggle:hover { border-color: var(--brand); color: var(--brand); }
+.ruby-toggle.on { background: var(--brand); border-color: var(--brand); color: #fff; }
+/* On the dark hero the flat surface colour disappears, so match the picker. */
+.hero-row .ruby-toggle { background: rgba(255,255,255,.14); color: #fff;
+  border-color: rgba(255,255,255,.3); }
+.hero-row .ruby-toggle.on { background: #fff; color: var(--brand); border-color: #fff; }
+
+ruby { ruby-align: center; }
+/* rt inherits the surrounding size in some engines and dwarfs the character in
+   others; pin it, and keep it in a Latin face so pinyin tone marks render. */
+ruby rt { line-height: 1.15; color: var(--muted); font-weight: 400;
+  font-style: normal; text-align: center; }
+/* Ruby adds a line above every character, so any row it lands in needs the
+   headroom, or the reading is clipped by the line above it. */
+.nat { line-height: 2.2; }
+
+/* Pinyin: a wide Latin string over a single character. Keep it small, keep it
+   in a Latin face so the tone marks render, and let the character spread just
+   enough that neighbouring syllables do not run together. */
+.nat.pinyin > ruby { margin: 0 .1em; }
+.nat.pinyin rt { font-size: .5em; letter-spacing: 0;
+  font-family: system-ui, -apple-system, "Segoe UI", sans-serif; }
+
+/* Bopomofo: a stack of marks, not a word. At pinyin's size it collapses into
+   an unreadable smudge, so it gets more size and more room underneath it. */
+.nat.bopo { line-height: 2.5; }
+.nat.bopo > ruby { margin: 0 .22em; }
+.nat.bopo rt { font-size: .62em; letter-spacing: -.02em; white-space: nowrap; }
+
+/* Inside a gloss the ruby competes with the English beside it; a touch smaller
+   there, and the line still has to grow to make room. */
+.mo-gloss .nat, .ml-gloss .nat, .mbank-native .nat { line-height: 2.4; }
+.mo-gloss .nat.pinyin rt, .ml-gloss .nat.pinyin rt, .mbank-native .nat.pinyin rt { font-size: .55em; }
+.mo-gloss .nat.bopo rt, .ml-gloss .nat.bopo rt, .mbank-native .nat.bopo rt { font-size: .6em; }
