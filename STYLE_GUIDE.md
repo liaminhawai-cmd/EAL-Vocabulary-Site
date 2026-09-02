@@ -78,6 +78,8 @@ When the teacher makes a choice you would not have made, ask **once**, neutrally
 
 **Honest interface.** Never auto-judge what cannot actually be judged (speech, nuance, originality). Say so, and route the judgement to a human. A checkbox the computer cannot honestly tick stays disabled until the human step is done.
 
+**One view, no page scroll.** A screen step fits the screen it will be used on — a school laptop, near enough 1366×768 before the browser takes its cut — with the whole task visible at once. Scrolling regions *inside* the layout are fine and often right: a long table, an answer log, a report. The page itself scrolling is not. A student who has to scroll to find the input, the Check button, or the thing they just typed is spending attention on the furniture instead of the work, and on a projector the bottom of the page is simply never seen. Build the shell to the viewport height, give each screen exactly one region that takes up the slack, and measure it at that size before calling it done — laptops are wide and short, so spend width to buy back height rather than stacking everything down the page.
+
 **Colour is a taxonomy.** Every colour binds to one named category with a visible legend. Correctness is a separate axis from category, and never carried by colour alone.
 
 **Earned progress persists.** State correctly earned at a sub-step is never cleared by a later failure at the parent step. Clear only the failed unit.
