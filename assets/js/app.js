@@ -914,16 +914,23 @@ function topicCount(n) { return `${n} ${n === 1 ? 'topic' : 'topics'}`; }
 
 function folderCard(level, subject, folder) {
   const kids  = folderChildren(subject, folder);
-  const units = folderUnitsDeep(subject, folder);
+  const own   = folderUnits(subject, folder);         // topics sitting directly inside
+  const units = folderUnitsDeep(subject, folder);     // plus everything nested below
   const progress = folderProgress(units);
   const pct = progress.totalWords
     ? Math.round((progress.startedWords / progress.totalWords) * 100) : 0;
-  // A folder of folders counts its folders; a folder of topics counts topics.
+  // A folder of folders counts its folders; a folder of topics counts topics;
+  // a folder holding both must say so, or "1 part" hides four topic cards. The
+  // topic count is what opens directly inside — the ones nested a level down
+  // are already spoken for by their own part.
   const inside = kids.length
-    ? `${kids.length} ${kids.length === 1 ? 'part' : 'parts'}`
-    : topicCount(units.length);
+    ? `${kids.length} ${kids.length === 1 ? 'part' : 'parts'}` +
+      (own.length ? ` and ${topicCount(own.length)}` : '')
+    : topicCount(own.length);
+  // "Subject" is for a folder that is nothing but folders (Humanities ->
+  // Geography). One that also holds its own topics is a folder like any other.
   return h('a', { class: 'card folder-card', href: folderHref(level, subject, folder) },
-    h('div', { class: 'card-tag' }, kids.length ? 'Subject' : 'Topic folder'),
+    h('div', { class: 'card-tag' }, kids.length && !own.length ? 'Subject' : 'Topic folder'),
     h('h3', {}, h('span', { class: 'folder-icon', 'aria-hidden': 'true' }, '▰'), folder.name),
     h('p', { class: 'muted' }, folder.subtitle || ''),
     h('p', { class: 'card-meta' }, `${inside} · ${progress.totalWords} words`),
