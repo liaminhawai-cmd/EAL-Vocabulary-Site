@@ -266250,6 +266250,4463 @@
         }
        ],
        "path": "year-9/english/creative-writing"
+      },
+      {
+       "id": "curious-incident-core",
+       "name": "The Curious Incident · speaking words",
+       "interactive": true,
+       "words": [
+        {
+         "word": "personal response",
+         "parts": [
+          {
+           "surface": "re",
+           "type": "prefix",
+           "meaning": "back",
+           "translations": {
+            "am": "ወደኋላ",
+            "ar": "إلى الخلف",
+            "es": "atrás",
+            "fa": "دوباره",
+            "fr": "arrière",
+            "hi": "पीछे",
+            "ja": "後ろ",
+            "ko": "뒤로",
+            "ml": "പിന്നിൽ",
+            "ps": "شاته",
+            "ro": "înapoi",
+            "ru": "назад",
+            "ta": "பின்னால்",
+            "tl": "pabalik",
+            "ur": "پیچھے",
+            "vi": "lùi",
+            "zh-Hans": "回",
+            "zh-Hant": "回"
+           }
+          },
+          {
+           "surface": "spons",
+           "type": "root",
+           "meaning": "answer",
+           "translations": {}
+          }
+         ],
+         "root": "spons",
+         "meaning": "What a text makes you think or feel, and why.",
+         "example": "My personal response is that it's sad, because …",
+         "translations": {}
+        },
+        {
+         "word": "justify",
+         "parts": [
+          {
+           "surface": "just",
+           "type": "root",
+           "meaning": "fair, right",
+           "translations": {
+            "am": "ትክክል ወይም ፍትሃዊ",
+            "ar": "عادل",
+            "es": "correcto/justo",
+            "fa": "عادلانه",
+            "fr": "juste",
+            "hi": "उचित न्यायसंगत",
+            "ja": "正しい・公正な",
+            "ko": "옳은·공정한",
+            "ml": "ശരിയായ അല്ലെങ്കിൽ നീതിയുക്തമായ",
+            "ps": "سم یا عادلانه",
+            "ro": "drept sau corect",
+            "ru": "справедливый",
+            "ta": "சரியான அல்லது நியாயமான",
+            "tl": "tama o makatarungan",
+            "ur": "منصفانہ یا درست",
+            "vi": "đúng hoặc công bằng",
+            "zh-Hans": "正当的/公正的",
+            "zh-Hant": "正當的/公正的"
+           }
+          },
+          {
+           "surface": "ify",
+           "type": "suffix",
+           "meaning": "to make",
+           "translations": {
+            "am": "ማድረግ",
+            "ar": "جعل",
+            "es": "hacer",
+            "fa": "ساختن",
+            "fr": "faire",
+            "hi": "बनाना",
+            "ja": "〜にする",
+            "ko": "~화하다",
+            "ml": "ആക്കുക",
+            "ps": "جوړول",
+            "ro": "a face",
+            "ru": "делать",
+            "ta": "ஆக்குதல்",
+            "tl": "gawin",
+            "ur": "بنانا",
+            "vi": "làm cho",
+            "zh-Hans": "使⋯化",
+            "zh-Hant": "使⋯化"
+           }
+          }
+         ],
+         "root": "just",
+         "meaning": "Give a reason that shows your view is fair.",
+         "example": "Justify that. Where does the book say so?",
+         "translations": {}
+        },
+        {
+         "word": "evidence",
+         "parts": [
+          {
+           "surface": "e",
+           "type": "prefix",
+           "meaning": "out",
+           "translations": {
+            "am": "ውጭ",
+            "ar": "خارج",
+            "es": "fuera",
+            "fa": "بیرون",
+            "fr": "hors de",
+            "hi": "बाहर",
+            "ja": "外へ",
+            "ko": "밖으로",
+            "ml": "പുറത്തേക്ക്",
+            "ps": "بهر",
+            "ro": "afară",
+            "ru": "из",
+            "ta": "வெளியே",
+            "tl": "palabas",
+            "ur": "باہر",
+            "vi": "ra",
+            "zh-Hans": "向外",
+            "zh-Hant": "向外",
+            "other": "خارج"
+           }
+          },
+          {
+           "surface": "vid",
+           "type": "root",
+           "meaning": "see",
+           "translations": {
+            "vi": "nhìn",
+            "am": "ማየት",
+            "ar": "يرى",
+            "es": "ver",
+            "fa": "دیدن",
+            "fr": "voir",
+            "hi": "देखना",
+            "ja": "見る",
+            "ko": "보다",
+            "ml": "കാണുക",
+            "ps": "کتل",
+            "ro": "a vedea",
+            "ru": "видеть",
+            "ta": "பார்த்தல்",
+            "tl": "makita",
+            "ur": "دیکھنا",
+            "zh-Hans": "看",
+            "zh-Hant": "看"
+           }
+          },
+          {
+           "surface": "ence",
+           "type": "suffix",
+           "meaning": "state of",
+           "translations": {
+            "am": "ሁኔታ",
+            "ar": "حالة",
+            "es": "estado de",
+            "fa": "حالت",
+            "fr": "état de",
+            "hi": "अवस्था",
+            "ja": "状態",
+            "ko": "상태",
+            "ml": "അവസ്ഥ",
+            "ps": "حالت",
+            "ro": "stare de",
+            "ru": "состояние",
+            "ta": "நிலை",
+            "tl": "kalagayan",
+            "ur": "حالت",
+            "vi": "trạng thái",
+            "zh-Hans": "状态",
+            "zh-Hant": "狀態"
+           }
+          }
+         ],
+         "root": "vid",
+         "meaning": "The words or facts you point to when you back up what you say.",
+         "example": "What would count as evidence for that?",
+         "translations": {}
+        },
+        {
+         "word": "paraphrase",
+         "parts": [
+          {
+           "surface": "para",
+           "type": "prefix",
+           "meaning": "beside",
+           "translations": {
+            "am": "አጠገብ",
+            "ar": "بجانب",
+            "es": "al lado de",
+            "fa": "کنار",
+            "fr": "à côté",
+            "hi": "पास",
+            "ja": "そば",
+            "ko": "옆",
+            "ml": "അരികിൽ",
+            "ps": "څنګ",
+            "ro": "lângă",
+            "ru": "рядом",
+            "ta": "அருகில்",
+            "tl": "tabi",
+            "ur": "پاس",
+            "vi": "bên cạnh",
+            "zh-Hans": "旁边",
+            "zh-Hant": "旁邊"
+           }
+          },
+          {
+           "surface": "phrase",
+           "type": "root",
+           "meaning": "way of speaking",
+           "translations": {}
+          }
+         ],
+         "root": "phrase",
+         "meaning": "Say someone's idea again in your own words.",
+         "example": "So you think he'd rather be accurate than kind.",
+         "translations": {}
+        },
+        {
+         "word": "infer",
+         "parts": [
+          {
+           "surface": "in",
+           "type": "prefix",
+           "meaning": "into",
+           "translations": {
+            "am": "ወደ ውስጥ",
+            "ar": "في",
+            "es": "en / hacia dentro",
+            "fa": "در",
+            "fr": "dans",
+            "hi": "में",
+            "ja": "中に",
+            "ko": "안으로",
+            "ml": "അകത്ത്",
+            "ps": "دننه",
+            "ro": "în",
+            "ru": "в",
+            "ta": "உள்ளே",
+            "tl": "sa loob",
+            "ur": "میں",
+            "vi": "trong",
+            "zh-Hans": "在 / 进入",
+            "zh-Hant": "在 / 進入",
+            "other": "نه"
+           }
+          },
+          {
+           "surface": "fer",
+           "type": "root",
+           "meaning": "carry",
+           "translations": {
+            "am": "መሸከም",
+            "ar": "حمل / نقل",
+            "es": "llevar/portar",
+            "fa": "حمل کردن / بردن",
+            "fr": "porter",
+            "hi": "ले जाना / वहन करना",
+            "ja": "運ぶ",
+            "ko": "나르다 / 운반하다",
+            "ml": "വഹിക്കുക",
+            "ps": "وړل",
+            "ro": "a purta / a transporta",
+            "ru": "нести / переносить",
+            "ta": "சுமத்தல் / தாங்குதல்",
+            "tl": "magdala / dalhin",
+            "ur": "لے جانا / اٹھانا",
+            "vi": "mang / chuyên chở",
+            "zh-Hans": "携带 / 运送",
+            "zh-Hant": "攜帶 / 運送"
+           }
+          }
+         ],
+         "root": "fer",
+         "meaning": "Work out what someone means from the clues, without being told.",
+         "example": "I infer from that that you think he's lying.",
+         "translations": {}
+        },
+        {
+         "word": "imply",
+         "parts": [
+          {
+           "surface": "im",
+           "type": "prefix",
+           "meaning": "into",
+           "translations": {
+            "am": "ወደ ውስጥ",
+            "ar": "في",
+            "es": "en / hacia dentro",
+            "fa": "در",
+            "fr": "dans",
+            "hi": "में",
+            "ja": "中に",
+            "ko": "안으로",
+            "ml": "അകത്ത്",
+            "ps": "دننه",
+            "ro": "în",
+            "ru": "в",
+            "ta": "உள்ளே",
+            "tl": "sa loob",
+            "ur": "میں",
+            "vi": "trong",
+            "zh-Hans": "在 / 进入",
+            "zh-Hant": "在 / 進入",
+            "other": "نه"
+           }
+          },
+          {
+           "surface": "ply",
+           "type": "root",
+           "meaning": "fold",
+           "translations": {
+            "zh-Hans": "牵涉；包含",
+            "zh-Hant": "牽涉；包含",
+            "am": "ማጠፍ/ማካተት",
+            "ar": "طي/تضمين",
+            "es": "doblar/implicar",
+            "fa": "تا کردن/شامل کردن",
+            "fr": "plier/impliquer",
+            "hi": "मोड़ना/शामिल करना",
+            "ja": "折る/含む",
+            "ko": "접다/포함하다",
+            "ml": "മടക്കുക/ഉൾപ്പെടുത്തുക",
+            "ps": "تاؤ/ښکېلول",
+            "ro": "a plia/a implica",
+            "ru": "сгибать/вовлекать",
+            "ta": "மடிப்பு/உள்ளடக்கு",
+            "tl": "tiklop/isama",
+            "ur": "تہہ کرنا/شامل کرنا",
+            "vi": "liên quan",
+            "other": "برابر"
+           }
+          }
+         ],
+         "root": "ply",
+         "meaning": "Suggest something without saying it directly.",
+         "example": "You're implying she had no choice.",
+         "translations": {}
+        },
+        {
+         "word": "reframe",
+         "parts": [
+          {
+           "surface": "re",
+           "type": "prefix",
+           "meaning": "again",
+           "translations": {
+            "fa": "دوباره/باز",
+            "am": "እንደገና",
+            "ar": "مرة أخرى",
+            "es": "de nuevo / atrás",
+            "fr": "de nouveau / en arrière",
+            "hi": "फिर से / वापस",
+            "ja": "再び / 戻る",
+            "ko": "다시 / 뒤로",
+            "ml": "വീണ്ടും",
+            "ps": "بیا / شاته",
+            "ro": "din nou / înapoi",
+            "ru": "снова / назад",
+            "ta": "மீண்டும் / பின்",
+            "tl": "muli / pabalik",
+            "ur": "دوبارہ / واپس",
+            "vi": "lại",
+            "zh-Hans": "再次；回",
+            "zh-Hant": "再次；回"
+           }
+          },
+          {
+           "surface": "frame",
+           "type": "root",
+           "meaning": "border, shape",
+           "translations": {}
+          }
+         ],
+         "root": "frame",
+         "meaning": "Put an idea in a different way so it can be seen differently.",
+         "example": "Do you mean a good father overall, or good at the daily stuff?",
+         "translations": {}
+        },
+        {
+         "word": "concede",
+         "parts": [
+          {
+           "surface": "con",
+           "type": "prefix",
+           "meaning": "together",
+           "translations": {
+            "am": "አብሮ",
+            "ar": "معًا",
+            "es": "juntos",
+            "fa": "باهم",
+            "fr": "ensemble",
+            "hi": "साथ",
+            "ja": "共に",
+            "ko": "함께",
+            "ml": "ഒരുമിച്ച്",
+            "ps": "يوځای",
+            "ro": "împreună",
+            "ru": "вместе",
+            "ta": "ஒன்றாக",
+            "tl": "magkasama",
+            "ur": "اکٹھا",
+            "vi": "cùng",
+            "zh-Hans": "共同",
+            "zh-Hant": "共同",
+            "other": "باهم"
+           }
+          },
+          {
+           "surface": "cede",
+           "type": "root",
+           "meaning": "give way",
+           "translations": {}
+          }
+         ],
+         "root": "cede",
+         "meaning": "Admit that part of the other side's point is true.",
+         "example": "Fair, he does look after him. I still say the lie is too big.",
+         "translations": {}
+        },
+        {
+         "word": "elaborate",
+         "parts": [
+          {
+           "surface": "e",
+           "type": "prefix",
+           "meaning": "out",
+           "translations": {
+            "am": "ውጭ",
+            "ar": "خارج",
+            "es": "fuera",
+            "fa": "بیرون",
+            "fr": "hors de",
+            "hi": "बाहर",
+            "ja": "外へ",
+            "ko": "밖으로",
+            "ml": "പുറത്തേക്ക്",
+            "ps": "بهر",
+            "ro": "afară",
+            "ru": "из",
+            "ta": "வெளியே",
+            "tl": "palabas",
+            "ur": "باہر",
+            "vi": "ra",
+            "zh-Hans": "向外",
+            "zh-Hant": "向外",
+            "other": "خارج"
+           }
+          },
+          {
+           "surface": "labor",
+           "type": "root",
+           "meaning": "work",
+           "translations": {
+            "am": "ስራ",
+            "ar": "عمل",
+            "es": "trabajo",
+            "fa": "کار",
+            "fr": "travail",
+            "hi": "काम",
+            "ja": "働く",
+            "ko": "노동",
+            "ml": "ജോലി",
+            "ps": "کار",
+            "ro": "muncă",
+            "ru": "труд",
+            "ta": "வேலை",
+            "tl": "trabaho",
+            "ur": "کام",
+            "vi": "lao động",
+            "zh-Hans": "工作",
+            "zh-Hant": "工作"
+           }
+          },
+          {
+           "surface": "ate",
+           "type": "suffix",
+           "meaning": "to make/do",
+           "translations": {
+            "am": "ማድረግ",
+            "ar": "جعل",
+            "es": "tener/hacer",
+            "fa": "ساختن",
+            "fr": "rendre",
+            "hi": "बनाना",
+            "ja": "〜化する",
+            "ko": "만들다",
+            "ml": "ഉണ്ടാക്കുക",
+            "ps": "لرونکی/جوړونکی",
+            "ro": "a face",
+            "ru": "делать",
+            "ta": "செய்தல்",
+            "tl": "gumawa",
+            "ur": "بنانا",
+            "vi": "làm",
+            "zh-Hans": "使…化",
+            "zh-Hant": "使…化"
+           }
+          }
+         ],
+         "root": "labor",
+         "meaning": "Add detail or an example to an idea.",
+         "example": "Can you elaborate? What makes it calm?",
+         "translations": {}
+        },
+        {
+         "word": "turn-taking",
+         "parts": [
+          {
+           "surface": "turn",
+           "type": "root",
+           "meaning": "a go",
+           "translations": {}
+          },
+          {
+           "surface": "taking",
+           "type": "root",
+           "meaning": "having",
+           "translations": {}
+          }
+         ],
+         "root": "turn",
+         "meaning": "Speaking one at a time and handing the talk on.",
+         "example": "Your turn, Mia. What did you think?",
+         "translations": {}
+        },
+        {
+         "word": "register",
+         "parts": [
+          {
+           "surface": "register",
+           "type": "root",
+           "meaning": "a list of things recorded",
+           "translations": {}
+          }
+         ],
+         "root": "register",
+         "meaning": "How formal or casual your speaking is, matched to who is listening.",
+         "example": "Same idea, but in the register you'd use to the class.",
+         "translations": {}
+        }
+       ],
+       "path": "year-9/english/curious-incident-core"
+      },
+      {
+       "id": "curious-incident-ch-2-37",
+       "name": "The Curious Incident · Chapters 2 to 37",
+       "interactive": true,
+       "words": [
+        {
+         "word": "metaphor",
+         "parts": [
+          {
+           "surface": "meta",
+           "type": "prefix",
+           "meaning": "about/beyond",
+           "translations": {
+            "am": "ባሻገር",
+            "ar": "ما وراء",
+            "es": "más allá/cambio",
+            "fa": "فرا",
+            "fr": "au-delà de",
+            "hi": "परे",
+            "ja": "超",
+            "ko": "초월",
+            "ml": "അപ്പുറം",
+            "ps": "هاخوا",
+            "ro": "dincolo de",
+            "ru": "за пределами",
+            "ta": "அப்பால்",
+            "tl": "higit pa",
+            "ur": "ماورا",
+            "vi": "vượt qua",
+            "zh-Hans": "超越",
+            "zh-Hant": "超越"
+           }
+          },
+          {
+           "surface": "phor",
+           "type": "root",
+           "meaning": "carry",
+           "translations": {
+            "am": "መሸከም",
+            "ar": "حمل",
+            "es": "llevar",
+            "fa": "حمل",
+            "fr": "porter",
+            "hi": "वहन",
+            "ja": "運ぶ",
+            "ko": "운반",
+            "ml": "വഹിക്കുക",
+            "ps": "وړل",
+            "ro": "a purta",
+            "ru": "нести",
+            "ta": "சுமத்தல்",
+            "tl": "magdala",
+            "ur": "لے جانا",
+            "vi": "mang",
+            "zh-Hans": "承载",
+            "zh-Hant": "承載"
+           }
+          }
+         ],
+         "root": "phor",
+         "meaning": "Saying one thing is another thing to show what it is like.",
+         "example": "This means that the word metaphor is a metaphor.",
+         "translations": {}
+        },
+        {
+         "word": "approximately",
+         "parts": [
+          {
+           "surface": "ap",
+           "type": "prefix",
+           "meaning": "toward",
+           "translations": {
+            "am": "ወደ",
+            "ar": "نحو / إلى",
+            "es": "hacia",
+            "fa": "به",
+            "fr": "vers",
+            "hi": "की ओर",
+            "ja": "～へ",
+            "ko": "향하여",
+            "ml": "നേരെ",
+            "ps": "پر لور",
+            "ro": "spre",
+            "ru": "к",
+            "ta": "நோக்கி",
+            "tl": "patungo",
+            "ur": "کی طرف",
+            "vi": "hướng",
+            "zh-Hans": "向",
+            "zh-Hant": "向",
+            "other": "به"
+           }
+          },
+          {
+           "surface": "proxim",
+           "type": "root",
+           "meaning": "near",
+           "translations": {
+            "zh-Hans": "接近",
+            "zh-Hant": "接近",
+            "am": "ቅርብ",
+            "ar": "تقريب",
+            "es": "cerca",
+            "fa": "نزدیک",
+            "fr": "proche",
+            "hi": "निकट",
+            "ja": "近い",
+            "ko": "가까운",
+            "ml": "അടുത്ത്",
+            "ps": "نږدې",
+            "ro": "aproape",
+            "ru": "близкий",
+            "ta": "அருகில்",
+            "tl": "malapit",
+            "ur": "قریب",
+            "vi": "gần",
+            "other": "نزدیک"
+           }
+          },
+          {
+           "surface": "ate",
+           "type": "suffix",
+           "meaning": "to make/do",
+           "translations": {
+            "am": "ማድረግ",
+            "ar": "جعل",
+            "es": "tener/hacer",
+            "fa": "ساختن",
+            "fr": "rendre",
+            "hi": "बनाना",
+            "ja": "〜化する",
+            "ko": "만들다",
+            "ml": "ഉണ്ടാക്കുക",
+            "ps": "لرونکی/جوړونکی",
+            "ro": "a face",
+            "ru": "делать",
+            "ta": "செய்தல்",
+            "tl": "gumawa",
+            "ur": "بنانا",
+            "vi": "làm",
+            "zh-Hans": "使…化",
+            "zh-Hant": "使…化"
+           }
+          },
+          {
+           "surface": "ly",
+           "type": "suffix",
+           "meaning": "in the manner of",
+           "translations": {
+            "zh-Hans": "以这种方式",
+            "ja": "〜のように",
+            "fa": "به این شیوه",
+            "vi": "theo cách này",
+            "zh-Hant": "以這種方式",
+            "am": "በ… መንገድ",
+            "ar": "بطريقة",
+            "es": "manera",
+            "fr": "de manière",
+            "hi": "तरीके से",
+            "ko": "~하게",
+            "ml": "വിധത്തിൽ",
+            "ps": "په … توګه",
+            "ro": "în mod",
+            "ru": "образом",
+            "ta": "விதமாக",
+            "tl": "sa paraang",
+            "ur": "طریقے سے"
+           }
+          }
+         ],
+         "root": "proxim",
+         "meaning": "Close to, but not exactly.",
+         "example": "Mr Jeavons wears brown shoes that have approximately 60 tiny circular holes in each of them.",
+         "translations": {}
+        },
+        {
+         "word": "faithful",
+         "parts": [
+          {
+           "surface": "faith",
+           "type": "root",
+           "meaning": "trust",
+           "translations": {}
+          },
+          {
+           "surface": "ful",
+           "type": "suffix",
+           "meaning": "full of",
+           "translations": {
+            "vi": "đầy",
+            "am": "የተሞላ",
+            "ar": "مليء بـ",
+            "es": "lleno de",
+            "fa": "پر از",
+            "fr": "plein de",
+            "hi": "से भरा",
+            "ja": "いっぱいの",
+            "ko": "가득한",
+            "ml": "നിറഞ്ഞ",
+            "ps": "ډک",
+            "ro": "plin de",
+            "ru": "полный",
+            "ta": "நிறைந்த",
+            "tl": "puno ng",
+            "ur": "سے بھرا",
+            "zh-Hans": "充满",
+            "zh-Hant": "充滿"
+           }
+          }
+         ],
+         "root": "faith",
+         "meaning": "Loyal; staying true to someone.",
+         "example": "Also, dogs are faithful and they do not tell lies because they cannot talk.",
+         "translations": {}
+        },
+        {
+         "word": "inspector",
+         "parts": [
+          {
+           "surface": "in",
+           "type": "prefix",
+           "meaning": "into",
+           "translations": {
+            "am": "ወደ ውስጥ",
+            "ar": "في",
+            "es": "en / hacia dentro",
+            "fa": "در",
+            "fr": "dans",
+            "hi": "में",
+            "ja": "中に",
+            "ko": "안으로",
+            "ml": "അകത്ത്",
+            "ps": "دننه",
+            "ro": "în",
+            "ru": "в",
+            "ta": "உள்ளே",
+            "tl": "sa loob",
+            "ur": "میں",
+            "vi": "trong",
+            "zh-Hans": "在 / 进入",
+            "zh-Hant": "在 / 進入",
+            "other": "نه"
+           }
+          },
+          {
+           "surface": "spect",
+           "type": "root",
+           "meaning": "look",
+           "translations": {
+            "am": "መመልከት",
+            "ar": "نظر / رؤية",
+            "es": "mirar / ver",
+            "fa": "نگاه کردن / دیدن",
+            "fr": "regarder / voir",
+            "hi": "देखना",
+            "ja": "見る",
+            "ko": "보다",
+            "ml": "നോക്കുക/കാണുക",
+            "ps": "کتل/لیدل",
+            "ro": "a privi / a vedea",
+            "ru": "смотреть / видеть",
+            "ta": "பார்/காண்",
+            "tl": "tumingin/makakita",
+            "ur": "دیکھنا",
+            "vi": "nhìn / xem",
+            "zh-Hans": "看/观察",
+            "zh-Hant": "看/觀察"
+           }
+          },
+          {
+           "surface": "or",
+           "type": "suffix",
+           "meaning": "person/thing that",
+           "translations": {
+            "am": "የሚያደርግ",
+            "ar": "فاعل",
+            "es": "el que hace",
+            "fa": "انجام‌دهنده",
+            "fr": "celui qui fait",
+            "hi": "करने वाला",
+            "ja": "行う人・物",
+            "ko": "행하는 것",
+            "ml": "ചെയ്യുന്നയാൾ",
+            "ps": "کوونکی",
+            "ro": "cel care face",
+            "ru": "тот, кто делает",
+            "ta": "செய்பவர்",
+            "tl": "gumagawa",
+            "ur": "کرنے والا",
+            "vi": "người thực hiện",
+            "zh-Hans": "施动者",
+            "zh-Hant": "施動者",
+            "other": "کننده"
+           }
+          }
+         ],
+         "root": "spect",
+         "meaning": "A senior police officer; someone whose job is to look closely at things.",
+         "example": "He was an inspector. I could tell because he wasn't wearing a uniform.",
+         "translations": {}
+        },
+        {
+         "word": "precisely",
+         "parts": [
+          {
+           "surface": "pre",
+           "type": "prefix",
+           "meaning": "before",
+           "translations": {
+            "am": "ቀድሞ",
+            "ar": "قبل",
+            "es": "antes",
+            "fa": "پیش",
+            "fr": "avant",
+            "hi": "पहले",
+            "ja": "前",
+            "ko": "이전",
+            "ml": "മുൻപ്",
+            "ps": "مخکې",
+            "ro": "înainte",
+            "ru": "до",
+            "ta": "முன்பு",
+            "tl": "bago",
+            "ur": "پہلے",
+            "vi": "trước",
+            "zh-Hans": "前",
+            "zh-Hant": "前"
+           }
+          },
+          {
+           "surface": "cis",
+           "type": "root",
+           "meaning": "cut",
+           "translations": {
+            "am": "መቁረጥ",
+            "ar": "قطع",
+            "es": "cortar",
+            "fa": "بریدن",
+            "fr": "couper",
+            "hi": "काटना",
+            "ja": "切る",
+            "ko": "자르다",
+            "ml": "മുറിക്കുക",
+            "ps": "پرې کول",
+            "ro": "a tăia",
+            "ru": "резать",
+            "ta": "வெட்டு",
+            "tl": "putol",
+            "ur": "کاٹنا",
+            "vi": "cắt",
+            "zh-Hans": "切，割",
+            "zh-Hant": "切，割"
+           }
+          },
+          {
+           "surface": "ly",
+           "type": "suffix",
+           "meaning": "in the manner of",
+           "translations": {
+            "zh-Hans": "以这种方式",
+            "ja": "〜のように",
+            "fa": "به این شیوه",
+            "vi": "theo cách này",
+            "zh-Hant": "以這種方式",
+            "am": "በ… መንገድ",
+            "ar": "بطريقة",
+            "es": "manera",
+            "fr": "de manière",
+            "hi": "तरीके से",
+            "ko": "~하게",
+            "ml": "വിധത്തിൽ",
+            "ps": "په … توګه",
+            "ro": "în mod",
+            "ru": "образом",
+            "ta": "விதமாக",
+            "tl": "sa paraang",
+            "ur": "طریقے سے"
+           }
+          }
+         ],
+         "root": "cis",
+         "meaning": "Exactly.",
+         "example": "And what, precisely, were you doing in the garden?",
+         "translations": {}
+        },
+        {
+         "word": "exhausted",
+         "parts": [
+          {
+           "surface": "ex",
+           "type": "prefix",
+           "meaning": "out",
+           "translations": {
+            "am": "ውጭ",
+            "ar": "خارج",
+            "es": "fuera",
+            "fa": "بیرون",
+            "fr": "hors de",
+            "hi": "बाहर",
+            "ja": "外へ",
+            "ko": "밖으로",
+            "ml": "പുറത്തേക്ക്",
+            "ps": "بهر",
+            "ro": "afară",
+            "ru": "из",
+            "ta": "வெளியே",
+            "tl": "palabas",
+            "ur": "باہر",
+            "vi": "ra",
+            "zh-Hans": "向外",
+            "zh-Hant": "向外",
+            "other": "خارج"
+           }
+          },
+          {
+           "surface": "haust",
+           "type": "root",
+           "meaning": "draw out/drain",
+           "translations": {
+            "zh-Hans": "抽出/耗尽",
+            "zh-Hant": "抽出/耗盡",
+            "ja": "引き出す/排出する",
+            "ko": "끌어내다/배출하다",
+            "vi": "rút ra/làm cạn kiệt",
+            "ar": "يستخرج/يستنزف",
+            "fa": "بیرون کشیدن/تخلیه کردن",
+            "ur": "نکالنا/خالی کرنا",
+            "am": "ማውጣት/ማድረቅ",
+            "ml": "വലിച്ചെടുക്കുക/വറ്റിക്കുക",
+            "ta": "இழுத்தெடுத்தல்/வடித்தல்",
+            "tl": "hugutin/patuyuin",
+            "ps": "راایستل/تشول",
+            "ro": "a extrage/a epuiza",
+            "ru": "вытягивать/истощать",
+            "fr": "extraire/épuiser",
+            "hi": "बाहर निकालना/खाली करना",
+            "es": "extraer/agotar"
+           }
+          },
+          {
+           "surface": "ed",
+           "type": "suffix",
+           "meaning": "having been (makes an adjective)",
+           "translations": {
+            "am": "የተለወጠ ወይም ቅርጽ ያለው",
+            "ar": "محوّل إلى / له شكل",
+            "es": "convertido en/con la forma de",
+            "fa": "تبدیل‌شده به / دارای شکل",
+            "fr": "transformé en / ayant la forme de",
+            "hi": "में परिवर्तित / रूप वाला",
+            "ja": "〜にされた・〜の形をした",
+            "ko": "만들어진 상태·형태를 가진",
+            "ml": "ആക്കിയത് / രൂപമുള്ളത്",
+            "ps": "بدل شوی / بڼه لرونکی",
+            "ro": "transformat în / având forma de",
+            "ru": "превращённый в / имеющий форму",
+            "ta": "மாற்றப்பட்டது / வடிவம் கொண்டது",
+            "tl": "ginawang / may hugis ng",
+            "ur": "میں تبدیل شدہ / شکل رکھنے والا",
+            "vi": "được biến thành / có dạng",
+            "zh-Hans": "使成为…的;具有…形式的",
+            "zh-Hant": "使成為…的;具有…形式的"
+           }
+          }
+         ],
+         "root": "haust",
+         "meaning": "Completely tired; used up.",
+         "example": "Drawn has three meanings: drawn with a pencil, exhausted, and pulled across.",
+         "translations": {}
+        },
+        {
+         "word": "murderer",
+         "parts": [
+          {
+           "surface": "murder",
+           "type": "root",
+           "meaning": "unlawfully kill a person",
+           "translations": {
+            "zh-Hans": "谋杀",
+            "ja": "人を殺す",
+            "fa": "قتل کردن",
+            "vi": "giết người",
+            "zh-Hant": "謀殺",
+            "ko": "살해하다",
+            "ar": "قتل",
+            "ur": "قتل کرنا",
+            "am": "መግደል",
+            "ml": "കൊലപ്പെടുത്തുക",
+            "ta": "கொலை செய்",
+            "tl": "pumatay",
+            "ps": "وژل",
+            "ro": "a ucide",
+            "ru": "убивать",
+            "fr": "assassiner",
+            "hi": "हत्या करना",
+            "es": "asesinar"
+           }
+          },
+          {
+           "surface": "er",
+           "type": "suffix",
+           "meaning": "one who",
+           "translations": {
+            "am": "የሚሠራ ሰው/ነገር",
+            "ar": "فاعل",
+            "es": "cosa que hace",
+            "fa": "انجام‌دهنده",
+            "fr": "celui qui fait",
+            "hi": "करने वाला",
+            "ja": "〜する人・物",
+            "ko": "~하는 사람/것",
+            "ml": "കർത്താവ്",
+            "ps": "کوونکی",
+            "ro": "făcător",
+            "ru": "деятель",
+            "ta": "செய்பவர்",
+            "tl": "tagagawa",
+            "ur": "کرنے والا",
+            "vi": "người/vật thực hiện",
+            "zh-Hans": "做…的人或物",
+            "zh-Hant": "做…的人或物",
+            "other": "کننده"
+           }
+          }
+         ],
+         "root": "murder",
+         "meaning": "A person who kills someone on purpose.",
+         "example": "In a murder mystery novel someone has to work out who the murderer is and then catch them.",
+         "translations": {}
+        },
+        {
+         "word": "universe",
+         "parts": [
+          {
+           "surface": "uni",
+           "type": "prefix",
+           "meaning": "one",
+           "translations": {
+            "am": "አንድ",
+            "ar": "واحد",
+            "es": "uno",
+            "fa": "یک",
+            "fr": "un",
+            "hi": "एक",
+            "ja": "単一",
+            "ko": "단일",
+            "ml": "ഒന്ന്",
+            "ps": "یو",
+            "ro": "unu",
+            "ru": "один",
+            "ta": "ஒன்று",
+            "tl": "isa",
+            "ur": "ایک",
+            "vi": "một",
+            "zh-Hans": "单一",
+            "zh-Hant": "單一"
+           }
+          },
+          {
+           "surface": "vers",
+           "type": "root",
+           "meaning": "turn",
+           "translations": {
+            "am": "መዞር",
+            "ar": "دوران",
+            "es": "girar",
+            "fa": "چرخش",
+            "fr": "tourner",
+            "hi": "मुड़ना",
+            "ja": "回転",
+            "ko": "회전",
+            "ml": "തിരിയുക",
+            "ps": "ګرځېدل",
+            "ro": "a întoarce",
+            "ru": "поворот",
+            "ta": "திரும்புதல்",
+            "tl": "ikot",
+            "ur": "مڑنا",
+            "vi": "xoay",
+            "zh-Hans": "转",
+            "zh-Hant": "轉"
+           }
+          }
+         ],
+         "root": "vers",
+         "meaning": "Everything that exists: all of space and everything in it.",
+         "example": "Prime numbers are like life. They are very logical but you could never work out the rules, even if you spent all your time thinking about them.",
+         "translations": {}
+        }
+       ],
+       "path": "year-9/english/curious-incident-ch-2-37"
+      },
+      {
+       "id": "curious-incident-ch-41-73",
+       "name": "The Curious Incident · Chapters 41 to 73",
+       "interactive": true,
+       "words": [
+        {
+         "word": "stranger",
+         "parts": [
+          {
+           "surface": "strang",
+           "type": "root",
+           "meaning": "foreign, from outside",
+           "translations": {}
+          },
+          {
+           "surface": "er",
+           "type": "suffix",
+           "meaning": "one who",
+           "translations": {
+            "am": "የሚሠራ ሰው/ነገር",
+            "ar": "فاعل",
+            "es": "cosa que hace",
+            "fa": "انجام‌دهنده",
+            "fr": "celui qui fait",
+            "hi": "करने वाला",
+            "ja": "〜する人・物",
+            "ko": "~하는 사람/것",
+            "ml": "കർത്താവ്",
+            "ps": "کوونکی",
+            "ro": "făcător",
+            "ru": "деятель",
+            "ta": "செய்பவர்",
+            "tl": "tagagawa",
+            "ur": "کرنے والا",
+            "vi": "người/vật thực hiện",
+            "zh-Hans": "做…的人或物",
+            "zh-Hant": "做…的人或物",
+            "other": "کننده"
+           }
+          }
+         ],
+         "root": "strang",
+         "meaning": "A person you do not know.",
+         "example": "I don't like talking to strangers. This is not because of Stranger Danger.",
+         "translations": {}
+        },
+        {
+         "word": "detective",
+         "parts": [
+          {
+           "surface": "de",
+           "type": "prefix",
+           "meaning": "down/away",
+           "translations": {
+            "am": "ወደ ታች",
+            "ar": "أسفل",
+            "es": "abajo/lejos",
+            "fa": "پایین",
+            "fr": "vers le bas",
+            "hi": "नीचे",
+            "ja": "下方へ",
+            "ko": "아래로",
+            "ml": "താഴേക്ക്",
+            "ps": "ښکته / لرې",
+            "ro": "în jos",
+            "ru": "вниз",
+            "ta": "கீழே",
+            "tl": "pababa",
+            "ur": "نیچے",
+            "vi": "giảm/ra khỏi",
+            "zh-Hans": "向下；去除",
+            "zh-Hant": "向下；去除"
+           }
+          },
+          {
+           "surface": "tect",
+           "type": "root",
+           "meaning": "cover/protect",
+           "translations": {
+            "zh-Hans": "保护",
+            "zh-Hant": "保護",
+            "ja": "保護する / 守る",
+            "am": "መሸፈን / መጠበቅ",
+            "ar": "يغطي / يحمي",
+            "es": "cubrir/proteger",
+            "fa": "پوشاندن / محافظت کردن",
+            "fr": "couvrir / protéger",
+            "hi": "ढकना / रक्षा करना",
+            "ko": "덮다/보호하다",
+            "ml": "മൂടുക / സംരക്ഷിക്കുക",
+            "ps": "پوښل / ساتل",
+            "ro": "a acoperi / a proteja",
+            "ru": "покрывать / защищать",
+            "ta": "மூடு / பாதுகா",
+            "tl": "takpan / protektahan",
+            "ur": "ڈھانپنا / حفاظت کرنا",
+            "vi": "che chở / bảo vệ"
+           }
+          },
+          {
+           "surface": "ive",
+           "type": "suffix",
+           "meaning": "tending to",
+           "translations": {
+            "am": "ዝንባሌ",
+            "ar": "ذو",
+            "es": "que tiende a",
+            "fa": "گرایش به",
+            "fr": "tendance à",
+            "hi": "प्रवृत्ति",
+            "ja": "的な",
+            "ko": "경향",
+            "ml": "പ്രവണത",
+            "ps": "لرونکی",
+            "ro": "care are",
+            "ru": "склонный к",
+            "ta": "போக்கு",
+            "tl": "hilig",
+            "ur": "رجحان",
+            "vi": "có xu hướng",
+            "zh-Hans": "有…性质的",
+            "zh-Hant": "有…性質的"
+           }
+          }
+         ],
+         "root": "tect",
+         "meaning": "A person who finds out who did something by looking for clues.",
+         "example": "Then I decided to do some detective work.",
+         "translations": {}
+        },
+        {
+         "word": "suspicious",
+         "parts": [
+          {
+           "surface": "sus",
+           "type": "prefix",
+           "meaning": "under",
+           "translations": {
+            "am": "ከታች / በምትክ",
+            "ar": "تحت / بدلاً من",
+            "es": "bajo / en lugar de",
+            "fa": "زیر / به‌جای",
+            "fr": "sous / à la place de",
+            "hi": "नीचे / के स्थान पर",
+            "ja": "下に・代わりに",
+            "ko": "아래/대신",
+            "ml": "താഴെ / പകരം",
+            "ps": "لاندې / پرځای",
+            "ro": "sub / în locul",
+            "ru": "под / вместо",
+            "ta": "கீழ் / பதிலாக",
+            "tl": "sa ilalim / kapalit",
+            "ur": "نیچے / بجائے",
+            "vi": "dưới / thay thế",
+            "zh-Hans": "下/替代",
+            "zh-Hant": "下/替代"
+           }
+          },
+          {
+           "surface": "spic",
+           "type": "root",
+           "meaning": "look",
+           "translations": {
+            "zh-Hans": "看",
+            "zh-Hant": "看",
+            "ja": "見る",
+            "ko": "보다",
+            "vi": "nhìn",
+            "ar": "نظر",
+            "fa": "نگاه کردن",
+            "ur": "دیکھنا",
+            "am": "መመልከት",
+            "ml": "നോക്കുക",
+            "ta": "பார்",
+            "tl": "tumingin",
+            "ps": "کتل",
+            "ro": "a privi",
+            "ru": "смотреть",
+            "fr": "regarder",
+            "hi": "देखना",
+            "es": "mirar"
+           }
+          },
+          {
+           "surface": "ious",
+           "type": "suffix",
+           "meaning": "full of",
+           "translations": {
+            "am": "የተሞላ / የሚታወቅበት",
+            "ar": "مليء بـ / يتميز بـ",
+            "es": "lleno de/caracterizado por",
+            "fa": "پر از / دارای ویژگی",
+            "fr": "plein de / caractérisé par",
+            "hi": "से भरा / द्वारा विशेषित",
+            "ja": "〜に満ちた／〜を特徴とする",
+            "ko": "가득한 / 특징적인",
+            "ml": "നിറഞ്ഞ / സവിശേഷതയുള്ള",
+            "ps": "له ... ډک / ځانګړی",
+            "ro": "plin de / caracterizat prin",
+            "ru": "полный / характеризующийся",
+            "ta": "நிறைந்த / சிறப்பியல்பு கொண்ட",
+            "tl": "puno ng / katangian ng",
+            "ur": "سے بھرا / خصوصیت رکھنے والا",
+            "vi": "đầy / có đặc điểm",
+            "zh-Hans": "充满；以…为特征",
+            "zh-Hant": "充滿；以…為特徵"
+           }
+          }
+         ],
+         "root": "spic",
+         "meaning": "Making you think something is wrong; not to be trusted.",
+         "example": "I asked if she had seen anything suspicious on Thursday evening which might be a clue.",
+         "translations": {}
+        },
+        {
+         "word": "investigation",
+         "parts": [
+          {
+           "surface": "in",
+           "type": "prefix",
+           "meaning": "into",
+           "translations": {
+            "am": "ወደ ውስጥ",
+            "ar": "في",
+            "es": "en / hacia dentro",
+            "fa": "در",
+            "fr": "dans",
+            "hi": "में",
+            "ja": "中に",
+            "ko": "안으로",
+            "ml": "അകത്ത്",
+            "ps": "دننه",
+            "ro": "în",
+            "ru": "в",
+            "ta": "உள்ளே",
+            "tl": "sa loob",
+            "ur": "میں",
+            "vi": "trong",
+            "zh-Hans": "在 / 进入",
+            "zh-Hant": "在 / 進入",
+            "other": "نه"
+           }
+          },
+          {
+           "surface": "vestig",
+           "type": "root",
+           "meaning": "track/trace",
+           "translations": {
+            "am": "መከታተል / ዱካ",
+            "ar": "تتبّع / أثر",
+            "es": "rastrear / huella",
+            "fa": "ردیابی / رد",
+            "fr": "suivre / trace",
+            "hi": "खोज / निशान",
+            "ja": "追跡／痕跡",
+            "ko": "추적 / 흔적",
+            "ml": "പിന്തുടരുക / അടയാളം",
+            "ps": "تعقیب / نښه",
+            "ro": "a urmări / urmă",
+            "ru": "след / выслеживать",
+            "ta": "தடமறிதல் / சுவடு",
+            "tl": "subaybay / bakas",
+            "ur": "کھوج / سراغ",
+            "vi": "theo dõi / dấu vết",
+            "zh-Hans": "追踪 / 痕迹",
+            "zh-Hant": "追蹤 / 痕跡"
+           }
+          },
+          {
+           "surface": "ation",
+           "type": "suffix",
+           "meaning": "process of",
+           "translations": {
+            "am": "ሂደት",
+            "ar": "عملية",
+            "es": "proceso de",
+            "fa": "فرآیند",
+            "fr": "processus",
+            "hi": "प्रक्रिया",
+            "ja": "過程",
+            "ko": "과정",
+            "ml": "പ്രക്രിയ",
+            "ps": "پروسه",
+            "ro": "proces",
+            "ru": "процесс",
+            "ta": "செயல்முறை",
+            "tl": "proseso",
+            "ur": "عمل",
+            "vi": "quá trình",
+            "zh-Hans": "过程",
+            "zh-Hant": "過程"
+           }
+          }
+         ],
+         "root": "vestig",
+         "meaning": "A careful search to find out the truth.",
+         "example": "Thank you for helping me with my investigation.",
+         "translations": {}
+        },
+        {
+         "word": "dreadful",
+         "parts": [
+          {
+           "surface": "dread",
+           "type": "root",
+           "meaning": "fear",
+           "translations": {}
+          },
+          {
+           "surface": "ful",
+           "type": "suffix",
+           "meaning": "full of",
+           "translations": {
+            "vi": "đầy",
+            "am": "የተሞላ",
+            "ar": "مليء بـ",
+            "es": "lleno de",
+            "fa": "پر از",
+            "fr": "plein de",
+            "hi": "से भरा",
+            "ja": "いっぱいの",
+            "ko": "가득한",
+            "ml": "നിറഞ്ഞ",
+            "ps": "ډک",
+            "ro": "plin de",
+            "ru": "полный",
+            "ta": "நிறைந்த",
+            "tl": "puno ng",
+            "ur": "سے بھرا",
+            "zh-Hans": "充满",
+            "zh-Hant": "充滿"
+           }
+          }
+         ],
+         "root": "dread",
+         "meaning": "Very bad; shocking.",
+         "example": "I heard about it yesterday. Dreadful. Dreadful.",
+         "translations": {}
+        },
+        {
+         "word": "chatting",
+         "parts": [
+          {
+           "surface": "chat",
+           "type": "root",
+           "meaning": "talk",
+           "translations": {}
+          },
+          {
+           "surface": "ing",
+           "type": "suffix",
+           "meaning": "action/process",
+           "translations": {
+            "am": "ተግባር",
+            "ar": "فعل",
+            "es": "el acto de",
+            "fa": "عمل",
+            "fr": "action de",
+            "hi": "क्रिया",
+            "ja": "動作",
+            "ko": "행위",
+            "ml": "പ്രവൃത്തി",
+            "ps": "کړنه",
+            "ro": "acțiunea de",
+            "ru": "действие",
+            "ta": "செயல்",
+            "tl": "kilos",
+            "ur": "فعل",
+            "vi": "hành động",
+            "zh-Hans": "行为",
+            "zh-Hant": "行為"
+           }
+          }
+         ],
+         "root": "chat",
+         "meaning": "Friendly talk that is not questions and answers.",
+         "example": "Mrs Alexander was doing what is called chatting, where people say things to each other which aren't questions and answers and aren't connected.",
+         "translations": {}
+        },
+        {
+         "word": "argument",
+         "parts": [
+          {
+           "surface": "argu",
+           "type": "root",
+           "meaning": "make clear",
+           "translations": {
+            "zh-Hans": "阐明",
+            "zh-Hant": "闡明",
+            "ja": "明確にする",
+            "ko": "명확하게 하다",
+            "vi": "làm rõ",
+            "ar": "توضيح",
+            "fa": "روشن کردن",
+            "ur": "واضح کرنا",
+            "am": "ግልጽ ማድረግ",
+            "ml": "വ്യക്തമാക്കുക",
+            "ta": "தெளிவுபடுத்துதல்",
+            "tl": "linawin",
+            "ps": "روښانه کول",
+            "ro": "a clarifica",
+            "ru": "разъяснять",
+            "fr": "clarifier",
+            "hi": "स्पष्ट करना",
+            "es": "aclarar"
+           }
+          },
+          {
+           "surface": "ment",
+           "type": "suffix",
+           "meaning": "result of",
+           "translations": {
+            "am": "ውጤት",
+            "ar": "نتيجة",
+            "es": "resultado de",
+            "fa": "نتیجه",
+            "fr": "résultat de",
+            "hi": "परिणाम",
+            "ja": "結果",
+            "ko": "결과",
+            "ml": "ഫലം",
+            "ps": "پایله",
+            "ro": "rezultat",
+            "ru": "результат",
+            "ta": "விளைவு",
+            "tl": "resulta",
+            "ur": "نتیجہ",
+            "vi": "kết quả",
+            "zh-Hans": "结果",
+            "zh-Hant": "結果"
+           }
+          }
+         ],
+         "root": "argu",
+         "meaning": "A disagreement, or a reason given for a view.",
+         "example": "Especially if those things were numbers or an argument.",
+         "translations": {}
+        },
+        {
+         "word": "behavioural",
+         "parts": [
+          {
+           "surface": "behav",
+           "type": "root",
+           "meaning": "act",
+           "translations": {}
+          },
+          {
+           "surface": "iour",
+           "type": "suffix",
+           "meaning": "state/condition",
+           "translations": {}
+          },
+          {
+           "surface": "al",
+           "type": "suffix",
+           "meaning": "relating to",
+           "translations": {
+            "fa": "وابسته به",
+            "am": "ተያያዥ",
+            "ar": "متعلق بـ",
+            "es": "relativo a",
+            "fr": "relatif à",
+            "hi": "संबंधी",
+            "ja": "～の",
+            "ko": "관련된",
+            "ml": "ബന്ധപ്പെട്ട",
+            "ps": "اړوند",
+            "ro": "legat de",
+            "ru": "относящийся к",
+            "ta": "தொடர்பான",
+            "tl": "may kaugnayan sa",
+            "ur": "متعلق",
+            "vi": "thuộc về",
+            "zh-Hans": "……的",
+            "zh-Hant": "……的"
+           }
+          }
+         ],
+         "root": "behav",
+         "meaning": "To do with the way a person acts.",
+         "example": "This was because of the stress of looking after someone who has Behavioural Problems like I have.",
+         "translations": {}
+        }
+       ],
+       "path": "year-9/english/curious-incident-ch-41-73"
+      },
+      {
+       "id": "curious-incident-ch-79-109",
+       "name": "The Curious Incident · Chapters 79 to 109",
+       "interactive": true,
+       "words": [
+        {
+         "word": "intuition",
+         "parts": [
+          {
+           "surface": "in",
+           "type": "prefix",
+           "meaning": "into",
+           "translations": {
+            "am": "ወደ ውስጥ",
+            "ar": "في",
+            "es": "en / hacia dentro",
+            "fa": "در",
+            "fr": "dans",
+            "hi": "में",
+            "ja": "中に",
+            "ko": "안으로",
+            "ml": "അകത്ത്",
+            "ps": "دننه",
+            "ro": "în",
+            "ru": "в",
+            "ta": "உள்ளே",
+            "tl": "sa loob",
+            "ur": "میں",
+            "vi": "trong",
+            "zh-Hans": "在 / 进入",
+            "zh-Hant": "在 / 進入",
+            "other": "نه"
+           }
+          },
+          {
+           "surface": "tuit",
+           "type": "root",
+           "meaning": "look at/consider",
+           "translations": {
+            "am": "መመልከት ወይም ማሰብ",
+            "ar": "النظر أو التفكير",
+            "es": "mirar/considerar",
+            "fa": "نگاه کردن یا در نظر گرفتن",
+            "fr": "regarder ou considérer",
+            "hi": "देखना या विचार करना",
+            "ja": "見る・考える",
+            "ko": "보다·고려하다",
+            "ml": "നോക്കുക അല്ലെങ്കിൽ പരിഗണിക്കുക",
+            "ps": "کتل یا په پام کې نیول",
+            "ro": "a privi sau a considera",
+            "ru": "смотреть или рассматривать",
+            "ta": "பார்த்தல் அல்லது கருதுதல்",
+            "tl": "tumingin o isaalang-alang",
+            "ur": "دیکھنا یا غور کرنا",
+            "vi": "nhìn hoặc xem xét",
+            "zh-Hans": "看或考虑",
+            "zh-Hant": "看或考慮"
+           }
+          },
+          {
+           "surface": "ion",
+           "type": "suffix",
+           "meaning": "act/process",
+           "translations": {
+            "fa": "فرایند/عمل",
+            "am": "ሂደት/ድርጊት",
+            "ar": "عملية/فعل",
+            "es": "proceso/acción",
+            "fr": "processus/action",
+            "hi": "प्रक्रिया/क्रिया",
+            "ja": "過程/作用",
+            "ko": "과정/작용",
+            "ml": "പ്രക്രിയ/പ്രവർത്തനം",
+            "ps": "بهیر/کړنه",
+            "ro": "proces/acțiune",
+            "ru": "процесс/действие",
+            "ta": "செயல்முறை/செயல்",
+            "tl": "proseso/kilos",
+            "ur": "عمل/فعل",
+            "vi": "quá trình/hành động",
+            "zh-Hans": "过程/动作",
+            "zh-Hant": "過程/動作"
+           }
+          }
+         ],
+         "root": "tuit",
+         "meaning": "Knowing something by feeling, without working it out.",
+         "example": "But if you use your intuition you think that chance is 50-50.",
+         "translations": {}
+        },
+        {
+         "word": "ridiculous",
+         "parts": [
+          {
+           "surface": "ridic",
+           "type": "root",
+           "meaning": "laugh",
+           "translations": {}
+          },
+          {
+           "surface": "ulous",
+           "type": "suffix",
+           "meaning": "full of",
+           "translations": {
+            "am": "ባህርይ ያለው",
+            "ar": "ذو صفة",
+            "es": "que tiene la cualidad de",
+            "fa": "دارای ویژگی",
+            "fr": "ayant la qualité de",
+            "hi": "गुणवाला",
+            "ja": "〜の性質を持つ",
+            "ko": "~의 성질을 가진",
+            "ml": "സ്വഭാവമുള്ള",
+            "ps": "د ... خاصیت لرونکی",
+            "ro": "având calitatea de",
+            "ru": "обладающий свойством",
+            "ta": "குணமுடைய",
+            "tl": "may katangian ng",
+            "ur": "خاصیت رکھنے والا",
+            "vi": "có tính chất",
+            "zh-Hans": "具有…性质的",
+            "zh-Hant": "具有…性質的"
+           }
+          }
+         ],
+         "root": "ridic",
+         "meaning": "Silly enough to laugh at.",
+         "example": "You are to stop this ridiculous bloody detective game right now.",
+         "translations": {}
+        },
+        {
+         "word": "intelligent",
+         "parts": [
+          {
+           "surface": "intel",
+           "type": "prefix",
+           "meaning": "between",
+           "translations": {
+            "zh-Hans": "之间",
+            "zh-Hant": "之間",
+            "ja": "〜の間に",
+            "ko": "~사이에",
+            "vi": "giữa",
+            "ar": "بين",
+            "fa": "بین",
+            "ur": "درمیان",
+            "am": "መካከል",
+            "ml": "ഇടയിൽ",
+            "ta": "இடையே",
+            "tl": "sa gitna",
+            "ps": "تر منځ",
+            "ro": "între",
+            "ru": "между",
+            "fr": "entre",
+            "hi": "बीच में",
+            "es": "entre"
+           }
+          },
+          {
+           "surface": "lig",
+           "type": "root",
+           "meaning": "choose/gather",
+           "translations": {
+            "zh-Hans": "选择/聚集",
+            "zh-Hant": "選擇/聚集",
+            "ja": "選ぶ/集める",
+            "ko": "고르다/모으다",
+            "vi": "chọn/tập hợp",
+            "ar": "اختيار/جمع",
+            "fa": "انتخاب کردن/جمع کردن",
+            "ur": "چننا/جمع کرنا",
+            "am": "መምረጥ/መሰብሰብ",
+            "ml": "തിരഞ്ഞെടുക്കുക/ശേഖരിക്കുക",
+            "ta": "தேர்வு/சேகரி",
+            "tl": "piliin/tipunin",
+            "ps": "ټاکل/راټولول",
+            "ro": "alege/aduna",
+            "ru": "выбирать/собирать",
+            "fr": "choisir/rassembler",
+            "hi": "चुनना/इकट्ठा करना",
+            "es": "elegir/reunir"
+           }
+          },
+          {
+           "surface": "ent",
+           "type": "suffix",
+           "meaning": "having the quality of",
+           "translations": {
+            "vi": "trạng thái",
+            "fa": "چیز",
+            "am": "ባሕርይ",
+            "ar": "صفة",
+            "es": "cualidad",
+            "fr": "qualité",
+            "hi": "गुण",
+            "ja": "性質",
+            "ko": "성질",
+            "ml": "ഗുണം",
+            "ps": "ځانګړتیا",
+            "ro": "calitate",
+            "ru": "качество",
+            "ta": "பண்பு",
+            "tl": "katangian",
+            "ur": "خاصیت",
+            "zh-Hans": "性质",
+            "zh-Hant": "性質",
+            "other": "بودن"
+           }
+          }
+         ],
+         "root": "lig",
+         "meaning": "Clever; quick to understand.",
+         "example": "To be a good astronaut you have to be intelligent and I'm intelligent.",
+         "translations": {}
+        },
+        {
+         "word": "straightforward",
+         "parts": [
+          {
+           "surface": "straight",
+           "type": "root",
+           "meaning": "direct",
+           "translations": {}
+          },
+          {
+           "surface": "forward",
+           "type": "root",
+           "meaning": "ahead",
+           "translations": {}
+          }
+         ],
+         "root": "straight",
+         "meaning": "Simple; easy to follow.",
+         "example": "These problems were difficult and interesting but there was always a straightforward answer at the end.",
+         "translations": {}
+        },
+        {
+         "word": "trespassing",
+         "parts": [
+          {
+           "surface": "tres",
+           "type": "prefix",
+           "meaning": "across",
+           "translations": {
+            "zh-Hans": "横过",
+            "zh-Hant": "橫過",
+            "ja": "越えて",
+            "ko": "가로질러",
+            "vi": "băng qua",
+            "ar": "عبر",
+            "fa": "از میان",
+            "ur": "کے پار",
+            "am": "አቋርጦ",
+            "ml": "കുറുകെ",
+            "ta": "குறுக்கே",
+            "tl": "tawid",
+            "ps": "له لارې",
+            "ro": "peste",
+            "ru": "через",
+            "fr": "à travers",
+            "hi": "के पार",
+            "es": "a través"
+           }
+          },
+          {
+           "surface": "pass",
+           "type": "root",
+           "meaning": "step",
+           "translations": {
+            "am": "እርምጃ / መሄድ",
+            "ar": "يخطو / يذهب",
+            "es": "dar un paso/ir",
+            "fa": "گام برداشتن / رفتن",
+            "fr": "faire un pas / aller",
+            "hi": "कदम रखना / जाना",
+            "ja": "歩む／進む",
+            "ko": "걷다 / 가다",
+            "ml": "ചുവടുവയ്ക്കുക / പോകുക",
+            "ps": "ګام اخيستل / تلل",
+            "ro": "a păși / a merge",
+            "ru": "шагать / идти",
+            "ta": "அடிவைத்தல் / செல்லுதல்",
+            "tl": "humakbang / pumunta",
+            "ur": "قدم رکھنا / جانا",
+            "vi": "bước / đi",
+            "zh-Hans": "跨步／行走",
+            "zh-Hant": "跨步／行走"
+           }
+          },
+          {
+           "surface": "ing",
+           "type": "suffix",
+           "meaning": "action/process",
+           "translations": {
+            "am": "ተግባር",
+            "ar": "فعل",
+            "es": "el acto de",
+            "fa": "عمل",
+            "fr": "action de",
+            "hi": "क्रिया",
+            "ja": "動作",
+            "ko": "행위",
+            "ml": "പ്രവൃത്തി",
+            "ps": "کړنه",
+            "ro": "acțiunea de",
+            "ru": "действие",
+            "ta": "செயல்",
+            "tl": "kilos",
+            "ur": "فعل",
+            "vi": "hành động",
+            "zh-Hans": "行为",
+            "zh-Hant": "行為"
+           }
+          }
+         ],
+         "root": "pass",
+         "meaning": "Going onto someone's land without permission.",
+         "example": "You are not to go trespassing in other people's gardens.",
+         "translations": {}
+        },
+        {
+         "word": "supernatural",
+         "parts": [
+          {
+           "surface": "super",
+           "type": "prefix",
+           "meaning": "above/beyond",
+           "translations": {
+            "am": "ከላይ",
+            "ar": "فوق",
+            "es": "encima de",
+            "fa": "بالای",
+            "fr": "au-dessus de",
+            "hi": "ऊपर",
+            "ja": "上に",
+            "ko": "위에",
+            "ml": "മുകളിൽ",
+            "ps": "پورته",
+            "ro": "deasupra",
+            "ru": "сверху",
+            "ta": "மேலே",
+            "tl": "sa ibabaw",
+            "ur": "اوپر",
+            "vi": "trên",
+            "zh-Hans": "上",
+            "zh-Hant": "上"
+           }
+          },
+          {
+           "surface": "natur",
+           "type": "root",
+           "meaning": "nature",
+           "translations": {
+            "am": "ተፈጥሮ",
+            "ar": "طبيعة",
+            "es": "naturaleza",
+            "fa": "طبیعت",
+            "fr": "nature",
+            "hi": "प्रकृति",
+            "ja": "自然",
+            "ko": "자연",
+            "ml": "പ്രകൃതി",
+            "ps": "طبیعت",
+            "ro": "natură",
+            "ru": "природа",
+            "ta": "இயற்கை",
+            "tl": "kalikasan",
+            "ur": "فطرت",
+            "vi": "tự nhiên",
+            "zh-Hans": "自然",
+            "zh-Hant": "自然"
+           }
+          },
+          {
+           "surface": "al",
+           "type": "suffix",
+           "meaning": "relating to",
+           "translations": {
+            "fa": "وابسته به",
+            "am": "ተያያዥ",
+            "ar": "متعلق بـ",
+            "es": "relativo a",
+            "fr": "relatif à",
+            "hi": "संबंधी",
+            "ja": "～の",
+            "ko": "관련된",
+            "ml": "ബന്ധപ്പെട്ട",
+            "ps": "اړوند",
+            "ro": "legat de",
+            "ru": "относящийся к",
+            "ta": "தொடர்பான",
+            "tl": "may kaugnayan sa",
+            "ur": "متعلق",
+            "vi": "thuộc về",
+            "zh-Hans": "……的",
+            "zh-Hant": "……的"
+           }
+          }
+         ],
+         "root": "natur",
+         "meaning": "Beyond what nature can explain; ghostly.",
+         "example": "This means that the Hound of the Baskervilles is not a supernatural being but a real dog.",
+         "translations": {}
+        },
+        {
+         "word": "conversation",
+         "parts": [
+          {
+           "surface": "con",
+           "type": "prefix",
+           "meaning": "together",
+           "translations": {
+            "am": "አብሮ",
+            "ar": "معًا",
+            "es": "juntos",
+            "fa": "باهم",
+            "fr": "ensemble",
+            "hi": "साथ",
+            "ja": "共に",
+            "ko": "함께",
+            "ml": "ഒരുമിച്ച്",
+            "ps": "يوځای",
+            "ro": "împreună",
+            "ru": "вместе",
+            "ta": "ஒன்றாக",
+            "tl": "magkasama",
+            "ur": "اکٹھا",
+            "vi": "cùng",
+            "zh-Hans": "共同",
+            "zh-Hant": "共同",
+            "other": "باهم"
+           }
+          },
+          {
+           "surface": "vers",
+           "type": "root",
+           "meaning": "turn",
+           "translations": {
+            "am": "መዞር",
+            "ar": "دوران",
+            "es": "girar",
+            "fa": "چرخش",
+            "fr": "tourner",
+            "hi": "मुड़ना",
+            "ja": "回転",
+            "ko": "회전",
+            "ml": "തിരിയുക",
+            "ps": "ګرځېدل",
+            "ro": "a întoarce",
+            "ru": "поворот",
+            "ta": "திரும்புதல்",
+            "tl": "ikot",
+            "ur": "مڑنا",
+            "vi": "xoay",
+            "zh-Hans": "转",
+            "zh-Hant": "轉"
+           }
+          },
+          {
+           "surface": "ation",
+           "type": "suffix",
+           "meaning": "process of",
+           "translations": {
+            "am": "ሂደት",
+            "ar": "عملية",
+            "es": "proceso de",
+            "fa": "فرآیند",
+            "fr": "processus",
+            "hi": "प्रक्रिया",
+            "ja": "過程",
+            "ko": "과정",
+            "ml": "പ്രക്രിയ",
+            "ps": "پروسه",
+            "ro": "proces",
+            "ru": "процесс",
+            "ta": "செயல்முறை",
+            "tl": "proseso",
+            "ur": "عمل",
+            "vi": "quá trình",
+            "zh-Hans": "过程",
+            "zh-Hant": "過程"
+           }
+          }
+         ],
+         "root": "vers",
+         "meaning": "Talk between two or more people.",
+         "example": "I find it hard to have a conversation with people I don't know.",
+         "translations": {}
+        },
+        {
+         "word": "homesick",
+         "parts": [
+          {
+           "surface": "home",
+           "type": "root",
+           "meaning": "home",
+           "translations": {}
+          },
+          {
+           "surface": "sick",
+           "type": "root",
+           "meaning": "ill",
+           "translations": {}
+          }
+         ],
+         "root": "home",
+         "meaning": "Sad because you are away from home.",
+         "example": "You have to be someone who would like being on their own in a tiny spacecraft thousands of miles away, and not get homesick.",
+         "translations": {}
+        }
+       ],
+       "path": "year-9/english/curious-incident-ch-79-109"
+      },
+      {
+       "id": "curious-incident-ch-113-151",
+       "name": "The Curious Incident · Chapters 113 to 151",
+       "interactive": true,
+       "words": [
+        {
+         "word": "rhetorical",
+         "parts": [
+          {
+           "surface": "rhetor",
+           "type": "root",
+           "meaning": "public speaker",
+           "translations": {
+            "zh-Hans": "演说家",
+            "zh-Hant": "演說家",
+            "ja": "演説家",
+            "ko": "연설가",
+            "vi": "nhà hùng biện",
+            "ar": "خطيب",
+            "fa": "سخنور",
+            "ur": "خطیب",
+            "am": "ተናጋሪ",
+            "ml": "പ്രാസംഗികൻ",
+            "ta": "பேச்சாளர்",
+            "tl": "mananalumpati",
+            "ps": "وياند",
+            "ro": "orator",
+            "ru": "оратор",
+            "fr": "orateur",
+            "hi": "वक्ता",
+            "es": "orador"
+           }
+          },
+          {
+           "surface": "ical",
+           "type": "suffix",
+           "meaning": "relating to",
+           "translations": {
+            "fa": "مربوط به",
+            "am": "ተያያዥ",
+            "ar": "متعلّق بـ",
+            "es": "relativo a",
+            "fr": "relatif à",
+            "hi": "संबंधी",
+            "ja": "～の",
+            "ko": "관련된",
+            "ml": "ബന്ധപ്പെട്ട",
+            "ps": "اړوند",
+            "ro": "legat de",
+            "ru": "относящийся",
+            "ta": "தொடர்பான",
+            "tl": "kaugnay sa",
+            "ur": "متعلق",
+            "vi": "thuộc về",
+            "zh-Hans": "……的",
+            "zh-Hant": "……的"
+           }
+          }
+         ],
+         "root": "rhetor",
+         "meaning": "A question asked for effect, not for an answer.",
+         "example": "How stupid are you? This is what Siobhan says is called a rhetorical question.",
+         "translations": {}
+        },
+        {
+         "word": "hypothetical",
+         "parts": [
+          {
+           "surface": "hypo",
+           "type": "prefix",
+           "meaning": "under",
+           "translations": {
+            "am": "ከስር",
+            "ar": "تحت",
+            "es": "debajo",
+            "fa": "زیر",
+            "fr": "sous",
+            "hi": "नीचे",
+            "ja": "下に",
+            "ko": "아래",
+            "ml": "താഴെ",
+            "ps": "لاندې",
+            "ro": "sub",
+            "ru": "под",
+            "ta": "கீழ்",
+            "tl": "ilalim",
+            "ur": "نیچے",
+            "vi": "dưới",
+            "zh-Hans": "下",
+            "zh-Hant": "下"
+           }
+          },
+          {
+           "surface": "thet",
+           "type": "root",
+           "meaning": "place",
+           "translations": {
+            "am": "ማስቀመጥ፣ ሀሳብ",
+            "ar": "وضع، اقتراح",
+            "es": "colocación/proposición",
+            "fa": "قرار دادن، گزاره",
+            "fr": "placement, proposition",
+            "hi": "स्थापन, प्रस्ताव",
+            "ja": "置くこと、命題",
+            "ko": "놓기, 명제",
+            "ml": "സ്ഥാപിക്കൽ, നിർദ്ദേശം",
+            "ps": "ایښودل، وړاندیز",
+            "ro": "plasare, propoziție",
+            "ru": "размещение, утверждение",
+            "ta": "வைத்தல், கருத்து",
+            "tl": "paglalagay, panukala",
+            "ur": "رکھنا، تجویز",
+            "vi": "đặt, mệnh đề",
+            "zh-Hans": "放置、命题",
+            "zh-Hant": "放置、命題"
+           }
+          },
+          {
+           "surface": "ical",
+           "type": "suffix",
+           "meaning": "relating to",
+           "translations": {
+            "fa": "مربوط به",
+            "am": "ተያያዥ",
+            "ar": "متعلّق بـ",
+            "es": "relativo a",
+            "fr": "relatif à",
+            "hi": "संबंधी",
+            "ja": "～の",
+            "ko": "관련된",
+            "ml": "ബന്ധപ്പെട്ട",
+            "ps": "اړوند",
+            "ro": "legat de",
+            "ru": "относящийся",
+            "ta": "தொடர்பான",
+            "tl": "kaugnay sa",
+            "ur": "متعلق",
+            "vi": "thuộc về",
+            "zh-Hans": "……的",
+            "zh-Hant": "……的"
+           }
+          }
+         ],
+         "root": "thet",
+         "meaning": "Imagined as a possibility, not real.",
+         "example": "This graph is hypothetical. It doesn't show real frogs.",
+         "translations": {}
+        },
+        {
+         "word": "exposure",
+         "parts": [
+          {
+           "surface": "ex",
+           "type": "prefix",
+           "meaning": "out",
+           "translations": {
+            "am": "ውጭ",
+            "ar": "خارج",
+            "es": "fuera",
+            "fa": "بیرون",
+            "fr": "hors de",
+            "hi": "बाहर",
+            "ja": "外へ",
+            "ko": "밖으로",
+            "ml": "പുറത്തേക്ക്",
+            "ps": "بهر",
+            "ro": "afară",
+            "ru": "из",
+            "ta": "வெளியே",
+            "tl": "palabas",
+            "ur": "باہر",
+            "vi": "ra",
+            "zh-Hans": "向外",
+            "zh-Hant": "向外",
+            "other": "خارج"
+           }
+          },
+          {
+           "surface": "pos",
+           "type": "root",
+           "meaning": "place",
+           "translations": {
+            "fa": "قرار دادن",
+            "am": "ማስቀመጥ",
+            "ar": "يضع",
+            "es": "colocar",
+            "fr": "placer",
+            "hi": "रखना",
+            "ja": "置く",
+            "ko": "놓다",
+            "ml": "വയ്ക്കുക",
+            "ps": "ایښودل",
+            "ro": "a pune",
+            "ru": "помещать",
+            "ta": "வைத்தல்",
+            "tl": "maglagay",
+            "ur": "رکھنا",
+            "vi": "đặt",
+            "zh-Hans": "放置",
+            "zh-Hant": "放置",
+            "other": "قرار دادن"
+           }
+          },
+          {
+           "surface": "ure",
+           "type": "suffix",
+           "meaning": "result",
+           "translations": {
+            "am": "ውጤት",
+            "ar": "نتيجة",
+            "es": "resultado de",
+            "fa": "نتیجه",
+            "fr": "résultat",
+            "hi": "परिणाम",
+            "ja": "結果",
+            "ko": "결과",
+            "ml": "ഫലം",
+            "ps": "پایله",
+            "ro": "rezultat",
+            "ru": "результат",
+            "ta": "விளைவு",
+            "tl": "resulta",
+            "ur": "نتیجہ",
+            "vi": "kết quả",
+            "zh-Hans": "结果",
+            "zh-Hant": "結果",
+            "other": "構造"
+           }
+          }
+         ],
+         "root": "pos",
+         "meaning": "Being shown or uncovered; in a camera, letting light in.",
+         "example": "Harold Snelling, who was an expert in fake photography, said the figures showed movement during the exposure.",
+         "translations": {}
+        },
+        {
+         "word": "interrupted",
+         "parts": [
+          {
+           "surface": "inter",
+           "type": "prefix",
+           "meaning": "between",
+           "translations": {
+            "am": "በ…መካከል",
+            "ar": "بين",
+            "es": "entre",
+            "fa": "میان",
+            "fr": "entre",
+            "hi": "बीच में",
+            "ja": "間",
+            "ko": "사이",
+            "ml": "ഇടയിൽ",
+            "ps": "ترمنځ",
+            "ro": "între",
+            "ru": "между",
+            "ta": "இடையே",
+            "tl": "pagitan",
+            "ur": "درمیان",
+            "vi": "giữa",
+            "zh-Hans": "之间",
+            "zh-Hant": "之間"
+           }
+          },
+          {
+           "surface": "rupt",
+           "type": "root",
+           "meaning": "break",
+           "translations": {
+            "fa": "شکستن یا ترکیدن",
+            "am": "መስበር / መፈንዳት",
+            "ar": "يكسر / ينفجر",
+            "es": "romper / estallar",
+            "fr": "casser / éclater",
+            "hi": "तोड़ना / फटना",
+            "ja": "破る / 破裂する",
+            "ko": "부수다 / 터지다",
+            "ml": "പൊട്ടിക്കുക / പൊട്ടിത്തെറിക്കുക",
+            "ps": "ماتول / چاودل",
+            "ro": "a rupe / a exploda",
+            "ru": "ломать / разрывать",
+            "ta": "உடைத்தல் / வெடித்தல்",
+            "tl": "masira / sumabog",
+            "ur": "توڑنا / پھٹنا",
+            "vi": "làm vỡ / nổ tung",
+            "zh-Hans": "打破 / 爆裂",
+            "zh-Hant": "打破 / 爆裂"
+           }
+          },
+          {
+           "surface": "ed",
+           "type": "suffix",
+           "meaning": "past",
+           "translations": {
+            "am": "(ያለፈ ጊዜ)",
+            "ar": "(صيغة الماضي)",
+            "es": "(tiempo pasado)",
+            "fa": "(زمان گذشته)",
+            "fr": "(passé)",
+            "hi": "(भूतकाल)",
+            "ja": "(過去形)",
+            "ko": "(과거형)",
+            "ml": "(ഭൂതകാലം)",
+            "ps": "(تېر مهال)",
+            "ro": "(timpul trecut)",
+            "ru": "(прошедшее время)",
+            "ta": "(இறந்த காலம்)",
+            "tl": "(nakaraang panahunan)",
+            "ur": "(ماضی کا صیغہ)",
+            "vi": "(thì quá khứ)",
+            "zh-Hans": "(过去式)",
+            "zh-Hant": "(過去式)"
+           }
+          }
+         ],
+         "root": "rupt",
+         "meaning": "Stopped someone in the middle of speaking.",
+         "example": "But Father interrupted me and said, 'Don't give me that.'",
+         "translations": {}
+        },
+        {
+         "word": "frightened",
+         "parts": [
+          {
+           "surface": "fright",
+           "type": "root",
+           "meaning": "fear",
+           "translations": {}
+          },
+          {
+           "surface": "en",
+           "type": "suffix",
+           "meaning": "to make",
+           "translations": {
+            "am": "ማድረግ",
+            "ar": "جعل",
+            "es": "hacer",
+            "fa": "ساختن",
+            "fr": "rendre",
+            "hi": "बनाना",
+            "ja": "化する",
+            "ko": "화하다",
+            "ml": "ആക്കുക",
+            "ps": "جوړول",
+            "ro": "a face",
+            "ru": "делать",
+            "ta": "ஆக்குதல்",
+            "tl": "gawin",
+            "ur": "بنانا",
+            "vi": "làm cho",
+            "zh-Hans": "使成為 / 使成为",
+            "zh-Hant": "使成為 / 使成爲"
+           }
+          },
+          {
+           "surface": "ed",
+           "type": "suffix",
+           "meaning": "past",
+           "translations": {
+            "am": "(ያለፈ ጊዜ)",
+            "ar": "(صيغة الماضي)",
+            "es": "(tiempo pasado)",
+            "fa": "(زمان گذشته)",
+            "fr": "(passé)",
+            "hi": "(भूतकाल)",
+            "ja": "(過去形)",
+            "ko": "(과거형)",
+            "ml": "(ഭൂതകാലം)",
+            "ps": "(تېر مهال)",
+            "ro": "(timpul trecut)",
+            "ru": "(прошедшее время)",
+            "ta": "(இறந்த காலம்)",
+            "tl": "(nakaraang panahunan)",
+            "ur": "(ماضی کا صیغہ)",
+            "vi": "(thì quá khứ)",
+            "zh-Hans": "(过去式)",
+            "zh-Hant": "(過去式)"
+           }
+          }
+         ],
+         "root": "fright",
+         "meaning": "Afraid.",
+         "example": "And Siobhan asked if I was frightened about going home, and I said I wasn't.",
+         "translations": {}
+        },
+        {
+         "word": "discovered",
+         "parts": [
+          {
+           "surface": "dis",
+           "type": "prefix",
+           "meaning": "apart",
+           "translations": {
+            "fa": "جدا/نفی",
+            "am": "መለያየት/አይ",
+            "ar": "غير",
+            "es": "aparte/no",
+            "fr": "séparé/non",
+            "hi": "अलग/नहीं",
+            "ja": "分離",
+            "ko": "분리/부정",
+            "ml": "വേർപെട്ട്/അല്ല",
+            "ps": "بېل",
+            "ro": "des",
+            "ru": "раздельно/не",
+            "ta": "பிரி/இல்லை",
+            "tl": "hiwalay/hindi",
+            "ur": "الگ/نہیں",
+            "vi": "tách/không",
+            "zh-Hans": "分开",
+            "zh-Hant": "分開",
+            "other": "دو"
+           }
+          },
+          {
+           "surface": "cover",
+           "type": "root",
+           "meaning": "cover",
+           "translations": {}
+          },
+          {
+           "surface": "ed",
+           "type": "suffix",
+           "meaning": "past",
+           "translations": {
+            "am": "(ያለፈ ጊዜ)",
+            "ar": "(صيغة الماضي)",
+            "es": "(tiempo pasado)",
+            "fa": "(زمان گذشته)",
+            "fr": "(passé)",
+            "hi": "(भूतकाल)",
+            "ja": "(過去形)",
+            "ko": "(과거형)",
+            "ml": "(ഭൂതകാലം)",
+            "ps": "(تېر مهال)",
+            "ro": "(timpul trecut)",
+            "ru": "(прошедшее время)",
+            "ta": "(இறந்த காலம்)",
+            "tl": "(nakaraang panahunan)",
+            "ur": "(ماضی کا صیغہ)",
+            "vi": "(thì quá khứ)",
+            "zh-Hans": "(过去式)",
+            "zh-Hant": "(過去式)"
+           }
+          }
+         ],
+         "root": "cover",
+         "meaning": "Found out something that was hidden.",
+         "example": "My book was where I had kept all the clues that I had discovered.",
+         "translations": {}
+        },
+        {
+         "word": "population",
+         "parts": [
+          {
+           "surface": "popul",
+           "type": "root",
+           "meaning": "people",
+           "translations": {
+            "am": "ህዝብ",
+            "ar": "الشعب",
+            "es": "el pueblo",
+            "fa": "مردم",
+            "fr": "le peuple",
+            "hi": "जनता",
+            "ja": "人々",
+            "ko": "민중",
+            "ml": "ജനങ്ങൾ",
+            "ps": "خلک",
+            "ro": "poporul",
+            "ru": "народ",
+            "ta": "மக்கள்",
+            "tl": "ang mamamayan",
+            "ur": "عوام",
+            "vi": "nhân dân",
+            "zh-Hans": "人民",
+            "zh-Hant": "人民"
+           }
+          },
+          {
+           "surface": "ation",
+           "type": "suffix",
+           "meaning": "process of",
+           "translations": {
+            "am": "ሂደት",
+            "ar": "عملية",
+            "es": "proceso de",
+            "fa": "فرآیند",
+            "fr": "processus",
+            "hi": "प्रक्रिया",
+            "ja": "過程",
+            "ko": "과정",
+            "ml": "പ്രക്രിയ",
+            "ps": "پروسه",
+            "ro": "proces",
+            "ru": "процесс",
+            "ta": "செயல்முறை",
+            "tl": "proseso",
+            "ur": "عمل",
+            "vi": "quá trình",
+            "zh-Hans": "过程",
+            "zh-Hant": "過程"
+           }
+          }
+         ],
+         "root": "popul",
+         "meaning": "All the animals or people living in a place.",
+         "example": "Here is a formula for a population of animals.",
+         "translations": {}
+        },
+        {
+         "word": "mysteries",
+         "parts": [
+          {
+           "surface": "myster",
+           "type": "root",
+           "meaning": "secret",
+           "translations": {}
+          },
+          {
+           "surface": "ies",
+           "type": "suffix",
+           "meaning": "plural",
+           "translations": {
+            "am": "ብዙ ቁጥር",
+            "ar": "جمع",
+            "es": "plural",
+            "fa": "جمع",
+            "fr": "pluriel",
+            "hi": "बहुवचन",
+            "ja": "複数",
+            "ko": "복수",
+            "ml": "ബഹുവചനം",
+            "ps": "جمع",
+            "ro": "plural",
+            "ru": "множественное число",
+            "ta": "பன்மை",
+            "tl": "maramihan",
+            "ur": "جمع",
+            "vi": "số nhiều",
+            "zh-Hans": "复数",
+            "zh-Hant": "複數"
+           }
+          }
+         ],
+         "root": "myster",
+         "meaning": "Things that cannot be explained yet.",
+         "example": "Lots of things are mysteries. But that doesn't mean there isn't an answer to them.",
+         "translations": {}
+        }
+       ],
+       "path": "year-9/english/curious-incident-ch-113-151"
+      },
+      {
+       "id": "curious-incident-ch-157-179",
+       "name": "The Curious Incident · Chapters 157 to 179",
+       "interactive": true,
+       "words": [
+        {
+         "word": "homunculus",
+         "parts": [
+          {
+           "surface": "homun",
+           "type": "root",
+           "meaning": "man",
+           "translations": {}
+          },
+          {
+           "surface": "culus",
+           "type": "suffix",
+           "meaning": "small",
+           "translations": {}
+          }
+         ],
+         "root": "homun",
+         "meaning": "A little person; the imagined 'self' inside the head.",
+         "example": "They think that this person is their special human mind, which is called a homunculus, which means a little man.",
+         "translations": {}
+        },
+        {
+         "word": "decision",
+         "parts": [
+          {
+           "surface": "de",
+           "type": "prefix",
+           "meaning": "down/away",
+           "translations": {
+            "am": "ወደ ታች",
+            "ar": "أسفل",
+            "es": "abajo/lejos",
+            "fa": "پایین",
+            "fr": "vers le bas",
+            "hi": "नीचे",
+            "ja": "下方へ",
+            "ko": "아래로",
+            "ml": "താഴേക്ക്",
+            "ps": "ښکته / لرې",
+            "ro": "în jos",
+            "ru": "вниз",
+            "ta": "கீழே",
+            "tl": "pababa",
+            "ur": "نیچے",
+            "vi": "giảm/ra khỏi",
+            "zh-Hans": "向下；去除",
+            "zh-Hant": "向下；去除"
+           }
+          },
+          {
+           "surface": "cis",
+           "type": "root",
+           "meaning": "cut",
+           "translations": {
+            "am": "መቁረጥ",
+            "ar": "قطع",
+            "es": "cortar",
+            "fa": "بریدن",
+            "fr": "couper",
+            "hi": "काटना",
+            "ja": "切る",
+            "ko": "자르다",
+            "ml": "മുറിക്കുക",
+            "ps": "پرې کول",
+            "ro": "a tăia",
+            "ru": "резать",
+            "ta": "வெட்டு",
+            "tl": "putol",
+            "ur": "کاٹنا",
+            "vi": "cắt",
+            "zh-Hans": "切，割",
+            "zh-Hant": "切，割"
+           }
+          },
+          {
+           "surface": "ion",
+           "type": "suffix",
+           "meaning": "act/process",
+           "translations": {
+            "fa": "فرایند/عمل",
+            "am": "ሂደት/ድርጊት",
+            "ar": "عملية/فعل",
+            "es": "proceso/acción",
+            "fr": "processus/action",
+            "hi": "प्रक्रिया/क्रिया",
+            "ja": "過程/作用",
+            "ko": "과정/작용",
+            "ml": "പ്രക്രിയ/പ്രവർത്തനം",
+            "ps": "بهیر/کړنه",
+            "ro": "proces/acțiune",
+            "ru": "процесс/действие",
+            "ta": "செயல்முறை/செயல்",
+            "tl": "proseso/kilos",
+            "ur": "عمل/فعل",
+            "vi": "quá trình/hành động",
+            "zh-Hans": "过程/动作",
+            "zh-Hant": "過程/動作"
+           }
+          }
+         ],
+         "root": "cis",
+         "meaning": "A choice made after thinking.",
+         "example": "I did this by thinking of all the things I could do and deciding whether they were the right decision or not.",
+         "translations": {}
+        },
+        {
+         "word": "experiment",
+         "parts": [
+          {
+           "surface": "ex",
+           "type": "prefix",
+           "meaning": "out",
+           "translations": {
+            "am": "ውጭ",
+            "ar": "خارج",
+            "es": "fuera",
+            "fa": "بیرون",
+            "fr": "hors de",
+            "hi": "बाहर",
+            "ja": "外へ",
+            "ko": "밖으로",
+            "ml": "പുറത്തേക്ക്",
+            "ps": "بهر",
+            "ro": "afară",
+            "ru": "из",
+            "ta": "வெளியே",
+            "tl": "palabas",
+            "ur": "باہر",
+            "vi": "ra",
+            "zh-Hans": "向外",
+            "zh-Hant": "向外",
+            "other": "خارج"
+           }
+          },
+          {
+           "surface": "peri",
+           "type": "root",
+           "meaning": "to try/attempt",
+           "translations": {
+            "zh-Hans": "尝试",
+            "zh-Hant": "嘗試",
+            "ja": "試みる",
+            "ko": "시도하다",
+            "vi": "cố gắng/thử",
+            "ar": "يحاول",
+            "fa": "تلاش کردن",
+            "ur": "کوشش کرنا",
+            "am": "መሞከር",
+            "ml": "ശ്രമിക്കുക",
+            "ta": "முயற்சி செய்தல்",
+            "tl": "subukan",
+            "ps": "هڅه کول",
+            "ro": "a încerca",
+            "ru": "пытаться",
+            "fr": "essayer",
+            "hi": "प्रयास करना",
+            "es": "intentar"
+           }
+          },
+          {
+           "surface": "ment",
+           "type": "suffix",
+           "meaning": "result of",
+           "translations": {
+            "am": "ውጤት",
+            "ar": "نتيجة",
+            "es": "resultado de",
+            "fa": "نتیجه",
+            "fr": "résultat de",
+            "hi": "परिणाम",
+            "ja": "結果",
+            "ko": "결과",
+            "ml": "ഫലം",
+            "ps": "پایله",
+            "ro": "rezultat",
+            "ru": "результат",
+            "ta": "விளைவு",
+            "tl": "resulta",
+            "ur": "نتیجہ",
+            "vi": "kết quả",
+            "zh-Hans": "结果",
+            "zh-Hant": "結果"
+           }
+          }
+         ],
+         "root": "peri",
+         "meaning": "A test done to find something out.",
+         "example": "You can tell this because of an experiment which I saw on TV in a series called How the Mind Works.",
+         "translations": {}
+        },
+        {
+         "word": "complicated",
+         "parts": [
+          {
+           "surface": "com",
+           "type": "prefix",
+           "meaning": "together",
+           "translations": {
+            "am": "አብሮ",
+            "ar": "معًا",
+            "es": "juntos",
+            "fa": "باهم",
+            "fr": "ensemble",
+            "hi": "साथ",
+            "ja": "共に",
+            "ko": "함께",
+            "ml": "ഒരുമിച്ച്",
+            "ps": "يوځای",
+            "ro": "împreună",
+            "ru": "вместе",
+            "ta": "ஒன்றாக",
+            "tl": "magkasama",
+            "ur": "اکٹھا",
+            "vi": "cùng",
+            "zh-Hans": "共同",
+            "zh-Hant": "共同",
+            "other": "باهم"
+           }
+          },
+          {
+           "surface": "plic",
+           "type": "root",
+           "meaning": "fold",
+           "translations": {
+            "zh-Hans": "牵涉；包含",
+            "zh-Hant": "牽涉；包含",
+            "am": "ማጠፍ/ማካተት",
+            "ar": "طي/تضمين",
+            "es": "doblar/implicar",
+            "fa": "تا کردن/شامل کردن",
+            "fr": "plier/impliquer",
+            "hi": "मोड़ना/शामिल करना",
+            "ja": "折る/含む",
+            "ko": "접다/포함하다",
+            "ml": "മടക്കുക/ഉൾപ്പെടുത്തുക",
+            "ps": "تاؤ/ښکېلول",
+            "ro": "a plia/a implica",
+            "ru": "сгибать/вовлекать",
+            "ta": "மடிப்பு/உள்ளடக்கு",
+            "tl": "tiklop/isama",
+            "ur": "تہہ کرنا/شامل کرنا",
+            "vi": "liên quan",
+            "other": "برابر"
+           }
+          },
+          {
+           "surface": "ate",
+           "type": "suffix",
+           "meaning": "to make/do",
+           "translations": {
+            "am": "ማድረግ",
+            "ar": "جعل",
+            "es": "tener/hacer",
+            "fa": "ساختن",
+            "fr": "rendre",
+            "hi": "बनाना",
+            "ja": "〜化する",
+            "ko": "만들다",
+            "ml": "ഉണ്ടാക്കുക",
+            "ps": "لرونکی/جوړونکی",
+            "ro": "a face",
+            "ru": "делать",
+            "ta": "செய்தல்",
+            "tl": "gumawa",
+            "ur": "بنانا",
+            "vi": "làm",
+            "zh-Hans": "使…化",
+            "zh-Hant": "使…化"
+           }
+          },
+          {
+           "surface": "ed",
+           "type": "suffix",
+           "meaning": "past",
+           "translations": {
+            "am": "(ያለፈ ጊዜ)",
+            "ar": "(صيغة الماضي)",
+            "es": "(tiempo pasado)",
+            "fa": "(زمان گذشته)",
+            "fr": "(passé)",
+            "hi": "(भूतकाल)",
+            "ja": "(過去形)",
+            "ko": "(과거형)",
+            "ml": "(ഭൂതകാലം)",
+            "ps": "(تېر مهال)",
+            "ro": "(timpul trecut)",
+            "ru": "(прошедшее время)",
+            "ta": "(இறந்த காலம்)",
+            "tl": "(nakaraang panahunan)",
+            "ur": "(ماضی کا صیغہ)",
+            "vi": "(thì quá khứ)",
+            "zh-Hans": "(过去式)",
+            "zh-Hant": "(過去式)"
+           }
+          }
+         ],
+         "root": "plic",
+         "meaning": "Made of many parts; hard to understand.",
+         "example": "But the mind is just a complicated machine.",
+         "translations": {}
+        },
+        {
+         "word": "emergency",
+         "parts": [
+          {
+           "surface": "e",
+           "type": "prefix",
+           "meaning": "out",
+           "translations": {
+            "am": "ውጭ",
+            "ar": "خارج",
+            "es": "fuera",
+            "fa": "بیرون",
+            "fr": "hors de",
+            "hi": "बाहर",
+            "ja": "外へ",
+            "ko": "밖으로",
+            "ml": "പുറത്തേക്ക്",
+            "ps": "بهر",
+            "ro": "afară",
+            "ru": "из",
+            "ta": "வெளியே",
+            "tl": "palabas",
+            "ur": "باہر",
+            "vi": "ra",
+            "zh-Hans": "向外",
+            "zh-Hant": "向外",
+            "other": "خارج"
+           }
+          },
+          {
+           "surface": "merg",
+           "type": "root",
+           "meaning": "come up/rise",
+           "translations": {
+            "am": "መውጣት",
+            "ar": "بروز",
+            "es": "surgir",
+            "fa": "پدیدار شدن",
+            "fr": "émerger",
+            "hi": "उभरना",
+            "ja": "出現",
+            "ko": "출현",
+            "ml": "ഉയർന്നുവരൽ",
+            "ps": "راپورته کېدل",
+            "ro": "a emerge",
+            "ru": "возникать",
+            "ta": "வெளிப்படுதல்",
+            "tl": "lumitaw",
+            "ur": "نمودار ہونا",
+            "vi": "nổi lên",
+            "zh-Hans": "出现",
+            "zh-Hant": "出現"
+           }
+          },
+          {
+           "surface": "ency",
+           "type": "suffix",
+           "meaning": "state of",
+           "translations": {
+            "am": "ሁኔታ",
+            "ar": "حالة",
+            "es": "estado de",
+            "fa": "حالت",
+            "fr": "état de",
+            "hi": "स्थिति",
+            "ja": "状態",
+            "ko": "상태",
+            "ml": "അവസ്ഥ",
+            "ps": "حالت",
+            "ro": "stare de",
+            "ru": "состояние",
+            "ta": "நிலை",
+            "tl": "kalagayan",
+            "ur": "حالت",
+            "vi": "trạng thái",
+            "zh-Hans": "状态",
+            "zh-Hant": "狀態"
+           }
+          }
+         ],
+         "root": "merg",
+         "meaning": "A sudden danger that needs action now.",
+         "example": "Father got a phone call from a lady whose cellar had flooded and he had to go out and fix it because it was an emergency.",
+         "translations": {}
+        },
+        {
+         "word": "eventually",
+         "parts": [
+          {
+           "surface": "event",
+           "type": "root",
+           "meaning": "outcome",
+           "translations": {}
+          },
+          {
+           "surface": "ual",
+           "type": "suffix",
+           "meaning": "relating to",
+           "translations": {
+            "am": "ተያያዥ",
+            "ar": "متعلق بـ",
+            "es": "relativo a",
+            "fa": "مربوط به",
+            "fr": "relatif à",
+            "hi": "से संबंधित",
+            "ja": "〜に関する",
+            "ko": "관련된",
+            "ml": "ബന്ധപ്പെട്ട",
+            "ps": "پورې اړوند",
+            "ro": "referitor la",
+            "ru": "относящийся к",
+            "ta": "தொடர்புடைய",
+            "tl": "may kaugnayan sa",
+            "ur": "متعلق",
+            "vi": "liên quan đến",
+            "zh-Hans": "有關的 / 有关的",
+            "zh-Hant": "有關的"
+           }
+          },
+          {
+           "surface": "ly",
+           "type": "suffix",
+           "meaning": "in the manner of",
+           "translations": {
+            "zh-Hans": "以这种方式",
+            "ja": "〜のように",
+            "fa": "به این شیوه",
+            "vi": "theo cách này",
+            "zh-Hant": "以這種方式",
+            "am": "በ… መንገድ",
+            "ar": "بطريقة",
+            "es": "manera",
+            "fr": "de manière",
+            "hi": "तरीके से",
+            "ko": "~하게",
+            "ml": "വിധത്തിൽ",
+            "ps": "په … توګه",
+            "ro": "în mod",
+            "ru": "образом",
+            "ta": "விதமாக",
+            "tl": "sa paraang",
+            "ur": "طریقے سے"
+           }
+          }
+         ],
+         "root": "event",
+         "meaning": "In the end, after a long time.",
+         "example": "Eventually he got really cross and he told me I was being stupid.",
+         "translations": {}
+        },
+        {
+         "word": "impossible",
+         "parts": [
+          {
+           "surface": "im",
+           "type": "prefix",
+           "meaning": "not",
+           "translations": {
+            "am": "ያልሆነ",
+            "ar": "غير",
+            "es": "no / opuesto",
+            "fa": "غیر",
+            "fr": "non",
+            "hi": "अ-",
+            "ja": "不",
+            "ko": "비-",
+            "ml": "അല്ലാത്ത",
+            "ps": "نه",
+            "ro": "ne-",
+            "ru": "не-",
+            "ta": "இல்லாத",
+            "tl": "hindi",
+            "ur": "غیر",
+            "vi": "không",
+            "zh-Hans": "不/非",
+            "zh-Hant": "不/非",
+            "other": "نه"
+           }
+          },
+          {
+           "surface": "poss",
+           "type": "root",
+           "meaning": "able/power",
+           "translations": {
+            "am": "መቻል/ኃይል",
+            "ar": "قادر/قوة",
+            "es": "capaz / poder",
+            "fa": "توانا/قدرت",
+            "fr": "capable/pouvoir",
+            "hi": "सक्षम/शक्ति",
+            "ja": "可能/力",
+            "ko": "가능한/힘",
+            "ml": "കഴിയുന്ന/ശക്തി",
+            "ps": "وړ/ځواک",
+            "ro": "capabil/putere",
+            "ru": "способный/сила",
+            "ta": "முடியும்/சக்தி",
+            "tl": "kaya/kapangyarihan",
+            "ur": "قادر/طاقت",
+            "vi": "có thể/sức mạnh",
+            "zh-Hans": "能够/力量",
+            "zh-Hant": "能夠/力量"
+           }
+          },
+          {
+           "surface": "ible",
+           "type": "suffix",
+           "meaning": "able to be",
+           "translations": {
+            "vi": "có thể được",
+            "am": "ሊሆን የሚችል",
+            "ar": "قابل لأن يكون",
+            "es": "que puede ser",
+            "fa": "قابل بودن",
+            "fr": "pouvant être",
+            "hi": "होने योग्य",
+            "ja": "〜できる",
+            "ko": "~할 수 있는",
+            "ml": "ആകാൻ കഴിയുന്ന",
+            "ps": "کیدای شي",
+            "ro": "care poate fi",
+            "ru": "способный быть",
+            "ta": "முடியும்",
+            "tl": "maaaring",
+            "ur": "قابل ہونا",
+            "zh-Hans": "能够的",
+            "zh-Hant": "能夠的",
+            "other": "قابل"
+           }
+          }
+         ],
+         "root": "poss",
+         "meaning": "Not able to happen or be done.",
+         "example": "Sometimes it's impossible.",
+         "translations": {}
+        },
+        {
+         "word": "constellation",
+         "parts": [
+          {
+           "surface": "con",
+           "type": "prefix",
+           "meaning": "together",
+           "translations": {
+            "am": "አብሮ",
+            "ar": "معًا",
+            "es": "juntos",
+            "fa": "باهم",
+            "fr": "ensemble",
+            "hi": "साथ",
+            "ja": "共に",
+            "ko": "함께",
+            "ml": "ഒരുമിച്ച്",
+            "ps": "يوځای",
+            "ro": "împreună",
+            "ru": "вместе",
+            "ta": "ஒன்றாக",
+            "tl": "magkasama",
+            "ur": "اکٹھا",
+            "vi": "cùng",
+            "zh-Hans": "共同",
+            "zh-Hant": "共同",
+            "other": "باهم"
+           }
+          },
+          {
+           "surface": "stella",
+           "type": "root",
+           "meaning": "star",
+           "translations": {}
+          },
+          {
+           "surface": "tion",
+           "type": "suffix",
+           "meaning": "act/process",
+           "translations": {
+            "am": "ተግባር",
+            "ar": "فعل",
+            "es": "acción de",
+            "fa": "عمل",
+            "fr": "action de",
+            "hi": "क्रिया",
+            "ja": "〜すること",
+            "ko": "행위",
+            "ml": "പ്രവൃത്തി",
+            "ps": "عمل",
+            "ro": "acțiune de",
+            "ru": "действие",
+            "ta": "செயல்",
+            "tl": "kilos ng",
+            "ur": "عمل",
+            "vi": "hành động",
+            "zh-Hans": "行为",
+            "zh-Hant": "行為"
+           }
+          }
+         ],
+         "root": "stella",
+         "meaning": "A group of stars that makes a shape.",
+         "example": "I could see the constellation Orion.",
+         "translations": {}
+        }
+       ],
+       "path": "year-9/english/curious-incident-ch-157-179"
+      },
+      {
+       "id": "curious-incident-ch-181-199",
+       "name": "The Curious Incident · Chapters 181 to 199",
+       "interactive": true,
+       "words": [
+        {
+         "word": "timetable",
+         "parts": [
+          {
+           "surface": "time",
+           "type": "root",
+           "meaning": "time",
+           "translations": {
+            "zh-Hans": "时间",
+            "zh-Hant": "時間",
+            "am": "ጊዜ",
+            "ar": "وقت",
+            "es": "tiempo",
+            "fa": "زمان",
+            "fr": "temps",
+            "hi": "समय",
+            "ja": "時間",
+            "ko": "시간",
+            "ml": "സമയം",
+            "ps": "وخت",
+            "ro": "timp",
+            "ru": "время",
+            "ta": "நேரம்",
+            "tl": "oras",
+            "ur": "وقت",
+            "vi": "thời gian"
+           }
+          },
+          {
+           "surface": "table",
+           "type": "root",
+           "meaning": "list",
+           "translations": {}
+          }
+         ],
+         "root": "time",
+         "meaning": "A list of when things happen.",
+         "example": "When I used to play with my train set I made a train timetable because I liked timetables.",
+         "translations": {}
+        },
+        {
+         "word": "relationship",
+         "parts": [
+          {
+           "surface": "relat",
+           "type": "root",
+           "meaning": "relate/bring back",
+           "translations": {
+            "am": "ማገናኘት",
+            "ar": "ربط",
+            "es": "relacionar",
+            "fa": "ارتباط",
+            "fr": "relier",
+            "hi": "जोड़ना",
+            "ja": "関連",
+            "ko": "관련",
+            "ml": "ബന്ധിപ്പിക്കുക",
+            "ps": "اړیکه",
+            "ro": "a lega",
+            "ru": "связывать",
+            "ta": "தொடர்பு",
+            "tl": "iugnay",
+            "ur": "جوڑنا",
+            "vi": "liên hệ",
+            "zh-Hans": "联系",
+            "zh-Hant": "聯繫"
+           }
+          },
+          {
+           "surface": "ion",
+           "type": "suffix",
+           "meaning": "act/process",
+           "translations": {
+            "fa": "فرایند/عمل",
+            "am": "ሂደት/ድርጊት",
+            "ar": "عملية/فعل",
+            "es": "proceso/acción",
+            "fr": "processus/action",
+            "hi": "प्रक्रिया/क्रिया",
+            "ja": "過程/作用",
+            "ko": "과정/작용",
+            "ml": "പ്രക്രിയ/പ്രവർത്തനം",
+            "ps": "بهیر/کړنه",
+            "ro": "proces/acțiune",
+            "ru": "процесс/действие",
+            "ta": "செயல்முறை/செயல்",
+            "tl": "proseso/kilos",
+            "ur": "عمل/فعل",
+            "vi": "quá trình/hành động",
+            "zh-Hans": "过程/动作",
+            "zh-Hant": "過程/動作"
+           }
+          },
+          {
+           "surface": "ship",
+           "type": "suffix",
+           "meaning": "state/condition",
+           "translations": {
+            "vi": "mối quan hệ",
+            "am": "ሁኔታ",
+            "ar": "حالة",
+            "es": "estado / condición",
+            "fa": "وضعیت",
+            "fr": "état",
+            "hi": "अवस्था",
+            "ja": "状態",
+            "ko": "상태",
+            "ml": "അവസ്ഥ",
+            "ps": "حالت",
+            "ro": "stare",
+            "ru": "состояние",
+            "ta": "நிலை",
+            "tl": "kalagayan",
+            "ur": "حالت",
+            "zh-Hans": "状态",
+            "zh-Hant": "狀態"
+           }
+          }
+         ],
+         "root": "relat",
+         "meaning": "The way two things or people are connected.",
+         "example": "It isn't a fixed relationship like the relationship between our house and Mrs Shears's house.",
+         "translations": {}
+        },
+        {
+         "word": "approximation",
+         "parts": [
+          {
+           "surface": "ap",
+           "type": "prefix",
+           "meaning": "toward",
+           "translations": {
+            "am": "ወደ",
+            "ar": "نحو / إلى",
+            "es": "hacia",
+            "fa": "به",
+            "fr": "vers",
+            "hi": "की ओर",
+            "ja": "～へ",
+            "ko": "향하여",
+            "ml": "നേരെ",
+            "ps": "پر لور",
+            "ro": "spre",
+            "ru": "к",
+            "ta": "நோக்கி",
+            "tl": "patungo",
+            "ur": "کی طرف",
+            "vi": "hướng",
+            "zh-Hans": "向",
+            "zh-Hant": "向",
+            "other": "به"
+           }
+          },
+          {
+           "surface": "proxim",
+           "type": "root",
+           "meaning": "near",
+           "translations": {
+            "zh-Hans": "接近",
+            "zh-Hant": "接近",
+            "am": "ቅርብ",
+            "ar": "تقريب",
+            "es": "cerca",
+            "fa": "نزدیک",
+            "fr": "proche",
+            "hi": "निकट",
+            "ja": "近い",
+            "ko": "가까운",
+            "ml": "അടുത്ത്",
+            "ps": "نږدې",
+            "ro": "aproape",
+            "ru": "близкий",
+            "ta": "அருகில்",
+            "tl": "malapit",
+            "ur": "قریب",
+            "vi": "gần",
+            "other": "نزدیک"
+           }
+          },
+          {
+           "surface": "ation",
+           "type": "suffix",
+           "meaning": "process of",
+           "translations": {
+            "am": "ሂደት",
+            "ar": "عملية",
+            "es": "proceso de",
+            "fa": "فرآیند",
+            "fr": "processus",
+            "hi": "प्रक्रिया",
+            "ja": "過程",
+            "ko": "과정",
+            "ml": "പ്രക്രിയ",
+            "ps": "پروسه",
+            "ro": "proces",
+            "ru": "процесс",
+            "ta": "செயல்முறை",
+            "tl": "proseso",
+            "ur": "عمل",
+            "vi": "quá trình",
+            "zh-Hans": "过程",
+            "zh-Hant": "過程"
+           }
+          }
+         ],
+         "root": "proxim",
+         "meaning": "A rough version; close but not exact.",
+         "example": "But this is not a very accurate map. It is an approximation.",
+         "translations": {}
+        },
+        {
+         "word": "logician",
+         "parts": [
+          {
+           "surface": "logic",
+           "type": "root",
+           "meaning": "reason",
+           "translations": {}
+          },
+          {
+           "surface": "ian",
+           "type": "suffix",
+           "meaning": "a person who",
+           "translations": {
+            "am": "ባለሙያ",
+            "ar": "ممارس",
+            "es": "practicante",
+            "fa": "ممارس",
+            "fr": "praticien",
+            "hi": "अभ्यासी",
+            "ja": "実践者",
+            "ko": "실천자",
+            "ml": "പരിശീലകൻ",
+            "ps": "مشق کوونکی",
+            "ro": "practician",
+            "ru": "практик",
+            "ta": "பயிற்சியாளர்",
+            "tl": "praktisyoner",
+            "ur": "مشق کرنے والا",
+            "vi": "người thực hành",
+            "zh-Hans": "从事者",
+            "zh-Hant": "從事者"
+           }
+          }
+         ],
+         "root": "logic",
+         "meaning": "A person who studies reasoning.",
+         "example": "One of them is an economist and one of them is a logician and one of them is a mathematician.",
+         "translations": {}
+        },
+        {
+         "word": "arrested",
+         "parts": [
+          {
+           "surface": "ar",
+           "type": "prefix",
+           "meaning": "toward",
+           "translations": {
+            "am": "ወደ",
+            "ar": "نحو / إلى",
+            "es": "hacia",
+            "fa": "به",
+            "fr": "vers",
+            "hi": "की ओर",
+            "ja": "～へ",
+            "ko": "향하여",
+            "ml": "നേരെ",
+            "ps": "پر لور",
+            "ro": "spre",
+            "ru": "к",
+            "ta": "நோக்கி",
+            "tl": "patungo",
+            "ur": "کی طرف",
+            "vi": "hướng",
+            "zh-Hans": "向",
+            "zh-Hant": "向",
+            "other": "به"
+           }
+          },
+          {
+           "surface": "rest",
+           "type": "root",
+           "meaning": "rest",
+           "translations": {
+            "am": "ዕረፍት",
+            "ar": "سكون",
+            "es": "reposo",
+            "fa": "سکون",
+            "fr": "repos",
+            "hi": "विराम",
+            "ja": "静止",
+            "ko": "정지",
+            "ml": "വിശ്രമം",
+            "ps": "آرام",
+            "ro": "repaus",
+            "ru": "покой",
+            "ta": "ஓய்வு",
+            "tl": "pahinga",
+            "ur": "آرام",
+            "vi": "nghỉ",
+            "zh-Hans": "静止",
+            "zh-Hant": "靜止"
+           }
+          },
+          {
+           "surface": "ed",
+           "type": "suffix",
+           "meaning": "past",
+           "translations": {
+            "am": "(ያለፈ ጊዜ)",
+            "ar": "(صيغة الماضي)",
+            "es": "(tiempo pasado)",
+            "fa": "(زمان گذشته)",
+            "fr": "(passé)",
+            "hi": "(भूतकाल)",
+            "ja": "(過去形)",
+            "ko": "(과거형)",
+            "ml": "(ഭൂതകാലം)",
+            "ps": "(تېر مهال)",
+            "ro": "(timpul trecut)",
+            "ru": "(прошедшее время)",
+            "ta": "(இறந்த காலம்)",
+            "tl": "(nakaraang panahunan)",
+            "ur": "(ماضی کا صیغہ)",
+            "vi": "(thì quá khứ)",
+            "zh-Hans": "(过去式)",
+            "zh-Hant": "(過去式)"
+           }
+          }
+         ],
+         "root": "rest",
+         "meaning": "Taken by the police.",
+         "example": "He said, 'We've got your father at the police station.' And I thought he was going to say that they had arrested him.",
+         "translations": {}
+        },
+        {
+         "word": "horizontal",
+         "parts": [
+          {
+           "surface": "horizon",
+           "type": "root",
+           "meaning": "boundary line",
+           "translations": {
+            "zh-Hans": "边界线",
+            "zh-Hant": "邊界線",
+            "ja": "境界線",
+            "ko": "경계선",
+            "vi": "đường ranh giới",
+            "ar": "خط الحد",
+            "fa": "خط مرز",
+            "ur": "حد کی لکیر",
+            "am": "የወሰን መስመር",
+            "ml": "അതിർവര",
+            "ta": "எல்லைக்கோடு",
+            "tl": "hangganan",
+            "ps": "د پولې کرښه",
+            "ro": "linie de hotar",
+            "ru": "граница",
+            "fr": "ligne frontière",
+            "hi": "सीमा रेखा",
+            "es": "línea límite"
+           }
+          },
+          {
+           "surface": "al",
+           "type": "suffix",
+           "meaning": "relating to",
+           "translations": {
+            "fa": "وابسته به",
+            "am": "ተያያዥ",
+            "ar": "متعلق بـ",
+            "es": "relativo a",
+            "fr": "relatif à",
+            "hi": "संबंधी",
+            "ja": "～の",
+            "ko": "관련된",
+            "ml": "ബന്ധപ്പെട്ട",
+            "ps": "اړوند",
+            "ro": "legat de",
+            "ru": "относящийся к",
+            "ta": "தொடர்பான",
+            "tl": "may kaugnayan sa",
+            "ur": "متعلق",
+            "vi": "thuộc về",
+            "zh-Hans": "……的",
+            "zh-Hant": "……的"
+           }
+          }
+         ],
+         "root": "horizon",
+         "meaning": "Flat, side to side, like the horizon.",
+         "example": "Every square below the horizontal line has a soldier on it.",
+         "translations": {}
+        },
+        {
+         "word": "clarification",
+         "parts": [
+          {
+           "surface": "clar",
+           "type": "root",
+           "meaning": "clear",
+           "translations": {
+            "am": "ግልጽ",
+            "ar": "واضح",
+            "es": "claro",
+            "fa": "واضح",
+            "fr": "clair",
+            "hi": "स्पष्ट",
+            "ja": "明確",
+            "ko": "명확",
+            "ml": "വ്യക്തം",
+            "ps": "روښانه",
+            "ro": "clar",
+            "ru": "ясный",
+            "ta": "தெளிவு",
+            "tl": "malinaw",
+            "ur": "واضح",
+            "vi": "rõ ràng",
+            "zh-Hans": "清晰",
+            "zh-Hant": "清晰"
+           }
+          },
+          {
+           "surface": "ific",
+           "type": "suffix",
+           "meaning": "making",
+           "translations": {
+            "am": "ማድረግ",
+            "ar": "صانع، جاعل",
+            "es": "que hace",
+            "fa": "سازنده",
+            "fr": "qui fait",
+            "hi": "बनाने वाला",
+            "ja": "…にする、作る",
+            "ko": "만드는",
+            "ml": "ഉണ്ടാക്കുന്ന",
+            "ps": "جوړوونکی",
+            "ro": "care face",
+            "ru": "делающий",
+            "ta": "ஆக்குகிற, செய்கிற",
+            "tl": "gumagawa",
+            "ur": "بنانے والا",
+            "vi": "làm cho, tạo ra",
+            "zh-Hans": "使…的，制造的",
+            "zh-Hant": "使…的，製造的"
+           }
+          },
+          {
+           "surface": "ation",
+           "type": "suffix",
+           "meaning": "process of",
+           "translations": {
+            "am": "ሂደት",
+            "ar": "عملية",
+            "es": "proceso de",
+            "fa": "فرآیند",
+            "fr": "processus",
+            "hi": "प्रक्रिया",
+            "ja": "過程",
+            "ko": "과정",
+            "ml": "പ്രക്രിയ",
+            "ps": "پروسه",
+            "ro": "proces",
+            "ru": "процесс",
+            "ta": "செயல்முறை",
+            "tl": "proseso",
+            "ur": "عمل",
+            "vi": "quá trình",
+            "zh-Hans": "过程",
+            "zh-Hant": "過程"
+           }
+          }
+         ],
+         "root": "clar",
+         "meaning": "Making something clearer.",
+         "example": "It was not a lie, just a clarification.",
+         "translations": {}
+        },
+        {
+         "word": "protractor",
+         "parts": [
+          {
+           "surface": "pro",
+           "type": "prefix",
+           "meaning": "forward",
+           "translations": {
+            "am": "በፊት / ወደፊት",
+            "ar": "قبل / إلى الأمام",
+            "es": "antes / adelante",
+            "fa": "پیش / جلو",
+            "fr": "avant / en avant",
+            "hi": "पहले / आगे",
+            "ja": "前に / 前方へ",
+            "ko": "이전에 / 앞으로",
+            "ml": "മുമ്പ് / മുന്നോട്ട്",
+            "ps": "مخکې / وړاندې",
+            "ro": "înainte",
+            "ru": "перед / вперёд",
+            "ta": "முன் / முன்னோக்கி",
+            "tl": "bago / pasulong",
+            "ur": "پہلے / آگے",
+            "vi": "trước / về phía trước",
+            "zh-Hans": "在前 / 向前",
+            "zh-Hant": "在前 / 向前"
+           }
+          },
+          {
+           "surface": "tract",
+           "type": "root",
+           "meaning": "pull",
+           "translations": {
+            "am": "መሳብ",
+            "ar": "سحب",
+            "es": "tirar / jalar",
+            "fa": "کشیدن",
+            "fr": "tirer",
+            "hi": "खींचना",
+            "ja": "引く",
+            "ko": "당기다",
+            "ml": "വലിക്കുക",
+            "ps": "کشل",
+            "ro": "a trage",
+            "ru": "тянуть",
+            "ta": "இழுத்தல்",
+            "tl": "hilahin",
+            "ur": "کھینچنا",
+            "vi": "kéo",
+            "zh-Hans": "拉",
+            "zh-Hant": "拉"
+           }
+          },
+          {
+           "surface": "or",
+           "type": "suffix",
+           "meaning": "person/thing that",
+           "translations": {
+            "am": "የሚያደርግ",
+            "ar": "فاعل",
+            "es": "el que hace",
+            "fa": "انجام‌دهنده",
+            "fr": "celui qui fait",
+            "hi": "करने वाला",
+            "ja": "行う人・物",
+            "ko": "행하는 것",
+            "ml": "ചെയ്യുന്നയാൾ",
+            "ps": "کوونکی",
+            "ro": "cel care face",
+            "ru": "тот, кто делает",
+            "ta": "செய்பவர்",
+            "tl": "gumagawa",
+            "ur": "کرنے والا",
+            "vi": "người thực hiện",
+            "zh-Hans": "施动者",
+            "zh-Hant": "施動者",
+            "other": "کننده"
+           }
+          }
+         ],
+         "root": "tract",
+         "meaning": "A tool for measuring angles.",
+         "example": "When you put something down somewhere, like a protractor or a biscuit, you can have a map in your head.",
+         "translations": {}
+        }
+       ],
+       "path": "year-9/english/curious-incident-ch-181-199"
+      },
+      {
+       "id": "curious-incident-ch-211-233",
+       "name": "The Curious Incident · Chapters 211 to 233",
+       "interactive": true,
+       "words": [
+        {
+         "word": "invigilator",
+         "parts": [
+          {
+           "surface": "in",
+           "type": "prefix",
+           "meaning": "into",
+           "translations": {
+            "am": "ወደ ውስጥ",
+            "ar": "في",
+            "es": "en / hacia dentro",
+            "fa": "در",
+            "fr": "dans",
+            "hi": "में",
+            "ja": "中に",
+            "ko": "안으로",
+            "ml": "അകത്ത്",
+            "ps": "دننه",
+            "ro": "în",
+            "ru": "в",
+            "ta": "உள்ளே",
+            "tl": "sa loob",
+            "ur": "میں",
+            "vi": "trong",
+            "zh-Hans": "在 / 进入",
+            "zh-Hant": "在 / 進入",
+            "other": "نه"
+           }
+          },
+          {
+           "surface": "vigil",
+           "type": "root",
+           "meaning": "watchful",
+           "translations": {
+            "zh-Hans": "警惕的",
+            "zh-Hant": "警惕的",
+            "ja": "警戒している",
+            "ko": "경계하는",
+            "vi": "cảnh giác",
+            "ar": "يقظ",
+            "fa": "هوشیار",
+            "ur": "چوکس",
+            "am": "ንቁ",
+            "ml": "ജാഗരൂകമായ",
+            "ta": "விழிப்புள்ள",
+            "tl": "mapagbantay",
+            "ps": "ویښ",
+            "ro": "vigilent",
+            "ru": "бдительный",
+            "fr": "vigilant",
+            "hi": "सतर्क",
+            "es": "vigilante"
+           }
+          },
+          {
+           "surface": "ator",
+           "type": "suffix",
+           "meaning": "agent or thing that does",
+           "translations": {
+            "am": "የሚያደርግ",
+            "ar": "فاعل",
+            "es": "quien/lo que",
+            "fa": "کننده",
+            "fr": "celui qui fait",
+            "hi": "करने वाला/वस्तु",
+            "ja": "…する人・物",
+            "ko": "…하는 사람/것",
+            "ml": "ചെയ്യുന്ന ആൾ/വസ്തു",
+            "ps": "کوونکی",
+            "ro": "cel care face",
+            "ru": "тот, кто делает",
+            "ta": "செய்பவர்/பொருள்",
+            "tl": "tagagawa",
+            "ur": "کرنے والا",
+            "vi": "người/vật",
+            "zh-Hans": "……者/……物",
+            "zh-Hant": "……者/……物"
+           }
+          }
+         ],
+         "root": "vigil",
+         "meaning": "The person who watches over an exam.",
+         "example": "The Reverend Peters is going to be the invigilator.",
+         "translations": {}
+        },
+        {
+         "word": "hypotenuse",
+         "parts": [
+          {
+           "surface": "hypo",
+           "type": "prefix",
+           "meaning": "under",
+           "translations": {
+            "am": "ከስር",
+            "ar": "تحت",
+            "es": "debajo",
+            "fa": "زیر",
+            "fr": "sous",
+            "hi": "नीचे",
+            "ja": "下に",
+            "ko": "아래",
+            "ml": "താഴെ",
+            "ps": "لاندې",
+            "ro": "sub",
+            "ru": "под",
+            "ta": "கீழ்",
+            "tl": "ilalim",
+            "ur": "نیچے",
+            "vi": "dưới",
+            "zh-Hans": "下",
+            "zh-Hant": "下"
+           }
+          },
+          {
+           "surface": "tenuse",
+           "type": "root",
+           "meaning": "stretch",
+           "translations": {
+            "zh-Hans": "伸展",
+            "zh-Hant": "伸展",
+            "ja": "伸びる",
+            "ko": "늘이다",
+            "vi": "kéo dài/căng ra",
+            "ar": "يمتد",
+            "fa": "کشیدن",
+            "ur": "کھینچنا",
+            "am": "መዘርጋት",
+            "ml": "നീട്ടുക",
+            "ta": "நீட்டுதல்",
+            "tl": "unatin",
+            "ps": "غځول",
+            "ro": "a întinde",
+            "ru": "растягивать",
+            "fr": "étirer",
+            "hi": "खींचना",
+            "es": "estirar"
+           }
+          }
+         ],
+         "root": "tenuse",
+         "meaning": "The longest side of a right-angled triangle.",
+         "example": "According to Pythagoras, the square of the hypotenuse is equal to the sum of the squares of the other two sides.",
+         "translations": {}
+        },
+        {
+         "word": "counterexample",
+         "parts": [
+          {
+           "surface": "counter",
+           "type": "prefix",
+           "meaning": "against",
+           "translations": {
+            "am": "በተቃራኒ",
+            "ar": "ضد",
+            "es": "contra",
+            "fa": "علیه / در برابر",
+            "fr": "contre",
+            "hi": "विरुद्ध",
+            "ja": "反対の",
+            "ko": "반대의",
+            "ml": "എതിരായ",
+            "ps": "پر ضد",
+            "ro": "împotriva",
+            "ru": "против",
+            "ta": "எதிராக",
+            "tl": "laban sa",
+            "ur": "کے خلاف",
+            "vi": "chống lại",
+            "zh-Hans": "反对",
+            "zh-Hant": "反對"
+           }
+          },
+          {
+           "surface": "example",
+           "type": "root",
+           "meaning": "sample",
+           "translations": {}
+          }
+         ],
+         "root": "example",
+         "meaning": "An example that shows a claim is false.",
+         "example": "Show, by means of a counterexample, that the converse is false.",
+         "translations": {}
+        },
+        {
+         "word": "converse",
+         "parts": [
+          {
+           "surface": "con",
+           "type": "prefix",
+           "meaning": "together",
+           "translations": {
+            "am": "አብሮ",
+            "ar": "معًا",
+            "es": "juntos",
+            "fa": "باهم",
+            "fr": "ensemble",
+            "hi": "साथ",
+            "ja": "共に",
+            "ko": "함께",
+            "ml": "ഒരുമിച്ച്",
+            "ps": "يوځای",
+            "ro": "împreună",
+            "ru": "вместе",
+            "ta": "ஒன்றாக",
+            "tl": "magkasama",
+            "ur": "اکٹھا",
+            "vi": "cùng",
+            "zh-Hans": "共同",
+            "zh-Hant": "共同",
+            "other": "باهم"
+           }
+          },
+          {
+           "surface": "vers",
+           "type": "root",
+           "meaning": "turn",
+           "translations": {
+            "am": "መዞር",
+            "ar": "دوران",
+            "es": "girar",
+            "fa": "چرخش",
+            "fr": "tourner",
+            "hi": "मुड़ना",
+            "ja": "回転",
+            "ko": "회전",
+            "ml": "തിരിയുക",
+            "ps": "ګرځېدل",
+            "ro": "a întoarce",
+            "ru": "поворот",
+            "ta": "திரும்புதல்",
+            "tl": "ikot",
+            "ur": "مڑنا",
+            "vi": "xoay",
+            "zh-Hans": "转",
+            "zh-Hant": "轉"
+           }
+          }
+         ],
+         "root": "vers",
+         "meaning": "The statement turned the other way round.",
+         "example": "Show, by means of a counterexample, that the converse is false.",
+         "translations": {}
+        },
+        {
+         "word": "dangerous",
+         "parts": [
+          {
+           "surface": "danger",
+           "type": "root",
+           "meaning": "harm",
+           "translations": {}
+          },
+          {
+           "surface": "ous",
+           "type": "suffix",
+           "meaning": "full of",
+           "translations": {
+            "am": "ባህርይ ያለው",
+            "ar": "ذو صفة",
+            "es": "que tiene la cualidad de",
+            "fa": "دارای ویژگی",
+            "fr": "ayant la qualité de",
+            "hi": "गुणवाला",
+            "ja": "〜の性質を持つ",
+            "ko": "~의 성질을 가진",
+            "ml": "സ്വഭാവമുള്ള",
+            "ps": "د ... خاصیت لرونکی",
+            "ro": "având calitatea de",
+            "ru": "обладающий свойством",
+            "ta": "குணமுடைய",
+            "tl": "may katangian ng",
+            "ur": "خاصیت رکھنے والا",
+            "vi": "có tính chất",
+            "zh-Hans": "具有…性质的",
+            "zh-Hant": "具有…性質的"
+           }
+          }
+         ],
+         "root": "danger",
+         "meaning": "Likely to cause harm.",
+         "example": "I didn't want to talk to either of them because I was tired and it was dangerous.",
+         "translations": {}
+        },
+        {
+         "word": "concentrated",
+         "parts": [
+          {
+           "surface": "con",
+           "type": "prefix",
+           "meaning": "together",
+           "translations": {
+            "am": "አብሮ",
+            "ar": "معًا",
+            "es": "juntos",
+            "fa": "باهم",
+            "fr": "ensemble",
+            "hi": "साथ",
+            "ja": "共に",
+            "ko": "함께",
+            "ml": "ഒരുമിച്ച്",
+            "ps": "يوځای",
+            "ro": "împreună",
+            "ru": "вместе",
+            "ta": "ஒன்றாக",
+            "tl": "magkasama",
+            "ur": "اکٹھا",
+            "vi": "cùng",
+            "zh-Hans": "共同",
+            "zh-Hant": "共同",
+            "other": "باهم"
+           }
+          },
+          {
+           "surface": "centr",
+           "type": "root",
+           "meaning": "centre",
+           "translations": {
+            "am": "ማዕከል",
+            "ar": "مركز",
+            "es": "centro",
+            "fa": "مرکز",
+            "fr": "centre",
+            "hi": "केंद्र",
+            "ja": "中心",
+            "ko": "중심",
+            "ml": "കേന്ദ്രം",
+            "ps": "مرکز",
+            "ro": "centru",
+            "ru": "центр",
+            "ta": "மையம்",
+            "tl": "sentro",
+            "ur": "مرکز",
+            "vi": "trung tâm",
+            "zh-Hans": "中心",
+            "zh-Hant": "中心"
+           }
+          },
+          {
+           "surface": "ate",
+           "type": "suffix",
+           "meaning": "to make/do",
+           "translations": {
+            "am": "ማድረግ",
+            "ar": "جعل",
+            "es": "tener/hacer",
+            "fa": "ساختن",
+            "fr": "rendre",
+            "hi": "बनाना",
+            "ja": "〜化する",
+            "ko": "만들다",
+            "ml": "ഉണ്ടാക്കുക",
+            "ps": "لرونکی/جوړونکی",
+            "ro": "a face",
+            "ru": "делать",
+            "ta": "செய்தல்",
+            "tl": "gumawa",
+            "ur": "بنانا",
+            "vi": "làm",
+            "zh-Hans": "使…化",
+            "zh-Hant": "使…化"
+           }
+          },
+          {
+           "surface": "ed",
+           "type": "suffix",
+           "meaning": "past",
+           "translations": {
+            "am": "(ያለፈ ጊዜ)",
+            "ar": "(صيغة الماضي)",
+            "es": "(tiempo pasado)",
+            "fa": "(زمان گذشته)",
+            "fr": "(passé)",
+            "hi": "(भूतकाल)",
+            "ja": "(過去形)",
+            "ko": "(과거형)",
+            "ml": "(ഭൂതകാലം)",
+            "ps": "(تېر مهال)",
+            "ro": "(timpul trecut)",
+            "ru": "(прошедшее время)",
+            "ta": "(இறந்த காலம்)",
+            "tl": "(nakaraang panahunan)",
+            "ur": "(ماضی کا صیغہ)",
+            "vi": "(thì quá khứ)",
+            "zh-Hans": "(过去式)",
+            "zh-Hant": "(過去式)"
+           }
+          }
+         ],
+         "root": "centr",
+         "meaning": "Put all your attention on one thing.",
+         "example": "There were 11 people in the carriage and I didn't like being in a room with 11 people in a tunnel, so I concentrated on things in the carriage.",
+         "translations": {}
+        },
+        {
+         "word": "automatically",
+         "parts": [
+          {
+           "surface": "auto",
+           "type": "prefix",
+           "meaning": "self",
+           "translations": {
+            "am": "ራስ",
+            "ar": "ذاتي",
+            "es": "sí mismo",
+            "fa": "خود",
+            "fr": "soi",
+            "hi": "स्वयं",
+            "ja": "自己",
+            "ko": "자기",
+            "ml": "സ്വയം",
+            "ps": "ځان",
+            "ro": "sine",
+            "ru": "само-",
+            "ta": "சுய",
+            "tl": "sarili",
+            "ur": "خود",
+            "vi": "tự",
+            "zh-Hans": "自",
+            "zh-Hant": "自"
+           }
+          },
+          {
+           "surface": "mat",
+           "type": "root",
+           "meaning": "moving",
+           "translations": {}
+          },
+          {
+           "surface": "ical",
+           "type": "suffix",
+           "meaning": "relating to",
+           "translations": {
+            "fa": "مربوط به",
+            "am": "ተያያዥ",
+            "ar": "متعلّق بـ",
+            "es": "relativo a",
+            "fr": "relatif à",
+            "hi": "संबंधी",
+            "ja": "～の",
+            "ko": "관련된",
+            "ml": "ബന്ധപ്പെട്ട",
+            "ps": "اړوند",
+            "ro": "legat de",
+            "ru": "относящийся",
+            "ta": "தொடர்பான",
+            "tl": "kaugnay sa",
+            "ur": "متعلق",
+            "vi": "thuộc về",
+            "zh-Hans": "……的",
+            "zh-Hant": "……的"
+           }
+          },
+          {
+           "surface": "ly",
+           "type": "suffix",
+           "meaning": "in the manner of",
+           "translations": {
+            "zh-Hans": "以这种方式",
+            "ja": "〜のように",
+            "fa": "به این شیوه",
+            "vi": "theo cách này",
+            "zh-Hant": "以這種方式",
+            "am": "በ… መንገድ",
+            "ar": "بطريقة",
+            "es": "manera",
+            "fr": "de manière",
+            "hi": "तरीके से",
+            "ko": "~하게",
+            "ml": "വിധത്തിൽ",
+            "ps": "په … توګه",
+            "ro": "în mod",
+            "ru": "образом",
+            "ta": "விதமாக",
+            "tl": "sa paraang",
+            "ur": "طریقے سے"
+           }
+          }
+         ],
+         "root": "mat",
+         "meaning": "By itself, without anyone deciding.",
+         "example": "The doors closed automatically and the train started moving.",
+         "translations": {}
+        },
+        {
+         "word": "description",
+         "parts": [
+          {
+           "surface": "de",
+           "type": "prefix",
+           "meaning": "down/away",
+           "translations": {
+            "am": "ወደ ታች",
+            "ar": "أسفل",
+            "es": "abajo/lejos",
+            "fa": "پایین",
+            "fr": "vers le bas",
+            "hi": "नीचे",
+            "ja": "下方へ",
+            "ko": "아래로",
+            "ml": "താഴേക്ക്",
+            "ps": "ښکته / لرې",
+            "ro": "în jos",
+            "ru": "вниз",
+            "ta": "கீழே",
+            "tl": "pababa",
+            "ur": "نیچے",
+            "vi": "giảm/ra khỏi",
+            "zh-Hans": "向下；去除",
+            "zh-Hant": "向下；去除"
+           }
+          },
+          {
+           "surface": "script",
+           "type": "root",
+           "meaning": "write",
+           "translations": {
+            "am": "መጻፍ",
+            "ar": "كتابة",
+            "es": "escribir",
+            "fa": "نوشتن",
+            "fr": "écrire",
+            "hi": "लिखना",
+            "ja": "書く",
+            "ko": "쓰다 / 기록하다",
+            "ml": "എഴുതുക",
+            "ps": "لیکل",
+            "ro": "a scrie",
+            "ru": "писать",
+            "ta": "எழுதுதல்",
+            "tl": "sumulat / isulat",
+            "ur": "لکھنا",
+            "vi": "viết",
+            "zh-Hans": "写",
+            "zh-Hant": "寫"
+           }
+          },
+          {
+           "surface": "ion",
+           "type": "suffix",
+           "meaning": "act/process",
+           "translations": {
+            "fa": "فرایند/عمل",
+            "am": "ሂደት/ድርጊት",
+            "ar": "عملية/فعل",
+            "es": "proceso/acción",
+            "fr": "processus/action",
+            "hi": "प्रक्रिया/क्रिया",
+            "ja": "過程/作用",
+            "ko": "과정/작용",
+            "ml": "പ്രക്രിയ/പ്രവർത്തനം",
+            "ps": "بهیر/کړنه",
+            "ro": "proces/acțiune",
+            "ru": "процесс/действие",
+            "ta": "செயல்முறை/செயல்",
+            "tl": "proseso/kilos",
+            "ur": "عمل/فعل",
+            "vi": "quá trình/hành động",
+            "zh-Hans": "过程/动作",
+            "zh-Hant": "過程/動作"
+           }
+          }
+         ],
+         "root": "script",
+         "meaning": "Words that say what something is like.",
+         "example": "This is another description because Siobhan said I should do descriptions.",
+         "translations": {}
+        }
+       ],
+       "path": "year-9/english/curious-incident-ch-211-233"
       }
      ]
     }
@@ -442363,6 +446820,21 @@
      "al"
     ],
     [
+     "horizontal",
+     "year-9/english/curious-incident-ch-181-199",
+     "al"
+    ],
+    [
+     "behavioural",
+     "year-9/english/curious-incident-ch-41-73",
+     "al"
+    ],
+    [
+     "supernatural",
+     "year-9/english/curious-incident-ch-79-109",
+     "al"
+    ],
+    [
      "generalisation",
      "year-9/english/persuasion",
      "al"
@@ -443663,6 +448135,16 @@
      "ap"
     ],
     [
+     "approximation",
+     "year-9/english/curious-incident-ch-181-199",
+     "ap"
+    ],
+    [
+     "approximately",
+     "year-9/english/curious-incident-ch-2-37",
+     "ap"
+    ],
+    [
      "appeal",
      "year-9/english/persuasion",
      "ap"
@@ -443748,6 +448230,11 @@
     [
      "arguably",
      "vce/command-terms/hedging-certainty",
+     "argu"
+    ],
+    [
+     "argument",
+     "year-9/english/curious-incident-ch-41-73",
      "argu"
     ],
     [
@@ -444211,6 +448698,11 @@
     [
      "rearrange",
      "elc/mathematics/algebra",
+     "ar"
+    ],
+    [
+     "arrested",
+     "year-9/english/curious-incident-ch-181-199",
      "ar"
     ],
     [
@@ -444974,6 +449466,26 @@
     [
      "evaluate",
      "year-7/mathematics/number",
+     "ate"
+    ],
+    [
+     "complicated",
+     "year-9/english/curious-incident-ch-157-179",
+     "ate"
+    ],
+    [
+     "approximately",
+     "year-9/english/curious-incident-ch-2-37",
+     "ate"
+    ],
+    [
+     "concentrated",
+     "year-9/english/curious-incident-ch-211-233",
+     "ate"
+    ],
+    [
+     "elaborate",
+     "year-9/english/curious-incident-core",
      "ate"
     ],
     [
@@ -446366,6 +450878,31 @@
      "ation"
     ],
     [
+     "population",
+     "year-9/english/curious-incident-ch-113-151",
+     "ation"
+    ],
+    [
+     "approximation",
+     "year-9/english/curious-incident-ch-181-199",
+     "ation"
+    ],
+    [
+     "clarification",
+     "year-9/english/curious-incident-ch-181-199",
+     "ation"
+    ],
+    [
+     "investigation",
+     "year-9/english/curious-incident-ch-41-73",
+     "ation"
+    ],
+    [
+     "conversation",
+     "year-9/english/curious-incident-ch-79-109",
+     "ation"
+    ],
+    [
      "representation",
      "year-9/english/film-media",
      "ation"
@@ -447091,6 +451628,11 @@
      "ator"
     ],
     [
+     "invigilator",
+     "year-9/english/curious-incident-ch-211-233",
+     "ator"
+    ],
+    [
      "indicator",
      "year-9/humanities/economics",
      "ator"
@@ -447575,6 +452117,11 @@
     [
      "autonomous stage",
      "year-10/sports-science/vocab-list",
+     "auto"
+    ],
+    [
+     "automatically",
+     "year-9/english/curious-incident-ch-211-233",
      "auto"
     ]
    ]
@@ -449217,6 +453764,11 @@
      "centralised",
      "year-8/humanities/shogun",
      "centr"
+    ],
+    [
+     "concentrated",
+     "year-9/english/curious-incident-ch-211-233",
+     "centr"
     ]
    ]
   },
@@ -450075,6 +454627,28 @@
     ]
    ]
   },
+  "cis|cut": {
+   "surface": "cis",
+   "meaning": "cut",
+   "type": "root",
+   "words": [
+    [
+     "precision",
+     "vce/physics/unit-2-aos-3",
+     "cis"
+    ],
+    [
+     "decision",
+     "year-9/english/curious-incident-ch-157-179",
+     "cis"
+    ],
+    [
+     "precisely",
+     "year-9/english/curious-incident-ch-2-37",
+     "cis"
+    ]
+   ]
+  },
   "citizen|member of a country": {
    "surface": "citizen",
    "meaning": "member of a country",
@@ -450228,6 +454802,11 @@
     [
      "declaration",
      "vce/legal-studies/unit-2-aos-3",
+     "clar"
+    ],
+    [
+     "clarification",
+     "year-9/english/curious-incident-ch-181-199",
      "clar"
     ]
    ]
@@ -451158,6 +455737,11 @@
      "com"
     ],
     [
+     "complicated",
+     "year-9/english/curious-incident-ch-157-179",
+     "com"
+    ],
+    [
      "common land",
      "year-9/humanities/industrial-revolution",
      "com"
@@ -452029,6 +456613,31 @@
      "con"
     ],
     [
+     "constellation",
+     "year-9/english/curious-incident-ch-157-179",
+     "con"
+    ],
+    [
+     "concentrated",
+     "year-9/english/curious-incident-ch-211-233",
+     "con"
+    ],
+    [
+     "converse",
+     "year-9/english/curious-incident-ch-211-233",
+     "con"
+    ],
+    [
+     "conversation",
+     "year-9/english/curious-incident-ch-79-109",
+     "con"
+    ],
+    [
+     "concede",
+     "year-9/english/curious-incident-core",
+     "con"
+    ],
+    [
      "contention",
      "year-9/english/persuasion",
      "con"
@@ -452486,6 +457095,11 @@
     [
      "counter-revolution",
      "vce/history/unit-3-4-aos-2",
+     "counter"
+    ],
+    [
+     "counterexample",
+     "year-9/english/curious-incident-ch-211-233",
      "counter"
     ],
     [
@@ -454094,6 +458708,21 @@
      "descriptive",
      "year-9/english/creative-writing",
      "de"
+    ],
+    [
+     "decision",
+     "year-9/english/curious-incident-ch-157-179",
+     "de"
+    ],
+    [
+     "description",
+     "year-9/english/curious-incident-ch-211-233",
+     "de"
+    ],
+    [
+     "detective",
+     "year-9/english/curious-incident-ch-41-73",
+     "de"
     ]
    ]
   },
@@ -454796,6 +459425,11 @@
     [
      "discrete",
      "year-7/mathematics/data-types",
+     "dis"
+    ],
+    [
+     "discovered",
+     "year-9/english/curious-incident-ch-113-151",
      "dis"
     ],
     [
@@ -456145,6 +460779,11 @@
      "ed"
     ],
     [
+     "exhausted",
+     "year-9/english/curious-incident-ch-2-37",
+     "ed"
+    ],
+    [
      "balanced forces",
      "year-9/science/forces",
      "ed"
@@ -456541,6 +461180,36 @@
     [
      "forced labour",
      "year-7/humanities-civics/history-china",
+     "ed"
+    ],
+    [
+     "discovered",
+     "year-9/english/curious-incident-ch-113-151",
+     "ed"
+    ],
+    [
+     "frightened",
+     "year-9/english/curious-incident-ch-113-151",
+     "ed"
+    ],
+    [
+     "interrupted",
+     "year-9/english/curious-incident-ch-113-151",
+     "ed"
+    ],
+    [
+     "complicated",
+     "year-9/english/curious-incident-ch-157-179",
+     "ed"
+    ],
+    [
+     "arrested",
+     "year-9/english/curious-incident-ch-181-199",
+     "ed"
+    ],
+    [
+     "concentrated",
+     "year-9/english/curious-incident-ch-211-233",
      "ed"
     ]
    ]
@@ -457426,6 +462095,11 @@
      "ence"
     ],
     [
+     "evidence",
+     "year-9/english/curious-incident-core",
+     "ence"
+    ],
+    [
      "audience",
      "year-9/english/film-media",
      "ence"
@@ -457591,6 +462265,11 @@
     [
      "proficiency",
      "year-10/sports-science/vocab-list",
+     "ency"
+    ],
+    [
+     "emergency",
+     "year-9/english/curious-incident-ch-157-179",
      "ency"
     ]
    ]
@@ -458081,6 +462760,11 @@
      "omniscient",
      "year-9/english/analysing-texts",
      "ent"
+    ],
+    [
+     "intelligent",
+     "year-9/english/curious-incident-ch-79-109",
+     "ent"
     ]
    ]
   },
@@ -458358,6 +463042,23 @@
     [
      "enjambment",
      "year-9/english/poetry",
+     "en"
+    ]
+   ]
+  },
+  "en|to make": {
+   "surface": "en",
+   "meaning": "to make",
+   "type": "suffix",
+   "words": [
+    [
+     "Enlightenment",
+     "vce/history/unit-3-4-aos-1",
+     "en"
+    ],
+    [
+     "frightened",
+     "year-9/english/curious-incident-ch-113-151",
      "en"
     ]
    ]
@@ -458899,6 +463600,16 @@
     [
      "cliffhanger",
      "year-9/english/creative-writing",
+     "er"
+    ],
+    [
+     "murderer",
+     "year-9/english/curious-incident-ch-2-37",
+     "er"
+    ],
+    [
+     "stranger",
+     "year-9/english/curious-incident-ch-41-73",
      "er"
     ],
     [
@@ -459798,6 +464509,21 @@
      "ex"
     ],
     [
+     "exposure",
+     "year-9/english/curious-incident-ch-113-151",
+     "ex"
+    ],
+    [
+     "experiment",
+     "year-9/english/curious-incident-ch-157-179",
+     "ex"
+    ],
+    [
+     "exhausted",
+     "year-9/english/curious-incident-ch-2-37",
+     "ex"
+    ],
+    [
      "executive",
      "year-9/humanities/political-systems",
      "ex"
@@ -460160,6 +464886,21 @@
     [
      "evaluate",
      "year-7/mathematics/number",
+     "e"
+    ],
+    [
+     "emergency",
+     "year-9/english/curious-incident-ch-157-179",
+     "e"
+    ],
+    [
+     "elaborate",
+     "year-9/english/curious-incident-core",
+     "e"
+    ],
+    [
+     "evidence",
+     "year-9/english/curious-incident-core",
      "e"
     ],
     [
@@ -460692,6 +465433,11 @@
     [
      "inference",
      "year-9/english/analysing-texts",
+     "fer"
+    ],
+    [
+     "infer",
+     "year-9/english/curious-incident-core",
      "fer"
     ]
    ]
@@ -461815,6 +466561,16 @@
     [
      "usefulness",
      "year-7/humanities-civics/history-china",
+     "ful"
+    ],
+    [
+     "faithful",
+     "year-9/english/curious-incident-ch-2-37",
+     "ful"
+    ],
+    [
+     "dreadful",
+     "year-9/english/curious-incident-ch-41-73",
      "ful"
     ]
    ]
@@ -463002,6 +467758,11 @@
      "exhaustion",
      "elc/humanities/history",
      "haust"
+    ],
+    [
+     "exhausted",
+     "year-9/english/curious-incident-ch-2-37",
+     "haust"
     ]
    ]
   },
@@ -463445,6 +468206,23 @@
     ]
    ]
   },
+  "horizon|boundary line": {
+   "surface": "horizon",
+   "meaning": "boundary line",
+   "type": "root",
+   "words": [
+    [
+     "horizon",
+     "year-7/english/bone-sparrow-early",
+     "horizon"
+    ],
+    [
+     "horizontal",
+     "year-9/english/curious-incident-ch-181-199",
+     "horizon"
+    ]
+   ]
+  },
   "host|enemy/stranger": {
    "surface": "host",
    "meaning": "enemy/stranger",
@@ -463641,6 +468419,16 @@
      "hypotenuse",
      "year-10/kinematics/l4",
      "hypo"
+    ],
+    [
+     "hypothetical",
+     "year-9/english/curious-incident-ch-113-151",
+     "hypo"
+    ],
+    [
+     "hypotenuse",
+     "year-9/english/curious-incident-ch-211-233",
+     "hypo"
     ]
    ]
   },
@@ -463830,6 +468618,23 @@
      "judicial",
      "year-9/humanities/political-systems",
      "ial"
+    ]
+   ]
+  },
+  "ian|a person who": {
+   "surface": "ian",
+   "meaning": "a person who",
+   "type": "suffix",
+   "words": [
+    [
+     "custodian",
+     "year-7/humanities-civics/water-2-3",
+     "ian"
+    ],
+    [
+     "logician",
+     "year-9/english/curious-incident-ch-181-199",
+     "ian"
     ]
    ]
   },
@@ -464047,6 +468852,11 @@
      "accessible",
      "year-7/humanities-civics/water-2-2",
      "ible"
+    ],
+    [
+     "impossible",
+     "year-9/english/curious-incident-ch-157-179",
+     "ible"
     ]
    ]
   },
@@ -464245,6 +469055,21 @@
     [
      "historical",
      "year-8/humanities/shogun",
+     "ical"
+    ],
+    [
+     "hypothetical",
+     "year-9/english/curious-incident-ch-113-151",
+     "ical"
+    ],
+    [
+     "rhetorical",
+     "year-9/english/curious-incident-ch-113-151",
+     "ical"
+    ],
+    [
+     "automatically",
+     "year-9/english/curious-incident-ch-211-233",
      "ical"
     ],
     [
@@ -465571,6 +470396,11 @@
      "strategies",
      "vce/accounting/unit-4-aos-2",
      "ies"
+    ],
+    [
+     "mysteries",
+     "year-9/english/curious-incident-ch-113-151",
+     "ies"
     ]
    ]
   },
@@ -465634,6 +470464,11 @@
     [
      "identification",
      "year-7/english/bone-sparrow",
+     "ific"
+    ],
+    [
+     "clarification",
+     "year-9/english/curious-incident-ch-181-199",
      "ific"
     ],
     [
@@ -465758,6 +470593,11 @@
     [
      "simplify",
      "year-7/mathematics/number",
+     "ify"
+    ],
+    [
+     "justify",
+     "year-9/english/curious-incident-core",
      "ify"
     ]
    ]
@@ -466101,6 +470941,11 @@
      "immigration",
      "year-7/english/bone-sparrow",
      "im"
+    ],
+    [
+     "imply",
+     "year-9/english/curious-incident-core",
+     "im"
     ]
    ]
   },
@@ -466152,6 +470997,11 @@
     [
      "impossible",
      "year-7/mathematics/chance",
+     "im"
+    ],
+    [
+     "impossible",
+     "year-9/english/curious-incident-ch-157-179",
      "im"
     ],
     [
@@ -466718,6 +471568,16 @@
      "ing"
     ],
     [
+     "chatting",
+     "year-9/english/curious-incident-ch-41-73",
+     "ing"
+    ],
+    [
+     "trespassing",
+     "year-9/english/curious-incident-ch-79-109",
+     "ing"
+    ],
+    [
      "framing",
      "year-9/english/film-media",
      "ing"
@@ -466936,6 +471796,11 @@
     [
      "intellectual property",
      "vce/visual-communication-design/unit-2-aos-2",
+     "intel"
+    ],
+    [
+     "intelligent",
+     "year-9/english/curious-incident-ch-79-109",
      "intel"
     ]
    ]
@@ -467243,6 +472108,11 @@
     [
      "interpretation",
      "year-8/humanities/shogun",
+     "inter"
+    ],
+    [
+     "interrupted",
+     "year-9/english/curious-incident-ch-113-151",
      "inter"
     ],
     [
@@ -467860,6 +472730,31 @@
     [
      "inference",
      "year-9/english/analysing-texts",
+     "in"
+    ],
+    [
+     "inspector",
+     "year-9/english/curious-incident-ch-2-37",
+     "in"
+    ],
+    [
+     "invigilator",
+     "year-9/english/curious-incident-ch-211-233",
+     "in"
+    ],
+    [
+     "investigation",
+     "year-9/english/curious-incident-ch-41-73",
+     "in"
+    ],
+    [
+     "intuition",
+     "year-9/english/curious-incident-ch-79-109",
+     "in"
+    ],
+    [
+     "infer",
+     "year-9/english/curious-incident-core",
      "in"
     ],
     [
@@ -469400,6 +474295,26 @@
      "ion"
     ],
     [
+     "decision",
+     "year-9/english/curious-incident-ch-157-179",
+     "ion"
+    ],
+    [
+     "relationship",
+     "year-9/english/curious-incident-ch-181-199",
+     "ion"
+    ],
+    [
+     "description",
+     "year-9/english/curious-incident-ch-211-233",
+     "ion"
+    ],
+    [
+     "intuition",
+     "year-9/english/curious-incident-ch-79-109",
+     "ion"
+    ],
+    [
      "contention",
      "year-9/english/persuasion",
      "ion"
@@ -470282,6 +475197,11 @@
     [
      "infectious",
      "year-10/biology/epidemiology-pandemic-links",
+     "ious"
+    ],
+    [
+     "suspicious",
+     "year-9/english/curious-incident-ch-41-73",
      "ious"
     ],
     [
@@ -472747,6 +477667,11 @@
      "ive"
     ],
     [
+     "detective",
+     "year-9/english/curious-incident-ch-41-73",
+     "ive"
+    ],
+    [
      "emotive",
      "year-9/english/persuasion",
      "ive"
@@ -473206,6 +478131,11 @@
      "injustice",
      "year-7/english/bone-sparrow-final",
      "just"
+    ],
+    [
+     "justify",
+     "year-9/english/curious-incident-core",
+     "just"
     ]
    ]
   },
@@ -473431,6 +478361,11 @@
     [
      "collaborative",
      "year-7/english/film",
+     "labor"
+    ],
+    [
+     "elaborate",
+     "year-9/english/curious-incident-core",
      "labor"
     ]
    ]
@@ -474268,6 +479203,11 @@
     [
      "negligible",
      "vce/command-terms/hedging-certainty",
+     "lig"
+    ],
+    [
+     "intelligent",
+     "year-9/english/curious-incident-ch-79-109",
      "lig"
     ]
    ]
@@ -475297,6 +480237,26 @@
     [
      "unlikely",
      "year-7/mathematics/chance",
+     "ly"
+    ],
+    [
+     "eventually",
+     "year-9/english/curious-incident-ch-157-179",
+     "ly"
+    ],
+    [
+     "approximately",
+     "year-9/english/curious-incident-ch-2-37",
+     "ly"
+    ],
+    [
+     "precisely",
+     "year-9/english/curious-incident-ch-2-37",
+     "ly"
+    ],
+    [
+     "automatically",
+     "year-9/english/curious-incident-ch-211-233",
      "ly"
     ]
    ]
@@ -476407,6 +481367,16 @@
      "ment"
     ],
     [
+     "experiment",
+     "year-9/english/curious-incident-ch-157-179",
+     "ment"
+    ],
+    [
+     "argument",
+     "year-9/english/curious-incident-ch-41-73",
+     "ment"
+    ],
+    [
      "advertisement",
      "year-9/english/film-media",
      "ment"
@@ -476698,6 +481668,23 @@
     ]
    ]
   },
+  "merg|come up/rise": {
+   "surface": "merg",
+   "meaning": "come up/rise",
+   "type": "root",
+   "words": [
+    [
+     "emergence",
+     "vce/biology/unit-4-aos-1",
+     "merg"
+    ],
+    [
+     "emergency",
+     "year-9/english/curious-incident-ch-157-179",
+     "merg"
+    ]
+   ]
+  },
   "mer|part/share": {
    "surface": "mer",
    "meaning": "part/share",
@@ -476790,6 +481777,11 @@
     [
      "metalanguage",
      "year-8/english/u2-analysing-film",
+     "meta"
+    ],
+    [
+     "metaphor",
+     "year-9/english/curious-incident-ch-2-37",
      "meta"
     ]
    ]
@@ -477878,6 +482870,11 @@
      "murder",
      "elc/humanities/history",
      "murder"
+    ],
+    [
+     "murderer",
+     "year-9/english/curious-incident-ch-2-37",
+     "murder"
     ]
    ]
   },
@@ -478044,6 +483041,11 @@
     [
      "denaturation",
      "vce/food-studies/unit-2-aos-2",
+     "natur"
+    ],
+    [
+     "supernatural",
+     "year-9/english/curious-incident-ch-79-109",
      "natur"
     ]
    ]
@@ -479911,6 +484913,16 @@
      "or"
     ],
     [
+     "protractor",
+     "year-9/english/curious-incident-ch-181-199",
+     "or"
+    ],
+    [
+     "inspector",
+     "year-9/english/curious-incident-ch-2-37",
+     "or"
+    ],
+    [
      "factorisation",
      "year-9/mathematics/algebra",
      "or"
@@ -480152,6 +485164,11 @@
     [
      "monotonous",
      "year-7/english/bone-sparrow-early",
+     "ous"
+    ],
+    [
+     "dangerous",
+     "year-9/english/curious-incident-ch-211-233",
      "ous"
     ]
    ]
@@ -480658,6 +485675,11 @@
      "para"
     ],
     [
+     "paraphrase",
+     "year-9/english/curious-incident-core",
+     "para"
+    ],
+    [
      "parasitism",
      "year-9/science/ecology",
      "para"
@@ -480856,6 +485878,11 @@
     [
      "trespass",
      "year-7/english/bone-sparrow-middle",
+     "pass"
+    ],
+    [
+     "trespassing",
+     "year-9/english/curious-incident-ch-79-109",
      "pass"
     ],
     [
@@ -481228,6 +486255,11 @@
     [
      "experimental probability",
      "year-7/mathematics/chance",
+     "peri"
+    ],
+    [
+     "experiment",
+     "year-9/english/curious-incident-ch-157-179",
      "peri"
     ]
    ]
@@ -481873,6 +486905,11 @@
     ],
     [
      "metaphor",
+     "year-9/english/curious-incident-ch-2-37",
+     "phor"
+    ],
+    [
+     "metaphor",
      "year-9/english/poetry",
      "phor"
     ]
@@ -482336,6 +487373,11 @@
      "complication",
      "year-9/english/creative-writing",
      "plic"
+    ],
+    [
+     "complicated",
+     "year-9/english/curious-incident-ch-157-179",
+     "plic"
     ]
    ]
   },
@@ -482556,6 +487598,11 @@
     [
      "multiply",
      "year-8/mathematics/equations-inequalities",
+     "ply"
+    ],
+    [
+     "imply",
+     "year-9/english/curious-incident-core",
      "ply"
     ]
    ]
@@ -482857,6 +487904,11 @@
     ],
     [
      "population",
+     "year-9/english/curious-incident-ch-113-151",
+     "popul"
+    ],
+    [
+     "population",
      "year-9/humanities/rise-of-the-factory",
      "popul"
     ]
@@ -483148,6 +488200,11 @@
      "impossible",
      "year-7/mathematics/chance",
      "poss"
+    ],
+    [
+     "impossible",
+     "year-9/english/curious-incident-ch-157-179",
+     "poss"
     ]
    ]
   },
@@ -483216,6 +488273,11 @@
     [
      "composition",
      "vce/vm-work-related-skills/unit-4-aos-2",
+     "pos"
+    ],
+    [
+     "exposure",
+     "year-9/english/curious-incident-ch-113-151",
      "pos"
     ]
    ]
@@ -483958,6 +489020,11 @@
      "pre"
     ],
     [
+     "precisely",
+     "year-9/english/curious-incident-ch-2-37",
+     "pre"
+    ],
+    [
      "precipitate",
      "year-9/science/chemical-reactions",
      "pre"
@@ -484505,6 +489572,16 @@
      "approximate",
      "year-7/mathematics/number",
      "proxim"
+    ],
+    [
+     "approximation",
+     "year-9/english/curious-incident-ch-181-199",
+     "proxim"
+    ],
+    [
+     "approximately",
+     "year-9/english/curious-incident-ch-2-37",
+     "proxim"
     ]
    ]
   },
@@ -484825,6 +489902,11 @@
     [
      "pronumeral",
      "year-8/mathematics/algebra",
+     "pro"
+    ],
+    [
+     "protractor",
+     "year-9/english/curious-incident-ch-181-199",
      "pro"
     ],
     [
@@ -485893,6 +490975,11 @@
      "relative frequency table",
      "year-10/mathematics/statistics-data",
      "relat"
+    ],
+    [
+     "relationship",
+     "year-9/english/curious-incident-ch-181-199",
+     "relat"
     ]
    ]
   },
@@ -485909,6 +490996,11 @@
     [
      "rest",
      "year-10/kinematics/l2",
+     "rest"
+    ],
+    [
+     "arrested",
+     "year-9/english/curious-incident-ch-181-199",
      "rest"
     ]
    ]
@@ -486426,6 +491518,11 @@
     [
      "revision",
      "year-9/english/creative-writing",
+     "re"
+    ],
+    [
+     "reframe",
+     "year-9/english/curious-incident-core",
      "re"
     ],
     [
@@ -487005,6 +492102,11 @@
      "re"
     ],
     [
+     "personal response",
+     "year-9/english/curious-incident-core",
+     "re"
+    ],
+    [
      "rebuttal",
      "year-9/english/persuasion",
      "re"
@@ -487083,6 +492185,11 @@
     [
      "rhetorical question",
      "elc/english/persuasive-techniques-audience",
+     "rhetor"
+    ],
+    [
+     "rhetorical",
+     "year-9/english/curious-incident-ch-113-151",
      "rhetor"
     ],
     [
@@ -487230,6 +492337,11 @@
     [
      "disruption",
      "year-10/commerce/unit-1",
+     "rupt"
+    ],
+    [
+     "interrupted",
+     "year-9/english/curious-incident-ch-113-151",
      "rupt"
     ]
    ]
@@ -487460,6 +492572,11 @@
     [
      "descriptive",
      "year-9/english/creative-writing",
+     "script"
+    ],
+    [
+     "description",
+     "year-9/english/curious-incident-ch-211-233",
      "script"
     ]
    ]
@@ -488214,6 +493331,11 @@
     [
      "relationship",
      "year-8/mathematics/equations-inequalities",
+     "ship"
+    ],
+    [
+     "relationship",
+     "year-9/english/curious-incident-ch-181-199",
      "ship"
     ]
    ]
@@ -489381,6 +494503,11 @@
      "perspective",
      "year-7/humanities-civics/source-analysis",
      "spect"
+    ],
+    [
+     "inspector",
+     "year-9/english/curious-incident-ch-2-37",
+     "spect"
     ]
    ]
   },
@@ -489475,6 +494602,11 @@
     [
      "suspicious",
      "elc/humanities/history",
+     "spic"
+    ],
+    [
+     "suspicious",
+     "year-9/english/curious-incident-ch-41-73",
      "spic"
     ]
    ]
@@ -490729,6 +495861,11 @@
      "superstition",
      "year-7/english/bone-sparrow-middle",
      "super"
+    ],
+    [
+     "supernatural",
+     "year-9/english/curious-incident-ch-79-109",
+     "super"
     ]
    ]
   },
@@ -490918,6 +496055,11 @@
     [
      "suspense",
      "year-9/english/creative-writing",
+     "sus"
+    ],
+    [
+     "suspicious",
+     "year-9/english/curious-incident-ch-41-73",
      "sus"
     ],
     [
@@ -492153,6 +497295,11 @@
      "tect"
     ],
     [
+     "detective",
+     "year-9/english/curious-incident-ch-41-73",
+     "tect"
+    ],
+    [
      "protect",
      "year-9/science/fighting-infections",
      "tect"
@@ -492415,6 +497562,11 @@
     [
      "hypotenuse",
      "year-10/kinematics/l4",
+     "tenuse"
+    ],
+    [
+     "hypotenuse",
+     "year-9/english/curious-incident-ch-211-233",
      "tenuse"
     ]
    ]
@@ -493056,6 +498208,11 @@
      "time",
      "year-10/kinematics/l1",
      "time"
+    ],
+    [
+     "timetable",
+     "year-9/english/curious-incident-ch-181-199",
+     "time"
     ]
    ]
   },
@@ -493131,6 +498288,11 @@
     [
      "malnutrition",
      "year-7/english/bone-sparrow-early",
+     "tion"
+    ],
+    [
+     "constellation",
+     "year-9/english/curious-incident-ch-157-179",
      "tion"
     ]
    ]
@@ -493343,6 +498505,11 @@
     [
      "subtraction",
      "year-8/mathematics/algebra",
+     "tract"
+    ],
+    [
+     "protractor",
+     "year-9/english/curious-incident-ch-181-199",
      "tract"
     ],
     [
@@ -493842,6 +499009,11 @@
      "trespass",
      "year-7/english/bone-sparrow-middle",
      "tres"
+    ],
+    [
+     "trespassing",
+     "year-9/english/curious-incident-ch-79-109",
+     "tres"
     ]
    ]
   },
@@ -494151,6 +499323,23 @@
     ]
    ]
   },
+  "tuit|look at/consider": {
+   "surface": "tuit",
+   "meaning": "look at/consider",
+   "type": "root",
+   "words": [
+    [
+     "intuition",
+     "vce/philosophy/unit-2-aos-1",
+     "tuit"
+    ],
+    [
+     "intuition",
+     "year-9/english/curious-incident-ch-79-109",
+     "tuit"
+    ]
+   ]
+  },
   "turb|spin/whirl": {
    "surface": "turb",
    "meaning": "spin/whirl",
@@ -494453,6 +499642,11 @@
     [
      "spiritual",
      "year-7/humanities-civics/water-2-3",
+     "ual"
+    ],
+    [
+     "eventually",
+     "year-9/english/curious-incident-ch-157-179",
      "ual"
     ],
     [
@@ -494788,6 +499982,11 @@
      "uni"
     ],
     [
+     "universe",
+     "year-9/english/curious-incident-ch-2-37",
+     "uni"
+    ],
+    [
      "nonuniform",
      "year-9/science/physics",
      "uni"
@@ -495088,6 +500287,11 @@
     [
      "structure",
      "year-7/english/narrative",
+     "ure"
+    ],
+    [
+     "exposure",
+     "year-9/english/curious-incident-ch-113-151",
      "ure"
     ],
     [
@@ -496136,6 +501340,21 @@
      "vers"
     ],
     [
+     "universe",
+     "year-9/english/curious-incident-ch-2-37",
+     "vers"
+    ],
+    [
+     "converse",
+     "year-9/english/curious-incident-ch-211-233",
+     "vers"
+    ],
+    [
+     "conversation",
+     "year-9/english/curious-incident-ch-79-109",
+     "vers"
+    ],
+    [
      "free verse",
      "year-9/english/poetry",
      "vers"
@@ -496192,6 +501411,11 @@
     [
      "investigate",
      "year-10/forensic-science/intro-crime-scene",
+     "vestig"
+    ],
+    [
+     "investigation",
+     "year-9/english/curious-incident-ch-41-73",
      "vestig"
     ]
    ]
@@ -496380,6 +501604,11 @@
      "evidence",
      "year-7/humanities-civics/source-analysis",
      "vid"
+    ],
+    [
+     "evidence",
+     "year-9/english/curious-incident-core",
+     "vid"
     ]
    ]
   },
@@ -496407,6 +501636,23 @@
      "point of view",
      "vce/literature/unit-4-aos-1",
      "view"
+    ]
+   ]
+  },
+  "vigil|watchful": {
+   "surface": "vigil",
+   "meaning": "watchful",
+   "type": "root",
+   "words": [
+    [
+     "vigilance",
+     "elc/english/harrison-bergeron",
+     "vigil"
+    ],
+    [
+     "invigilator",
+     "year-9/english/curious-incident-ch-211-233",
+     "vigil"
     ]
    ]
   },
@@ -499320,6 +504566,21 @@
      "assuming",
      "elc/english/sm-ban-judging",
      "as"
+    ],
+    [
+     "approximately",
+     "year-9/english/curious-incident-ch-2-37",
+     "ap"
+    ],
+    [
+     "approximation",
+     "year-9/english/curious-incident-ch-181-199",
+     "ap"
+    ],
+    [
+     "arrested",
+     "year-9/english/curious-incident-ch-181-199",
+     "ar"
     ]
    ],
    "extras": [
@@ -501264,6 +506525,21 @@
      "clinical trial",
      "elc/english/sm-ban-judging",
      "al"
+    ],
+    [
+     "behavioural",
+     "year-9/english/curious-incident-ch-41-73",
+     "al"
+    ],
+    [
+     "supernatural",
+     "year-9/english/curious-incident-ch-79-109",
+     "al"
+    ],
+    [
+     "horizontal",
+     "year-9/english/curious-incident-ch-181-199",
+     "al"
     ]
    ],
    "extras": [
@@ -502721,6 +507997,11 @@
      "argument",
      "elc/english/persuasive-analysis",
      "argu"
+    ],
+    [
+     "argument",
+     "year-9/english/curious-incident-ch-41-73",
+     "argu"
     ]
    ]
   },
@@ -504059,6 +509340,26 @@
     [
      "inadequate",
      "elc/english/sm-ban-judging",
+     "ate"
+    ],
+    [
+     "elaborate",
+     "year-9/english/curious-incident-core",
+     "ate"
+    ],
+    [
+     "approximately",
+     "year-9/english/curious-incident-ch-2-37",
+     "ate"
+    ],
+    [
+     "complicated",
+     "year-9/english/curious-incident-ch-157-179",
+     "ate"
+    ],
+    [
+     "concentrated",
+     "year-9/english/curious-incident-ch-211-233",
      "ate"
     ]
    ],
@@ -505885,6 +511186,31 @@
      "organisations",
      "elc/english/sm-ban-online-life",
      "ation"
+    ],
+    [
+     "investigation",
+     "year-9/english/curious-incident-ch-41-73",
+     "ation"
+    ],
+    [
+     "conversation",
+     "year-9/english/curious-incident-ch-79-109",
+     "ation"
+    ],
+    [
+     "population",
+     "year-9/english/curious-incident-ch-113-151",
+     "ation"
+    ],
+    [
+     "approximation",
+     "year-9/english/curious-incident-ch-181-199",
+     "ation"
+    ],
+    [
+     "clarification",
+     "year-9/english/curious-incident-ch-181-199",
+     "ation"
     ]
    ],
    "extras": [
@@ -506363,6 +511689,11 @@
     [
      "key performance indicator",
      "vce/business-management/unit-4-aos-1",
+     "ator"
+    ],
+    [
+     "invigilator",
+     "year-9/english/curious-incident-ch-211-233",
      "ator"
     ]
    ],
@@ -507145,6 +512476,11 @@
     [
      "autotroph",
      "elc/science/ecology",
+     "auto"
+    ],
+    [
+     "automatically",
+     "year-9/english/curious-incident-ch-211-233",
      "auto"
     ]
    ],
@@ -507933,6 +513269,22 @@
      "behavioural economics",
      "vce/economics/unit-1-aos-3",
      "behaviour"
+    ]
+   ]
+  },
+  "behav|act": {
+   "surface": "behav",
+   "variants": [
+    "behav"
+   ],
+   "type": "root",
+   "gloss": "act",
+   "aka": [],
+   "words": [
+    [
+     "behavioural",
+     "year-9/english/curious-incident-ch-41-73",
+     "behav"
     ]
    ]
   },
@@ -510275,6 +515627,22 @@
     ]
    ]
   },
+  "cede|give way": {
+   "surface": "cede",
+   "variants": [
+    "cede"
+   ],
+   "type": "root",
+   "gloss": "give way",
+   "aka": [],
+   "words": [
+    [
+     "concede",
+     "year-9/english/curious-incident-core",
+     "cede"
+    ]
+   ]
+  },
   "ced|go/move": {
    "surface": "ced",
    "variants": [
@@ -510651,6 +516019,11 @@
     [
      "centralised",
      "year-8/humanities/shogun",
+     "centr"
+    ],
+    [
+     "concentrated",
+     "year-9/english/curious-incident-ch-211-233",
      "centr"
     ]
    ],
@@ -511108,6 +516481,22 @@
      "purchase",
      "elc/humanities/general-vocabulary",
      "chas"
+    ]
+   ]
+  },
+  "chat|talk": {
+   "surface": "chat",
+   "variants": [
+    "chat"
+   ],
+   "type": "root",
+   "gloss": "talk",
+   "aka": [],
+   "words": [
+    [
+     "chatting",
+     "year-9/english/curious-incident-ch-41-73",
+     "chat"
     ]
    ]
   },
@@ -511818,6 +517207,16 @@
      "precision",
      "vce/physics/unit-2-aos-3",
      "cis"
+    ],
+    [
+     "precisely",
+     "year-9/english/curious-incident-ch-2-37",
+     "cis"
+    ],
+    [
+     "decision",
+     "year-9/english/curious-incident-ch-157-179",
+     "cis"
     ]
    ],
    "extras": [
@@ -512114,6 +517513,11 @@
     [
      "clarify",
      "vce/command-terms/exam-instructions",
+     "clar"
+    ],
+    [
+     "clarification",
+     "year-9/english/curious-incident-ch-181-199",
      "clar"
     ]
    ],
@@ -514926,6 +520330,36 @@
      "content creator",
      "elc/english/sm-ban-online-life",
      "con"
+    ],
+    [
+     "concede",
+     "year-9/english/curious-incident-core",
+     "con"
+    ],
+    [
+     "conversation",
+     "year-9/english/curious-incident-ch-79-109",
+     "con"
+    ],
+    [
+     "complicated",
+     "year-9/english/curious-incident-ch-157-179",
+     "com"
+    ],
+    [
+     "constellation",
+     "year-9/english/curious-incident-ch-157-179",
+     "con"
+    ],
+    [
+     "converse",
+     "year-9/english/curious-incident-ch-211-233",
+     "con"
+    ],
+    [
+     "concentrated",
+     "year-9/english/curious-incident-ch-211-233",
+     "con"
     ]
    ],
    "extras": [
@@ -515207,6 +520641,11 @@
      "counterargument",
      "year-9/english/persuasion",
      "counter"
+    ],
+    [
+     "counterexample",
+     "year-9/english/curious-incident-ch-211-233",
+     "counter"
     ]
    ],
    "extras": [
@@ -515279,6 +520718,22 @@
      "courage",
      "year-7/english/bone-sparrow-middle",
      "cour"
+    ]
+   ]
+  },
+  "cover|cover": {
+   "surface": "cover",
+   "variants": [
+    "cover"
+   ],
+   "type": "root",
+   "gloss": "cover",
+   "aka": [],
+   "words": [
+    [
+     "discovered",
+     "year-9/english/curious-incident-ch-113-151",
+     "cover"
     ]
    ]
   },
@@ -515942,6 +521397,22 @@
     "horticulture"
    ]
   },
+  "culus|small": {
+   "surface": "culus",
+   "variants": [
+    "culus"
+   ],
+   "type": "suffix",
+   "gloss": "small",
+   "aka": [],
+   "words": [
+    [
+     "homunculus",
+     "year-9/english/curious-incident-ch-157-179",
+     "culus"
+    ]
+   ]
+  },
   "cul|small": {
    "surface": "cul",
    "variants": [
@@ -516428,6 +521899,22 @@
      "damages",
      "vce/legal-studies/unit-2-aos-2",
      "dam"
+    ]
+   ]
+  },
+  "danger|harm": {
+   "surface": "danger",
+   "variants": [
+    "danger"
+   ],
+   "type": "root",
+   "gloss": "harm",
+   "aka": [],
+   "words": [
+    [
+     "dangerous",
+     "year-9/english/curious-incident-ch-211-233",
+     "danger"
     ]
    ]
   },
@@ -517595,6 +523082,21 @@
      "deterring",
      "elc/english/sm-ban-harms",
      "de"
+    ],
+    [
+     "detective",
+     "year-9/english/curious-incident-ch-41-73",
+     "de"
+    ],
+    [
+     "decision",
+     "year-9/english/curious-incident-ch-157-179",
+     "de"
+    ],
+    [
+     "description",
+     "year-9/english/curious-incident-ch-211-233",
+     "de"
     ]
    ],
    "extras": [
@@ -518689,6 +524191,11 @@
      "distraction",
      "elc/english/persuasive-issue-words",
      "dis"
+    ],
+    [
+     "discovered",
+     "year-9/english/curious-incident-ch-113-151",
+     "dis"
     ]
    ],
    "extras": [
@@ -519368,6 +524875,22 @@
     ]
    ],
    "extras": []
+  },
+  "dread|fear": {
+   "surface": "dread",
+   "variants": [
+    "dread"
+   ],
+   "type": "root",
+   "gloss": "fear",
+   "aka": [],
+   "words": [
+    [
+     "dreadful",
+     "year-9/english/curious-incident-ch-41-73",
+     "dread"
+    ]
+   ]
   },
   "dress|set right": {
    "surface": "dress",
@@ -520278,6 +525801,11 @@
      "unbalanced force",
      "year-9/science/forces",
      "ed"
+    ],
+    [
+     "exhausted",
+     "year-9/english/curious-incident-ch-2-37",
+     "ed"
     ]
    ],
    "extras": []
@@ -520760,6 +526288,36 @@
     [
      "curated",
      "elc/english/sm-ban-online-life",
+     "ed"
+    ],
+    [
+     "interrupted",
+     "year-9/english/curious-incident-ch-113-151",
+     "ed"
+    ],
+    [
+     "frightened",
+     "year-9/english/curious-incident-ch-113-151",
+     "ed"
+    ],
+    [
+     "discovered",
+     "year-9/english/curious-incident-ch-113-151",
+     "ed"
+    ],
+    [
+     "complicated",
+     "year-9/english/curious-incident-ch-157-179",
+     "ed"
+    ],
+    [
+     "arrested",
+     "year-9/english/curious-incident-ch-181-199",
+     "ed"
+    ],
+    [
+     "concentrated",
+     "year-9/english/curious-incident-ch-211-233",
      "ed"
     ]
    ],
@@ -521843,6 +527401,11 @@
      "resilience",
      "elc/english/sm-ban-harms",
      "ence"
+    ],
+    [
+     "evidence",
+     "year-9/english/curious-incident-core",
+     "ence"
     ]
    ],
    "extras": [
@@ -521956,6 +527519,11 @@
     [
      "frequency",
      "elc/mathematics/probability-basics",
+     "ency"
+    ],
+    [
+     "emergency",
+     "year-9/english/curious-incident-ch-157-179",
      "ency"
     ]
    ],
@@ -522735,6 +528303,11 @@
     [
      "convergent thinking",
      "vce/visual-communication-design/unit-4-aos-1",
+     "ent"
+    ],
+    [
+     "intelligent",
+     "year-9/english/curious-incident-ch-79-109",
      "ent"
     ]
    ],
@@ -523887,6 +529460,16 @@
      "writer",
      "elc/english/persuasive-analysis",
      "er"
+    ],
+    [
+     "murderer",
+     "year-9/english/curious-incident-ch-2-37",
+     "er"
+    ],
+    [
+     "stranger",
+     "year-9/english/curious-incident-ch-41-73",
+     "er"
     ]
    ],
    "extras": [
@@ -524538,6 +530121,38 @@
     ]
    ],
    "extras": []
+  },
+  "event|outcome": {
+   "surface": "event",
+   "variants": [
+    "event"
+   ],
+   "type": "root",
+   "gloss": "outcome",
+   "aka": [],
+   "words": [
+    [
+     "eventually",
+     "year-9/english/curious-incident-ch-157-179",
+     "event"
+    ]
+   ]
+  },
+  "example|sample": {
+   "surface": "example",
+   "variants": [
+    "example"
+   ],
+   "type": "root",
+   "gloss": "sample",
+   "aka": [],
+   "words": [
+    [
+     "counterexample",
+     "year-9/english/curious-incident-ch-211-233",
+     "example"
+    ]
+   ]
   },
   "exo|out": {
    "surface": "exo",
@@ -525401,6 +531016,36 @@
      "evidence",
      "elc/english/persuasive-issue-words",
      "e"
+    ],
+    [
+     "evidence",
+     "year-9/english/curious-incident-core",
+     "e"
+    ],
+    [
+     "elaborate",
+     "year-9/english/curious-incident-core",
+     "e"
+    ],
+    [
+     "exhausted",
+     "year-9/english/curious-incident-ch-2-37",
+     "ex"
+    ],
+    [
+     "exposure",
+     "year-9/english/curious-incident-ch-113-151",
+     "ex"
+    ],
+    [
+     "experiment",
+     "year-9/english/curious-incident-ch-157-179",
+     "ex"
+    ],
+    [
+     "emergency",
+     "year-9/english/curious-incident-ch-157-179",
+     "e"
     ]
    ],
    "extras": [
@@ -525774,6 +531419,22 @@
      "fairness",
      "elc/english/persuasive-issue-words",
      "fair"
+    ]
+   ]
+  },
+  "faith|trust": {
+   "surface": "faith",
+   "variants": [
+    "faith"
+   ],
+   "type": "root",
+   "gloss": "trust",
+   "aka": [],
+   "words": [
+    [
+     "faithful",
+     "year-9/english/curious-incident-ch-2-37",
+     "faith"
     ]
    ]
   },
@@ -526574,6 +532235,11 @@
      "relationships",
      "elc/english/persuasive-issue-words",
      "lat"
+    ],
+    [
+     "infer",
+     "year-9/english/curious-incident-core",
+     "fer"
     ]
    ],
    "extras": [
@@ -527918,6 +533584,22 @@
    ],
    "origin": "Latin"
   },
+  "forward|ahead": {
+   "surface": "forward",
+   "variants": [
+    "forward"
+   ],
+   "type": "root",
+   "gloss": "ahead",
+   "aka": [],
+   "words": [
+    [
+     "straightforward",
+     "year-9/english/curious-incident-ch-79-109",
+     "forward"
+    ]
+   ]
+  },
   "for|against/away": {
    "surface": "for",
    "variants": [
@@ -528057,6 +533739,22 @@
      "refrain",
      "year-9/english/poetry",
      "frain"
+    ]
+   ]
+  },
+  "frame|border/shape": {
+   "surface": "frame",
+   "variants": [
+    "frame"
+   ],
+   "type": "root",
+   "gloss": "border, shape",
+   "aka": [],
+   "words": [
+    [
+     "reframe",
+     "year-9/english/curious-incident-core",
+     "frame"
     ]
    ]
   },
@@ -528299,6 +533997,22 @@
     ]
    ]
   },
+  "fright|fear": {
+   "surface": "fright",
+   "variants": [
+    "fright"
+   ],
+   "type": "root",
+   "gloss": "fear",
+   "aka": [],
+   "words": [
+    [
+     "frightened",
+     "year-9/english/curious-incident-ch-113-151",
+     "fright"
+    ]
+   ]
+  },
   "front|forehead/front edge": {
    "surface": "front",
    "variants": [
@@ -528427,6 +534141,16 @@
     [
      "plentiful",
      "elc/humanities/general-vocabulary",
+     "ful"
+    ],
+    [
+     "faithful",
+     "year-9/english/curious-incident-ch-2-37",
+     "ful"
+    ],
+    [
+     "dreadful",
+     "year-9/english/curious-incident-ch-41-73",
      "ful"
     ]
    ],
@@ -530710,6 +536434,11 @@
      "exhaustion",
      "elc/humanities/general-vocabulary",
      "haust"
+    ],
+    [
+     "exhausted",
+     "year-9/english/curious-incident-ch-2-37",
+     "haust"
     ]
    ]
   },
@@ -531416,6 +537145,22 @@
    ],
    "extras": []
   },
+  "home|home": {
+   "surface": "home",
+   "variants": [
+    "home"
+   ],
+   "type": "root",
+   "gloss": "home",
+   "aka": [],
+   "words": [
+    [
+     "homesick",
+     "year-9/english/curious-incident-ch-79-109",
+     "home"
+    ]
+   ]
+  },
   "homin|human": {
    "surface": "homin",
    "variants": [
@@ -531471,6 +537216,22 @@
     "homonym",
     "homophone",
     "homograph"
+   ]
+  },
+  "homun|man": {
+   "surface": "homun",
+   "variants": [
+    "homun"
+   ],
+   "type": "root",
+   "gloss": "man",
+   "aka": [],
+   "words": [
+    [
+     "homunculus",
+     "year-9/english/curious-incident-ch-157-179",
+     "homun"
+    ]
    ]
   },
   "honey|the sweet food made by bees": {
@@ -531579,6 +537340,11 @@
     [
      "horizon",
      "year-7/english/bone-sparrow-early",
+     "horizon"
+    ],
+    [
+     "horizontal",
+     "year-9/english/curious-incident-ch-181-199",
      "horizon"
     ]
    ]
@@ -531995,6 +537761,16 @@
      "hypotenuse",
      "elc/science/l4",
      "hypo"
+    ],
+    [
+     "hypothetical",
+     "year-9/english/curious-incident-ch-113-151",
+     "hypo"
+    ],
+    [
+     "hypotenuse",
+     "year-9/english/curious-incident-ch-211-233",
+     "hypo"
     ]
    ],
    "extras": [
@@ -532234,6 +538010,11 @@
     [
      "custodian",
      "year-7/humanities-civics/water-2-3",
+     "ian"
+    ],
+    [
+     "logician",
+     "year-9/english/curious-incident-ch-181-199",
      "ian"
     ]
    ],
@@ -532495,6 +538276,11 @@
     [
      "responsible government",
      "vce/politics/unit-2-aos-1",
+     "ible"
+    ],
+    [
+     "impossible",
+     "year-9/english/curious-incident-ch-157-179",
      "ible"
     ]
    ],
@@ -533855,6 +539641,21 @@
      "clinical trial",
      "elc/english/sm-ban-judging",
      "ical"
+    ],
+    [
+     "rhetorical",
+     "year-9/english/curious-incident-ch-113-151",
+     "ical"
+    ],
+    [
+     "hypothetical",
+     "year-9/english/curious-incident-ch-113-151",
+     "ical"
+    ],
+    [
+     "automatically",
+     "year-9/english/curious-incident-ch-211-233",
+     "ical"
     ]
    ],
    "extras": [
@@ -534277,6 +540078,11 @@
      "sympathies",
      "elc/humanities/general-vocabulary",
      "ies"
+    ],
+    [
+     "mysteries",
+     "year-9/english/curious-incident-ch-113-151",
+     "ies"
     ]
    ],
    "extras": []
@@ -534383,6 +540189,11 @@
     [
      "Pacific Islands Forum",
      "vce/politics/unit-4-aos-2",
+     "ific"
+    ],
+    [
+     "clarification",
+     "year-9/english/curious-incident-ch-181-199",
      "ific"
     ]
    ],
@@ -534542,6 +540353,11 @@
     [
      "justify",
      "elc/english/persuasive-issues",
+     "ify"
+    ],
+    [
+     "justify",
+     "year-9/english/curious-incident-core",
      "ify"
     ]
    ],
@@ -535853,6 +541669,16 @@
      "assuming",
      "elc/english/sm-ban-judging",
      "ing"
+    ],
+    [
+     "chatting",
+     "year-9/english/curious-incident-ch-41-73",
+     "ing"
+    ],
+    [
+     "trespassing",
+     "year-9/english/curious-incident-ch-79-109",
+     "ing"
     ]
    ],
    "extras": []
@@ -536104,6 +541930,11 @@
     [
      "intellectual property",
      "vce/visual-communication-design/unit-2-aos-2",
+     "intel"
+    ],
+    [
+     "intelligent",
+     "year-9/english/curious-incident-ch-79-109",
      "intel"
     ]
    ]
@@ -536425,6 +542256,11 @@
     [
      "interaction design",
      "vce/visual-communication-design/unit-2-aos-3",
+     "inter"
+    ],
+    [
+     "interrupted",
+     "year-9/english/curious-incident-ch-113-151",
      "inter"
     ]
    ],
@@ -537369,6 +543205,36 @@
      "implement",
      "elc/english/persuasive-issue-words",
      "im"
+    ],
+    [
+     "infer",
+     "year-9/english/curious-incident-core",
+     "in"
+    ],
+    [
+     "imply",
+     "year-9/english/curious-incident-core",
+     "im"
+    ],
+    [
+     "inspector",
+     "year-9/english/curious-incident-ch-2-37",
+     "in"
+    ],
+    [
+     "investigation",
+     "year-9/english/curious-incident-ch-41-73",
+     "in"
+    ],
+    [
+     "intuition",
+     "year-9/english/curious-incident-ch-79-109",
+     "in"
+    ],
+    [
+     "invigilator",
+     "year-9/english/curious-incident-ch-211-233",
+     "in"
     ]
    ],
    "extras": [
@@ -537654,6 +543520,11 @@
      "inadequate",
      "elc/english/sm-ban-judging",
      "in"
+    ],
+    [
+     "impossible",
+     "year-9/english/curious-incident-ch-157-179",
+     "im"
     ]
    ],
    "extras": [
@@ -539966,6 +545837,26 @@
      "inaction",
      "elc/english/sm-ban-harms",
      "ion"
+    ],
+    [
+     "intuition",
+     "year-9/english/curious-incident-ch-79-109",
+     "ion"
+    ],
+    [
+     "decision",
+     "year-9/english/curious-incident-ch-157-179",
+     "ion"
+    ],
+    [
+     "relationship",
+     "year-9/english/curious-incident-ch-181-199",
+     "ion"
+    ],
+    [
+     "description",
+     "year-9/english/curious-incident-ch-211-233",
+     "ion"
     ]
    ],
    "extras": [
@@ -540038,6 +545929,22 @@
    ],
    "origin": "Greek"
   },
+  "iour|state/condition": {
+   "surface": "iour",
+   "variants": [
+    "iour"
+   ],
+   "type": "suffix",
+   "gloss": "state/condition",
+   "aka": [],
+   "words": [
+    [
+     "behavioural",
+     "year-9/english/curious-incident-ch-41-73",
+     "iour"
+    ]
+   ]
+  },
   "ious|full of": {
    "surface": "ious",
    "variants": [
@@ -540087,6 +545994,11 @@
     [
      "suspicious",
      "elc/humanities/history",
+     "ious"
+    ],
+    [
+     "suspicious",
+     "year-9/english/curious-incident-ch-41-73",
      "ious"
     ]
    ],
@@ -540566,6 +546478,11 @@
      "summarise",
      "elc/english/persuasive-teel",
      "ise"
+    ],
+    [
+     "frightened",
+     "year-9/english/curious-incident-ch-113-151",
+     "en"
     ]
    ],
    "extras": [
@@ -543427,6 +549344,11 @@
      "prohibitive",
      "elc/english/sm-ban-judging",
      "ive"
+    ],
+    [
+     "detective",
+     "year-9/english/curious-incident-ch-41-73",
+     "ive"
     ]
    ],
    "extras": [
@@ -544085,6 +550007,11 @@
      "justify",
      "elc/english/persuasive-issues",
      "just"
+    ],
+    [
+     "justify",
+     "year-9/english/curious-incident-core",
+     "just"
     ]
    ],
    "extras": [
@@ -544370,6 +550297,11 @@
     [
      "laboratory",
      "elc/science/lab-safety-equipment",
+     "labor"
+    ],
+    [
+     "elaborate",
+     "year-9/english/curious-incident-core",
      "labor"
     ]
    ],
@@ -545627,6 +551559,11 @@
      "artificial intelligence",
      "vce/applied-computing/unit-2-aos-1",
      "lig"
+    ],
+    [
+     "intelligent",
+     "year-9/english/curious-incident-ch-79-109",
+     "lig"
     ]
    ]
   },
@@ -546412,6 +552349,22 @@
     ]
    ],
    "extras": []
+  },
+  "logic|reason": {
+   "surface": "logic",
+   "variants": [
+    "logic"
+   ],
+   "type": "root",
+   "gloss": "reason",
+   "aka": [],
+   "words": [
+    [
+     "logician",
+     "year-9/english/curious-incident-ch-181-199",
+     "logic"
+    ]
+   ]
   },
   "logy|the study of": {
    "surface": "logy",
@@ -547354,6 +553307,26 @@
      "frankly",
      "elc/science/pandemic",
      "ly"
+    ],
+    [
+     "approximately",
+     "year-9/english/curious-incident-ch-2-37",
+     "ly"
+    ],
+    [
+     "precisely",
+     "year-9/english/curious-incident-ch-2-37",
+     "ly"
+    ],
+    [
+     "eventually",
+     "year-9/english/curious-incident-ch-157-179",
+     "ly"
+    ],
+    [
+     "automatically",
+     "year-9/english/curious-incident-ch-211-233",
+     "ly"
     ]
    ]
   },
@@ -548128,6 +554101,22 @@
     ]
    ],
    "extras": []
+  },
+  "mat|moving": {
+   "surface": "mat",
+   "variants": [
+    "mat"
+   ],
+   "type": "root",
+   "gloss": "moving",
+   "aka": [],
+   "words": [
+    [
+     "automatically",
+     "year-9/english/curious-incident-ch-211-233",
+     "mat"
+    ]
+   ]
   },
   "maze|bewilder": {
    "surface": "maze",
@@ -549387,6 +555376,16 @@
      "implement",
      "elc/english/persuasive-issue-words",
      "ment"
+    ],
+    [
+     "argument",
+     "year-9/english/curious-incident-ch-41-73",
+     "ment"
+    ],
+    [
+     "experiment",
+     "year-9/english/curious-incident-ch-157-179",
+     "ment"
     ]
    ],
    "extras": [
@@ -549442,6 +555441,11 @@
     [
      "emergence",
      "vce/biology/unit-4-aos-1",
+     "merg"
+    ],
+    [
+     "emergency",
+     "year-9/english/curious-incident-ch-157-179",
      "merg"
     ]
    ],
@@ -549611,6 +555615,11 @@
     [
      "metaphor",
      "year-9/english/poetry",
+     "meta"
+    ],
+    [
+     "metaphor",
+     "year-9/english/curious-incident-ch-2-37",
      "meta"
     ]
    ],
@@ -551517,6 +557526,11 @@
      "murder",
      "elc/humanities/general-vocabulary",
      "murder"
+    ],
+    [
+     "murderer",
+     "year-9/english/curious-incident-ch-2-37",
+     "murder"
     ]
    ]
   },
@@ -551603,6 +557617,22 @@
     "mutate",
     "commute",
     "immutable"
+   ]
+  },
+  "myster|secret": {
+   "surface": "myster",
+   "variants": [
+    "myster"
+   ],
+   "type": "root",
+   "gloss": "secret",
+   "aka": [],
+   "words": [
+    [
+     "mysteries",
+     "year-9/english/curious-incident-ch-113-151",
+     "myster"
+    ]
    ]
   },
   "nal|relating to": {
@@ -551813,6 +557843,11 @@
     [
      "natural event",
      "elc/science/ecosystems",
+     "natur"
+    ],
+    [
+     "supernatural",
+     "year-9/english/curious-incident-ch-79-109",
      "natur"
     ]
    ],
@@ -554893,6 +560928,16 @@
      "online predator",
      "elc/english/sm-ban-harms",
      "or"
+    ],
+    [
+     "inspector",
+     "year-9/english/curious-incident-ch-2-37",
+     "or"
+    ],
+    [
+     "protractor",
+     "year-9/english/curious-incident-ch-181-199",
+     "or"
     ]
    ],
    "extras": [
@@ -555113,7 +561158,8 @@
   "ous|full of": {
    "surface": "ous",
    "variants": [
-    "ous"
+    "ous",
+    "ulous"
    ],
    "type": "suffix",
    "gloss": "full of",
@@ -555252,6 +561298,16 @@
     [
      "simultaneous",
      "elc/mathematics/linear-graphs-revision",
+     "ous"
+    ],
+    [
+     "ridiculous",
+     "year-9/english/curious-incident-ch-79-109",
+     "ulous"
+    ],
+    [
+     "dangerous",
+     "year-9/english/curious-incident-ch-211-233",
      "ous"
     ]
    ],
@@ -556067,6 +562123,11 @@
      "parameters",
      "elc/english/sm-ban-the-law",
      "para"
+    ],
+    [
+     "paraphrase",
+     "year-9/english/curious-incident-core",
+     "para"
     ]
    ],
    "extras": [
@@ -556428,6 +562489,11 @@
     [
      "compass",
      "year-9/science/magnetism",
+     "pass"
+    ],
+    [
+     "trespassing",
+     "year-9/english/curious-incident-ch-79-109",
      "pass"
     ]
    ],
@@ -557306,6 +563372,11 @@
     [
      "user experience",
      "vce/visual-communication-design/unit-2-aos-3",
+     "peri"
+    ],
+    [
+     "experiment",
+     "year-9/english/curious-incident-ch-157-179",
      "peri"
     ]
    ],
@@ -558260,6 +564331,11 @@
      "metaphor",
      "year-9/english/poetry",
      "phor"
+    ],
+    [
+     "metaphor",
+     "year-9/english/curious-incident-ch-2-37",
+     "phor"
     ]
    ],
    "extras": [
@@ -558327,6 +564403,22 @@
     [
      "paraphrase",
      "elc/english/persuasive-analysis",
+     "phrase"
+    ]
+   ]
+  },
+  "phrase|way of speaking": {
+   "surface": "phrase",
+   "variants": [
+    "phrase"
+   ],
+   "type": "root",
+   "gloss": "way of speaking",
+   "aka": [],
+   "words": [
+    [
+     "paraphrase",
+     "year-9/english/curious-incident-core",
      "phrase"
     ]
    ]
@@ -559237,6 +565329,16 @@
      "accomplice",
      "year-10/forensic-science/intro-crime-scene",
      "plic"
+    ],
+    [
+     "imply",
+     "year-9/english/curious-incident-core",
+     "ply"
+    ],
+    [
+     "complicated",
+     "year-9/english/curious-incident-ch-157-179",
+     "plic"
     ]
    ],
    "extras": [
@@ -560123,6 +566225,11 @@
      "make our position public",
      "elc/english/persuasive-speech-words",
      "posit"
+    ],
+    [
+     "exposure",
+     "year-9/english/curious-incident-ch-113-151",
+     "pos"
     ]
    ],
    "extras": [
@@ -560190,6 +566297,11 @@
     [
      "population",
      "year-9/humanities/rise-of-the-factory",
+     "popul"
+    ],
+    [
+     "population",
+     "year-9/english/curious-incident-ch-113-151",
      "popul"
     ]
    ],
@@ -560431,6 +566543,11 @@
     [
      "theatrical possibilities",
      "vce/theatre-studies/unit-4-aos-2",
+     "poss"
+    ],
+    [
+     "impossible",
+     "year-9/english/curious-incident-ch-157-179",
      "poss"
     ]
    ],
@@ -561377,6 +567494,11 @@
      "prescribed scene",
      "vce/theatre-studies/unit-4-aos-1",
      "pre"
+    ],
+    [
+     "precisely",
+     "year-9/english/curious-incident-ch-2-37",
+     "pre"
     ]
    ],
    "extras": [
@@ -562219,6 +568341,16 @@
      "approximate",
      "vce/command-terms/exam-instructions",
      "proxim"
+    ],
+    [
+     "approximately",
+     "year-9/english/curious-incident-ch-2-37",
+     "proxim"
+    ],
+    [
+     "approximation",
+     "year-9/english/curious-incident-ch-181-199",
+     "proxim"
     ]
    ],
    "extras": [
@@ -562636,6 +568768,11 @@
     [
      "prohibitive",
      "elc/english/sm-ban-judging",
+     "pro"
+    ],
+    [
+     "protractor",
+     "year-9/english/curious-incident-ch-181-199",
      "pro"
     ]
    ],
@@ -564244,6 +570381,22 @@
    ],
    "extras": []
   },
+  "register|a list of things recorded": {
+   "surface": "register",
+   "variants": [
+    "register"
+   ],
+   "type": "root",
+   "gloss": "a list of things recorded",
+   "aka": [],
+   "words": [
+    [
+     "register",
+     "year-9/english/curious-incident-core",
+     "register"
+    ]
+   ]
+  },
   "regist|record/register": {
    "surface": "regist",
    "variants": [
@@ -564456,6 +570609,11 @@
      "actor–audience relationship",
      "vce/theatre-studies/unit-4-aos-3",
      "relat"
+    ],
+    [
+     "relationship",
+     "year-9/english/curious-incident-ch-181-199",
+     "relat"
     ]
    ],
    "extras": [
@@ -564515,6 +570673,11 @@
     [
      "rest",
      "elc/science/l2",
+     "rest"
+    ],
+    [
+     "arrested",
+     "year-9/english/curious-incident-ch-181-199",
      "rest"
     ]
    ]
@@ -565185,6 +571348,11 @@
      "responsibility",
      "elc/english/persuasive-issue-words",
      "re"
+    ],
+    [
+     "reframe",
+     "year-9/english/curious-incident-core",
+     "re"
     ]
    ],
    "extras": [
@@ -565736,6 +571904,11 @@
      "reveals",
      "elc/english/sm-ban-judging",
      "re"
+    ],
+    [
+     "personal response",
+     "year-9/english/curious-incident-core",
+     "re"
     ]
    ],
    "extras": [
@@ -565769,6 +571942,11 @@
     [
      "rhetorical question",
      "elc/english/persuasive-techniques-audience",
+     "rhetor"
+    ],
+    [
+     "rhetorical",
+     "year-9/english/curious-incident-ch-113-151",
      "rhetor"
     ]
    ]
@@ -565821,6 +571999,22 @@
     ]
    ],
    "extras": []
+  },
+  "ridic|laugh": {
+   "surface": "ridic",
+   "variants": [
+    "ridic"
+   ],
+   "type": "root",
+   "gloss": "laugh",
+   "aka": [],
+   "words": [
+    [
+     "ridiculous",
+     "year-9/english/curious-incident-ch-79-109",
+     "ridic"
+    ]
+   ]
   },
   "right|a legal entitlement": {
    "surface": "right",
@@ -566127,6 +572321,11 @@
     [
      "bankruptcy",
      "vce/history/unit-3-4-aos-1",
+     "rupt"
+    ],
+    [
+     "interrupted",
+     "year-9/english/curious-incident-ch-113-151",
      "rupt"
     ]
    ],
@@ -566801,6 +573000,11 @@
     [
      "descriptive statistics",
      "vce/applied-computing/unit-4-aos-1",
+     "script"
+    ],
+    [
+     "description",
+     "year-9/english/curious-incident-ch-211-233",
      "script"
     ]
    ],
@@ -568137,6 +574341,11 @@
      "relationships",
      "elc/english/persuasive-issue-words",
      "ship"
+    ],
+    [
+     "relationship",
+     "year-9/english/curious-incident-ch-181-199",
+     "ship"
     ]
    ],
    "extras": [
@@ -568219,6 +574428,22 @@
      "show",
      "year-7/mathematics/command-terms",
      "show"
+    ]
+   ]
+  },
+  "sick|ill": {
+   "surface": "sick",
+   "variants": [
+    "sick"
+   ],
+   "type": "root",
+   "gloss": "ill",
+   "aka": [],
+   "words": [
+    [
+     "homesick",
+     "year-9/english/curious-incident-ch-79-109",
+     "sick"
     ]
    ]
   },
@@ -570199,6 +576424,11 @@
      "perspective drawing",
      "vce/visual-communication-design/unit-2-aos-1",
      "spect"
+    ],
+    [
+     "inspector",
+     "year-9/english/curious-incident-ch-2-37",
+     "spect"
     ]
    ],
    "extras": [
@@ -570355,6 +576585,11 @@
      "suspicious",
      "elc/humanities/history",
      "spic"
+    ],
+    [
+     "suspicious",
+     "year-9/english/curious-incident-ch-41-73",
+     "spic"
     ]
    ]
   },
@@ -570485,6 +576720,22 @@
      "respond",
      "elc/english/persuasive-analysis",
      "spond"
+    ]
+   ]
+  },
+  "spons|answer": {
+   "surface": "spons",
+   "variants": [
+    "spons"
+   ],
+   "type": "root",
+   "gloss": "answer",
+   "aka": [],
+   "words": [
+    [
+     "personal response",
+     "year-9/english/curious-incident-core",
+     "spons"
     ]
    ]
   },
@@ -571340,6 +577591,22 @@
     ]
    ]
   },
+  "stella|star": {
+   "surface": "stella",
+   "variants": [
+    "stella"
+   ],
+   "type": "root",
+   "gloss": "star",
+   "aka": [],
+   "words": [
+    [
+     "constellation",
+     "year-9/english/curious-incident-ch-157-179",
+     "stella"
+    ]
+   ]
+  },
   "stell|star": {
    "surface": "stell",
    "variants": [
@@ -571846,6 +578113,22 @@
     ]
    ]
   },
+  "straight|direct": {
+   "surface": "straight",
+   "variants": [
+    "straight"
+   ],
+   "type": "root",
+   "gloss": "direct",
+   "aka": [],
+   "words": [
+    [
+     "straightforward",
+     "year-9/english/curious-incident-ch-79-109",
+     "straight"
+    ]
+   ]
+  },
   "strain|bind/draw tight": {
    "surface": "strain",
    "variants": [
@@ -571904,6 +578187,22 @@
      "strait",
      "year-7/humanities-civics/geography-landforms",
      "strait"
+    ]
+   ]
+  },
+  "strang|foreign/from outside": {
+   "surface": "strang",
+   "variants": [
+    "strang"
+   ],
+   "type": "root",
+   "gloss": "foreign, from outside",
+   "aka": [],
+   "words": [
+    [
+     "stranger",
+     "year-9/english/curious-incident-ch-41-73",
+     "strang"
     ]
    ]
   },
@@ -572559,6 +578858,11 @@
      "Sustainable Development Goal (SDG)",
      "vce/health/unit-4-aos-2",
      "sus"
+    ],
+    [
+     "suspicious",
+     "year-9/english/curious-incident-ch-41-73",
+     "sus"
     ]
    ],
    "extras": [
@@ -572788,6 +579092,11 @@
     [
      "superstitious",
      "elc/english/flowers-for-algernon",
+     "super"
+    ],
+    [
+     "supernatural",
+     "year-9/english/curious-incident-ch-79-109",
      "super"
     ]
    ],
@@ -573973,6 +580282,22 @@
     ]
    ]
   },
+  "table|list": {
+   "surface": "table",
+   "variants": [
+    "table"
+   ],
+   "type": "root",
+   "gloss": "list",
+   "aka": [],
+   "words": [
+    [
+     "timetable",
+     "year-9/english/curious-incident-ch-181-199",
+     "table"
+    ]
+   ]
+  },
   "tabl|flat surface/board": {
    "surface": "tabl",
    "variants": [
@@ -574051,6 +580376,22 @@
     ]
    ],
    "extras": []
+  },
+  "taking|having": {
+   "surface": "taking",
+   "variants": [
+    "taking"
+   ],
+   "type": "root",
+   "gloss": "having",
+   "aka": [],
+   "words": [
+    [
+     "turn-taking",
+     "year-9/english/curious-incident-core",
+     "taking"
+    ]
+   ]
   },
   "tak|carry": {
    "surface": "tak",
@@ -574584,6 +580925,11 @@
      "protective factor",
      "vce/health/unit-2-aos-1",
      "tect"
+    ],
+    [
+     "detective",
+     "year-9/english/curious-incident-ch-41-73",
+     "tect"
     ]
    ],
    "extras": [
@@ -574909,6 +581255,11 @@
     [
      "hypotenuse",
      "vce/general-mathematics/unit-1-2-measurement",
+     "tenuse"
+    ],
+    [
+     "hypotenuse",
+     "year-9/english/curious-incident-ch-211-233",
      "tenuse"
     ]
    ],
@@ -575937,6 +582288,11 @@
      "hypothesis",
      "vce/psychology/unit-2-aos-3",
      "thes"
+    ],
+    [
+     "hypothetical",
+     "year-9/english/curious-incident-ch-113-151",
+     "thet"
     ]
    ],
    "extras": [
@@ -576239,6 +582595,11 @@
      "time interval",
      "elc/science/data-graphs",
      "time"
+    ],
+    [
+     "timetable",
+     "year-9/english/curious-incident-ch-181-199",
+     "time"
     ]
    ],
    "extras": [
@@ -576428,6 +582789,11 @@
     [
      "nutrition content claim",
      "vce/food-studies/unit-4-aos-1",
+     "tion"
+    ],
+    [
+     "constellation",
+     "year-9/english/curious-incident-ch-157-179",
      "tion"
     ]
    ],
@@ -576899,6 +583265,11 @@
     [
      "distraction",
      "elc/english/persuasive-issue-words",
+     "tract"
+    ],
+    [
+     "protractor",
+     "year-9/english/curious-incident-ch-181-199",
      "tract"
     ]
    ],
@@ -577506,6 +583877,11 @@
      "Trespass",
      "elc/humanities/general-vocabulary",
      "tres"
+    ],
+    [
+     "trespassing",
+     "year-9/english/curious-incident-ch-79-109",
+     "tres"
     ]
    ]
   },
@@ -577953,6 +584329,11 @@
      "intuition",
      "vce/philosophy/unit-2-aos-1",
      "tuit"
+    ],
+    [
+     "intuition",
+     "year-9/english/curious-incident-ch-79-109",
+     "tuit"
     ]
    ],
    "extras": []
@@ -578031,6 +584412,22 @@
     ]
    ],
    "extras": []
+  },
+  "turn|a go": {
+   "surface": "turn",
+   "variants": [
+    "turn"
+   ],
+   "type": "root",
+   "gloss": "a go",
+   "aka": [],
+   "words": [
+    [
+     "turn-taking",
+     "year-9/english/curious-incident-core",
+     "turn"
+    ]
+   ]
   },
   "turn|to change/rotate": {
    "surface": "turn",
@@ -578357,6 +584754,11 @@
     [
      "visual language",
      "vce/visual-communication-design/unit-4-aos-2",
+     "ual"
+    ],
+    [
+     "eventually",
+     "year-9/english/curious-incident-ch-157-179",
      "ual"
     ]
    ],
@@ -579001,6 +585403,11 @@
      "union",
      "elc/mathematics/probability-representations",
      "uni"
+    ],
+    [
+     "universe",
+     "year-9/english/curious-incident-ch-2-37",
+     "uni"
     ]
    ],
    "extras": [
@@ -579448,6 +585855,11 @@
     [
      "peer pressure",
      "elc/english/sm-ban-harms",
+     "ure"
+    ],
+    [
+     "exposure",
+     "year-9/english/curious-incident-ch-113-151",
      "ure"
     ]
    ],
@@ -581003,6 +587415,21 @@
      "convergent thinking",
      "vce/visual-communication-design/unit-4-aos-1",
      "verg"
+    ],
+    [
+     "universe",
+     "year-9/english/curious-incident-ch-2-37",
+     "vers"
+    ],
+    [
+     "conversation",
+     "year-9/english/curious-incident-ch-79-109",
+     "vers"
+    ],
+    [
+     "converse",
+     "year-9/english/curious-incident-ch-211-233",
+     "vers"
     ]
    ],
    "extras": [
@@ -581070,6 +587497,11 @@
     [
      "Area of Investigation",
      "vce/music/unit-4-aos-2",
+     "vestig"
+    ],
+    [
+     "investigation",
+     "year-9/english/curious-incident-ch-41-73",
      "vestig"
     ]
    ],
@@ -581490,6 +587922,11 @@
      "advisory council",
      "elc/english/sm-ban-the-law",
      "vis"
+    ],
+    [
+     "evidence",
+     "year-9/english/curious-incident-core",
+     "vid"
     ]
    ],
    "extras": [
@@ -581547,6 +587984,11 @@
     [
      "vigilance",
      "elc/english/harrison-bergeron",
+     "vigil"
+    ],
+    [
+     "invigilator",
+     "year-9/english/curious-incident-ch-211-233",
      "vigil"
     ]
    ]

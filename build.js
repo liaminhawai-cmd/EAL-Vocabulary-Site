@@ -1,2 +1,2 @@
 // Public deployment build number. Bump when runtime files change.
-self.__BUILD__ = 95;
+self.__BUILD__ = 96;
