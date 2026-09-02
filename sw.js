@@ -45,8 +45,14 @@ self.addEventListener('fetch', (event) => {
   // cached it, serve that copy immediately instead of blocking every launch
   // on a fresh multi-megabyte network request. A bumped BUILD creates and
   // preloads a new cache, so releases still receive their matching data.
-  const isVocab = /\/data\/vocab\.json$/.test(url.pathname);
-  if (isVocab) {
+  //
+  // readings.json (the pinyin/bopomofo the ruby toggle draws) is cached the
+  // same way but deliberately NOT precached above: the toggle is off by
+  // default, so most students should never pay for the download. The first
+  // student who switches it on fetches it once, and from then on it is
+  // available offline like everything else.
+  const isData = /\/data\/(?:vocab|readings)\.json$/.test(url.pathname);
+  if (isData) {
     event.respondWith(
       caches.match(event.request).then((cached) => cached ||
         fetch(event.request).then((response) => {

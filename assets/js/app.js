@@ -466,7 +466,7 @@ function morphLine(w, opts = {}) {
     }
     const native = dispLang ? pickExact(p.translations, dispLang) : '';
     add(line, ' ', h('i', { class: 'ml-gloss' },
-      p.meaning || '', ...glossAlts(p, w.word), native ? ` · ${native}` : ''));
+      p.meaning || '', ...glossAlts(p, w.word), native ? ' \u00b7 ' : '', native ? nat(native, dispLang) : ''));
   });
   if (note) add(line, h('span', { class: 'ml-note' }, h('b', {}, 'Word story '), note));
   return line;
@@ -792,6 +792,100 @@ function langPicker() {
   }
   return sel;
 }
+// ---------------------------------------------------------------------------
+// PRONUNCIATION RUBY — off by default
+//
+// Chinese translations used to carry pinyin inline, in brackets, in both the
+// Simplified and the Traditional cell: 各種各樣 (gè zhǒng gè yàng). That is a
+// reading aid a student cannot turn off, and in the Traditional cell it is the
+// wrong system entirely — a Taiwan reader learns 注音, not pinyin. The brackets
+// are gone from the data. This puts the reading back as ruby above the
+// characters, at the press of a button, in the system that matches the script:
+// pinyin over Simplified, bopomofo over Traditional.
+//
+// Default off, because the point of the translation is the meaning. The choice
+// is per-device and lives in localStorage like every other preference.
+// ---------------------------------------------------------------------------
+let READINGS = null;              // loaded on first use, never on a cold page
+let READINGS_PENDING = false;
+const HAN_RE = /[\u3400-\u9FFF\uF900-\uFAFF]/;
+
+function rubyOn() { return store.getPref('ruby', '0') === '1'; }
+function rubyLangOk(lang) { return lang === 'zh-Hans' || lang === 'zh-Hant'; }
+// The button only makes sense while the student is reading Chinese; for every
+// other language there is nothing to put above the letters.
+function rubyAvailable() { return rubyLangOk(getLang()); }
+
+function loadReadings(then) {
+  if (READINGS || READINGS_PENDING) { if (READINGS && then) then(); return; }
+  READINGS_PENDING = true;
+  fetch('data/readings.json?v=' + BUILD)
+    .then((r) => (r.ok ? r.json() : null))
+    .then((j) => { READINGS = j; READINGS_PENDING = false; if (then) then(); })
+    .catch(() => { READINGS = null; READINGS_PENDING = false; });
+}
+
+// The readings for one exact string: the phrase-aware list when the generator
+// found this string worth overriding, otherwise character by character.
+function readingsFor(text, lang) {
+  if (!READINGS) return null;
+  const bopo = lang === 'zh-Hant';
+  const phrase = (bopo ? READINGS.bopomofoPhrase : READINGS.pinyinPhrase) || {};
+  if (phrase[text]) return phrase[text];
+  const chars = (bopo ? READINGS.bopomofoChar : READINGS.pinyinChar) || {};
+  const out = [];
+  for (const ch of text) if (HAN_RE.test(ch)) out.push(chars[ch] || '');
+  return out.length ? out : null;
+}
+
+// A translation string as a DOM node. Off, or not Chinese, or not yet loaded:
+// the plain string, exactly as before — so nothing about the normal page
+// changes. On: each Han character wrapped in <ruby> with its reading, and
+// everything else (punctuation, Latin, spaces) left alone.
+function nat(text, lang) {
+  if (!text || typeof text !== 'string') return text;
+  if (!rubyOn() || !rubyLangOk(lang) || !HAN_RE.test(text)) return text;
+  if (!READINGS) { loadReadings(() => router()); return text; }
+  const reads = readingsFor(text, lang);
+  if (!reads) return text;
+  const frag = document.createDocumentFragment();
+  let i = 0, run = '';
+  const flush = () => { if (run) { frag.append(document.createTextNode(run)); run = ''; } };
+  for (const ch of text) {
+    if (HAN_RE.test(ch)) {
+      flush();
+      const r = reads[i++] || '';
+      frag.append(r ? h('ruby', {}, ch, h('rt', {}, r)) : document.createTextNode(ch));
+    } else {
+      run += ch;
+    }
+  }
+  flush();
+  // The two systems need different room: pinyin is a wide Latin string that
+  // sits happily over one character, zhuyin is a tall stack of marks that
+  // needs the base characters spread apart. The class lets the CSS tell them
+  // apart without re-deriving the language.
+  return h('span', { class: `nat ${lang === 'zh-Hant' ? 'bopo' : 'pinyin'}` }, frag);
+}
+
+function rubyToggle(rerender) {
+  if (!rubyAvailable()) return null;
+  const on = rubyOn();
+  const redraw = typeof rerender === 'function' ? rerender : router;
+  const label = getLang() === 'zh-Hant' ? 'ㄅㄆㄇ' : 'pīnyīn';
+  return h('button', {
+    class: `ruby-toggle${on ? ' on' : ''}`, type: 'button',
+    'aria-pressed': on ? 'true' : 'false',
+    title: on ? 'Hide the pronunciation above the characters'
+              : 'Show the pronunciation above the characters',
+    onclick: (e) => {
+      e.preventDefault();
+      store.setPref('ruby', on ? '0' : '1');
+      if (!on && !READINGS) loadReadings(redraw); else redraw();
+    },
+  }, label);
+}
+
 function stat(label, val) {
   return h('div', { class: 'stat' },
     h('div', { class: 'stat-val' }, String(val)),
@@ -846,7 +940,8 @@ function renderHome() {
       h('p', { class: 'lead' },
         'Pick your level and subject, build each word from its morphemes, guess the meaning, ' +
         'then master it with flashcards.'),
-      h('div', { class: 'hero-row' }, h('span', { class: 'muted' }, 'My language:'), langPicker())),
+      h('div', { class: 'hero-row' }, h('span', { class: 'muted' }, 'My language:'), langPicker(),
+        rubyToggle())),
     s.total > 0 && h('section', { class: 'statbar' },
       st.current > 0 && stat('🔥 Day streak', st.current),
       stat('In progress', s.learning), stat('Mastered', s.mastered), stat('Reviews done', s.reviews),
@@ -1220,7 +1315,7 @@ function renderBuildBoard({ levelId, subjectId, unitId }) {
         h('span', { class: 'muted small' }, `${sets[si].length} words in this set`),
         h('div', { class: 'progress thin' },
           h('div', { class: 'progress-fill', style: `width:${(totalDone / totalWords) * 100}%` }))),
-      h('div', { class: 'row gap' }, buildLangPicker(),
+      h('div', { class: 'row gap' }, buildLangPicker(), rubyToggle(render_),
         labelRight,
         h('a', { class: 'btn ghost small', href: parentHref }, 'Exit')));
   }
@@ -1258,7 +1353,9 @@ function renderBuildBoard({ levelId, subjectId, unitId }) {
           },
         }),
         (pickTranslation(w.translations, lang) || pickExact(w.translations, dispLang)) &&
-          h('p', { class: 'study-trans wtr' }, pickTranslation(w.translations, lang) || pickExact(w.translations, dispLang)),
+          h('p', { class: 'study-trans wtr' },
+            nat(pickTranslation(w.translations, lang) || pickExact(w.translations, dispLang),
+                pickTranslation(w.translations, lang) ? lang : dispLang)),
         w.example && h('p', { class: 'study-example' }, '“' + w.example + '”'),
         w.context && h('p', { class: 'study-context' }, h('b', {}, 'In the text: '), w.context),
         w.origin && !inlineNote && h('details', { class: 'word-story' },
@@ -1314,7 +1411,7 @@ function renderBuildBoard({ levelId, subjectId, unitId }) {
     const tr = pickTranslation(b.w.translations, getLang());
     return h('div', { class: 'board-row done mini' },
       h('span', { class: 'board-built' }, '✓ ', b.w.word, say(b.w.word)),
-      tr && h('span', { class: 'board-trans wtr' }, tr),
+      tr && h('span', { class: 'board-trans wtr' }, nat(tr, getLang())),
       h('span', { class: 'board-def mini muted small' }, b.w.meaning || ''));
   }
   // Distractor WORDS (not defs/translations) from elsewhere in the unit, for
@@ -1370,7 +1467,7 @@ function renderBuildBoard({ levelId, subjectId, unitId }) {
     const tr = pickTranslation(b.w.translations, getLang());
     return h('div', { class: `board-row board-row-reveal ${b.wrong ? 'wrong' : ''}` },
       h('div', { class: 'board-def' }, b.w.meaning || '',
-        tr && h('div', { class: 'board-trans wtr' }, tr),
+        tr && h('div', { class: 'board-trans wtr' }, nat(tr, getLang())),
         h('div', { class: 'muted small' }, 'Which word is this?')),
       h('div', { class: 'check-opts' }, ...shown.map((o) => h('button', {
         class: 'check-opt', type: 'button',
@@ -1592,7 +1689,7 @@ function renderLearn({ levelId, subjectId, unitId }) {
           h('span', { class: 'muted small' }, `Word ${idx + 1} of ${total}`),
           h('div', { class: 'progress thin' },
             h('div', { class: 'progress-fill', style: `width:${(idx / total) * 100}%` }))),
-        h('div', { class: 'row gap' }, learnLangPicker(),
+        h('div', { class: 'row gap' }, learnLangPicker(), rubyToggle(show),
           h('a', { class: 'btn ghost small', href: parentHref }, 'Exit'))),
       hasMorphology
         ? buildWordCard(subject, unit, word, lang, goNext)
@@ -1643,7 +1740,7 @@ function learnWordCard(subject, unit, word, lang, onDone) {
     h('p', { class: 'build-hint' },
       'This word doesn’t split into parts — there’s nothing to build. Just learn what it means and keep it in your revision.'),
     h('div', { class: 'lw-word' }, h('strong', {}, word.word), say(word.word, 'en', 'lg')),
-    wholeWord && h('p', { class: 'flash-translation' }, wholeWord, say(wholeWord, lang, 'sm')),
+    wholeWord && h('p', { class: 'flash-translation' }, nat(wholeWord, lang), say(wholeWord, lang, 'sm')),
     h('div', { class: 'meaning-box' },
       h('p', { class: 'meaning' }, word.meaning || '(no dictionary definition yet — learn it from the translation)'),
       word.example && h('p', { class: 'example' }, '“' + word.example + '”')),
@@ -1747,7 +1844,7 @@ function buildWordCard(subject, unit, word, lang, onDone) {
           bankChip(m),
           h('span', { class: 'mbank-mean' },
             h('span', { class: 'mbank-en' }, m.meaning || ''),
-            native && h('span', { class: 'mbank-native' }, native)));
+            native && h('span', { class: 'mbank-native' }, nat(native, dispLang))));
       })));
     return h('div', { class: 'mbank' },
       colFor('Prefixes', bank.prefix, 'prefix'),
@@ -1779,7 +1876,7 @@ function buildWordCard(subject, unit, word, lang, onDone) {
       return h('div', { class: 'write-row reveal-row' },
         h('span', { class: `chip ${p.type}` }, p.surface),
         h('span', { class: 'write-en' }, p.meaning || '—'),
-        native && h('span', { class: 'answer' }, native));
+        native && h('span', { class: 'answer' }, nat(native, dispLang)));
     });
     const guess = h('textarea', { class: 'guess', rows: '2', lang: speech.bcp47(lang) || null,
       placeholder: `What do you think “${word.word}” means?` });
@@ -1809,13 +1906,13 @@ function buildWordCard(subject, unit, word, lang, onDone) {
       return h('div', { class: 'write-row reveal-row' },
         h('span', { class: `chip ${p.type}` }, p.surface),
         h('span', { class: 'write-en' }, p.meaning || '—'),
-        answer && h('span', { class: 'answer' }, answer));
+        answer && h('span', { class: 'answer' }, nat(answer, dispLang)));
     });
     add(card,
       h('p', { class: 'kicker' }, 'Step 3 — The meaning'),
       h('div', { class: 'built-word' }, h('strong', {}, word.word), say(word.word)),
       h('div', { class: 'write-list' }, ...morphRows),
-      wholeWord && h('p', { class: 'flash-translation' }, wholeWord, say(wholeWord, lang, 'sm')),
+      wholeWord && h('p', { class: 'flash-translation' }, nat(wholeWord, lang), say(wholeWord, lang, 'sm')),
       h('div', { class: 'meaning-box' },
         h('p', { class: 'meaning' }, word.meaning || '(no dictionary definition yet — use your morphemes above)'),
         word.example && h('p', { class: 'example' }, '“' + word.example + '”')),
@@ -2204,7 +2301,7 @@ function renderDrill() {
     const showHome = mode !== 'def' && c.wholeWord;
     return h('div', { class: 'mc-prompt' },
       showDef && h('p', { class: 'meaning big' }, showDef),
-      showHome && h('p', { class: 'flash-translation' }, c.wholeWord, say(c.wholeWord, c.lang, 'sm')),
+      showHome && h('p', { class: 'flash-translation' }, nat(c.wholeWord, c.lang), say(c.wholeWord, c.lang, 'sm')),
       !showDef && !showHome && h('p', { class: 'muted' }, 'Recall this word.'));
   }
 
@@ -2432,14 +2529,14 @@ function renderDrill() {
       return h('div', { class: 'write-row reveal-row' },
         h('span', { class: `chip ${p.type}` }, p.surface),
         h('span', { class: 'write-en' }, p.meaning || '—'),
-        native && h('span', { class: 'answer' }, native));
+        native && h('span', { class: 'answer' }, nat(native, c.dispLang)));
     });
     render(h('div', { class: 'stack drill' }, head(remaining),
       h('div', { class: `card flash reveal ${ok ? 'ok' : 'no'}` },
         h('div', { class: 'flash-face' },
           h('p', { class: `kicker ${ok ? 'good-text' : 'bad-text'}` }, ok ? '✓ Correct' : '✗ Not quite'),
           h('div', { class: 'flash-word' }, c.w.word, say(c.w.word, 'en', 'lg')),
-          c.wholeWord && h('p', { class: 'flash-translation' }, c.wholeWord, say(c.wholeWord, c.lang, 'sm')),
+          c.wholeWord && h('p', { class: 'flash-translation' }, nat(c.wholeWord, c.lang), say(c.wholeWord, c.lang, 'sm')),
           morphRows.length ? h('div', { class: 'write-list' }, ...morphRows) : null,
           c.w.meaning && h('p', { class: 'meaning' }, c.w.meaning),
           c.w.example && h('p', { class: 'example' }, '“' + c.w.example + '”'),
@@ -2572,7 +2669,7 @@ function myWordMorphChip(part, word, lang, compact) {
   const fam = FAMILY_TYPES.has(part.type) ? morphemeFamily(part) : null;
   const inner = [
     ...spellingChip(part),
-    h('i', { class: 'mo-gloss' }, part.meaning || '', native ? ' \u00b7 ' + native : ''),
+    h('i', { class: 'mo-gloss' }, part.meaning || '', native ? ' \u00b7 ' : '', native ? nat(native, lang) : ''),
     ...(compact ? [] : glossAlts(part, word)),
   ];
   if (!fam) return h('span', { class: ('mo-chip ' + (part.type || '')).trim() }, ...inner);
@@ -2601,7 +2698,7 @@ function renderWords() {
     return h('div', { class: 'word-card' },
       h('div', { class: 'wc-head' },
         h('span', { class: 'wr-word' }, it.word, say(it.word)),
-        tr && h('span', { class: 'wc-trans' }, tr)),
+        tr && h('span', { class: 'wc-trans' }, nat(tr, lang))),
       w && (w.parts || []).length >= 2 && h('div', { class: 'wc-morphs' },
         ...w.parts.map((pt) => myWordMorphChip(pt, w.word, lang, true))),
       w && w.meaning && h('p', { class: 'wc-def' }, w.meaning),
@@ -2643,7 +2740,7 @@ function renderWords() {
       stat('Total', s.total), stat('Mastered', s.mastered), stat('Learning', s.learning),
       store.dueForReview().length > 0 && h('a', { class: 'btn primary', href: '#/pick' }, 'Revise now')),
     s.total > 0 && h('div', { class: 'row gap wr-langbar' },
-      h('span', { class: 'muted small' }, 'Translations in:'), langPicker(),
+      h('span', { class: 'muted small' }, 'Translations in:'), langPicker(), rubyToggle(),
       h('span', { class: 'muted small' }, '\u00b7 tap a word-part to see every word that shares it')),
     s.total === 0
       ? h('p', { class: 'muted' }, 'No words yet — build some from a unit to start your collection.')
@@ -2678,7 +2775,7 @@ function renderBrowse({ levelId, subjectId, unitId }) {
     h('h1', {}, unit.name),
     h('p', { class: 'muted' }, `${unit.words.length} words`),
     anyTrans && h('div', { class: 'row gap' },
-      h('span', { class: 'muted small' }, 'Showing translations in:'), langPicker()),
+      h('span', { class: 'muted small' }, 'Showing translations in:'), langPicker(), rubyToggle()),
     h('p', { class: 'muted small' },
       'Tap any coloured word-part to see every other word that shares it.'),
     unit.words.some((w) => w.parts && w.parts.length >= 2) && h('div', { class: 'bank-legend ink' },
@@ -2692,7 +2789,8 @@ function renderBrowse({ levelId, subjectId, unitId }) {
           return h('div', { class: 'word-row' },
             h('div', { class: 'wr-main' },
               h('span', { class: 'wr-word' }, ...colourWordNodes(w), say(w.word)),
-              h('span', { class: 'wr-trans' }, pickTranslation(w.translations, lang) || h('span', { class: 'muted small' }, '—'))),
+              h('span', { class: 'wr-trans' },
+                nat(pickTranslation(w.translations, lang), lang) || h('span', { class: 'muted small' }, '—'))),
             w.meaning && h('p', { class: 'wr-def' }, w.meaning),
             morphLine(w, {
               dispLang,
@@ -2728,7 +2826,7 @@ function renderMorphemes({ levelId, subjectId }) {
     if (!m) return h('td', { class: cls });
     if (field === 'morph') return h('td', { class: `${cls} morph-cell` }, m.morpheme);
     if (field === 'meaning') return h('td', { class: cls }, m.meaning || '');
-    return h('td', { class: `${cls} native-cell` }, pickExact(m.translations, dispLang));
+    return h('td', { class: `${cls} native-cell` }, nat(pickExact(m.translations, dispLang), dispLang));
   };
   const bodyRows = [];
   for (let i = 0; i < rows; i++) {
@@ -2744,7 +2842,7 @@ function renderMorphemes({ levelId, subjectId }) {
     h('h1', {}, 'Morpheme bank'),
     h('p', { class: 'muted' }, `${subject.name} — prefixes, roots and suffixes`),
     h('div', { class: 'row gap' },
-      h('span', { class: 'muted small' }, 'Showing translations in:'), langPicker()),
+      h('span', { class: 'muted small' }, 'Showing translations in:'), langPicker(), rubyToggle()),
     h('div', { class: 'bank-legend' },
       h('span', {}, h('i', { class: 'prefix' }), 'Prefixes'),
       h('span', {}, h('i', { class: 'root' }), 'Roots'),
@@ -2991,7 +3089,7 @@ function dictWordCard(e, lang) {
     h('div', { class: 'dict-head' },
       h('div', { class: 'dict-head-text' },
         h('div', { class: 'dw-word' }, w.word, say(w.word)),
-        tr && h('div', { class: 'dw-trans' }, tr))));
+        tr && h('div', { class: 'dw-trans' }, nat(tr, lang)))));
   if ((w.parts || []).length >= 2) {
     add(card, h('div', { class: 'wc-morphs' },
       ...w.parts.map((pt) => myWordMorphChip(pt, w.word, lang))));
@@ -3106,6 +3204,10 @@ function renderDictionary() {
     h('h1', {}, 'Dictionary'),
     h('p', { class: 'muted' },
       'Two ways in: the word-parts that build the language, and every word the site teaches.'),
+    // Word cards here carry the student's translation, so the pronunciation
+    // toggle belongs on this page too — the dictionary is where a student
+    // looks a word up, which is exactly when they want to know how to say it.
+    rubyAvailable() && h('div', { class: 'toolbar' }, rubyToggle()),
     tabBar,
     input,
     filterBar,
