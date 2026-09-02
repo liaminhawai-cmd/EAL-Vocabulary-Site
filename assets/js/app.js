@@ -2531,7 +2531,14 @@ function renderProgress() {
               h('span', {}, labelForSubject(b.subject)),
               h('span', { class: 'muted small' }, `${b.mastered}/${b.total} mastered`)),
             h('div', { class: 'progress' }, h('div', { class: 'progress-fill', style: `width:${pct}%` })));
-        }))));
+        })),
+    // The ELC hub keeps one dated record across every app — phonics, grammar,
+    // STEM and this one. They are all GitHub Pages sites on a single origin,
+    // so it reads the same browser storage this page does. A link, not a sync:
+    // nothing leaves the device.
+    h('p', { class: 'muted small' },
+      h('a', { href: 'https://liaminhawai-cmd.github.io/ELC-Pages/report.html' },
+        'See my progress across all ELC apps →'))));
 }
 const BIN_META = {
   learning: { icon: '🌱', name: 'Learning', note: 'new or tricky — keep practising' },
