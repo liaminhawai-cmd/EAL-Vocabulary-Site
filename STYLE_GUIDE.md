@@ -84,6 +84,8 @@ When the teacher makes a choice you would not have made, ask **once**, neutrally
 
 **No fluff.** Banned outright: streaks, points, badges, confetti, celebration animations, motivational copy. If a string does not teach, instruct, or report real state, delete it. Do not ask permission to add these; the answer is no.
 
+**The resource never explains itself. The teacher explains the resource.** No "how this works" paragraph, no purpose statement, no welcome text, no instructions-to-the-student prose on the page or in the booklet. A label that names a control, a field or a section is fine; anything that narrates what the student is about to do, why it matters, or how to use the thing is deleted, and the teacher says it in the room. The explanation lives in the lesson plan, a separate document the student never sees. A resource that needs a paragraph to be usable is not finished; a resource that carries the paragraph anyway is teaching the wrong person. This applies to the EAL version as much as the standard one: the scaffolding is in the lesson, not on the sheet.
+
 **Effort order: mechanic → feedback → content → polish.** You will be tempted to theme and style before the learning loop works. Until questions 1–4 above are answered, write no styling beyond layout.
 
 ---
