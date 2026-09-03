@@ -461003,11 +461003,6 @@
      "a"
     ],
     [
-     "aspiration",
-     "elc/english/of-mice-and-men",
-     "a"
-    ],
-    [
      "aspect",
      "vce/command-terms/academic-nouns",
      "a"
@@ -522147,11 +522142,6 @@
      "aspiration",
      "elc/english/of-mice-and-men",
      "a"
-    ],
-    [
-     "aspiration",
-     "elc/english/of-mice-and-men",
-     "a"
     ]
    ],
    "extras": [],
@@ -572214,22 +572204,6 @@
     "company",
     "companion",
     "pantry"
-   ]
-  },
-  "pan|bread": {
-   "surface": "pan",
-   "variants": [
-    "pan"
-   ],
-   "type": "root",
-   "gloss": "bread",
-   "aka": [],
-   "words": [
-    [
-     "companionship",
-     "elc/english/of-mice-and-men",
-     "pan"
-    ]
    ]
   },
   "parallel|side by side": {
