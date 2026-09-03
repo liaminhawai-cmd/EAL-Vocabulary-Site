@@ -224387,7 +224387,26 @@
            "surface": "mass",
            "type": "root",
            "meaning": "lump/quantity",
-           "translations": {}
+           "translations": {
+            "zh-Hans": "团块；质量",
+            "zh-Hant": "團塊；質量",
+            "ja": "かたまり／質量",
+            "ko": "덩어리／질량",
+            "vi": "khối lượng",
+            "ar": "كتلة",
+            "fa": "توده/جرم",
+            "ur": "تودہ/کمیت",
+            "am": "ብዛት/ክምር",
+            "ml": "പിണ്ഡം",
+            "ta": "திரள்/நிறை",
+            "tl": "buo-buong dami",
+            "ps": "ډله/کتله",
+            "ro": "masă",
+            "ru": "масса",
+            "fr": "masse",
+            "hi": "पिंड/द्रव्यमान",
+            "es": "masa"
+           }
           },
           {
            "surface": "ed",
@@ -238875,54 +238894,28 @@
          "word": "vulnerable",
          "parts": [
           {
-           "surface": "vuln",
+           "surface": "vulner",
            "type": "root",
            "meaning": "wound",
            "translations": {
-            "zh-Hans": "伤口",
-            "zh-Hant": "傷口",
-            "ja": "傷",
             "am": "ቁስል",
             "ar": "جرح",
             "es": "herida",
             "fa": "زخم",
             "fr": "blessure",
             "hi": "घाव",
+            "ja": "傷",
             "ko": "상처",
             "ml": "മുറിവ്",
-            "ps": "زخم",
+            "ps": "ټپ",
             "ro": "rană",
             "ru": "рана",
             "ta": "காயம்",
             "tl": "sugat",
             "ur": "زخم",
-            "vi": "vết thương"
-           }
-          },
-          {
-           "surface": "er",
-           "type": "suffix",
-           "meaning": "person / thing",
-           "translations": {
-            "zh-Hans": "人 / 物",
-            "zh-Hant": "人 / 物",
-            "ja": "人 / 物",
-            "am": "ሰው/ነገር",
-            "ar": "ـر",
-            "es": "persona/cosa",
-            "fa": "کننده",
-            "fr": "personne/chose",
-            "hi": "व्यक्ति/वस्तु",
-            "ko": "사람/사물",
-            "ml": "ആൾ/വസ്തു",
-            "ps": "کس/شی",
-            "ro": "persoană/lucru",
-            "ru": "человек/предмет",
-            "ta": "நபர்/பொருள்",
-            "tl": "tao/bagay",
-            "ur": "شخص/چیز",
-            "vi": "người/vật",
-            "other": "کننده"
+            "vi": "vết thương",
+            "zh-Hans": "伤口",
+            "zh-Hant": "傷口"
            }
           },
           {
@@ -238930,28 +238923,28 @@
            "type": "suffix",
            "meaning": "can be",
            "translations": {
-            "zh-Hans": "可以……的",
-            "zh-Hant": "可以……的",
-            "ja": "～できる",
-            "am": "መቻል",
-            "ar": "قادر على",
-            "es": "puede ser",
             "fa": "قابل",
-            "fr": "capable",
-            "hi": "सकना",
+            "am": "የሚችል",
+            "ar": "قادر على",
+            "es": "capaz de",
+            "fr": "capable de",
+            "hi": "योग्य",
+            "ja": "できる",
             "ko": "할 수 있는",
             "ml": "കഴിയുന്ന",
             "ps": "وړ",
             "ro": "capabil",
-            "ru": "можно",
+            "ru": "способный",
             "ta": "முடியும்",
             "tl": "kaya",
             "ur": "قابل",
-            "vi": "có thể"
+            "vi": "có thể",
+            "zh-Hans": "能够",
+            "zh-Hant": "能夠"
            }
           }
          ],
-         "root": "vuln",
+         "root": "vulner",
          "meaning": "",
          "example": "",
          "translations": {
@@ -244706,7 +244699,26 @@
            "surface": "mass",
            "type": "root",
            "meaning": "lump/quantity",
-           "translations": {}
+           "translations": {
+            "zh-Hans": "团块；质量",
+            "zh-Hant": "團塊；質量",
+            "ja": "かたまり／質量",
+            "ko": "덩어리／질량",
+            "vi": "khối lượng",
+            "ar": "كتلة",
+            "fa": "توده/جرم",
+            "ur": "تودہ/کمیت",
+            "am": "ብዛት/ክምር",
+            "ml": "പിണ്ഡം",
+            "ta": "திரள்/நிறை",
+            "tl": "buo-buong dami",
+            "ps": "ډله/کتله",
+            "ro": "masă",
+            "ru": "масса",
+            "fr": "masse",
+            "hi": "पिंड/द्रव्यमान",
+            "es": "masa"
+           }
           }
          ],
          "root": "mass",
@@ -248937,7 +248949,26 @@
            "surface": "mass",
            "type": "root",
            "meaning": "lump/quantity",
-           "translations": {}
+           "translations": {
+            "zh-Hans": "团块；质量",
+            "zh-Hant": "團塊；質量",
+            "ja": "かたまり／質量",
+            "ko": "덩어리／질량",
+            "vi": "khối lượng",
+            "ar": "كتلة",
+            "fa": "توده/جرم",
+            "ur": "تودہ/کمیت",
+            "am": "ብዛት/ክምር",
+            "ml": "പിണ്ഡം",
+            "ta": "திரள்/நிறை",
+            "tl": "buo-buong dami",
+            "ps": "ډله/کتله",
+            "ro": "masă",
+            "ru": "масса",
+            "fr": "masse",
+            "hi": "पिंड/द्रव्यमान",
+            "es": "masa"
+           }
           },
           {
            "surface": "num",
@@ -364889,6 +364920,1420 @@
         }
        ],
        "path": "elc/english/sm-ban-judging"
+      },
+      {
+       "id": "of-mice-and-men",
+       "name": "Of Mice and Men",
+       "interactive": false,
+       "folderId": null,
+       "words": [
+        {
+         "word": "migrant",
+         "parts": [
+          {
+           "surface": "migr",
+           "type": "root",
+           "meaning": "move / travel",
+           "translations": {
+            "am": "መንቀሳቀስ/መጓዝ",
+            "ar": "تنقل/سفر",
+            "es": "moverse/viajar",
+            "fa": "حرکت/سفر",
+            "fr": "se déplacer/voyager",
+            "hi": "चलना/यात्रा",
+            "ja": "移動する/旅行する",
+            "ko": "이동하다/여행하다",
+            "ml": "നീങ്ങുക/സഞ്ചരിക്കുക",
+            "ps": "حرکت/سفر",
+            "ro": "a se deplasa/a călători",
+            "ru": "перемещаться/путешествовать",
+            "ta": "நகர்தல்/பயணித்தல்",
+            "tl": "gumalaw/maglakbay",
+            "ur": "حرکت کرنا/سفر کرنا",
+            "vi": "di chuyển/du hành",
+            "zh-Hans": "移动/旅行",
+            "zh-Hant": "移動/旅行"
+           }
+          },
+          {
+           "surface": "ant",
+           "type": "suffix",
+           "meaning": "one who",
+           "translations": {
+            "am": "ያለው",
+            "ar": "ذو صفة",
+            "es": "que tiene la cualidad de",
+            "fa": "دارای",
+            "fr": "ayant la qualité de",
+            "hi": "गुणयुक्त",
+            "ja": "〜性",
+            "ko": "~성",
+            "ml": "ഗുണമുള്ള",
+            "ps": "لرونکی",
+            "ro": "având calitatea de",
+            "ru": "обладающий",
+            "ta": "குணமுள்ள",
+            "tl": "may katangian",
+            "ur": "والا",
+            "vi": "có tính chất",
+            "zh-Hans": "…性",
+            "zh-Hant": "…性"
+           }
+          }
+         ],
+         "root": "migr",
+         "meaning": "a person who moves from place to place to find work.",
+         "example": "George and Lennie are migrant workers, walking from one ranch to the next.",
+         "context": "",
+         "origin": "",
+         "related": [],
+         "tier": 2,
+         "translations": {
+          "zh-Hans": "流动劳工",
+          "zh-Hant": "流動工人",
+          "ja": "移動労働者",
+          "ko": "이주 노동자",
+          "vi": "người lao động di cư",
+          "ar": "عامل متنقّل",
+          "fa": "کارگر مهاجر",
+          "ur": "نقل مکانی کرنے والا مزدور",
+          "am": "ተዘዋዋሪ ሠራተኛ",
+          "ml": "കുടിയേറ്റ തൊഴിലാളി",
+          "ta": "இடம்பெயர் தொழிலாளி",
+          "tl": "manggagawang lumilipat-lipat",
+          "ps": "کډوال کارګر",
+          "ro": "muncitor migrant",
+          "ru": "рабочий-мигрант",
+          "fr": "travailleur migrant",
+          "hi": "प्रवासी मज़दूर",
+          "es": "trabajador migrante"
+         }
+        },
+        {
+         "word": "itinerant",
+         "parts": [
+          {
+           "surface": "itiner",
+           "type": "root",
+           "meaning": "journey",
+           "translations": {
+            "zh-Hans": "旅程",
+            "zh-Hant": "旅程",
+            "ja": "旅程",
+            "ko": "여정",
+            "vi": "hành trình",
+            "ar": "رحلة",
+            "fa": "سفر",
+            "ur": "سفر",
+            "am": "ጉዞ",
+            "ml": "യാത്ര",
+            "ta": "பயணம்",
+            "tl": "paglalakbay",
+            "ps": "سفر",
+            "ro": "călătorie",
+            "ru": "путешествие",
+            "fr": "trajet",
+            "hi": "यात्रा",
+            "es": "viaje"
+           }
+          },
+          {
+           "surface": "ant",
+           "type": "suffix",
+           "meaning": "one who",
+           "translations": {
+            "am": "ያለው",
+            "ar": "ذو صفة",
+            "es": "que tiene la cualidad de",
+            "fa": "دارای",
+            "fr": "ayant la qualité de",
+            "hi": "गुणयुक्त",
+            "ja": "〜性",
+            "ko": "~성",
+            "ml": "ഗുണമുള്ള",
+            "ps": "لرونکی",
+            "ro": "având calitatea de",
+            "ru": "обладающий",
+            "ta": "குணமுள்ள",
+            "tl": "may katangian",
+            "ur": "والا",
+            "vi": "có tính chất",
+            "zh-Hans": "…性",
+            "zh-Hant": "…性"
+           }
+          }
+         ],
+         "root": "itiner",
+         "meaning": "travelling from place to place, especially for work.",
+         "example": "The bunkhouse is full of itinerant men who never stay long enough to make a friend.",
+         "context": "",
+         "origin": "",
+         "related": [],
+         "tier": 2,
+         "translations": {
+          "zh-Hans": "四处流动的",
+          "zh-Hant": "四處流動的",
+          "ja": "巡回する",
+          "ko": "떠돌아다니는",
+          "vi": "nay đây mai đó",
+          "ar": "متجوّل",
+          "fa": "دوره‌گرد",
+          "ur": "خانہ بدوش",
+          "am": "ተዘዋዋሪ",
+          "ml": "സഞ്ചാരിയായ",
+          "ta": "ஊர் ஊராகச் செல்லும்",
+          "tl": "palipat-lipat",
+          "ps": "ګرځنده",
+          "ro": "itinerant",
+          "ru": "странствующий",
+          "fr": "itinérant",
+          "hi": "घुमंतू",
+          "es": "itinerante"
+         }
+        },
+        {
+         "word": "isolation",
+         "parts": [
+          {
+           "surface": "isol",
+           "type": "root",
+           "meaning": "alone",
+           "translations": {
+            "am": "ብቸኛ",
+            "ar": "وحيد",
+            "fa": "تنها",
+            "ml": "ഒറ്റയ്ക്ക്",
+            "ur": "اکیلا",
+            "zh-Hans": "孤立",
+            "zh-Hant": "孤立",
+            "es": "solo",
+            "fr": "seul",
+            "hi": "अकेला",
+            "ja": "孤立した",
+            "ko": "홀로",
+            "ps": "یوازې",
+            "ro": "singur",
+            "ru": "одинокий",
+            "ta": "தனித்து",
+            "tl": "nag-iisa",
+            "vi": "đơn độc"
+           }
+          },
+          {
+           "surface": "ation",
+           "type": "suffix",
+           "meaning": "act or process",
+           "translations": {
+            "am": "ሂደት",
+            "ar": "عملية",
+            "fa": "فرآیند",
+            "ml": "പ്രക്രിയ",
+            "ur": "عمل",
+            "zh-Hans": "行为过程",
+            "zh-Hant": "行爲過程",
+            "es": "acto o proceso",
+            "fr": "action ou processus",
+            "hi": "क्रिया या प्रक्रिया",
+            "ja": "行為・過程",
+            "ko": "행위・과정",
+            "ps": "کړنه یا بهیر",
+            "ro": "acțiune sau proces",
+            "ru": "действие или процесс",
+            "ta": "செயல் அல்லது செயல்முறை",
+            "tl": "kilos o proseso",
+            "vi": "hành động hoặc quá trình"
+           }
+          }
+         ],
+         "root": "isol",
+         "meaning": "the state of being alone and separated from other people.",
+         "example": "Crooks lives in a room off the barn, and his isolation is enforced by other people.",
+         "context": "",
+         "origin": "",
+         "related": [],
+         "tier": 2,
+         "translations": {
+          "am": "ብቸኝነት",
+          "ar": "عزلة",
+          "es": "aislamiento",
+          "fa": "انزوا",
+          "fr": "isolement",
+          "hi": "अलगाव",
+          "ja": "孤立",
+          "ko": "고립",
+          "ml": "ഒറ്റപ്പെടൽ",
+          "ps": "بیلتون",
+          "ro": "izolare",
+          "ru": "изоляция",
+          "ta": "தனிமை",
+          "tl": "paghihiwalay",
+          "ur": "تنہائی",
+          "vi": "sự cô lập",
+          "zh-Hans": "孤立",
+          "zh-Hant": "孤立"
+         }
+        },
+        {
+         "word": "companionship",
+         "parts": [
+          {
+           "surface": "com",
+           "type": "prefix",
+           "meaning": "together",
+           "translations": {
+            "am": "አብሮ",
+            "ar": "معًا",
+            "es": "juntos",
+            "fa": "باهم",
+            "fr": "ensemble",
+            "hi": "साथ",
+            "ja": "共に",
+            "ko": "함께",
+            "ml": "ഒരുമിച്ച്",
+            "ps": "يوځای",
+            "ro": "împreună",
+            "ru": "вместе",
+            "ta": "ஒன்றாக",
+            "tl": "magkasama",
+            "ur": "اکٹھا",
+            "vi": "cùng",
+            "zh-Hans": "共同",
+            "zh-Hant": "共同",
+            "other": "باهم"
+           }
+          },
+          {
+           "surface": "pan",
+           "type": "root",
+           "meaning": "bread",
+           "translations": {
+            "zh-Hans": "面包",
+            "zh-Hant": "麵包",
+            "ja": "パン",
+            "ko": "빵",
+            "vi": "bánh mì",
+            "ar": "خبز",
+            "fa": "نان",
+            "ur": "روٹی",
+            "am": "ዳቦ",
+            "ml": "അപ്പം",
+            "ta": "ரொட்டி",
+            "tl": "tinapay",
+            "ps": "ډوډۍ",
+            "ro": "pâine",
+            "ru": "хлеб",
+            "fr": "pain",
+            "hi": "रोटी",
+            "es": "pan"
+           }
+          },
+          {
+           "surface": "ion",
+           "type": "suffix",
+           "meaning": "state of",
+           "translations": {
+            "am": "ሁኔታ",
+            "ar": "حالة",
+            "es": "estado de",
+            "fa": "حالت",
+            "fr": "état de",
+            "hi": "स्थिति",
+            "ja": "〜の状態",
+            "ko": "~의 상태",
+            "ml": "അവസ്ഥ",
+            "ps": "حالت",
+            "ro": "starea de",
+            "ru": "состояние",
+            "ta": "நிலை",
+            "tl": "kalagayan ng",
+            "ur": "حالت",
+            "vi": "trạng thái",
+            "zh-Hans": "...的状态",
+            "zh-Hant": "...的狀態"
+           }
+          },
+          {
+           "surface": "ship",
+           "type": "suffix",
+           "meaning": "state/condition",
+           "translations": {
+            "vi": "mối quan hệ",
+            "am": "ሁኔታ",
+            "ar": "حالة",
+            "es": "estado / condición",
+            "fa": "وضعیت",
+            "fr": "état",
+            "hi": "अवस्था",
+            "ja": "状態",
+            "ko": "상태",
+            "ml": "അവസ്ഥ",
+            "ps": "حالت",
+            "ro": "stare",
+            "ru": "состояние",
+            "ta": "நிலை",
+            "tl": "kalagayan",
+            "ur": "حالت",
+            "zh-Hans": "状态",
+            "zh-Hant": "狀態"
+           }
+          }
+         ],
+         "root": "pan",
+         "meaning": "the comfort of having someone with you.",
+         "example": "What George gives Lennie, and what nobody else on the ranch has, is companionship.",
+         "context": "",
+         "origin": "",
+         "related": [],
+         "tier": 2,
+         "translations": {
+          "zh-Hans": "作伴；陪伴",
+          "zh-Hant": "作伴；陪伴",
+          "ja": "仲間がいること",
+          "ko": "동반 관계",
+          "vi": "tình bạn đồng hành",
+          "ar": "رفقة",
+          "fa": "همراهی",
+          "ur": "رفاقت",
+          "am": "አብሮነት",
+          "ml": "സഹവാസം",
+          "ta": "தோழமை",
+          "tl": "pagsasama",
+          "ps": "ملګرتیا",
+          "ro": "tovărășie",
+          "ru": "общество, дружеское присутствие",
+          "fr": "compagnie",
+          "hi": "साथ",
+          "es": "compañía"
+         }
+        },
+        {
+         "word": "predatory",
+         "parts": [
+          {
+           "surface": "pred",
+           "type": "root",
+           "meaning": "prey/plunder",
+           "translations": {
+            "zh-Hans": "猎物/掠夺",
+            "zh-Hant": "獵物/掠奪",
+            "ja": "獲物/略奪",
+            "ko": "먹잇감/약탈",
+            "vi": "con mồi/cướp bóc",
+            "ar": "فريسة/نهب",
+            "fa": "شکار/غارت",
+            "ur": "شکار/لوٹ مار",
+            "am": "ምርኮ/ዘረፋ",
+            "ml": "ഇര/കൊള്ള",
+            "ta": "இரை/கொள்ளை",
+            "tl": "biktima/samsam",
+            "ps": "ښکار/تالان",
+            "ro": "pradă/jaf",
+            "ru": "добыча/грабёж",
+            "fr": "proie/pillage",
+            "hi": "शिकार/लूट",
+            "es": "presa/botín"
+           }
+          },
+          {
+           "surface": "atory",
+           "type": "suffix",
+           "meaning": "relating to",
+           "translations": {
+            "am": "የተያያዘ",
+            "ar": "متعلق بـ",
+            "es": "relacionado con",
+            "fa": "مربوط به",
+            "fr": "relatif à",
+            "hi": "से संबंधित",
+            "ja": "〜に関する",
+            "ko": "관련된",
+            "ml": "സംബന്ധിച്ച",
+            "ps": "اړوند",
+            "ro": "referitor la",
+            "ru": "относящийся к",
+            "ta": "தொடர்பான",
+            "tl": "kaugnay",
+            "ur": "متعلق",
+            "vi": "liên quan đến",
+            "zh-Hans": "…性的",
+            "zh-Hant": "…性的"
+           }
+          }
+         ],
+         "root": "pred",
+         "meaning": "behaving like a hunter — taking advantage of weaker people.",
+         "example": "Curley picks fights with big men, which is predatory rather than brave.",
+         "context": "",
+         "origin": "",
+         "related": [],
+         "tier": 2,
+         "translations": {
+          "zh-Hans": "掠夺性的",
+          "zh-Hant": "掠奪性的",
+          "ja": "捕食的な",
+          "ko": "약탈적인",
+          "vi": "săn mồi, chèn ép kẻ yếu",
+          "ar": "مفترس",
+          "fa": "شکارگر",
+          "ur": "شکاری/استحصالی",
+          "am": "አዳኝ የሆነ",
+          "ml": "ഇരപിടിയൻ",
+          "ta": "வேட்டையாடும்",
+          "tl": "mandaragit",
+          "ps": "ښکاري",
+          "ro": "prădător",
+          "ru": "хищнический",
+          "fr": "prédateur",
+          "hi": "शिकारी प्रवृत्ति का",
+          "es": "depredador"
+         }
+        },
+        {
+         "word": "contemptuous",
+         "parts": [
+          {
+           "surface": "con",
+           "type": "prefix",
+           "meaning": "thoroughly",
+           "translations": {
+            "am": "አብሮ",
+            "ar": "معًا",
+            "es": "juntos",
+            "fa": "باهم",
+            "fr": "ensemble",
+            "hi": "साथ",
+            "ja": "共に",
+            "ko": "함께",
+            "ml": "ഒരുമിച്ച്",
+            "ps": "يوځای",
+            "ro": "împreună",
+            "ru": "вместе",
+            "ta": "ஒன்றாக",
+            "tl": "magkasama",
+            "ur": "اکٹھا",
+            "vi": "cùng",
+            "zh-Hans": "共同",
+            "zh-Hant": "共同",
+            "other": "باهم"
+           }
+          },
+          {
+           "surface": "tempt",
+           "type": "root",
+           "meaning": "to scorn",
+           "translations": {
+            "zh-Hans": "轻蔑",
+            "zh-Hant": "輕蔑",
+            "ja": "軽蔑する",
+            "ko": "경멸하다",
+            "vi": "khinh miệt",
+            "ar": "يحتقر",
+            "fa": "تحقیر کردن",
+            "ur": "حقارت کرنا",
+            "am": "መናቅ",
+            "ml": "നിന്ദിക്കുക",
+            "ta": "இகழ்தல்",
+            "tl": "hamakin",
+            "ps": "سپکاوی کول",
+            "ro": "a disprețui",
+            "ru": "презирать",
+            "fr": "mépriser",
+            "hi": "तिरस्कार करना",
+            "es": "despreciar"
+           }
+          },
+          {
+           "surface": "uous",
+           "type": "suffix",
+           "meaning": "full of",
+           "translations": {
+            "am": "የተሞላ",
+            "ar": "مليء",
+            "es": "lleno de",
+            "fa": "پر از",
+            "fr": "plein de",
+            "hi": "से भरा",
+            "ja": "…に満ちた",
+            "ko": "…로 가득한",
+            "ml": "നിറഞ്ഞ",
+            "ps": "ډک",
+            "ro": "plin de",
+            "ru": "полный",
+            "ta": "நிறைந்த",
+            "tl": "puno ng",
+            "ur": "بھرا ہوا",
+            "vi": "đầy",
+            "zh-Hans": "充满…的",
+            "zh-Hant": "充滿…的"
+           }
+          }
+         ],
+         "root": "tempt",
+         "meaning": "showing that you think someone is worthless.",
+         "example": "Curley is contemptuous of anyone he thinks cannot fight back.",
+         "context": "",
+         "origin": "",
+         "related": [],
+         "tier": 2,
+         "translations": {
+          "zh-Hans": "轻蔑的",
+          "zh-Hant": "輕蔑的",
+          "ja": "軽蔑的な",
+          "ko": "경멸하는",
+          "vi": "khinh thường",
+          "ar": "محتقِر",
+          "fa": "تحقیرآمیز",
+          "ur": "حقارت آمیز",
+          "am": "የናቀ",
+          "ml": "നിന്ദ്യമായ",
+          "ta": "இகழ்ச்சியான",
+          "tl": "mapanghamak",
+          "ps": "سپکاوی کوونکی",
+          "ro": "disprețuitor",
+          "ru": "презрительный",
+          "fr": "méprisant",
+          "hi": "तिरस्कारपूर्ण",
+          "es": "despectivo"
+         }
+        },
+        {
+         "word": "apprehensive",
+         "parts": [
+          {
+           "surface": "ap",
+           "type": "prefix",
+           "meaning": "toward",
+           "translations": {
+            "am": "ወደ",
+            "ar": "نحو / إلى",
+            "es": "hacia",
+            "fa": "به",
+            "fr": "vers",
+            "hi": "की ओर",
+            "ja": "～へ",
+            "ko": "향하여",
+            "ml": "നേരെ",
+            "ps": "پر لور",
+            "ro": "spre",
+            "ru": "к",
+            "ta": "நோக்கி",
+            "tl": "patungo",
+            "ur": "کی طرف",
+            "vi": "hướng",
+            "zh-Hans": "向",
+            "zh-Hant": "向",
+            "other": "به"
+           }
+          },
+          {
+           "surface": "prehens",
+           "type": "root",
+           "meaning": "to seize, to grasp",
+           "translations": {
+            "zh-Hans": "抓住",
+            "zh-Hant": "抓住",
+            "ja": "つかむ",
+            "ko": "붙잡다",
+            "vi": "nắm bắt",
+            "ar": "يمسك",
+            "fa": "گرفتن",
+            "ur": "پکڑنا",
+            "am": "መያዝ",
+            "ml": "പിടിക്കുക",
+            "ta": "பற்றுதல்",
+            "tl": "sunggaban",
+            "ps": "نیول",
+            "ro": "a apuca",
+            "ru": "схватить",
+            "fr": "saisir",
+            "hi": "पकड़ना",
+            "es": "asir"
+           }
+          },
+          {
+           "surface": "ive",
+           "type": "suffix",
+           "meaning": "tending to",
+           "translations": {
+            "am": "ዝንባሌ",
+            "ar": "ذو",
+            "es": "que tiende a",
+            "fa": "گرایش به",
+            "fr": "tendance à",
+            "hi": "प्रवृत्ति",
+            "ja": "的な",
+            "ko": "경향",
+            "ml": "പ്രവണത",
+            "ps": "لرونکی",
+            "ro": "care are",
+            "ru": "склонный к",
+            "ta": "போக்கு",
+            "tl": "hilig",
+            "ur": "رجحان",
+            "vi": "có xu hướng",
+            "zh-Hans": "有…性质的",
+            "zh-Hant": "有…性質的"
+           }
+          }
+         ],
+         "root": "prehens",
+         "meaning": "worried that something bad is about to happen.",
+         "example": "From the first page George is apprehensive about what Lennie might do.",
+         "context": "",
+         "origin": "",
+         "related": [],
+         "tier": 2,
+         "translations": {
+          "zh-Hans": "忧虑的",
+          "zh-Hant": "憂慮的",
+          "ja": "不安な",
+          "ko": "불안해하는",
+          "vi": "lo lắng, e ngại",
+          "ar": "متوجّس",
+          "fa": "نگران",
+          "ur": "خدشہ محسوس کرنے والا",
+          "am": "ስጋት ያደረበት",
+          "ml": "ആശങ്കാകുലനായ",
+          "ta": "கவலை கொண்ட",
+          "tl": "balisa",
+          "ps": "اندېښمن",
+          "ro": "neliniștit",
+          "ru": "тревожный",
+          "fr": "inquiet",
+          "hi": "आशंकित",
+          "es": "aprensivo"
+         }
+        },
+        {
+         "word": "disillusioned",
+         "parts": [
+          {
+           "surface": "dis",
+           "type": "prefix",
+           "meaning": "apart",
+           "translations": {
+            "fa": "جدا/نفی",
+            "am": "መለያየት/አይ",
+            "ar": "غير",
+            "es": "aparte/no",
+            "fr": "séparé/non",
+            "hi": "अलग/नहीं",
+            "ja": "分離",
+            "ko": "분리/부정",
+            "ml": "വേർപെട്ട്/അല്ല",
+            "ps": "بېل",
+            "ro": "des",
+            "ru": "раздельно/не",
+            "ta": "பிரி/இல்லை",
+            "tl": "hiwalay/hindi",
+            "ur": "الگ/نہیں",
+            "vi": "tách/không",
+            "zh-Hans": "分开",
+            "zh-Hant": "分開",
+            "other": "دو"
+           }
+          },
+          {
+           "surface": "illus",
+           "type": "root",
+           "meaning": "to mock, to play a trick",
+           "translations": {
+            "zh-Hans": "戏弄",
+            "zh-Hant": "戲弄",
+            "ja": "欺く",
+            "ko": "속이다",
+            "vi": "đánh lừa",
+            "ar": "يخدع",
+            "fa": "فریب دادن",
+            "ur": "دھوکہ دینا",
+            "am": "ማታለል",
+            "ml": "കബളിപ്പിക്കുക",
+            "ta": "ஏமாற்றுதல்",
+            "tl": "linlangin",
+            "ps": "غولول",
+            "ro": "a păcăli",
+            "ru": "обманывать",
+            "fr": "tromper",
+            "hi": "छलना",
+            "es": "engañar"
+           }
+          },
+          {
+           "surface": "ion",
+           "type": "suffix",
+           "meaning": "state of",
+           "translations": {
+            "am": "ሁኔታ",
+            "ar": "حالة",
+            "es": "estado de",
+            "fa": "حالت",
+            "fr": "état de",
+            "hi": "स्थिति",
+            "ja": "〜の状態",
+            "ko": "~의 상태",
+            "ml": "അവസ്ഥ",
+            "ps": "حالت",
+            "ro": "starea de",
+            "ru": "состояние",
+            "ta": "நிலை",
+            "tl": "kalagayan ng",
+            "ur": "حالت",
+            "vi": "trạng thái",
+            "zh-Hans": "...的状态",
+            "zh-Hant": "...的狀態"
+           }
+          },
+          {
+           "surface": "ed",
+           "type": "suffix",
+           "meaning": "having been (makes an adjective)",
+           "translations": {
+            "am": "የተለወጠ ወይም ቅርጽ ያለው",
+            "ar": "محوّل إلى / له شكل",
+            "es": "convertido en/con la forma de",
+            "fa": "تبدیل‌شده به / دارای شکل",
+            "fr": "transformé en / ayant la forme de",
+            "hi": "में परिवर्तित / रूप वाला",
+            "ja": "〜にされた・〜の形をした",
+            "ko": "만들어진 상태·형태를 가진",
+            "ml": "ആക്കിയത് / രൂപമുള്ളത്",
+            "ps": "بدل شوی / بڼه لرونکی",
+            "ro": "transformat în / având forma de",
+            "ru": "превращённый в / имеющий форму",
+            "ta": "மாற்றப்பட்டது / வடிவம் கொண்டது",
+            "tl": "ginawang / may hugis ng",
+            "ur": "میں تبدیل شدہ / شکل رکھنے والا",
+            "vi": "được biến thành / có dạng",
+            "zh-Hans": "使成为…的;具有…形式的",
+            "zh-Hant": "使成為…的;具有…形式的"
+           }
+          }
+         ],
+         "root": "illus",
+         "meaning": "disappointed after discovering something was not as good as you believed.",
+         "example": "Candy hands over his money, and by the end of the novella he is disillusioned.",
+         "context": "",
+         "origin": "",
+         "related": [],
+         "tier": 2,
+         "translations": {
+          "zh-Hans": "幻想破灭的",
+          "zh-Hant": "幻想破滅的",
+          "ja": "幻滅した",
+          "ko": "환멸을 느낀",
+          "vi": "vỡ mộng",
+          "ar": "خائب الأمل",
+          "fa": "سرخورده",
+          "ur": "مایوس/بھرم ٹوٹا ہوا",
+          "am": "ተስፋ የቆረጠ",
+          "ml": "മോഹഭംഗം വന്ന",
+          "ta": "மாயை நீங்கிய",
+          "tl": "nabigo sa inaasahan",
+          "ps": "ناهیلی شوی",
+          "ro": "dezamăgit",
+          "ru": "разочарованный",
+          "fr": "désabusé",
+          "hi": "मोहभंग हुआ",
+          "es": "desilusionado"
+         }
+        },
+        {
+         "word": "vulnerable",
+         "parts": [
+          {
+           "surface": "vulner",
+           "type": "root",
+           "meaning": "wound",
+           "translations": {
+            "am": "ቁስል",
+            "ar": "جرح",
+            "es": "herida",
+            "fa": "زخم",
+            "fr": "blessure",
+            "hi": "घाव",
+            "ja": "傷",
+            "ko": "상처",
+            "ml": "മുറിവ്",
+            "ps": "ټپ",
+            "ro": "rană",
+            "ru": "рана",
+            "ta": "காயம்",
+            "tl": "sugat",
+            "ur": "زخم",
+            "vi": "vết thương",
+            "zh-Hans": "伤口",
+            "zh-Hant": "傷口"
+           }
+          },
+          {
+           "surface": "able",
+           "type": "suffix",
+           "meaning": "can be",
+           "translations": {
+            "fa": "قابل",
+            "am": "የሚችል",
+            "ar": "قادر على",
+            "es": "capaz de",
+            "fr": "capable de",
+            "hi": "योग्य",
+            "ja": "できる",
+            "ko": "할 수 있는",
+            "ml": "കഴിയുന്ന",
+            "ps": "وړ",
+            "ro": "capabil",
+            "ru": "способный",
+            "ta": "முடியும்",
+            "tl": "kaya",
+            "ur": "قابل",
+            "vi": "có thể",
+            "zh-Hans": "能够",
+            "zh-Hant": "能夠"
+           }
+          }
+         ],
+         "root": "vulner",
+         "meaning": "easily hurt, physically or emotionally.",
+         "example": "Lennie is enormously strong and completely vulnerable at the same time.",
+         "context": "",
+         "origin": "",
+         "related": [],
+         "tier": 2,
+         "translations": {
+          "am": "ተጋላጭ",
+          "ar": "معرّض للإصابة",
+          "es": "vulnerable",
+          "fa": "آسیب‌پذیر",
+          "fr": "vulnérable",
+          "hi": "सुभेद्य",
+          "ja": "脆弱な",
+          "ko": "취약한",
+          "ml": "ദുർബലമായ",
+          "ps": "زیانمنونکی",
+          "ro": "vulnerabil",
+          "ru": "уязвимый",
+          "ta": "பாதிக்கப்படக்கூடிய",
+          "tl": "bulnerable",
+          "ur": "کمزور",
+          "vi": "dễ bị tổn thương",
+          "zh-Hans": "易感的",
+          "zh-Hant": "易感的"
+         }
+        },
+        {
+         "word": "discrimination",
+         "parts": [
+          {
+           "surface": "dis",
+           "type": "prefix",
+           "meaning": "apart",
+           "translations": {
+            "fa": "جدا/نفی",
+            "am": "መለያየት/አይ",
+            "ar": "غير",
+            "es": "aparte/no",
+            "fr": "séparé/non",
+            "hi": "अलग/नहीं",
+            "ja": "分離",
+            "ko": "분리/부정",
+            "ml": "വേർപെട്ട്/അല്ല",
+            "ps": "بېل",
+            "ro": "des",
+            "ru": "раздельно/не",
+            "ta": "பிரி/இல்லை",
+            "tl": "hiwalay/hindi",
+            "ur": "الگ/نہیں",
+            "vi": "tách/không",
+            "zh-Hans": "分开",
+            "zh-Hant": "分開",
+            "other": "دو"
+           }
+          },
+          {
+           "surface": "crimin",
+           "type": "root",
+           "meaning": "distinguish / judge",
+           "translations": {
+            "am": "መለየት/መፍረድ",
+            "ar": "تمييز/حكم",
+            "es": "distinguir/juzgar",
+            "fa": "تشخیص/قضاوت",
+            "fr": "distinguer/juger",
+            "hi": "भेद करना/निर्णय करना",
+            "ja": "区別する/判断する",
+            "ko": "구별하다/판단하다",
+            "ml": "വേർതിരിക്കുക/വിധിക്കുക",
+            "ps": "توپیر کول/قضاوت کول",
+            "ro": "a distinge/a judeca",
+            "ru": "различать/судить",
+            "ta": "வேறுபடுத்து/தீர்ப்பு",
+            "tl": "pagkakaiba/paghatol",
+            "ur": "تمیز کرنا/فیصلہ کرنا",
+            "vi": "phân biệt/phán xét",
+            "zh-Hans": "区分/判断",
+            "zh-Hant": "區分/判斷"
+           }
+          },
+          {
+           "surface": "ation",
+           "type": "suffix",
+           "meaning": "process of",
+           "translations": {
+            "am": "ሂደት",
+            "ar": "عملية",
+            "es": "proceso de",
+            "fa": "فرآیند",
+            "fr": "processus",
+            "hi": "प्रक्रिया",
+            "ja": "過程",
+            "ko": "과정",
+            "ml": "പ്രക്രിയ",
+            "ps": "پروسه",
+            "ro": "proces",
+            "ru": "процесс",
+            "ta": "செயல்முறை",
+            "tl": "proseso",
+            "ur": "عمل",
+            "vi": "quá trình",
+            "zh-Hans": "过程",
+            "zh-Hant": "過程"
+           }
+          }
+         ],
+         "root": "crimin",
+         "meaning": "treating a person worse because of who they are.",
+         "example": "Crooks is kept out of the bunkhouse, which is discrimination, and everyone accepts it.",
+         "context": "",
+         "origin": "",
+         "related": [],
+         "tier": 2,
+         "translations": {
+          "am": "መድልዎ",
+          "ar": "التمييز",
+          "es": "discriminación",
+          "fa": "تبعیض",
+          "fr": "discrimination",
+          "hi": "भेदभाव",
+          "ja": "差別",
+          "ko": "차별",
+          "ml": "വിവേചനം",
+          "ps": "تبعیض",
+          "ro": "discriminare",
+          "ru": "дискриминация",
+          "ta": "பாகுபாடு",
+          "tl": "diskriminasyon",
+          "ur": "امتیازی سلوک",
+          "vi": "sự phân biệt đối xử",
+          "zh-Hans": "歧视",
+          "zh-Hant": "歧視"
+         }
+        },
+        {
+         "word": "foreshadowing",
+         "parts": [
+          {
+           "surface": "fore",
+           "type": "prefix",
+           "meaning": "before",
+           "translations": {
+            "zh-Hans": "之前",
+            "zh-Hant": "之前",
+            "ja": "前に",
+            "ko": "이전에",
+            "vi": "trước",
+            "ar": "قبل",
+            "fa": "پیش از",
+            "ur": "پہلے",
+            "am": "በፊት",
+            "ml": "മുമ്പ്",
+            "ta": "முன்பு",
+            "tl": "bago",
+            "ps": "مخکې",
+            "ro": "înainte",
+            "ru": "перед",
+            "fr": "avant",
+            "hi": "पहले",
+            "es": "antes"
+           }
+          },
+          {
+           "surface": "shadow",
+           "type": "root",
+           "meaning": "shade/dark shape",
+           "translations": {
+            "zh-Hans": "阴影",
+            "zh-Hant": "陰影",
+            "ja": "影",
+            "ko": "그림자",
+            "vi": "bóng tối",
+            "ar": "ظل",
+            "fa": "سایه",
+            "ur": "سایہ",
+            "am": "ጥላ",
+            "ml": "നിഴൽ",
+            "ta": "நிழல்",
+            "tl": "anino",
+            "ps": "سیوری",
+            "ro": "umbră",
+            "ru": "тень",
+            "fr": "ombre",
+            "hi": "छाया",
+            "es": "sombra"
+           }
+          },
+          {
+           "surface": "ing",
+           "type": "suffix",
+           "meaning": "action/process",
+           "translations": {
+            "am": "ተግባር",
+            "ar": "فعل",
+            "es": "el acto de",
+            "fa": "عمل",
+            "fr": "action de",
+            "hi": "क्रिया",
+            "ja": "動作",
+            "ko": "행위",
+            "ml": "പ്രവൃത്തി",
+            "ps": "کړنه",
+            "ro": "acțiunea de",
+            "ru": "действие",
+            "ta": "செயல்",
+            "tl": "kilos",
+            "ur": "فعل",
+            "vi": "hành động",
+            "zh-Hans": "行为",
+            "zh-Hant": "行為"
+           }
+          }
+         ],
+         "root": "shadow",
+         "meaning": "an early hint of something that will happen later in a story.",
+         "example": "The shooting of Candy's dog is foreshadowing for the novella's ending.",
+         "context": "",
+         "origin": "",
+         "related": [],
+         "tier": 2,
+         "translations": {
+          "zh-Hans": "伏笔",
+          "zh-Hant": "伏筆",
+          "ja": "伏線",
+          "ko": "복선",
+          "vi": "điềm báo trước",
+          "ar": "التمهيد",
+          "fa": "پیش‌آگهی",
+          "ur": "پیش آگہی",
+          "am": "ቅድመ ፍንጭ",
+          "ml": "മുൻസൂചന",
+          "ta": "முன்னறிவிப்பு",
+          "tl": "paunang senyales",
+          "ps": "مخکینی اشاره",
+          "ro": "prefigurare",
+          "ru": "предвосхищение",
+          "fr": "préfiguration",
+          "hi": "पूर्वाभास",
+          "es": "presagio"
+         }
+        },
+        {
+         "word": "aspiration",
+         "parts": [
+          {
+           "surface": "a",
+           "type": "prefix",
+           "meaning": "to / toward",
+           "translations": {
+            "am": "ወደ",
+            "ar": "إلى",
+            "es": "hacia",
+            "fa": "به",
+            "fr": "vers",
+            "hi": "की ओर",
+            "ja": "へ",
+            "ko": "로",
+            "ml": "ലേക്ക്",
+            "ps": "ته",
+            "ro": "spre",
+            "ru": "к",
+            "ta": "நோக்கி",
+            "tl": "patungo",
+            "ur": "کی طرف",
+            "vi": "tới",
+            "zh-Hans": "向",
+            "zh-Hant": "向"
+           }
+          },
+          {
+           "surface": "spir",
+           "type": "root",
+           "meaning": "breathe",
+           "translations": {
+            "am": "መተንፈስ",
+            "ar": "تنفس",
+            "es": "respirar",
+            "fa": "نفس کشیدن",
+            "fr": "respirer",
+            "hi": "सांस लेना",
+            "ja": "呼吸する",
+            "ko": "호흡",
+            "ml": "ശ്വസിക്കുക",
+            "ps": "ساه اخيستل",
+            "ro": "a respira",
+            "ru": "дышать",
+            "ta": "மூச்சு விடுதல்",
+            "tl": "huminga",
+            "ur": "سانس لینا",
+            "vi": "thở",
+            "zh-Hans": "呼吸",
+            "zh-Hant": "呼吸"
+           }
+          },
+          {
+           "surface": "ation",
+           "type": "suffix",
+           "meaning": "process of / state of",
+           "translations": {
+            "am": "ሂደት / ሁኔታ",
+            "ar": "عملية / حالة",
+            "es": "proceso de/estado de",
+            "fa": "فرآیند / حالت",
+            "fr": "processus / état",
+            "hi": "प्रक्रिया / अवस्था",
+            "ja": "過程 / 状態",
+            "ko": "과정 / 상태",
+            "ml": "പ്രക്രിയ / അവസ്ഥ",
+            "ps": "پروسه / حالت",
+            "ro": "proces / stare",
+            "ru": "процесс / состояние",
+            "ta": "செயல்முறை / நிலை",
+            "tl": "proseso / kalagayan",
+            "ur": "عمل / حالت",
+            "vi": "quá trình / trạng thái",
+            "zh-Hans": "过程 / 状态",
+            "zh-Hant": "過程 / 狀態"
+           }
+          }
+         ],
+         "root": "spir",
+         "meaning": "a strong hope or ambition for the future.",
+         "example": "The little farm is an aspiration the men keep alive by repeating it.",
+         "context": "",
+         "origin": "",
+         "related": [],
+         "tier": 2,
+         "translations": {
+          "am": "ትንፋሽ ድምጽ",
+          "ar": "التنفيس",
+          "es": "aspiración",
+          "fa": "دمش",
+          "fr": "aspiration",
+          "hi": "महाप्राणता",
+          "ja": "有気性",
+          "ko": "기식",
+          "ml": "മഹാപ്രാണത",
+          "ps": "دمي غږ",
+          "ro": "aspirație",
+          "ru": "придыхание",
+          "ta": "மகாப்ராணம்",
+          "tl": "aspirasyon",
+          "ur": "دمی آواز",
+          "vi": "sự bật hơi",
+          "zh-Hans": "送气",
+          "zh-Hant": "送氣"
+         }
+        },
+        {
+         "word": "dependent",
+         "parts": [
+          {
+           "surface": "depend",
+           "type": "root",
+           "meaning": "rely on",
+           "translations": {
+            "am": "መደገፍ",
+            "ar": "يعتمد على",
+            "es": "depender de",
+            "fa": "وابسته بودن",
+            "fr": "dépendre de",
+            "hi": "निर्भर",
+            "ja": "依存する",
+            "ko": "의존",
+            "ml": "ആശ്രയിക്കുക",
+            "ps": "تکیه",
+            "ro": "a depinde de",
+            "ru": "зависеть",
+            "ta": "சார்ந்திருத்தல்",
+            "tl": "umasa",
+            "ur": "انحصار",
+            "vi": "phụ thuộc",
+            "zh-Hans": "依靠",
+            "zh-Hant": "依靠"
+           }
+          },
+          {
+           "surface": "ent",
+           "type": "suffix",
+           "meaning": "person / quality",
+           "translations": {
+            "zh-Hans": "人",
+            "ja": "性質",
+            "vi": "người",
+            "zh-Hant": "人",
+            "am": "ሰው/ባህርይ",
+            "ar": "شخص/صفة",
+            "es": "persona/cualidad",
+            "fa": "شخص/ویژگی",
+            "fr": "personne/qualité",
+            "hi": "व्यक्ति/गुण",
+            "ko": "사람/성질",
+            "ml": "വ്യക്തി/ഗുണം",
+            "ps": "کس/خاصیت",
+            "ro": "persoană/calitate",
+            "ru": "человек/качество",
+            "ta": "நபர்/பண்பு",
+            "tl": "tao/katangian",
+            "ur": "شخص/خاصیت",
+            "other": "بودن"
+           }
+          }
+         ],
+         "root": "depend",
+         "meaning": "needing someone or something else in order to manage.",
+         "example": "Lennie is dependent on George, but the need runs both ways.",
+         "context": "",
+         "origin": "",
+         "related": [],
+         "tier": 2,
+         "translations": {
+          "am": "ጥገኛ",
+          "ar": "تابع",
+          "es": "dependiente",
+          "fa": "وابسته",
+          "fr": "dépendant",
+          "hi": "आश्रित",
+          "ja": "従属の",
+          "ko": "종속의",
+          "ml": "ആശ്രിതം",
+          "ps": "تابع",
+          "ro": "dependent",
+          "ru": "зависимый",
+          "ta": "சார்பு",
+          "tl": "dependent",
+          "ur": "منحصر",
+          "vi": "phụ thuộc",
+          "zh-Hans": "因变",
+          "zh-Hant": "因變"
+         }
+        },
+        {
+         "word": "inevitable",
+         "parts": [
+          {
+           "surface": "in",
+           "type": "prefix",
+           "meaning": "not",
+           "translations": {
+            "am": "ያልሆነ",
+            "ar": "غير",
+            "es": "no / opuesto",
+            "fa": "غیر",
+            "fr": "non",
+            "hi": "अ-",
+            "ja": "不",
+            "ko": "비-",
+            "ml": "അല്ലാത്ത",
+            "ps": "نه",
+            "ro": "ne-",
+            "ru": "не-",
+            "ta": "இல்லாத",
+            "tl": "hindi",
+            "ur": "غیر",
+            "vi": "không",
+            "zh-Hans": "不/非",
+            "zh-Hant": "不/非",
+            "other": "نه"
+           }
+          },
+          {
+           "surface": "evit",
+           "type": "root",
+           "meaning": "to avoid",
+           "translations": {
+            "zh-Hans": "避免",
+            "zh-Hant": "避免",
+            "ja": "避ける",
+            "ko": "피하다",
+            "vi": "tránh",
+            "ar": "يتجنب",
+            "fa": "اجتناب کردن",
+            "ur": "بچنا",
+            "am": "ማስወገድ",
+            "ml": "ഒഴിവാക്കുക",
+            "ta": "தவிர்த்தல்",
+            "tl": "iwasan",
+            "ps": "ډډه کول",
+            "ro": "a evita",
+            "ru": "избегать",
+            "fr": "éviter",
+            "hi": "बचना",
+            "es": "evitar"
+           }
+          },
+          {
+           "surface": "able",
+           "type": "suffix",
+           "meaning": "can be",
+           "translations": {
+            "fa": "قابل",
+            "am": "የሚችል",
+            "ar": "قادر على",
+            "es": "capaz de",
+            "fr": "capable de",
+            "hi": "योग्य",
+            "ja": "できる",
+            "ko": "할 수 있는",
+            "ml": "കഴിയുന്ന",
+            "ps": "وړ",
+            "ro": "capabil",
+            "ru": "способный",
+            "ta": "முடியும்",
+            "tl": "kaya",
+            "ur": "قابل",
+            "vi": "có thể",
+            "zh-Hans": "能够",
+            "zh-Hant": "能夠"
+           }
+          }
+         ],
+         "root": "evit",
+         "meaning": "certain to happen; impossible to avoid.",
+         "example": "Because of the foreshadowing, the ending feels inevitable rather than shocking.",
+         "context": "",
+         "origin": "",
+         "related": [],
+         "tier": 2,
+         "translations": {
+          "zh-Hans": "不可避免的",
+          "zh-Hant": "無可避免的",
+          "ja": "避けられない",
+          "ko": "피할 수 없는",
+          "vi": "không thể tránh khỏi",
+          "ar": "حتمي",
+          "fa": "اجتناب‌ناپذیر",
+          "ur": "ناگزیر",
+          "am": "የማይቀር",
+          "ml": "ഒഴിവാക്കാനാവാത്ത",
+          "ta": "தவிர்க்க முடியாத",
+          "tl": "hindi maiiwasan",
+          "ps": "ناگزیره",
+          "ro": "inevitabil",
+          "ru": "неизбежный",
+          "fr": "inévitable",
+          "hi": "अपरिहार्य",
+          "es": "inevitable"
+         }
+        }
+       ],
+       "path": "elc/english/of-mice-and-men"
       }
      ],
      "folders": [
@@ -384671,7 +386116,26 @@
            "surface": "mass",
            "type": "root",
            "meaning": "lump/quantity",
-           "translations": {}
+           "translations": {
+            "zh-Hans": "团块；质量",
+            "zh-Hant": "團塊；質量",
+            "ja": "かたまり／質量",
+            "ko": "덩어리／질량",
+            "vi": "khối lượng",
+            "ar": "كتلة",
+            "fa": "توده/جرم",
+            "ur": "تودہ/کمیت",
+            "am": "ብዛት/ክምር",
+            "ml": "പിണ്ഡം",
+            "ta": "திரள்/நிறை",
+            "tl": "buo-buong dami",
+            "ps": "ډله/کتله",
+            "ro": "masă",
+            "ru": "масса",
+            "fr": "masse",
+            "hi": "पिंड/द्रव्यमान",
+            "es": "masa"
+           }
           }
          ],
          "root": "mass",
@@ -451510,6 +452974,16 @@
      "able"
     ],
     [
+     "inevitable",
+     "elc/english/of-mice-and-men",
+     "able"
+    ],
+    [
+     "vulnerable",
+     "elc/english/of-mice-and-men",
+     "able"
+    ],
+    [
      "memorable",
      "elc/english/persuasive-techniques-emphasis",
      "able"
@@ -454697,6 +456171,16 @@
    "type": "suffix",
    "words": [
     [
+     "itinerant",
+     "elc/english/of-mice-and-men",
+     "ant"
+    ],
+    [
+     "migrant",
+     "elc/english/of-mice-and-men",
+     "ant"
+    ],
+    [
      "Commandant",
      "elc/humanities/general-vocabulary",
      "ant"
@@ -455112,6 +456596,11 @@
     [
      "apperception",
      "elc/english/flowers-for-algernon",
+     "ap"
+    ],
+    [
+     "apprehensive",
+     "elc/english/of-mice-and-men",
      "ap"
     ],
     [
@@ -456655,6 +458144,11 @@
    "type": "suffix",
    "words": [
     [
+     "isolation",
+     "elc/english/of-mice-and-men",
+     "ation"
+    ],
+    [
      "characterisation",
      "year-7/english/film",
      "ation"
@@ -456880,6 +458374,11 @@
     [
      "consternation",
      "elc/english/harrison-bergeron",
+     "ation"
+    ],
+    [
+     "discrimination",
+     "elc/english/of-mice-and-men",
      "ation"
     ],
     [
@@ -458069,6 +459568,23 @@
     ]
    ]
   },
+  "ation|process of/state of": {
+   "surface": "ation",
+   "meaning": "process of/state of",
+   "type": "suffix",
+   "words": [
+    [
+     "aspiration",
+     "elc/english/of-mice-and-men",
+     "ation"
+    ],
+    [
+     "aspiration",
+     "vce/english-language/unit-4-aos-2",
+     "ation"
+    ]
+   ]
+  },
   "ation|process or result of": {
    "surface": "ation",
    "meaning": "process or result of",
@@ -458625,6 +460141,11 @@
    "meaning": "relating to",
    "type": "suffix",
    "words": [
+    [
+     "predatory",
+     "elc/english/of-mice-and-men",
+     "atory"
+    ],
     [
      "laboratory",
      "elc/science/lab-safety-equipment",
@@ -459459,6 +460980,11 @@
     [
      "achievement",
      "elc/english/flowers-for-algernon",
+     "a"
+    ],
+    [
+     "aspiration",
+     "elc/english/of-mice-and-men",
      "a"
     ],
     [
@@ -462527,6 +464053,11 @@
      "com"
     ],
     [
+     "companionship",
+     "elc/english/of-mice-and-men",
+     "com"
+    ],
+    [
      "accompany",
      "elc/english/persuasive-speech-words",
      "com"
@@ -463055,6 +464586,11 @@
    "meaning": "thoroughly",
    "type": "prefix",
    "words": [
+    [
+     "contemptuous",
+     "elc/english/of-mice-and-men",
+     "con"
+    ],
     [
      "convince",
      "elc/english/persuasive-techniques-audience",
@@ -464523,6 +466059,11 @@
    "words": [
     [
      "discrimination",
+     "elc/english/of-mice-and-men",
+     "crimin"
+    ],
+    [
+     "discrimination",
      "elc/humanities/history",
      "crimin"
     ],
@@ -465255,6 +466796,11 @@
    "meaning": "rely on",
    "type": "root",
    "words": [
+    [
+     "dependent",
+     "elc/english/of-mice-and-men",
+     "depend"
+    ],
     [
      "interdependence",
      "vce/biology/unit-2-aos-1",
@@ -466337,6 +467883,16 @@
     [
      "disturbed",
      "elc/english/flowers-for-algernon",
+     "dis"
+    ],
+    [
+     "discrimination",
+     "elc/english/of-mice-and-men",
+     "dis"
+    ],
+    [
+     "disillusioned",
+     "elc/english/of-mice-and-men",
      "dis"
     ],
     [
@@ -467878,6 +469434,11 @@
     [
      "handicapped",
      "elc/english/harrison-bergeron",
+     "ed"
+    ],
+    [
+     "disillusioned",
+     "elc/english/of-mice-and-men",
      "ed"
     ],
     [
@@ -469971,6 +471532,11 @@
    "words": [
     [
      "dependent",
+     "elc/english/of-mice-and-men",
+     "ent"
+    ],
+    [
+     "dependent",
      "year-10/kinematics/extra-kinematics-motion",
      "ent"
     ],
@@ -470846,23 +472412,6 @@
     [
      "minister",
      "year-7/humanities-civics/civics",
-     "er"
-    ]
-   ]
-  },
-  "er|person/thing": {
-   "surface": "er",
-   "meaning": "person/thing",
-   "type": "suffix",
-   "words": [
-    [
-     "integer",
-     "year-7/mathematics/number",
-     "er"
-    ],
-    [
-     "vulnerable",
-     "year-9/science/fighting-infections",
      "er"
     ]
    ]
@@ -473273,6 +474822,11 @@
    "meaning": "before",
    "type": "prefix",
    "words": [
+    [
+     "foreshadowing",
+     "elc/english/of-mice-and-men",
+     "fore"
+    ],
     [
      "foreground / background",
      "elc/humanities/history",
@@ -478514,6 +480068,11 @@
      "ing"
     ],
     [
+     "foreshadowing",
+     "elc/english/of-mice-and-men",
+     "ing"
+    ],
+    [
      "bullying",
      "elc/english/sm-ban-harms",
      "ing"
@@ -480045,6 +481604,11 @@
    "meaning": "not",
    "type": "prefix",
    "words": [
+    [
+     "inevitable",
+     "elc/english/of-mice-and-men",
+     "in"
+    ],
     [
      "inaction",
      "elc/english/sm-ban-harms",
@@ -482275,6 +483839,16 @@
    "type": "suffix",
    "words": [
     [
+     "companionship",
+     "elc/english/of-mice-and-men",
+     "ion"
+    ],
+    [
+     "disillusioned",
+     "elc/english/of-mice-and-men",
+     "ion"
+    ],
+    [
      "distinction",
      "vce/accounting/unit-4-aos-1",
      "ion"
@@ -483052,6 +484626,23 @@
      "communism",
      "vce/history/unit-2-aos-1",
      "ism"
+    ]
+   ]
+  },
+  "isol|alone": {
+   "surface": "isol",
+   "meaning": "alone",
+   "type": "root",
+   "words": [
+    [
+     "isolation",
+     "elc/english/of-mice-and-men",
+     "isol"
+    ],
+    [
+     "isolation",
+     "year-7/english/film",
+     "isol"
     ]
    ]
   },
@@ -484660,6 +486251,11 @@
     [
      "oversensitive",
      "elc/english/flowers-for-algernon",
+     "ive"
+    ],
+    [
+     "apprehensive",
+     "elc/english/of-mice-and-men",
      "ive"
     ],
     [
@@ -489403,6 +490999,11 @@
    "type": "root",
    "words": [
     [
+     "migrant",
+     "elc/english/of-mice-and-men",
+     "migr"
+    ],
+    [
      "emigration",
      "elc/science/ecosystems",
      "migr"
@@ -492931,6 +494532,11 @@
    "type": "root",
    "words": [
     [
+     "companionship",
+     "elc/english/of-mice-and-men",
+     "pan"
+    ],
+    [
      "accompany",
      "elc/english/persuasive-speech-words",
      "pan"
@@ -495958,6 +497564,23 @@
      "predator",
      "year-9/science/ecology",
      "predat"
+    ]
+   ]
+  },
+  "pred|prey/plunder": {
+   "surface": "pred",
+   "meaning": "prey/plunder",
+   "type": "root",
+   "words": [
+    [
+     "predatory",
+     "elc/english/of-mice-and-men",
+     "pred"
+    ],
+    [
+     "online predator",
+     "elc/english/sm-ban-harms",
+     "pred"
     ]
    ]
   },
@@ -500642,6 +502265,23 @@
     ]
    ]
   },
+  "shadow|shade/dark shape": {
+   "surface": "shadow",
+   "meaning": "shade/dark shape",
+   "type": "root",
+   "words": [
+    [
+     "foreshadowing",
+     "elc/english/of-mice-and-men",
+     "shadow"
+    ],
+    [
+     "foreshadowing",
+     "year-9/english/analysing-texts",
+     "shadow"
+    ]
+   ]
+  },
   "shear|cut wool from a sheep": {
    "surface": "shear",
    "meaning": "cut wool from a sheep",
@@ -500698,6 +502338,11 @@
    "meaning": "state/condition",
    "type": "suffix",
    "words": [
+    [
+     "companionship",
+     "elc/english/of-mice-and-men",
+     "ship"
+    ],
     [
      "relationships",
      "elc/english/persuasive-issue-words",
@@ -502056,6 +503701,11 @@
    "meaning": "breathe",
    "type": "root",
    "words": [
+    [
+     "aspiration",
+     "elc/english/of-mice-and-men",
+     "spir"
+    ],
     [
      "respiration",
      "elc/science/ecosystems",
@@ -507650,6 +509300,23 @@
     ]
    ]
   },
+  "uous|full of": {
+   "surface": "uous",
+   "meaning": "full of",
+   "type": "suffix",
+   "words": [
+    [
+     "contemptuous",
+     "elc/english/of-mice-and-men",
+     "uous"
+    ],
+    [
+     "continuous",
+     "year-7/mathematics/data-types",
+     "uous"
+    ]
+   ]
+  },
   "up|upward": {
    "surface": "up",
    "meaning": "upward",
@@ -509500,6 +511167,28 @@
     ]
    ]
   },
+  "vulner|wound": {
+   "surface": "vulner",
+   "meaning": "wound",
+   "type": "root",
+   "words": [
+    [
+     "vulnerable",
+     "elc/english/of-mice-and-men",
+     "vulner"
+    ],
+    [
+     "vulnerability",
+     "vce/applied-computing/unit-2-aos-2",
+     "vulner"
+    ],
+    [
+     "vulnerable",
+     "year-9/science/fighting-infections",
+     "vulner"
+    ]
+   ]
+  },
   "wag|pledge": {
    "surface": "wag",
    "meaning": "pledge",
@@ -510657,6 +512346,16 @@
     [
      "unattainable",
      "elc/english/sm-ban-judging",
+     "able"
+    ],
+    [
+     "vulnerable",
+     "elc/english/of-mice-and-men",
+     "able"
+    ],
+    [
+     "inevitable",
+     "elc/english/of-mice-and-men",
      "able"
     ]
    ],
@@ -512086,6 +513785,11 @@
      "affection",
      "year-9/english/wilderpeople-ricky-and-hec",
      "af"
+    ],
+    [
+     "apprehensive",
+     "elc/english/of-mice-and-men",
+     "ap"
     ]
    ],
    "extras": [
@@ -515046,6 +516750,16 @@
     [
      "relevant",
      "elc/english/persuasive-teel",
+     "ant"
+    ],
+    [
+     "migrant",
+     "elc/english/of-mice-and-men",
+     "ant"
+    ],
+    [
+     "itinerant",
+     "elc/english/of-mice-and-men",
      "ant"
     ]
    ],
@@ -518762,6 +520476,21 @@
      "adaptation",
      "year-9/english/wilderpeople-talking",
      "ation"
+    ],
+    [
+     "isolation",
+     "elc/english/of-mice-and-men",
+     "ation"
+    ],
+    [
+     "discrimination",
+     "elc/english/of-mice-and-men",
+     "ation"
+    ],
+    [
+     "aspiration",
+     "elc/english/of-mice-and-men",
+     "ation"
     ]
    ],
    "extras": [
@@ -519139,6 +520868,11 @@
     [
      "laboratory",
      "elc/science/lab-safety-equipment",
+     "atory"
+    ],
+    [
+     "predatory",
+     "elc/english/of-mice-and-men",
      "atory"
     ]
    ],
@@ -520402,6 +522136,11 @@
     [
      "abandon",
      "elc/english/persuasive-speech-words",
+     "a"
+    ],
+    [
+     "aspiration",
+     "elc/english/of-mice-and-men",
      "a"
     ]
    ],
@@ -528032,6 +529771,16 @@
      "reconcile",
      "year-9/english/wilderpeople-ricky-and-hec",
      "con"
+    ],
+    [
+     "companionship",
+     "elc/english/of-mice-and-men",
+     "com"
+    ],
+    [
+     "contemptuous",
+     "elc/english/of-mice-and-men",
+     "con"
     ]
    ],
    "extras": [
@@ -528703,6 +530452,11 @@
     [
      "racial discrimination",
      "elc/humanities/history",
+     "crimin"
+    ],
+    [
+     "discrimination",
+     "elc/english/of-mice-and-men",
      "crimin"
     ]
    ],
@@ -529985,6 +531739,11 @@
     [
      "dependent variable",
      "vce/psychology/unit-4-aos-3",
+     "depend"
+    ],
+    [
+     "dependent",
+     "elc/english/of-mice-and-men",
      "depend"
     ]
    ],
@@ -531921,6 +533680,16 @@
      "discovered",
      "year-9/english/curious-incident-ch-113-151",
      "dis"
+    ],
+    [
+     "disillusioned",
+     "elc/english/of-mice-and-men",
+     "dis"
+    ],
+    [
+     "discrimination",
+     "elc/english/of-mice-and-men",
+     "dis"
     ]
    ],
    "extras": [
@@ -533540,6 +535309,11 @@
     [
      "exhausted",
      "year-9/english/curious-incident-ch-2-37",
+     "ed"
+    ],
+    [
+     "disillusioned",
+     "elc/english/of-mice-and-men",
      "ed"
     ]
    ],
@@ -536061,6 +537835,11 @@
      "delinquent",
      "year-9/english/wilderpeople-talking",
      "ent"
+    ],
+    [
+     "dependent",
+     "elc/english/of-mice-and-men",
+     "ent"
     ]
    ],
    "extras": [
@@ -537897,6 +539676,22 @@
      "eventually",
      "year-9/english/curious-incident-ch-157-179",
      "event"
+    ]
+   ]
+  },
+  "evit|to avoid": {
+   "surface": "evit",
+   "variants": [
+    "evit"
+   ],
+   "type": "root",
+   "gloss": "to avoid",
+   "aka": [],
+   "words": [
+    [
+     "inevitable",
+     "elc/english/of-mice-and-men",
+     "evit"
     ]
    ]
   },
@@ -541227,6 +543022,11 @@
     [
      "foreground / background",
      "elc/humanities/history",
+     "fore"
+    ],
+    [
+     "foreshadowing",
+     "elc/english/of-mice-and-men",
      "fore"
     ]
    ]
@@ -548650,6 +550450,22 @@
     ]
    ]
   },
+  "illus|to mock/to play a trick": {
+   "surface": "illus",
+   "variants": [
+    "illus"
+   ],
+   "type": "root",
+   "gloss": "to mock, to play a trick",
+   "aka": [],
+   "words": [
+    [
+     "disillusioned",
+     "elc/english/of-mice-and-men",
+     "illus"
+    ]
+   ]
+  },
   "ill|sick": {
    "surface": "ill",
    "variants": [
@@ -549781,6 +551597,11 @@
     [
      "belonging",
      "year-9/english/wilderpeople-themes",
+     "ing"
+    ],
+    [
+     "foreshadowing",
+     "elc/english/of-mice-and-men",
      "ing"
     ]
    ],
@@ -551633,6 +553454,11 @@
      "illiterate",
      "year-9/english/wilderpeople-ricky-and-hec",
      "il"
+    ],
+    [
+     "inevitable",
+     "elc/english/of-mice-and-men",
+     "in"
     ]
    ],
    "extras": [
@@ -553980,6 +555806,16 @@
      "redemption",
      "year-9/english/wilderpeople-themes",
      "ion"
+    ],
+    [
+     "companionship",
+     "elc/english/of-mice-and-men",
+     "ion"
+    ],
+    [
+     "disillusioned",
+     "elc/english/of-mice-and-men",
+     "ion"
     ]
    ],
    "extras": [
@@ -554989,6 +556825,11 @@
      "isolation",
      "year-7/english/film",
      "isol"
+    ],
+    [
+     "isolation",
+     "elc/english/of-mice-and-men",
+     "isol"
     ]
    ],
    "extras": []
@@ -555728,6 +557569,22 @@
      "Atrocities",
      "elc/humanities/general-vocabulary",
      "ities"
+    ]
+   ]
+  },
+  "itiner|journey": {
+   "surface": "itiner",
+   "variants": [
+    "itiner"
+   ],
+   "type": "root",
+   "gloss": "journey",
+   "aka": [],
+   "words": [
+    [
+     "itinerant",
+     "elc/english/of-mice-and-men",
+     "itiner"
     ]
    ]
   },
@@ -557507,6 +559364,11 @@
      "fugitive",
      "year-9/english/wilderpeople-manhunt",
      "itive"
+    ],
+    [
+     "apprehensive",
+     "elc/english/of-mice-and-men",
+     "ive"
     ]
    ],
    "extras": [
@@ -564263,6 +566125,11 @@
      "emigration",
      "elc/science/ecosystems",
      "migr"
+    ],
+    [
+     "migrant",
+     "elc/english/of-mice-and-men",
+     "migr"
     ]
    ],
    "extras": [
@@ -570324,6 +572191,11 @@
      "companion",
      "year-9/english/wilderpeople-ricky-and-hec",
      "pan"
+    ],
+    [
+     "companionship",
+     "elc/english/of-mice-and-men",
+     "pan"
     ]
    ],
    "origin": "Latin",
@@ -575291,6 +577163,27 @@
      "online predator",
      "elc/english/sm-ban-harms",
      "pred"
+    ],
+    [
+     "predatory",
+     "elc/english/of-mice-and-men",
+     "pred"
+    ]
+   ]
+  },
+  "prehens|to seize/to grasp": {
+   "surface": "prehens",
+   "variants": [
+    "prehens"
+   ],
+   "type": "root",
+   "gloss": "to seize, to grasp",
+   "aka": [],
+   "words": [
+    [
+     "apprehensive",
+     "elc/english/of-mice-and-men",
+     "prehens"
     ]
    ]
   },
@@ -582630,6 +584523,11 @@
      "foreshadowing",
      "year-9/english/analysing-texts",
      "shadow"
+    ],
+    [
+     "foreshadowing",
+     "elc/english/of-mice-and-men",
+     "shadow"
     ]
    ]
   },
@@ -582839,6 +584737,11 @@
     [
      "relationship",
      "year-9/english/curious-incident-ch-181-199",
+     "ship"
+    ],
+    [
+     "companionship",
+     "elc/english/of-mice-and-men",
      "ship"
     ]
    ],
@@ -585180,6 +587083,11 @@
     [
      "transpiration",
      "elc/science/ecosystems",
+     "spir"
+    ],
+    [
+     "aspiration",
+     "elc/english/of-mice-and-men",
      "spir"
     ]
    ],
@@ -589644,6 +591552,22 @@
     "temporary",
     "temporarily",
     "extemporaneous"
+   ]
+  },
+  "tempt|to scorn": {
+   "surface": "tempt",
+   "variants": [
+    "tempt"
+   ],
+   "type": "root",
+   "gloss": "to scorn",
+   "aka": [],
+   "words": [
+    [
+     "contemptuous",
+     "elc/english/of-mice-and-men",
+     "tempt"
+    ]
    ]
   },
   "tend|stretch/aim": {
@@ -594210,6 +596134,11 @@
      "continuous",
      "year-7/mathematics/data-types",
      "uous"
+    ],
+    [
+     "contemptuous",
+     "elc/english/of-mice-and-men",
+     "uous"
     ]
    ],
    "extras": []
@@ -597097,6 +599026,16 @@
      "vulnerable",
      "year-9/science/fighting-infections",
      "vuln"
+    ],
+    [
+     "vulnerable",
+     "year-9/science/fighting-infections",
+     "vulner"
+    ],
+    [
+     "vulnerable",
+     "elc/english/of-mice-and-men",
+     "vulner"
     ]
    ],
    "extras": [
