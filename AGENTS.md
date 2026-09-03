@@ -2,6 +2,22 @@
 
 This repository is **PUBLIC and LIVE**. It is a deployment repo, not a context library.
 
+## Where the live site comes from — read before you push
+
+GitHub Pages builds this site from the branch
+**`claude/kids-vocab-learning-app-inmvbx`**, not from `main`. A change that lands
+only on `main` never reaches a student, and nothing warns you: the push succeeds
+and the site silently stays as it was. Push to that branch, or merge `main` into
+it, whenever you want a change to go live.
+
+Then bump `build.js`. That number is the service worker's cache key, so a browser
+that has already loaded the site keeps serving the old `app.js` from cache until
+it changes — the site can be updated and the update be invisible. Runtime files
+changed means the number goes up, every time.
+
+Read `STYLE_GUIDE.md` first — the portable build principles for every teaching
+resource across these repos.
+
 Before changing teaching content, read the private `liaminhawai-cmd/ELC` repository's `AGENTS.md`, `ROADMAP.md`, and Word Builder boundary note.
 
 ## Hard rules

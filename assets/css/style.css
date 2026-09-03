@@ -325,6 +325,9 @@ a.card:hover { transform: translateY(-2px); box-shadow: 0 10px 26px rgba(60,45,2
 .wr-main { display: flex; flex-direction: column; }
 .wr-word { font-weight: 700; }
 .wr-word.sm { font-weight: 600; }
+.wr-word .wb-part.prefix { color: var(--prefix-ink); }
+.wr-word .wb-part.root   { color: var(--root-ink); }
+.wr-word .wb-part.suffix { color: var(--suffix-ink); }
 .wr-meta { display: flex; align-items: center; gap: 10px; }
 .pill { background: var(--surface-2); border-radius: 999px; padding: 3px 10px; font-size: .78rem; font-weight: 700; }
 .pill.good { background: color-mix(in srgb, var(--good) 18%, transparent); color: var(--good); }
@@ -373,6 +376,16 @@ a.card:hover { transform: translateY(-2px); box-shadow: 0 10px 26px rgba(60,45,2
 .bank-legend i.prefix { background: var(--prefix-bg); }
 .bank-legend i.root { background: var(--root-bg); }
 .bank-legend i.suffix { background: var(--suffix-bg); }
+/* The bank legend describes the pale bank chips, so a pale swatch is right
+   there. The word-list legend describes the INK the morph line and headword
+   are written in, and a pale swatch reads as an empty box against the paper.
+   Same colours, solid, plus the label in its own colour like the word cards. */
+.bank-legend.ink i.prefix { background: var(--prefix-ink); }
+.bank-legend.ink i.root { background: var(--root-ink); }
+.bank-legend.ink i.suffix { background: var(--suffix-ink); }
+.bank-legend.ink span.prefix { color: var(--prefix-ink); font-weight: 700; }
+.bank-legend.ink span.root { color: var(--root-ink); font-weight: 700; }
+.bank-legend.ink span.suffix { color: var(--suffix-ink); font-weight: 700; }
 
 /* how it works — animated step-through, modeled on the teacher's own intro slides */
 @keyframes howtoPop { from { opacity: 0; transform: translateY(10px) scale(.94); } to { opacity: 1; transform: none; } }
@@ -483,7 +496,29 @@ a.card:hover { transform: translateY(-2px); box-shadow: 0 10px 26px rgba(60,45,2
 .mo-was { font-weight: 400; opacity: .55; font-size: .82em; margin-left: 4px; cursor: help; }
 .wr-main { display: flex; align-items: baseline; justify-content: space-between; gap: 12px; width: 100%; }
 .wr-trans { text-align: right; }
-.wr-morphs { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 8px; }
+/* --- the morph line (purple-lab pattern) -------------------------------
+   A word's breakdown, shown BELOW its meaning under a dashed rule: each
+   morpheme a coloured monospace <code>, its gloss in italics beside it,
+   parts joined by " + ", and the word-story note on the line below. Used
+   for display only — the tappable/draggable chips of the build board and
+   morpheme bank keep the .mo-chip pill treatment. */
+.morph-line { border-top: 1px dashed var(--line-soft); margin-top: 8px; padding-top: 6px;
+  font-size: .86rem; color: var(--muted); line-height: 1.75; }
+.morph-line .ml-gloss { font-style: italic; color: var(--ink); }
+.morph-line .ml-code { font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+  font-weight: 700; font-size: 1rem; }
+.morph-line .ml-code.prefix { color: var(--prefix-ink); }
+.morph-line .ml-code.root   { color: var(--root-ink); }
+.morph-line .ml-code.suffix { color: var(--suffix-ink); }
+.morph-line .ml-plus { margin: 0 7px; font-weight: 700; opacity: .5; }
+.morph-line .ml-tap { background: none; border: 0; padding: 0; margin: 0; font: inherit;
+  color: inherit; cursor: pointer; border-radius: 4px; }
+.morph-line .ml-tap:hover .ml-code { text-decoration: underline; text-underline-offset: 3px; }
+.morph-line .ml-tap:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+.morph-line .ml-tap.fam::after { content: '\203A'; font-weight: 700; opacity: .55; margin-left: 3px; }
+.morph-line .ml-tap.on .ml-code { box-shadow: 0 0 0 2px var(--accent); border-radius: 4px; }
+.morph-line .ml-note { display: block; margin-top: 5px; font-size: .82rem; line-height: 1.5; }
+.morph-line .ml-note b { color: var(--ink); }
 .word-row { flex-direction: column; align-items: stretch; }
 
 .mo-panel { max-width: 480px; width: 100%; text-align: left; max-height: 82vh;
@@ -587,7 +622,9 @@ a.dict-word:hover { background: rgba(0,0,0,.1); }
 .study-list { display: flex; flex-direction: column; gap: 10px; }
 .study-card { background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius); padding: 12px 14px; }
 .study-word { font-family: var(--serif); font-size: 1.2rem; font-weight: 700; display: flex; align-items: center; gap: 6px; }
-.study-morphs { display: flex; flex-wrap: wrap; gap: 6px; margin: 8px 0; }
+.study-word .wb-part.prefix { color: var(--prefix-ink); }
+.study-word .wb-part.root   { color: var(--root-ink); }
+.study-word .wb-part.suffix { color: var(--suffix-ink); }
 .study-def { color: var(--ink); margin: 4px 0 2px; }
 .study-trans { display: inline-block; margin-top: 4px; }
 .wtr { color: var(--accent); background: color-mix(in srgb, var(--accent) 12%, transparent); border-radius: 6px; padding: 1px 8px; font-weight: 600; }
@@ -784,16 +821,95 @@ a.dict-word:hover { background: rgba(0,0,0,.1); }
 .set-picker { display: flex; flex-wrap: wrap; gap: 5px; margin-bottom: 4px; }
 .set-chip { font-size: .78rem; padding: 3px 10px; }
 
-/* My words: each row is now revisable — translation beside the word, morpheme
-   chips with their glosses, and the meaning underneath. The meta line (unit,
-   streak, box, move buttons) drops to the bottom and stays quiet.
-   The row-direction reset matters: an earlier .wr-main rule sets
-   flex-direction:column and the later one never clears it, so without this the
-   translation drops under the word instead of sitting opposite it. */
+/* My words: a tiled grid of revisable cards. Each card still carries the
+   translation, the morpheme chips with their glosses and the meaning — but the
+   bookkeeping (unit, streak, box, bin moves) compresses into one quiet footer
+   with icon-only move buttons, so the cards tile instead of stacking. The old
+   full-width rows fitted about four words per screen. */
 .wr-langbar { align-items: center; margin: -4px 0 4px; flex-wrap: wrap; }
-.word-list .wr-main { flex-direction: row; align-items: baseline; }
-.word-list .wr-trans { font-family: var(--serif); font-size: 1rem; text-align: right; }
-.word-list .wr-morphs { margin-top: 6px; }
-.word-list .wr-def { margin: 6px 0 0; font-size: .89rem; line-height: 1.4; }
-.word-list .wr-meta { flex-wrap: wrap; gap: 8px; margin-top: 8px; padding-top: 7px;
-  border-top: 1px solid var(--line-soft); }
+.word-grid { display: grid; gap: 10px; align-items: start;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); }
+.word-card { display: flex; flex-direction: column; background: var(--surface);
+  border: 1px solid var(--line); border-radius: 12px; padding: 11px 13px; }
+.wc-head { display: flex; align-items: baseline; justify-content: space-between;
+  gap: 10px; }
+.wc-head .wr-word { font-weight: 700; }
+.wc-trans { font-family: var(--serif); font-size: .95rem; text-align: right;
+  color: var(--accent); }
+.wc-morphs { display: flex; flex-wrap: wrap; gap: 5px; margin-top: 7px; }
+.wc-morphs .mo-chip { font-size: .78rem; padding: 2px 8px; }
+.wc-morphs .mo-gloss { font-size: .92em; }
+/* Clamped, not hidden: three lines is enough to recognise a word you already
+   met, and an unclamped meaning would break the grid's even tiling. */
+.wc-def { margin: 7px 0 0; font-size: .84rem; line-height: 1.4; color: var(--muted);
+  display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical;
+  overflow: hidden; }
+.wc-foot { display: flex; align-items: center; gap: 5px; margin-top: 8px; }
+.wc-unit { font-size: .72rem; color: var(--muted); margin-right: auto;
+  overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.pill.wc-pill { font-size: .7rem; padding: 2px 8px; }
+.wc-move { border: 1px solid var(--line); background: var(--surface-2);
+  border-radius: 8px; padding: 2px 7px; font-size: .8rem; cursor: pointer;
+  line-height: 1.4; }
+.wc-move:hover { border-color: var(--brand); background: var(--surface); }
+
+/* Dictionary tabs: word-parts and words are two different questions —
+   "what does this piece mean?" and "what does this word mean and where will I
+   meet it?" — so they get equal billing rather than one hiding inside the
+   other. */
+.dict-tabs { display: flex; gap: 6px; margin-bottom: 10px; }
+.dict-tab { border: 1px solid var(--line); background: var(--surface);
+  border-radius: 999px; padding: 7px 18px; font-weight: 700; font-size: .9rem;
+  color: var(--muted); cursor: pointer; }
+.dict-tab:hover { border-color: var(--brand); color: var(--brand); }
+.dict-tab.active { background: var(--brand); border-color: var(--brand); color: #fff; }
+.dw-word { font-family: var(--serif); font-weight: 700; font-size: 1.15rem;
+  display: inline-flex; align-items: center; gap: 6px; }
+.dw-trans { font-family: var(--serif); color: var(--accent); font-size: 1rem; margin-top: 2px; }
+.dw-def { margin: 8px 0 0; font-size: .92rem; line-height: 1.45; }
+.dw-eg { margin: 6px 0 0; font-size: .86rem; color: var(--muted); font-style: italic; }
+.dw-places { margin: 9px 0 0; display: flex; flex-wrap: wrap; gap: 6px; align-items: baseline; }
+.dw-place { font-size: .78rem; background: var(--surface-2); border-radius: 999px;
+  padding: 3px 10px; text-decoration: none; color: var(--ink); border: 1px solid transparent; }
+.dw-place:hover { border-color: var(--brand); color: var(--brand); }
+
+/* Pronunciation ruby — pinyin over Simplified, bopomofo over Traditional.
+   Off by default; the button below turns it on for this device only. The
+   toggle only appears while the student is reading Chinese. */
+.ruby-toggle { font: inherit; font-size: .8rem; line-height: 1; cursor: pointer;
+  padding: 6px 10px; border-radius: 999px; border: 1px solid var(--line);
+  background: var(--surface); color: var(--muted); white-space: nowrap; }
+.ruby-toggle:hover { border-color: var(--brand); color: var(--brand); }
+.ruby-toggle.on { background: var(--brand); border-color: var(--brand); color: #fff; }
+/* On the dark hero the flat surface colour disappears, so match the picker. */
+.hero-row .ruby-toggle { background: rgba(255,255,255,.14); color: #fff;
+  border-color: rgba(255,255,255,.3); }
+.hero-row .ruby-toggle.on { background: #fff; color: var(--brand); border-color: #fff; }
+
+ruby { ruby-align: center; }
+/* rt inherits the surrounding size in some engines and dwarfs the character in
+   others; pin it, and keep it in a Latin face so pinyin tone marks render. */
+ruby rt { line-height: 1.15; color: var(--muted); font-weight: 400;
+  font-style: normal; text-align: center; }
+/* Ruby adds a line above every character, so any row it lands in needs the
+   headroom, or the reading is clipped by the line above it. */
+.nat { line-height: 2.2; }
+
+/* Pinyin: a wide Latin string over a single character. Keep it small, keep it
+   in a Latin face so the tone marks render, and let the character spread just
+   enough that neighbouring syllables do not run together. */
+.nat.pinyin > ruby { margin: 0 .1em; }
+.nat.pinyin rt { font-size: .5em; letter-spacing: 0;
+  font-family: system-ui, -apple-system, "Segoe UI", sans-serif; }
+
+/* Bopomofo: a stack of marks, not a word. At pinyin's size it collapses into
+   an unreadable smudge, so it gets more size and more room underneath it. */
+.nat.bopo { line-height: 2.5; }
+.nat.bopo > ruby { margin: 0 .22em; }
+.nat.bopo rt { font-size: .62em; letter-spacing: -.02em; white-space: nowrap; }
+
+/* Inside a gloss the ruby competes with the English beside it; a touch smaller
+   there, and the line still has to grow to make room. */
+.mo-gloss .nat, .ml-gloss .nat, .mbank-native .nat { line-height: 2.4; }
+.mo-gloss .nat.pinyin rt, .ml-gloss .nat.pinyin rt, .mbank-native .nat.pinyin rt { font-size: .55em; }
+.mo-gloss .nat.bopo rt, .ml-gloss .nat.bopo rt, .mbank-native .nat.bopo rt { font-size: .6em; }
