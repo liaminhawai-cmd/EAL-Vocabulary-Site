@@ -364889,6 +364889,3427 @@
         }
        ],
        "path": "elc/english/sm-ban-judging"
+      },
+      {
+       "id": "reframe-moves",
+       "name": "Reframe the argument · The moves",
+       "interactive": true,
+       "words": [
+        {
+         "word": "frame",
+         "parts": [
+          {
+           "surface": "frame",
+           "type": "root",
+           "meaning": "structure",
+           "translations": {
+            "zh-Hans": "框架；范围",
+            "zh-Hant": "框架；範圍",
+            "am": "ማዕቀፍ; ወሰን",
+            "ar": "إطار؛ حدود",
+            "es": "estructura; límite",
+            "fa": "چارچوب؛ مرز",
+            "fr": "cadre ; limite",
+            "hi": "ढाँचा; सीमा",
+            "ja": "枠組み；境界",
+            "ko": "틀; 경계",
+            "ml": "ചട്ടക്കൂട്; അതിർത്തി",
+            "ps": "چوکاټ؛ پوله",
+            "ro": "cadru; limită",
+            "ru": "структура; граница",
+            "ta": "கட்டமைப்பு; எல்லை",
+            "tl": "balangkas; hangganan",
+            "ur": "ڈھانچہ؛ حد",
+            "vi": "khung; phạm vi"
+           }
+          }
+         ],
+         "root": "frame",
+         "meaning": "The question an argument wants you to answer. Every argument sits inside one.",
+         "example": "Their sleep argument sits inside the health frame: is it good or bad for us?",
+         "translations": {
+          "am": "ማዕቀፍ",
+          "ar": "إطار",
+          "es": "marco",
+          "fa": "چارچوب",
+          "fr": "cadre",
+          "hi": "ढाँचा",
+          "ja": "枠組み",
+          "ko": "프레임 (틀)",
+          "ml": "ചട്ടക്കൂട്",
+          "ps": "چوکاټ",
+          "ro": "cadru",
+          "ru": "рамка",
+          "ta": "சட்டகம்",
+          "tl": "balangkas",
+          "ur": "ڈھانچہ (فریم)",
+          "vi": "khung",
+          "zh-Hans": "框架",
+          "zh-Hant": "框架"
+         }
+        },
+        {
+         "word": "reframe",
+         "parts": [
+          {
+           "surface": "re",
+           "type": "prefix",
+           "meaning": "again",
+           "translations": {
+            "fa": "دوباره/باز",
+            "am": "እንደገና",
+            "ar": "مرة أخرى",
+            "es": "de nuevo / atrás",
+            "fr": "de nouveau / en arrière",
+            "hi": "फिर से / वापस",
+            "ja": "再び / 戻る",
+            "ko": "다시 / 뒤로",
+            "ml": "വീണ്ടും",
+            "ps": "بیا / شاته",
+            "ro": "din nou / înapoi",
+            "ru": "снова / назад",
+            "ta": "மீண்டும் / பின்",
+            "tl": "muli / pabalik",
+            "ur": "دوبارہ / واپس",
+            "vi": "lại",
+            "zh-Hans": "再次；回",
+            "zh-Hant": "再次；回"
+           }
+          },
+          {
+           "surface": "frame",
+           "type": "root",
+           "meaning": "structure",
+           "translations": {
+            "zh-Hans": "框架；范围",
+            "zh-Hant": "框架；範圍",
+            "am": "ማዕቀፍ; ወሰን",
+            "ar": "إطار؛ حدود",
+            "es": "estructura; límite",
+            "fa": "چارچوب؛ مرز",
+            "fr": "cadre ; limite",
+            "hi": "ढाँचा; सीमा",
+            "ja": "枠組み；境界",
+            "ko": "틀; 경계",
+            "ml": "ചട്ടക്കൂട്; അതിർത്തി",
+            "ps": "چوکاټ؛ پوله",
+            "ro": "cadru; limită",
+            "ru": "структура; граница",
+            "ta": "கட்டமைப்பு; எல்லை",
+            "tl": "balangkas; hangganan",
+            "ur": "ڈھانچہ؛ حد",
+            "vi": "khung; phạm vi"
+           }
+          }
+         ],
+         "root": "frame",
+         "meaning": "To change the question the debate is about.",
+         "example": "She reframed the sleep argument as a question about freedom.",
+         "translations": {
+          "zh-Hans": "换个角度重述",
+          "zh-Hant": "換個角度重述",
+          "ja": "言い直す・捉え直す",
+          "ko": "다르게 표현하다",
+          "vi": "nói lại theo cách khác",
+          "ar": "يعيد صياغة الفكرة",
+          "fa": "از زاویه دیگر بیان کردن",
+          "ur": "نئے انداز میں بیان کرنا",
+          "am": "በሌላ መንገድ ማቅረብ",
+          "ml": "മറ്റൊരു വിധത്തിൽ അവതരിപ്പിക്കുക",
+          "ta": "வேறு கோணத்தில் மீள்கூறு",
+          "tl": "muling ipahayag sa ibang paraan",
+          "ps": "په بل ډول بیانول",
+          "ro": "a reformula",
+          "ru": "переформулировать",
+          "fr": "reformuler autrement",
+          "hi": "नए ढंग से रखना",
+          "es": "replantear"
+         }
+        },
+        {
+         "word": "concede",
+         "parts": [
+          {
+           "surface": "con",
+           "type": "prefix",
+           "meaning": "together",
+           "translations": {
+            "am": "አብሮ",
+            "ar": "معًا",
+            "es": "juntos",
+            "fa": "باهم",
+            "fr": "ensemble",
+            "hi": "साथ",
+            "ja": "共に",
+            "ko": "함께",
+            "ml": "ഒരുമിച്ച്",
+            "ps": "يوځای",
+            "ro": "împreună",
+            "ru": "вместе",
+            "ta": "ஒன்றாக",
+            "tl": "magkasama",
+            "ur": "اکٹھا",
+            "vi": "cùng",
+            "zh-Hans": "共同",
+            "zh-Hant": "共同",
+            "other": "باهم"
+           }
+          },
+          {
+           "surface": "cede",
+           "type": "root",
+           "meaning": "give way",
+           "translations": {
+            "zh-Hans": "让步",
+            "zh-Hant": "讓步",
+            "ja": "譲る",
+            "ko": "양보하다",
+            "vi": "nhượng bộ",
+            "ar": "يتنازل / يفسح",
+            "fa": "واگذار کردن / کوتاه آمدن",
+            "ur": "دستبردار ہونا",
+            "am": "መልቀቅ / መንገድ መስጠት",
+            "ml": "വഴിമാറിക്കൊടുക്കുക",
+            "ta": "விட்டுக்கொடு",
+            "tl": "magbigay-daan",
+            "ps": "تېرېدل / ځای ورکول",
+            "ro": "a ceda",
+            "ru": "уступать",
+            "fr": "céder",
+            "hi": "रास्ता देना",
+            "es": "ceder"
+           }
+          }
+         ],
+         "root": "cede",
+         "meaning": "To admit that a small point is true, so you can move on to a bigger one.",
+         "example": "Sure, late-night scrolling can cost you sleep. I concede that.",
+         "translations": {
+          "zh-Hans": "承认",
+          "zh-Hant": "承認",
+          "ja": "譲歩する",
+          "ko": "인정하다(양보하다)",
+          "vi": "thừa nhận",
+          "ar": "يعترف بجزء",
+          "fa": "پذیرفتن (تا حدی)",
+          "ur": "تسلیم کرنا",
+          "am": "በከፊል መቀበል",
+          "ml": "ഭാഗികമായി അംഗീകരിക്കുക",
+          "ta": "ஒப்புக்கொள்",
+          "tl": "aminin",
+          "ps": "منل",
+          "ro": "a admite parțial",
+          "ru": "признавать (частично)",
+          "fr": "concéder",
+          "hi": "मान लेना",
+          "es": "conceder"
+         }
+        },
+        {
+         "word": "concession",
+         "parts": [
+          {
+           "surface": "con",
+           "type": "prefix",
+           "meaning": "together",
+           "translations": {
+            "am": "አብሮ",
+            "ar": "معًا",
+            "es": "juntos",
+            "fa": "باهم",
+            "fr": "ensemble",
+            "hi": "साथ",
+            "ja": "共に",
+            "ko": "함께",
+            "ml": "ഒരുമിച്ച്",
+            "ps": "يوځای",
+            "ro": "împreună",
+            "ru": "вместе",
+            "ta": "ஒன்றாக",
+            "tl": "magkasama",
+            "ur": "اکٹھا",
+            "vi": "cùng",
+            "zh-Hans": "共同",
+            "zh-Hant": "共同",
+            "other": "باهم"
+           }
+          },
+          {
+           "surface": "cess",
+           "type": "root",
+           "meaning": "give way",
+           "translations": {
+            "zh-Hans": "让步",
+            "zh-Hant": "讓步",
+            "ja": "譲る",
+            "ko": "양보하다",
+            "vi": "nhượng bộ",
+            "ar": "يتنازل / يفسح",
+            "fa": "واگذار کردن / کوتاه آمدن",
+            "ur": "دستبردار ہونا",
+            "am": "መልቀቅ / መንገድ መስጠት",
+            "ml": "വഴിമാറിക്കൊടുക്കുക",
+            "ta": "விட்டுக்கொடு",
+            "tl": "magbigay-daan",
+            "ps": "تېرېدل / ځای ورکول",
+            "ro": "a ceda",
+            "ru": "уступать",
+            "fr": "céder",
+            "hi": "रास्ता देना",
+            "es": "ceder"
+           }
+          },
+          {
+           "surface": "ion",
+           "type": "suffix",
+           "meaning": "act/process",
+           "translations": {
+            "fa": "فرایند/عمل",
+            "am": "ሂደት/ድርጊት",
+            "ar": "عملية/فعل",
+            "es": "proceso/acción",
+            "fr": "processus/action",
+            "hi": "प्रक्रिया/क्रिया",
+            "ja": "過程/作用",
+            "ko": "과정/작용",
+            "ml": "പ്രക്രിയ/പ്രവർത്തനം",
+            "ps": "بهیر/کړنه",
+            "ro": "proces/acțiune",
+            "ru": "процесс/действие",
+            "ta": "செயல்முறை/செயல்",
+            "tl": "proseso/kilos",
+            "ur": "عمل/فعل",
+            "vi": "quá trình/hành động",
+            "zh-Hans": "过程/动作",
+            "zh-Hant": "過程/動作"
+           }
+          }
+         ],
+         "root": "cess",
+         "meaning": "The small point you give up on purpose. It costs nothing and makes you sound fair.",
+         "example": "Start with a concession, then take their question to its limit.",
+         "translations": {
+          "am": "መቀበል (የነጥብ ማመን)",
+          "ar": "تنازل",
+          "es": "concesión",
+          "fa": "پذیرش (امتیاز دادن)",
+          "fr": "concession",
+          "hi": "स्वीकारोक्ति (रियायत)",
+          "ja": "譲歩",
+          "ko": "양보",
+          "ml": "വിട്ടുവീഴ്ച",
+          "ps": "تسلیمول (امتیاز ورکول)",
+          "ro": "concesie",
+          "ru": "уступка",
+          "ta": "விட்டுக்கொடுத்தல்",
+          "tl": "pag-amin sa punto (konsesyon)",
+          "ur": "رعایت (تسلیم کرنا)",
+          "vi": "sự nhượng bộ",
+          "zh-Hans": "让步",
+          "zh-Hant": "讓步"
+         }
+        },
+        {
+         "word": "narrow",
+         "parts": [
+          {
+           "surface": "narrow",
+           "type": "root",
+           "meaning": "small in width",
+           "translations": {}
+          }
+         ],
+         "root": "narrow",
+         "meaning": "Small and limited. A narrow concession gives up one point, not the whole argument.",
+         "example": "Keep the concession narrow: scrolling costs sleep, not 'social media is bad'.",
+         "translations": {
+          "am": "ጠባብ",
+          "ar": "ضيّق",
+          "es": "estrecho",
+          "fa": "محدود (باریک)",
+          "fr": "étroit",
+          "hi": "संकीर्ण",
+          "ja": "狭い",
+          "ko": "좁은",
+          "ml": "ഇടുങ്ങിയ",
+          "ps": "تنګ",
+          "ro": "îngust",
+          "ru": "узкий",
+          "ta": "குறுகிய",
+          "tl": "makitid",
+          "ur": "تنگ",
+          "vi": "hẹp",
+          "zh-Hans": "狭窄的",
+          "zh-Hant": "狹窄的"
+         }
+        },
+        {
+         "word": "widen",
+         "parts": [
+          {
+           "surface": "wid",
+           "type": "root",
+           "meaning": "wide",
+           "translations": {}
+          },
+          {
+           "surface": "en",
+           "type": "suffix",
+           "meaning": "make",
+           "translations": {
+            "am": "ወደ ሁኔታ ማድረግ",
+            "ar": "جعل في حالة",
+            "es": "poner en un estado de",
+            "fa": "به حالتی درآوردن",
+            "fr": "mettre dans un état de",
+            "hi": "अवस्था में लाना",
+            "ja": "~の状態にする",
+            "ko": "~상태로 만들다",
+            "ml": "അവസ്ഥയിലാക്കുക",
+            "ps": "حالت ته اړول",
+            "ro": "a pune într-o stare de",
+            "ru": "приводить в состояние",
+            "ta": "நிலைக்கு கொண்டுவா",
+            "tl": "ilagay sa kalagayan",
+            "ur": "حالت میں لانا",
+            "vi": "đặt vào trạng thái",
+            "zh-Hans": "使处于…状态",
+            "zh-Hant": "使處於…狀態"
+           }
+          }
+         ],
+         "root": "wid",
+         "meaning": "To make their question bigger, until it covers far more than they meant.",
+         "example": "Widen the frame: if health decides everything, should we ban ice cream too?",
+         "translations": {
+          "am": "ማስፋት",
+          "ar": "يوسّع",
+          "es": "ampliar",
+          "fa": "گسترش دادن",
+          "fr": "élargir",
+          "hi": "चौड़ा करना",
+          "ja": "広げる",
+          "ko": "넓히다",
+          "ml": "വിശാലമാക്കുക",
+          "ps": "پراخول",
+          "ro": "a lărgi",
+          "ru": "расширять",
+          "ta": "விரிவாக்கு",
+          "tl": "palawakin",
+          "ur": "وسیع کرنا",
+          "vi": "mở rộng",
+          "zh-Hans": "扩大",
+          "zh-Hant": "擴大"
+         }
+        },
+        {
+         "word": "in the name of",
+         "parts": [
+          {
+           "surface": "name",
+           "type": "root",
+           "meaning": "name",
+           "translations": {}
+          }
+         ],
+         "root": "name",
+         "meaning": "Using something good as the reason for doing something else.",
+         "example": "Should we all be forced to live like monks in the name of health?",
+         "translations": {
+          "am": "በ… ስም",
+          "ar": "باسم",
+          "es": "en nombre de",
+          "fa": "به نام",
+          "fr": "au nom de",
+          "hi": "के नाम पर",
+          "ja": "〜の名のもとに",
+          "ko": "~의 이름으로",
+          "ml": "…ന്റെ പേരിൽ",
+          "ps": "د … په نوم",
+          "ro": "în numele",
+          "ru": "во имя",
+          "ta": "…இன் பெயரால்",
+          "tl": "sa ngalan ng",
+          "ur": "کے نام پر",
+          "vi": "nhân danh",
+          "zh-Hans": "以……的名义",
+          "zh-Hant": "以……的名義"
+         }
+        },
+        {
+         "word": "pivot",
+         "parts": [
+          {
+           "surface": "pivot",
+           "type": "root",
+           "meaning": "turning point",
+           "translations": {}
+          }
+         ],
+         "root": "pivot",
+         "meaning": "To turn the debate quickly toward a different question.",
+         "example": "Concede, then pivot: 'This is not about sleep. It is about who decides.'",
+         "translations": {
+          "am": "አቅጣጫ መቀየር",
+          "ar": "يحوّل الاتجاه",
+          "es": "girar (cambiar de enfoque)",
+          "fa": "تغییر جهت دادن",
+          "fr": "pivoter",
+          "hi": "दिशा बदलना",
+          "ja": "方向転換する",
+          "ko": "방향을 바꾸다",
+          "ml": "ദിശ മാറ്റുക",
+          "ps": "لوری بدلول",
+          "ro": "a pivota",
+          "ru": "сменить направление",
+          "ta": "திசை மாற்று",
+          "tl": "magpalit ng direksyon",
+          "ur": "رخ بدلنا",
+          "vi": "xoay hướng",
+          "zh-Hans": "转向",
+          "zh-Hant": "轉向"
+         }
+        },
+        {
+         "word": "emphasise",
+         "parts": [
+          {
+           "surface": "em",
+           "type": "prefix",
+           "meaning": "into",
+           "translations": {
+            "am": "ወደ ውስጥ",
+            "ar": "في",
+            "es": "en / hacia dentro",
+            "fa": "در",
+            "fr": "dans",
+            "hi": "में",
+            "ja": "中に",
+            "ko": "안으로",
+            "ml": "അകത്ത്",
+            "ps": "دننه",
+            "ro": "în",
+            "ru": "в",
+            "ta": "உள்ளே",
+            "tl": "sa loob",
+            "ur": "میں",
+            "vi": "trong",
+            "zh-Hans": "在 / 进入",
+            "zh-Hant": "在 / 進入",
+            "other": "نه"
+           }
+          },
+          {
+           "surface": "phas",
+           "type": "root",
+           "meaning": "appearance",
+           "translations": {
+            "zh-Hans": "显现",
+            "zh-Hant": "顯現",
+            "ja": "現れ",
+            "ko": "나타남",
+            "vi": "sự xuất hiện",
+            "ar": "ظهور",
+            "fa": "نمود / ظاهر شدن",
+            "ur": "ظہور",
+            "am": "መታየት",
+            "ml": "പ്രത്യക്ഷത",
+            "ta": "தோற்றம்",
+            "tl": "pagpapakita",
+            "ps": "څرګندېدل",
+            "ro": "apariție",
+            "ru": "явление",
+            "fr": "apparition",
+            "hi": "प्रकटन",
+            "es": "aparición"
+           }
+          },
+          {
+           "surface": "ise",
+           "type": "suffix",
+           "meaning": "to make",
+           "translations": {
+            "am": "ማድረግ",
+            "ar": "جعل",
+            "es": "hacer",
+            "fa": "ساختن",
+            "fr": "rendre",
+            "hi": "बनाना",
+            "ja": "化する",
+            "ko": "화하다",
+            "ml": "ആക്കുക",
+            "ps": "جوړول",
+            "ro": "a face",
+            "ru": "делать",
+            "ta": "ஆக்குதல்",
+            "tl": "gawin",
+            "ur": "بنانا",
+            "vi": "làm cho",
+            "zh-Hans": "使成為 / 使成为",
+            "zh-Hant": "使成為 / 使成爲"
+           }
+          }
+         ],
+         "root": "phas",
+         "meaning": "To give one idea extra force so that it stands out.",
+         "example": "Change what you emphasise: put freedom first, and health becomes the small point.",
+         "translations": {
+          "am": "አጽንኦት መስጠት",
+          "ar": "يؤكّد على",
+          "es": "enfatizar",
+          "fa": "تأکید کردن",
+          "fr": "souligner",
+          "hi": "ज़ोर देना",
+          "ja": "強調する",
+          "ko": "강조하다",
+          "ml": "ഊന്നിപ്പറയുക",
+          "ps": "ټینګار کول",
+          "ro": "a sublinia",
+          "ru": "подчёркивать",
+          "ta": "வலியுறுத்து",
+          "tl": "bigyang-diin",
+          "ur": "زور دینا",
+          "vi": "nhấn mạnh",
+          "zh-Hans": "强调",
+          "zh-Hant": "強調"
+         }
+        },
+        {
+         "word": "trade",
+         "parts": [
+          {
+           "surface": "trade",
+           "type": "root",
+           "meaning": "exchange",
+           "translations": {}
+          }
+         ],
+         "root": "trade",
+         "meaning": "Giving up one thing to get another. A bad trade gives up more than it gets.",
+         "example": "A ban throws away a freedom to fix a bedtime. That is a bad trade.",
+         "translations": {
+          "am": "ልውውጥ (ስምምነት)",
+          "ar": "مقايضة",
+          "es": "intercambio (trato)",
+          "fa": "معامله (مبادله)",
+          "fr": "échange",
+          "hi": "सौदा",
+          "ja": "取引（交換）",
+          "ko": "거래 (맞바꾸기)",
+          "ml": "കൈമാറ്റം",
+          "ps": "راکړه ورکړه",
+          "ro": "schimb",
+          "ru": "обмен (сделка)",
+          "ta": "பரிமாற்றம்",
+          "tl": "palitan",
+          "ur": "سودا",
+          "vi": "sự đánh đổi",
+          "zh-Hans": "交换（交易）",
+          "zh-Hant": "交換（交易）"
+         }
+        },
+        {
+         "word": "collapse",
+         "parts": [
+          {
+           "surface": "col",
+           "type": "prefix",
+           "meaning": "together",
+           "translations": {
+            "am": "አብሮ",
+            "ar": "معًا",
+            "es": "juntos",
+            "fa": "باهم",
+            "fr": "ensemble",
+            "hi": "साथ",
+            "ja": "共に",
+            "ko": "함께",
+            "ml": "ഒരുമിച്ച്",
+            "ps": "يوځای",
+            "ro": "împreună",
+            "ru": "вместе",
+            "ta": "ஒன்றாக",
+            "tl": "magkasama",
+            "ur": "اکٹھا",
+            "vi": "cùng",
+            "zh-Hans": "共同",
+            "zh-Hant": "共同",
+            "other": "باهم"
+           }
+          },
+          {
+           "surface": "laps",
+           "type": "root",
+           "meaning": "slip/fall",
+           "translations": {}
+          },
+          {
+           "surface": "e",
+           "type": "suffix",
+           "meaning": "noun ending",
+           "translations": {
+            "fa": "اسم",
+            "am": "ስም",
+            "ar": "اسم",
+            "es": "forma de sustantivo",
+            "fr": "nom",
+            "hi": "संज्ञा",
+            "ja": "名詞形",
+            "ko": "명사형",
+            "ml": "നാമരൂപം",
+            "ps": "نوم",
+            "ro": "formă de substantiv",
+            "ru": "форма существительного",
+            "ta": "பெயர்ச்சொல்",
+            "tl": "pangngalan",
+            "ur": "اسم",
+            "vi": "dạng danh từ",
+            "zh-Hans": "名词形式",
+            "zh-Hant": "名詞形式"
+           }
+          }
+         ],
+         "root": "laps",
+         "meaning": "To fall apart completely.",
+         "example": "That argument collapses the moment you ask who gets to decide.",
+         "translations": {
+          "am": "መፈራረስ",
+          "ar": "ينهار",
+          "es": "derrumbarse",
+          "fa": "فروریختن",
+          "fr": "s'effondrer",
+          "hi": "ढह जाना",
+          "ja": "崩れる",
+          "ko": "무너지다",
+          "ml": "തകരുക",
+          "ps": "ړنګېدل",
+          "ro": "a se prăbuși",
+          "ru": "рухнуть",
+          "ta": "சரிந்து விழு",
+          "tl": "gumuho",
+          "ur": "ڈھے جانا",
+          "vi": "sụp đổ",
+          "zh-Hans": "崩溃",
+          "zh-Hant": "崩潰"
+         }
+        },
+        {
+         "word": "conveniently",
+         "parts": [
+          {
+           "surface": "con",
+           "type": "prefix",
+           "meaning": "together",
+           "translations": {
+            "am": "አብሮ",
+            "ar": "معًا",
+            "es": "juntos",
+            "fa": "باهم",
+            "fr": "ensemble",
+            "hi": "साथ",
+            "ja": "共に",
+            "ko": "함께",
+            "ml": "ഒരുമിച്ച്",
+            "ps": "يوځای",
+            "ro": "împreună",
+            "ru": "вместе",
+            "ta": "ஒன்றாக",
+            "tl": "magkasama",
+            "ur": "اکٹھا",
+            "vi": "cùng",
+            "zh-Hans": "共同",
+            "zh-Hant": "共同",
+            "other": "باهم"
+           }
+          },
+          {
+           "surface": "ven",
+           "type": "root",
+           "meaning": "come",
+           "translations": {
+            "am": "መምጣት",
+            "ar": "مجيء",
+            "es": "venir",
+            "fa": "آمدن",
+            "fr": "venir",
+            "hi": "आना",
+            "ja": "来る",
+            "ko": "오다",
+            "ml": "വരിക",
+            "ps": "راتلل",
+            "ro": "a veni",
+            "ru": "приходить",
+            "ta": "வருதல்",
+            "tl": "dumating",
+            "ur": "آنا",
+            "vi": "đến",
+            "zh-Hans": "来",
+            "zh-Hant": "來"
+           }
+          },
+          {
+           "surface": "ent",
+           "type": "suffix",
+           "meaning": "having the quality of",
+           "translations": {
+            "vi": "trạng thái",
+            "fa": "چیز",
+            "am": "ባሕርይ",
+            "ar": "صفة",
+            "es": "cualidad",
+            "fr": "qualité",
+            "hi": "गुण",
+            "ja": "性質",
+            "ko": "성질",
+            "ml": "ഗുണം",
+            "ps": "ځانګړتیا",
+            "ro": "calitate",
+            "ru": "качество",
+            "ta": "பண்பு",
+            "tl": "katangian",
+            "ur": "خاصیت",
+            "zh-Hans": "性质",
+            "zh-Hant": "性質",
+            "other": "بودن"
+           }
+          },
+          {
+           "surface": "ly",
+           "type": "suffix",
+           "meaning": "in the manner of",
+           "translations": {
+            "zh-Hans": "以这种方式",
+            "ja": "〜のように",
+            "fa": "به این شیوه",
+            "vi": "theo cách này",
+            "zh-Hant": "以這種方式",
+            "am": "በ… መንገድ",
+            "ar": "بطريقة",
+            "es": "manera",
+            "fr": "de manière",
+            "hi": "तरीके से",
+            "ko": "~하게",
+            "ml": "വിധത്തിൽ",
+            "ps": "په … توګه",
+            "ro": "în mod",
+            "ru": "образом",
+            "ta": "விதமாக",
+            "tl": "sa paraang",
+            "ur": "طریقے سے"
+           }
+          }
+         ],
+         "root": "ven",
+         "meaning": "Said with a sting: they left something out because it did not suit them.",
+         "example": "Conveniently, they ignored the students who use these apps to learn English.",
+         "translations": {
+          "am": "በሚመች ሁኔታ (ለራስ)",
+          "ar": "بشكل مريح (لهم)",
+          "es": "convenientemente",
+          "fa": "به‌طور راحت (به نفع خود)",
+          "fr": "commodément",
+          "hi": "सुविधाजनक रूप से",
+          "ja": "都合よく",
+          "ko": "편리하게도",
+          "ml": "സൗകര്യപ്രദമായി",
+          "ps": "د ځان په ګټه (په اسانۍ)",
+          "ro": "în mod convenabil",
+          "ru": "удобно (для себя)",
+          "ta": "வசதியாக",
+          "tl": "maginhawang (para sa kanila)",
+          "ur": "سہولت سے (اپنے فائدے کے لیے)",
+          "vi": "một cách thuận tiện",
+          "zh-Hans": "恰好（对自己有利地）",
+          "zh-Hant": "恰好（對自己有利地）"
+         }
+        },
+        {
+         "word": "rests on",
+         "parts": [
+          {
+           "surface": "rest",
+           "type": "root",
+           "meaning": "remain/lean",
+           "translations": {
+            "am": "ዕረፍት",
+            "ar": "سكون",
+            "es": "reposo",
+            "fa": "سکون",
+            "fr": "repos",
+            "hi": "विराम",
+            "ja": "静止",
+            "ko": "정지",
+            "ml": "വിശ്രമം",
+            "ps": "آرام",
+            "ro": "repaus",
+            "ru": "покой",
+            "ta": "ஓய்வு",
+            "tl": "pahinga",
+            "ur": "آرام",
+            "vi": "nghỉ",
+            "zh-Hans": "静止",
+            "zh-Hant": "靜止"
+           }
+          }
+         ],
+         "root": "rest",
+         "meaning": "Depends completely on one thing.",
+         "example": "Their whole case rests on one example. Take it away and nothing is left.",
+         "translations": {
+          "am": "በ… ላይ ይመሰረታል",
+          "ar": "يقوم على",
+          "es": "se basa en",
+          "fa": "متکی است بر",
+          "fr": "repose sur",
+          "hi": "पर टिका है",
+          "ja": "〜に基づく",
+          "ko": "~에 달려 있다",
+          "ml": "…നെ ആശ്രയിച്ചിരിക്കുന്നു",
+          "ps": "په … ولاړ دی",
+          "ro": "se bazează pe",
+          "ru": "опирается на",
+          "ta": "…ஐ சார்ந்துள்ளது",
+          "tl": "nakasalalay sa",
+          "ur": "پر منحصر ہے",
+          "vi": "dựa vào",
+          "zh-Hans": "建立在……之上",
+          "zh-Hant": "建立在……之上"
+         }
+        }
+       ],
+       "path": "elc/english/reframe-moves"
+      },
+      {
+       "id": "reframe-devices",
+       "name": "Reframe the argument · The devices you are hitting",
+       "interactive": true,
+       "words": [
+        {
+         "word": "device",
+         "parts": [],
+         "root": "",
+         "meaning": "A technique a speaker uses on purpose to persuade: a question, a number, a story.",
+         "example": "Name the device before you answer it: 'That was one story about one girl.'",
+         "translations": {
+          "am": "ዘዴ",
+          "ar": "أسلوب",
+          "es": "recurso (técnica)",
+          "fa": "شگرد",
+          "fr": "procédé",
+          "hi": "युक्ति",
+          "ja": "技法",
+          "ko": "기법",
+          "ml": "തന്ത്രം",
+          "ps": "چل (تخنیک)",
+          "ro": "procedeu",
+          "ru": "приём",
+          "ta": "உத்தி",
+          "tl": "pamamaraan",
+          "ur": "حربہ (تکنیک)",
+          "vi": "thủ pháp",
+          "zh-Hans": "手法",
+          "zh-Hant": "手法"
+         }
+        },
+        {
+         "word": "anecdote",
+         "parts": [
+          {
+           "surface": "an",
+           "type": "prefix",
+           "meaning": "not",
+           "translations": {
+            "am": "ያለ",
+            "ar": "بدون",
+            "es": "sin",
+            "fa": "بدون",
+            "fr": "sans",
+            "hi": "बिना",
+            "ja": "無",
+            "ko": "무",
+            "ml": "ഇല്ലാതെ",
+            "ps": "پرته",
+            "ro": "fără",
+            "ru": "без",
+            "ta": "இல்லாமல்",
+            "tl": "walang",
+            "ur": "بغیر",
+            "vi": "vô",
+            "zh-Hans": "无",
+            "zh-Hant": "無"
+           }
+          },
+          {
+           "surface": "ec",
+           "type": "prefix",
+           "meaning": "out",
+           "translations": {
+            "am": "ውጭ",
+            "ar": "خارج",
+            "es": "fuera",
+            "fa": "بیرون",
+            "fr": "hors de",
+            "hi": "बाहर",
+            "ja": "外へ",
+            "ko": "밖으로",
+            "ml": "പുറത്തേക്ക്",
+            "ps": "بهر",
+            "ro": "afară",
+            "ru": "из",
+            "ta": "வெளியே",
+            "tl": "palabas",
+            "ur": "باہر",
+            "vi": "ra",
+            "zh-Hans": "向外",
+            "zh-Hant": "向外",
+            "other": "خارج"
+           }
+          },
+          {
+           "surface": "dot",
+           "type": "root",
+           "meaning": "give",
+           "translations": {
+            "zh-Hans": "给予",
+            "zh-Hant": "給予",
+            "ja": "与えられた",
+            "ko": "주어진",
+            "vi": "được cho",
+            "ar": "معطى",
+            "fa": "داده‌شده",
+            "ur": "دیا گیا",
+            "am": "የተሰጠ",
+            "ml": "നൽകപ്പെട്ട",
+            "ta": "கொடுக்கப்பட்ட",
+            "tl": "ibinigay",
+            "ps": "ورکړل شوی",
+            "ro": "dat",
+            "ru": "данный",
+            "fr": "donné",
+            "hi": "दिया गया",
+            "es": "dado"
+           }
+          }
+         ],
+         "root": "dot",
+         "meaning": "One short story about one person, told to make a point.",
+         "example": "A girl who finds forty cruel comments is an anecdote, not a statistic.",
+         "translations": {
+          "zh-Hans": "轶事",
+          "zh-Hant": "軼事",
+          "ja": "逸話",
+          "ko": "일화",
+          "vi": "giai thoại",
+          "ar": "حكاية",
+          "fa": "حکایت",
+          "ur": "حکایت",
+          "am": "አጭር ታሪክ",
+          "ml": "അനുഭവകഥ",
+          "ta": "அனுபவக் கதை",
+          "tl": "maikling personal na kuwento",
+          "ps": "حکایت",
+          "ro": "anecdotă",
+          "ru": "случай из жизни",
+          "fr": "anecdote",
+          "hi": "उपाख्यान",
+          "es": "anécdota"
+         }
+        },
+        {
+         "word": "expert opinion",
+         "parts": [
+          {
+           "surface": "ex",
+           "type": "prefix",
+           "meaning": "out",
+           "translations": {
+            "am": "ውጭ",
+            "ar": "خارج",
+            "es": "fuera",
+            "fa": "بیرون",
+            "fr": "hors de",
+            "hi": "बाहर",
+            "ja": "外へ",
+            "ko": "밖으로",
+            "ml": "പുറത്തേക്ക്",
+            "ps": "بهر",
+            "ro": "afară",
+            "ru": "из",
+            "ta": "வெளியே",
+            "tl": "palabas",
+            "ur": "باہر",
+            "vi": "ra",
+            "zh-Hans": "向外",
+            "zh-Hant": "向外",
+            "other": "خارج"
+           }
+          },
+          {
+           "surface": "pert",
+           "type": "root",
+           "meaning": "tried/tested",
+           "translations": {
+            "am": "የተሞከረ",
+            "ar": "مجرب",
+            "es": "probado",
+            "fa": "آزموده",
+            "fr": "éprouvé",
+            "hi": "परखा हुआ",
+            "ja": "試された",
+            "ko": "시험된",
+            "ml": "പരീക്ഷിച്ച",
+            "ps": "ازمویل شوی",
+            "ro": "testat",
+            "ru": "испытанный",
+            "ta": "சோதிக்கப்பட்ட",
+            "tl": "sinubok",
+            "ur": "آزمودہ",
+            "vi": "đã thử nghiệm",
+            "zh-Hans": "经过考验的",
+            "zh-Hant": "經過考驗的"
+           }
+          },
+          {
+           "surface": "opin",
+           "type": "root",
+           "meaning": "think/believe",
+           "translations": {
+            "zh-Hans": "认为；相信",
+            "zh-Hant": "認為；相信",
+            "ja": "思う・信じる",
+            "ko": "생각하다, 믿다",
+            "vi": "nghĩ, tin",
+            "ar": "يظن / يعتقد",
+            "fa": "پنداشتن / باور داشتن",
+            "ur": "سوچنا / ماننا",
+            "am": "ማሰብ / ማመን",
+            "ml": "കരുതുക / വിശ്വസിക്കുക",
+            "ta": "நினை / நம்பு",
+            "tl": "mag-isip / maniwala",
+            "ps": "فکر کول / باور کول",
+            "ro": "a crede / a socoti",
+            "ru": "полагать / считать",
+            "fr": "penser / croire",
+            "hi": "सोचना / मानना",
+            "es": "opinar / creer"
+           }
+          },
+          {
+           "surface": "ion",
+           "type": "suffix",
+           "meaning": "act/process",
+           "translations": {
+            "fa": "فرایند/عمل",
+            "am": "ሂደት/ድርጊት",
+            "ar": "عملية/فعل",
+            "es": "proceso/acción",
+            "fr": "processus/action",
+            "hi": "प्रक्रिया/क्रिया",
+            "ja": "過程/作用",
+            "ko": "과정/작용",
+            "ml": "പ്രക്രിയ/പ്രവർത്തനം",
+            "ps": "بهیر/کړنه",
+            "ro": "proces/acțiune",
+            "ru": "процесс/действие",
+            "ta": "செயல்முறை/செயல்",
+            "tl": "proseso/kilos",
+            "ur": "عمل/فعل",
+            "vi": "quá trình/hành động",
+            "zh-Hans": "过程/动作",
+            "zh-Hant": "過程/動作"
+           }
+          }
+         ],
+         "root": "pert",
+         "meaning": "Borrowing a doctor's or a scientist's authority: 'psychologists warn that…'",
+         "example": "An expert opinion sounds strong. Ask which expert, and how many.",
+         "translations": {
+          "am": "የባለሙያ አስተያየት",
+          "ar": "رأي الخبراء",
+          "es": "opinión de expertos",
+          "fa": "نظر کارشناس",
+          "fr": "avis d'expert",
+          "hi": "विशेषज्ञ की राय",
+          "ja": "専門家の意見",
+          "ko": "전문가 의견",
+          "ml": "വിദഗ്ധാഭിപ്രായം",
+          "ps": "د کارپوه نظر",
+          "ro": "opinia expertului",
+          "ru": "мнение эксперта",
+          "ta": "நிபுணர் கருத்து",
+          "tl": "opinyon ng eksperto",
+          "ur": "ماہر کی رائے",
+          "vi": "ý kiến chuyên gia",
+          "zh-Hans": "专家意见",
+          "zh-Hant": "專家意見"
+         }
+        },
+        {
+         "word": "bias language",
+         "parts": [
+          {
+           "surface": "bias",
+           "type": "root",
+           "meaning": "slant",
+           "translations": {
+            "zh-Hans": "倾斜",
+            "zh-Hant": "傾斜",
+            "ja": "傾き",
+            "ko": "기울기",
+            "vi": "thiên lệch",
+            "ar": "ميل",
+            "fa": "کجی",
+            "ur": "جھکاؤ",
+            "am": "ማዘንበል",
+            "ml": "ചരിവ്",
+            "ta": "சாய்வு",
+            "tl": "hilig",
+            "ps": "کږوالی",
+            "ro": "înclinare",
+            "ru": "наклон",
+            "fr": "inclinaison",
+            "hi": "झुकाव",
+            "es": "inclinación"
+           }
+          },
+          {
+           "surface": "langu",
+           "type": "root",
+           "meaning": "tongue",
+           "translations": {
+            "ps": "ژبه",
+            "zh-Hant": "語言",
+            "zh-Hans": "语言",
+            "am": "ቋንቋ",
+            "ar": "لغة",
+            "es": "idioma",
+            "fa": "زبان",
+            "fr": "langue",
+            "hi": "भाषा",
+            "ja": "言語",
+            "ko": "언어",
+            "ml": "ഭാഷ",
+            "ro": "limbă",
+            "ru": "язык",
+            "ta": "மொழி",
+            "tl": "wika",
+            "ur": "زبان",
+            "vi": "ngôn ngữ"
+           }
+          },
+          {
+           "surface": "age",
+           "type": "suffix",
+           "meaning": "result",
+           "translations": {
+            "fa": "نتیجه",
+            "am": "ውጤት",
+            "ar": "نتيجة",
+            "es": "resultado",
+            "fr": "résultat",
+            "hi": "परिणाम",
+            "ja": "結果",
+            "ko": "결과",
+            "ml": "ഫലം",
+            "ps": "پایله",
+            "ro": "rezultat",
+            "ru": "результат",
+            "ta": "விளைவு",
+            "tl": "resulta",
+            "ur": "نتیجہ",
+            "vi": "kết quả",
+            "zh-Hans": "结果",
+            "zh-Hant": "結果",
+            "other": "درصد"
+           }
+          }
+         ],
+         "root": "bias",
+         "meaning": "Loaded words that judge something before any argument is made.",
+         "example": "'These predators' and 'this heavy-handed ban' are both bias language.",
+         "translations": {
+          "am": "አድሏዊ ቋንቋ",
+          "ar": "لغة متحيّزة",
+          "es": "lenguaje sesgado",
+          "fa": "زبان جانبدارانه",
+          "fr": "langage partial",
+          "hi": "पक्षपाती भाषा",
+          "ja": "偏った言葉",
+          "ko": "편향된 언어",
+          "ml": "പക്ഷപാതപരമായ ഭാഷ",
+          "ps": "یو اړخیزه ژبه",
+          "ro": "limbaj părtinitor",
+          "ru": "предвзятый язык",
+          "ta": "சார்புடைய மொழி",
+          "tl": "may-kinikilingang wika",
+          "ur": "جانبدارانہ زبان",
+          "vi": "ngôn ngữ thiên vị",
+          "zh-Hans": "偏见性语言",
+          "zh-Hant": "偏頗語言"
+         }
+        },
+        {
+         "word": "loaded",
+         "parts": [
+          {
+           "surface": "load",
+           "type": "root",
+           "meaning": "burden/carry",
+           "translations": {}
+          },
+          {
+           "surface": "ed",
+           "type": "suffix",
+           "meaning": "past",
+           "translations": {
+            "am": "(ያለፈ ጊዜ)",
+            "ar": "(صيغة الماضي)",
+            "es": "(tiempo pasado)",
+            "fa": "(زمان گذشته)",
+            "fr": "(passé)",
+            "hi": "(भूतकाल)",
+            "ja": "(過去形)",
+            "ko": "(과거형)",
+            "ml": "(ഭൂതകാലം)",
+            "ps": "(تېر مهال)",
+            "ro": "(timpul trecut)",
+            "ru": "(прошедшее время)",
+            "ta": "(இறந்த காலம்)",
+            "tl": "(nakaraang panahunan)",
+            "ur": "(ماضی کا صیغہ)",
+            "vi": "(thì quá khứ)",
+            "zh-Hans": "(过去式)",
+            "zh-Hant": "(過去式)"
+           }
+          }
+         ],
+         "root": "load",
+         "meaning": "A loaded word carries a judgement inside it.",
+         "example": "'Tormented' is a loaded word: it makes you feel the answer before you think.",
+         "translations": {
+          "am": "ፍርድ የያዘ (ቃል)",
+          "ar": "مشحون (بحكم)",
+          "es": "cargado (de juicio)",
+          "fa": "دارای بار معنایی",
+          "fr": "chargé (de sens)",
+          "hi": "भावनात्मक भार वाला",
+          "ja": "含みのある",
+          "ko": "감정이 실린",
+          "ml": "വിധി ഉൾക്കൊള്ളുന്ന",
+          "ps": "قضاوت لرونکی",
+          "ro": "încărcat (de sens)",
+          "ru": "эмоционально окрашенный",
+          "ta": "தீர்ப்பு ஏற்றப்பட்ட",
+          "tl": "may kargang kahulugan",
+          "ur": "جذباتی بار والا",
+          "vi": "mang hàm ý phán xét",
+          "zh-Hans": "带有倾向性的",
+          "zh-Hant": "帶有傾向性的"
+         }
+        },
+        {
+         "word": "connotation",
+         "parts": [
+          {
+           "surface": "con",
+           "type": "prefix",
+           "meaning": "together",
+           "translations": {
+            "am": "አብሮ",
+            "ar": "معًا",
+            "es": "juntos",
+            "fa": "باهم",
+            "fr": "ensemble",
+            "hi": "साथ",
+            "ja": "共に",
+            "ko": "함께",
+            "ml": "ഒരുമിച്ച്",
+            "ps": "يوځای",
+            "ro": "împreună",
+            "ru": "вместе",
+            "ta": "ஒன்றாக",
+            "tl": "magkasama",
+            "ur": "اکٹھا",
+            "vi": "cùng",
+            "zh-Hans": "共同",
+            "zh-Hant": "共同",
+            "other": "باهم"
+           }
+          },
+          {
+           "surface": "not",
+           "type": "root",
+           "meaning": "mark/note",
+           "translations": {
+            "am": "ምልክት / ማስታወሻ",
+            "ar": "علامة / ملاحظة",
+            "es": "marca/nota",
+            "fa": "نشان / یادداشت",
+            "fr": "marque / note",
+            "hi": "चिह्न / टिप्पणी",
+            "ja": "印・メモ",
+            "ko": "표시/메모",
+            "ml": "അടയാളം / കുറിപ്പ്",
+            "ps": "نښه / یادداشت",
+            "ro": "semn / notă",
+            "ru": "знак / заметка",
+            "ta": "குறி / குறிப்பு",
+            "tl": "marka / tala",
+            "ur": "نشان / نوٹ",
+            "vi": "dấu / ghi chú",
+            "zh-Hans": "标记/笔记",
+            "zh-Hant": "標記/筆記"
+           }
+          },
+          {
+           "surface": "ation",
+           "type": "suffix",
+           "meaning": "process of",
+           "translations": {
+            "am": "ሂደት",
+            "ar": "عملية",
+            "es": "proceso de",
+            "fa": "فرآیند",
+            "fr": "processus",
+            "hi": "प्रक्रिया",
+            "ja": "過程",
+            "ko": "과정",
+            "ml": "പ്രക്രിയ",
+            "ps": "پروسه",
+            "ro": "proces",
+            "ru": "процесс",
+            "ta": "செயல்முறை",
+            "tl": "proseso",
+            "ur": "عمل",
+            "vi": "quá trình",
+            "zh-Hans": "过程",
+            "zh-Hant": "過程"
+           }
+          }
+         ],
+         "root": "not",
+         "meaning": "The feeling a word carries as well as its meaning.",
+         "example": "'Monks' has a connotation of a hard, joyless life. That is why the speaker chose it.",
+         "translations": {
+          "am": "አንድምታ",
+          "ar": "دلالة ضمنية",
+          "es": "connotación",
+          "fa": "بار معنایی",
+          "fr": "connotation",
+          "hi": "अंतर्निहित अर्थ",
+          "ja": "含意",
+          "ko": "함축",
+          "ml": "സൂചിതാർത്ഥം",
+          "ps": "ضمني معنی",
+          "ro": "conotație",
+          "ru": "коннотация",
+          "ta": "உட்பொருள்",
+          "tl": "konotasyon",
+          "ur": "ضمنی معنی",
+          "vi": "hàm ý",
+          "zh-Hans": "内涵",
+          "zh-Hant": "內涵"
+         }
+        },
+        {
+         "word": "implied",
+         "parts": [
+          {
+           "surface": "im",
+           "type": "prefix",
+           "meaning": "into",
+           "translations": {
+            "am": "ወደ ውስጥ",
+            "ar": "في",
+            "es": "en / hacia dentro",
+            "fa": "در",
+            "fr": "dans",
+            "hi": "में",
+            "ja": "中に",
+            "ko": "안으로",
+            "ml": "അകത്ത്",
+            "ps": "دننه",
+            "ro": "în",
+            "ru": "в",
+            "ta": "உள்ளே",
+            "tl": "sa loob",
+            "ur": "میں",
+            "vi": "trong",
+            "zh-Hans": "在 / 进入",
+            "zh-Hant": "在 / 進入",
+            "other": "نه"
+           }
+          },
+          {
+           "surface": "pli",
+           "type": "root",
+           "meaning": "fold",
+           "translations": {
+            "zh-Hans": "牵涉；包含",
+            "zh-Hant": "牽涉；包含",
+            "am": "ማጠፍ/ማካተት",
+            "ar": "طي/تضمين",
+            "es": "doblar/implicar",
+            "fa": "تا کردن/شامل کردن",
+            "fr": "plier/impliquer",
+            "hi": "मोड़ना/शामिल करना",
+            "ja": "折る/含む",
+            "ko": "접다/포함하다",
+            "ml": "മടക്കുക/ഉൾപ്പെടുത്തുക",
+            "ps": "تاؤ/ښکېلول",
+            "ro": "a plia/a implica",
+            "ru": "сгибать/вовлекать",
+            "ta": "மடிப்பு/உள்ளடக்கு",
+            "tl": "tiklop/isama",
+            "ur": "تہہ کرنا/شامل کرنا",
+            "vi": "liên quan",
+            "other": "برابر"
+           }
+          },
+          {
+           "surface": "ed",
+           "type": "suffix",
+           "meaning": "past",
+           "translations": {
+            "am": "(ያለፈ ጊዜ)",
+            "ar": "(صيغة الماضي)",
+            "es": "(tiempo pasado)",
+            "fa": "(زمان گذشته)",
+            "fr": "(passé)",
+            "hi": "(भूतकाल)",
+            "ja": "(過去形)",
+            "ko": "(과거형)",
+            "ml": "(ഭൂതകാലം)",
+            "ps": "(تېر مهال)",
+            "ro": "(timpul trecut)",
+            "ru": "(прошедшее время)",
+            "ta": "(இறந்த காலம்)",
+            "tl": "(nakaraang panahunan)",
+            "ur": "(ماضی کا صیغہ)",
+            "vi": "(thì quá khứ)",
+            "zh-Hans": "(过去式)",
+            "zh-Hant": "(過去式)"
+           }
+          }
+         ],
+         "root": "pli",
+         "meaning": "Suggested without being said.",
+         "example": "The implied meaning of 'we lock our doors at night' is that anyone who disagrees is careless.",
+         "translations": {
+          "am": "በተዘዋዋሪ የተገለጸ",
+          "ar": "ضمني",
+          "es": "implícito",
+          "fa": "ضمنی",
+          "fr": "implicite",
+          "hi": "निहित",
+          "ja": "暗に示された",
+          "ko": "암시된",
+          "ml": "സൂചിതമായ",
+          "ps": "ضمني",
+          "ro": "implicit",
+          "ru": "подразумеваемый",
+          "ta": "மறைமுகமாகக் குறிக்கப்பட்ட",
+          "tl": "ipinahihiwatig",
+          "ur": "مضمر",
+          "vi": "ngụ ý",
+          "zh-Hans": "暗示的",
+          "zh-Hant": "暗示的"
+         }
+        },
+        {
+         "word": "list of three",
+         "parts": [
+          {
+           "surface": "list",
+           "type": "root",
+           "meaning": "list",
+           "translations": {
+            "am": "የስሞች ወይም የነገሮች ዝርዝር",
+            "ar": "قائمة مكتوبة بالأسماء أو العناصر",
+            "es": "una lista escrita de nombres o elementos",
+            "fa": "فهرست نوشته‌شده از نام‌ها یا موارد",
+            "fr": "une liste écrite de noms ou d'éléments",
+            "hi": "नामों या वस्तुओं की लिखित सूची",
+            "ja": "名前や項目の一覧",
+            "ko": "이름이나 항목의 목록",
+            "ml": "പേരുകളുടെയോ ഇനങ്ങളുടെയോ എഴുതിയ പട്ടിക",
+            "ps": "د نومونو یا شیانو لیکل شوی لړلیک",
+            "ro": "o listă scrisă de nume sau elemente",
+            "ru": "письменный перечень имён или предметов",
+            "ta": "பெயர்கள் அல்லது பொருட்களின் எழுதப்பட்ட பட்டியல்",
+            "tl": "isang nakasulat na talaan ng mga pangalan o bagay",
+            "ur": "ناموں یا اشیاء کی تحریری فہرست",
+            "vi": "danh sách các tên hoặc mục được viết ra",
+            "zh-Hans": "名称或项目的书面列表",
+            "zh-Hant": "名稱或項目的書面清單"
+           }
+          },
+          {
+           "surface": "three",
+           "type": "root",
+           "meaning": "three",
+           "translations": {
+            "zh-Hans": "三",
+            "zh-Hant": "三",
+            "ja": "三",
+            "ko": "셋",
+            "vi": "ba",
+            "ar": "ثلاثة",
+            "fa": "سه",
+            "ur": "تین",
+            "am": "ሦስት",
+            "ml": "മൂന്ന്",
+            "ta": "மூன்று",
+            "tl": "tatlo",
+            "ps": "درې",
+            "ro": "trei",
+            "ru": "три",
+            "fr": "trois",
+            "hi": "तीन",
+            "es": "tres"
+           }
+          }
+         ],
+         "root": "list",
+         "meaning": "Three examples in a row. It sounds complete, even when it is not.",
+         "example": "'Ice cream, a movie on Friday night, a party on Saturday' is a list of three.",
+         "translations": {
+          "am": "የሶስት ዝርዝር",
+          "ar": "قائمة ثلاثية",
+          "es": "lista de tres",
+          "fa": "فهرست سه‌تایی",
+          "fr": "liste de trois",
+          "hi": "तीन की सूची",
+          "ja": "三つ並べ",
+          "ko": "세 가지 나열",
+          "ml": "മൂന്നിന്റെ പട്ടിക",
+          "ps": "د دریو لړلیک",
+          "ro": "lista de trei",
+          "ru": "список из трёх",
+          "ta": "மூன்றின் பட்டியல்",
+          "tl": "listahan ng tatlo",
+          "ur": "تین کی فہرست",
+          "vi": "liệt kê ba điều",
+          "zh-Hans": "三项排比",
+          "zh-Hant": "三項排比"
+         }
+        }
+       ],
+       "path": "elc/english/reframe-devices"
+      },
+      {
+       "id": "reframe-words-aff",
+       "name": "Reframe the argument · Inside the affirmative's arguments",
+       "interactive": true,
+       "words": [
+        {
+         "word": "exhausted",
+         "parts": [
+          {
+           "surface": "ex",
+           "type": "prefix",
+           "meaning": "out",
+           "translations": {
+            "am": "ውጭ",
+            "ar": "خارج",
+            "es": "fuera",
+            "fa": "بیرون",
+            "fr": "hors de",
+            "hi": "बाहर",
+            "ja": "外へ",
+            "ko": "밖으로",
+            "ml": "പുറത്തേക്ക്",
+            "ps": "بهر",
+            "ro": "afară",
+            "ru": "из",
+            "ta": "வெளியே",
+            "tl": "palabas",
+            "ur": "باہر",
+            "vi": "ra",
+            "zh-Hans": "向外",
+            "zh-Hant": "向外",
+            "other": "خارج"
+           }
+          },
+          {
+           "surface": "haust",
+           "type": "root",
+           "meaning": "draw out/drain",
+           "translations": {
+            "zh-Hans": "抽出/耗尽",
+            "zh-Hant": "抽出/耗盡",
+            "ja": "引き出す/排出する",
+            "ko": "끌어내다/배출하다",
+            "vi": "rút ra/làm cạn kiệt",
+            "ar": "يستخرج/يستنزف",
+            "fa": "بیرون کشیدن/تخلیه کردن",
+            "ur": "نکالنا/خالی کرنا",
+            "am": "ማውጣት/ማድረቅ",
+            "ml": "വലിച്ചെടുക്കുക/വറ്റിക്കുക",
+            "ta": "இழுத்தெடுத்தல்/வடித்தல்",
+            "tl": "hugutin/patuyuin",
+            "ps": "راایستل/تشول",
+            "ro": "a extrage/a epuiza",
+            "ru": "вытягивать/истощать",
+            "fr": "extraire/épuiser",
+            "hi": "बाहर निकालना/खाली करना",
+            "es": "extraer/agotar"
+           }
+          },
+          {
+           "surface": "ed",
+           "type": "suffix",
+           "meaning": "past",
+           "translations": {
+            "am": "(ያለፈ ጊዜ)",
+            "ar": "(صيغة الماضي)",
+            "es": "(tiempo pasado)",
+            "fa": "(زمان گذشته)",
+            "fr": "(passé)",
+            "hi": "(भूतकाल)",
+            "ja": "(過去形)",
+            "ko": "(과거형)",
+            "ml": "(ഭൂതകാലം)",
+            "ps": "(تېر مهال)",
+            "ro": "(timpul trecut)",
+            "ru": "(прошедшее время)",
+            "ta": "(இறந்த காலம்)",
+            "tl": "(nakaraang panahunan)",
+            "ur": "(ماضی کا صیغہ)",
+            "vi": "(thì quá khứ)",
+            "zh-Hans": "(过去式)",
+            "zh-Hant": "(過去式)"
+           }
+          }
+         ],
+         "root": "haust",
+         "meaning": "Completely tired, with nothing left.",
+         "example": "How many more exhausted, anxious, unhealthy young people do we need before we act?",
+         "translations": {
+          "zh-Hans": "筋疲力尽的",
+          "zh-Hant": "筋疲力盡的",
+          "ja": "疲れ果てた",
+          "ko": "기진맥진한",
+          "vi": "kiệt sức",
+          "ar": "منهك",
+          "fa": "از پا افتاده",
+          "ur": "نڈھال",
+          "am": "በጣም የደከመ",
+          "ml": "തളർന്ന",
+          "ta": "முற்றிலும் களைத்த",
+          "tl": "pagod na pagod",
+          "ps": "ډېر ستړی",
+          "ro": "epuizat",
+          "ru": "измождённый",
+          "fr": "épuisé",
+          "hi": "थका-हारा",
+          "es": "agotado"
+         }
+        },
+        {
+         "word": "anxious",
+         "parts": [
+          {
+           "surface": "anxi",
+           "type": "root",
+           "meaning": "worried/troubled",
+           "translations": {}
+          },
+          {
+           "surface": "ous",
+           "type": "suffix",
+           "meaning": "full of",
+           "translations": {
+            "am": "ባህርይ ያለው",
+            "ar": "ذو صفة",
+            "es": "que tiene la cualidad de",
+            "fa": "دارای ویژگی",
+            "fr": "ayant la qualité de",
+            "hi": "गुणवाला",
+            "ja": "〜の性質を持つ",
+            "ko": "~의 성질을 가진",
+            "ml": "സ്വഭാവമുള്ള",
+            "ps": "د ... خاصیت لرونکی",
+            "ro": "având calitatea de",
+            "ru": "обладающий свойством",
+            "ta": "குணமுடைய",
+            "tl": "may katangian ng",
+            "ur": "خاصیت رکھنے والا",
+            "vi": "có tính chất",
+            "zh-Hans": "具有…性质的",
+            "zh-Hant": "具有…性質的"
+           }
+          }
+         ],
+         "root": "anxi",
+         "meaning": "Worried and nervous about what might happen.",
+         "example": "Psychologists warn that social media can make young people more anxious.",
+         "translations": {
+          "am": "የተጨነቀ",
+          "ar": "قلق",
+          "es": "ansioso",
+          "fa": "مضطرب",
+          "fr": "anxieux",
+          "hi": "चिंतित",
+          "ja": "不安な",
+          "ko": "불안한",
+          "ml": "ഉത്കണ്ഠാകുലനായ",
+          "ps": "اندېښمن",
+          "ro": "anxios",
+          "ru": "тревожный",
+          "ta": "பதட்டமான",
+          "tl": "balisa",
+          "ur": "بے چین",
+          "vi": "lo lắng",
+          "zh-Hans": "焦虑的",
+          "zh-Hant": "焦慮的"
+         }
+        },
+        {
+         "word": "concentrate",
+         "parts": [
+          {
+           "surface": "con",
+           "type": "prefix",
+           "meaning": "together",
+           "translations": {
+            "am": "አብሮ",
+            "ar": "معًا",
+            "es": "juntos",
+            "fa": "باهم",
+            "fr": "ensemble",
+            "hi": "साथ",
+            "ja": "共に",
+            "ko": "함께",
+            "ml": "ഒരുമിച്ച്",
+            "ps": "يوځای",
+            "ro": "împreună",
+            "ru": "вместе",
+            "ta": "ஒன்றாக",
+            "tl": "magkasama",
+            "ur": "اکٹھا",
+            "vi": "cùng",
+            "zh-Hans": "共同",
+            "zh-Hant": "共同",
+            "other": "باهم"
+           }
+          },
+          {
+           "surface": "centr",
+           "type": "root",
+           "meaning": "centre",
+           "translations": {
+            "am": "ማዕከል",
+            "ar": "مركز",
+            "es": "centro",
+            "fa": "مرکز",
+            "fr": "centre",
+            "hi": "केंद्र",
+            "ja": "中心",
+            "ko": "중심",
+            "ml": "കേന്ദ്രം",
+            "ps": "مرکز",
+            "ro": "centru",
+            "ru": "центр",
+            "ta": "மையம்",
+            "tl": "sentro",
+            "ur": "مرکز",
+            "vi": "trung tâm",
+            "zh-Hans": "中心",
+            "zh-Hant": "中心"
+           }
+          },
+          {
+           "surface": "ate",
+           "type": "suffix",
+           "meaning": "to make/do",
+           "translations": {
+            "am": "ማድረግ",
+            "ar": "جعل",
+            "es": "tener/hacer",
+            "fa": "ساختن",
+            "fr": "rendre",
+            "hi": "बनाना",
+            "ja": "〜化する",
+            "ko": "만들다",
+            "ml": "ഉണ്ടാക്കുക",
+            "ps": "لرونکی/جوړونکی",
+            "ro": "a face",
+            "ru": "делать",
+            "ta": "செய்தல்",
+            "tl": "gumawa",
+            "ur": "بنانا",
+            "vi": "làm",
+            "zh-Hans": "使…化",
+            "zh-Hant": "使…化"
+           }
+          }
+         ],
+         "root": "centr",
+         "meaning": "To give all your attention to one thing.",
+         "example": "A tired brain cannot learn, cannot concentrate and cannot cope.",
+         "translations": {
+          "am": "ማተኮር",
+          "ar": "يركّز",
+          "es": "concentrarse",
+          "fa": "تمرکز کردن",
+          "fr": "se concentrer",
+          "hi": "ध्यान केंद्रित करना",
+          "ja": "集中する",
+          "ko": "집중하다",
+          "ml": "ശ്രദ്ധ കേന്ദ്രീകരിക്കുക",
+          "ps": "تمرکز کول",
+          "ro": "a se concentra",
+          "ru": "сосредоточиться",
+          "ta": "கவனம் செலுத்து",
+          "tl": "magpokus",
+          "ur": "توجہ مرکوز کرنا",
+          "vi": "tập trung",
+          "zh-Hans": "集中注意力",
+          "zh-Hant": "專心"
+         }
+        },
+        {
+         "word": "cope",
+         "parts": [
+          {
+           "surface": "cope",
+           "type": "root",
+           "meaning": "manage/deal with",
+           "translations": {}
+          }
+         ],
+         "root": "cope",
+         "meaning": "To manage a difficult situation without falling apart.",
+         "example": "Doctors tell us that a tired brain cannot cope.",
+         "translations": {
+          "am": "መቋቋም",
+          "ar": "يتحمّل (يتأقلم)",
+          "es": "sobrellevar",
+          "fa": "کنار آمدن",
+          "fr": "faire face",
+          "hi": "निपटना",
+          "ja": "対処する",
+          "ko": "대처하다",
+          "ml": "നേരിടുക",
+          "ps": "سمبالول",
+          "ro": "a face față",
+          "ru": "справляться",
+          "ta": "சமாளி",
+          "tl": "makayanan",
+          "ur": "نمٹنا",
+          "vi": "đối phó",
+          "zh-Hans": "应付",
+          "zh-Hant": "應付"
+         }
+        },
+        {
+         "word": "tormented",
+         "parts": [
+          {
+           "surface": "torment",
+           "type": "root",
+           "meaning": "twist/torture",
+           "translations": {}
+          },
+          {
+           "surface": "ed",
+           "type": "suffix",
+           "meaning": "past",
+           "translations": {
+            "am": "(ያለፈ ጊዜ)",
+            "ar": "(صيغة الماضي)",
+            "es": "(tiempo pasado)",
+            "fa": "(زمان گذشته)",
+            "fr": "(passé)",
+            "hi": "(भूतकाल)",
+            "ja": "(過去形)",
+            "ko": "(과거형)",
+            "ml": "(ഭൂതകാലം)",
+            "ps": "(تېر مهال)",
+            "ro": "(timpul trecut)",
+            "ru": "(прошедшее время)",
+            "ta": "(இறந்த காலம்)",
+            "tl": "(nakaraang panahunan)",
+            "ur": "(ماضی کا صیغہ)",
+            "vi": "(thì quá khứ)",
+            "zh-Hans": "(过去式)",
+            "zh-Hant": "(過去式)"
+           }
+          }
+         ],
+         "root": "torment",
+         "meaning": "Made to suffer badly, again and again.",
+         "example": "We are letting children be tormented, and calling it freedom.",
+         "translations": {
+          "am": "የተሰቃየ",
+          "ar": "معذَّب",
+          "es": "atormentado",
+          "fa": "عذاب‌دیده",
+          "fr": "tourmenté",
+          "hi": "सताया हुआ",
+          "ja": "苦しめられた",
+          "ko": "괴롭힘을 당한",
+          "ml": "പീഡിപ്പിക്കപ്പെട്ട",
+          "ps": "ځورول شوی",
+          "ro": "chinuit",
+          "ru": "измученный",
+          "ta": "துன்புறுத்தப்பட்ட",
+          "tl": "pinahihirapan",
+          "ur": "ستایا ہوا",
+          "vi": "bị hành hạ",
+          "zh-Hans": "饱受折磨的",
+          "zh-Hant": "飽受折磨的"
+         }
+        },
+        {
+         "word": "distracted",
+         "parts": [
+          {
+           "surface": "dis",
+           "type": "prefix",
+           "meaning": "apart",
+           "translations": {
+            "fa": "جدا/نفی",
+            "am": "መለያየት/አይ",
+            "ar": "غير",
+            "es": "aparte/no",
+            "fr": "séparé/non",
+            "hi": "अलग/नहीं",
+            "ja": "分離",
+            "ko": "분리/부정",
+            "ml": "വേർപെട്ട്/അല്ല",
+            "ps": "بېل",
+            "ro": "des",
+            "ru": "раздельно/не",
+            "ta": "பிரி/இல்லை",
+            "tl": "hiwalay/hindi",
+            "ur": "الگ/نہیں",
+            "vi": "tách/không",
+            "zh-Hans": "分开",
+            "zh-Hant": "分開",
+            "other": "دو"
+           }
+          },
+          {
+           "surface": "tract",
+           "type": "root",
+           "meaning": "pull",
+           "translations": {
+            "am": "መሳብ",
+            "ar": "سحب",
+            "es": "tirar / jalar",
+            "fa": "کشیدن",
+            "fr": "tirer",
+            "hi": "खींचना",
+            "ja": "引く",
+            "ko": "당기다",
+            "ml": "വലിക്കുക",
+            "ps": "کشل",
+            "ro": "a trage",
+            "ru": "тянуть",
+            "ta": "இழுத்தல்",
+            "tl": "hilahin",
+            "ur": "کھینچنا",
+            "vi": "kéo",
+            "zh-Hans": "拉",
+            "zh-Hant": "拉"
+           }
+          },
+          {
+           "surface": "ed",
+           "type": "suffix",
+           "meaning": "past",
+           "translations": {
+            "am": "(ያለፈ ጊዜ)",
+            "ar": "(صيغة الماضي)",
+            "es": "(tiempo pasado)",
+            "fa": "(زمان گذشته)",
+            "fr": "(passé)",
+            "hi": "(भूतकाल)",
+            "ja": "(過去形)",
+            "ko": "(과거형)",
+            "ml": "(ഭൂതകാലം)",
+            "ps": "(تېر مهال)",
+            "ro": "(timpul trecut)",
+            "ru": "(прошедшее время)",
+            "ta": "(இறந்த காலம்)",
+            "tl": "(nakaraang panahunan)",
+            "ur": "(ماضی کا صیغہ)",
+            "vi": "(thì quá khứ)",
+            "zh-Hans": "(过去式)",
+            "zh-Hant": "(過去式)"
+           }
+          }
+         ],
+         "root": "tract",
+         "meaning": "Unable to keep your attention on what you should be doing.",
+         "example": "Students are distracted by social media and their grades drop.",
+         "translations": {
+          "am": "ትኩረቱ የተከፋፈለ",
+          "ar": "مشتّت الانتباه",
+          "es": "distraído",
+          "fa": "حواس‌پرت",
+          "fr": "distrait",
+          "hi": "ध्यान भटका हुआ",
+          "ja": "気が散った",
+          "ko": "주의가 산만한",
+          "ml": "ശ്രദ്ധ തെറ്റിയ",
+          "ps": "حواس خطا",
+          "ro": "distras",
+          "ru": "отвлечённый",
+          "ta": "கவனம் சிதறிய",
+          "tl": "nalilihis ang atensyon",
+          "ur": "توجہ بٹی ہوئی",
+          "vi": "bị phân tâm",
+          "zh-Hans": "分心的",
+          "zh-Hant": "分心的"
+         }
+        },
+        {
+         "word": "notification",
+         "parts": [
+          {
+           "surface": "noti",
+           "type": "root",
+           "meaning": "make known",
+           "translations": {
+            "am": "ማሳወቅ",
+            "ar": "يُعلم",
+            "es": "dar a conocer",
+            "fa": "آگاه کردن",
+            "fr": "faire connaître",
+            "hi": "सूचित करना",
+            "ja": "知らせる",
+            "ko": "알리다",
+            "ml": "അറിയിക്കുക",
+            "ps": "خبر ورکول",
+            "ro": "a face cunoscut",
+            "ru": "делать известным",
+            "ta": "அறிவித்தல்",
+            "tl": "ipabatid",
+            "ur": "اطلاع دینا",
+            "vi": "làm cho biết",
+            "zh-Hans": "使知晓",
+            "zh-Hant": "使知曉"
+           }
+          },
+          {
+           "surface": "fic",
+           "type": "root",
+           "meaning": "make/do",
+           "translations": {
+            "am": "መስራት / ማድረግ",
+            "ar": "يصنع",
+            "es": "hacer",
+            "fa": "ساختن / انجام دادن",
+            "fr": "faire",
+            "hi": "बनाना / करना",
+            "ja": "作る",
+            "ko": "만들다 / 하다",
+            "ml": "ഉണ്ടാക്കുക / ചെയ്യുക",
+            "ps": "جوړول",
+            "ro": "face",
+            "ru": "делать / совершать",
+            "ta": "செய்தல் / ஆக்குதல்",
+            "tl": "gumawa",
+            "ur": "بنانا / کرنا",
+            "vi": "làm / thực hiện",
+            "zh-Hans": "做",
+            "zh-Hant": "做",
+            "other": "عامل"
+           }
+          },
+          {
+           "surface": "ation",
+           "type": "suffix",
+           "meaning": "process of",
+           "translations": {
+            "am": "ሂደት",
+            "ar": "عملية",
+            "es": "proceso de",
+            "fa": "فرآیند",
+            "fr": "processus",
+            "hi": "प्रक्रिया",
+            "ja": "過程",
+            "ko": "과정",
+            "ml": "പ്രക്രിയ",
+            "ps": "پروسه",
+            "ro": "proces",
+            "ru": "процесс",
+            "ta": "செயல்முறை",
+            "tl": "proseso",
+            "ur": "عمل",
+            "vi": "quá trình",
+            "zh-Hans": "过程",
+            "zh-Hant": "過程"
+           }
+          }
+         ],
+         "root": "noti",
+         "meaning": "A message from an app that pops up to get your attention.",
+         "example": "One notification, one video, one more video, and an hour is gone.",
+         "translations": {
+          "am": "ማሳወቂያ",
+          "ar": "إشعار",
+          "es": "notificación",
+          "fa": "اعلان",
+          "fr": "notification",
+          "hi": "सूचना (नोटिफिकेशन)",
+          "ja": "通知",
+          "ko": "알림",
+          "ml": "അറിയിപ്പ്",
+          "ps": "خبرتیا",
+          "ro": "notificare",
+          "ru": "уведомление",
+          "ta": "அறிவிப்பு",
+          "tl": "abiso (notification)",
+          "ur": "نوٹیفکیشن",
+          "vi": "thông báo",
+          "zh-Hans": "通知",
+          "zh-Hant": "通知"
+         }
+        },
+        {
+         "word": "attention",
+         "parts": [
+          {
+           "surface": "at",
+           "type": "prefix",
+           "meaning": "toward",
+           "translations": {
+            "am": "ወደ",
+            "ar": "نحو / إلى",
+            "es": "hacia",
+            "fa": "به",
+            "fr": "vers",
+            "hi": "की ओर",
+            "ja": "～へ",
+            "ko": "향하여",
+            "ml": "നേരെ",
+            "ps": "پر لور",
+            "ro": "spre",
+            "ru": "к",
+            "ta": "நோக்கி",
+            "tl": "patungo",
+            "ur": "کی طرف",
+            "vi": "hướng",
+            "zh-Hans": "向",
+            "zh-Hant": "向",
+            "other": "به"
+           }
+          },
+          {
+           "surface": "tent",
+           "type": "root",
+           "meaning": "stretch/aim",
+           "translations": {
+            "am": "ዓላማ",
+            "ar": "هدف",
+            "es": "objetivo/meta",
+            "fa": "هدف",
+            "fr": "but",
+            "hi": "लक्ष्य",
+            "ja": "目的",
+            "ko": "목표",
+            "ml": "ലക്ഷ്യം",
+            "ps": "هدف",
+            "ro": "țintă",
+            "ru": "цель",
+            "ta": "இலக்கு",
+            "tl": "layunin",
+            "ur": "مقصد",
+            "vi": "mục đích",
+            "zh-Hans": "目标",
+            "zh-Hant": "目標"
+           }
+          },
+          {
+           "surface": "ion",
+           "type": "suffix",
+           "meaning": "act/process",
+           "translations": {
+            "fa": "فرایند/عمل",
+            "am": "ሂደት/ድርጊት",
+            "ar": "عملية/فعل",
+            "es": "proceso/acción",
+            "fr": "processus/action",
+            "hi": "प्रक्रिया/क्रिया",
+            "ja": "過程/作用",
+            "ko": "과정/작용",
+            "ml": "പ്രക്രിയ/പ്രവർത്തനം",
+            "ps": "بهیر/کړنه",
+            "ro": "proces/acțiune",
+            "ru": "процесс/действие",
+            "ta": "செயல்முறை/செயல்",
+            "tl": "proseso/kilos",
+            "ur": "عمل/فعل",
+            "vi": "quá trình/hành động",
+            "zh-Hans": "过程/动作",
+            "zh-Hant": "過程/動作"
+           }
+          }
+         ],
+         "root": "tent",
+         "meaning": "Careful watching or listening, kept on one thing.",
+         "example": "A ban gives young people their attention back.",
+         "translations": {
+          "ja": "注意（ちゅうい）",
+          "zh-Hans": "注意",
+          "fa": "توجه",
+          "vi": "chú ý",
+          "zh-Hant": "注意",
+          "am": "ትኩረት",
+          "ar": "الانتباه",
+          "es": "atención",
+          "fr": "attention",
+          "hi": "ध्यान",
+          "ko": "주의(관심)",
+          "ml": "ശ്രദ്ധ",
+          "ps": "پام",
+          "ro": "atenție",
+          "ru": "внимание",
+          "ta": "கவனம்",
+          "tl": "pansin (attention)",
+          "ur": "توجہ"
+         }
+        },
+        {
+         "word": "addictive",
+         "parts": [
+          {
+           "surface": "ad",
+           "type": "prefix",
+           "meaning": "toward",
+           "translations": {
+            "am": "ወደ",
+            "ar": "نحو / إلى",
+            "es": "hacia",
+            "fa": "به",
+            "fr": "vers",
+            "hi": "की ओर",
+            "ja": "～へ",
+            "ko": "향하여",
+            "ml": "നേരെ",
+            "ps": "پر لور",
+            "ro": "spre",
+            "ru": "к",
+            "ta": "நோக்கி",
+            "tl": "patungo",
+            "ur": "کی طرف",
+            "vi": "hướng",
+            "zh-Hans": "向",
+            "zh-Hant": "向",
+            "other": "به"
+           }
+          },
+          {
+           "surface": "dict",
+           "type": "root",
+           "meaning": "point out/declare",
+           "translations": {
+            "am": "መናገር",
+            "ar": "يعلن",
+            "es": "decir/declarar",
+            "fa": "گفتن",
+            "fr": "déclarer",
+            "hi": "कहना",
+            "ja": "言う",
+            "ko": "말함",
+            "ml": "പറയുക",
+            "ps": "ویل",
+            "ro": "a declara",
+            "ru": "говорить",
+            "ta": "சொல்லுதல்",
+            "tl": "magsabi",
+            "ur": "کہنا",
+            "vi": "nói / tuyên bố",
+            "zh-Hans": "说",
+            "zh-Hant": "說"
+           }
+          },
+          {
+           "surface": "ive",
+           "type": "suffix",
+           "meaning": "tending to",
+           "translations": {
+            "am": "ዝንባሌ",
+            "ar": "ذو",
+            "es": "que tiende a",
+            "fa": "گرایش به",
+            "fr": "tendance à",
+            "hi": "प्रवृत्ति",
+            "ja": "的な",
+            "ko": "경향",
+            "ml": "പ്രവണത",
+            "ps": "لرونکی",
+            "ro": "care are",
+            "ru": "склонный к",
+            "ta": "போக்கு",
+            "tl": "hilig",
+            "ur": "رجحان",
+            "vi": "có xu hướng",
+            "zh-Hans": "有…性质的",
+            "zh-Hant": "有…性質的"
+           }
+          }
+         ],
+         "root": "dict",
+         "meaning": "Designed so that you cannot stop, even when you want to.",
+         "example": "Endless scrolling and autoplay are addictive, and none of it is an accident.",
+         "translations": {
+          "am": "ሱስ አስያዥ",
+          "ar": "يسبّب الإدمان",
+          "es": "adictivo",
+          "fa": "اعتیادآور",
+          "fr": "addictif",
+          "hi": "लत लगाने वाला",
+          "ja": "中毒性のある",
+          "ko": "중독성 있는",
+          "ml": "ആസക്തി ഉണ്ടാക്കുന്ന",
+          "ps": "روږدي کوونکی",
+          "ro": "care creează dependență",
+          "ru": "вызывающий зависимость",
+          "ta": "அடிமையாக்கும்",
+          "tl": "nakaka-adik",
+          "ur": "لت لگانے والا",
+          "vi": "gây nghiện",
+          "zh-Hans": "使人上瘾的",
+          "zh-Hant": "使人上癮的"
+         }
+        },
+        {
+         "word": "admit",
+         "parts": [
+          {
+           "surface": "ad",
+           "type": "prefix",
+           "meaning": "toward",
+           "translations": {
+            "am": "ወደ",
+            "ar": "نحو / إلى",
+            "es": "hacia",
+            "fa": "به",
+            "fr": "vers",
+            "hi": "की ओर",
+            "ja": "～へ",
+            "ko": "향하여",
+            "ml": "നേരെ",
+            "ps": "پر لور",
+            "ro": "spre",
+            "ru": "к",
+            "ta": "நோக்கி",
+            "tl": "patungo",
+            "ur": "کی طرف",
+            "vi": "hướng",
+            "zh-Hans": "向",
+            "zh-Hant": "向",
+            "other": "به"
+           }
+          },
+          {
+           "surface": "mit",
+           "type": "root",
+           "meaning": "send",
+           "translations": {
+            "am": "መላክ",
+            "ar": "إرسال",
+            "es": "enviar",
+            "fa": "فرستادن",
+            "fr": "envoyer",
+            "hi": "भेजना",
+            "ja": "送る",
+            "ko": "보냄",
+            "ml": "അയക്കൽ",
+            "ps": "لیږل",
+            "ro": "a trimite",
+            "ru": "посылать",
+            "ta": "அனுப்புதல்",
+            "tl": "ipadala",
+            "ur": "بھیجنا",
+            "vi": "gửi",
+            "zh-Hans": "传",
+            "zh-Hant": "傳"
+           }
+          }
+         ],
+         "root": "mit",
+         "meaning": "To say that something is true, even though you would rather not.",
+         "example": "Former app designers have admitted these features are built to keep you on the app.",
+         "translations": {
+          "am": "አምኖ መቀበል",
+          "ar": "يعترف",
+          "es": "admitir",
+          "fa": "اعتراف کردن",
+          "fr": "admettre",
+          "hi": "स्वीकार करना",
+          "ja": "認める",
+          "ko": "인정하다",
+          "ml": "സമ്മതിക്കുക",
+          "ps": "منل",
+          "ro": "a admite",
+          "ru": "признавать",
+          "ta": "ஒப்புக்கொள்",
+          "tl": "aminin",
+          "ur": "تسلیم کرنا",
+          "vi": "thừa nhận",
+          "zh-Hans": "承认",
+          "zh-Hant": "承認"
+         }
+        },
+        {
+         "word": "duty",
+         "parts": [
+          {
+           "surface": "duty",
+           "type": "root",
+           "meaning": "what is owed",
+           "translations": {}
+          }
+         ],
+         "root": "duty",
+         "meaning": "Something you must do because it is right, or because it is your job.",
+         "example": "When families cannot win on their own, we as a society have a duty to help.",
+         "translations": {
+          "am": "ግዴታ",
+          "ar": "واجب",
+          "es": "deber",
+          "fa": "وظیفه",
+          "fr": "devoir",
+          "hi": "कर्तव्य",
+          "ja": "義務",
+          "ko": "의무",
+          "ml": "കടമ",
+          "ps": "دنده",
+          "ro": "datorie",
+          "ru": "долг",
+          "ta": "கடமை",
+          "tl": "tungkulin",
+          "ur": "فرض",
+          "vi": "bổn phận",
+          "zh-Hans": "责任",
+          "zh-Hant": "責任"
+         }
+        },
+        {
+         "word": "step in",
+         "parts": [
+          {
+           "surface": "step",
+           "type": "root",
+           "meaning": "move the foot",
+           "translations": {}
+          }
+         ],
+         "root": "step",
+         "meaning": "To get involved in a problem that was someone else's.",
+         "example": "Parents cannot control it, so the government has to step in.",
+         "translations": {
+          "am": "ጣልቃ መግባት",
+          "ar": "يتدخّل",
+          "es": "intervenir",
+          "fa": "مداخله کردن",
+          "fr": "intervenir",
+          "hi": "हस्तक्षेप करना",
+          "ja": "介入する",
+          "ko": "개입하다",
+          "ml": "ഇടപെടുക",
+          "ps": "مداخله کول",
+          "ro": "a interveni",
+          "ru": "вмешаться",
+          "ta": "தலையிடு",
+          "tl": "mamagitan",
+          "ur": "مداخلت کرنا",
+          "vi": "can thiệp",
+          "zh-Hans": "介入",
+          "zh-Hant": "介入"
+         }
+        }
+       ],
+       "path": "elc/english/reframe-words-aff"
+      },
+      {
+       "id": "reframe-words-neg",
+       "name": "Reframe the argument · Inside the negative's arguments",
+       "interactive": true,
+       "words": [
+        {
+         "word": "isolate",
+         "parts": [
+          {
+           "surface": "isol",
+           "type": "root",
+           "meaning": "alone",
+           "translations": {
+            "am": "ብቸኛ",
+            "ar": "وحيد",
+            "fa": "تنها",
+            "ml": "ഒറ്റയ്ക്ക്",
+            "ur": "اکیلا",
+            "zh-Hans": "孤立",
+            "zh-Hant": "孤立",
+            "es": "solo",
+            "fr": "seul",
+            "hi": "अकेला",
+            "ja": "孤立した",
+            "ko": "홀로",
+            "ps": "یوازې",
+            "ro": "singur",
+            "ru": "одинокий",
+            "ta": "தனித்து",
+            "tl": "nag-iisa",
+            "vi": "đơn độc"
+           }
+          },
+          {
+           "surface": "ate",
+           "type": "suffix",
+           "meaning": "to make/do",
+           "translations": {
+            "am": "ማድረግ",
+            "ar": "جعل",
+            "es": "tener/hacer",
+            "fa": "ساختن",
+            "fr": "rendre",
+            "hi": "बनाना",
+            "ja": "〜化する",
+            "ko": "만들다",
+            "ml": "ഉണ്ടാക്കുക",
+            "ps": "لرونکی/جوړونکی",
+            "ro": "a face",
+            "ru": "делать",
+            "ta": "செய்தல்",
+            "tl": "gumawa",
+            "ur": "بنانا",
+            "vi": "làm",
+            "zh-Hans": "使…化",
+            "zh-Hant": "使…化"
+           }
+          }
+         ],
+         "root": "isol",
+         "meaning": "To cut someone off from other people.",
+         "example": "A ban does not protect these young people. It isolates them.",
+         "translations": {
+          "am": "ማግለል",
+          "ar": "يعزل",
+          "es": "aislar",
+          "fa": "منزوی کردن",
+          "fr": "isoler",
+          "hi": "अलग-थलग करना",
+          "ja": "孤立させる",
+          "ko": "고립시키다",
+          "ml": "ഒറ്റപ്പെടുത്തുക",
+          "ps": "منزوي کول",
+          "ro": "a izola",
+          "ru": "изолировать",
+          "ta": "தனிமைப்படுத்து",
+          "tl": "ihiwalay",
+          "ur": "الگ تھلگ کرنا",
+          "vi": "cô lập",
+          "zh-Hans": "孤立",
+          "zh-Hant": "孤立"
+         }
+        },
+        {
+         "word": "blanket ban",
+         "parts": [
+          {
+           "surface": "blanket",
+           "type": "root",
+           "meaning": "covering",
+           "translations": {}
+          },
+          {
+           "surface": "ban",
+           "type": "root",
+           "meaning": "forbid",
+           "translations": {}
+          }
+         ],
+         "root": "blanket",
+         "meaning": "A rule that stops everyone the same way, with no exceptions.",
+         "example": "A blanket ban throws the library out with the games arcade.",
+         "translations": {
+          "am": "አጠቃላይ እገዳ",
+          "ar": "حظر شامل",
+          "es": "prohibición total",
+          "fa": "ممنوعیت کلی",
+          "fr": "interdiction générale",
+          "hi": "पूर्ण प्रतिबंध",
+          "ja": "全面禁止",
+          "ko": "전면 금지",
+          "ml": "സമ്പൂർണ നിരോധനം",
+          "ps": "بشپړ بندیز",
+          "ro": "interdicție totală",
+          "ru": "полный запрет",
+          "ta": "முழு தடை",
+          "tl": "pangkalahatang pagbabawal",
+          "ur": "مکمل پابندی",
+          "vi": "lệnh cấm toàn diện",
+          "zh-Hans": "一刀切禁令",
+          "zh-Hant": "全面禁令"
+         }
+        },
+        {
+         "word": "get around",
+         "parts": [],
+         "root": "",
+         "meaning": "To avoid a rule without breaking it openly.",
+         "example": "Age checks are easy to get around, so the ban only punishes the honest.",
+         "translations": {
+          "am": "ሕግን ማለፍ (መሸሽ)",
+          "ar": "يتحايل على",
+          "es": "eludir",
+          "fa": "دور زدن",
+          "fr": "contourner",
+          "hi": "बचकर निकलना",
+          "ja": "すり抜ける",
+          "ko": "피해 가다 (우회하다)",
+          "ml": "മറികടക്കുക",
+          "ps": "له قانون څخه تېرېدل",
+          "ro": "a ocoli",
+          "ru": "обойти",
+          "ta": "தவிர்த்துச் செல்",
+          "tl": "lusutan",
+          "ur": "چکما دینا",
+          "vi": "lách (luật)",
+          "zh-Hans": "绕过",
+          "zh-Hant": "繞過"
+         }
+        },
+        {
+         "word": "reliable",
+         "parts": [
+          {
+           "surface": "re",
+           "type": "prefix",
+           "meaning": "back",
+           "translations": {
+            "am": "ወደኋላ",
+            "ar": "إلى الخلف",
+            "es": "atrás",
+            "fa": "دوباره",
+            "fr": "arrière",
+            "hi": "पीछे",
+            "ja": "後ろ",
+            "ko": "뒤로",
+            "ml": "പിന്നിൽ",
+            "ps": "شاته",
+            "ro": "înapoi",
+            "ru": "назад",
+            "ta": "பின்னால்",
+            "tl": "pabalik",
+            "ur": "پیچھے",
+            "vi": "lùi",
+            "zh-Hans": "回",
+            "zh-Hant": "回"
+           }
+          },
+          {
+           "surface": "li",
+           "type": "root",
+           "meaning": "bind",
+           "translations": {
+            "zh-Hans": "捆绑",
+            "zh-Hant": "綁",
+            "ja": "縛る",
+            "ko": "묶다",
+            "vi": "buộc",
+            "ar": "ربط",
+            "fa": "بستن",
+            "ur": "باندھنا",
+            "am": "ማሰር",
+            "ml": "ബന്ധിക്കുക",
+            "ta": "கட்டு",
+            "tl": "igapos",
+            "ps": "تړل",
+            "ro": "a lega",
+            "ru": "связывать",
+            "fr": "lier",
+            "hi": "बांधना",
+            "es": "atar"
+           }
+          },
+          {
+           "surface": "able",
+           "type": "suffix",
+           "meaning": "can be",
+           "translations": {
+            "fa": "قابل",
+            "am": "የሚችል",
+            "ar": "قادر على",
+            "es": "capaz de",
+            "fr": "capable de",
+            "hi": "योग्य",
+            "ja": "できる",
+            "ko": "할 수 있는",
+            "ml": "കഴിയുന്ന",
+            "ps": "وړ",
+            "ro": "capabil",
+            "ru": "способный",
+            "ta": "முடியும்",
+            "tl": "kaya",
+            "ur": "قابل",
+            "vi": "có thể",
+            "zh-Hans": "能够",
+            "zh-Hant": "能夠"
+           }
+          }
+         ],
+         "root": "li",
+         "meaning": "Something you can trust to work every time.",
+         "example": "Technology experts have said that no age-check system is reliable.",
+         "translations": {
+          "zh-Hans": "可靠的",
+          "zh-Hant": "可靠的",
+          "ja": "信頼できる",
+          "ko": "신뢰할 수 있는",
+          "vi": "đáng tin cậy",
+          "ar": "موثوق",
+          "fa": "قابل اعتماد",
+          "ur": "قابل اعتماد",
+          "am": "አስተማማኝ",
+          "ml": "വിശ്വസനീയമായ",
+          "ta": "நம்பகமான",
+          "tl": "maaasahan",
+          "ps": "باوري",
+          "ro": "fiabil",
+          "ru": "надёжный",
+          "fr": "fiable",
+          "hi": "विश्वसनीय",
+          "es": "fiable"
+         }
+        },
+        {
+         "word": "punish",
+         "parts": [
+          {
+           "surface": "pun",
+           "type": "root",
+           "meaning": "penalty/pain",
+           "translations": {
+            "zh-Hans": "惩罚/痛苦",
+            "zh-Hant": "懲罰/痛苦",
+            "ja": "罰/苦痛",
+            "ko": "처벌/고통",
+            "vi": "hình phạt/đau đớn",
+            "ar": "عقوبة/ألم",
+            "fa": "مجازات/درد",
+            "ur": "سزا/درد",
+            "am": "ቅጣት/ስቃይ",
+            "ml": "ശിക്ഷ/വേദന",
+            "ta": "தண்டனை/வலி",
+            "tl": "parusa/sakit",
+            "ps": "سزا/درد",
+            "ro": "pedeapsă/durere",
+            "ru": "наказание/боль",
+            "fr": "peine/douleur",
+            "hi": "दंड/पीड़ा",
+            "es": "castigo/dolor"
+           }
+          },
+          {
+           "surface": "ish",
+           "type": "suffix",
+           "meaning": "to make",
+           "translations": {
+            "zh-Hans": "使…化",
+            "zh-Hant": "使…化",
+            "ja": "〜化する",
+            "ko": "~화하다",
+            "vi": "làm cho",
+            "ar": "جعل",
+            "fa": "ساختن",
+            "ur": "بنانا",
+            "am": "ማድረግ",
+            "ml": "ആക്കുക",
+            "ta": "ஆக்குதல்",
+            "tl": "gawin",
+            "ps": "جوړول",
+            "ro": "a face",
+            "ru": "делать",
+            "fr": "rendre",
+            "hi": "बनाना",
+            "es": "hacer"
+           }
+          }
+         ],
+         "root": "pun",
+         "meaning": "To make someone suffer for breaking a rule.",
+         "example": "The ban only punishes the honest users.",
+         "translations": {
+          "ja": "罰する",
+          "zh-Hans": "惩罚",
+          "fa": "مجازات کردن (mojāzāt kardan)",
+          "vi": "trừng phạt",
+          "zh-Hant": "懲罰",
+          "am": "መቅጣት",
+          "ar": "يعاقب",
+          "es": "castigar",
+          "fr": "punir",
+          "hi": "दंड देना",
+          "ko": "처벌하다",
+          "ml": "ശിക്ഷിക്കുക",
+          "ps": "سزا ورکول",
+          "ro": "a pedepsi",
+          "ru": "наказывать",
+          "ta": "தண்டி",
+          "tl": "parusahan (punish)",
+          "ur": "سزا دینا"
+         }
+        },
+        {
+         "word": "honest",
+         "parts": [
+          {
+           "surface": "honest",
+           "type": "root",
+           "meaning": "honour",
+           "translations": {}
+          }
+         ],
+         "root": "honest",
+         "meaning": "Telling the truth and not cheating.",
+         "example": "It teaches every child that the first thing you do online is lie, and punishes the honest.",
+         "translations": {
+          "am": "ታማኝ",
+          "ar": "صادق",
+          "es": "honesto",
+          "fa": "صادق",
+          "fr": "honnête",
+          "hi": "ईमानदार",
+          "ja": "正直な",
+          "ko": "정직한",
+          "ml": "സത്യസന്ധനായ",
+          "ps": "صادق",
+          "ro": "cinstit",
+          "ru": "честный",
+          "ta": "நேர்மையான",
+          "tl": "tapat",
+          "ur": "ایماندار",
+          "vi": "trung thực",
+          "zh-Hans": "诚实的",
+          "zh-Hant": "誠實的"
+         }
+        },
+        {
+         "word": "organise",
+         "parts": [
+          {
+           "surface": "organ",
+           "type": "root",
+           "meaning": "instrument/tool",
+           "translations": {
+            "zh-Hans": "器具/工具",
+            "zh-Hant": "器具/工具",
+            "ja": "器具/道具",
+            "ko": "기구/도구",
+            "vi": "dụng cụ/công cụ",
+            "ar": "أداة",
+            "fa": "ابزار",
+            "ur": "آلہ",
+            "am": "መሳሪያ",
+            "ml": "ഉപകരണം",
+            "ta": "கருவி",
+            "tl": "kagamitan",
+            "ps": "وسیله/توکی",
+            "ro": "instrument/unealtă",
+            "ru": "инструмент",
+            "fr": "instrument/outil",
+            "hi": "यंत्र/उपकरण",
+            "es": "instrumento/herramienta"
+           }
+          },
+          {
+           "surface": "ise",
+           "type": "suffix",
+           "meaning": "to make",
+           "translations": {
+            "am": "ማድረግ",
+            "ar": "جعل",
+            "es": "hacer",
+            "fa": "ساختن",
+            "fr": "rendre",
+            "hi": "बनाना",
+            "ja": "化する",
+            "ko": "화하다",
+            "ml": "ആക്കുക",
+            "ps": "جوړول",
+            "ro": "a face",
+            "ru": "делать",
+            "ta": "ஆக்குதல்",
+            "tl": "gawin",
+            "ur": "بنانا",
+            "vi": "làm cho",
+            "zh-Hans": "使成為 / 使成为",
+            "zh-Hant": "使成為 / 使成爲"
+           }
+          }
+         ],
+         "root": "organ",
+         "meaning": "To bring people together and plan something.",
+         "example": "Social media is where young people organise, campaign and share their views.",
+         "translations": {
+          "am": "ማደራጀት",
+          "ar": "ينظّم",
+          "es": "organizar",
+          "fa": "سازمان‌دهی کردن",
+          "fr": "organiser",
+          "hi": "संगठित करना",
+          "ja": "組織する",
+          "ko": "조직하다",
+          "ml": "സംഘടിപ്പിക്കുക",
+          "ps": "منظمول",
+          "ro": "a organiza",
+          "ru": "организовать",
+          "ta": "ஒழுங்கமை",
+          "tl": "mag-organisa",
+          "ur": "منظم کرنا",
+          "vi": "tổ chức",
+          "zh-Hans": "组织",
+          "zh-Hant": "組織"
+         }
+        },
+        {
+         "word": "silence",
+         "parts": [
+          {
+           "surface": "sil",
+           "type": "root",
+           "meaning": "quiet",
+           "translations": {
+            "zh-Hans": "安静",
+            "zh-Hant": "安靜",
+            "ja": "静か",
+            "ko": "조용한",
+            "vi": "yên lặng",
+            "ar": "هادئ",
+            "fa": "خاموش",
+            "ur": "خاموش",
+            "am": "ጸጥ",
+            "ml": "നിശ്ശബ്ദമായ",
+            "ta": "அமைதி",
+            "tl": "tahimik",
+            "ps": "غلی",
+            "ro": "liniștit",
+            "ru": "тихий",
+            "fr": "silencieux",
+            "hi": "शांत",
+            "es": "callado"
+           }
+          },
+          {
+           "surface": "ence",
+           "type": "suffix",
+           "meaning": "state of",
+           "translations": {
+            "am": "ሁኔታ",
+            "ar": "حالة",
+            "es": "estado de",
+            "fa": "حالت",
+            "fr": "état de",
+            "hi": "अवस्था",
+            "ja": "状態",
+            "ko": "상태",
+            "ml": "അവസ്ഥ",
+            "ps": "حالت",
+            "ro": "stare de",
+            "ru": "состояние",
+            "ta": "நிலை",
+            "tl": "kalagayan",
+            "ur": "حالت",
+            "vi": "trạng thái",
+            "zh-Hans": "状态",
+            "zh-Hant": "狀態"
+           }
+          }
+         ],
+         "root": "sil",
+         "meaning": "To stop people from speaking. As a verb it is a loaded word.",
+         "example": "Silence a generation and do not be surprised when they stop listening to you.",
+         "translations": {
+          "am": "ዝም ማሰኘት",
+          "ar": "يُسكِت",
+          "es": "silenciar",
+          "fa": "ساکت کردن",
+          "fr": "réduire au silence",
+          "hi": "चुप कराना",
+          "ja": "黙らせる",
+          "ko": "침묵시키다",
+          "ml": "നിശ്ശബ്ദമാക്കുക",
+          "ps": "چوپ کول",
+          "ro": "a reduce la tăcere",
+          "ru": "заставить замолчать",
+          "ta": "அமைதிப்படுத்து",
+          "tl": "patahimikin",
+          "ur": "خاموش کرانا",
+          "vi": "bịt miệng",
+          "zh-Hans": "使沉默",
+          "zh-Hant": "使噤聲"
+         }
+        },
+        {
+         "word": "generation",
+         "parts": [
+          {
+           "surface": "gener",
+           "type": "root",
+           "meaning": "origin/birth",
+           "translations": {
+            "am": "መገኛ",
+            "ar": "أصل",
+            "es": "origen",
+            "fa": "منشأ",
+            "fr": "origine",
+            "hi": "उत्पत्ति",
+            "ja": "起源",
+            "ko": "기원",
+            "ml": "ഉത്ഭവം",
+            "ps": "زېږون",
+            "ro": "origine",
+            "ru": "происхождение",
+            "ta": "தோற்றம்",
+            "tl": "pinagmulan",
+            "ur": "اصل",
+            "vi": "nguồn gốc",
+            "zh-Hans": "起源",
+            "zh-Hant": "起源"
+           }
+          },
+          {
+           "surface": "ation",
+           "type": "suffix",
+           "meaning": "process of",
+           "translations": {
+            "am": "ሂደት",
+            "ar": "عملية",
+            "es": "proceso de",
+            "fa": "فرآیند",
+            "fr": "processus",
+            "hi": "प्रक्रिया",
+            "ja": "過程",
+            "ko": "과정",
+            "ml": "പ്രക്രിയ",
+            "ps": "پروسه",
+            "ro": "proces",
+            "ru": "процесс",
+            "ta": "செயல்முறை",
+            "tl": "proseso",
+            "ur": "عمل",
+            "vi": "quá trình",
+            "zh-Hans": "过程",
+            "zh-Hant": "過程"
+           }
+          }
+         ],
+         "root": "gener",
+         "meaning": "All the people born around the same time.",
+         "example": "The other side wants to silence a whole generation.",
+         "translations": {
+          "am": "ትውልድ",
+          "ar": "جيل",
+          "es": "generación",
+          "fa": "نسل",
+          "fr": "génération",
+          "hi": "पीढ़ी",
+          "ja": "世代",
+          "ko": "세대",
+          "ml": "തലമുറ",
+          "ps": "نسل",
+          "ro": "generație",
+          "ru": "поколение",
+          "ta": "தலைமுறை",
+          "tl": "henerasyon",
+          "ur": "نسل",
+          "vi": "thế hệ",
+          "zh-Hans": "代",
+          "zh-Hant": "代"
+         }
+        },
+        {
+         "word": "heavy-handed",
+         "parts": [
+          {
+           "surface": "heavy",
+           "type": "root",
+           "meaning": "weighty",
+           "translations": {}
+          },
+          {
+           "surface": "hand",
+           "type": "root",
+           "meaning": "hand",
+           "translations": {
+            "zh-Hans": "手",
+            "zh-Hant": "手",
+            "ja": "手",
+            "ko": "손",
+            "vi": "bàn tay",
+            "ar": "يد",
+            "fa": "دست",
+            "ur": "ہاتھ",
+            "am": "እጅ",
+            "ml": "കൈ",
+            "ta": "கை",
+            "tl": "kamay",
+            "ps": "لاس",
+            "ro": "mână",
+            "ru": "рука",
+            "fr": "main",
+            "hi": "हाथ",
+            "es": "mano"
+           }
+          },
+          {
+           "surface": "ed",
+           "type": "suffix",
+           "meaning": "past",
+           "translations": {
+            "am": "(ያለፈ ጊዜ)",
+            "ar": "(صيغة الماضي)",
+            "es": "(tiempo pasado)",
+            "fa": "(زمان گذشته)",
+            "fr": "(passé)",
+            "hi": "(भूतकाल)",
+            "ja": "(過去形)",
+            "ko": "(과거형)",
+            "ml": "(ഭൂതകാലം)",
+            "ps": "(تېر مهال)",
+            "ro": "(timpul trecut)",
+            "ru": "(прошедшее время)",
+            "ta": "(இறந்த காலம்)",
+            "tl": "(nakaraang panahunan)",
+            "ur": "(ماضی کا صیغہ)",
+            "vi": "(thì quá khứ)",
+            "zh-Hans": "(过去式)",
+            "zh-Hant": "(過去式)"
+           }
+          }
+         ],
+         "root": "heavy",
+         "meaning": "Using far more force than the problem needs.",
+         "example": "This heavy-handed ban takes their work away overnight.",
+         "translations": {
+          "am": "ከመጠን ያለፈ ጨካኝ",
+          "ar": "متشدّد بشكل مفرط",
+          "es": "de mano dura",
+          "fa": "سختگیرانه",
+          "fr": "brutal (excessif)",
+          "hi": "ज़रूरत से ज़्यादा सख़्त",
+          "ja": "強引な",
+          "ko": "지나치게 강압적인",
+          "ml": "കടുത്ത നടപടിയുള്ള",
+          "ps": "زیات سخت",
+          "ro": "excesiv de dur",
+          "ru": "чрезмерно жёсткий",
+          "ta": "அளவுக்கு மீறிய கடுமையான",
+          "tl": "labis na mahigpit",
+          "ur": "حد سے زیادہ سخت",
+          "vi": "nặng tay",
+          "zh-Hans": "手段过重的",
+          "zh-Hant": "手段過重的"
+         }
+        },
+        {
+         "word": "income",
+         "parts": [
+          {
+           "surface": "in",
+           "type": "prefix",
+           "meaning": "into",
+           "translations": {
+            "am": "ወደ ውስጥ",
+            "ar": "في",
+            "es": "en / hacia dentro",
+            "fa": "در",
+            "fr": "dans",
+            "hi": "में",
+            "ja": "中に",
+            "ko": "안으로",
+            "ml": "അകത്ത്",
+            "ps": "دننه",
+            "ro": "în",
+            "ru": "в",
+            "ta": "உள்ளே",
+            "tl": "sa loob",
+            "ur": "میں",
+            "vi": "trong",
+            "zh-Hans": "在 / 进入",
+            "zh-Hant": "在 / 進入",
+            "other": "نه"
+           }
+          },
+          {
+           "surface": "come",
+           "type": "root",
+           "meaning": "to arrive/happen",
+           "translations": {
+            "am": "መድረስ / መከሰት",
+            "ar": "الوصول / الحدوث",
+            "es": "llegar / suceder",
+            "fa": "رسیدن / اتفاق افتادن",
+            "fr": "arriver / se produire",
+            "hi": "पहुँचना / घटित होना",
+            "ja": "到着する／起こる",
+            "ko": "도착하다 / 일어나다",
+            "ml": "എത്തുക / സംഭവിക്കുക",
+            "ps": "رسېدل / پېښېدل",
+            "ro": "a sosi / a se întâmpla",
+            "ru": "прибывать / происходить",
+            "ta": "வருதல் / நிகழ்தல்",
+            "tl": "dumating / mangyari",
+            "ur": "پہنچنا / واقع ہونا",
+            "vi": "đến / xảy ra",
+            "zh-Hans": "到达 / 发生",
+            "zh-Hant": "到達 / 發生"
+           }
+          }
+         ],
+         "root": "come",
+         "meaning": "The money a person earns.",
+         "example": "Young creators and small businesses would lose their income.",
+         "translations": {
+          "am": "ገቢ",
+          "ar": "دخل",
+          "es": "ingreso",
+          "fa": "درآمد",
+          "fr": "revenu",
+          "hi": "आय",
+          "ja": "所得",
+          "ko": "소득",
+          "ml": "വരുമാനം",
+          "ps": "عاید",
+          "ro": "venit",
+          "ru": "доход",
+          "ta": "வருமானம்",
+          "tl": "kita",
+          "ur": "آمدنی",
+          "vi": "thu nhập",
+          "zh-Hans": "收入",
+          "zh-Hant": "收入"
+         }
+        },
+        {
+         "word": "overnight",
+         "parts": [
+          {
+           "surface": "over",
+           "type": "prefix",
+           "meaning": "across/through",
+           "translations": {}
+          },
+          {
+           "surface": "night",
+           "type": "root",
+           "meaning": "night",
+           "translations": {
+            "zh-Hans": "夜",
+            "zh-Hant": "夜",
+            "ja": "夜",
+            "ko": "밤",
+            "vi": "đêm",
+            "ar": "ليل",
+            "fa": "شب",
+            "ur": "رات",
+            "am": "ሌሊት",
+            "ml": "രാത്രി",
+            "ta": "இரவு",
+            "tl": "gabi",
+            "ps": "شپه",
+            "ro": "noapte",
+            "ru": "ночь",
+            "fr": "nuit",
+            "hi": "रात",
+            "es": "noche"
+           }
+          }
+         ],
+         "root": "night",
+         "meaning": "Suddenly, in a very short time.",
+         "example": "The ban takes that away from them overnight.",
+         "translations": {
+          "am": "በአንድ ሌሊት",
+          "ar": "بين عشية وضحاها",
+          "es": "de la noche a la mañana",
+          "fa": "یک‌شبه",
+          "fr": "du jour au lendemain",
+          "hi": "रातों-रात",
+          "ja": "一夜にして",
+          "ko": "하룻밤 사이에",
+          "ml": "ഒറ്റ രാത്രികൊണ്ട്",
+          "ps": "په یوه شپه کې",
+          "ro": "peste noapte",
+          "ru": "за одну ночь",
+          "ta": "ஒரே இரவில்",
+          "tl": "magdamag (bigla)",
+          "ur": "راتوں رات",
+          "vi": "chỉ sau một đêm",
+          "zh-Hans": "一夜之间",
+          "zh-Hant": "一夜之間"
+         }
+        },
+        {
+         "word": "tutorial",
+         "parts": [
+          {
+           "surface": "tutor",
+           "type": "root",
+           "meaning": "guardian/teacher",
+           "translations": {}
+          },
+          {
+           "surface": "ial",
+           "type": "suffix",
+           "meaning": "relating to",
+           "translations": {
+            "zh-Hans": "与……有关的",
+            "zh-Hant": "與……有關的",
+            "vi": "liên quan",
+            "am": "የ… ያለ",
+            "ar": "متعلق بـ",
+            "es": "relativo a",
+            "fa": "مربوط به",
+            "fr": "relatif à",
+            "hi": "से संबंधित",
+            "ja": "～の",
+            "ko": "관련된",
+            "ml": "ബന്ധപ്പെട്ട",
+            "ps": "اړوند",
+            "ro": "referitor la",
+            "ru": "относящийся к",
+            "ta": "தொடர்பான",
+            "tl": "kaugnay sa",
+            "ur": "سے متعلق"
+           }
+          }
+         ],
+         "root": "tutor",
+         "meaning": "A video or lesson that teaches you how to do one thing, step by step.",
+         "example": "Study channels, language tutorials, news explained in plain English.",
+         "translations": {
+          "am": "የመማሪያ ቪዲዮ",
+          "ar": "درس تعليمي",
+          "es": "tutorial",
+          "fa": "آموزش گام‌به‌گام",
+          "fr": "tutoriel",
+          "hi": "ट्यूटोरियल",
+          "ja": "チュートリアル",
+          "ko": "튜토리얼",
+          "ml": "ട്യൂട്ടോറിയൽ",
+          "ps": "ښوونیز درس",
+          "ro": "tutorial",
+          "ru": "обучающее видео",
+          "ta": "பயிற்சி வீடியோ",
+          "tl": "tutorial",
+          "ur": "ٹیوٹوریل",
+          "vi": "hướng dẫn",
+          "zh-Hans": "教程",
+          "zh-Hant": "教學影片"
+         }
+        }
+       ],
+       "path": "elc/english/reframe-words-neg"
       }
      ],
      "folders": [
@@ -364947,6 +368368,20 @@
         "sm-ban-harms",
         "sm-ban-judging"
        ]
+      },
+      {
+       "id": "elc-en-reframe",
+       "parentId": "elc-en-sm-ban",
+       "name": "Reframe the argument",
+       "subtitle": "The four moves of a rebuttal, the devices it hits, and the words inside the worksheet arguments.",
+       "unitIds": [
+        "reframe-moves",
+        "reframe-devices",
+        "reframe-words-aff",
+        "reframe-words-neg"
+       ],
+       "sourceLabel": "Open the reframing organiser",
+       "sourceUrl": "https://liaminhawai-cmd.github.io/ELC-Pages/debate-reframe.html"
       }
      ]
     },
@@ -451515,6 +454950,11 @@
      "able"
     ],
     [
+     "reliable",
+     "elc/english/reframe-words-neg",
+     "able"
+    ],
+    [
      "affordable",
      "elc/english/sm-ban-judging",
      "able"
@@ -452236,6 +455676,16 @@
      "ad"
     ],
     [
+     "addictive",
+     "elc/english/reframe-words-aff",
+     "ad"
+    ],
+    [
+     "admit",
+     "elc/english/reframe-words-aff",
+     "ad"
+    ],
+    [
      "addiction",
      "elc/english/sm-ban-harms",
      "ad"
@@ -452450,6 +455900,11 @@
     [
      "inclusive language",
      "elc/english/persuasive-techniques-audience",
+     "age"
+    ],
+    [
+     "bias language",
+     "elc/english/reframe-devices",
      "age"
     ],
     [
@@ -456234,6 +459689,16 @@
      "ate"
     ],
     [
+     "concentrate",
+     "elc/english/reframe-words-aff",
+     "ate"
+    ],
+    [
+     "isolate",
+     "elc/english/reframe-words-neg",
+     "ate"
+    ],
+    [
      "inadequate",
      "elc/english/sm-ban-judging",
      "ate"
@@ -456885,6 +460350,21 @@
     [
      "publication",
      "elc/english/persuasive-text-types",
+     "ation"
+    ],
+    [
+     "connotation",
+     "elc/english/reframe-devices",
+     "ation"
+    ],
+    [
+     "notification",
+     "elc/english/reframe-words-aff",
+     "ation"
+    ],
+    [
+     "generation",
+     "elc/english/reframe-words-neg",
      "ation"
     ],
     [
@@ -459001,6 +462481,11 @@
    "type": "prefix",
    "words": [
     [
+     "attention",
+     "elc/english/reframe-words-aff",
+     "at"
+    ],
+    [
      "unattainable",
      "elc/english/sm-ban-judging",
      "at"
@@ -459692,6 +463177,11 @@
    "meaning": "slant",
    "type": "root",
    "words": [
+    [
+     "bias language",
+     "elc/english/reframe-devices",
+     "bias"
+    ],
     [
      "unbiased",
      "vce/command-terms/sources-evidence",
@@ -460688,6 +464178,23 @@
     ]
    ]
   },
+  "cede|give way": {
+   "surface": "cede",
+   "meaning": "give way",
+   "type": "root",
+   "words": [
+    [
+     "concede",
+     "elc/english/reframe-moves",
+     "cede"
+    ],
+    [
+     "concede",
+     "year-9/english/curious-incident-core",
+     "cede"
+    ]
+   ]
+  },
   "ced|go": {
    "surface": "ced",
    "meaning": "go",
@@ -460850,6 +464357,11 @@
    "meaning": "centre",
    "type": "root",
    "words": [
+    [
+     "concentrate",
+     "elc/english/reframe-words-aff",
+     "centr"
+    ],
     [
      "concentration",
      "elc/humanities/history",
@@ -462207,6 +465719,11 @@
    "type": "prefix",
    "words": [
     [
+     "collapse",
+     "elc/english/reframe-moves",
+     "col"
+    ],
+    [
      "collision theory",
      "elc/science/chemical-reactions",
      "col"
@@ -462344,6 +465861,11 @@
    "meaning": "to arrive/happen",
    "type": "root",
    "words": [
+    [
+     "income",
+     "elc/english/reframe-words-neg",
+     "come"
+    ],
     [
      "outcome",
      "elc/mathematics/probability-basics",
@@ -463135,6 +466657,31 @@
     [
      "conclude",
      "elc/english/persuasive-teel",
+     "con"
+    ],
+    [
+     "connotation",
+     "elc/english/reframe-devices",
+     "con"
+    ],
+    [
+     "concede",
+     "elc/english/reframe-moves",
+     "con"
+    ],
+    [
+     "concession",
+     "elc/english/reframe-moves",
+     "con"
+    ],
+    [
+     "conveniently",
+     "elc/english/reframe-moves",
+     "con"
+    ],
+    [
+     "concentrate",
+     "elc/english/reframe-words-aff",
      "con"
     ],
     [
@@ -466121,6 +469668,23 @@
     ]
    ]
   },
+  "dict|point out/declare": {
+   "surface": "dict",
+   "meaning": "point out/declare",
+   "type": "root",
+   "words": [
+    [
+     "addictive",
+     "elc/english/reframe-words-aff",
+     "dict"
+    ],
+    [
+     "addiction",
+     "elc/english/sm-ban-harms",
+     "dict"
+    ]
+   ]
+  },
   "dict|say/declare": {
    "surface": "dict",
    "meaning": "say/declare",
@@ -466347,6 +469911,11 @@
     [
      "disease",
      "elc/english/rabbits",
+     "dis"
+    ],
+    [
+     "distracted",
+     "elc/english/reframe-words-aff",
      "dis"
     ],
     [
@@ -467774,6 +471343,23 @@
     ]
    ]
   },
+  "ec|out": {
+   "surface": "ec",
+   "meaning": "out",
+   "type": "prefix",
+   "words": [
+    [
+     "anecdote",
+     "elc/english/reframe-devices",
+     "ec"
+    ],
+    [
+     "anecdote",
+     "year-9/english/persuasion",
+     "ec"
+    ]
+   ]
+  },
   "edit|give out/publish": {
    "surface": "edit",
    "meaning": "give out/publish",
@@ -468042,6 +471628,36 @@
     [
      "chopped",
      "elc/english/rabbits",
+     "ed"
+    ],
+    [
+     "implied",
+     "elc/english/reframe-devices",
+     "ed"
+    ],
+    [
+     "loaded",
+     "elc/english/reframe-devices",
+     "ed"
+    ],
+    [
+     "distracted",
+     "elc/english/reframe-words-aff",
+     "ed"
+    ],
+    [
+     "exhausted",
+     "elc/english/reframe-words-aff",
+     "ed"
+    ],
+    [
+     "tormented",
+     "elc/english/reframe-words-aff",
+     "ed"
+    ],
+    [
+     "heavy-handed",
+     "elc/english/reframe-words-neg",
      "ed"
     ],
     [
@@ -468913,6 +472529,11 @@
      "em"
     ],
     [
+     "emphasise",
+     "elc/english/reframe-moves",
+     "em"
+    ],
+    [
      "embedded",
      "vce/eal/unit-1-aos-1",
      "em"
@@ -468989,6 +472610,11 @@
     [
      "topic sentence",
      "elc/english/persuasive-teel",
+     "ence"
+    ],
+    [
+     "silence",
+     "elc/english/reframe-words-neg",
      "ence"
     ],
     [
@@ -469744,6 +473370,11 @@
      "ent"
     ],
     [
+     "conveniently",
+     "elc/english/reframe-moves",
+     "ent"
+    ],
+    [
      "Resilient",
      "elc/humanities/general-vocabulary",
      "ent"
@@ -470062,6 +473693,11 @@
    "meaning": "make",
    "type": "prefix",
    "words": [
+    [
+     "widen",
+     "elc/english/reframe-moves",
+     "en"
+    ],
     [
      "encompass",
      "vce/eal/unit-1-aos-1",
@@ -471286,6 +474922,16 @@
      "ex"
     ],
     [
+     "expert opinion",
+     "elc/english/reframe-devices",
+     "ex"
+    ],
+    [
+     "exhausted",
+     "elc/english/reframe-words-aff",
+     "ex"
+    ],
+    [
      "Expedition",
      "elc/humanities/general-vocabulary",
      "ex"
@@ -471769,6 +475415,11 @@
     [
      "tone",
      "elc/english/persuasive-techniques-audience",
+     "e"
+    ],
+    [
+     "collapse",
+     "elc/english/reframe-moves",
      "e"
     ],
     [
@@ -472662,6 +476313,11 @@
    "type": "root",
    "words": [
     [
+     "notification",
+     "elc/english/reframe-words-aff",
+     "fic"
+    ],
+    [
      "Significant",
      "elc/humanities/general-vocabulary",
      "fic"
@@ -473513,6 +477169,16 @@
    "meaning": "structure",
    "type": "root",
    "words": [
+    [
+     "frame",
+     "elc/english/reframe-moves",
+     "frame"
+    ],
+    [
+     "reframe",
+     "elc/english/reframe-moves",
+     "frame"
+    ],
     [
      "timeframe",
      "vce/business-management/unit-1-aos-2",
@@ -474937,6 +478603,11 @@
    "type": "root",
    "words": [
     [
+     "heavy-handed",
+     "elc/english/reframe-words-neg",
+     "hand"
+    ],
+    [
      "handkerchief",
      "elc/humanities/general-vocabulary",
      "hand"
@@ -474970,6 +478641,11 @@
    "meaning": "draw out/drain",
    "type": "root",
    "words": [
+    [
+     "exhausted",
+     "elc/english/reframe-words-aff",
+     "haust"
+    ],
     [
      "exhaustion",
      "elc/humanities/general-vocabulary",
@@ -475678,6 +479354,11 @@
     [
      "editorial",
      "elc/english/persuasive-text-types",
+     "ial"
+    ],
+    [
+     "tutorial",
+     "elc/english/reframe-words-neg",
      "ial"
     ],
     [
@@ -478129,6 +481810,11 @@
      "im"
     ],
     [
+     "implied",
+     "elc/english/reframe-devices",
+     "im"
+    ],
+    [
      "improvement",
      "elc/humanities/history",
      "im"
@@ -479529,6 +483215,11 @@
      "in"
     ],
     [
+     "income",
+     "elc/english/reframe-words-neg",
+     "in"
+    ],
+    [
      "Influenza",
      "elc/humanities/general-vocabulary",
      "in"
@@ -480528,6 +484219,21 @@
     [
      "opinion article",
      "elc/english/persuasive-text-types",
+     "ion"
+    ],
+    [
+     "expert opinion",
+     "elc/english/reframe-devices",
+     "ion"
+    ],
+    [
+     "concession",
+     "elc/english/reframe-moves",
+     "ion"
+    ],
+    [
+     "attention",
+     "elc/english/reframe-words-aff",
      "ion"
     ],
     [
@@ -482706,6 +486412,16 @@
      "ise"
     ],
     [
+     "emphasise",
+     "elc/english/reframe-moves",
+     "ise"
+    ],
+    [
+     "organise",
+     "elc/english/reframe-words-neg",
+     "ise"
+    ],
+    [
      "civilise",
      "elc/humanities/general-vocabulary",
      "ise"
@@ -482797,6 +486513,11 @@
    "meaning": "to make",
    "type": "suffix",
    "words": [
+    [
+     "punish",
+     "elc/english/reframe-words-neg",
+     "ish"
+    ],
     [
      "punish",
      "elc/humanities/general-vocabulary",
@@ -483052,6 +486773,23 @@
      "communism",
      "vce/history/unit-2-aos-1",
      "ism"
+    ]
+   ]
+  },
+  "isol|alone": {
+   "surface": "isol",
+   "meaning": "alone",
+   "type": "root",
+   "words": [
+    [
+     "isolate",
+     "elc/english/reframe-words-neg",
+     "isol"
+    ],
+    [
+     "isolation",
+     "year-7/english/film",
+     "isol"
     ]
    ]
   },
@@ -484678,6 +488416,11 @@
      "ive"
     ],
     [
+     "addictive",
+     "elc/english/reframe-words-aff",
+     "ive"
+    ],
+    [
      "prohibitive",
      "elc/english/sm-ban-judging",
      "ive"
@@ -485813,6 +489556,11 @@
      "langu"
     ],
     [
+     "bias language",
+     "elc/english/reframe-devices",
+     "langu"
+    ],
+    [
      "language feature",
      "vce/eal/unit-2-aos-1",
      "langu"
@@ -486834,6 +490582,11 @@
    "words": [
     [
      "reliable",
+     "elc/english/reframe-words-neg",
+     "li"
+    ],
+    [
+     "reliable",
      "vce/command-terms/sources-evidence",
      "li"
     ],
@@ -487405,6 +491158,11 @@
     [
      "glimmeringly",
      "elc/english/harrison-bergeron",
+     "ly"
+    ],
+    [
+     "conveniently",
+     "elc/english/reframe-moves",
      "ly"
     ],
     [
@@ -489622,6 +493380,11 @@
      "mit"
     ],
     [
+     "admit",
+     "elc/english/reframe-words-aff",
+     "mit"
+    ],
+    [
      "commitment",
      "elc/humanities/history",
      "mit"
@@ -490702,6 +494465,23 @@
     ]
    ]
   },
+  "night|night": {
+   "surface": "night",
+   "meaning": "night",
+   "type": "root",
+   "words": [
+    [
+     "overnight",
+     "elc/english/reframe-words-neg",
+     "night"
+    ],
+    [
+     "midnight",
+     "year-7/english/bone-sparrow-middle",
+     "night"
+    ]
+   ]
+  },
   "nihil|nothing": {
    "surface": "nihil",
    "meaning": "nothing",
@@ -490988,11 +494768,33 @@
     ]
    ]
   },
+  "noti|make known": {
+   "surface": "noti",
+   "meaning": "make known",
+   "type": "root",
+   "words": [
+    [
+     "notification",
+     "elc/english/reframe-words-aff",
+     "noti"
+    ],
+    [
+     "notifiable",
+     "vce/applied-computing/unit-4-aos-2",
+     "noti"
+    ]
+   ]
+  },
   "not|mark/note": {
    "surface": "not",
    "meaning": "mark/note",
    "type": "root",
    "words": [
+    [
+     "connotation",
+     "elc/english/reframe-devices",
+     "not"
+    ],
     [
      "annotate",
      "vce/art-creative-practice/unit-4-aos-1",
@@ -491830,6 +495632,11 @@
      "opinion article",
      "elc/english/persuasive-text-types",
      "opin"
+    ],
+    [
+     "expert opinion",
+     "elc/english/reframe-devices",
+     "opin"
     ]
    ]
   },
@@ -491948,6 +495755,23 @@
      "coordinate",
      "year-7/mathematics/algebra-2",
      "ordin"
+    ]
+   ]
+  },
+  "organ|instrument/tool": {
+   "surface": "organ",
+   "meaning": "instrument/tool",
+   "type": "root",
+   "words": [
+    [
+     "organise",
+     "elc/english/reframe-words-neg",
+     "organ"
+    ],
+    [
+     "organisations",
+     "elc/english/sm-ban-online-life",
+     "organ"
     ]
    ]
   },
@@ -492477,6 +496301,11 @@
     [
      "tremendous",
      "elc/english/harrison-bergeron",
+     "ous"
+    ],
+    [
+     "anxious",
+     "elc/english/reframe-words-aff",
      "ous"
     ],
     [
@@ -493714,6 +497543,11 @@
    "type": "root",
    "words": [
     [
+     "expert opinion",
+     "elc/english/reframe-devices",
+     "pert"
+    ],
+    [
      "Expert",
      "elc/science/pandemic",
      "pert"
@@ -494149,6 +497983,11 @@
     [
      "emphasis",
      "elc/english/persuasive-techniques-emphasis",
+     "phas"
+    ],
+    [
+     "emphasise",
+     "elc/english/reframe-moves",
      "phas"
     ],
     [
@@ -497530,6 +501369,11 @@
    "words": [
     [
      "punish",
+     "elc/english/reframe-words-neg",
+     "pun"
+    ],
+    [
+     "punish",
      "elc/humanities/general-vocabulary",
      "pun"
     ],
@@ -498441,6 +502285,11 @@
      "re"
     ],
     [
+     "reframe",
+     "elc/english/reframe-moves",
+     "re"
+    ],
+    [
      "Regardless",
      "elc/humanities/general-vocabulary",
      "re"
@@ -499089,6 +502938,11 @@
     [
      "reflect",
      "elc/english/rabbits",
+     "re"
+    ],
+    [
+     "reliable",
+     "elc/english/reframe-words-neg",
      "re"
     ],
     [
@@ -500885,6 +504739,23 @@
      "resilience",
      "vce/psychology/unit-4-aos-2",
      "sili"
+    ]
+   ]
+  },
+  "sil|quiet": {
+   "surface": "sil",
+   "meaning": "quiet",
+   "type": "root",
+   "words": [
+    [
+     "silence",
+     "elc/english/reframe-words-neg",
+     "sil"
+    ],
+    [
+     "silence",
+     "year-7/english/bone-sparrow-final",
+     "sil"
     ]
    ]
   },
@@ -504968,6 +508839,11 @@
      "tent"
     ],
     [
+     "attention",
+     "elc/english/reframe-words-aff",
+     "tent"
+    ],
+    [
      "tentacles",
      "elc/science/ecosystems",
      "tent"
@@ -505513,6 +509389,23 @@
     ]
    ]
   },
+  "three|three": {
+   "surface": "three",
+   "meaning": "three",
+   "type": "root",
+   "words": [
+    [
+     "rule of three",
+     "elc/english/persuasive-techniques-emphasis",
+     "three"
+    ],
+    [
+     "list of three",
+     "elc/english/reframe-devices",
+     "three"
+    ]
+   ]
+  },
   "thyroid|thyroid gland": {
    "surface": "thyroid",
    "meaning": "thyroid gland",
@@ -505935,6 +509828,11 @@
     [
      "distraction",
      "elc/english/persuasive-issue-words",
+     "tract"
+    ],
+    [
+     "distracted",
+     "elc/english/reframe-words-aff",
      "tract"
     ],
     [
@@ -508671,6 +512569,11 @@
    "type": "root",
    "words": [
     [
+     "conveniently",
+     "elc/english/reframe-moves",
+     "ven"
+    ],
+    [
      "revenue",
      "elc/english/sm-ban-online-life",
      "ven"
@@ -510658,6 +514561,11 @@
      "unattainable",
      "elc/english/sm-ban-judging",
      "able"
+    ],
+    [
+     "reliable",
+     "elc/english/reframe-words-neg",
+     "able"
     ]
    ],
    "extras": [
@@ -512086,6 +515994,21 @@
      "affection",
      "year-9/english/wilderpeople-ricky-and-hec",
      "af"
+    ],
+    [
+     "attention",
+     "elc/english/reframe-words-aff",
+     "at"
+    ],
+    [
+     "addictive",
+     "elc/english/reframe-words-aff",
+     "ad"
+    ],
+    [
+     "admit",
+     "elc/english/reframe-words-aff",
+     "ad"
     ]
    ],
    "extras": [
@@ -512388,6 +516311,11 @@
     [
      "emotive language",
      "elc/english/persuasive-techniques-audience",
+     "age"
+    ],
+    [
+     "bias language",
+     "elc/english/reframe-devices",
      "age"
     ]
    ],
@@ -515056,6 +518984,22 @@
     "participant"
    ]
   },
+  "anxi|worried/troubled": {
+   "surface": "anxi",
+   "variants": [
+    "anxi"
+   ],
+   "type": "root",
+   "gloss": "worried/troubled",
+   "aka": [],
+   "words": [
+    [
+     "anxious",
+     "elc/english/reframe-words-aff",
+     "anxi"
+    ]
+   ]
+  },
   "an|before": {
    "surface": "an",
    "variants": [
@@ -515085,7 +519029,8 @@
    "type": "prefix",
    "gloss": "not/without",
    "aka": [
-    "without"
+    "without",
+    "not"
    ],
    "words": [
     [
@@ -515121,6 +519066,11 @@
     [
      "anomaly",
      "elc/science/data-graphs",
+     "an"
+    ],
+    [
+     "anecdote",
+     "elc/english/reframe-devices",
      "an"
     ]
    ],
@@ -516906,6 +520856,16 @@
     [
      "illiterate",
      "year-9/english/wilderpeople-ricky-and-hec",
+     "ate"
+    ],
+    [
+     "concentrate",
+     "elc/english/reframe-words-aff",
+     "ate"
+    ],
+    [
+     "isolate",
+     "elc/english/reframe-words-neg",
      "ate"
     ]
    ],
@@ -518761,6 +522721,21 @@
     [
      "adaptation",
      "year-9/english/wilderpeople-talking",
+     "ation"
+    ],
+    [
+     "connotation",
+     "elc/english/reframe-devices",
+     "ation"
+    ],
+    [
+     "notification",
+     "elc/english/reframe-words-aff",
+     "ation"
+    ],
+    [
+     "generation",
+     "elc/english/reframe-words-neg",
      "ation"
     ]
    ],
@@ -520664,6 +524639,22 @@
     ]
    ]
   },
+  "ban|forbid": {
+   "surface": "ban",
+   "variants": [
+    "ban"
+   ],
+   "type": "root",
+   "gloss": "forbid",
+   "aka": [],
+   "words": [
+    [
+     "blanket ban",
+     "elc/english/reframe-words-neg",
+     "ban"
+    ]
+   ]
+  },
   "bargain|haggle over a price": {
    "surface": "bargain",
    "variants": [
@@ -521001,6 +524992,11 @@
      "bias",
      "vce/vm-literacy/unit-2-aos-1",
      "bias"
+    ],
+    [
+     "bias language",
+     "elc/english/reframe-devices",
+     "bias"
     ]
    ]
   },
@@ -521333,6 +525329,22 @@
     "bisect",
     "biceps",
     "bipolar"
+   ]
+  },
+  "blanket|covering": {
+   "surface": "blanket",
+   "variants": [
+    "blanket"
+   ],
+   "type": "root",
+   "gloss": "covering",
+   "aka": [],
+   "words": [
+    [
+     "blanket ban",
+     "elc/english/reframe-words-neg",
+     "blanket"
+    ]
    ]
   },
   "bless|declare holy/wish good for": {
@@ -523248,7 +527260,8 @@
   "cede|give way": {
    "surface": "cede",
    "variants": [
-    "cede"
+    "cede",
+    "cess"
    ],
    "type": "root",
    "gloss": "give way",
@@ -523257,6 +527270,16 @@
     [
      "concede",
      "year-9/english/curious-incident-core",
+     "cede"
+    ],
+    [
+     "concession",
+     "elc/english/reframe-moves",
+     "cess"
+    ],
+    [
+     "concede",
+     "elc/english/reframe-moves",
      "cede"
     ]
    ]
@@ -523642,6 +527665,11 @@
     [
      "concentrated",
      "year-9/english/curious-incident-ch-211-233",
+     "centr"
+    ],
+    [
+     "concentrate",
+     "elc/english/reframe-words-aff",
      "centr"
     ]
    ],
@@ -525789,6 +529817,11 @@
     [
      "high-income country",
      "vce/health/unit-4-aos-1",
+     "come"
+    ],
+    [
+     "income",
+     "elc/english/reframe-words-neg",
      "come"
     ]
    ],
@@ -528032,6 +532065,36 @@
      "reconcile",
      "year-9/english/wilderpeople-ricky-and-hec",
      "con"
+    ],
+    [
+     "concede",
+     "elc/english/reframe-moves",
+     "con"
+    ],
+    [
+     "concession",
+     "elc/english/reframe-moves",
+     "con"
+    ],
+    [
+     "collapse",
+     "elc/english/reframe-moves",
+     "col"
+    ],
+    [
+     "conveniently",
+     "elc/english/reframe-moves",
+     "con"
+    ],
+    [
+     "connotation",
+     "elc/english/reframe-devices",
+     "con"
+    ],
+    [
+     "concentrate",
+     "elc/english/reframe-words-aff",
+     "con"
     ]
    ],
    "extras": [
@@ -528074,6 +532137,22 @@
     ]
    ],
    "extras": []
+  },
+  "cope|manage/deal with": {
+   "surface": "cope",
+   "variants": [
+    "cope"
+   ],
+   "type": "root",
+   "gloss": "manage/deal with",
+   "aka": [],
+   "words": [
+    [
+     "cope",
+     "elc/english/reframe-words-aff",
+     "cope"
+    ]
+   ]
   },
   "copter|wing": {
    "surface": "copter",
@@ -531023,6 +535102,11 @@
      "addiction",
      "elc/english/sm-ban-harms",
      "dict"
+    ],
+    [
+     "addictive",
+     "elc/english/reframe-words-aff",
+     "dict"
     ]
    ],
    "extras": [
@@ -531921,6 +536005,11 @@
      "discovered",
      "year-9/english/curious-incident-ch-113-151",
      "dis"
+    ],
+    [
+     "distracted",
+     "elc/english/reframe-words-aff",
+     "dis"
     ]
    ],
    "extras": [
@@ -532514,11 +536603,18 @@
    ],
    "type": "root",
    "gloss": "given",
-   "aka": [],
+   "aka": [
+    "give"
+   ],
    "words": [
     [
      "anecdote",
      "year-9/english/persuasion",
+     "dot"
+    ],
+    [
+     "anecdote",
+     "elc/english/reframe-devices",
      "dot"
     ]
    ]
@@ -532927,6 +537023,22 @@
      "duration",
      "year-7/humanities-civics/history-rome",
      "dur"
+    ]
+   ]
+  },
+  "duty|what is owed": {
+   "surface": "duty",
+   "variants": [
+    "duty"
+   ],
+   "type": "root",
+   "gloss": "what is owed",
+   "aka": [],
+   "words": [
+    [
+     "duty",
+     "elc/english/reframe-words-aff",
+     "duty"
     ]
    ]
   },
@@ -534059,6 +538171,36 @@
      "unwanted",
      "year-9/english/wilderpeople-ricky-arrives",
      "ed"
+    ],
+    [
+     "loaded",
+     "elc/english/reframe-devices",
+     "ed"
+    ],
+    [
+     "implied",
+     "elc/english/reframe-devices",
+     "ed"
+    ],
+    [
+     "exhausted",
+     "elc/english/reframe-words-aff",
+     "ed"
+    ],
+    [
+     "tormented",
+     "elc/english/reframe-words-aff",
+     "ed"
+    ],
+    [
+     "distracted",
+     "elc/english/reframe-words-aff",
+     "ed"
+    ],
+    [
+     "heavy-handed",
+     "elc/english/reframe-words-neg",
+     "ed"
     ]
    ],
    "extras": []
@@ -535153,6 +539295,11 @@
      "evidence",
      "year-9/english/curious-incident-core",
      "ence"
+    ],
+    [
+     "silence",
+     "elc/english/reframe-words-neg",
+     "ence"
     ]
    ],
    "extras": [
@@ -536061,6 +540208,11 @@
      "delinquent",
      "year-9/english/wilderpeople-talking",
      "ent"
+    ],
+    [
+     "conveniently",
+     "elc/english/reframe-moves",
+     "ent"
     ]
    ],
    "extras": [
@@ -536321,6 +540473,11 @@
     [
      "endure",
      "year-9/english/wilderpeople-into-the-bush",
+     "en"
+    ],
+    [
+     "widen",
+     "elc/english/reframe-moves",
      "en"
     ]
    ],
@@ -538813,6 +542970,21 @@
      "evade",
      "year-9/english/wilderpeople-manhunt",
      "e"
+    ],
+    [
+     "anecdote",
+     "elc/english/reframe-devices",
+     "ec"
+    ],
+    [
+     "expert opinion",
+     "elc/english/reframe-devices",
+     "ex"
+    ],
+    [
+     "exhausted",
+     "elc/english/reframe-words-aff",
+     "ex"
     ]
    ],
    "extras": [
@@ -539010,6 +543182,11 @@
     [
      "quote",
      "elc/english/persuasive-analysis",
+     "e"
+    ],
+    [
+     "collapse",
+     "elc/english/reframe-moves",
      "e"
     ]
    ],
@@ -539618,6 +543795,11 @@
      "affection",
      "year-9/english/wilderpeople-ricky-and-hec",
      "fect"
+    ],
+    [
+     "notification",
+     "elc/english/reframe-words-aff",
+     "fic"
     ]
    ],
    "extras": [
@@ -541696,6 +545878,16 @@
      "framing bias",
      "vce/economics/unit-1-aos-3",
      "fram"
+    ],
+    [
+     "frame",
+     "elc/english/reframe-moves",
+     "frame"
+    ],
+    [
+     "reframe",
+     "elc/english/reframe-moves",
+     "frame"
     ]
    ],
    "extras": []
@@ -542725,6 +546917,11 @@
      "genre",
      "year-9/english/film-media",
      "gen"
+    ],
+    [
+     "generation",
+     "elc/english/reframe-words-neg",
+     "gener"
     ]
    ],
    "extras": [
@@ -544320,6 +548517,11 @@
      "handkerchief",
      "elc/humanities/general-vocabulary",
      "hand"
+    ],
+    [
+     "heavy-handed",
+     "elc/english/reframe-words-neg",
+     "hand"
     ]
    ]
   },
@@ -544416,6 +548618,11 @@
     [
      "exhausted",
      "year-9/english/curious-incident-ch-2-37",
+     "haust"
+    ],
+    [
+     "exhausted",
+     "elc/english/reframe-words-aff",
      "haust"
     ]
    ]
@@ -544575,6 +548782,22 @@
     ]
    ],
    "extras": []
+  },
+  "heavy|weighty": {
+   "surface": "heavy",
+   "variants": [
+    "heavy"
+   ],
+   "type": "root",
+   "gloss": "weighty",
+   "aka": [],
+   "words": [
+    [
+     "heavy-handed",
+     "elc/english/reframe-words-neg",
+     "heavy"
+    ]
+   ]
   },
   "hect|hundred": {
    "surface": "hect",
@@ -545238,6 +549461,22 @@
      "homunculus",
      "year-9/english/curious-incident-ch-157-179",
      "homun"
+    ]
+   ]
+  },
+  "honest|honour": {
+   "surface": "honest",
+   "variants": [
+    "honest"
+   ],
+   "type": "root",
+   "gloss": "honour",
+   "aka": [],
+   "words": [
+    [
+     "honest",
+     "elc/english/reframe-words-neg",
+     "honest"
     ]
    ]
   },
@@ -546042,6 +550281,11 @@
     [
      "editorial",
      "elc/english/persuasive-text-types",
+     "ial"
+    ],
+    [
+     "tutorial",
+     "elc/english/reframe-words-neg",
      "ial"
     ]
    ],
@@ -551338,6 +555582,21 @@
      "invigilator",
      "year-9/english/curious-incident-ch-211-233",
      "in"
+    ],
+    [
+     "emphasise",
+     "elc/english/reframe-moves",
+     "em"
+    ],
+    [
+     "implied",
+     "elc/english/reframe-devices",
+     "im"
+    ],
+    [
+     "income",
+     "elc/english/reframe-words-neg",
+     "in"
     ]
    ],
    "extras": [
@@ -553980,6 +558239,21 @@
      "redemption",
      "year-9/english/wilderpeople-themes",
      "ion"
+    ],
+    [
+     "concession",
+     "elc/english/reframe-moves",
+     "ion"
+    ],
+    [
+     "expert opinion",
+     "elc/english/reframe-devices",
+     "ion"
+    ],
+    [
+     "attention",
+     "elc/english/reframe-words-aff",
+     "ion"
     ]
    ],
    "extras": [
@@ -554616,6 +558890,16 @@
      "frightened",
      "year-9/english/curious-incident-ch-113-151",
      "en"
+    ],
+    [
+     "emphasise",
+     "elc/english/reframe-moves",
+     "ise"
+    ],
+    [
+     "organise",
+     "elc/english/reframe-words-neg",
+     "ise"
     ]
    ],
    "extras": [
@@ -554668,6 +558952,11 @@
     [
      "punish",
      "elc/humanities/general-vocabulary",
+     "ish"
+    ],
+    [
+     "punish",
+     "elc/english/reframe-words-neg",
      "ish"
     ]
    ]
@@ -554988,6 +559277,11 @@
     [
      "isolation",
      "year-7/english/film",
+     "isol"
+    ],
+    [
+     "isolate",
+     "elc/english/reframe-words-neg",
      "isol"
     ]
    ],
@@ -557507,6 +561801,11 @@
      "fugitive",
      "year-9/english/wilderpeople-manhunt",
      "itive"
+    ],
+    [
+     "addictive",
+     "elc/english/reframe-words-aff",
+     "ive"
     ]
    ],
    "extras": [
@@ -558715,6 +563014,22 @@
     ]
    ],
    "extras": []
+  },
+  "laps|slip/fall": {
+   "surface": "laps",
+   "variants": [
+    "laps"
+   ],
+   "type": "root",
+   "gloss": "slip/fall",
+   "aka": [],
+   "words": [
+    [
+     "collapse",
+     "elc/english/reframe-moves",
+     "laps"
+    ]
+   ]
   },
   "larv|ghost/mask": {
    "surface": "larv",
@@ -560105,6 +564420,11 @@
      "emotive language",
      "elc/english/persuasive-techniques-audience",
      "langu"
+    ],
+    [
+     "bias language",
+     "elc/english/reframe-devices",
+     "langu"
     ]
    ],
    "extras": [
@@ -560213,11 +564533,18 @@
    ],
    "type": "root",
    "gloss": "a written series of names or items",
-   "aka": [],
+   "aka": [
+    "list"
+   ],
    "words": [
     [
      "shortlisting",
      "vce/vm-work-related-skills/unit-2-aos-2",
+     "list"
+    ],
+    [
+     "list of three",
+     "elc/english/reframe-devices",
      "list"
     ]
    ],
@@ -560395,6 +564722,11 @@
      "reliability",
      "vce/physical-education/unit-2-aos-1",
      "li"
+    ],
+    [
+     "reliable",
+     "elc/english/reframe-words-neg",
+     "li"
     ]
    ]
   },
@@ -560455,6 +564787,22 @@
    "aka": [],
    "words": [],
    "extras": []
+  },
+  "load|burden/carry": {
+   "surface": "load",
+   "variants": [
+    "load"
+   ],
+   "type": "root",
+   "gloss": "burden/carry",
+   "aka": [],
+   "words": [
+    [
+     "loaded",
+     "elc/english/reframe-devices",
+     "load"
+    ]
+   ]
   },
   "loaf|idle about": {
    "surface": "loaf",
@@ -561561,6 +565909,11 @@
     [
      "automatically",
      "year-9/english/curious-incident-ch-211-233",
+     "ly"
+    ],
+    [
+     "conveniently",
+     "elc/english/reframe-moves",
      "ly"
     ]
    ]
@@ -564780,6 +569133,11 @@
      "Missions and reserves",
      "elc/humanities/general-vocabulary",
      "miss"
+    ],
+    [
+     "admit",
+     "elc/english/reframe-words-aff",
+     "mit"
     ]
    ],
    "extras": [
@@ -565919,6 +570277,22 @@
    ],
    "extras": []
   },
+  "name|name": {
+   "surface": "name",
+   "variants": [
+    "name"
+   ],
+   "type": "root",
+   "gloss": "name",
+   "aka": [],
+   "words": [
+    [
+     "in the name of",
+     "elc/english/reframe-moves",
+     "name"
+    ]
+   ]
+  },
   "narco|numbness/sleep": {
    "surface": "narco",
    "variants": [
@@ -565935,6 +570309,22 @@
     ]
    ],
    "extras": []
+  },
+  "narrow|small in width": {
+   "surface": "narrow",
+   "variants": [
+    "narrow"
+   ],
+   "type": "root",
+   "gloss": "small in width",
+   "aka": [],
+   "words": [
+    [
+     "narrow",
+     "elc/english/reframe-moves",
+     "narrow"
+    ]
+   ]
   },
   "narr|tell": {
    "surface": "narr",
@@ -566725,6 +571115,11 @@
      "midnight",
      "year-7/english/bone-sparrow-middle",
      "night"
+    ],
+    [
+     "overnight",
+     "elc/english/reframe-words-neg",
+     "night"
     ]
    ]
   },
@@ -567183,6 +571578,11 @@
      "notifiable",
      "vce/applied-computing/unit-4-aos-2",
      "noti"
+    ],
+    [
+     "notification",
+     "elc/english/reframe-words-aff",
+     "noti"
     ]
    ],
    "extras": []
@@ -567295,6 +571695,11 @@
     [
      "notation",
      "vce/chemistry/unit-1-aos-1",
+     "not"
+    ],
+    [
+     "connotation",
+     "elc/english/reframe-devices",
      "not"
     ]
    ],
@@ -568441,6 +572846,11 @@
      "opinion article",
      "elc/english/persuasive-text-types",
      "opin"
+    ],
+    [
+     "expert opinion",
+     "elc/english/reframe-devices",
+     "opin"
     ]
    ],
    "origin": "Latin",
@@ -568668,6 +573078,11 @@
     [
      "organisations",
      "elc/english/sm-ban-online-life",
+     "organ"
+    ],
+    [
+     "organise",
+     "elc/english/reframe-words-neg",
      "organ"
     ]
    ]
@@ -569647,6 +574062,11 @@
      "dangerous",
      "year-9/english/curious-incident-ch-211-233",
      "ous"
+    ],
+    [
+     "anxious",
+     "elc/english/reframe-words-aff",
+     "ous"
     ]
    ],
    "extras": [
@@ -569829,6 +574249,22 @@
     ]
    ],
    "extras": []
+  },
+  "over|across/through": {
+   "surface": "over",
+   "variants": [
+    "over"
+   ],
+   "type": "prefix",
+   "gloss": "across/through",
+   "aka": [],
+   "words": [
+    [
+     "overnight",
+     "elc/english/reframe-words-neg",
+     "over"
+    ]
+   ]
   },
   "over|on top of": {
    "surface": "over",
@@ -571845,6 +576281,11 @@
      "Expert",
      "elc/science/pandemic",
      "pert"
+    ],
+    [
+     "expert opinion",
+     "elc/english/reframe-devices",
+     "pert"
     ]
    ],
    "extras": []
@@ -572395,6 +576836,11 @@
      "emphasis",
      "elc/english/persuasive-techniques-emphasis",
      "phas"
+    ],
+    [
+     "emphasise",
+     "elc/english/reframe-moves",
+     "phas"
     ]
    ]
   },
@@ -572922,6 +577368,22 @@
      "underpin",
      "vce/command-terms/academic-verbs",
      "pin"
+    ]
+   ]
+  },
+  "pivot|turning point": {
+   "surface": "pivot",
+   "variants": [
+    "pivot"
+   ],
+   "type": "root",
+   "gloss": "turning point",
+   "aka": [],
+   "words": [
+    [
+     "pivot",
+     "elc/english/reframe-moves",
+     "pivot"
     ]
    ]
   },
@@ -573666,6 +578128,11 @@
      "complicated",
      "year-9/english/curious-incident-ch-157-179",
      "plic"
+    ],
+    [
+     "implied",
+     "elc/english/reframe-devices",
+     "pli"
     ]
    ],
    "extras": [
@@ -577387,6 +581854,11 @@
      "punish",
      "elc/humanities/general-vocabulary",
      "pun"
+    ],
+    [
+     "punish",
+     "elc/english/reframe-words-neg",
+     "pun"
     ]
    ]
   },
@@ -579051,7 +583523,9 @@
    ],
    "type": "root",
    "gloss": "rest",
-   "aka": [],
+   "aka": [
+    "remain/lean"
+   ],
    "words": [
     [
      "rest",
@@ -579066,6 +583540,11 @@
     [
      "arrested",
      "year-9/english/curious-incident-ch-181-199",
+     "rest"
+    ],
+    [
+     "rests on",
+     "elc/english/reframe-moves",
      "rest"
     ]
    ]
@@ -579751,6 +584230,11 @@
      "reconcile",
      "year-9/english/wilderpeople-ricky-and-hec",
      "re"
+    ],
+    [
+     "reframe",
+     "elc/english/reframe-moves",
+     "re"
     ]
    ],
    "extras": [
@@ -580326,6 +584810,11 @@
     [
      "respect",
      "year-9/english/wilderpeople-ricky-and-hec",
+     "re"
+    ],
+    [
+     "reliable",
+     "elc/english/reframe-words-neg",
      "re"
     ]
    ],
@@ -583168,6 +587657,11 @@
     [
      "silence",
      "year-7/english/bone-sparrow-final",
+     "sil"
+    ],
+    [
+     "silence",
+     "elc/english/reframe-words-neg",
      "sil"
     ]
    ]
@@ -586119,6 +590613,22 @@
    "extras": [
     "stellar",
     "interstellar"
+   ]
+  },
+  "step|move the foot": {
+   "surface": "step",
+   "variants": [
+    "step"
+   ],
+   "type": "root",
+   "gloss": "move the foot",
+   "aka": [],
+   "words": [
+    [
+     "step in",
+     "elc/english/reframe-words-aff",
+     "step"
+    ]
    ]
   },
   "stereo|solid/fixed": {
@@ -589765,6 +594275,11 @@
      "contention",
      "elc/english/persuasive-analysis",
      "tent"
+    ],
+    [
+     "attention",
+     "elc/english/reframe-words-aff",
+     "tent"
     ]
    ],
    "extras": []
@@ -590891,6 +595406,11 @@
      "rule of three",
      "elc/english/persuasive-techniques-emphasis",
      "three"
+    ],
+    [
+     "list of three",
+     "elc/english/reframe-devices",
+     "three"
     ]
    ],
    "origin": "Old English",
@@ -591550,6 +596070,22 @@
     "topography"
    ]
   },
+  "torment|twist/torture": {
+   "surface": "torment",
+   "variants": [
+    "torment"
+   ],
+   "type": "root",
+   "gloss": "twist/torture",
+   "aka": [],
+   "words": [
+    [
+     "tormented",
+     "elc/english/reframe-words-aff",
+     "torment"
+    ]
+   ]
+  },
   "torqu|twist": {
    "surface": "torqu",
    "variants": [
@@ -591834,6 +596370,11 @@
      "protractor",
      "year-9/english/curious-incident-ch-181-199",
      "tract"
+    ],
+    [
+     "distracted",
+     "elc/english/reframe-words-aff",
+     "tract"
     ]
    ],
    "extras": [
@@ -591867,6 +596408,22 @@
     [
      "free trade",
      "vce/economics/unit-2-aos-2b",
+     "trade"
+    ]
+   ]
+  },
+  "trade|exchange": {
+   "surface": "trade",
+   "variants": [
+    "trade"
+   ],
+   "type": "root",
+   "gloss": "exchange",
+   "aka": [],
+   "words": [
+    [
+     "trade",
+     "elc/english/reframe-moves",
      "trade"
     ]
    ]
@@ -593013,6 +597570,22 @@
     ]
    ],
    "extras": []
+  },
+  "tutor|guardian/teacher": {
+   "surface": "tutor",
+   "variants": [
+    "tutor"
+   ],
+   "type": "root",
+   "gloss": "guardian/teacher",
+   "aka": [],
+   "words": [
+    [
+     "tutorial",
+     "elc/english/reframe-words-neg",
+     "tutor"
+    ]
+   ]
   },
   "type|kind/pattern": {
    "surface": "type",
@@ -595762,6 +600335,11 @@
      "revenue",
      "elc/english/sm-ban-online-life",
      "ven"
+    ],
+    [
+     "conveniently",
+     "elc/english/reframe-moves",
+     "ven"
     ]
    ],
    "extras": [
@@ -597472,6 +602050,22 @@
      "wholesale",
      "elc/science/ecosystems",
      "whole"
+    ]
+   ]
+  },
+  "wid|wide": {
+   "surface": "wid",
+   "variants": [
+    "wid"
+   ],
+   "type": "root",
+   "gloss": "wide",
+   "aka": [],
+   "words": [
+    [
+     "widen",
+     "elc/english/reframe-moves",
+     "wid"
     ]
    ]
   },
