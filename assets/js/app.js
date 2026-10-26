@@ -80,6 +80,67 @@ function langLabel(code) {
   const l = (DATA.languages || []).find((x) => x.code === code);
   return l ? l.label : code;
 }
+// Short, native-script names for the tag that sits beside each line once more
+// than one language is on screen. The full labels ("简体中文（中国） Chinese
+// (China)") are built for a dropdown and are far too long to repeat down a
+// column of words.
+const LANG_SHORT = {
+  'zh-Hans': '简体中文', 'zh-Hant': '繁體中文', ja: '日本語', ko: '한국어',
+  vi: 'Tiếng Việt', ar: 'العربية', fa: 'فارسی', ur: 'اردو', am: 'አማርኛ',
+  ml: 'മലയാളം', ta: 'தமிழ்', tl: 'Tagalog', ps: 'پښتو', ro: 'Română',
+  ru: 'Русский', fr: 'Français', hi: 'हिन्दी', es: 'Español',
+};
+function langShort(code) { return LANG_SHORT[code] || langLabel(code); }
+
+// --- showing several languages at once (teacher display) --------------------
+// One screen at the front of a room serves a class that rarely shares a home
+// language. These are languages shown ALONGSIDE the student's own, so a teacher
+// can put the word up in Chinese, Vietnamese and Spanish together instead of
+// switching the picker for each child.
+//
+// Deliberately additive and display-only: `lang` stays the student's single
+// language and still decides every drill prompt, answer and grade. Nothing here
+// touches what is marked right or wrong.
+function knownLang(code) {
+  return !!code && code !== 'other'
+    && (DATA.languages || []).some((l) => l.code === code);
+}
+function getExtraLangs() {
+  const raw = store.getPref('extraLangs', '');
+  if (!raw) return [];
+  const seen = new Set([getLang()]); // never repeat the student's own language
+  return String(raw).split(',').map((s) => s.trim()).filter((c) => {
+    if (!knownLang(c) || seen.has(c)) return false;
+    seen.add(c);
+    return true;
+  });
+}
+function setExtraLangs(list) { store.setPref('extraLangs', list.join(',')); }
+// Whole words: the student's language leads, extras follow.
+function wordLangs() { return [getLang(), ...getExtraLangs()]; }
+// Morphemes and banks lead with the language the UNIT can actually show
+// (displayLangFor already folded in the student's choice), then the extras.
+function bankLangs(dispLang) {
+  return [dispLang, ...getExtraLangs().filter((c) => c !== dispLang)];
+}
+// Render one translation per requested language.
+// With a single language this returns exactly what the app returned before — a
+// bare node, no tag, no wrapper — so a student who never touches this option
+// sees a byte-for-byte unchanged page.
+function transNodes(translations, langs, exact = false) {
+  const pick = exact ? pickExact : pickTranslation;
+  const found = [];
+  for (const code of langs) {
+    const text = pick(translations, code);
+    if (text) found.push([code, text]);
+  }
+  if (!found.length) return null;
+  if (langs.length === 1) return nat(found[0][1], found[0][0]);
+  return h('span', { class: 'tr-stack' }, ...found.map(([code, text]) =>
+    h('span', { class: 'tr-one' },
+      h('i', { class: 'tr-tag' }, langShort(code)),
+      h('span', { class: 'tr-text', lang: code }, nat(text, code)))));
+}
 // Prefer the student's chosen language; fall back to whatever is available
 // rather than showing a blank cell (not every morpheme has every language).
 function pickTranslation(translations, lang) {
@@ -464,9 +525,9 @@ function morphLine(w, opts = {}) {
     } else {
       add(line, code);
     }
-    const native = dispLang ? pickExact(p.translations, dispLang) : '';
+    const native = dispLang ? transNodes(p.translations, bankLangs(dispLang), true) : null;
     add(line, ' ', h('i', { class: 'ml-gloss' },
-      p.meaning || '', ...glossAlts(p, w.word), native ? ' \u00b7 ' : '', native ? nat(native, dispLang) : ''));
+      p.meaning || '', ...glossAlts(p, w.word), native ? ' \u00b7 ' : '', native || ''));
   });
   if (note) add(line, h('span', { class: 'ml-note' }, h('b', {}, 'Word story '), note));
   return line;
@@ -866,6 +927,45 @@ function nat(text, lang) {
   // needs the base characters spread apart. The class lets the CSS tell them
   // apart without re-deriving the language.
   return h('span', { class: `nat ${lang === 'zh-Hant' ? 'bopo' : 'pinyin'}` }, frag);
+}
+
+// The control for the option above: chips for the languages currently added
+// (tap to remove) plus a dropdown to add another. Sits next to the normal
+// language picker on the pages a teacher actually projects.
+function langExtraPicker(rerender) {
+  const redraw = typeof rerender === 'function' ? rerender : router;
+  const extras = getExtraLangs();
+  const wrap = h('span', { class: 'lang-extra' });
+  for (const code of extras) {
+    add(wrap, h('button', {
+      type: 'button', class: 'lang-chip',
+      title: `Stop showing ${langLabel(code)}`,
+      onclick: (e) => {
+        e.preventDefault();
+        setExtraLangs(extras.filter((c) => c !== code));
+        redraw();
+      },
+    }, langShort(code), h('span', { class: 'lang-x' }, '×')));
+  }
+  const taken = new Set([getLang(), ...extras]);
+  const available = (DATA.languages || [])
+    .filter((l) => l.code !== 'other' && !taken.has(l.code));
+  if (!available.length) return wrap;
+  const sel = h('select', {
+    class: 'lang-select sm lang-add',
+    'aria-label': 'Also show another language',
+    onchange: (e) => {
+      const code = e.target.value;
+      if (!code) return;
+      setExtraLangs([...extras, code]);
+      redraw();
+    },
+  });
+  sel.append(h('option', { value: '' },
+    extras.length ? '+ another language' : '+ show another language'));
+  for (const l of available) sel.append(h('option', { value: l.code }, l.label));
+  add(wrap, sel);
+  return wrap;
 }
 
 function rubyToggle(rerender) {
@@ -1316,6 +1416,7 @@ function renderBuildBoard({ levelId, subjectId, unitId }) {
         h('div', { class: 'progress thin' },
           h('div', { class: 'progress-fill', style: `width:${(totalDone / totalWords) * 100}%` }))),
       h('div', { class: 'row gap' }, buildLangPicker(), rubyToggle(render_),
+        langExtraPicker(render_),
         labelRight,
         h('a', { class: 'btn ghost small', href: parentHref }, 'Exit')));
   }
@@ -1352,10 +1453,8 @@ function renderBuildBoard({ levelId, subjectId, unitId }) {
               run: () => { echoPart = on ? null : p; render_(); } };
           },
         }),
-        (pickTranslation(w.translations, lang) || pickExact(w.translations, dispLang)) &&
-          h('p', { class: 'study-trans wtr' },
-            nat(pickTranslation(w.translations, lang) || pickExact(w.translations, dispLang),
-                pickTranslation(w.translations, lang) ? lang : dispLang)),
+        transNodes(w.translations, wordLangs()) &&
+          h('p', { class: 'study-trans wtr' }, transNodes(w.translations, wordLangs())),
         w.example && h('p', { class: 'study-example' }, '“' + w.example + '”'),
         w.context && h('p', { class: 'study-context' }, h('b', {}, 'In the text: '), w.context),
         w.origin && !inlineNote && h('details', { class: 'word-story' },
@@ -1408,10 +1507,10 @@ function renderBuildBoard({ levelId, subjectId, unitId }) {
     if (k >= 0) placeAt(ri, k, surface);
   }
   function doneRow(b) {
-    const tr = pickTranslation(b.w.translations, getLang());
+    const tr = transNodes(b.w.translations, wordLangs());
     return h('div', { class: 'board-row done mini' },
       h('span', { class: 'board-built' }, '✓ ', b.w.word, say(b.w.word)),
-      tr && h('span', { class: 'board-trans wtr' }, nat(tr, getLang())),
+      tr && h('span', { class: 'board-trans wtr' }, tr),
       h('span', { class: 'board-def mini muted small' }, b.w.meaning || ''));
   }
   // Distractor WORDS (not defs/translations) from elsewhere in the unit, for
@@ -1464,10 +1563,10 @@ function renderBuildBoard({ levelId, subjectId, unitId }) {
     // The prompt is the meaning — English definition and/or the home-language
     // translation (many "remember this" words, e.g. Year 7 Particles, carry a
     // translation but no English definition, so the translation IS the prompt).
-    const tr = pickTranslation(b.w.translations, getLang());
+    const tr = transNodes(b.w.translations, wordLangs());
     return h('div', { class: `board-row board-row-reveal ${b.wrong ? 'wrong' : ''}` },
       h('div', { class: 'board-def' }, b.w.meaning || '',
-        tr && h('div', { class: 'board-trans wtr' }, nat(tr, getLang())),
+        tr && h('div', { class: 'board-trans wtr' }, tr),
         h('div', { class: 'muted small' }, 'Which word is this?')),
       h('div', { class: 'check-opts' }, ...shown.map((o) => h('button', {
         class: 'check-opt', type: 'button',
@@ -1515,7 +1614,7 @@ function renderBuildBoard({ levelId, subjectId, unitId }) {
     const list = h('div', { class: 'board-list' }, ...rows.map(({ b, i }) => {
       if (b.done) return doneRow(b);
       if (!b.buildable) return revealRow(b);
-      const tr = pickTranslation(b.w.translations, getLang());
+      const tr = transNodes(b.w.translations, wordLangs());
       return h('div', { class: `board-row ${b.wrong ? 'wrong' : ''} ${st.held ? 'targetable' : ''}`,
         ondragover: (e) => e.preventDefault(),
         ondrop: (e) => { e.preventDefault(); dropOnRow(i, e.dataTransfer.getData('text/plain')); } },
@@ -2693,12 +2792,12 @@ function renderWords() {
   function card(it) {
     const streak = it.streak || 0;
     const w = collectionWord(it);
-    const tr = w && pickTranslation(w.translations, lang);
+    const tr = w && transNodes(w.translations, wordLangs());
     const bin = store.binOf(it);
     return h('div', { class: 'word-card' },
       h('div', { class: 'wc-head' },
         h('span', { class: 'wr-word' }, it.word, say(it.word)),
-        tr && h('span', { class: 'wc-trans' }, nat(tr, lang))),
+        tr && h('span', { class: 'wc-trans' }, tr)),
       w && (w.parts || []).length >= 2 && h('div', { class: 'wc-morphs' },
         ...w.parts.map((pt) => myWordMorphChip(pt, w.word, lang, true))),
       w && w.meaning && h('p', { class: 'wc-def' }, w.meaning),
@@ -2775,7 +2874,8 @@ function renderBrowse({ levelId, subjectId, unitId }) {
     h('h1', {}, unit.name),
     h('p', { class: 'muted' }, `${unit.words.length} words`),
     anyTrans && h('div', { class: 'row gap' },
-      h('span', { class: 'muted small' }, 'Showing translations in:'), langPicker(), rubyToggle()),
+      h('span', { class: 'muted small' }, 'Showing translations in:'), langPicker(), rubyToggle(),
+      langExtraPicker()),
     h('p', { class: 'muted small' },
       'Tap any coloured word-part to see every other word that shares it.'),
     unit.words.some((w) => w.parts && w.parts.length >= 2) && h('div', { class: 'bank-legend ink' },
@@ -2790,7 +2890,7 @@ function renderBrowse({ levelId, subjectId, unitId }) {
             h('div', { class: 'wr-main' },
               h('span', { class: 'wr-word' }, ...colourWordNodes(w), say(w.word)),
               h('span', { class: 'wr-trans' },
-                nat(pickTranslation(w.translations, lang), lang) || h('span', { class: 'muted small' }, '—'))),
+                transNodes(w.translations, wordLangs()) || h('span', { class: 'muted small' }, '—'))),
             w.meaning && h('p', { class: 'wr-def' }, w.meaning),
             morphLine(w, {
               dispLang,
@@ -2826,7 +2926,8 @@ function renderMorphemes({ levelId, subjectId }) {
     if (!m) return h('td', { class: cls });
     if (field === 'morph') return h('td', { class: `${cls} morph-cell` }, m.morpheme);
     if (field === 'meaning') return h('td', { class: cls }, m.meaning || '');
-    return h('td', { class: `${cls} native-cell` }, nat(pickExact(m.translations, dispLang), dispLang));
+    return h('td', { class: `${cls} native-cell` },
+      transNodes(m.translations, bankLangs(dispLang), true) || '');
   };
   const bodyRows = [];
   for (let i = 0; i < rows; i++) {
@@ -2842,7 +2943,8 @@ function renderMorphemes({ levelId, subjectId }) {
     h('h1', {}, 'Morpheme bank'),
     h('p', { class: 'muted' }, `${subject.name} — prefixes, roots and suffixes`),
     h('div', { class: 'row gap' },
-      h('span', { class: 'muted small' }, 'Showing translations in:'), langPicker(), rubyToggle()),
+      h('span', { class: 'muted small' }, 'Showing translations in:'), langPicker(), rubyToggle(),
+      langExtraPicker()),
     h('div', { class: 'bank-legend' },
       h('span', {}, h('i', { class: 'prefix' }), 'Prefixes'),
       h('span', {}, h('i', { class: 'root' }), 'Roots'),
@@ -3084,12 +3186,12 @@ function wordSearch(q, lang) {
 const WORD_CAP = 40;
 function dictWordCard(e, lang) {
   const w = e.best;
-  const tr = pickTranslation(w.translations, lang);
+  const tr = transNodes(w.translations, wordLangs());
   const card = h('div', { class: 'dict-card' },
     h('div', { class: 'dict-head' },
       h('div', { class: 'dict-head-text' },
         h('div', { class: 'dw-word' }, w.word, say(w.word)),
-        tr && h('div', { class: 'dw-trans' }, nat(tr, lang)))));
+        tr && h('div', { class: 'dw-trans' }, tr))));
   if ((w.parts || []).length >= 2) {
     add(card, h('div', { class: 'wc-morphs' },
       ...w.parts.map((pt) => myWordMorphChip(pt, w.word, lang))));

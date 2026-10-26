@@ -913,3 +913,40 @@ ruby rt { line-height: 1.15; color: var(--muted); font-weight: 400;
 .mo-gloss .nat, .ml-gloss .nat, .mbank-native .nat { line-height: 2.4; }
 .mo-gloss .nat.pinyin rt, .ml-gloss .nat.pinyin rt, .mbank-native .nat.pinyin rt { font-size: .55em; }
 .mo-gloss .nat.bopo rt, .ml-gloss .nat.bopo rt, .mbank-native .nat.bopo rt { font-size: .6em; }
+
+/* --- showing several languages at once (teacher display) ---------------- */
+/* The add/remove control, sitting beside the normal language picker. */
+.lang-extra { display: inline-flex; flex-wrap: wrap; align-items: center; gap: 6px; }
+.lang-chip { font: inherit; font-size: .8rem; line-height: 1; cursor: pointer;
+  padding: 6px 8px 6px 10px; border-radius: 999px; white-space: nowrap;
+  border: 1px solid var(--brand); background: color-mix(in srgb, var(--brand) 12%, var(--surface));
+  color: var(--ink); display: inline-flex; align-items: center; gap: 6px; }
+.lang-chip:hover { background: color-mix(in srgb, var(--brand) 22%, var(--surface)); }
+.lang-x { font-weight: 700; opacity: .55; }
+.lang-chip:hover .lang-x { opacity: 1; }
+.lang-select.lang-add { max-width: 15em; }
+
+/* A stack of translations, one line per language, each with a small tag so a
+   class can see at a glance which line is theirs. Only ever rendered when a
+   second language has been added — with one language the markup is unchanged. */
+.tr-stack { display: flex; flex-direction: column; gap: 2px; align-items: inherit; }
+.tr-one { display: flex; align-items: baseline; gap: 6px; }
+.tr-tag { flex: 0 0 auto; font-style: normal; font-size: .62rem; font-weight: 700;
+  letter-spacing: .02em; text-transform: none; opacity: .62; white-space: nowrap;
+  min-width: 4.2em; }
+.tr-text { min-width: 0; }
+/* In the right-aligned word-list column the tag reads better leading the line. */
+.wr-trans .tr-stack { align-items: flex-end; }
+.wr-trans .tr-one { justify-content: flex-end; }
+/* Inside a morpheme gloss the stack is already small italic text; keep the
+   lines tight and let the tag shrink so a bank row doesn't balloon. The rule
+   binds each part's translations visually under their own morpheme, so the
+   "+" between parts still reads as the join it is. */
+.ml-gloss .tr-stack, .native-cell .tr-stack { gap: 1px; }
+.ml-gloss .tr-stack { padding-left: .8em; margin: 2px 0 5px;
+  border-left: 2px solid var(--line); }
+.ml-gloss .tr-tag, .native-cell .tr-tag { font-size: .58rem; min-width: 3.6em; }
+.native-cell .tr-one { justify-content: flex-start; }
+@media (max-width: 640px) {
+  .tr-tag { min-width: 3.4em; font-size: .58rem; }
+}
