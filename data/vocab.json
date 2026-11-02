@@ -87347,7 +87347,26 @@
            "surface": "shop",
            "type": "root",
            "meaning": "stall/booth",
-           "translations": {}
+           "translations": {
+            "zh-Hans": "摊位",
+            "zh-Hant": "攤位",
+            "ja": "屋台",
+            "ko": "가판대",
+            "vi": "quầy hàng",
+            "ar": "كشك",
+            "fa": "غرفه",
+            "ur": "ٹھیلا",
+            "am": "ድንኳን",
+            "ml": "സ്റ്റാൾ",
+            "ta": "கடை",
+            "tl": "puwesto",
+            "ps": "دوکان",
+            "ro": "tarabă",
+            "ru": "киоск",
+            "fr": "étal",
+            "hi": "स्टॉल",
+            "es": "puesto"
+           }
           },
           {
            "surface": "ing",
@@ -87462,7 +87481,26 @@
            "surface": "shop",
            "type": "root",
            "meaning": "stall/booth",
-           "translations": {}
+           "translations": {
+            "zh-Hans": "摊位",
+            "zh-Hant": "攤位",
+            "ja": "屋台",
+            "ko": "가판대",
+            "vi": "quầy hàng",
+            "ar": "كشك",
+            "fa": "غرفه",
+            "ur": "ٹھیلا",
+            "am": "ድንኳን",
+            "ml": "സ്റ്റാൾ",
+            "ta": "கடை",
+            "tl": "puwesto",
+            "ps": "دوکان",
+            "ro": "tarabă",
+            "ru": "киоск",
+            "fr": "étal",
+            "hi": "स्टॉल",
+            "es": "puesto"
+           }
           }
          ],
          "root": "tail",
@@ -147267,7 +147305,26 @@
            "surface": "citi",
            "type": "root",
            "meaning": "city",
-           "translations": {}
+           "translations": {
+            "zh-Hans": "城市",
+            "zh-Hant": "城市",
+            "ja": "都市",
+            "ko": "도시",
+            "vi": "thành phố",
+            "ar": "مدينة",
+            "fa": "شهر",
+            "ur": "شہر",
+            "am": "ከተማ",
+            "ml": "നഗരം",
+            "ta": "நகரம்",
+            "tl": "lungsod",
+            "ps": "ښار",
+            "ro": "oraș",
+            "ru": "город",
+            "fr": "ville",
+            "hi": "शहर",
+            "es": "ciudad"
+           }
           },
           {
            "surface": "ship",
@@ -191515,7 +191572,26 @@
            "surface": "side",
            "type": "root",
            "meaning": "side",
-           "translations": {}
+           "translations": {
+            "zh-Hans": "边",
+            "zh-Hant": "邊",
+            "ja": "側",
+            "ko": "옆",
+            "vi": "bên",
+            "ar": "جانب",
+            "fa": "سو",
+            "ur": "طرف",
+            "am": "ጎን",
+            "ml": "വശം",
+            "ta": "பக்கம்",
+            "tl": "gilid",
+            "ps": "څنګ",
+            "ro": "parte",
+            "ru": "сторона",
+            "fr": "côté",
+            "hi": "ओर",
+            "es": "lado"
+           }
           }
          ],
          "root": "side",
@@ -273082,7 +273158,26 @@
            "surface": "ory",
            "type": "suffix",
            "meaning": "a place for",
-           "translations": {}
+           "translations": {
+            "zh-Hans": "用于……的地方",
+            "zh-Hant": "用於……的地方",
+            "ja": "〜する場所",
+            "ko": "~하는 장소",
+            "vi": "nơi dùng để",
+            "ar": "مكان لـ",
+            "fa": "جایی برای",
+            "ur": "کے لیے جگہ",
+            "am": "ለ…የሚሆን ቦታ",
+            "ml": "…ന് വേണ്ടിയുള്ള സ്ഥലം",
+            "ta": "…க்கான இடம்",
+            "tl": "lugar para sa",
+            "ps": "د…ځای",
+            "ro": "loc pentru",
+            "ru": "место для",
+            "fr": "lieu pour",
+            "hi": "के लिए स्थान",
+            "es": "lugar para"
+           }
           }
          ],
          "root": "rect",
@@ -296309,7 +296404,26 @@
            "surface": "chain",
            "type": "root",
            "meaning": "linked rings",
-           "translations": {}
+           "translations": {
+            "zh-Hans": "相连的环",
+            "zh-Hant": "相連的環",
+            "ja": "つながった輪",
+            "ko": "연결된 고리",
+            "vi": "các vòng nối liền",
+            "ar": "حلقات متصلة",
+            "fa": "حلقه‌های به‌هم‌پیوسته",
+            "ur": "جڑے ہوئے چھلے",
+            "am": "የተያያዙ ቀለበቶች",
+            "ml": "ബന്ധിപ്പിച്ച വളയങ്ങൾ",
+            "ta": "இணைக்கப்பட்ட வளையங்கள்",
+            "tl": "magkakabit na singsing",
+            "ps": "نښلول شوې کړۍ",
+            "ro": "inele legate",
+            "ru": "соединённые кольца",
+            "fr": "anneaux liés",
+            "hi": "जुड़े हुए छल्ले",
+            "es": "anillos enlazados"
+           }
           }
          ],
          "root": "cross",
@@ -306761,7 +306875,26 @@
            "surface": "side",
            "type": "root",
            "meaning": "side",
-           "translations": {}
+           "translations": {
+            "zh-Hans": "边",
+            "zh-Hant": "邊",
+            "ja": "側",
+            "ko": "옆",
+            "vi": "bên",
+            "ar": "جانب",
+            "fa": "سو",
+            "ur": "طرف",
+            "am": "ጎን",
+            "ml": "വശം",
+            "ta": "பக்கம்",
+            "tl": "gilid",
+            "ps": "څنګ",
+            "ro": "parte",
+            "ru": "сторона",
+            "fr": "côté",
+            "hi": "ओर",
+            "es": "lado"
+           }
           },
           {
            "surface": "er",
@@ -306924,7 +307057,26 @@
            "surface": "pover",
            "type": "root",
            "meaning": "poor",
-           "translations": {}
+           "translations": {
+            "zh-Hans": "贫穷",
+            "zh-Hant": "貧窮",
+            "ja": "貧しい",
+            "ko": "가난한",
+            "vi": "nghèo",
+            "ar": "فقير",
+            "fa": "فقیر",
+            "ur": "غریب",
+            "am": "ድሃ",
+            "ml": "ദരിദ്രൻ",
+            "ta": "ஏழை",
+            "tl": "mahirap",
+            "ps": "غریب",
+            "ro": "sărac",
+            "ru": "бедный",
+            "fr": "pauvre",
+            "hi": "गरीब",
+            "es": "pobre"
+           }
           },
           {
            "surface": "ty",
@@ -320964,7 +321116,26 @@
            "surface": "sert",
            "type": "root",
            "meaning": "join together",
-           "translations": {}
+           "translations": {
+            "zh-Hans": "连接在一起",
+            "zh-Hant": "連接在一起",
+            "ja": "つなぎ合わせる",
+            "ko": "함께 연결하다",
+            "vi": "nối lại với nhau",
+            "ar": "ربط معًا",
+            "fa": "به هم پیوستن",
+            "ur": "آپس میں جوڑنا",
+            "am": "ማያያዝ",
+            "ml": "ഒരുമിച്ച് ചേർക്കുക",
+            "ta": "ஒன்றாக இணைத்தல்",
+            "tl": "pagdugtungin",
+            "ps": "یو ځای کول",
+            "ro": "a uni",
+            "ru": "соединять",
+            "fr": "joindre",
+            "hi": "जोड़ना",
+            "es": "unir"
+           }
           },
           {
            "surface": "s",
@@ -335883,7 +336054,7 @@
       {
        "id": "cells-organelles",
        "name": "Cells & Organelles",
-       "interactive": false,
+       "interactive": true,
        "words": [
         {
          "word": "cell",
@@ -337244,7 +337415,7 @@
       {
        "id": "genetics",
        "name": "Genetics",
-       "interactive": false,
+       "interactive": true,
        "words": [
         {
          "word": "trait",
@@ -338631,8 +338802,60 @@
         },
         {
          "word": "Punnett square",
-         "parts": [],
-         "root": "",
+         "parts": [
+          {
+           "surface": "Punnett",
+           "type": "root",
+           "meaning": "a scientist's name",
+           "translations": {
+            "zh-Hans": "科学家的名字",
+            "zh-Hant": "科學家的名字",
+            "ja": "科学者の名前",
+            "ko": "과학자의 이름",
+            "vi": "tên một nhà khoa học",
+            "ar": "اسم عالِم",
+            "fa": "نام یک دانشمند",
+            "ur": "ایک سائنس دان کا نام",
+            "am": "የሳይንቲስት ስም",
+            "ml": "ഒരു ശാസ്ത്രജ്ഞന്റെ പേര്",
+            "ta": "ஒரு விஞ்ஞானியின் பெயர்",
+            "tl": "pangalan ng isang siyentipiko",
+            "ps": "د یو ساینسپوه نوم",
+            "ro": "numele unui om de știință",
+            "ru": "имя учёного",
+            "fr": "nom d'un scientifique",
+            "hi": "एक वैज्ञानिक का नाम",
+            "es": "nombre de un científico"
+           }
+          },
+          {
+           "surface": "square",
+           "type": "root",
+           "meaning": "four equal sides",
+           "translations": {
+            "ar": "مربع",
+            "fa": "مربع",
+            "zh-Hans": "平方",
+            "zh-Hant": "平方",
+            "other": "مربع",
+            "vi": "bình phương",
+            "am": "ካሬ",
+            "ml": "ചതുരം",
+            "es": "cuadrado",
+            "fr": "carré",
+            "hi": "वर्ग",
+            "ja": "正方形",
+            "ko": "정사각형",
+            "ps": "مربع",
+            "ro": "pătrat",
+            "ru": "квадрат",
+            "ta": "சதுரம்",
+            "tl": "parisukat",
+            "ur": "مربع"
+           }
+          }
+         ],
+         "root": "Punnett",
          "meaning": "a grid used to work out the possible allele combinations in the offspring of a cross.",
          "example": "Draw a Punnett square to predict the offspring.",
          "translations": {
@@ -339311,7 +339534,7 @@
       {
        "id": "ecology-zoo",
        "name": "Ecology & Zoo",
-       "interactive": false,
+       "interactive": true,
        "words": [
         {
          "word": "ecology",
@@ -341187,6 +341410,31 @@
             "zh-Hans": "……的",
             "zh-Hant": "……的"
            }
+          },
+          {
+           "surface": "level",
+           "type": "root",
+           "meaning": "little balance",
+           "translations": {
+            "zh-Hans": "小平衡",
+            "zh-Hant": "小平衡",
+            "ja": "小さな秤",
+            "ko": "작은 저울",
+            "vi": "cái cân nhỏ",
+            "ar": "ميزان صغير",
+            "fa": "ترازوی کوچک",
+            "ur": "چھوٹا توازن",
+            "am": "ትንሽ ሚዛን",
+            "ml": "ചെറിയ തുലാസ്",
+            "ta": "சிறிய தராசு",
+            "tl": "maliit na timbangan",
+            "ps": "کوچنی انډول",
+            "ro": "mică balanță",
+            "ru": "маленькие весы",
+            "fr": "petite balance",
+            "hi": "छोटा तराज़ू",
+            "es": "pequeña balanza"
+           }
           }
          ],
          "root": "troph",
@@ -341215,8 +341463,59 @@
         },
         {
          "word": "food chain",
-         "parts": [],
-         "root": "",
+         "parts": [
+          {
+           "surface": "food",
+           "type": "root",
+           "meaning": "food",
+           "translations": {
+            "zh-Hans": "食物",
+            "zh-Hant": "食物",
+            "ja": "食べ物",
+            "ko": "음식",
+            "vi": "thức ăn",
+            "ar": "طعام",
+            "fa": "غذا",
+            "ur": "کھانا",
+            "am": "ምግብ",
+            "ml": "ഭക്ഷണം",
+            "ta": "உணவு",
+            "tl": "pagkain",
+            "ps": "خوراک",
+            "ro": "mâncare",
+            "ru": "еда",
+            "fr": "nourriture",
+            "hi": "भोजन",
+            "es": "comida"
+           }
+          },
+          {
+           "surface": "chain",
+           "type": "root",
+           "meaning": "linked rings",
+           "translations": {
+            "zh-Hans": "相连的环",
+            "zh-Hant": "相連的環",
+            "ja": "つながった輪",
+            "ko": "연결된 고리",
+            "vi": "các vòng nối liền",
+            "ar": "حلقات متصلة",
+            "fa": "حلقه‌های به‌هم‌پیوسته",
+            "ur": "جڑے ہوئے چھلے",
+            "am": "የተያያዙ ቀለበቶች",
+            "ml": "ബന്ധിപ്പിച്ച വളയങ്ങൾ",
+            "ta": "இணைக்கப்பட்ட வளையங்கள்",
+            "tl": "magkakabit na singsing",
+            "ps": "نښلول شوې کړۍ",
+            "ro": "inele legate",
+            "ru": "соединённые кольца",
+            "fr": "anneaux liés",
+            "hi": "जुड़े हुए छल्ले",
+            "es": "anillos enlazados"
+           }
+          }
+         ],
+         "root": "food",
          "meaning": "a diagram showing how energy passes from one living thing to the next as food.",
          "example": "Grass, rabbit and fox make a simple food chain.",
          "translations": {
@@ -341242,8 +341541,59 @@
         },
         {
          "word": "food web",
-         "parts": [],
-         "root": "",
+         "parts": [
+          {
+           "surface": "food",
+           "type": "root",
+           "meaning": "food",
+           "translations": {
+            "zh-Hans": "食物",
+            "zh-Hant": "食物",
+            "ja": "食べ物",
+            "ko": "음식",
+            "vi": "thức ăn",
+            "ar": "طعام",
+            "fa": "غذا",
+            "ur": "کھانا",
+            "am": "ምግብ",
+            "ml": "ഭക്ഷണം",
+            "ta": "உணவு",
+            "tl": "pagkain",
+            "ps": "خوراک",
+            "ro": "mâncare",
+            "ru": "еда",
+            "fr": "nourriture",
+            "hi": "भोजन",
+            "es": "comida"
+           }
+          },
+          {
+           "surface": "web",
+           "type": "root",
+           "meaning": "woven thing",
+           "translations": {
+            "zh-Hans": "编织物",
+            "zh-Hant": "編織物",
+            "ja": "織られたもの",
+            "ko": "짜인 것",
+            "vi": "vật được dệt",
+            "ar": "شيء منسوج",
+            "fa": "چیز بافته‌شده",
+            "ur": "بُنی ہوئی چیز",
+            "am": "የተሸመነ ነገር",
+            "ml": "നെയ്തെടുത്ത വസ്തു",
+            "ta": "நெய்யப்பட்ட பொருள்",
+            "tl": "bagay na hinabi",
+            "ps": "اوبدل شوی شی",
+            "ro": "ceva țesut",
+            "ru": "тканое изделие",
+            "fr": "chose tissée",
+            "hi": "बुनी हुई चीज़",
+            "es": "cosa tejida"
+           }
+          }
+         ],
+         "root": "food",
          "meaning": "a network of connected food chains showing all the feeding links in an ecosystem.",
          "example": "Draw a food web for the wetland.",
          "translations": {
@@ -341455,7 +341805,7 @@
       {
        "id": "epidemiology-pandemic-links",
        "name": "Epidemiology / Pandemic Links",
-       "interactive": false,
+       "interactive": true,
        "words": [
         {
          "word": "pandemic",
@@ -342476,6 +342826,56 @@
         {
          "word": "population density",
          "parts": [
+          {
+           "surface": "popul",
+           "type": "root",
+           "meaning": "people",
+           "translations": {
+            "am": "ህዝብ",
+            "ar": "الشعب",
+            "es": "el pueblo",
+            "fa": "مردم",
+            "fr": "le peuple",
+            "hi": "जनता",
+            "ja": "人々",
+            "ko": "민중",
+            "ml": "ജനങ്ങൾ",
+            "ps": "خلک",
+            "ro": "poporul",
+            "ru": "народ",
+            "ta": "மக்கள்",
+            "tl": "ang mamamayan",
+            "ur": "عوام",
+            "vi": "nhân dân",
+            "zh-Hans": "人民",
+            "zh-Hant": "人民"
+           }
+          },
+          {
+           "surface": "ation",
+           "type": "suffix",
+           "meaning": "process of",
+           "translations": {
+            "am": "ሂደት",
+            "ar": "عملية",
+            "es": "proceso de",
+            "fa": "فرآیند",
+            "fr": "processus",
+            "hi": "प्रक्रिया",
+            "ja": "過程",
+            "ko": "과정",
+            "ml": "പ്രക്രിയ",
+            "ps": "پروسه",
+            "ro": "proces",
+            "ru": "процесс",
+            "ta": "செயல்முறை",
+            "tl": "proseso",
+            "ur": "عمل",
+            "vi": "quá trình",
+            "zh-Hans": "过程",
+            "zh-Hant": "過程"
+           }
+          },
           {
            "surface": "dens",
            "type": "root",
@@ -353951,7 +354351,26 @@
            "surface": "tree",
            "type": "root",
            "meaning": "tree",
-           "translations": {}
+           "translations": {
+            "zh-Hans": "树",
+            "zh-Hant": "樹",
+            "ja": "木",
+            "ko": "나무",
+            "vi": "cây",
+            "ar": "شجرة",
+            "fa": "درخت",
+            "ur": "درخت",
+            "am": "ዛፍ",
+            "ml": "മരം",
+            "ta": "மரம்",
+            "tl": "puno",
+            "ps": "ونه",
+            "ro": "copac",
+            "ru": "дерево",
+            "fr": "arbre",
+            "hi": "पेड़",
+            "es": "árbol"
+           }
           }
          ],
          "root": "tree",
@@ -355217,7 +355636,7 @@
       {
        "id": "probability-basics",
        "name": "Probability Basics",
-       "interactive": false,
+       "interactive": true,
        "words": [
         {
          "word": "probability",
@@ -355796,9 +356215,85 @@
          "word": "expected value",
          "parts": [
           {
+           "surface": "ex",
+           "type": "prefix",
+           "meaning": "out",
+           "translations": {
+            "am": "ውጭ",
+            "ar": "خارج",
+            "es": "fuera",
+            "fa": "بیرون",
+            "fr": "hors de",
+            "hi": "बाहर",
+            "ja": "外へ",
+            "ko": "밖으로",
+            "ml": "പുറത്തേക്ക്",
+            "ps": "بهر",
+            "ro": "afară",
+            "ru": "из",
+            "ta": "வெளியே",
+            "tl": "palabas",
+            "ur": "باہر",
+            "vi": "ra",
+            "zh-Hans": "向外",
+            "zh-Hant": "向外",
+            "other": "خارج"
+           }
+          },
+          {
+           "surface": "pect",
+           "type": "root",
+           "meaning": "look",
+           "translations": {
+            "am": "መመልከት",
+            "ar": "نظر / رؤية",
+            "es": "mirar / ver",
+            "fa": "نگاه کردن / دیدن",
+            "fr": "regarder / voir",
+            "hi": "देखना",
+            "ja": "見る",
+            "ko": "보다",
+            "ml": "നോക്കുക/കാണുക",
+            "ps": "کتل/لیدل",
+            "ro": "a privi / a vedea",
+            "ru": "смотреть / видеть",
+            "ta": "பார்/காண்",
+            "tl": "tumingin/makakita",
+            "ur": "دیکھنا",
+            "vi": "nhìn / xem",
+            "zh-Hans": "看/观察",
+            "zh-Hant": "看/觀察"
+           }
+          },
+          {
+           "surface": "ed",
+           "type": "suffix",
+           "meaning": "past",
+           "translations": {
+            "am": "(ያለፈ ጊዜ)",
+            "ar": "(صيغة الماضي)",
+            "es": "(tiempo pasado)",
+            "fa": "(زمان گذشته)",
+            "fr": "(passé)",
+            "hi": "(भूतकाल)",
+            "ja": "(過去形)",
+            "ko": "(과거형)",
+            "ml": "(ഭൂതകാലം)",
+            "ps": "(تېر مهال)",
+            "ro": "(timpul trecut)",
+            "ru": "(прошедшее время)",
+            "ta": "(இறந்த காலம்)",
+            "tl": "(nakaraang panahunan)",
+            "ur": "(ماضی کا صیغہ)",
+            "vi": "(thì quá khứ)",
+            "zh-Hans": "(过去式)",
+            "zh-Hant": "(過去式)"
+           }
+          },
+          {
            "surface": "val",
            "type": "root",
-           "meaning": "strong/worth",
+           "meaning": "value",
            "translations": {
             "am": "ዋጋ",
             "ar": "قيمة",
@@ -356076,6 +356571,82 @@
             "zh-Hans": "……的",
             "zh-Hant": "……的"
            }
+          },
+          {
+           "surface": "prob",
+           "type": "root",
+           "meaning": "provable",
+           "translations": {
+            "am": "የሚረጋገጥ",
+            "ar": "قابل للإثبات",
+            "es": "demostrable",
+            "fa": "قابل اثبات",
+            "fr": "prouvable",
+            "hi": "सिद्ध करने योग्य",
+            "ja": "証明可能な",
+            "ko": "증명 가능한",
+            "ml": "തെളിയിക്കാവുന്ന",
+            "ps": "د ثبوت وړ",
+            "ro": "demonstrabil",
+            "ru": "доказуемый",
+            "ta": "நிரூபிக்கக்கூடிய",
+            "tl": "mapapatunayan",
+            "ur": "قابل ثبوت",
+            "vi": "có thể chứng minh",
+            "zh-Hans": "可证明的",
+            "zh-Hant": "可證明的"
+           }
+          },
+          {
+           "surface": "abil",
+           "type": "suffix",
+           "meaning": "ability",
+           "translations": {
+            "fa": "توانایی",
+            "am": "ችሎታ",
+            "ar": "قدرة",
+            "es": "habilidad",
+            "fr": "capacité",
+            "hi": "क्षमता",
+            "ja": "能力",
+            "ko": "능력",
+            "ml": "കഴിവ്",
+            "ps": "وړتیا",
+            "ro": "capacitate",
+            "ru": "способность",
+            "ta": "திறன்",
+            "tl": "kakayahan",
+            "ur": "صلاحیت",
+            "vi": "khả năng",
+            "zh-Hans": "能力",
+            "zh-Hant": "能力"
+           }
+          },
+          {
+           "surface": "ity",
+           "type": "suffix",
+           "meaning": "state of",
+           "translations": {
+            "am": "ሁኔታ",
+            "ar": "حالة",
+            "es": "estado de",
+            "fa": "حالت",
+            "fr": "état de",
+            "hi": "अवस्था",
+            "ja": "状態",
+            "ko": "상태",
+            "ml": "അവസ്ഥ",
+            "ps": "حالت",
+            "ro": "stare de",
+            "ru": "состояние",
+            "ta": "நிலை",
+            "tl": "kalagayan",
+            "ur": "حالت",
+            "vi": "trạng thái",
+            "zh-Hans": "…的状态",
+            "zh-Hant": "…的狀態",
+            "other": "حالت"
+           }
           }
          ],
          "root": "theoret",
@@ -356204,6 +356775,82 @@
             "vi": "thuộc về",
             "zh-Hans": "……的",
             "zh-Hant": "……的"
+           }
+          },
+          {
+           "surface": "prob",
+           "type": "root",
+           "meaning": "provable",
+           "translations": {
+            "am": "የሚረጋገጥ",
+            "ar": "قابل للإثبات",
+            "es": "demostrable",
+            "fa": "قابل اثبات",
+            "fr": "prouvable",
+            "hi": "सिद्ध करने योग्य",
+            "ja": "証明可能な",
+            "ko": "증명 가능한",
+            "ml": "തെളിയിക്കാവുന്ന",
+            "ps": "د ثبوت وړ",
+            "ro": "demonstrabil",
+            "ru": "доказуемый",
+            "ta": "நிரூபிக்கக்கூடிய",
+            "tl": "mapapatunayan",
+            "ur": "قابل ثبوت",
+            "vi": "có thể chứng minh",
+            "zh-Hans": "可证明的",
+            "zh-Hant": "可證明的"
+           }
+          },
+          {
+           "surface": "abil",
+           "type": "suffix",
+           "meaning": "ability",
+           "translations": {
+            "fa": "توانایی",
+            "am": "ችሎታ",
+            "ar": "قدرة",
+            "es": "habilidad",
+            "fr": "capacité",
+            "hi": "क्षमता",
+            "ja": "能力",
+            "ko": "능력",
+            "ml": "കഴിവ്",
+            "ps": "وړتیا",
+            "ro": "capacitate",
+            "ru": "способность",
+            "ta": "திறன்",
+            "tl": "kakayahan",
+            "ur": "صلاحیت",
+            "vi": "khả năng",
+            "zh-Hans": "能力",
+            "zh-Hant": "能力"
+           }
+          },
+          {
+           "surface": "ity",
+           "type": "suffix",
+           "meaning": "state of",
+           "translations": {
+            "am": "ሁኔታ",
+            "ar": "حالة",
+            "es": "estado de",
+            "fa": "حالت",
+            "fr": "état de",
+            "hi": "अवस्था",
+            "ja": "状態",
+            "ko": "상태",
+            "ml": "അവസ്ഥ",
+            "ps": "حالت",
+            "ro": "stare de",
+            "ru": "состояние",
+            "ta": "நிலை",
+            "tl": "kalagayan",
+            "ur": "حالت",
+            "vi": "trạng thái",
+            "zh-Hans": "…的状态",
+            "zh-Hant": "…的狀態",
+            "other": "حالت"
            }
           }
          ],
@@ -357589,6 +358236,82 @@
             "zh-Hant": "性質",
             "other": "بودن"
            }
+          },
+          {
+           "surface": "e",
+           "type": "prefix",
+           "meaning": "out",
+           "translations": {
+            "am": "ውጭ",
+            "ar": "خارج",
+            "es": "fuera",
+            "fa": "بیرون",
+            "fr": "hors de",
+            "hi": "बाहर",
+            "ja": "外へ",
+            "ko": "밖으로",
+            "ml": "പുറത്തേക്ക്",
+            "ps": "بهر",
+            "ro": "afară",
+            "ru": "из",
+            "ta": "வெளியே",
+            "tl": "palabas",
+            "ur": "باہر",
+            "vi": "ra",
+            "zh-Hans": "向外",
+            "zh-Hant": "向外",
+            "other": "خارج"
+           }
+          },
+          {
+           "surface": "vent",
+           "type": "root",
+           "meaning": "come",
+           "translations": {
+            "am": "መምጣት",
+            "ar": "مجيء",
+            "es": "venir",
+            "fa": "آمدن",
+            "fr": "venir",
+            "hi": "आना",
+            "ja": "来る",
+            "ko": "오다",
+            "ml": "വരിക",
+            "ps": "راتلل",
+            "ro": "a veni",
+            "ru": "приходить",
+            "ta": "வருதல்",
+            "tl": "dumating",
+            "ur": "آنا",
+            "vi": "đến",
+            "zh-Hans": "来",
+            "zh-Hant": "來"
+           }
+          },
+          {
+           "surface": "s",
+           "type": "suffix",
+           "meaning": "plural",
+           "translations": {
+            "fa": "جمع",
+            "am": "ብዙ ቁጥር",
+            "ar": "جمع",
+            "es": "plural",
+            "fr": "pluriel",
+            "hi": "बहुवचन",
+            "ja": "複数",
+            "ko": "복수",
+            "ml": "ബഹുവചനം",
+            "ps": "جمع",
+            "ro": "plural",
+            "ru": "множественное число",
+            "ta": "பன்மை",
+            "tl": "maramihan",
+            "ur": "جمع",
+            "vi": "số nhiều",
+            "zh-Hans": "复数",
+            "zh-Hant": "複數"
+           }
           }
          ],
          "root": "pend",
@@ -357693,6 +358416,82 @@
             "zh-Hant": "性質",
             "other": "بودن"
            }
+          },
+          {
+           "surface": "e",
+           "type": "prefix",
+           "meaning": "out",
+           "translations": {
+            "am": "ውጭ",
+            "ar": "خارج",
+            "es": "fuera",
+            "fa": "بیرون",
+            "fr": "hors de",
+            "hi": "बाहर",
+            "ja": "外へ",
+            "ko": "밖으로",
+            "ml": "പുറത്തേക്ക്",
+            "ps": "بهر",
+            "ro": "afară",
+            "ru": "из",
+            "ta": "வெளியே",
+            "tl": "palabas",
+            "ur": "باہر",
+            "vi": "ra",
+            "zh-Hans": "向外",
+            "zh-Hant": "向外",
+            "other": "خارج"
+           }
+          },
+          {
+           "surface": "vent",
+           "type": "root",
+           "meaning": "come",
+           "translations": {
+            "am": "መምጣት",
+            "ar": "مجيء",
+            "es": "venir",
+            "fa": "آمدن",
+            "fr": "venir",
+            "hi": "आना",
+            "ja": "来る",
+            "ko": "오다",
+            "ml": "വരിക",
+            "ps": "راتلل",
+            "ro": "a veni",
+            "ru": "приходить",
+            "ta": "வருதல்",
+            "tl": "dumating",
+            "ur": "آنا",
+            "vi": "đến",
+            "zh-Hans": "来",
+            "zh-Hant": "來"
+           }
+          },
+          {
+           "surface": "s",
+           "type": "suffix",
+           "meaning": "plural",
+           "translations": {
+            "fa": "جمع",
+            "am": "ብዙ ቁጥር",
+            "ar": "جمع",
+            "es": "plural",
+            "fr": "pluriel",
+            "hi": "बहुवचन",
+            "ja": "複数",
+            "ko": "복수",
+            "ml": "ബഹുവചനം",
+            "ps": "جمع",
+            "ro": "plural",
+            "ru": "множественное число",
+            "ta": "பன்மை",
+            "tl": "maramihan",
+            "ur": "جمع",
+            "vi": "số nhiều",
+            "zh-Hans": "复数",
+            "zh-Hant": "複數"
+           }
           }
          ],
          "root": "pend",
@@ -357723,6 +358522,31 @@
          "word": "with replacement",
          "parts": [
           {
+           "surface": "with",
+           "type": "root",
+           "meaning": "along with",
+           "translations": {
+            "zh-Hans": "与……一起",
+            "zh-Hant": "與……一起",
+            "ja": "と一緒に",
+            "ko": "~와 함께",
+            "vi": "cùng với",
+            "ar": "مع",
+            "fa": "همراه با",
+            "ur": "کے ساتھ",
+            "am": "ጋር",
+            "ml": "കൂടെ",
+            "ta": "உடன்",
+            "tl": "kasama ng",
+            "ps": "سره",
+            "ro": "împreună cu",
+            "ru": "вместе с",
+            "fr": "avec",
+            "hi": "के साथ",
+            "es": "junto con"
+           }
+          },
+          {
            "surface": "re",
            "type": "prefix",
            "meaning": "again",
@@ -357752,24 +358576,24 @@
            "type": "root",
            "meaning": "position",
            "translations": {
-            "am": "በቦታው ማስቀመጥ",
-            "ar": "وضع في مكان",
-            "es": "colocar en posición",
-            "fa": "در جای خود قرار دادن",
-            "fr": "mettre en position",
-            "hi": "स्थान पर रखना",
-            "ja": "位置に置く",
-            "ko": "위치에 놓다",
-            "ml": "സ്ഥാനത്ത് വയ്ക്കുക",
-            "ps": "په ځای کې ایښودل",
-            "ro": "a pune în poziție",
-            "ru": "ставить на место",
-            "ta": "இடத்தில் வைத்தல்",
-            "tl": "ilagay sa posisyon",
-            "ur": "جگہ پر رکھنا",
-            "vi": "đặt vào vị trí",
-            "zh-Hans": "放置到位",
-            "zh-Hant": "放置到位"
+            "am": "ቦታ",
+            "ar": "مكان",
+            "es": "lugar",
+            "fa": "مکان",
+            "fr": "lieu",
+            "hi": "स्थान",
+            "ja": "場所",
+            "ko": "장소",
+            "ml": "സ്ഥലം",
+            "ps": "ځای",
+            "ro": "loc",
+            "ru": "место",
+            "ta": "இடம்",
+            "tl": "lugar",
+            "ur": "جگہ",
+            "vi": "nơi",
+            "zh-Hans": "地方",
+            "zh-Hant": "地方"
            }
           },
           {
@@ -357826,6 +358650,56 @@
          "word": "without replacement",
          "parts": [
           {
+           "surface": "with",
+           "type": "root",
+           "meaning": "along with",
+           "translations": {
+            "zh-Hans": "与……一起",
+            "zh-Hant": "與……一起",
+            "ja": "と一緒に",
+            "ko": "~와 함께",
+            "vi": "cùng với",
+            "ar": "مع",
+            "fa": "همراه با",
+            "ur": "کے ساتھ",
+            "am": "ጋር",
+            "ml": "കൂടെ",
+            "ta": "உடன்",
+            "tl": "kasama ng",
+            "ps": "سره",
+            "ro": "împreună cu",
+            "ru": "вместе с",
+            "fr": "avec",
+            "hi": "के साथ",
+            "es": "junto con"
+           }
+          },
+          {
+           "surface": "out",
+           "type": "prefix",
+           "meaning": "outside",
+           "translations": {
+            "am": "ውጭ",
+            "ar": "خارج",
+            "es": "afuera",
+            "fa": "بیرون",
+            "fr": "dehors",
+            "hi": "बाहर",
+            "ja": "外",
+            "ko": "밖",
+            "ml": "പുറത്ത്",
+            "ps": "بهر",
+            "ro": "afară",
+            "ru": "снаружи",
+            "ta": "வெளியே",
+            "tl": "labas",
+            "ur": "باہر",
+            "vi": "bên ngoài",
+            "zh-Hans": "外",
+            "zh-Hant": "外"
+           }
+          },
+          {
            "surface": "re",
            "type": "prefix",
            "meaning": "again",
@@ -357855,24 +358729,24 @@
            "type": "root",
            "meaning": "position",
            "translations": {
-            "am": "በቦታው ማስቀመጥ",
-            "ar": "وضع في مكان",
-            "es": "colocar en posición",
-            "fa": "در جای خود قرار دادن",
-            "fr": "mettre en position",
-            "hi": "स्थान पर रखना",
-            "ja": "位置に置く",
-            "ko": "위치에 놓다",
-            "ml": "സ്ഥാനത്ത് വയ്ക്കുക",
-            "ps": "په ځای کې ایښودل",
-            "ro": "a pune în poziție",
-            "ru": "ставить на место",
-            "ta": "இடத்தில் வைத்தல்",
-            "tl": "ilagay sa posisyon",
-            "ur": "جگہ پر رکھنا",
-            "vi": "đặt vào vị trí",
-            "zh-Hans": "放置到位",
-            "zh-Hant": "放置到位"
+            "am": "ቦታ",
+            "ar": "مكان",
+            "es": "lugar",
+            "fa": "مکان",
+            "fr": "lieu",
+            "hi": "स्थान",
+            "ja": "場所",
+            "ko": "장소",
+            "ml": "സ്ഥലം",
+            "ps": "ځای",
+            "ro": "loc",
+            "ru": "место",
+            "ta": "இடம்",
+            "tl": "lugar",
+            "ur": "جگہ",
+            "vi": "nơi",
+            "zh-Hans": "地方",
+            "zh-Hant": "地方"
            }
           },
           {
@@ -357931,11 +358805,36 @@
       {
        "id": "probability-representations",
        "name": "Probability Representations",
-       "interactive": false,
+       "interactive": true,
        "words": [
         {
          "word": "tree diagram",
          "parts": [
+          {
+           "surface": "tree",
+           "type": "root",
+           "meaning": "tree",
+           "translations": {
+            "zh-Hans": "树",
+            "zh-Hant": "樹",
+            "ja": "木",
+            "ko": "나무",
+            "vi": "cây",
+            "ar": "شجرة",
+            "fa": "درخت",
+            "ur": "درخت",
+            "am": "ዛፍ",
+            "ml": "മരം",
+            "ta": "மரம்",
+            "tl": "puno",
+            "ps": "ونه",
+            "ro": "copac",
+            "ru": "дерево",
+            "fr": "arbre",
+            "hi": "पेड़",
+            "es": "árbol"
+           }
+          },
           {
            "surface": "dia",
            "type": "prefix",
@@ -358015,6 +358914,56 @@
          "word": "two-way table",
          "parts": [
           {
+           "surface": "two",
+           "type": "root",
+           "meaning": "two",
+           "translations": {
+            "zh-Hans": "二",
+            "zh-Hant": "二",
+            "ja": "二つ",
+            "ko": "둘",
+            "vi": "hai",
+            "ar": "اثنان",
+            "fa": "دو",
+            "ur": "دو",
+            "am": "ሁለት",
+            "ml": "രണ്ട്",
+            "ta": "இரண்டு",
+            "tl": "dalawa",
+            "ps": "دوه",
+            "ro": "doi",
+            "ru": "два",
+            "fr": "deux",
+            "hi": "दो",
+            "es": "dos"
+           }
+          },
+          {
+           "surface": "way",
+           "type": "root",
+           "meaning": "path",
+           "translations": {
+            "zh-Hans": "路",
+            "zh-Hant": "路",
+            "ja": "道",
+            "ko": "길",
+            "vi": "đường đi",
+            "ar": "طريق",
+            "fa": "راه",
+            "ur": "راستہ",
+            "am": "መንገድ",
+            "ml": "വഴി",
+            "ta": "வழி",
+            "tl": "daan",
+            "ps": "لار",
+            "ro": "drum",
+            "ru": "путь",
+            "fr": "chemin",
+            "hi": "रास्ता",
+            "es": "camino"
+           }
+          },
+          {
            "surface": "tabl",
            "type": "root",
            "meaning": "flat surface/board",
@@ -358067,6 +359016,31 @@
         {
          "word": "Venn diagram",
          "parts": [
+          {
+           "surface": "Venn",
+           "type": "root",
+           "meaning": "a mathematician's name",
+           "translations": {
+            "zh-Hans": "数学家的名字",
+            "zh-Hant": "數學家的名字",
+            "ja": "数学者の名前",
+            "ko": "수학자의 이름",
+            "vi": "tên một nhà toán học",
+            "ar": "اسم عالِم رياضيات",
+            "fa": "نام یک ریاضی‌دان",
+            "ur": "ایک ریاضی دان کا نام",
+            "am": "የሒሳብ ሊቅ ስም",
+            "ml": "ഒരു ഗണിതശാസ്ത്രജ്ഞന്റെ പേര്",
+            "ta": "ஒரு கணிதவியலாளரின் பெயர்",
+            "tl": "pangalan ng isang matematiko",
+            "ps": "د یو ریاضي پوه نوم",
+            "ro": "numele unui matematician",
+            "ru": "имя математика",
+            "fr": "nom d'un mathématicien",
+            "hi": "एक गणितज्ञ का नाम",
+            "es": "nombre de un matemático"
+           }
+          },
           {
            "surface": "dia",
            "type": "prefix",
@@ -358249,32 +359223,57 @@
          "word": "union",
          "parts": [
           {
-           "surface": "uni",
-           "type": "prefix",
+           "surface": "un",
+           "type": "root",
            "meaning": "one",
            "translations": {
-            "am": "አንድ",
+            "zh-Hans": "一",
+            "zh-Hant": "一",
+            "ja": "一",
+            "ko": "하나",
+            "vi": "một",
             "ar": "واحد",
-            "es": "uno",
             "fa": "یک",
-            "fr": "un",
-            "hi": "एक",
-            "ja": "単一",
-            "ko": "단일",
+            "ur": "ایک",
+            "am": "አንድ",
             "ml": "ഒന്ന്",
+            "ta": "ஒன்று",
+            "tl": "isa",
             "ps": "یو",
             "ro": "unu",
             "ru": "один",
-            "ta": "ஒன்று",
-            "tl": "isa",
-            "ur": "ایک",
-            "vi": "một",
-            "zh-Hans": "单一",
-            "zh-Hant": "單一"
+            "fr": "un",
+            "hi": "एक",
+            "es": "uno"
+           }
+          },
+          {
+           "surface": "ion",
+           "type": "suffix",
+           "meaning": "act/process",
+           "translations": {
+            "fa": "فرایند/عمل",
+            "am": "ሂደት/ድርጊት",
+            "ar": "عملية/فعل",
+            "es": "proceso/acción",
+            "fr": "processus/action",
+            "hi": "प्रक्रिया/क्रिया",
+            "ja": "過程/作用",
+            "ko": "과정/작용",
+            "ml": "പ്രക്രിയ/പ്രവർത്തനം",
+            "ps": "بهیر/کړنه",
+            "ro": "proces/acțiune",
+            "ru": "процесс/действие",
+            "ta": "செயல்முறை/செயல்",
+            "tl": "proseso/kilos",
+            "ur": "عمل/فعل",
+            "vi": "quá trình/hành động",
+            "zh-Hans": "过程/动作",
+            "zh-Hant": "過程/動作"
            }
           }
          ],
-         "root": "",
+         "root": "un",
          "meaning": "all the outcomes that are in one set, the other set, or both",
          "example": "The union of A and B includes everything in either circle.",
          "translations": {
@@ -358713,6 +359712,31 @@
             "zh-Hans": "过程/动作",
             "zh-Hant": "過程/動作"
            }
+          },
+          {
+           "surface": "rule",
+           "type": "root",
+           "meaning": "straight stick, guide",
+           "translations": {
+            "zh-Hans": "直尺；准则",
+            "zh-Hant": "直尺；準則",
+            "ja": "まっすぐな棒・基準",
+            "ko": "곧은 막대, 기준",
+            "vi": "thước thẳng, chuẩn mực",
+            "ar": "عصا مستقيمة / قاعدة",
+            "fa": "چوب راست / قاعده",
+            "ur": "سیدھی چھڑی / اصول",
+            "am": "ቀጥ ያለ በትር / መመሪያ",
+            "ml": "നേരായ വടി / മാനദണ്ഡം",
+            "ta": "நேரான கோல் / விதி",
+            "tl": "tuwid na patpat / panuntunan",
+            "ps": "سیده امسا / معیار",
+            "ro": "riglă / normă",
+            "ru": "прямая палка / правило",
+            "fr": "règle droite / norme",
+            "hi": "सीधी छड़ी / नियम",
+            "es": "vara recta / norma"
+           }
           }
          ],
          "root": "plic",
@@ -358816,6 +359840,31 @@
             "vi": "quá trình/hành động",
             "zh-Hans": "过程/动作",
             "zh-Hant": "過程/動作"
+           }
+          },
+          {
+           "surface": "rule",
+           "type": "root",
+           "meaning": "straight stick, guide",
+           "translations": {
+            "zh-Hans": "直尺；准则",
+            "zh-Hant": "直尺；準則",
+            "ja": "まっすぐな棒・基準",
+            "ko": "곧은 막대, 기준",
+            "vi": "thước thẳng, chuẩn mực",
+            "ar": "عصا مستقيمة / قاعدة",
+            "fa": "چوب راست / قاعده",
+            "ur": "سیدھی چھڑی / اصول",
+            "am": "ቀጥ ያለ በትር / መመሪያ",
+            "ml": "നേരായ വടി / മാനദണ്ഡം",
+            "ta": "நேரான கோல் / விதி",
+            "tl": "tuwid na patpat / panuntunan",
+            "ps": "سیده امسا / معیار",
+            "ro": "riglă / normă",
+            "ru": "прямая палка / правило",
+            "fr": "règle droite / norme",
+            "hi": "सीधी छड़ी / नियम",
+            "es": "vara recta / norma"
            }
           }
          ],
@@ -359000,6 +360049,56 @@
          "word": "Pascal’s triangle",
          "parts": [
           {
+           "surface": "Pascal",
+           "type": "root",
+           "meaning": "a mathematician's name",
+           "translations": {
+            "zh-Hans": "数学家的名字",
+            "zh-Hant": "數學家的名字",
+            "ja": "数学者の名前",
+            "ko": "수학자의 이름",
+            "vi": "tên một nhà toán học",
+            "ar": "اسم عالِم رياضيات",
+            "fa": "نام یک ریاضی‌دان",
+            "ur": "ایک ریاضی دان کا نام",
+            "am": "የሒሳብ ሊቅ ስም",
+            "ml": "ഒരു ഗണിതശാസ്ത്രജ്ഞന്റെ പേര്",
+            "ta": "ஒரு கணிதவியலாளரின் பெயர்",
+            "tl": "pangalan ng isang matematiko",
+            "ps": "د یو ریاضي پوه نوم",
+            "ro": "numele unui matematician",
+            "ru": "имя математика",
+            "fr": "nom d'un mathématicien",
+            "hi": "एक गणितज्ञ का नाम",
+            "es": "nombre de un matemático"
+           }
+          },
+          {
+           "surface": "s",
+           "type": "suffix",
+           "meaning": "belongs to",
+           "translations": {
+            "zh-Hans": "属于",
+            "zh-Hant": "屬於",
+            "ja": "〜の",
+            "ko": "~의",
+            "vi": "của",
+            "ar": "يخص",
+            "fa": "متعلق به",
+            "ur": "کا",
+            "am": "የ…የሆነ",
+            "ml": "…ന്റെ",
+            "ta": "…இன்",
+            "tl": "pag-aari ng",
+            "ps": "د…دی",
+            "ro": "al, a lui",
+            "ru": "принадлежит",
+            "fr": "appartient à",
+            "hi": "का",
+            "es": "de"
+           }
+          },
+          {
            "surface": "tri",
            "type": "prefix",
            "meaning": "three",
@@ -359080,7 +360179,7 @@
       {
        "id": "statistics-data",
        "name": "Statistics & Data",
-       "interactive": false,
+       "interactive": true,
        "words": [
         {
          "word": "data",
@@ -360231,6 +361330,31 @@
          "word": "bell curve",
          "parts": [
           {
+           "surface": "bell",
+           "type": "root",
+           "meaning": "bell",
+           "translations": {
+            "zh-Hans": "钟",
+            "zh-Hant": "鐘",
+            "ja": "鐘",
+            "ko": "종",
+            "vi": "chuông",
+            "ar": "جرس",
+            "fa": "زنگ",
+            "ur": "گھنٹی",
+            "am": "ደወል",
+            "ml": "മണി",
+            "ta": "மணி",
+            "tl": "kampana",
+            "ps": "زنګ",
+            "ro": "clopot",
+            "ru": "колокол",
+            "fr": "cloche",
+            "hi": "घंटी",
+            "es": "campana"
+           }
+          },
+          {
            "surface": "curve",
            "type": "root",
            "meaning": "bent",
@@ -361006,6 +362130,31 @@
          "word": "box plot",
          "parts": [
           {
+           "surface": "box",
+           "type": "root",
+           "meaning": "box",
+           "translations": {
+            "zh-Hans": "盒子",
+            "zh-Hant": "盒子",
+            "ja": "箱",
+            "ko": "상자",
+            "vi": "hộp",
+            "ar": "صندوق",
+            "fa": "جعبه",
+            "ur": "ڈبہ",
+            "am": "ሳጥን",
+            "ml": "പെട്ടി",
+            "ta": "பெட்டி",
+            "tl": "kahon",
+            "ps": "بکس",
+            "ro": "cutie",
+            "ru": "коробка",
+            "fr": "boîte",
+            "hi": "डिब्बा",
+            "es": "caja"
+           }
+          },
+          {
            "surface": "plot",
            "type": "root",
            "meaning": "mark out",
@@ -361137,6 +362286,31 @@
          "word": "dot plot",
          "parts": [
           {
+           "surface": "dot",
+           "type": "root",
+           "meaning": "small spot",
+           "translations": {
+            "zh-Hans": "小点",
+            "zh-Hant": "小點",
+            "ja": "小さな点",
+            "ko": "작은 점",
+            "vi": "chấm nhỏ",
+            "ar": "نقطة صغيرة",
+            "fa": "نقطه کوچک",
+            "ur": "چھوٹا نقطہ",
+            "am": "ትንሽ ነጥብ",
+            "ml": "ചെറിയ പൊട്ട്",
+            "ta": "சிறிய புள்ளி",
+            "tl": "maliit na tuldok",
+            "ps": "کوچنی نقطه",
+            "ro": "punct mic",
+            "ru": "маленькая точка",
+            "fr": "petit point",
+            "hi": "छोटा बिंदु",
+            "es": "punto pequeño"
+           }
+          },
+          {
            "surface": "plot",
            "type": "root",
            "meaning": "mark out",
@@ -361189,6 +362363,31 @@
         {
          "word": "scatter plot",
          "parts": [
+          {
+           "surface": "scatter",
+           "type": "root",
+           "meaning": "throw about widely",
+           "translations": {
+            "zh-Hans": "散开",
+            "zh-Hant": "散開",
+            "ja": "まき散らす",
+            "ko": "흩뿌리다",
+            "vi": "rải rác",
+            "ar": "يبعثر",
+            "fa": "پراکندن",
+            "ur": "بکھیرنا",
+            "am": "መበተን",
+            "ml": "ചിതറിക്കുക",
+            "ta": "சிதறடித்தல்",
+            "tl": "magkalat",
+            "ps": "شیندل",
+            "ro": "a împrăștia",
+            "ru": "разбрасывать",
+            "fr": "éparpiller",
+            "hi": "बिखेरना",
+            "es": "esparcir"
+           }
+          },
           {
            "surface": "plot",
            "type": "root",
@@ -361655,6 +362854,82 @@
         {
          "word": "expected frequency",
          "parts": [
+          {
+           "surface": "ex",
+           "type": "prefix",
+           "meaning": "out",
+           "translations": {
+            "am": "ውጭ",
+            "ar": "خارج",
+            "es": "fuera",
+            "fa": "بیرون",
+            "fr": "hors de",
+            "hi": "बाहर",
+            "ja": "外へ",
+            "ko": "밖으로",
+            "ml": "പുറത്തേക്ക്",
+            "ps": "بهر",
+            "ro": "afară",
+            "ru": "из",
+            "ta": "வெளியே",
+            "tl": "palabas",
+            "ur": "باہر",
+            "vi": "ra",
+            "zh-Hans": "向外",
+            "zh-Hant": "向外",
+            "other": "خارج"
+           }
+          },
+          {
+           "surface": "pect",
+           "type": "root",
+           "meaning": "look",
+           "translations": {
+            "am": "መመልከት",
+            "ar": "نظر / رؤية",
+            "es": "mirar / ver",
+            "fa": "نگاه کردن / دیدن",
+            "fr": "regarder / voir",
+            "hi": "देखना",
+            "ja": "見る",
+            "ko": "보다",
+            "ml": "നോക്കുക/കാണുക",
+            "ps": "کتل/لیدل",
+            "ro": "a privi / a vedea",
+            "ru": "смотреть / видеть",
+            "ta": "பார்/காண்",
+            "tl": "tumingin/makakita",
+            "ur": "دیکھنا",
+            "vi": "nhìn / xem",
+            "zh-Hans": "看/观察",
+            "zh-Hant": "看/觀察"
+           }
+          },
+          {
+           "surface": "ed",
+           "type": "suffix",
+           "meaning": "past",
+           "translations": {
+            "am": "(ያለፈ ጊዜ)",
+            "ar": "(صيغة الماضي)",
+            "es": "(tiempo pasado)",
+            "fa": "(زمان گذشته)",
+            "fr": "(passé)",
+            "hi": "(भूतकाल)",
+            "ja": "(過去形)",
+            "ko": "(과거형)",
+            "ml": "(ഭൂതകാലം)",
+            "ps": "(تېر مهال)",
+            "ro": "(timpul trecut)",
+            "ru": "(прошедшее время)",
+            "ta": "(இறந்த காலம்)",
+            "tl": "(nakaraang panahunan)",
+            "ur": "(ماضی کا صیغہ)",
+            "vi": "(thì quá khứ)",
+            "zh-Hans": "(过去式)",
+            "zh-Hant": "(過去式)"
+           }
+          },
           {
            "surface": "frequ",
            "type": "root",
@@ -478808,7 +480083,26 @@
            "surface": "ory",
            "type": "suffix",
            "meaning": "a place for",
-           "translations": {}
+           "translations": {
+            "zh-Hans": "用于……的地方",
+            "zh-Hant": "用於……的地方",
+            "ja": "〜する場所",
+            "ko": "~하는 장소",
+            "vi": "nơi dùng để",
+            "ar": "مكان لـ",
+            "fa": "جایی برای",
+            "ur": "کے لیے جگہ",
+            "am": "ለ…የሚሆን ቦታ",
+            "ml": "…ന് വേണ്ടിയുള്ള സ്ഥലം",
+            "ta": "…க்கான இடம்",
+            "tl": "lugar para sa",
+            "ps": "د…ځای",
+            "ro": "loc pentru",
+            "ru": "место для",
+            "fr": "lieu pour",
+            "hi": "के लिए स्थान",
+            "es": "lugar para"
+           }
           }
          ],
          "root": "fact",
@@ -483617,7 +484911,7 @@
       {
        "id": "rise-of-the-factory",
        "name": "Rise of the factory & technology",
-       "interactive": false,
+       "interactive": true,
        "words": [
         {
          "word": "textile production",
@@ -483671,6 +484965,81 @@
             "hi": "संबंधित",
             "es": "relativo a"
            }
+          },
+          {
+           "surface": "pro",
+           "type": "prefix",
+           "meaning": "forward",
+           "translations": {
+            "am": "በፊት / ወደፊት",
+            "ar": "قبل / إلى الأمام",
+            "es": "antes / adelante",
+            "fa": "پیش / جلو",
+            "fr": "avant / en avant",
+            "hi": "पहले / आगे",
+            "ja": "前に / 前方へ",
+            "ko": "이전에 / 앞으로",
+            "ml": "മുമ്പ് / മുന്നോട്ട്",
+            "ps": "مخکې / وړاندې",
+            "ro": "înainte",
+            "ru": "перед / вперёд",
+            "ta": "முன் / முன்னோக்கி",
+            "tl": "bago / pasulong",
+            "ur": "پہلے / آگے",
+            "vi": "trước / về phía trước",
+            "zh-Hans": "在前 / 向前",
+            "zh-Hant": "在前 / 向前"
+           }
+          },
+          {
+           "surface": "duct",
+           "type": "root",
+           "meaning": "lead",
+           "translations": {
+            "fa": "هدایت",
+            "am": "መምራት",
+            "ar": "يقود",
+            "es": "conducir",
+            "fr": "conduire",
+            "hi": "नेतृत्व करना",
+            "ja": "導く",
+            "ko": "이끌다",
+            "ml": "നയിക്കുക",
+            "ps": "رهبري کول",
+            "ro": "conduce",
+            "ru": "вести",
+            "ta": "வழிநடத்துதல்",
+            "tl": "manguna",
+            "ur": "رہنمائی کرنا",
+            "vi": "dẫn",
+            "zh-Hans": "引导",
+            "zh-Hant": "引導"
+           }
+          },
+          {
+           "surface": "ion",
+           "type": "suffix",
+           "meaning": "act/process",
+           "translations": {
+            "fa": "فرایند/عمل",
+            "am": "ሂደት/ድርጊት",
+            "ar": "عملية/فعل",
+            "es": "proceso/acción",
+            "fr": "processus/action",
+            "hi": "प्रक्रिया/क्रिया",
+            "ja": "過程/作用",
+            "ko": "과정/작용",
+            "ml": "പ്രക്രിയ/പ്രവർത്തനം",
+            "ps": "بهیر/کړنه",
+            "ro": "proces/acțiune",
+            "ru": "процесс/действие",
+            "ta": "செயல்முறை/செயல்",
+            "tl": "proseso/kilos",
+            "ur": "عمل/فعل",
+            "vi": "quá trình/hành động",
+            "zh-Hans": "过程/动作",
+            "zh-Hant": "過程/動作"
+           }
           }
          ],
          "root": "textile production",
@@ -483699,7 +485068,58 @@
         },
         {
          "word": "workshop",
-         "parts": [],
+         "parts": [
+          {
+           "surface": "work",
+           "type": "root",
+           "meaning": "work",
+           "translations": {
+            "zh-Hans": "工作",
+            "zh-Hant": "工作",
+            "ja": "働く",
+            "ko": "일하다",
+            "vi": "làm việc",
+            "ar": "عمل",
+            "fa": "کار",
+            "ur": "کام",
+            "am": "ስራ",
+            "ml": "ജോലി",
+            "ta": "வேலை",
+            "tl": "trabaho",
+            "ps": "کار",
+            "ro": "muncă",
+            "ru": "работа",
+            "fr": "travail",
+            "hi": "काम",
+            "es": "trabajo"
+           }
+          },
+          {
+           "surface": "shop",
+           "type": "root",
+           "meaning": "stall/booth",
+           "translations": {
+            "zh-Hans": "摊位",
+            "zh-Hant": "攤位",
+            "ja": "屋台",
+            "ko": "가판대",
+            "vi": "quầy hàng",
+            "ar": "كشك",
+            "fa": "غرفه",
+            "ur": "ٹھیلا",
+            "am": "ድንኳን",
+            "ml": "സ്റ്റാൾ",
+            "ta": "கடை",
+            "tl": "puwesto",
+            "ps": "دوکان",
+            "ro": "tarabă",
+            "ru": "киоск",
+            "fr": "étal",
+            "hi": "स्टॉल",
+            "es": "puesto"
+           }
+          }
+         ],
          "root": "workshop",
          "meaning": "a small building where a few workers made goods by hand",
          "example": "Before factories, goods were made in small workshops.",
@@ -483731,7 +485151,26 @@
            "surface": "spinn",
            "type": "root",
            "meaning": "twist fibres into thread",
-           "translations": {}
+           "translations": {
+            "zh-Hans": "把纤维捻成线",
+            "zh-Hant": "把纖維捻成線",
+            "ja": "繊維をより合わせて糸にする",
+            "ko": "섬유를 꼬아 실로 만들다",
+            "vi": "xe sợi thành chỉ",
+            "ar": "فتل الألياف لتصبح خيطًا",
+            "fa": "الیاف را به نخ تابیدن",
+            "ur": "ریشوں کو بٹ کر دھاگا بنانا",
+            "am": "ፋይበርን ጠምዘዝ ክር ማድረግ",
+            "ml": "നാരുകൾ പിരിച്ച് നൂലാക്കുക",
+            "ta": "இழைகளை முறுக்கி நூலாக்குதல்",
+            "tl": "pilipitin ang hibla para maging sinulid",
+            "ps": "فایبرونه تاووول او تار جوړول",
+            "ro": "a răsuci fibrele în fir",
+            "ru": "скручивать волокна в нить",
+            "fr": "tordre des fibres en fil",
+            "hi": "रेशों को बटकर धागा बनाना",
+            "es": "retorcer fibras para hacer hilo"
+           }
           },
           {
            "surface": "er",
@@ -483786,7 +485225,59 @@
         },
         {
          "word": "dyer",
-         "parts": [],
+         "parts": [
+          {
+           "surface": "dye",
+           "type": "root",
+           "meaning": "colour",
+           "translations": {
+            "zh-Hans": "颜色",
+            "zh-Hant": "顏色",
+            "ja": "色",
+            "ko": "색",
+            "vi": "màu",
+            "ar": "لون",
+            "fa": "رنگ",
+            "ur": "رنگ",
+            "am": "ቀለም",
+            "ml": "നിറം",
+            "ta": "நிறம்",
+            "tl": "kulay",
+            "ps": "رنګ",
+            "ro": "culoare",
+            "ru": "цвет",
+            "fr": "couleur",
+            "hi": "रंग",
+            "es": "color"
+           }
+          },
+          {
+           "surface": "er",
+           "type": "suffix",
+           "meaning": "one who",
+           "translations": {
+            "am": "የሚሠራ ሰው/ነገር",
+            "ar": "فاعل",
+            "es": "cosa que hace",
+            "fa": "انجام‌دهنده",
+            "fr": "celui qui fait",
+            "hi": "करने वाला",
+            "ja": "〜する人・物",
+            "ko": "~하는 사람/것",
+            "ml": "കർത്താവ്",
+            "ps": "کوونکی",
+            "ro": "făcător",
+            "ru": "деятель",
+            "ta": "செய்பவர்",
+            "tl": "tagagawa",
+            "ur": "کرنے والا",
+            "vi": "người/vật thực hiện",
+            "zh-Hans": "做…的人或物",
+            "zh-Hant": "做…的人或物",
+            "other": "کننده"
+           }
+          }
+         ],
          "root": "dyer",
          "meaning": "a worker who colours cloth using dye",
          "example": "The dyer soaked the cloth in blue dye.",
@@ -483814,6 +485305,31 @@
         {
          "word": "food production",
          "parts": [
+          {
+           "surface": "food",
+           "type": "root",
+           "meaning": "food",
+           "translations": {
+            "zh-Hans": "食物",
+            "zh-Hant": "食物",
+            "ja": "食べ物",
+            "ko": "음식",
+            "vi": "thức ăn",
+            "ar": "طعام",
+            "fa": "غذا",
+            "ur": "کھانا",
+            "am": "ምግብ",
+            "ml": "ഭക്ഷണം",
+            "ta": "உணவு",
+            "tl": "pagkain",
+            "ps": "خوراک",
+            "ro": "mâncare",
+            "ru": "еда",
+            "fr": "nourriture",
+            "hi": "भोजन",
+            "es": "comida"
+           }
+          },
           {
            "surface": "pro",
            "type": "prefix",
@@ -483999,7 +485515,26 @@
            "surface": "pover",
            "type": "root",
            "meaning": "poor",
-           "translations": {}
+           "translations": {
+            "zh-Hans": "贫穷",
+            "zh-Hant": "貧窮",
+            "ja": "貧しい",
+            "ko": "가난한",
+            "vi": "nghèo",
+            "ar": "فقير",
+            "fa": "فقیر",
+            "ur": "غریب",
+            "am": "ድሃ",
+            "ml": "ദരിദ്രൻ",
+            "ta": "ஏழை",
+            "tl": "mahirap",
+            "ps": "غریب",
+            "ro": "sărac",
+            "ru": "бедный",
+            "fr": "pauvre",
+            "hi": "गरीब",
+            "es": "pobre"
+           }
           },
           {
            "surface": "ty",
@@ -484053,7 +485588,58 @@
         },
         {
          "word": "countryside",
-         "parts": [],
+         "parts": [
+          {
+           "surface": "country",
+           "type": "root",
+           "meaning": "rural land or region",
+           "translations": {
+            "zh-Hans": "乡村地区",
+            "ja": "田舎；地方",
+            "fa": "ناحیهٔ روستایی",
+            "vi": "vùng nông thôn",
+            "zh-Hant": "鄉村地區",
+            "ko": "시골",
+            "ar": "ريف",
+            "ur": "دیہی علاقہ",
+            "am": "ገጠር",
+            "ml": "ഗ്രാമപ്രദേശം",
+            "ta": "கிராமப்புறம்",
+            "tl": "kanayunan",
+            "ps": "کلیوالی سیمه",
+            "ro": "zonă rurală",
+            "ru": "сельская местность",
+            "fr": "campagne",
+            "hi": "ग्रामीण क्षेत्र",
+            "es": "zona rural"
+           }
+          },
+          {
+           "surface": "side",
+           "type": "root",
+           "meaning": "side",
+           "translations": {
+            "zh-Hans": "边",
+            "zh-Hant": "邊",
+            "ja": "側",
+            "ko": "옆",
+            "vi": "bên",
+            "ar": "جانب",
+            "fa": "سو",
+            "ur": "طرف",
+            "am": "ጎን",
+            "ml": "വശം",
+            "ta": "பக்கம்",
+            "tl": "gilid",
+            "ps": "څنګ",
+            "ro": "parte",
+            "ru": "сторона",
+            "fr": "côté",
+            "hi": "ओर",
+            "es": "lado"
+           }
+          }
+         ],
          "root": "countryside",
          "meaning": "the land outside towns and cities, where the farms are",
          "example": "Workers left the countryside to find jobs in the cities.",
@@ -484111,7 +485697,76 @@
            "surface": "ory",
            "type": "suffix",
            "meaning": "a place for",
-           "translations": {}
+           "translations": {
+            "zh-Hans": "用于……的地方",
+            "zh-Hant": "用於……的地方",
+            "ja": "〜する場所",
+            "ko": "~하는 장소",
+            "vi": "nơi dùng để",
+            "ar": "مكان لـ",
+            "fa": "جایی برای",
+            "ur": "کے لیے جگہ",
+            "am": "ለ…የሚሆን ቦታ",
+            "ml": "…ന് വേണ്ടിയുള്ള സ്ഥലം",
+            "ta": "…க்கான இடம்",
+            "tl": "lugar para sa",
+            "ps": "د…ځای",
+            "ro": "loc pentru",
+            "ru": "место для",
+            "fr": "lieu pour",
+            "hi": "के लिए स्थान",
+            "es": "lugar para"
+           }
+          },
+          {
+           "surface": "sy",
+           "type": "prefix",
+           "meaning": "together",
+           "translations": {
+            "zh-Hans": "一起",
+            "zh-Hant": "一起",
+            "ja": "一緒に",
+            "ko": "함께",
+            "vi": "cùng nhau",
+            "ar": "معًا",
+            "fa": "با هم",
+            "ur": "ساتھ",
+            "am": "አብረው",
+            "ml": "ഒരുമിച്ച്",
+            "ta": "ஒன்றாக",
+            "tl": "magkasama",
+            "ps": "یوځای",
+            "ro": "împreună",
+            "ru": "вместе",
+            "fr": "ensemble",
+            "hi": "साथ में",
+            "es": "juntos"
+           }
+          },
+          {
+           "surface": "stem",
+           "type": "root",
+           "meaning": "stand",
+           "translations": {
+            "am": "መቆም",
+            "ar": "وقوف",
+            "es": "estar de pie",
+            "fa": "ایستادن",
+            "fr": "se tenir",
+            "hi": "खड़ा होना",
+            "ja": "立つ",
+            "ko": "서다",
+            "ml": "നിൽക്കുക",
+            "ps": "درېدل",
+            "ro": "a sta",
+            "ru": "стоять",
+            "ta": "நிற்றல்",
+            "tl": "tumindig",
+            "ur": "کھڑا ہونا",
+            "vi": "đứng",
+            "zh-Hans": "站立",
+            "zh-Hant": "站立"
+           }
           }
          ],
          "root": "factory system",
@@ -484140,7 +485795,58 @@
         },
         {
          "word": "small-scale",
-         "parts": [],
+         "parts": [
+          {
+           "surface": "small",
+           "type": "root",
+           "meaning": "little",
+           "translations": {
+            "zh-Hans": "小",
+            "zh-Hant": "小",
+            "ja": "小さい",
+            "ko": "작은",
+            "vi": "nhỏ",
+            "ar": "صغير",
+            "fa": "کوچک",
+            "ur": "چھوٹا",
+            "am": "ትንሽ",
+            "ml": "ചെറിയ",
+            "ta": "சிறிய",
+            "tl": "maliit",
+            "ps": "کوچنی",
+            "ro": "mic",
+            "ru": "маленький",
+            "fr": "petit",
+            "hi": "छोटा",
+            "es": "pequeño"
+           }
+          },
+          {
+           "surface": "scale",
+           "type": "root",
+           "meaning": "ladder/step",
+           "translations": {
+            "zh-Hans": "梯子/台阶",
+            "zh-Hant": "梯子/階梯",
+            "ja": "はしご・段",
+            "ko": "사다리/계단",
+            "vi": "thang/bậc",
+            "ar": "سلّم/درجة",
+            "fa": "نردبان/پله",
+            "ur": "سیڑھی/زینہ",
+            "am": "መሰላል/ደረጃ",
+            "ml": "ഗോവണി/പടി",
+            "ta": "ஏணி/படி",
+            "tl": "hagdan/baitang",
+            "ps": "زینه/پوړ",
+            "ro": "scară/treaptă",
+            "ru": "лестница/ступень",
+            "fr": "échelle/marche",
+            "hi": "सीढ़ी/पायदान",
+            "es": "escalera/escalón"
+           }
+          }
+         ],
          "root": "small-scale",
          "meaning": "done in small amounts, by only a few people at a time",
          "example": "Small-scale production could not compete with the factories.",
@@ -484250,7 +485956,26 @@
            "surface": "weav",
            "type": "root",
            "meaning": "make cloth on a loom",
-           "translations": {}
+           "translations": {
+            "zh-Hans": "在织布机上织布",
+            "zh-Hant": "在織布機上織布",
+            "ja": "織機で布を織る",
+            "ko": "베틀로 천을 짜다",
+            "vi": "dệt vải trên khung cửi",
+            "ar": "نسج القماش على النول",
+            "fa": "پارچه را روی دستگاه بافندگی بافتن",
+            "ur": "کھڈی پر کپڑا بُننا",
+            "am": "በሸማኔ መሣሪያ ልብስ መሸመን",
+            "ml": "തറിയിൽ തുണി നെയ്യുക",
+            "ta": "தறியில் துணி நெய்தல்",
+            "tl": "maghabi ng tela sa habihan",
+            "ps": "په کارغه کې جامې اوبدل",
+            "ro": "a țese pânză la războiul de țesut",
+            "ru": "ткать ткань на ткацком станке",
+            "fr": "tisser du tissu sur un métier",
+            "hi": "करघे पर कपड़ा बुनना",
+            "es": "tejer tela en un telar"
+           }
           },
           {
            "surface": "er",
@@ -484614,6 +486339,56 @@
             "zh-Hans": "……的",
             "zh-Hant": "……的"
            }
+          },
+          {
+           "surface": "area",
+           "type": "root",
+           "meaning": "a level open space",
+           "translations": {
+            "zh-Hans": "平坦的空地",
+            "zh-Hant": "平坦的空地",
+            "ja": "平らな空き地",
+            "ko": "평평하고 트인 공간",
+            "vi": "khoảng đất trống bằng phẳng",
+            "ar": "مساحة مستوية مفتوحة",
+            "fa": "فضای باز و مسطح",
+            "ur": "کھلا ہموار میدان",
+            "am": "ጠፍጣፋ ክፍት ቦታ",
+            "ml": "നിരപ്പായ തുറസ്സായ സ്ഥലം",
+            "ta": "சமமான திறந்த வெளி",
+            "tl": "patag na bukas na lugar",
+            "ps": "هوار خلاص ځای",
+            "ro": "spațiu deschis și plat",
+            "ru": "открытое ровное пространство",
+            "fr": "espace plat et ouvert",
+            "hi": "समतल खुला स्थान",
+            "es": "espacio abierto y llano"
+           }
+          },
+          {
+           "surface": "s",
+           "type": "suffix",
+           "meaning": "plural",
+           "translations": {
+            "fa": "جمع",
+            "am": "ብዙ ቁጥር",
+            "ar": "جمع",
+            "es": "plural",
+            "fr": "pluriel",
+            "hi": "बहुवचन",
+            "ja": "複数",
+            "ko": "복수",
+            "ml": "ബഹുവചനം",
+            "ps": "جمع",
+            "ro": "plural",
+            "ru": "множественное число",
+            "ta": "பன்மை",
+            "tl": "maramihan",
+            "ur": "جمع",
+            "vi": "số nhiều",
+            "zh-Hans": "复数",
+            "zh-Hant": "複數"
+           }
           }
          ],
          "root": "rural areas",
@@ -484647,7 +486422,26 @@
            "surface": "citi",
            "type": "root",
            "meaning": "city",
-           "translations": {}
+           "translations": {
+            "zh-Hans": "城市",
+            "zh-Hant": "城市",
+            "ja": "都市",
+            "ko": "도시",
+            "vi": "thành phố",
+            "ar": "مدينة",
+            "fa": "شهر",
+            "ur": "شہر",
+            "am": "ከተማ",
+            "ml": "നഗരം",
+            "ta": "நகரம்",
+            "tl": "lungsod",
+            "ps": "ښار",
+            "ro": "oraș",
+            "ru": "город",
+            "fr": "ville",
+            "hi": "शहर",
+            "es": "ciudad"
+           }
           },
           {
            "surface": "es",
@@ -498711,7 +500505,26 @@
            "surface": "ory",
            "type": "suffix",
            "meaning": "a place for",
-           "translations": {}
+           "translations": {
+            "zh-Hans": "用于……的地方",
+            "zh-Hant": "用於……的地方",
+            "ja": "〜する場所",
+            "ko": "~하는 장소",
+            "vi": "nơi dùng để",
+            "ar": "مكان لـ",
+            "fa": "جایی برای",
+            "ur": "کے لیے جگہ",
+            "am": "ለ…የሚሆን ቦታ",
+            "ml": "…ന് വേണ്ടിയുള്ള സ്ഥലം",
+            "ta": "…க்கான இடம்",
+            "tl": "lugar para sa",
+            "ps": "د…ځای",
+            "ro": "loc pentru",
+            "ru": "место для",
+            "fr": "lieu pour",
+            "hi": "के लिए स्थान",
+            "es": "lugar para"
+           }
           },
           {
            "surface": "act",
@@ -535740,7 +537553,26 @@
            "surface": "sert",
            "type": "root",
            "meaning": "join together",
-           "translations": {}
+           "translations": {
+            "zh-Hans": "连接在一起",
+            "zh-Hant": "連接在一起",
+            "ja": "つなぎ合わせる",
+            "ko": "함께 연결하다",
+            "vi": "nối lại với nhau",
+            "ar": "ربط معًا",
+            "fa": "به هم پیوستن",
+            "ur": "آپس میں جوڑنا",
+            "am": "ማያያዝ",
+            "ml": "ഒരുമിച്ച് ചേർക്കുക",
+            "ta": "ஒன்றாக இணைத்தல்",
+            "tl": "pagdugtungin",
+            "ps": "یو ځای کول",
+            "ro": "a uni",
+            "ru": "соединять",
+            "fr": "joindre",
+            "hi": "जोड़ना",
+            "es": "unir"
+           }
           },
           {
            "surface": "ive",
@@ -584375,7 +586207,26 @@
            "surface": "two",
            "type": "root",
            "meaning": "two",
-           "translations": {}
+           "translations": {
+            "zh-Hans": "二",
+            "zh-Hant": "二",
+            "ja": "二つ",
+            "ko": "둘",
+            "vi": "hai",
+            "ar": "اثنان",
+            "fa": "دو",
+            "ur": "دو",
+            "am": "ሁለት",
+            "ml": "രണ്ട്",
+            "ta": "இரண்டு",
+            "tl": "dalawa",
+            "ps": "دوه",
+            "ro": "doi",
+            "ru": "два",
+            "fr": "deux",
+            "hi": "दो",
+            "es": "dos"
+           }
           },
           {
            "surface": "shot",
@@ -584440,7 +586291,26 @@
            "surface": "level",
            "type": "root",
            "meaning": "little balance",
-           "translations": {}
+           "translations": {
+            "zh-Hans": "小平衡",
+            "zh-Hant": "小平衡",
+            "ja": "小さな秤",
+            "ko": "작은 저울",
+            "vi": "cái cân nhỏ",
+            "ar": "ميزان صغير",
+            "fa": "ترازوی کوچک",
+            "ur": "چھوٹا توازن",
+            "am": "ትንሽ ሚዛን",
+            "ml": "ചെറിയ തുലാസ്",
+            "ta": "சிறிய தராசு",
+            "tl": "maliit na timbangan",
+            "ps": "کوچنی انډول",
+            "ro": "mică balanță",
+            "ru": "маленькие весы",
+            "fr": "petite balance",
+            "hi": "छोटा तराज़ू",
+            "es": "pequeña balanza"
+           }
           }
          ],
          "root": "eye",
@@ -590906,7 +592776,26 @@
            "surface": "web",
            "type": "root",
            "meaning": "woven thing",
-           "translations": {}
+           "translations": {
+            "zh-Hans": "编织物",
+            "zh-Hant": "編織物",
+            "ja": "織られたもの",
+            "ko": "짜인 것",
+            "vi": "vật được dệt",
+            "ar": "شيء منسوج",
+            "fa": "چیز بافته‌شده",
+            "ur": "بُنی ہوئی چیز",
+            "am": "የተሸመነ ነገር",
+            "ml": "നെയ്തെടുത്ത വസ്തു",
+            "ta": "நெய்யப்பட்ட பொருள்",
+            "tl": "bagay na hinabi",
+            "ps": "اوبدل شوی شی",
+            "ro": "ceva țesut",
+            "ru": "тканое изделие",
+            "fr": "chose tissée",
+            "hi": "बुनी हुई चीज़",
+            "es": "cosa tejida"
+           }
           }
          ],
          "root": "web",
@@ -591247,7 +593136,26 @@
            "surface": "pover",
            "type": "root",
            "meaning": "poor",
-           "translations": {}
+           "translations": {
+            "zh-Hans": "贫穷",
+            "zh-Hant": "貧窮",
+            "ja": "貧しい",
+            "ko": "가난한",
+            "vi": "nghèo",
+            "ar": "فقير",
+            "fa": "فقیر",
+            "ur": "غریب",
+            "am": "ድሃ",
+            "ml": "ദരിദ്രൻ",
+            "ta": "ஏழை",
+            "tl": "mahirap",
+            "ps": "غریب",
+            "ro": "sărac",
+            "ru": "бедный",
+            "fr": "pauvre",
+            "hi": "गरीब",
+            "es": "pobre"
+           }
           },
           {
            "surface": "ty",
@@ -617780,7 +619688,26 @@
            "surface": "chain",
            "type": "root",
            "meaning": "linked rings",
-           "translations": {}
+           "translations": {
+            "zh-Hans": "相连的环",
+            "zh-Hant": "相連的環",
+            "ja": "つながった輪",
+            "ko": "연결된 고리",
+            "vi": "các vòng nối liền",
+            "ar": "حلقات متصلة",
+            "fa": "حلقه‌های به‌هم‌پیوسته",
+            "ur": "جڑے ہوئے چھلے",
+            "am": "የተያያዙ ቀለበቶች",
+            "ml": "ബന്ധിപ്പിച്ച വളയങ്ങൾ",
+            "ta": "இணைக்கப்பட்ட வளையங்கள்",
+            "tl": "magkakabit na singsing",
+            "ps": "نښلول شوې کړۍ",
+            "ro": "inele legate",
+            "ru": "соединённые кольца",
+            "fr": "anneaux liés",
+            "hi": "जुड़े हुए छल्ले",
+            "es": "anillos enlazados"
+           }
           },
           {
            "surface": "mail",
@@ -626905,7 +628832,26 @@
            "surface": "pover",
            "type": "root",
            "meaning": "poor",
-           "translations": {}
+           "translations": {
+            "zh-Hans": "贫穷",
+            "zh-Hant": "貧窮",
+            "ja": "貧しい",
+            "ko": "가난한",
+            "vi": "nghèo",
+            "ar": "فقير",
+            "fa": "فقیر",
+            "ur": "غریب",
+            "am": "ድሃ",
+            "ml": "ദരിദ്രൻ",
+            "ta": "ஏழை",
+            "tl": "mahirap",
+            "ps": "غریب",
+            "ro": "sărac",
+            "ru": "бедный",
+            "fr": "pauvre",
+            "hi": "गरीब",
+            "es": "pobre"
+           }
           },
           {
            "surface": "ty",
@@ -666175,7 +668121,26 @@
            "surface": "side",
            "type": "root",
            "meaning": "side",
-           "translations": {}
+           "translations": {
+            "zh-Hans": "边",
+            "zh-Hant": "邊",
+            "ja": "側",
+            "ko": "옆",
+            "vi": "bên",
+            "ar": "جانب",
+            "fa": "سو",
+            "ur": "طرف",
+            "am": "ጎን",
+            "ml": "വശം",
+            "ta": "பக்கம்",
+            "tl": "gilid",
+            "ps": "څنګ",
+            "ro": "parte",
+            "ru": "сторона",
+            "fr": "côté",
+            "hi": "ओर",
+            "es": "lado"
+           }
           },
           {
            "surface": "view",
@@ -701627,12 +703592,63 @@
       {
        "id": "where-the-wild-things-are",
        "name": "Where the Wild Things Are",
-       "interactive": false,
+       "interactive": true,
        "words": [
         {
          "word": "mischief",
-         "parts": [],
-         "root": "",
+         "parts": [
+          {
+           "surface": "mis",
+           "type": "prefix",
+           "meaning": "wrongly",
+           "translations": {
+            "am": "በስህተት / በክፉ",
+            "ar": "خطأً / بشكل سيّئ",
+            "es": "incorrectamente/mal",
+            "fa": "نادرست / بد",
+            "fr": "mal / à tort",
+            "hi": "गलत तरीके से / बुरी तरह",
+            "ja": "誤って／悪く",
+            "ko": "잘못 / 나쁘게",
+            "ml": "തെറ്റായി / മോശമായി",
+            "ps": "غلط / بد",
+            "ro": "greșit / rău",
+            "ru": "неправильно / плохо",
+            "ta": "தவறாக / மோசமாக",
+            "tl": "mali / masama",
+            "ur": "غلط طور پر / برے طریقے سے",
+            "vi": "sai / xấu",
+            "zh-Hans": "错误地／不良地",
+            "zh-Hant": "錯誤地／不良地"
+           }
+          },
+          {
+           "surface": "chief",
+           "type": "root",
+           "meaning": "head",
+           "translations": {
+            "zh-Hans": "头",
+            "zh-Hant": "頭",
+            "ja": "頭",
+            "ko": "머리",
+            "vi": "đầu",
+            "ar": "رأس",
+            "fa": "سر",
+            "ur": "سر",
+            "am": "ራስ",
+            "ml": "തല",
+            "ta": "தலை",
+            "tl": "ulo",
+            "ps": "سر",
+            "ro": "cap",
+            "ru": "голова",
+            "fr": "tête",
+            "hi": "सिर",
+            "es": "cabeza"
+           }
+          }
+         ],
+         "root": "chief",
          "meaning": "Mischief is a noun describing playful, often harmless, naughtiness or a tendency to tease. It can also refer to actual harm, damage, or legal offenses—such as vandalism—or the person/animal who causes these troubles.",
          "example": "",
          "tier": 2,
@@ -701720,7 +703736,26 @@
            "surface": "vin",
            "type": "root",
            "meaning": "wine",
-           "translations": {}
+           "translations": {
+            "zh-Hans": "葡萄酒",
+            "zh-Hant": "葡萄酒",
+            "ja": "ワイン",
+            "ko": "포도주",
+            "vi": "rượu vang",
+            "ar": "نبيذ",
+            "fa": "شراب",
+            "ur": "شراب",
+            "am": "ወይን ጠጅ",
+            "ml": "വീഞ്ഞ്",
+            "ta": "திராட்சை மது",
+            "tl": "alak",
+            "ps": "شراب",
+            "ro": "vin",
+            "ru": "вино",
+            "fr": "vin",
+            "hi": "वाइन",
+            "es": "vino"
+           }
           },
           {
            "surface": "es",
@@ -701808,7 +703843,26 @@
            "surface": "gnash",
            "type": "root",
            "meaning": "grind the teeth together",
-           "translations": {}
+           "translations": {
+            "zh-Hans": "咬牙切齿",
+            "zh-Hant": "咬牙切齒",
+            "ja": "歯ぎしりする",
+            "ko": "이를 갈다",
+            "vi": "nghiến răng",
+            "ar": "صرير الأسنان",
+            "fa": "دندان قروچه کردن",
+            "ur": "دانت پیسنا",
+            "am": "ጥርስ ማፋጨት",
+            "ml": "പല്ലിറുമ്മുക",
+            "ta": "பல்லைக் கடித்தல்",
+            "tl": "magngalit ang mga ngipin",
+            "ps": "غاښونه ټکول",
+            "ro": "a scrâșni din dinți",
+            "ru": "скрежетать зубами",
+            "fr": "grincer des dents",
+            "hi": "दाँत पीसना",
+            "es": "rechinar los dientes"
+           }
           },
           {
            "surface": "ed",
@@ -713290,7 +715344,7 @@
       {
        "id": "rabbits",
        "name": "Rabbits",
-       "interactive": false,
+       "interactive": true,
        "words": [
         {
          "word": "billabong",
@@ -713352,7 +715406,26 @@
            "surface": "sert",
            "type": "root",
            "meaning": "join together",
-           "translations": {}
+           "translations": {
+            "zh-Hans": "连接在一起",
+            "zh-Hant": "連接在一起",
+            "ja": "つなぎ合わせる",
+            "ko": "함께 연결하다",
+            "vi": "nối lại với nhau",
+            "ar": "ربط معًا",
+            "fa": "به هم پیوستن",
+            "ur": "آپس میں جوڑنا",
+            "am": "ማያያዝ",
+            "ml": "ഒരുമിച്ച് ചേർക്കുക",
+            "ta": "ஒன்றாக இணைத்தல்",
+            "tl": "pagdugtungin",
+            "ps": "یو ځای کول",
+            "ro": "a uni",
+            "ru": "соединять",
+            "fr": "joindre",
+            "hi": "जोड़ना",
+            "es": "unir"
+           }
           }
          ],
          "root": "sert",
@@ -713628,7 +715701,26 @@
            "surface": "chop",
            "type": "root",
            "meaning": "cut with repeated blows",
-           "translations": {}
+           "translations": {
+            "zh-Hans": "连续砍",
+            "zh-Hant": "連續砍",
+            "ja": "何度も打って切る",
+            "ko": "여러 번 내리쳐 자르다",
+            "vi": "chặt bằng nhiều nhát",
+            "ar": "القطع بضربات متكررة",
+            "fa": "با ضربات پی‌درپی بریدن",
+            "ur": "بار بار وار کر کے کاٹنا",
+            "am": "በተደጋጋሚ ምት መቁረጥ",
+            "ml": "ആവർത്തിച്ച് വെട്ടുക",
+            "ta": "மீண்டும் மீண்டும் வெட்டுதல்",
+            "tl": "putulin sa paulit-ulit na hataw",
+            "ps": "په تکراري ګوزارونو پرې کول",
+            "ro": "a tăia prin lovituri repetate",
+            "ru": "рубить повторными ударами",
+            "fr": "couper à coups répétés",
+            "hi": "बार-बार वार करके काटना",
+            "es": "cortar a golpes repetidos"
+           }
           },
           {
            "surface": "ed",
@@ -726227,7 +728319,7 @@
       {
        "id": "of-mice-and-men",
        "name": "Of Mice and Men",
-       "interactive": false,
+       "interactive": true,
        "folderId": null,
        "words": [
         {
@@ -739193,7 +741285,26 @@
            "surface": "sert",
            "type": "root",
            "meaning": "join together",
-           "translations": {}
+           "translations": {
+            "zh-Hans": "连接在一起",
+            "zh-Hant": "連接在一起",
+            "ja": "つなぎ合わせる",
+            "ko": "함께 연결하다",
+            "vi": "nối lại với nhau",
+            "ar": "ربط معًا",
+            "fa": "به هم پیوستن",
+            "ur": "آپس میں جوڑنا",
+            "am": "ማያያዝ",
+            "ml": "ഒരുമിച്ച് ചേർക്കുക",
+            "ta": "ஒன்றாக இணைத்தல்",
+            "tl": "pagdugtungin",
+            "ps": "یو ځای کول",
+            "ro": "a uni",
+            "ru": "соединять",
+            "fr": "joindre",
+            "hi": "जोड़ना",
+            "es": "unir"
+           }
           },
           {
            "surface": "ion",
@@ -758269,7 +760380,7 @@
       {
        "id": "lab-safety-equipment",
        "name": "Lab safety & equipment",
-       "interactive": false,
+       "interactive": true,
        "words": [
         {
          "word": "laboratory",
@@ -758741,6 +760852,57 @@
             "zh-Hans": "行为",
             "zh-Hant": "行為"
            }
+          },
+          {
+           "surface": "cylind",
+           "type": "root",
+           "meaning": "roll",
+           "translations": {
+            "zh-Hans": "滚动",
+            "zh-Hant": "滾動",
+            "ja": "転がる",
+            "ko": "구르다",
+            "vi": "lăn",
+            "ar": "يدحرج",
+            "fa": "غلتیدن",
+            "ur": "لڑھکنا",
+            "am": "ማንከባለል",
+            "ml": "ഉരുളുക",
+            "ta": "உருளுதல்",
+            "tl": "gumulong",
+            "ps": "ګرځول",
+            "ro": "a rostogoli",
+            "ru": "катить",
+            "fr": "rouler",
+            "hi": "लुढ़कना",
+            "es": "rodar"
+           }
+          },
+          {
+           "surface": "er",
+           "type": "suffix",
+           "meaning": "thing that does",
+           "translations": {
+            "am": "የሚሠራ ሰው/ነገር",
+            "ar": "فاعل",
+            "es": "cosa que hace",
+            "fa": "انجام‌دهنده",
+            "fr": "celui qui fait",
+            "hi": "करने वाला",
+            "ja": "〜する人・物",
+            "ko": "~하는 사람/것",
+            "ml": "കർത്താവ്",
+            "ps": "کوونکی",
+            "ro": "făcător",
+            "ru": "деятель",
+            "ta": "செய்பவர்",
+            "tl": "tagagawa",
+            "ur": "کرنے والا",
+            "vi": "người/vật thực hiện",
+            "zh-Hans": "做…的人或物",
+            "zh-Hant": "做…的人或物",
+            "other": "کننده"
+           }
           }
          ],
          "root": "measur",
@@ -758770,8 +760932,59 @@
           "ru": "пробирка",
           "es": "tubo de ensayo"
          },
-         "parts": [],
-         "root": "",
+         "parts": [
+          {
+           "surface": "test",
+           "type": "root",
+           "meaning": "try",
+           "translations": {
+            "zh-Hans": "试",
+            "zh-Hant": "試",
+            "ja": "試す",
+            "ko": "시도하다",
+            "vi": "thử",
+            "ar": "يجرّب",
+            "fa": "آزمودن",
+            "ur": "آزمانا",
+            "am": "መሞከር",
+            "ml": "ശ്രമിക്കുക",
+            "ta": "முயற்சி",
+            "tl": "subukan",
+            "ps": "هڅه کول",
+            "ro": "a încerca",
+            "ru": "пробовать",
+            "fr": "essayer",
+            "hi": "कोशिश करना",
+            "es": "probar"
+           }
+          },
+          {
+           "surface": "tube",
+           "type": "root",
+           "meaning": "pipe",
+           "translations": {
+            "zh-Hans": "管子",
+            "zh-Hant": "管子",
+            "ja": "管",
+            "ko": "관",
+            "vi": "ống",
+            "ar": "أنبوب",
+            "fa": "لوله",
+            "ur": "نلی",
+            "am": "ቧንቧ",
+            "ml": "കുഴൽ",
+            "ta": "குழாய்",
+            "tl": "tubo",
+            "ps": "نل",
+            "ro": "țeavă",
+            "ru": "труба",
+            "fr": "tuyau",
+            "hi": "नली",
+            "es": "tubo"
+           }
+          }
+         ],
+         "root": "test",
          "example": "",
          "tier": 2
         },
@@ -758956,8 +761169,59 @@
           "ru": "асбестовая сетка",
           "es": "rejilla metálica"
          },
-         "parts": [],
-         "root": "",
+         "parts": [
+          {
+           "surface": "gauze",
+           "type": "root",
+           "meaning": "thin cloth",
+           "translations": {
+            "zh-Hans": "薄布",
+            "zh-Hant": "薄布",
+            "ja": "薄い布",
+            "ko": "얇은 천",
+            "vi": "vải mỏng",
+            "ar": "قماش رقيق",
+            "fa": "پارچه نازک",
+            "ur": "باریک کپڑا",
+            "am": "ስስ ጨርቅ",
+            "ml": "നേർത്ത തുണി",
+            "ta": "மெல்லிய துணி",
+            "tl": "manipis na tela",
+            "ps": "نری ټوکر",
+            "ro": "pânză subțire",
+            "ru": "тонкая ткань",
+            "fr": "tissu fin",
+            "hi": "पतला कपड़ा",
+            "es": "tela fina"
+           }
+          },
+          {
+           "surface": "mat",
+           "type": "root",
+           "meaning": "woven covering",
+           "translations": {
+            "zh-Hans": "编织垫",
+            "zh-Hant": "編織墊",
+            "ja": "編んだ敷物",
+            "ko": "짠 깔개",
+            "vi": "tấm đan trải",
+            "ar": "غطاء منسوج",
+            "fa": "پوشش بافته",
+            "ur": "بُنا ہوا ڈھکنا",
+            "am": "የተሸመነ መሸፈኛ",
+            "ml": "നെയ്ത വിരി",
+            "ta": "நெய்த விரிப்பு",
+            "tl": "habing sapin",
+            "ps": "اوبدل شوی پوښ",
+            "ro": "acoperământ țesut",
+            "ru": "тканое покрытие",
+            "fr": "revêtement tissé",
+            "hi": "बुना हुआ आवरण",
+            "es": "cubierta tejida"
+           }
+          }
+         ],
+         "root": "gauze",
          "example": "",
          "tier": 2
         },
@@ -759093,19 +761357,44 @@
          },
          "parts": [
           {
+           "surface": "Bunsen",
+           "type": "root",
+           "meaning": "a scientist's name",
+           "translations": {
+            "zh-Hans": "科学家的名字",
+            "zh-Hant": "科學家的名字",
+            "ja": "科学者の名前",
+            "ko": "과학자의 이름",
+            "vi": "tên một nhà khoa học",
+            "ar": "اسم عالِم",
+            "fa": "نام یک دانشمند",
+            "ur": "ایک سائنس دان کا نام",
+            "am": "የሳይንቲስት ስም",
+            "ml": "ഒരു ശാസ്ത്രജ്ഞന്റെ പേര്",
+            "ta": "ஒரு விஞ்ஞானியின் பெயர்",
+            "tl": "pangalan ng isang siyentipiko",
+            "ps": "د یو ساینسپوه نوم",
+            "ro": "numele unui om de știință",
+            "ru": "имя учёного",
+            "fr": "nom d'un scientifique",
+            "hi": "एक वैज्ञानिक का नाम",
+            "es": "nombre de un científico"
+           }
+          },
+          {
            "surface": "burn",
            "type": "root",
            "meaning": "be on fire",
            "translations": {
-            "zh-Hans": "燃烧",
-            "zh-Hant": "燃燒",
+            "zh-Hans": "着火",
+            "zh-Hant": "著火",
             "ja": "燃える",
-            "ko": "타다",
+            "ko": "불타다",
             "vi": "cháy",
-            "ar": "يحترق",
+            "ar": "يشتعل",
             "fa": "سوختن",
             "ur": "جلنا",
-            "am": "ማቃጠል",
+            "am": "መቃጠል",
             "ml": "കത്തുക",
             "ta": "எரிதல்",
             "tl": "masunog",
@@ -759199,8 +761488,59 @@
           "ru": "воздушное отверстие",
           "es": "orificio de aire"
          },
-         "parts": [],
-         "root": "",
+         "parts": [
+          {
+           "surface": "air",
+           "type": "root",
+           "meaning": "air",
+           "translations": {
+            "zh-Hans": "空气",
+            "zh-Hant": "空氣",
+            "ja": "空気",
+            "ko": "공기",
+            "vi": "không khí",
+            "ar": "هواء",
+            "fa": "هوا",
+            "ur": "ہوا",
+            "am": "አየር",
+            "ml": "വായു",
+            "ta": "காற்று",
+            "tl": "hangin",
+            "ps": "هوا",
+            "ro": "aer",
+            "ru": "воздух",
+            "fr": "air",
+            "hi": "हवा",
+            "es": "aire"
+           }
+          },
+          {
+           "surface": "hole",
+           "type": "root",
+           "meaning": "hollow opening",
+           "translations": {
+            "zh-Hans": "孔",
+            "zh-Hant": "孔洞",
+            "ja": "穴",
+            "ko": "구멍",
+            "vi": "lỗ",
+            "ar": "ثقب",
+            "fa": "سوراخ",
+            "ur": "سوراخ",
+            "am": "ቀዳዳ",
+            "ml": "ദ്വാരം",
+            "ta": "துளை",
+            "tl": "butas",
+            "ps": "سوری",
+            "ro": "gaură",
+            "ru": "отверстие",
+            "fr": "trou",
+            "hi": "छेद",
+            "es": "agujero"
+           }
+          }
+         ],
+         "root": "air",
          "example": "",
          "tier": 2
         },
@@ -759277,6 +761617,31 @@
             "zh-Hans": "状态",
             "zh-Hant": "狀態"
            }
+          },
+          {
+           "surface": "flame",
+           "type": "root",
+           "meaning": "blaze",
+           "translations": {
+            "zh-Hans": "火焰",
+            "zh-Hant": "火焰",
+            "ja": "炎",
+            "ko": "불꽃",
+            "vi": "ngọn lửa",
+            "ar": "لهب",
+            "fa": "شعله",
+            "ur": "شعلہ",
+            "am": "ነበልባል",
+            "ml": "തീജ്വാല",
+            "ta": "தீப்பிழம்பு",
+            "tl": "apoy",
+            "ps": "لمبه",
+            "ro": "flacără",
+            "ru": "пламя",
+            "fr": "flamme",
+            "hi": "लपट",
+            "es": "llama"
+           }
           }
          ],
          "root": "safe",
@@ -759335,26 +761700,51 @@
           {
            "surface": "ing",
            "type": "suffix",
-           "meaning": "action / process",
+           "meaning": "action/process",
            "translations": {
-            "vi": "hành động / quá trình",
-            "zh-Hans": "行为 / 过程",
-            "ja": "行為 / 過程",
-            "zh-Hant": "行爲 / 過程",
-            "am": "ሂደት",
-            "ar": "عملية",
-            "es": "acción/proceso",
-            "fa": "فرآیند / عمل",
+            "am": "ተግባር",
+            "ar": "فعل",
+            "es": "el acto de",
+            "fa": "عمل",
             "fr": "action de",
             "hi": "क्रिया",
+            "ja": "動作",
             "ko": "행위",
-            "ml": "പ്രക്രിയ",
-            "ps": "بهير",
+            "ml": "പ്രവൃത്തി",
+            "ps": "کړنه",
             "ro": "acțiunea de",
             "ru": "действие",
             "ta": "செயல்",
             "tl": "kilos",
-            "ur": "عمل"
+            "ur": "فعل",
+            "vi": "hành động",
+            "zh-Hans": "行为",
+            "zh-Hant": "行為"
+           }
+          },
+          {
+           "surface": "flame",
+           "type": "root",
+           "meaning": "blaze",
+           "translations": {
+            "zh-Hans": "火焰",
+            "zh-Hant": "火焰",
+            "ja": "炎",
+            "ko": "불꽃",
+            "vi": "ngọn lửa",
+            "ar": "لهب",
+            "fa": "شعله",
+            "ur": "شعلہ",
+            "am": "ነበልባል",
+            "ml": "തീജ്വാല",
+            "ta": "தீப்பிழம்பு",
+            "tl": "apoy",
+            "ps": "لمبه",
+            "ro": "flacără",
+            "ru": "пламя",
+            "fr": "flamme",
+            "hi": "लपट",
+            "es": "llama"
            }
           }
          ],
@@ -832018,7 +834408,26 @@
            "surface": "level",
            "type": "root",
            "meaning": "little balance",
-           "translations": {}
+           "translations": {
+            "zh-Hans": "小平衡",
+            "zh-Hant": "小平衡",
+            "ja": "小さな秤",
+            "ko": "작은 저울",
+            "vi": "cái cân nhỏ",
+            "ar": "ميزان صغير",
+            "fa": "ترازوی کوچک",
+            "ur": "چھوٹا توازن",
+            "am": "ትንሽ ሚዛን",
+            "ml": "ചെറിയ തുലാസ്",
+            "ta": "சிறிய தராசு",
+            "tl": "maliit na timbangan",
+            "ps": "کوچنی انډول",
+            "ro": "mică balanță",
+            "ru": "маленькие весы",
+            "fr": "petite balance",
+            "hi": "छोटा तराज़ू",
+            "es": "pequeña balanza"
+           }
           }
          ],
          "root": "sea",
@@ -838511,6 +840920,16 @@
     [
      "disability",
      "vce/health/year-12-health",
+     "abil"
+    ],
+    [
+     "experimental probability",
+     "year-10/mathematics/probability-basics",
+     "abil"
+    ],
+    [
+     "theoretical probability",
+     "year-10/mathematics/probability-basics",
      "abil"
     ]
    ]
@@ -846383,6 +848802,11 @@
      "area"
     ],
     [
+     "rural areas",
+     "year-9/humanities/rise-of-the-factory",
+     "area"
+    ],
+    [
      "area",
      "year-9/mathematics/y9m-measurement-area",
      "area"
@@ -850701,6 +853125,11 @@
     [
      "population",
      "year-10/biology/ecology-zoo",
+     "ation"
+    ],
+    [
+     "population density",
+     "year-10/biology/epidemiology-pandemic-links",
      "ation"
     ],
     [
@@ -857395,6 +859824,11 @@
      "chain"
     ],
     [
+     "food chain",
+     "year-10/biology/ecology-zoo",
+     "chain"
+    ],
+    [
      "chain mail",
      "year-8/humanities/medieval-daily-life",
      "chain"
@@ -857807,6 +860241,11 @@
    "meaning": "head",
    "type": "root",
    "words": [
+    [
+     "mischief",
+     "elc/english/where-the-wild-things-are",
+     "chief"
+    ],
     [
      "handkerchief",
      "elc/humanities/general-vocabulary",
@@ -863391,6 +865830,23 @@
     [
      "Country",
      "vce/literature/yield-august-poppy",
+     "country"
+    ]
+   ]
+  },
+  "country|rural land or region": {
+   "surface": "country",
+   "meaning": "rural land or region",
+   "type": "root",
+   "words": [
+    [
+     "up-country",
+     "elc/english/ironbark-stanza-5",
+     "country"
+    ],
+    [
+     "countryside",
+     "year-9/humanities/rise-of-the-factory",
      "country"
     ]
    ]
@@ -870147,6 +872603,11 @@
      "duct"
     ],
     [
+     "textile production",
+     "year-9/humanities/rise-of-the-factory",
+     "duct"
+    ],
+    [
      "gross domestic product (GDP)",
      "year-9/humanities/y9-economics-living-standards",
      "duct"
@@ -871632,6 +874093,16 @@
     [
      "whelped",
      "year-10/english/animal-farm-chapter-tour",
+     "ed"
+    ],
+    [
+     "expected value",
+     "year-10/mathematics/probability-basics",
+     "ed"
+    ],
+    [
+     "expected frequency",
+     "year-10/mathematics/statistics-data",
      "ed"
     ],
     [
@@ -876258,6 +878729,11 @@
      "er"
     ],
     [
+     "dyer",
+     "year-9/humanities/rise-of-the-factory",
+     "er"
+    ],
+    [
      "spinner",
      "year-9/humanities/rise-of-the-factory",
      "er"
@@ -876355,6 +878831,11 @@
    "words": [
     [
      "Bunsen burner",
+     "elc/science/lab-safety-equipment",
+     "er"
+    ],
+    [
+     "measuring cylinder",
      "elc/science/lab-safety-equipment",
      "er"
     ],
@@ -877723,6 +880204,11 @@
      "ex"
     ],
     [
+     "expected value",
+     "year-10/mathematics/probability-basics",
+     "ex"
+    ],
+    [
      "experiment",
      "year-10/mathematics/probability-basics",
      "ex"
@@ -877730,6 +880216,11 @@
     [
      "experimental probability",
      "year-10/mathematics/probability-basics",
+     "ex"
+    ],
+    [
+     "expected frequency",
+     "year-10/mathematics/statistics-data",
      "ex"
     ],
     [
@@ -878820,7 +881311,17 @@
      "e"
     ],
     [
+     "dependent (events)",
+     "year-10/mathematics/probability-basics",
+     "e"
+    ],
+    [
      "event",
+     "year-10/mathematics/probability-basics",
+     "e"
+    ],
+    [
+     "independent (events)",
      "year-10/mathematics/probability-basics",
      "e"
     ],
@@ -881161,6 +883662,23 @@
     ]
    ]
   },
+  "flame|blaze": {
+   "surface": "flame",
+   "meaning": "blaze",
+   "type": "root",
+   "words": [
+    [
+     "heating flame",
+     "elc/science/lab-safety-equipment",
+     "flame"
+    ],
+    [
+     "safety flame",
+     "elc/science/lab-safety-equipment",
+     "flame"
+    ]
+   ]
+  },
   "flash|sudden light": {
    "surface": "flash",
    "meaning": "sudden light",
@@ -881603,6 +884121,28 @@
      "foil",
      "year-9/english/romeo-juliet-drama-glossary-2",
      "foil"
+    ]
+   ]
+  },
+  "food|food": {
+   "surface": "food",
+   "meaning": "food",
+   "type": "root",
+   "words": [
+    [
+     "food chain",
+     "year-10/biology/ecology-zoo",
+     "food"
+    ],
+    [
+     "food web",
+     "year-10/biology/ecology-zoo",
+     "food"
+    ],
+    [
+     "food production",
+     "year-9/humanities/rise-of-the-factory",
+     "food"
     ]
    ]
   },
@@ -897951,6 +900491,11 @@
      "ion"
     ],
     [
+     "union",
+     "year-10/mathematics/probability-representations",
+     "ion"
+    ],
+    [
      "correlation",
      "year-10/mathematics/statistics-data",
      "ion"
@@ -898822,6 +901367,11 @@
     ],
     [
      "food production",
+     "year-9/humanities/rise-of-the-factory",
+     "ion"
+    ],
+    [
+     "textile production",
      "year-9/humanities/rise-of-the-factory",
      "ion"
     ],
@@ -903221,6 +905771,16 @@
      "ity"
     ],
     [
+     "experimental probability",
+     "year-10/mathematics/probability-basics",
+     "ity"
+    ],
+    [
+     "theoretical probability",
+     "year-10/mathematics/probability-basics",
+     "ity"
+    ],
+    [
      "AA, SAS, SSS (similarity tests)",
      "year-10/mathematics/y10m-geometry-2b-2e",
      "ity"
@@ -907228,6 +909788,11 @@
     [
      "sea level",
      "elc/humanities/ancient-australia-migration",
+     "level"
+    ],
+    [
+     "trophic level",
+     "year-10/biology/ecology-zoo",
      "level"
     ],
     [
@@ -914282,6 +916847,11 @@
      "mis"
     ],
     [
+     "mischief",
+     "elc/english/where-the-wild-things-are",
+     "mis"
+    ],
+    [
      "mistreatment",
      "elc/humanities/general-vocabulary",
      "mis"
@@ -920659,6 +923229,11 @@
      "out"
     ],
     [
+     "without replacement",
+     "year-10/mathematics/probability-basics",
+     "out"
+    ],
+    [
      "outlier",
      "year-10/mathematics/statistics-data",
      "out"
@@ -922358,6 +924933,16 @@
     [
      "life expectancy",
      "vce/geography/unit-4-aos-1",
+     "pect"
+    ],
+    [
+     "expected value",
+     "year-10/mathematics/probability-basics",
+     "pect"
+    ],
+    [
+     "expected frequency",
+     "year-10/mathematics/statistics-data",
      "pect"
     ],
     [
@@ -926158,6 +928743,11 @@
      "popul"
     ],
     [
+     "population density",
+     "year-10/biology/epidemiology-pandemic-links",
+     "popul"
+    ],
+    [
      "population",
      "year-10/geography/topics-2-4",
      "popul"
@@ -928771,7 +931361,17 @@
      "prob"
     ],
     [
+     "experimental probability",
+     "year-10/mathematics/probability-basics",
+     "prob"
+    ],
+    [
      "probability",
+     "year-10/mathematics/probability-basics",
+     "prob"
+    ],
+    [
+     "theoretical probability",
      "year-10/mathematics/probability-basics",
      "prob"
     ],
@@ -929885,6 +932485,11 @@
     ],
     [
      "food production",
+     "year-9/humanities/rise-of-the-factory",
+     "pro"
+    ],
+    [
+     "textile production",
      "year-9/humanities/rise-of-the-factory",
      "pro"
     ],
@@ -935307,6 +937912,16 @@
      "rule"
     ],
     [
+     "addition rule",
+     "year-10/mathematics/probability-representations",
+     "rule"
+    ],
+    [
+     "multiplication rule",
+     "year-10/mathematics/probability-representations",
+     "rule"
+    ],
+    [
      "cosine rule",
      "year-10/mathematics/y10m-trig-rules",
      "rule"
@@ -936029,6 +938644,23 @@
      "water scarcity",
      "year-9/humanities/biomes-sustainable",
      "scarc"
+    ]
+   ]
+  },
+  "scatter|throw about widely": {
+   "surface": "scatter",
+   "meaning": "throw about widely",
+   "type": "root",
+   "words": [
+    [
+     "scattered",
+     "elc/english/harrison-bergeron",
+     "scatter"
+    ],
+    [
+     "scatter plot",
+     "year-10/mathematics/statistics-data",
+     "scatter"
     ]
    ]
   },
@@ -938029,6 +940661,11 @@
      "shopping centre",
      "vce/business-management/unit-1-aos-3",
      "shop"
+    ],
+    [
+     "workshop",
+     "year-9/humanities/rise-of-the-factory",
+     "shop"
     ]
    ]
   },
@@ -938168,6 +940805,11 @@
     [
      "side view",
      "year-7/mathematics/y7m-3d-space",
+     "side"
+    ],
+    [
+     "countryside",
+     "year-9/humanities/rise-of-the-factory",
      "side"
     ]
    ]
@@ -939278,6 +941920,11 @@
     [
      "Smallpox",
      "elc/humanities/history",
+     "small"
+    ],
+    [
+     "small-scale",
+     "year-9/humanities/rise-of-the-factory",
      "small"
     ]
    ]
@@ -941187,6 +943834,11 @@
    "meaning": "four equal sides",
    "type": "root",
    "words": [
+    [
+     "Punnett square",
+     "year-10/biology/genetics",
+     "square"
+    ],
     [
      "completing the square",
      "year-10/mathematics/y10m-quadratics",
@@ -944801,6 +947453,11 @@
      "System of protection",
      "elc/humanities/history",
      "sy"
+    ],
+    [
+     "factory system",
+     "year-9/humanities/rise-of-the-factory",
+     "sy"
     ]
    ]
   },
@@ -945374,6 +948031,16 @@
      "s"
     ],
     [
+     "dependent (events)",
+     "year-10/mathematics/probability-basics",
+     "s"
+    ],
+    [
+     "independent (events)",
+     "year-10/mathematics/probability-basics",
+     "s"
+    ],
+    [
      "variations",
      "year-10/sports-science/vocab-list",
      "s"
@@ -945401,6 +948068,11 @@
     [
      "consequences",
      "year-9/english/sapphires-film-words-2",
+     "s"
+    ],
+    [
+     "rural areas",
+     "year-9/humanities/rise-of-the-factory",
      "s"
     ],
     [
@@ -949881,6 +952553,23 @@
     ]
    ]
   },
+  "tree|tree": {
+   "surface": "tree",
+   "meaning": "tree",
+   "type": "root",
+   "words": [
+    [
+     "tree diagram",
+     "year-10/mathematics/probability-representations",
+     "tree"
+    ],
+    [
+     "tree",
+     "year-10/mathematics/y10m-everyday-3",
+     "tree"
+    ]
+   ]
+  },
   "tremend|cause awe or trembling/very great": {
    "surface": "tremend",
    "meaning": "cause awe or trembling/very great",
@@ -950715,6 +953404,23 @@
      "turning point",
      "year-9/humanities/wwi-set-3",
      "turn"
+    ]
+   ]
+  },
+  "two|two": {
+   "surface": "two",
+   "meaning": "two",
+   "type": "root",
+   "words": [
+    [
+     "two-way table",
+     "year-10/mathematics/probability-representations",
+     "two"
+    ],
+    [
+     "two shot",
+     "year-8/english/barbie-camels-camera",
+     "two"
     ]
    ]
   },
@@ -951806,11 +954512,6 @@
      "uni"
     ],
     [
-     "union",
-     "year-10/mathematics/probability-representations",
-     "uni"
-    ],
-    [
      "unit price",
      "year-10/mathematics/y10m-finance-spending",
      "uni"
@@ -952167,6 +954868,11 @@
     [
      "unanimous verdict",
      "vce/legal-studies/unit-2-aos-2c",
+     "un"
+    ],
+    [
+     "union",
+     "year-10/mathematics/probability-representations",
      "un"
     ],
     [
@@ -953159,11 +955865,6 @@
      "val"
     ],
     [
-     "expected value",
-     "year-10/mathematics/probability-basics",
-     "val"
-    ],
-    [
      "value",
      "year-10/mathematics/statistics-data",
      "val"
@@ -953213,6 +955914,11 @@
     [
      "ambivalence",
      "vce/literature/poetry-u12-the-last-apology",
+     "val"
+    ],
+    [
+     "expected value",
+     "year-10/mathematics/probability-basics",
      "val"
     ],
     [
@@ -953876,7 +956582,17 @@
      "vent"
     ],
     [
+     "dependent (events)",
+     "year-10/mathematics/probability-basics",
+     "vent"
+    ],
+    [
      "event",
+     "year-10/mathematics/probability-basics",
+     "vent"
+    ],
+    [
+     "independent (events)",
      "year-10/mathematics/probability-basics",
      "vent"
     ],
@@ -956109,6 +958825,23 @@
     ]
    ]
   },
+  "web|woven thing": {
+   "surface": "web",
+   "meaning": "woven thing",
+   "type": "root",
+   "words": [
+    [
+     "food web",
+     "year-10/biology/ecology-zoo",
+     "web"
+    ],
+    [
+     "web (as symbol)",
+     "year-8/english/catch-me-ch-5-8",
+     "web"
+    ]
+   ]
+  },
   "weigh|carry/heaviness": {
    "surface": "weigh",
    "meaning": "carry/heaviness",
@@ -956300,6 +959033,23 @@
     ]
    ]
   },
+  "with|along with": {
+   "surface": "with",
+   "meaning": "along with",
+   "type": "root",
+   "words": [
+    [
+     "with replacement",
+     "year-10/mathematics/probability-basics",
+     "with"
+    ],
+    [
+     "without replacement",
+     "year-10/mathematics/probability-basics",
+     "with"
+    ]
+   ]
+  },
   "with|back/away": {
    "surface": "with",
    "meaning": "back/away",
@@ -956458,6 +959208,11 @@
     [
      "network",
      "year-9/humanities/interconnection-what-is",
+     "work"
+    ],
+    [
+     "workshop",
+     "year-9/humanities/rise-of-the-factory",
      "work"
     ],
     [
@@ -957618,6 +960373,16 @@
     [
      "probability",
      "year-7/mathematics/chance",
+     "abil"
+    ],
+    [
+     "theoretical probability",
+     "year-10/mathematics/probability-basics",
+     "abil"
+    ],
+    [
+     "experimental probability",
+     "year-10/mathematics/probability-basics",
      "abil"
     ]
    ],
@@ -961423,6 +964188,22 @@
      "terrain",
      "year-9/english/wilderpeople-into-the-bush",
      "ain"
+    ]
+   ]
+  },
+  "air|air": {
+   "surface": "air",
+   "variants": [
+    "air"
+   ],
+   "type": "root",
+   "gloss": "air",
+   "aka": [],
+   "words": [
+    [
+     "air hole",
+     "elc/science/lab-safety-equipment",
+     "air"
     ]
    ]
   },
@@ -967222,6 +970003,11 @@
      "surface area",
      "year-7/mathematics/y7m-3d-space",
      "area"
+    ],
+    [
+     "rural areas",
+     "year-9/humanities/rise-of-the-factory",
+     "area"
     ]
    ]
   },
@@ -967632,6 +970418,22 @@
      "artefact",
      "elc/humanities/ancient-australia-evidence",
      "arte"
+    ]
+   ]
+  },
+  "arthr|joint": {
+   "surface": "arthr",
+   "variants": [
+    "arthr"
+   ],
+   "type": "root",
+   "gloss": "joint",
+   "aka": [],
+   "words": [
+    [
+     "arthritis",
+     "elc/humanities/ancient-australia-lake-mungo",
+     "arthr"
     ]
    ]
   },
@@ -972945,6 +975747,11 @@
      "contamination",
      "elc/humanities/ancient-australia-evidence",
      "ation"
+    ],
+    [
+     "population density",
+     "year-10/biology/epidemiology-pandemic-links",
+     "ation"
     ]
    ],
    "extras": [
@@ -976026,6 +978833,22 @@
     ]
    ]
   },
+  "beacon|signal/sign": {
+   "surface": "beacon",
+   "variants": [
+    "beacon"
+   ],
+   "type": "root",
+   "gloss": "signal/sign",
+   "aka": [],
+   "words": [
+    [
+     "beacon",
+     "elc/english/obama-lines",
+     "beacon"
+    ]
+   ]
+  },
   "beard|hair on the chin and cheeks": {
    "surface": "beard",
    "variants": [
@@ -976227,6 +979050,22 @@
      "unbelievable",
      "year-9/english/sapphires-film-words-1",
      "believ"
+    ]
+   ]
+  },
+  "bell|bell": {
+   "surface": "bell",
+   "variants": [
+    "bell"
+   ],
+   "type": "root",
+   "gloss": "bell",
+   "aka": [],
+   "words": [
+    [
+     "bell curve",
+     "year-10/mathematics/statistics-data",
+     "bell"
     ]
    ]
   },
@@ -977655,6 +980494,22 @@
    ],
    "extras": []
   },
+  "box|box": {
+   "surface": "box",
+   "variants": [
+    "box"
+   ],
+   "type": "root",
+   "gloss": "box",
+   "aka": [],
+   "words": [
+    [
+     "box plot",
+     "year-10/mathematics/statistics-data",
+     "box"
+    ]
+   ]
+  },
   "brag|speak too proudly": {
    "surface": "brag",
    "variants": [
@@ -978154,6 +981009,22 @@
     ]
    ]
   },
+  "bunsen|a scientist's name": {
+   "surface": "bunsen",
+   "variants": [
+    "bunsen"
+   ],
+   "type": "root",
+   "gloss": "a scientist's name",
+   "aka": [],
+   "words": [
+    [
+     "Bunsen burner",
+     "elc/science/lab-safety-equipment",
+     "bunsen"
+    ]
+   ]
+  },
   "burden|a heavy load": {
    "surface": "burden",
    "variants": [
@@ -978234,6 +981105,22 @@
      "burglary",
      "year-8/humanities/law-justice-topic-3",
      "burglar"
+    ]
+   ]
+  },
+  "buri|hide in the ground": {
+   "surface": "buri",
+   "variants": [
+    "buri"
+   ],
+   "type": "root",
+   "gloss": "hide in the ground",
+   "aka": [],
+   "words": [
+    [
+     "burial",
+     "elc/humanities/ancient-australia-trade-conflict",
+     "buri"
     ]
    ]
   },
@@ -978442,6 +981329,22 @@
     ]
    ],
    "extras": []
+  },
+  "but|strike/push": {
+   "surface": "but",
+   "variants": [
+    "but"
+   ],
+   "type": "root",
+   "gloss": "strike/push",
+   "aka": [],
+   "words": [
+    [
+     "rebut",
+     "elc/english/debate-answering-back",
+     "but"
+    ]
+   ]
   },
   "buy|purchase": {
    "surface": "buy",
@@ -979511,6 +982414,22 @@
     ]
    ],
    "extras": []
+  },
+  "carbon|coal": {
+   "surface": "carbon",
+   "variants": [
+    "carbon"
+   ],
+   "type": "root",
+   "gloss": "coal",
+   "aka": [],
+   "words": [
+    [
+     "radiocarbon dating",
+     "elc/humanities/ancient-australia-lake-mungo",
+     "carbon"
+    ]
+   ]
   },
   "carcer|prison": {
    "surface": "carcer",
@@ -981156,6 +984075,11 @@
      "chain mail",
      "year-8/humanities/medieval-daily-life",
      "chain"
+    ],
+    [
+     "food chain",
+     "year-10/biology/ecology-zoo",
+     "chain"
     ]
    ]
   },
@@ -981783,6 +984707,11 @@
     [
      "handkerchief motif",
      "vce/literature/othello-acts-3-4",
+     "chief"
+    ],
+    [
+     "mischief",
+     "elc/english/where-the-wild-things-are",
      "chief"
     ]
    ]
@@ -983162,6 +986091,22 @@
     ]
    ]
   },
+  "clan|family/offspring": {
+   "surface": "clan",
+   "variants": [
+    "clan"
+   ],
+   "type": "root",
+   "gloss": "family/offspring",
+   "aka": [],
+   "words": [
+    [
+     "clan gathering",
+     "elc/humanities/ancient-australia-trade-conflict",
+     "clan"
+    ]
+   ]
+  },
   "clar|clear": {
    "surface": "clar",
    "variants": [
@@ -983910,6 +986855,22 @@
     "colony",
     "coloniser",
     "colonist"
+   ]
+  },
+  "colon|limb/clause": {
+   "surface": "colon",
+   "variants": [
+    "colon"
+   ],
+   "type": "root",
+   "gloss": "limb/clause",
+   "aka": [],
+   "words": [
+    [
+     "tricolon",
+     "elc/english/obama-rhetoric",
+     "colon"
+    ]
    ]
   },
   "colon|settlement": {
@@ -988886,6 +991847,11 @@
      "up-country",
      "elc/english/ironbark-stanza-5",
      "country"
+    ],
+    [
+     "countryside",
+     "year-9/humanities/rise-of-the-factory",
+     "country"
     ]
    ]
   },
@@ -989492,6 +992458,22 @@
     "discredit"
    ]
   },
+  "creed|believe/trust": {
+   "surface": "creed",
+   "variants": [
+    "creed"
+   ],
+   "type": "root",
+   "gloss": "believe/trust",
+   "aka": [],
+   "words": [
+    [
+     "creed",
+     "elc/english/obama-history",
+     "creed"
+    ]
+   ]
+  },
   "creep|crawl": {
    "surface": "creep",
    "variants": [
@@ -989536,6 +992518,22 @@
      "Sovnarkom decree by force",
      "vce/history/unit-3-4-aos-2",
      "cree"
+    ]
+   ]
+  },
+  "crem|burn": {
+   "surface": "crem",
+   "variants": [
+    "crem"
+   ],
+   "type": "root",
+   "gloss": "burn",
+   "aka": [],
+   "words": [
+    [
+     "cremation",
+     "elc/humanities/ancient-australia-lake-mungo",
+     "crem"
     ]
    ]
   },
@@ -991099,6 +994097,22 @@
     ]
    ]
   },
+  "cylind|roll": {
+   "surface": "cylind",
+   "variants": [
+    "cylind"
+   ],
+   "type": "root",
+   "gloss": "roll",
+   "aka": [],
+   "words": [
+    [
+     "measuring cylinder",
+     "elc/science/lab-safety-equipment",
+     "cylind"
+    ]
+   ]
+  },
   "cyn|dog": {
    "surface": "cyn",
    "variants": [
@@ -991582,6 +994596,22 @@
    ],
    "extras": []
   },
+  "dat|given/time": {
+   "surface": "dat",
+   "variants": [
+    "dat"
+   ],
+   "type": "root",
+   "gloss": "given/time",
+   "aka": [],
+   "words": [
+    [
+     "radiocarbon dating",
+     "elc/humanities/ancient-australia-lake-mungo",
+     "dat"
+    ]
+   ]
+  },
   "daunt|tame": {
    "surface": "daunt",
    "variants": [
@@ -991595,6 +994625,22 @@
      "dauntless",
      "vce/literature/frankenstein-letters-1-4",
      "daunt"
+    ]
+   ]
+  },
+  "dawn|become day": {
+   "surface": "dawn",
+   "variants": [
+    "dawn"
+   ],
+   "type": "root",
+   "gloss": "become day",
+   "aka": [],
+   "words": [
+    [
+     "a new dawn",
+     "elc/english/obama-lines",
+     "dawn"
     ]
    ]
   },
@@ -991627,6 +994673,22 @@
      "deadly",
      "vce/literature/throat-treaty-deadly-love",
      "deadly"
+    ]
+   ]
+  },
+  "deal|share/divide out": {
+   "surface": "deal",
+   "variants": [
+    "deal"
+   ],
+   "type": "root",
+   "gloss": "share/divide out",
+   "aka": [],
+   "words": [
+    [
+     "New Deal",
+     "elc/english/obama-history",
+     "deal"
     ]
    ]
   },
@@ -996542,6 +999604,22 @@
     ]
    ]
   },
+  "dot|small spot": {
+   "surface": "dot",
+   "variants": [
+    "dot"
+   ],
+   "type": "root",
+   "gloss": "small spot",
+   "aka": [],
+   "words": [
+    [
+     "dot plot",
+     "year-10/mathematics/statistics-data",
+     "dot"
+    ]
+   ]
+  },
   "double|twofold": {
    "surface": "double",
    "variants": [
@@ -997291,6 +1000369,11 @@
      "conduct",
      "elc/english/gillard-double-standard",
      "duct"
+    ],
+    [
+     "textile production",
+     "year-9/humanities/rise-of-the-factory",
+     "duct"
     ]
    ],
    "extras": [
@@ -997433,6 +1000516,22 @@
      "duty",
      "vce/english/high-ground-loyalty",
      "du"
+    ]
+   ]
+  },
+  "dye|colour": {
+   "surface": "dye",
+   "variants": [
+    "dye"
+   ],
+   "type": "root",
+   "gloss": "colour",
+   "aka": [],
+   "words": [
+    [
+     "dyer",
+     "year-9/humanities/rise-of-the-factory",
+     "dye"
     ]
    ]
   },
@@ -999170,6 +1002269,16 @@
     [
      "volunteered",
      "elc/english/obama-election",
+     "ed"
+    ],
+    [
+     "expected value",
+     "year-10/mathematics/probability-basics",
+     "ed"
+    ],
+    [
+     "expected frequency",
+     "year-10/mathematics/statistics-data",
      "ed"
     ]
    ],
@@ -1004390,6 +1007499,16 @@
      "Traditional Owner",
      "elc/humanities/ancient-australia-conservation",
      "er"
+    ],
+    [
+     "dyer",
+     "year-9/humanities/rise-of-the-factory",
+     "er"
+    ],
+    [
+     "measuring cylinder",
+     "elc/science/lab-safety-equipment",
+     "er"
     ]
    ],
    "extras": [
@@ -1007205,6 +1010324,26 @@
     [
      "excavated",
      "elc/humanities/ancient-australia-evidence",
+     "ex"
+    ],
+    [
+     "expected value",
+     "year-10/mathematics/probability-basics",
+     "ex"
+    ],
+    [
+     "independent (events)",
+     "year-10/mathematics/probability-basics",
+     "e"
+    ],
+    [
+     "dependent (events)",
+     "year-10/mathematics/probability-basics",
+     "e"
+    ],
+    [
+     "expected frequency",
+     "year-10/mathematics/statistics-data",
      "ex"
     ]
    ],
@@ -1010291,6 +1013430,22 @@
    ],
    "extras": []
   },
+  "fin|end/limit": {
+   "surface": "fin",
+   "variants": [
+    "fin"
+   ],
+   "type": "root",
+   "gloss": "end/limit",
+   "aka": [],
+   "words": [
+    [
+     "a defining moment",
+     "elc/english/obama-lines",
+     "fin"
+    ]
+   ]
+  },
   "fin|end/limit/boundary": {
    "surface": "fin",
    "variants": [
@@ -1010357,6 +1013512,22 @@
     ]
    ],
    "extras": []
+  },
+  "fire|fire": {
+   "surface": "fire",
+   "variants": [
+    "fire"
+   ],
+   "type": "root",
+   "gloss": "fire",
+   "aka": [],
+   "words": [
+    [
+     "firestick farming",
+     "elc/humanities/ancient-australia-kinship-land",
+     "fire"
+    ]
+   ]
   },
   "fire|fire (used here to suggest a protective barrier)": {
    "surface": "fire",
@@ -1010615,6 +1013786,27 @@
     ]
    ]
   },
+  "flame|blaze": {
+   "surface": "flame",
+   "variants": [
+    "flame"
+   ],
+   "type": "root",
+   "gloss": "blaze",
+   "aka": [],
+   "words": [
+    [
+     "safety flame",
+     "elc/science/lab-safety-equipment",
+     "flame"
+    ],
+    [
+     "heating flame",
+     "elc/science/lab-safety-equipment",
+     "flame"
+    ]
+   ]
+  },
   "flamm|burn": {
    "surface": "flamm",
    "variants": [
@@ -1010782,6 +1013974,22 @@
      "flat rate depreciation",
      "year-10/mathematics/y10m-finance-spending",
      "flat"
+    ]
+   ]
+  },
+  "flaw|flake/splinter": {
+   "surface": "flaw",
+   "variants": [
+    "flaw"
+   ],
+   "type": "root",
+   "gloss": "flake/splinter",
+   "aka": [],
+   "words": [
+    [
+     "flaw",
+     "elc/english/debate-answering-back",
+     "flaw"
     ]
    ]
   },
@@ -1011336,6 +1014544,32 @@
      "font",
      "vce/english/memory-police-ch3-9",
      "font"
+    ]
+   ]
+  },
+  "food|food": {
+   "surface": "food",
+   "variants": [
+    "food"
+   ],
+   "type": "root",
+   "gloss": "food",
+   "aka": [],
+   "words": [
+    [
+     "food chain",
+     "year-10/biology/ecology-zoo",
+     "food"
+    ],
+    [
+     "food web",
+     "year-10/biology/ecology-zoo",
+     "food"
+    ],
+    [
+     "food production",
+     "year-9/humanities/rise-of-the-factory",
+     "food"
     ]
    ]
   },
@@ -1013562,6 +1016796,22 @@
     ]
    ]
   },
+  "fut|about to be": {
+   "surface": "fut",
+   "variants": [
+    "fut"
+   ],
+   "type": "root",
+   "gloss": "about to be",
+   "aka": [],
+   "words": [
+    [
+     "future generations",
+     "elc/humanities/ancient-australia-conservation",
+     "fut"
+    ]
+   ]
+  },
   "fut|beat/drive back": {
    "surface": "fut",
    "variants": [
@@ -1013857,6 +1017107,48 @@
      "gated estate",
      "year-8/english/catch-me-ch-9-11",
      "gate"
+    ]
+   ]
+  },
+  "gather|bring together": {
+   "surface": "gather",
+   "variants": [
+    "gather"
+   ],
+   "type": "root",
+   "gloss": "bring together",
+   "aka": [],
+   "words": [
+    [
+     "hunter-gatherer",
+     "elc/humanities/ancient-australia-migration",
+     "gather"
+    ],
+    [
+     "gathering",
+     "elc/humanities/ancient-australia-kinship-land",
+     "gather"
+    ],
+    [
+     "clan gathering",
+     "elc/humanities/ancient-australia-trade-conflict",
+     "gather"
+    ]
+   ]
+  },
+  "gauze|thin cloth": {
+   "surface": "gauze",
+   "variants": [
+    "gauze"
+   ],
+   "type": "root",
+   "gloss": "thin cloth",
+   "aka": [],
+   "words": [
+    [
+     "gauze mat",
+     "elc/science/lab-safety-equipment",
+     "gauze"
     ]
    ]
   },
@@ -1016789,6 +1020081,22 @@
     ]
    ]
   },
+  "gun|battle": {
+   "surface": "gun",
+   "variants": [
+    "gun"
+   ],
+   "type": "root",
+   "gloss": "battle",
+   "aka": [],
+   "words": [
+    [
+     "gun",
+     "elc/english/gun-control-basics",
+     "gun"
+    ]
+   ]
+  },
   "gust|taste": {
    "surface": "gust",
    "variants": [
@@ -1017202,6 +1020510,22 @@
      "serious harm (defamation)",
      "vce/legal-studies/unit-2-aos-1b",
      "harm"
+    ]
+   ]
+  },
+  "harness|military gear": {
+   "surface": "harness",
+   "variants": [
+    "harness"
+   ],
+   "type": "root",
+   "gloss": "military gear",
+   "aka": [],
+   "words": [
+    [
+     "harness",
+     "elc/english/obama-the-task",
+     "harness"
     ]
    ]
   },
@@ -1018474,6 +1021798,22 @@
    ],
    "extras": []
   },
+  "hole|hollow opening": {
+   "surface": "hole",
+   "variants": [
+    "hole"
+   ],
+   "type": "root",
+   "gloss": "hollow opening",
+   "aka": [],
+   "words": [
+    [
+     "air hole",
+     "elc/science/lab-safety-equipment",
+     "hole"
+    ]
+   ]
+  },
   "hol|whole": {
    "surface": "hol",
    "variants": [
@@ -1018644,6 +1021984,22 @@
      "homunculus",
      "year-9/english/curious-incident-ch-157-179",
      "homun"
+    ]
+   ]
+  },
+  "hom|human being": {
+   "surface": "hom",
+   "variants": [
+    "hom"
+   ],
+   "type": "root",
+   "gloss": "human being",
+   "aka": [],
+   "words": [
+    [
+     "homicide",
+     "elc/english/gun-control-evidence",
+     "hom"
     ]
    ]
   },
@@ -1020807,6 +1024163,22 @@
     ]
    ],
    "extras": []
+  },
+  "ice|frozen water": {
+   "surface": "ice",
+   "variants": [
+    "ice"
+   ],
+   "type": "root",
+   "gloss": "frozen water",
+   "aka": [],
+   "words": [
+    [
+     "Ice Age",
+     "elc/humanities/ancient-australia-migration",
+     "ice"
+    ]
+   ]
   },
   "ice|state of": {
    "surface": "ice",
@@ -1033681,6 +1037053,16 @@
      "creation story",
      "elc/humanities/ancient-australia-dreaming",
      "ion"
+    ],
+    [
+     "union",
+     "year-10/mathematics/probability-representations",
+     "ion"
+    ],
+    [
+     "textile production",
+     "year-9/humanities/rise-of-the-factory",
+     "ion"
     ]
    ],
    "extras": [
@@ -1037057,6 +1040439,22 @@
    ],
    "extras": []
   },
+  "itis|inflammation": {
+   "surface": "itis",
+   "variants": [
+    "itis"
+   ],
+   "type": "suffix",
+   "gloss": "inflammation",
+   "aka": [],
+   "words": [
+    [
+     "arthritis",
+     "elc/humanities/ancient-australia-lake-mungo",
+     "itis"
+    ]
+   ]
+  },
   "itude|state of": {
    "surface": "itude",
    "variants": [
@@ -1038363,6 +1041761,16 @@
     [
      "identity",
      "elc/humanities/ancient-australia-country",
+     "ity"
+    ],
+    [
+     "theoretical probability",
+     "year-10/mathematics/probability-basics",
+     "ity"
+    ],
+    [
+     "experimental probability",
+     "year-10/mathematics/probability-basics",
      "ity"
     ]
    ],
@@ -1043037,6 +1046445,11 @@
      "sea level",
      "elc/humanities/ancient-australia-migration",
      "level"
+    ],
+    [
+     "trophic level",
+     "year-10/biology/ecology-zoo",
+     "level"
     ]
    ]
   },
@@ -1043355,6 +1046768,22 @@
      "elicits",
      "year-9/english/y9-argument-verbs",
      "licit"
+    ]
+   ]
+  },
+  "lic|be permitted": {
+   "surface": "lic",
+   "variants": [
+    "lic"
+   ],
+   "type": "root",
+   "gloss": "be permitted",
+   "aka": [],
+   "words": [
+    [
+     "licence",
+     "elc/english/gun-control-law",
+     "lic"
     ]
    ]
   },
@@ -1048318,6 +1051747,22 @@
     ]
    ]
   },
+  "mat|woven covering": {
+   "surface": "mat",
+   "variants": [
+    "mat"
+   ],
+   "type": "root",
+   "gloss": "woven covering",
+   "aka": [],
+   "words": [
+    [
+     "gauze mat",
+     "elc/science/lab-safety-equipment",
+     "mat"
+    ]
+   ]
+  },
   "maxim|greatest": {
    "surface": "maxim",
    "variants": [
@@ -1052153,6 +1055598,11 @@
      "misunderstanding",
      "year-9/english/sapphires-film-words-2",
      "mis"
+    ],
+    [
+     "mischief",
+     "elc/english/where-the-wild-things-are",
+     "mis"
     ]
    ],
    "extras": [
@@ -1053044,6 +1056494,22 @@
     ]
    ]
   },
+  "mont|mountain": {
+   "surface": "mont",
+   "variants": [
+    "mont"
+   ],
+   "type": "root",
+   "gloss": "mountain",
+   "aka": [],
+   "words": [
+    [
+     "Montgomery",
+     "elc/english/obama-history",
+     "mont"
+    ]
+   ]
+  },
   "mony|state or result of (makes a noun)": {
    "surface": "mony",
    "variants": [
@@ -1053227,6 +1056693,22 @@
      "mood",
      "year-9/english/sapphires-song-analysis",
      "mood"
+    ]
+   ]
+  },
+  "moon|the moon": {
+   "surface": "moon",
+   "variants": [
+    "moon"
+   ],
+   "type": "root",
+   "gloss": "the moon",
+   "aka": [],
+   "words": [
+    [
+     "the moon",
+     "elc/english/obama-history",
+     "moon"
     ]
    ]
   },
@@ -1057789,6 +1061271,22 @@
     "obvious"
    ]
   },
+  "ochre|pale yellow": {
+   "surface": "ochre",
+   "variants": [
+    "ochre"
+   ],
+   "type": "root",
+   "gloss": "pale yellow",
+   "aka": [],
+   "words": [
+    [
+     "ochre",
+     "elc/humanities/ancient-australia-lake-mungo",
+     "ochre"
+    ]
+   ]
+  },
   "ocul|eye": {
    "surface": "ocul",
    "variants": [
@@ -1058366,6 +1061864,22 @@
      "oncologist",
      "vce/english/u2-arguments-past-issues",
      "onc"
+    ]
+   ]
+  },
+  "one|single": {
+   "surface": "one",
+   "variants": [
+    "one"
+   ],
+   "type": "root",
+   "gloss": "single",
+   "aka": [],
+   "words": [
+    [
+     "out of many we are one",
+     "elc/english/obama-lines",
+     "one"
     ]
    ]
   },
@@ -1060880,6 +1064394,11 @@
      "media outlet",
      "year-8/english/barbie-media-literacy",
      "out"
+    ],
+    [
+     "without replacement",
+     "year-10/mathematics/probability-basics",
+     "out"
     ]
    ],
    "extras": [],
@@ -1062401,6 +1065920,22 @@
     ]
    ],
    "extras": []
+  },
+  "pascal|a mathematician's name": {
+   "surface": "pascal",
+   "variants": [
+    "pascal"
+   ],
+   "type": "root",
+   "gloss": "a mathematician's name",
+   "aka": [],
+   "words": [
+    [
+     "Pascal’s triangle",
+     "year-10/mathematics/probability-representations",
+     "pascal"
+    ]
+   ]
   },
   "pass|feel": {
    "surface": "pass",
@@ -1065923,6 +1069458,22 @@
     ]
    ]
   },
+  "pitch|to thrust in": {
+   "surface": "pitch",
+   "variants": [
+    "pitch"
+   ],
+   "type": "root",
+   "gloss": "to thrust in",
+   "aka": [],
+   "words": [
+    [
+     "pitch in",
+     "elc/english/obama-lines",
+     "pitch"
+    ]
+   ]
+  },
   "pi|greek letter p": {
    "surface": "pi",
    "variants": [
@@ -1068929,6 +1072480,11 @@
      "pop culture",
      "vce/literature/morphing-collection",
      "pop"
+    ],
+    [
+     "population density",
+     "year-10/biology/epidemiology-pandemic-links",
+     "popul"
     ]
    ],
    "extras": [
@@ -1072905,6 +1076461,11 @@
      "protect",
      "elc/humanities/ancient-australia-conservation",
      "pro"
+    ],
+    [
+     "textile production",
+     "year-9/humanities/rise-of-the-factory",
+     "pro"
     ]
    ],
    "extras": [
@@ -1073289,6 +1076850,22 @@
     "punctual",
     "puncture",
     "acupuncture"
+   ]
+  },
+  "punnett|a scientist's name": {
+   "surface": "punnett",
+   "variants": [
+    "punnett"
+   ],
+   "type": "root",
+   "gloss": "a scientist's name",
+   "aka": [],
+   "words": [
+    [
+     "Punnett square",
+     "year-10/biology/genetics",
+     "punnett"
+    ]
    ]
   },
   "pun|penalty/pain": {
@@ -1079299,6 +1082876,22 @@
     ]
    ]
   },
+  "rit|rite/custom": {
+   "surface": "rit",
+   "variants": [
+    "rit"
+   ],
+   "type": "root",
+   "gloss": "rite/custom",
+   "aka": [],
+   "words": [
+    [
+     "ritual",
+     "elc/humanities/ancient-australia-dreaming",
+     "rit"
+    ]
+   ]
+  },
   "riv|stream/bank": {
    "surface": "riv",
    "variants": [
@@ -1079765,6 +1083358,16 @@
     [
      "table and rule",
      "year-7/mathematics/y7m-cartesian",
+     "rule"
+    ],
+    [
+     "multiplication rule",
+     "year-10/mathematics/probability-representations",
+     "rule"
+    ],
+    [
+     "addition rule",
+     "year-10/mathematics/probability-representations",
      "rule"
     ]
    ],
@@ -1080611,6 +1084214,22 @@
     ]
    ]
   },
+  "scale|ladder/step": {
+   "surface": "scale",
+   "variants": [
+    "scale"
+   ],
+   "type": "root",
+   "gloss": "ladder/step",
+   "aka": [],
+   "words": [
+    [
+     "small-scale",
+     "year-9/humanities/rise-of-the-factory",
+     "scale"
+    ]
+   ]
+  },
   "scal|ladder/step": {
    "surface": "scal",
    "variants": [
@@ -1080909,6 +1084528,11 @@
     [
      "scattered",
      "elc/english/harrison-bergeron",
+     "scatter"
+    ],
+    [
+     "scatter plot",
+     "year-10/mathematics/statistics-data",
      "scatter"
     ]
    ]
@@ -1081420,6 +1085044,22 @@
      "season",
      "elc/humanities/ancient-australia-country",
      "season"
+    ]
+   ]
+  },
+  "sea|the ocean": {
+   "surface": "sea",
+   "variants": [
+    "sea"
+   ],
+   "type": "root",
+   "gloss": "the ocean",
+   "aka": [],
+   "words": [
+    [
+     "sea level",
+     "elc/humanities/ancient-australia-migration",
+     "sea"
     ]
    ]
   },
@@ -1081985,6 +1085625,22 @@
     ]
    ]
   },
+  "selma|a town's name": {
+   "surface": "selma",
+   "variants": [
+    "selma"
+   ],
+   "type": "root",
+   "gloss": "a town's name",
+   "aka": [],
+   "words": [
+    [
+     "Selma",
+     "elc/english/obama-history",
+     "selma"
+    ]
+   ]
+  },
   "semant|meaning": {
    "surface": "semant",
    "variants": [
@@ -1082084,6 +1085740,22 @@
      "antisemitism",
      "year-9/humanities/holocaust-set-1",
      "semit"
+    ]
+   ]
+  },
+  "semi|half": {
+   "surface": "semi",
+   "variants": [
+    "semi"
+   ],
+   "type": "prefix",
+   "gloss": "half",
+   "aka": [],
+   "words": [
+    [
+     "semi-automatic",
+     "elc/english/gun-control-evidence",
+     "semi"
     ]
    ]
   },
@@ -1083846,6 +1087518,27 @@
     ]
    ]
   },
+  "shoot|throw swiftly": {
+   "surface": "shoot",
+   "variants": [
+    "shoot"
+   ],
+   "type": "root",
+   "gloss": "throw swiftly",
+   "aka": [],
+   "words": [
+    [
+     "shoot",
+     "elc/english/gun-control-basics",
+     "shoot"
+    ],
+    [
+     "shooter",
+     "elc/english/gun-control-basics",
+     "shoot"
+    ]
+   ]
+  },
   "shop|stall/booth": {
    "surface": "shop",
    "variants": [
@@ -1083863,6 +1087556,11 @@
     [
      "retail shopping strip",
      "vce/business-management/unit-1-aos-3",
+     "shop"
+    ],
+    [
+     "workshop",
+     "year-9/humanities/rise-of-the-factory",
      "shop"
     ]
    ]
@@ -1084122,6 +1087820,11 @@
     [
      "side view",
      "year-7/mathematics/y7m-3d-space",
+     "side"
+    ],
+    [
+     "countryside",
+     "year-9/humanities/rise-of-the-factory",
      "side"
     ]
    ]
@@ -1085178,6 +1088881,22 @@
    ],
    "extras": []
   },
+  "sit|position/place": {
+   "surface": "sit",
+   "variants": [
+    "sit"
+   ],
+   "type": "root",
+   "gloss": "position/place",
+   "aka": [],
+   "words": [
+    [
+     "sacred site",
+     "elc/humanities/ancient-australia-conservation",
+     "sit"
+    ]
+   ]
+  },
   "skelet|dried up": {
    "surface": "skelet",
    "variants": [
@@ -1085577,6 +1089296,11 @@
     [
      "Smallpox",
      "elc/humanities/general-vocabulary",
+     "small"
+    ],
+    [
+     "small-scale",
+     "year-9/humanities/rise-of-the-factory",
      "small"
     ]
    ]
@@ -1087541,6 +1091265,16 @@
      "disrespectful",
      "elc/humanities/ancient-australia-conservation",
      "spect"
+    ],
+    [
+     "expected value",
+     "year-10/mathematics/probability-basics",
+     "pect"
+    ],
+    [
+     "expected frequency",
+     "year-10/mathematics/statistics-data",
+     "pect"
     ]
    ],
    "extras": [
@@ -1088294,6 +1092028,11 @@
     [
      "perfect square",
      "year-7/mathematics/y7m-surds",
+     "square"
+    ],
+    [
+     "Punnett square",
+     "year-10/biology/genetics",
      "square"
     ]
    ]
@@ -1089376,6 +1093115,11 @@
      "statistic",
      "elc/english/gun-control-evidence",
      "stat"
+    ],
+    [
+     "factory system",
+     "year-9/humanities/rise-of-the-factory",
+     "stem"
     ]
    ],
    "extras": [
@@ -1089577,6 +1093321,22 @@
      "Armistice",
      "year-9/humanities/wwi-set-4",
      "stice"
+    ]
+   ]
+  },
+  "stick|a thin piece of wood": {
+   "surface": "stick",
+   "variants": [
+    "stick"
+   ],
+   "type": "root",
+   "gloss": "a thin piece of wood",
+   "aka": [],
+   "words": [
+    [
+     "firestick farming",
+     "elc/humanities/ancient-australia-kinship-land",
+     "stick"
     ]
    ]
   },
@@ -1090545,6 +1094305,22 @@
      "stream of consciousness",
      "vce/literature/lit-meta-devices-structure",
      "stream"
+    ]
+   ]
+  },
+  "street|paved way": {
+   "surface": "street",
+   "variants": [
+    "street"
+   ],
+   "type": "root",
+   "gloss": "paved way",
+   "aka": [],
+   "words": [
+    [
+     "Main Street and Wall Street",
+     "elc/english/obama-lines",
+     "street"
     ]
    ]
   },
@@ -1093200,6 +1096976,27 @@
      "System of protection",
      "elc/humanities/general-vocabulary",
      "sy"
+    ],
+    [
+     "factory system",
+     "year-9/humanities/rise-of-the-factory",
+     "sy"
+    ]
+   ]
+  },
+  "s|belongs to": {
+   "surface": "s",
+   "variants": [
+    "s"
+   ],
+   "type": "suffix",
+   "gloss": "belongs to",
+   "aka": [],
+   "words": [
+    [
+     "Pascal’s triangle",
+     "year-10/mathematics/probability-representations",
+     "s"
     ]
    ]
   },
@@ -1093827,6 +1097624,21 @@
     [
      "micrographs",
      "elc/humanities/ancient-australia-evidence",
+     "s"
+    ],
+    [
+     "independent (events)",
+     "year-10/mathematics/probability-basics",
+     "s"
+    ],
+    [
+     "dependent (events)",
+     "year-10/mathematics/probability-basics",
+     "s"
+    ],
+    [
+     "rural areas",
+     "year-9/humanities/rise-of-the-factory",
      "s"
     ]
    ],
@@ -1096551,6 +1100363,22 @@
     "protest",
     "detest",
     "testament"
+   ]
+  },
+  "test|try": {
+   "surface": "test",
+   "variants": [
+    "test"
+   ],
+   "type": "root",
+   "gloss": "try",
+   "aka": [],
+   "words": [
+    [
+     "test tube",
+     "elc/science/lab-safety-equipment",
+     "test"
+    ]
    ]
   },
   "test|witness/challenge": {
@@ -1099946,6 +1103774,11 @@
      "tree",
      "year-10/mathematics/y10m-everyday-3",
      "tree"
+    ],
+    [
+     "tree diagram",
+     "year-10/mathematics/probability-representations",
+     "tree"
     ]
    ]
   },
@@ -1100937,6 +1104770,22 @@
     ]
    ]
   },
+  "tube|pipe": {
+   "surface": "tube",
+   "variants": [
+    "tube"
+   ],
+   "type": "root",
+   "gloss": "pipe",
+   "aka": [],
+   "words": [
+    [
+     "test tube",
+     "elc/science/lab-safety-equipment",
+     "tube"
+    ]
+   ]
+  },
   "tude|state/degree of": {
    "surface": "tude",
    "variants": [
@@ -1101241,6 +1105090,11 @@
     [
      "two shot",
      "year-8/english/barbie-camels-camera",
+     "two"
+    ],
+    [
+     "two-way table",
+     "year-10/mathematics/probability-representations",
      "two"
     ]
    ]
@@ -1103062,6 +1106916,11 @@
     [
      "trade union",
      "year-9/humanities/indrev-set-2",
+     "un"
+    ],
+    [
+     "union",
+     "year-10/mathematics/probability-representations",
      "un"
     ]
    ]
@@ -1105263,6 +1109122,22 @@
     ]
    ]
   },
+  "venn|a mathematician's name": {
+   "surface": "venn",
+   "variants": [
+    "venn"
+   ],
+   "type": "root",
+   "gloss": "a mathematician's name",
+   "aka": [],
+   "words": [
+    [
+     "Venn diagram",
+     "year-10/mathematics/probability-representations",
+     "venn"
+    ]
+   ]
+  },
   "venom|poison": {
    "surface": "venom",
    "variants": [
@@ -1105508,6 +1109383,16 @@
     [
      "venture capitalist",
      "year-8/humanities/y8-business-week-5",
+     "vent"
+    ],
+    [
+     "independent (events)",
+     "year-10/mathematics/probability-basics",
+     "vent"
+    ],
+    [
+     "dependent (events)",
+     "year-10/mathematics/probability-basics",
      "vent"
     ]
    ],
@@ -1108459,6 +1112344,22 @@
    ],
    "extras": []
   },
+  "way|path": {
+   "surface": "way",
+   "variants": [
+    "way"
+   ],
+   "type": "root",
+   "gloss": "path",
+   "aka": [],
+   "words": [
+    [
+     "two-way table",
+     "year-10/mathematics/probability-representations",
+     "way"
+    ]
+   ]
+  },
   "weak|weak": {
    "surface": "weak",
    "variants": [
@@ -1108488,6 +1112389,22 @@
      "wealth",
      "elc/science/ecosystems",
      "weal"
+    ]
+   ]
+  },
+  "weapon|instrument of fighting": {
+   "surface": "weapon",
+   "variants": [
+    "weapon"
+   ],
+   "type": "root",
+   "gloss": "instrument of fighting",
+   "aka": [],
+   "words": [
+    [
+     "weapon",
+     "elc/english/gun-control-basics",
+     "weapon"
     ]
    ]
   },
@@ -1108535,6 +1112452,11 @@
     [
      "web (as symbol)",
      "year-8/english/catch-me-ch-5-8",
+     "web"
+    ],
+    [
+     "food web",
+     "year-10/biology/ecology-zoo",
      "web"
     ]
    ]
@@ -1109003,6 +1112925,27 @@
     ]
    ]
   },
+  "with|along with": {
+   "surface": "with",
+   "variants": [
+    "with"
+   ],
+   "type": "root",
+   "gloss": "along with",
+   "aka": [],
+   "words": [
+    [
+     "with replacement",
+     "year-10/mathematics/probability-basics",
+     "with"
+    ],
+    [
+     "without replacement",
+     "year-10/mathematics/probability-basics",
+     "with"
+    ]
+   ]
+  },
   "with|back/away": {
    "surface": "with",
    "variants": [
@@ -1109241,6 +1113184,11 @@
     [
      "trade network",
      "elc/humanities/ancient-australia-trade-conflict",
+     "work"
+    ],
+    [
+     "workshop",
+     "year-9/humanities/rise-of-the-factory",
      "work"
     ]
    ]
