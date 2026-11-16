@@ -12,6 +12,7 @@ const ASSETS = [
   './assets/js/supabase.js',
   './assets/js/speech.js',
   './assets/js/privacy-guard.js',
+  './assets/js/focus-guard.js',
   // Version-stamped to match the URL the app asks for, so a new release
   // precaches its own words rather than inheriting the previous release's.
   './data/vocab.json?v=' + BUILD,

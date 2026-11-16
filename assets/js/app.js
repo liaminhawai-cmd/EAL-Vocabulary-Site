@@ -1,6 +1,7 @@
 import * as store from './store.js';
 import * as sb from './supabase.js';
 import * as speech from './speech.js';
+import * as focusGuard from './focus-guard.js';
 
 // ---------------------------------------------------------------------------
 // tiny DOM helper
@@ -768,8 +769,13 @@ function router() {
       if (r.parts[i].startsWith(':')) params[r.parts[i].slice(1)] = decodeURIComponent(segs[i]);
       else if (r.parts[i] !== segs[i]) { ok = false; break; }
     }
-    if (ok) { window.scrollTo(0, 0); return r.handler(params); }
+    if (ok) {
+      if (r.handler !== renderBuildBoard) focusGuard.release();
+      window.scrollTo(0, 0);
+      return r.handler(params);
+    }
   }
+  focusGuard.release();
   renderHome();
 }
 
@@ -1358,6 +1364,8 @@ function renderBuildBoard({ levelId, subjectId, unitId }) {
   if (!unit) return renderHome();
   if (!unit.interactive) return renderBrowse({ levelId, subjectId, unitId });
   const parentHref = unitParentHref(level, subject, unit);
+  // Fullscreen guard: leaving fullscreen twice restarts the unit (new state).
+  focusGuard.enter(() => renderBuildBoard({ levelId, subjectId, unitId }));
 
   const sets = buildSets(unit);
   let si = 0;              // current set index
@@ -2039,6 +2047,7 @@ function relatedByRoot(subject, word) {
 }
 
 function renderUnitDone(level, subject, unit) {
+  focusGuard.release();
   render(h('div', { class: 'stack center-card' },
     h('div', { class: 'card done-card' },
       h('div', { class: 'big-emoji' }, '🎉'),

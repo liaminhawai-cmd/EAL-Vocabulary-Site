@@ -950,3 +950,12 @@ ruby rt { line-height: 1.15; color: var(--muted); font-weight: 400;
 @media (max-width: 640px) {
   .tr-tag { min-width: 3.4em; font-size: .58rem; }
 }
+
+/* Fullscreen guard overlay (assets/js/focus-guard.js) */
+.focus-guard { position: fixed; inset: 0; z-index: 10000; display: flex; align-items: center;
+  justify-content: center; padding: 16px; background: #1e1b4b; }
+.focus-guard-box { max-width: 460px; background: #fff; color: #1f2937; border-radius: 14px;
+  padding: 24px; display: grid; gap: 12px; text-align: center; }
+.focus-guard-box h2 { margin: 0; }
+.focus-guard-box p { margin: 0; }
+.focus-guard-box .btn { min-height: 44px; }
