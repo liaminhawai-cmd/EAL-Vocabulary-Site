@@ -77,6 +77,15 @@ function getLang() {
   const v = store.getPref('lang', 'zh-Hans');
   return v === 'other' ? 'zh-Hans' : v;
 }
+// 'en' = English only, for students who speak English at home and want the
+// vocabulary without a translation beside it. It is a picker option, not a
+// language in the data: every translation lookup returns nothing for it, so
+// the app falls back to its English definitions everywhere (study cards, the
+// "match the meaning" check, drill rung 2), and rung 1 (home language ->
+// English) has nothing to prompt with and drops out by itself.
+const EN_ONLY = 'en';
+const EN_ONLY_OPTION = { code: EN_ONLY, label: 'English only (no translation)' };
+function englishOnly() { return getLang() === EN_ONLY; }
 function langLabel(code) {
   const l = (DATA.languages || []).find((x) => x.code === code);
   return l ? l.label : code;
@@ -103,12 +112,12 @@ function langShort(code) { return LANG_SHORT[code] || langLabel(code); }
 // language and still decides every drill prompt, answer and grade. Nothing here
 // touches what is marked right or wrong.
 function knownLang(code) {
-  return !!code && code !== 'other'
+  return !!code && code !== 'other' && code !== EN_ONLY
     && (DATA.languages || []).some((l) => l.code === code);
 }
 function getExtraLangs() {
   const raw = store.getPref('extraLangs', '');
-  if (!raw) return [];
+  if (!raw || englishOnly()) return [];
   const seen = new Set([getLang()]); // never repeat the student's own language
   return String(raw).split(',').map((s) => s.trim()).filter((c) => {
     if (!knownLang(c) || seen.has(c)) return false;
@@ -145,7 +154,7 @@ function transNodes(translations, langs, exact = false) {
 // Prefer the student's chosen language; fall back to whatever is available
 // rather than showing a blank cell (not every morpheme has every language).
 function pickTranslation(translations, lang) {
-  if (!translations) return '';
+  if (!translations || lang === EN_ONLY) return '';
   if (translations[lang]) return translations[lang];
   // Simplified and Traditional Chinese are the same language in different
   // scripts. A legacy source list may carry only one; prefer that over
@@ -160,7 +169,7 @@ function pickTranslation(translations, lang) {
 // that per-morpheme fall-through is what made a bank read as a mix of whatever
 // happened to be available (e.g. Vietnamese on one row, Farsi on the next).
 function pickExact(translations, lang) {
-  if (!translations) return '';
+  if (!translations || lang === EN_ONLY) return '';
   if (translations[lang]) return translations[lang];
   if (lang === 'zh-Hans' && translations['zh-Hant']) return translations['zh-Hant'];
   if (lang === 'zh-Hant' && translations['zh-Hans']) return translations['zh-Hans'];
@@ -170,6 +179,7 @@ function pickExact(translations, lang) {
 // appears at all, otherwise the most common language present — so meanings read
 // consistently in ONE language instead of a per-morpheme mix.
 function displayLangFor(dicts, lang) {
+  if (lang === EN_ONLY) return EN_ONLY;   // no most-common-language fallback: English only means none
   const counts = {};
   for (const t of dicts) for (const code of Object.keys(t || {})) {
     if (code === 'other') continue;
@@ -939,6 +949,7 @@ function nat(text, lang) {
 // (tap to remove) plus a dropdown to add another. Sits next to the normal
 // language picker on the pages a teacher actually projects.
 function langExtraPicker(rerender) {
+  if (englishOnly()) return null;   // English only shows no translations, so nothing to add
   const redraw = typeof rerender === 'function' ? rerender : router;
   const extras = getExtraLangs();
   const wrap = h('span', { class: 'lang-extra' });
@@ -955,7 +966,7 @@ function langExtraPicker(rerender) {
   }
   const taken = new Set([getLang(), ...extras]);
   const available = (DATA.languages || [])
-    .filter((l) => l.code !== 'other' && !taken.has(l.code));
+    .filter((l) => l.code !== 'other' && l.code !== EN_ONLY && !taken.has(l.code));
   if (!available.length) return wrap;
   const sel = h('select', {
     class: 'lang-select sm lang-add',
@@ -3509,7 +3520,7 @@ const HOWTO_STEPS = [
       am: 'ሊገመት የማይችል', ro: 'imprevizibil', ps: 'نه وړاندوینه کېدونکی', ur: 'ناقابلِ پیش گوئی',
     };
     const lang = getLang();
-    const entries = orderedTranslations(translations, lang);
+    const entries = lang === EN_ONLY ? [] : orderedTranslations(translations, lang);
     return [
       splitWord(['un', 'pre', 'dict', 'able']),
       h('div', { class: 'chips center' }, ...stagger(entries.map(([code, t]) =>
@@ -3646,6 +3657,8 @@ async function boot() {
     const response = await fetch(VOCAB_URL);
     if (!response.ok) throw new Error(`Vocabulary request failed (${response.status})`);
     DATA = await response.json();
+    // English only sits at the top of every language picker (see EN_ONLY).
+    if (Array.isArray(DATA.languages) && !DATA.languages.some((l) => l.code === EN_ONLY)) DATA.languages.unshift(EN_ONLY_OPTION);
   } catch (error) {
     console.error('Could not load vocabulary:', error);
     render(h('section', { class: 'loading-card', role: 'alert' },
