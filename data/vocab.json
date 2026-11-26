@@ -64431,8 +64431,84 @@
         },
         {
          "word": "drawings",
-         "parts": [],
-         "root": "",
+         "parts": [
+          {
+           "surface": "draw",
+           "type": "root",
+           "meaning": "pull",
+           "translations": {
+            "am": "መሳብ",
+            "ar": "سحب",
+            "es": "tirar/arrastrar",
+            "fa": "کشیدن",
+            "fr": "tirer",
+            "hi": "खींचना",
+            "ja": "引く",
+            "ko": "끌다",
+            "ml": "വലിക്കുക",
+            "ps": "کشول",
+            "ro": "a trage",
+            "ru": "тянуть",
+            "ta": "இழு",
+            "tl": "hilahin",
+            "ur": "کھینچنا",
+            "vi": "kéo",
+            "zh-Hans": "拉；拖",
+            "zh-Hant": "拉；拖"
+           }
+          },
+          {
+           "surface": "ing",
+           "type": "suffix",
+           "meaning": "process",
+           "translations": {
+            "vi": "quá trình",
+            "am": "ሂደት",
+            "ar": "عملية",
+            "es": "proceso",
+            "fa": "فرایند",
+            "fr": "processus",
+            "hi": "प्रक्रिया",
+            "ja": "過程",
+            "ko": "과정",
+            "ml": "പ്രക്രിയ",
+            "ps": "پروسه",
+            "ro": "proces",
+            "ru": "процесс",
+            "ta": "செயல்முறை",
+            "tl": "proseso",
+            "ur": "عمل",
+            "zh-Hans": "过程",
+            "zh-Hant": "過程"
+           }
+          },
+          {
+           "surface": "s",
+           "type": "suffix",
+           "meaning": "plural",
+           "translations": {
+            "zh-Hans": "复数",
+            "zh-Hant": "複數",
+            "vi": "số nhiều",
+            "am": "ብዙ ቁጥር",
+            "ar": "جمع",
+            "es": "plural",
+            "fa": "جمع",
+            "fr": "pluriel",
+            "hi": "बहुवचन",
+            "ja": "複数",
+            "ko": "복수",
+            "ml": "ബഹുവചനം",
+            "ps": "جمع",
+            "ro": "plural",
+            "ru": "множественное число",
+            "ta": "பன்மை",
+            "tl": "maramihan",
+            "ur": "جمع"
+           }
+          }
+         ],
+         "root": "draw",
          "meaning": "cash or goods the owner takes out of the business for personal use.",
          "example": "",
          "tier": 3,
@@ -135429,8 +135505,59 @@
         },
         {
          "word": "machine learning",
-         "parts": [],
-         "root": "",
+         "parts": [
+          {
+           "surface": "learn",
+           "type": "root",
+           "meaning": "get knowledge",
+           "translations": {
+            "am": "እውቀት ማግኘት",
+            "ar": "اكتساب المعرفة",
+            "es": "adquirir conocimiento",
+            "fa": "دانش به دست آوردن",
+            "fr": "acquérir des connaissances",
+            "hi": "ज्ञान प्राप्त करना",
+            "ja": "知識を得る",
+            "ko": "지식을 얻다",
+            "ml": "അറിവ് നേടുക",
+            "ps": "پوهه ترلاسه کول",
+            "ro": "a dobândi cunoștințe",
+            "ru": "получать знания",
+            "ta": "அறிவைப் பெறு",
+            "tl": "magkaroon ng kaalaman",
+            "ur": "علم حاصل کرنا",
+            "vi": "tiếp thu kiến thức",
+            "zh-Hans": "获得知识",
+            "zh-Hant": "獲得知識"
+           }
+          },
+          {
+           "surface": "ing",
+           "type": "suffix",
+           "meaning": "process",
+           "translations": {
+            "vi": "quá trình",
+            "am": "ሂደት",
+            "ar": "عملية",
+            "es": "proceso",
+            "fa": "فرایند",
+            "fr": "processus",
+            "hi": "प्रक्रिया",
+            "ja": "過程",
+            "ko": "과정",
+            "ml": "പ്രക്രിയ",
+            "ps": "پروسه",
+            "ro": "proces",
+            "ru": "процесс",
+            "ta": "செயல்முறை",
+            "tl": "proseso",
+            "ur": "عمل",
+            "zh-Hans": "过程",
+            "zh-Hant": "過程"
+           }
+          }
+         ],
+         "root": "learn",
          "meaning": "a type of AI where a computer improves at a task by learning patterns from data, rather than being explicitly programmed.",
          "example": "",
          "tier": 3,
@@ -145704,8 +145831,84 @@
         },
         {
          "word": "code switching",
-         "parts": [],
-         "root": "",
+         "parts": [
+          {
+           "surface": "code",
+           "type": "root",
+           "meaning": "book/tablet",
+           "translations": {
+            "am": "መጽሐፍ / ሰሌዳ",
+            "ar": "كتاب / لوح",
+            "es": "libro/tablilla",
+            "fa": "کتاب / لوح",
+            "fr": "livre / tablette",
+            "hi": "पुस्तक / पटिया",
+            "ja": "本・書き板",
+            "ko": "책 / 서판",
+            "ml": "പുസ്തകം / ഫലകം",
+            "ps": "کتاب / تخته",
+            "ro": "carte / tăbliță",
+            "ru": "книга / дощечка",
+            "ta": "நூல் / பலகை",
+            "tl": "aklat / tableta",
+            "ur": "کتاب / تختی",
+            "vi": "sách / bảng viết",
+            "zh-Hans": "书；书写板",
+            "zh-Hant": "書；書寫板"
+           }
+          },
+          {
+           "surface": "switch",
+           "type": "root",
+           "meaning": "change over",
+           "translations": {
+            "am": "መቀየር",
+            "ar": "التحويل / التبديل",
+            "es": "cambiar",
+            "fa": "عوض کردن",
+            "fr": "changer / basculer",
+            "hi": "बदलना",
+            "ja": "切り替える",
+            "ko": "전환하다",
+            "ml": "മാറ്റുക",
+            "ps": "بدلول",
+            "ro": "a schimba",
+            "ru": "переключать",
+            "ta": "மாற்று",
+            "tl": "magpalit",
+            "ur": "بدلنا",
+            "vi": "chuyển đổi",
+            "zh-Hans": "转换；切换",
+            "zh-Hant": "轉換；切換"
+           }
+          },
+          {
+           "surface": "ing",
+           "type": "suffix",
+           "meaning": "process",
+           "translations": {
+            "vi": "quá trình",
+            "am": "ሂደት",
+            "ar": "عملية",
+            "es": "proceso",
+            "fa": "فرایند",
+            "fr": "processus",
+            "hi": "प्रक्रिया",
+            "ja": "過程",
+            "ko": "과정",
+            "ml": "പ്രക്രിയ",
+            "ps": "پروسه",
+            "ro": "proces",
+            "ru": "процесс",
+            "ta": "செயல்முறை",
+            "tl": "proseso",
+            "ur": "عمل",
+            "zh-Hans": "过程",
+            "zh-Hant": "過程"
+           }
+          }
+         ],
+         "root": "code",
          "meaning": "the practice of alternating between two or more languages or language varieties within a conversation.",
          "example": "",
          "tier": 3,
@@ -199429,7 +199632,26 @@
            "surface": "switch",
            "type": "root",
            "meaning": "change over",
-           "translations": {}
+           "translations": {
+            "am": "መቀየር",
+            "ar": "التحويل / التبديل",
+            "es": "cambiar",
+            "fa": "عوض کردن",
+            "fr": "changer / basculer",
+            "hi": "बदलना",
+            "ja": "切り替える",
+            "ko": "전환하다",
+            "ml": "മാറ്റുക",
+            "ps": "بدلول",
+            "ro": "a schimba",
+            "ru": "переключать",
+            "ta": "மாற்று",
+            "tl": "magpalit",
+            "ur": "بدلنا",
+            "vi": "chuyển đổi",
+            "zh-Hans": "转换；切换",
+            "zh-Hant": "轉換；切換"
+           }
           },
           {
            "surface": "ing",
@@ -206515,7 +206737,26 @@
            "surface": "switch",
            "type": "root",
            "meaning": "change over",
-           "translations": {}
+           "translations": {
+            "am": "መቀየር",
+            "ar": "التحويل / التبديل",
+            "es": "cambiar",
+            "fa": "عوض کردن",
+            "fr": "changer / basculer",
+            "hi": "बदलना",
+            "ja": "切り替える",
+            "ko": "전환하다",
+            "ml": "മാറ്റുക",
+            "ps": "بدلول",
+            "ro": "a schimba",
+            "ru": "переключать",
+            "ta": "மாற்று",
+            "tl": "magpalit",
+            "ur": "بدلنا",
+            "vi": "chuyển đổi",
+            "zh-Hans": "转换；切换",
+            "zh-Hant": "轉換；切換"
+           }
           },
           {
            "surface": "ing",
@@ -233504,8 +233745,59 @@
        "words": [
         {
          "word": "elements of music",
-         "parts": [],
-         "root": "",
+         "parts": [
+          {
+           "surface": "mus",
+           "type": "root",
+           "meaning": "muse",
+           "translations": {
+            "am": "የኪነ ጥበብ እንስት አምላክ",
+            "ar": "ربّة الفنون (الميوز)",
+            "es": "musa",
+            "fa": "الههٔ هنر (موز)",
+            "fr": "muse",
+            "hi": "कला की देवी (म्यूज़)",
+            "ja": "ミューズ（芸術の女神）",
+            "ko": "뮤즈(예술의 여신)",
+            "ml": "കലാദേവത (മ്യൂസ്)",
+            "ps": "د هنر دېوي (میوز)",
+            "ro": "muză",
+            "ru": "муза",
+            "ta": "கலைத் தெய்வம் (மியூஸ்)",
+            "tl": "musa (diyosa ng sining)",
+            "ur": "فنون کی دیوی (میوز)",
+            "vi": "nữ thần nghệ thuật (Muse)",
+            "zh-Hans": "缪斯（艺术女神）",
+            "zh-Hant": "繆思（藝術女神）"
+           }
+          },
+          {
+           "surface": "ic",
+           "type": "suffix",
+           "meaning": "relating to",
+           "translations": {
+            "am": "ተያያዥ",
+            "ar": "متعلّق بـ",
+            "es": "relativo a",
+            "fa": "مربوط به",
+            "fr": "relatif à",
+            "hi": "संबंधी",
+            "ja": "～の",
+            "ko": "관련된",
+            "ml": "ബന്ധപ്പെട്ട",
+            "ps": "اړوند",
+            "ro": "legat de",
+            "ru": "относящийся",
+            "ta": "தொடர்பான",
+            "tl": "kaugnay sa",
+            "ur": "متعلق",
+            "vi": "thuộc về",
+            "zh-Hans": "……的",
+            "zh-Hant": "……的"
+           }
+          }
+         ],
+         "root": "mus",
          "meaning": "the basic building blocks of music, such as rhythm, melody, harmony and dynamics.",
          "example": "",
          "tier": 3,
@@ -287106,7 +287398,26 @@
            "surface": "mus",
            "type": "root",
            "meaning": "muse",
-           "translations": {}
+           "translations": {
+            "am": "የኪነ ጥበብ እንስት አምላክ",
+            "ar": "ربّة الفنون (الميوز)",
+            "es": "musa",
+            "fa": "الههٔ هنر (موز)",
+            "fr": "muse",
+            "hi": "कला की देवी (म्यूज़)",
+            "ja": "ミューズ（芸術の女神）",
+            "ko": "뮤즈(예술의 여신)",
+            "ml": "കലാദേവത (മ്യൂസ്)",
+            "ps": "د هنر دېوي (میوز)",
+            "ro": "muză",
+            "ru": "муза",
+            "ta": "கலைத் தெய்வம் (மியூஸ்)",
+            "tl": "musa (diyosa ng sining)",
+            "ur": "فنون کی دیوی (میوز)",
+            "vi": "nữ thần nghệ thuật (Muse)",
+            "zh-Hans": "缪斯（艺术女神）",
+            "zh-Hant": "繆思（藝術女神）"
+           }
           },
           {
            "surface": "ic",
@@ -308270,13 +308581,51 @@
            "surface": "code",
            "type": "root",
            "meaning": "book/tablet",
-           "translations": {}
+           "translations": {
+            "am": "መጽሐፍ / ሰሌዳ",
+            "ar": "كتاب / لوح",
+            "es": "libro/tablilla",
+            "fa": "کتاب / لوح",
+            "fr": "livre / tablette",
+            "hi": "पुस्तक / पटिया",
+            "ja": "本・書き板",
+            "ko": "책 / 서판",
+            "ml": "പുസ്തകം / ഫലകം",
+            "ps": "کتاب / تخته",
+            "ro": "carte / tăbliță",
+            "ru": "книга / дощечка",
+            "ta": "நூல் / பலகை",
+            "tl": "aklat / tableta",
+            "ur": "کتاب / تختی",
+            "vi": "sách / bảng viết",
+            "zh-Hans": "书；书写板",
+            "zh-Hant": "書；書寫板"
+           }
           },
           {
            "surface": "switch",
            "type": "root",
            "meaning": "change over",
-           "translations": {}
+           "translations": {
+            "am": "መቀየር",
+            "ar": "التحويل / التبديل",
+            "es": "cambiar",
+            "fa": "عوض کردن",
+            "fr": "changer / basculer",
+            "hi": "बदलना",
+            "ja": "切り替える",
+            "ko": "전환하다",
+            "ml": "മാറ്റുക",
+            "ps": "بدلول",
+            "ro": "a schimba",
+            "ru": "переключать",
+            "ta": "மாற்று",
+            "tl": "magpalit",
+            "ur": "بدلنا",
+            "vi": "chuyển đổi",
+            "zh-Hans": "转换；切换",
+            "zh-Hant": "轉換；切換"
+           }
           },
           {
            "surface": "ing",
@@ -353192,7 +353541,26 @@
            "surface": "root",
            "type": "root",
            "meaning": "plant root/source",
-           "translations": {}
+           "translations": {
+            "am": "የተክል ሥር / ምንጭ",
+            "ar": "جذر النبات / أصل",
+            "es": "raíz de planta/origen",
+            "fa": "ریشهٔ گیاه / منشأ",
+            "fr": "racine (de plante) / source",
+            "hi": "पौधे की जड़ / स्रोत",
+            "ja": "植物の根・源",
+            "ko": "식물의 뿌리 / 근원",
+            "ml": "ചെടിയുടെ വേര് / ഉറവിടം",
+            "ps": "د بوټي ريښه / سرچينه",
+            "ro": "rădăcină de plantă / sursă",
+            "ru": "корень растения / источник",
+            "ta": "தாவர வேர் / மூலம்",
+            "tl": "ugat ng halaman / pinagmulan",
+            "ur": "پودے کی جڑ / ماخذ",
+            "vi": "rễ cây / nguồn gốc",
+            "zh-Hans": "植物的根；来源",
+            "zh-Hant": "植物的根；來源"
+           }
           }
          ],
          "root": "root",
@@ -355701,7 +356069,26 @@
            "surface": "root",
            "type": "root",
            "meaning": "plant root/source",
-           "translations": {}
+           "translations": {
+            "am": "የተክል ሥር / ምንጭ",
+            "ar": "جذر النبات / أصل",
+            "es": "raíz de planta/origen",
+            "fa": "ریشهٔ گیاه / منشأ",
+            "fr": "racine (de plante) / source",
+            "hi": "पौधे की जड़ / स्रोत",
+            "ja": "植物の根・源",
+            "ko": "식물의 뿌리 / 근원",
+            "ml": "ചെടിയുടെ വേര് / ഉറവിടം",
+            "ps": "د بوټي ريښه / سرچينه",
+            "ro": "rădăcină de plantă / sursă",
+            "ru": "корень растения / источник",
+            "ta": "தாவர வேர் / மூலம்",
+            "tl": "ugat ng halaman / pinagmulan",
+            "ur": "پودے کی جڑ / ماخذ",
+            "vi": "rễ cây / nguồn gốc",
+            "zh-Hans": "植物的根；来源",
+            "zh-Hant": "植物的根；來源"
+           }
           }
          ],
          "root": "root",
@@ -454019,8 +454406,59 @@
         },
         {
          "word": "root hair",
-         "parts": [],
-         "root": "",
+         "parts": [
+          {
+           "surface": "root",
+           "type": "root",
+           "meaning": "plant root/source",
+           "translations": {
+            "am": "የተክል ሥር / ምንጭ",
+            "ar": "جذر النبات / أصل",
+            "es": "raíz de planta/origen",
+            "fa": "ریشهٔ گیاه / منشأ",
+            "fr": "racine (de plante) / source",
+            "hi": "पौधे की जड़ / स्रोत",
+            "ja": "植物の根・源",
+            "ko": "식물의 뿌리 / 근원",
+            "ml": "ചെടിയുടെ വേര് / ഉറവിടം",
+            "ps": "د بوټي ريښه / سرچينه",
+            "ro": "rădăcină de plantă / sursă",
+            "ru": "корень растения / источник",
+            "ta": "தாவர வேர் / மூலம்",
+            "tl": "ugat ng halaman / pinagmulan",
+            "ur": "پودے کی جڑ / ماخذ",
+            "vi": "rễ cây / nguồn gốc",
+            "zh-Hans": "植物的根；来源",
+            "zh-Hant": "植物的根；來源"
+           }
+          },
+          {
+           "surface": "hair",
+           "type": "root",
+           "meaning": "strands growing from skin",
+           "translations": {
+            "zh-Hans": "毛发",
+            "ja": "毛",
+            "fa": "مو",
+            "vi": "lông; tóc",
+            "zh-Hant": "毛髮",
+            "ko": "머리카락",
+            "ar": "شعر",
+            "ur": "بال",
+            "am": "ፀጉር",
+            "ml": "മുടി",
+            "ta": "முடி",
+            "tl": "buhok",
+            "ps": "ویښتان",
+            "ro": "păr",
+            "ru": "волосы",
+            "fr": "cheveux/poils",
+            "hi": "बाल",
+            "es": "pelo"
+           }
+          }
+         ],
+         "root": "root",
          "meaning": "a tiny hair on a plant root that increases the surface for absorbing water and minerals.",
          "example": "",
          "tier": 3,
@@ -459223,7 +459661,26 @@
            "surface": "root",
            "type": "root",
            "meaning": "plant root/source",
-           "translations": {}
+           "translations": {
+            "am": "የተክል ሥር / ምንጭ",
+            "ar": "جذر النبات / أصل",
+            "es": "raíz de planta/origen",
+            "fa": "ریشهٔ گیاه / منشأ",
+            "fr": "racine (de plante) / source",
+            "hi": "पौधे की जड़ / स्रोत",
+            "ja": "植物の根・源",
+            "ko": "식물의 뿌리 / 근원",
+            "ml": "ചെടിയുടെ വേര് / ഉറവിടം",
+            "ps": "د بوټي ريښه / سرچينه",
+            "ro": "rădăcină de plantă / sursă",
+            "ru": "корень растения / источник",
+            "ta": "தாவர வேர் / மூலம்",
+            "tl": "ugat ng halaman / pinagmulan",
+            "ur": "پودے کی جڑ / ماخذ",
+            "vi": "rễ cây / nguồn gốc",
+            "zh-Hans": "植物的根；来源",
+            "zh-Hant": "植物的根；來源"
+           }
           }
          ],
          "root": "root",
@@ -505755,8 +506212,59 @@
         },
         {
          "word": "Western Front",
-         "parts": [],
-         "root": "",
+         "parts": [
+          {
+           "surface": "west",
+           "type": "root",
+           "meaning": "toward evening",
+           "translations": {
+            "am": "ወደ ምሽት (ፀሐይ የምትጠልቅበት)",
+            "ar": "نحو المساء (حيث تغرب الشمس)",
+            "es": "hacia el atardecer",
+            "fa": "به سوی شامگاه (غروب خورشید)",
+            "fr": "vers le soir (où le soleil se couche)",
+            "hi": "शाम की ओर (सूर्यास्त की दिशा)",
+            "ja": "夕方の方へ（日が沈む方）",
+            "ko": "저녁 쪽으로(해 지는 쪽)",
+            "ml": "സന്ധ്യയുടെ ദിശയിലേക്ക്",
+            "ps": "د ماښام په لور (لمر لوېدو)",
+            "ro": "spre seară (unde apune soarele)",
+            "ru": "к вечеру (где заходит солнце)",
+            "ta": "மாலையை நோக்கி (சூரியன் மறையும் திசை)",
+            "tl": "patungo sa takipsilim",
+            "ur": "شام کی طرف (سورج ڈوبنے کی سمت)",
+            "vi": "về phía chiều tối (nơi mặt trời lặn)",
+            "zh-Hans": "朝向傍晚（日落方向）",
+            "zh-Hant": "朝向傍晚（日落方向）"
+           }
+          },
+          {
+           "surface": "ern",
+           "type": "suffix",
+           "meaning": "in the direction of",
+           "translations": {
+            "am": "ወደ … አቅጣጫ",
+            "ar": "في اتجاه",
+            "es": "en dirección a",
+            "fa": "در جهتِ",
+            "fr": "en direction de",
+            "hi": "की दिशा में",
+            "ja": "…の方向に",
+            "ko": "~쪽으로",
+            "ml": "… ദിശയിൽ",
+            "ps": "په لوري",
+            "ro": "în direcția",
+            "ru": "в направлении",
+            "ta": "… திசையில்",
+            "tl": "sa direksyon ng",
+            "ur": "کی سمت میں",
+            "vi": "theo hướng",
+            "zh-Hans": "朝……方向的",
+            "zh-Hant": "朝……方向的"
+           }
+          }
+         ],
+         "root": "west",
          "meaning": "The main line of fighting between Allied and German forces in France and Belgium.",
          "example": "Most Australian casualties came on the Western Front, not at Gallipoli.",
          "translations": {
@@ -542731,13 +543239,51 @@
            "surface": "west",
            "type": "root",
            "meaning": "toward evening",
-           "translations": {}
+           "translations": {
+            "am": "ወደ ምሽት (ፀሐይ የምትጠልቅበት)",
+            "ar": "نحو المساء (حيث تغرب الشمس)",
+            "es": "hacia el atardecer",
+            "fa": "به سوی شامگاه (غروب خورشید)",
+            "fr": "vers le soir (où le soleil se couche)",
+            "hi": "शाम की ओर (सूर्यास्त की दिशा)",
+            "ja": "夕方の方へ（日が沈む方）",
+            "ko": "저녁 쪽으로(해 지는 쪽)",
+            "ml": "സന്ധ്യയുടെ ദിശയിലേക്ക്",
+            "ps": "د ماښام په لور (لمر لوېدو)",
+            "ro": "spre seară (unde apune soarele)",
+            "ru": "к вечеру (где заходит солнце)",
+            "ta": "மாலையை நோக்கி (சூரியன் மறையும் திசை)",
+            "tl": "patungo sa takipsilim",
+            "ur": "شام کی طرف (سورج ڈوبنے کی سمت)",
+            "vi": "về phía chiều tối (nơi mặt trời lặn)",
+            "zh-Hans": "朝向傍晚（日落方向）",
+            "zh-Hant": "朝向傍晚（日落方向）"
+           }
           },
           {
            "surface": "ern",
            "type": "suffix",
            "meaning": "in the direction of",
-           "translations": {}
+           "translations": {
+            "am": "ወደ … አቅጣጫ",
+            "ar": "في اتجاه",
+            "es": "en dirección a",
+            "fa": "در جهتِ",
+            "fr": "en direction de",
+            "hi": "की दिशा में",
+            "ja": "…の方向に",
+            "ko": "~쪽으로",
+            "ml": "… ദിശയിൽ",
+            "ps": "په لوري",
+            "ro": "în direcția",
+            "ru": "в направлении",
+            "ta": "… திசையில்",
+            "tl": "sa direksyon ng",
+            "ur": "کی سمت میں",
+            "vi": "theo hướng",
+            "zh-Hans": "朝……方向的",
+            "zh-Hant": "朝……方向的"
+           }
           },
           {
            "surface": "front",
@@ -555125,7 +555671,26 @@
            "surface": "root",
            "type": "root",
            "meaning": "plant root/source",
-           "translations": {}
+           "translations": {
+            "am": "የተክል ሥር / ምንጭ",
+            "ar": "جذر النبات / أصل",
+            "es": "raíz de planta/origen",
+            "fa": "ریشهٔ گیاه / منشأ",
+            "fr": "racine (de plante) / source",
+            "hi": "पौधे की जड़ / स्रोत",
+            "ja": "植物の根・源",
+            "ko": "식물의 뿌리 / 근원",
+            "ml": "ചെടിയുടെ വേര് / ഉറവിടം",
+            "ps": "د بوټي ريښه / سرچينه",
+            "ro": "rădăcină de plantă / sursă",
+            "ru": "корень растения / источник",
+            "ta": "தாவர வேர் / மூலம்",
+            "tl": "ugat ng halaman / pinagmulan",
+            "ur": "پودے کی جڑ / ماخذ",
+            "vi": "rễ cây / nguồn gốc",
+            "zh-Hans": "植物的根；来源",
+            "zh-Hant": "植物的根；來源"
+           }
           }
          ],
          "root": "root",
@@ -571617,7 +572182,26 @@
            "surface": "draw",
            "type": "root",
            "meaning": "pull",
-           "translations": {}
+           "translations": {
+            "am": "መሳብ",
+            "ar": "سحب",
+            "es": "tirar/arrastrar",
+            "fa": "کشیدن",
+            "fr": "tirer",
+            "hi": "खींचना",
+            "ja": "引く",
+            "ko": "끌다",
+            "ml": "വലിക്കുക",
+            "ps": "کشول",
+            "ro": "a trage",
+            "ru": "тянуть",
+            "ta": "இழு",
+            "tl": "hilahin",
+            "ur": "کھینچنا",
+            "vi": "kéo",
+            "zh-Hans": "拉；拖",
+            "zh-Hant": "拉；拖"
+           }
           },
           {
            "surface": "al",
@@ -575108,7 +575692,26 @@
            "surface": "draw",
            "type": "root",
            "meaning": "pull",
-           "translations": {}
+           "translations": {
+            "am": "መሳብ",
+            "ar": "سحب",
+            "es": "tirar/arrastrar",
+            "fa": "کشیدن",
+            "fr": "tirer",
+            "hi": "खींचना",
+            "ja": "引く",
+            "ko": "끌다",
+            "ml": "വലിക്കുക",
+            "ps": "کشول",
+            "ro": "a trage",
+            "ru": "тянуть",
+            "ta": "இழு",
+            "tl": "hilahin",
+            "ur": "کھینچنا",
+            "vi": "kéo",
+            "zh-Hans": "拉；拖",
+            "zh-Hant": "拉；拖"
+           }
           },
           {
            "surface": "ing",
@@ -593729,7 +594332,26 @@
            "surface": "learn",
            "type": "root",
            "meaning": "get knowledge",
-           "translations": {}
+           "translations": {
+            "am": "እውቀት ማግኘት",
+            "ar": "اكتساب المعرفة",
+            "es": "adquirir conocimiento",
+            "fa": "دانش به دست آوردن",
+            "fr": "acquérir des connaissances",
+            "hi": "ज्ञान प्राप्त करना",
+            "ja": "知識を得る",
+            "ko": "지식을 얻다",
+            "ml": "അറിവ് നേടുക",
+            "ps": "پوهه ترلاسه کول",
+            "ro": "a dobândi cunoștințe",
+            "ru": "получать знания",
+            "ta": "அறிவைப் பெறு",
+            "tl": "magkaroon ng kaalaman",
+            "ur": "علم حاصل کرنا",
+            "vi": "tiếp thu kiến thức",
+            "zh-Hans": "获得知识",
+            "zh-Hant": "獲得知識"
+           }
           },
           {
            "surface": "ing",
@@ -593794,7 +594416,26 @@
            "surface": "learn",
            "type": "root",
            "meaning": "get knowledge",
-           "translations": {}
+           "translations": {
+            "am": "እውቀት ማግኘት",
+            "ar": "اكتساب المعرفة",
+            "es": "adquirir conocimiento",
+            "fa": "دانش به دست آوردن",
+            "fr": "acquérir des connaissances",
+            "hi": "ज्ञान प्राप्त करना",
+            "ja": "知識を得る",
+            "ko": "지식을 얻다",
+            "ml": "അറിവ് നേടുക",
+            "ps": "پوهه ترلاسه کول",
+            "ro": "a dobândi cunoștințe",
+            "ru": "получать знания",
+            "ta": "அறிவைப் பெறு",
+            "tl": "magkaroon ng kaalaman",
+            "ur": "علم حاصل کرنا",
+            "vi": "tiếp thu kiến thức",
+            "zh-Hans": "获得知识",
+            "zh-Hant": "獲得知識"
+           }
           },
           {
            "surface": "ing",
@@ -645558,7 +646199,26 @@
            "surface": "root",
            "type": "root",
            "meaning": "plant root/source",
-           "translations": {}
+           "translations": {
+            "am": "የተክል ሥር / ምንጭ",
+            "ar": "جذر النبات / أصل",
+            "es": "raíz de planta/origen",
+            "fa": "ریشهٔ گیاه / منشأ",
+            "fr": "racine (de plante) / source",
+            "hi": "पौधे की जड़ / स्रोत",
+            "ja": "植物の根・源",
+            "ko": "식물의 뿌리 / 근원",
+            "ml": "ചെടിയുടെ വേര് / ഉറവിടം",
+            "ps": "د بوټي ريښه / سرچينه",
+            "ro": "rădăcină de plantă / sursă",
+            "ru": "корень растения / источник",
+            "ta": "தாவர வேர் / மூலம்",
+            "tl": "ugat ng halaman / pinagmulan",
+            "ur": "پودے کی جڑ / ماخذ",
+            "vi": "rễ cây / nguồn gốc",
+            "zh-Hans": "植物的根；来源",
+            "zh-Hant": "植物的根；來源"
+           }
           }
          ],
          "root": "root",
@@ -780872,8 +781532,59 @@
         },
         {
          "word": "root hair",
-         "parts": [],
-         "root": "",
+         "parts": [
+          {
+           "surface": "root",
+           "type": "root",
+           "meaning": "plant root/source",
+           "translations": {
+            "am": "የተክል ሥር / ምንጭ",
+            "ar": "جذر النبات / أصل",
+            "es": "raíz de planta/origen",
+            "fa": "ریشهٔ گیاه / منشأ",
+            "fr": "racine (de plante) / source",
+            "hi": "पौधे की जड़ / स्रोत",
+            "ja": "植物の根・源",
+            "ko": "식물의 뿌리 / 근원",
+            "ml": "ചെടിയുടെ വേര് / ഉറവിടം",
+            "ps": "د بوټي ريښه / سرچينه",
+            "ro": "rădăcină de plantă / sursă",
+            "ru": "корень растения / источник",
+            "ta": "தாவர வேர் / மூலம்",
+            "tl": "ugat ng halaman / pinagmulan",
+            "ur": "پودے کی جڑ / ماخذ",
+            "vi": "rễ cây / nguồn gốc",
+            "zh-Hans": "植物的根；来源",
+            "zh-Hant": "植物的根；來源"
+           }
+          },
+          {
+           "surface": "hair",
+           "type": "root",
+           "meaning": "strands growing from skin",
+           "translations": {
+            "zh-Hans": "毛发",
+            "ja": "毛",
+            "fa": "مو",
+            "vi": "lông; tóc",
+            "zh-Hant": "毛髮",
+            "ko": "머리카락",
+            "ar": "شعر",
+            "ur": "بال",
+            "am": "ፀጉር",
+            "ml": "മുടി",
+            "ta": "முடி",
+            "tl": "buhok",
+            "ps": "ویښتان",
+            "ro": "păr",
+            "ru": "волосы",
+            "fr": "cheveux/poils",
+            "hi": "बाल",
+            "es": "pelo"
+           }
+          }
+         ],
+         "root": "root",
          "meaning": "a tiny hair on a plant root that increases the surface for absorbing water and minerals.",
          "example": "",
          "tier": 3,
@@ -784679,8 +785390,59 @@
         },
         {
          "word": "bushfire / wildfire",
-         "parts": [],
-         "root": "",
+         "parts": [
+          {
+           "surface": "bush",
+           "type": "root",
+           "meaning": "thicket, shrub",
+           "translations": {
+            "zh-Hans": "澳大利亚内陆乡野",
+            "ja": "オーストラリアの奥地",
+            "fa": "مناطق روستایی استرالیا",
+            "vi": "vùng nông thôn nội địa Úc",
+            "zh-Hant": "澳洲內陸鄉野",
+            "ko": "호주 오지",
+            "ar": "الريف الأسترالي",
+            "ur": "آسٹریلوی دیہی علاقہ",
+            "am": "የአውስትራሊያ ገጠር",
+            "ml": "ഓസ്ട്രേലിയൻ ഗ്രാമപ്രദേശം",
+            "ta": "ஆஸ்திரேலிய கிராமப்புறம்",
+            "tl": "kagubatan sa Australia",
+            "ps": "د آسټرالیا کلیوالی سیمه",
+            "ro": "zona rurală australiană",
+            "ru": "австралийская глубинка",
+            "fr": "campagne australienne",
+            "hi": "ऑस्ट्रेलियाई ग्रामीण इलाका",
+            "es": "campo australiano"
+           }
+          },
+          {
+           "surface": "fire",
+           "type": "root",
+           "meaning": "fire",
+           "translations": {
+            "am": "እሳት",
+            "ar": "نار",
+            "es": "fuego",
+            "fa": "آتش",
+            "fr": "feu",
+            "hi": "आग",
+            "ja": "火",
+            "ko": "불",
+            "ml": "തീ",
+            "ps": "اور",
+            "ro": "foc",
+            "ru": "огонь",
+            "ta": "தீ",
+            "tl": "apoy",
+            "ur": "آگ",
+            "vi": "lửa",
+            "zh-Hans": "火",
+            "zh-Hant": "火"
+           }
+          }
+         ],
+         "root": "bush",
          "meaning": "A large, uncontrolled fire in vegetation",
          "example": "",
          "tier": 2,
@@ -824669,7 +825431,26 @@
            "surface": "fire",
            "type": "root",
            "meaning": "fire",
-           "translations": {}
+           "translations": {
+            "am": "እሳት",
+            "ar": "نار",
+            "es": "fuego",
+            "fa": "آتش",
+            "fr": "feu",
+            "hi": "आग",
+            "ja": "火",
+            "ko": "불",
+            "ml": "തീ",
+            "ps": "اور",
+            "ro": "foc",
+            "ru": "огонь",
+            "ta": "தீ",
+            "tl": "apoy",
+            "ur": "آگ",
+            "vi": "lửa",
+            "zh-Hans": "火",
+            "zh-Hant": "火"
+           }
           },
           {
            "surface": "stick",
@@ -845783,6 +846564,11 @@
      "bush",
      "year-9/english/wilderpeople-into-the-bush",
      "bush"
+    ],
+    [
+     "bushfire / wildfire",
+     "elc/science/ecosystems",
+     "bush"
     ]
    ]
   },
@@ -859865,6 +860651,11 @@
     [
      "scale drawing",
      "year-8/mathematics/y8m-ratios",
+     "draw"
+    ],
+    [
+     "drawings",
+     "vce/accounting/unit-2-aos-1",
      "draw"
     ]
    ]
@@ -879570,6 +880361,11 @@
      "atomic number",
      "year-9/science/radioactivity",
      "ic"
+    ],
+    [
+     "elements of music",
+     "vce/music/unit-2-aos-1",
+     "ic"
     ]
    ]
   },
@@ -883114,6 +883910,21 @@
     [
      "storytelling",
      "vce/literature/unit-2-aos-1",
+     "ing"
+    ],
+    [
+     "machine learning",
+     "vce/applied-computing/unit-2-aos-1",
+     "ing"
+    ],
+    [
+     "code switching",
+     "vce/english-language/unit-4-aos-2",
+     "ing"
+    ],
+    [
+     "drawings",
+     "vce/accounting/unit-2-aos-1",
      "ing"
     ]
    ]
@@ -896288,6 +897099,11 @@
     [
      "machine learning",
      "year-8/english/y8-dystopian-fiction",
+     "learn"
+    ],
+    [
+     "machine learning",
+     "vce/applied-computing/unit-2-aos-1",
      "learn"
     ]
    ]
@@ -924191,6 +925007,16 @@
      "root",
      "year-9/mathematics/y9m-everyday-1",
      "root"
+    ],
+    [
+     "root hair",
+     "year-9/science/photosynthesis",
+     "root"
+    ],
+    [
+     "root hair",
+     "elc/science/photosynthesis",
+     "root"
     ]
    ]
   },
@@ -933299,6 +934125,11 @@
      "code-switching",
      "vce/literature/poetry-y10-throat",
      "switch"
+    ],
+    [
+     "code switching",
+     "vce/english-language/unit-4-aos-2",
+     "switch"
     ]
    ]
   },
@@ -934308,6 +935139,11 @@
     [
      "Stolen Generations",
      "year-9/humanities/making-a-nation-set-3",
+     "s"
+    ],
+    [
+     "drawings",
+     "vce/accounting/unit-2-aos-1",
      "s"
     ]
    ]
@@ -967058,6 +967894,11 @@
      "bush medicine",
      "elc/humanities/ancient-australia-kinship-land",
      "bush"
+    ],
+    [
+     "bushfire / wildfire",
+     "elc/science/ecosystems",
+     "bush"
     ]
    ],
    "origin": "Dutch",
@@ -972511,6 +973352,11 @@
     [
      "code-switching",
      "vce/english/born-a-crime-identity",
+     "code"
+    ],
+    [
+     "code switching",
+     "vce/english-language/unit-4-aos-2",
      "code"
     ]
    ]
@@ -985585,6 +986431,11 @@
      "scale drawing",
      "year-8/mathematics/y8m-ratios",
      "draw"
+    ],
+    [
+     "drawings",
+     "vce/accounting/unit-2-aos-1",
+     "draw"
     ]
    ]
   },
@@ -992245,6 +993096,11 @@
     [
      "the Western Front",
      "year-9/english/aqotwf-before-you-read",
+     "ern"
+    ],
+    [
+     "Western Front",
+     "year-9/humanities/wwi-set-1",
      "ern"
     ]
    ]
@@ -999044,6 +999900,11 @@
      "firestick farming",
      "elc/humanities/ancient-australia-kinship-land",
      "fire"
+    ],
+    [
+     "bushfire / wildfire",
+     "elc/science/ecosystems",
+     "fire"
     ]
    ]
   },
@@ -1005761,6 +1006622,16 @@
      "hairy paw",
      "elc/english/ironbark-stanza-6",
      "hair"
+    ],
+    [
+     "root hair",
+     "year-9/science/photosynthesis",
+     "hair"
+    ],
+    [
+     "root hair",
+     "elc/science/photosynthesis",
+     "hair"
     ]
    ]
   },
@@ -1011518,6 +1012389,11 @@
      "publicly",
      "elc/humanities/hist-place",
      "ic"
+    ],
+    [
+     "elements of music",
+     "vce/music/unit-2-aos-1",
+     "ic"
     ]
    ],
    "extras": [
@@ -1015332,6 +1016208,21 @@
     [
      "storytelling",
      "vce/literature/unit-2-aos-1",
+     "ing"
+    ],
+    [
+     "machine learning",
+     "vce/applied-computing/unit-2-aos-1",
+     "ing"
+    ],
+    [
+     "code switching",
+     "vce/english-language/unit-4-aos-2",
+     "ing"
+    ],
+    [
+     "drawings",
+     "vce/accounting/unit-2-aos-1",
      "ing"
     ]
    ],
@@ -1030960,6 +1031851,11 @@
      "deep learning",
      "year-8/english/y8-dystopian-fiction",
      "learn"
+    ],
+    [
+     "machine learning",
+     "vce/applied-computing/unit-2-aos-1",
+     "learn"
     ]
    ]
   },
@@ -1042835,6 +1043731,11 @@
     [
      "music box",
      "vce/english/memory-police-ch10-16",
+     "mus"
+    ],
+    [
+     "elements of music",
+     "vce/music/unit-2-aos-1",
      "mus"
     ]
    ]
@@ -1068050,6 +1068951,16 @@
      "root",
      "year-7/mathematics/y7m-everyday-1",
      "root"
+    ],
+    [
+     "root hair",
+     "year-9/science/photosynthesis",
+     "root"
+    ],
+    [
+     "root hair",
+     "elc/science/photosynthesis",
+     "root"
     ]
    ]
   },
@@ -1081400,6 +1082311,11 @@
      "code-switching",
      "vce/english/born-a-crime-identity",
      "switch"
+    ],
+    [
+     "code switching",
+     "vce/english-language/unit-4-aos-2",
+     "switch"
     ]
    ]
   },
@@ -1082510,6 +1083426,11 @@
     [
      "Stolen Generations",
      "year-9/humanities/making-a-nation-set-3",
+     "s"
+    ],
+    [
+     "drawings",
+     "vce/accounting/unit-2-aos-1",
      "s"
     ]
    ],
@@ -1097406,6 +1098327,11 @@
     [
      "the Western Front",
      "year-9/english/aqotwf-before-you-read",
+     "west"
+    ],
+    [
+     "Western Front",
+     "year-9/humanities/wwi-set-1",
      "west"
     ]
    ]
