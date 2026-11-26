@@ -26877,8 +26877,84 @@
         },
         {
          "word": "reducing agent",
-         "parts": [],
-         "root": "",
+         "parts": [
+          {
+           "surface": "re",
+           "type": "prefix",
+           "meaning": "back",
+           "translations": {
+            "am": "ወደኋላ",
+            "ar": "إلى الخلف",
+            "es": "atrás",
+            "fa": "دوباره",
+            "fr": "arrière",
+            "hi": "पीछे",
+            "ja": "後ろ",
+            "ko": "뒤로",
+            "ml": "പിന്നിൽ",
+            "ps": "شاته",
+            "ro": "înapoi",
+            "ru": "назад",
+            "ta": "பின்னால்",
+            "tl": "pabalik",
+            "ur": "پیچھے",
+            "vi": "lùi",
+            "zh-Hans": "回",
+            "zh-Hant": "回"
+           }
+          },
+          {
+           "surface": "duc",
+           "type": "root",
+           "meaning": "lead",
+           "translations": {
+            "fa": "هدایت",
+            "am": "መምራት",
+            "ar": "يقود",
+            "es": "conducir",
+            "fr": "conduire",
+            "hi": "नेतृत्व करना",
+            "ja": "導く",
+            "ko": "이끌다",
+            "ml": "നയിക്കുക",
+            "ps": "رهبري کول",
+            "ro": "conduce",
+            "ru": "вести",
+            "ta": "வழிநடத்துதல்",
+            "tl": "manguna",
+            "ur": "رہنمائی کرنا",
+            "vi": "dẫn",
+            "zh-Hans": "引导",
+            "zh-Hant": "引導"
+           }
+          },
+          {
+           "surface": "ing",
+           "type": "suffix",
+           "meaning": "action/process",
+           "translations": {
+            "zh-Hans": "过程",
+            "zh-Hant": "過程",
+            "am": "ሂደት",
+            "ar": "عملية",
+            "es": "acción/proceso",
+            "fa": "فرآیند / عمل",
+            "fr": "action de",
+            "hi": "क्रिया",
+            "ja": "行為 / 過程",
+            "ko": "행위",
+            "ml": "പ്രക്രിയ",
+            "ps": "بهير",
+            "ro": "acțiunea de",
+            "ru": "действие",
+            "ta": "செயல்",
+            "tl": "kilos",
+            "ur": "عمل",
+            "vi": "quá trình"
+           }
+          }
+         ],
+         "root": "duc",
          "meaning": "a substance that causes another substance to gain electrons (and is itself oxidised).",
          "example": "",
          "tier": 3,
@@ -27930,8 +28006,61 @@
         },
         {
          "word": "greenhouse effect",
-         "parts": [],
-         "root": "",
+         "parts": [
+          {
+           "surface": "ef",
+           "type": "prefix",
+           "meaning": "out / thoroughly",
+           "translations": {
+            "am": "ወደ ውጭ / ሙሉ በሙሉ",
+            "ar": "خارج / تمامًا",
+            "es": "fuera/completamente",
+            "fa": "بیرون / کاملاً",
+            "fr": "dehors / entièrement",
+            "hi": "बाहर / पूरी तरह",
+            "ja": "外へ／徹底的に",
+            "ko": "밖으로 / 철저히",
+            "ml": "പുറത്തേക്ക് / പൂർണ്ണമായി",
+            "ps": "بهر / په بشپړ ډول",
+            "ro": "afară / complet",
+            "ru": "наружу / полностью",
+            "ta": "வெளியே / முழுமையாக",
+            "tl": "labas / lubusan",
+            "ur": "باہر / مکمل طور پر",
+            "vi": "ra ngoài / hoàn toàn",
+            "zh-Hans": "向外／彻底地",
+            "zh-Hant": "向外／徹底地",
+            "other": "خارج"
+           }
+          },
+          {
+           "surface": "fect",
+           "type": "root",
+           "meaning": "make / do",
+           "translations": {
+            "am": "መስራት / ማድረግ",
+            "ar": "يصنع",
+            "es": "hacer",
+            "fa": "ساختن / انجام دادن",
+            "fr": "faire",
+            "hi": "बनाना / करना",
+            "ja": "作る",
+            "ko": "만들다 / 하다",
+            "ml": "ഉണ്ടാക്കുക / ചെയ്യുക",
+            "ps": "جوړول",
+            "ro": "face",
+            "ru": "делать / совершать",
+            "ta": "செய்தல் / ஆக்குதல்",
+            "tl": "gumawa",
+            "ur": "بنانا / کرنا",
+            "vi": "làm / thực hiện",
+            "zh-Hans": "做",
+            "zh-Hant": "做",
+            "other": "عامل"
+           }
+          }
+         ],
+         "root": "fect",
          "meaning": "warming caused by gases (like CO2, CH4, H2O) trapping infrared radiation in the atmosphere.",
          "example": "",
          "tier": 3,
@@ -28334,8 +28463,160 @@
         },
         {
          "word": "standard laboratory conditions (SLC)",
-         "parts": [],
-         "root": "",
+         "parts": [
+          {
+           "surface": "labor",
+           "type": "root",
+           "meaning": "work",
+           "translations": {
+            "am": "ስራ",
+            "ar": "عمل",
+            "es": "trabajo",
+            "fa": "کار",
+            "fr": "travail",
+            "hi": "काम",
+            "ja": "働く",
+            "ko": "노동",
+            "ml": "ജോലി",
+            "ps": "کار",
+            "ro": "muncă",
+            "ru": "труд",
+            "ta": "வேலை",
+            "tl": "trabaho",
+            "ur": "کام",
+            "vi": "lao động",
+            "zh-Hans": "工作",
+            "zh-Hant": "工作"
+           }
+          },
+          {
+           "surface": "atory",
+           "type": "suffix",
+           "meaning": "relating to",
+           "translations": {
+            "am": "የተያያዘ",
+            "ar": "متعلق بـ",
+            "es": "relacionado con",
+            "fa": "مربوط به",
+            "fr": "relatif à",
+            "hi": "से संबंधित",
+            "ja": "〜に関する",
+            "ko": "관련된",
+            "ml": "സംബന്ധിച്ച",
+            "ps": "اړوند",
+            "ro": "referitor la",
+            "ru": "относящийся к",
+            "ta": "தொடர்பான",
+            "tl": "kaugnay",
+            "ur": "متعلق",
+            "vi": "liên quan đến",
+            "zh-Hans": "…性的",
+            "zh-Hant": "…性的"
+           }
+          },
+          {
+           "surface": "con",
+           "type": "prefix",
+           "meaning": "together",
+           "translations": {
+            "am": "አብሮ",
+            "ar": "معًا",
+            "es": "juntos",
+            "fa": "باهم",
+            "fr": "ensemble",
+            "hi": "साथ",
+            "ja": "共に",
+            "ko": "함께",
+            "ml": "ഒരുമിച്ച്",
+            "ps": "يوځای",
+            "ro": "împreună",
+            "ru": "вместе",
+            "ta": "ஒன்றாக",
+            "tl": "magkasama",
+            "ur": "اکٹھا",
+            "vi": "cùng",
+            "zh-Hans": "共同",
+            "zh-Hant": "共同",
+            "other": "باهم"
+           }
+          },
+          {
+           "surface": "dit",
+           "type": "root",
+           "meaning": "say/state",
+           "translations": {
+            "am": "መናገር / መግለጽ",
+            "ar": "يقول / يذكر",
+            "es": "decir/afirmar",
+            "fa": "گفتن / بیان کردن",
+            "fr": "dire / affirmer",
+            "hi": "कहना / बताना",
+            "ja": "言う・述べる",
+            "ko": "말하다 / 진술하다",
+            "ml": "പറയുക / പ്രസ്താവിക്കുക",
+            "ps": "وايل / بیانول",
+            "ro": "a spune / a afirma",
+            "ru": "говорить / утверждать",
+            "ta": "சொல்லுதல் / கூறுதல்",
+            "tl": "sabihin / magsaad",
+            "ur": "کہنا / بیان کرنا",
+            "vi": "nói / phát biểu",
+            "zh-Hans": "说/陈述",
+            "zh-Hant": "說/陳述"
+           }
+          },
+          {
+           "surface": "ion",
+           "type": "suffix",
+           "meaning": "act/process",
+           "translations": {
+            "fa": "فرایند/عمل",
+            "am": "ሂደት/ድርጊት",
+            "ar": "عملية/فعل",
+            "es": "proceso/acción",
+            "fr": "processus/action",
+            "hi": "प्रक्रिया/क्रिया",
+            "ja": "過程/作用",
+            "ko": "과정/작용",
+            "ml": "പ്രക്രിയ/പ്രവർത്തനം",
+            "ps": "بهیر/کړنه",
+            "ro": "proces/acțiune",
+            "ru": "процесс/действие",
+            "ta": "செயல்முறை/செயல்",
+            "tl": "proseso/kilos",
+            "ur": "عمل/فعل",
+            "vi": "quá trình/hành động",
+            "zh-Hans": "过程/动作",
+            "zh-Hant": "過程/動作"
+           }
+          },
+          {
+           "surface": "s",
+           "type": "suffix",
+           "meaning": "plural",
+           "translations": {
+            "fa": "جمع",
+            "am": "ብዙ ቁጥር",
+            "ar": "جمع",
+            "es": "plural",
+            "fr": "pluriel",
+            "hi": "बहुवचन",
+            "ja": "複数",
+            "ko": "복수",
+            "ml": "ബഹുവചനം",
+            "ps": "جمع",
+            "ro": "plural",
+            "ru": "множественное число",
+            "ta": "பன்மை",
+            "tl": "maramihan",
+            "ur": "جمع",
+            "vi": "số nhiều",
+            "zh-Hans": "复数",
+            "zh-Hant": "複數"
+           }
+          }
+         ],
+         "root": "labor",
          "meaning": "a fixed reference temperature (25 degrees Celsius) and pressure (100 kPa) that chemists use so gas measurements can be fairly compared.",
          "example": "",
          "tier": 3,
@@ -29238,8 +29519,134 @@
         },
         {
          "word": "homologous series",
-         "parts": [],
-         "root": "",
+         "parts": [
+          {
+           "surface": "homo",
+           "type": "prefix",
+           "meaning": "same",
+           "translations": {
+            "am": "ተመሳሳይ",
+            "ar": "متماثل",
+            "es": "igual",
+            "fa": "همان",
+            "fr": "même",
+            "hi": "समान",
+            "ja": "同じ",
+            "ko": "동일",
+            "ml": "സമാനം",
+            "ps": "ورته",
+            "ro": "același",
+            "ru": "одинаковый",
+            "ta": "ஒரே",
+            "tl": "pareho",
+            "ur": "ایک جیسا",
+            "vi": "giống nhau",
+            "zh-Hans": "相同",
+            "zh-Hant": "相同"
+           }
+          },
+          {
+           "surface": "log",
+           "type": "root",
+           "meaning": "relation / proportion",
+           "translations": {
+            "am": "ግንኙነት",
+            "ar": "علاقة",
+            "es": "relación/proporción",
+            "fa": "نسبت",
+            "fr": "relation",
+            "hi": "संबंध",
+            "ja": "関係",
+            "ko": "관계",
+            "ml": "ബന്ധം",
+            "ps": "اړیکه",
+            "ro": "relație",
+            "ru": "отношение",
+            "ta": "தொடர்பு",
+            "tl": "relasyon",
+            "ur": "تعلق",
+            "vi": "quan hệ",
+            "zh-Hans": "关系",
+            "zh-Hant": "關係"
+           }
+          },
+          {
+           "surface": "ous",
+           "type": "suffix",
+           "meaning": "having the quality of",
+           "translations": {
+            "am": "ባህርይ ያለው",
+            "ar": "ذو صفة",
+            "es": "que tiene la cualidad de",
+            "fa": "دارای ویژگی",
+            "fr": "ayant la qualité de",
+            "hi": "गुणवाला",
+            "ja": "〜の性質を持つ",
+            "ko": "~의 성질을 가진",
+            "ml": "സ്വഭാവമുള്ള",
+            "ps": "د ... خاصیت لرونکی",
+            "ro": "având calitatea de",
+            "ru": "обладающий свойством",
+            "ta": "குணமுடைய",
+            "tl": "may katangian ng",
+            "ur": "خاصیت رکھنے والا",
+            "vi": "có tính chất",
+            "zh-Hans": "具有…性质的",
+            "zh-Hant": "具有…性質的"
+           }
+          },
+          {
+           "surface": "seri",
+           "type": "root",
+           "meaning": "row / sequence",
+           "translations": {
+            "vi": "chuỗi",
+            "zh-Hans": "系列",
+            "ja": "連続",
+            "zh-Hant": "系列",
+            "am": "ተከታታይ",
+            "ar": "سلسلة",
+            "es": "serie",
+            "fa": "توالی",
+            "fr": "série / séquence",
+            "hi": "श्रृंखला",
+            "ko": "연속",
+            "ml": "ശ്രേണി",
+            "ps": "لړۍ",
+            "ro": "serie / secvență",
+            "ru": "ряд / последовательность",
+            "ta": "வரிசை",
+            "tl": "serye",
+            "ur": "سلسلہ"
+           }
+          },
+          {
+           "surface": "es",
+           "type": "suffix",
+           "meaning": "plural",
+           "translations": {
+            "vi": "số nhiều",
+            "zh-Hans": "复数",
+            "ja": "複数",
+            "zh-Hant": "複數",
+            "am": "ብዙ ቁጥር",
+            "ar": "جمع",
+            "es": "plural",
+            "fa": "جمع",
+            "fr": "pluriel",
+            "hi": "बहुवचन",
+            "ko": "복수",
+            "ml": "ബഹുവചനം",
+            "ps": "جمع",
+            "ro": "plural",
+            "ru": "множественное число",
+            "ta": "பன்மை",
+            "tl": "maramihan",
+            "ur": "جمع"
+           }
+          }
+         ],
+         "root": "log",
          "meaning": "a family of organic compounds with the same general formula and functional group, differing by CH2 units.",
          "example": "",
          "tier": 3,
@@ -29398,8 +29805,160 @@
         },
         {
          "word": "addition reaction",
-         "parts": [],
-         "root": "",
+         "parts": [
+          {
+           "surface": "ad",
+           "type": "prefix",
+           "meaning": "toward",
+           "translations": {
+            "am": "ወደ",
+            "ar": "نحو / إلى",
+            "es": "hacia",
+            "fa": "به",
+            "fr": "vers",
+            "hi": "की ओर",
+            "ja": "～へ",
+            "ko": "향하여",
+            "ml": "നേരെ",
+            "ps": "پر لور",
+            "ro": "spre",
+            "ru": "к",
+            "ta": "நோக்கி",
+            "tl": "patungo",
+            "ur": "کی طرف",
+            "vi": "hướng",
+            "zh-Hans": "向",
+            "zh-Hant": "向",
+            "other": "به"
+           }
+          },
+          {
+           "surface": "dit",
+           "type": "root",
+           "meaning": "put/give",
+           "translations": {
+            "am": "ማስቀመጥ/መስጠት",
+            "ar": "يضع / يعطي",
+            "es": "poner/dar",
+            "fa": "گذاشتن/دادن",
+            "fr": "mettre / donner",
+            "hi": "रखना/देना",
+            "ja": "置く／与える",
+            "ko": "놓다/주다",
+            "ml": "വയ്ക്കുക / നൽകുക",
+            "ps": "ایښودل / ورکول",
+            "ro": "a pune / a da",
+            "ru": "класть / давать",
+            "ta": "வைத்தல் / கொடுத்தல்",
+            "tl": "ilagay / ibigay",
+            "ur": "رکھنا/دینا",
+            "vi": "đặt / cho",
+            "zh-Hans": "给予/放置",
+            "zh-Hant": "給予/放置"
+           }
+          },
+          {
+           "surface": "ion",
+           "type": "suffix",
+           "meaning": "act/process",
+           "translations": {
+            "fa": "فرایند/عمل",
+            "am": "ሂደት/ድርጊት",
+            "ar": "عملية/فعل",
+            "es": "proceso/acción",
+            "fr": "processus/action",
+            "hi": "प्रक्रिया/क्रिया",
+            "ja": "過程/作用",
+            "ko": "과정/작용",
+            "ml": "പ്രക്രിയ/പ്രവർത്തനം",
+            "ps": "بهیر/کړنه",
+            "ro": "proces/acțiune",
+            "ru": "процесс/действие",
+            "ta": "செயல்முறை/செயல்",
+            "tl": "proseso/kilos",
+            "ur": "عمل/فعل",
+            "vi": "quá trình/hành động",
+            "zh-Hans": "过程/动作",
+            "zh-Hant": "過程/動作"
+           }
+          },
+          {
+           "surface": "re",
+           "type": "prefix",
+           "meaning": "again / back",
+           "translations": {
+            "zh-Hans": "再；回",
+            "zh-Hant": "再；回",
+            "am": "እንደገና",
+            "ar": "مرة أخرى",
+            "es": "de nuevo / atrás",
+            "fa": "دوباره/باز",
+            "fr": "de nouveau / en arrière",
+            "hi": "फिर से / वापस",
+            "ja": "再び / 戻る",
+            "ko": "다시 / 뒤로",
+            "ml": "വീണ്ടും",
+            "ps": "بیا / شاته",
+            "ro": "din nou / înapoi",
+            "ru": "снова / назад",
+            "ta": "மீண்டும் / பின்",
+            "tl": "muli / pabalik",
+            "ur": "دوبارہ / واپس",
+            "vi": "lại"
+           }
+          },
+          {
+           "surface": "act",
+           "type": "root",
+           "meaning": "do or act",
+           "translations": {
+            "zh-Hans": "行动",
+            "zh-Hant": "行動",
+            "am": "ማድረግ",
+            "ar": "يفعل",
+            "es": "hacer o actuar",
+            "fa": "عمل کردن",
+            "fr": "agir",
+            "hi": "कार्य करना",
+            "ja": "行動する",
+            "ko": "행동하다",
+            "ml": "പ്രവർത്തിക്കുക",
+            "ps": "عمل کول",
+            "ro": "a acționa",
+            "ru": "действовать",
+            "ta": "செயல்படுதல்",
+            "tl": "kumilos",
+            "ur": "عمل کرنا",
+            "vi": "hành động"
+           }
+          },
+          {
+           "surface": "ion",
+           "type": "suffix",
+           "meaning": "process or state",
+           "translations": {
+            "zh-Hans": "过程；状态",
+            "zh-Hant": "過程；狀態",
+            "am": "ሂደት ወይም ሁኔታ",
+            "ar": "عملية أو حالة",
+            "es": "proceso o estado",
+            "fa": "فرآیند یا حالت",
+            "fr": "processus ou état",
+            "hi": "प्रक्रिया या स्थिति",
+            "ja": "過程または状態",
+            "ko": "과정 또는 상태",
+            "ml": "പ്രക്രിയ അല്ലെങ്കിൽ അവസ്ഥ",
+            "ps": "بهیر یا حالت",
+            "ro": "proces sau stare",
+            "ru": "процесс или состояние",
+            "ta": "செயல்முறை அல்லது நிலை",
+            "tl": "proseso o kalagayan",
+            "ur": "عمل یا حالت",
+            "vi": "quá trình hoặc trạng thái"
+           }
+          }
+         ],
+         "root": "dit",
          "meaning": "a reaction where atoms are added across a double bond (e.g. in an alkene), with no atoms lost.",
          "example": "",
          "tier": 3,
@@ -29584,8 +30143,160 @@
         },
         {
          "word": "condensation reaction",
-         "parts": [],
-         "root": "",
+         "parts": [
+          {
+           "surface": "con",
+           "type": "prefix",
+           "meaning": "together",
+           "translations": {
+            "am": "ከ… ጋር",
+            "ar": "معًا",
+            "es": "juntos",
+            "fa": "باهم",
+            "fr": "ensemble",
+            "hi": "साथ में",
+            "ja": "一緒に",
+            "ko": "함께",
+            "ml": "കൂടെ",
+            "ps": "یوځای",
+            "ro": "împreună",
+            "ru": "вместе",
+            "ta": "ஒன்றாக",
+            "tl": "magkasama",
+            "ur": "ساتھ",
+            "vi": "cùng",
+            "zh-Hans": "一起",
+            "zh-Hant": "一起",
+            "other": "باهم"
+           }
+          },
+          {
+           "surface": "dens",
+           "type": "root",
+           "meaning": "thick, packed",
+           "translations": {
+            "am": "ጥቅጥቅ",
+            "ar": "كثافة",
+            "es": "denso/compacto",
+            "fa": "چگال",
+            "fr": "dense",
+            "hi": "घना",
+            "ja": "密",
+            "ko": "빽빽한",
+            "ml": "സാന്ദ്ര",
+            "ps": "ګڼ",
+            "ro": "dens",
+            "ru": "плотный",
+            "ta": "அடர்ந்த",
+            "tl": "makapal",
+            "ur": "کثیف",
+            "vi": "đặc",
+            "zh-Hans": "密",
+            "zh-Hant": "密"
+           }
+          },
+          {
+           "surface": "ation",
+           "type": "suffix",
+           "meaning": "the process of",
+           "translations": {
+            "am": "ሂደት",
+            "ar": "عملية",
+            "es": "el proceso de",
+            "fa": "فرآیند",
+            "fr": "processus de",
+            "hi": "प्रक्रिया",
+            "ja": "…する過程",
+            "ko": "…하는 과정",
+            "ml": "പ്രക്രിയ",
+            "ps": "بهير",
+            "ro": "procesul de",
+            "ru": "процесс",
+            "ta": "செயல்முறை",
+            "tl": "proseso ng",
+            "ur": "کا عمل",
+            "vi": "quá trình",
+            "zh-Hans": "…的过程",
+            "zh-Hant": "…的過程"
+           }
+          },
+          {
+           "surface": "re",
+           "type": "prefix",
+           "meaning": "again / back",
+           "translations": {
+            "zh-Hans": "再；回",
+            "zh-Hant": "再；回",
+            "am": "እንደገና",
+            "ar": "مرة أخرى",
+            "es": "de nuevo / atrás",
+            "fa": "دوباره/باز",
+            "fr": "de nouveau / en arrière",
+            "hi": "फिर से / वापस",
+            "ja": "再び / 戻る",
+            "ko": "다시 / 뒤로",
+            "ml": "വീണ്ടും",
+            "ps": "بیا / شاته",
+            "ro": "din nou / înapoi",
+            "ru": "снова / назад",
+            "ta": "மீண்டும் / பின்",
+            "tl": "muli / pabalik",
+            "ur": "دوبارہ / واپس",
+            "vi": "lại"
+           }
+          },
+          {
+           "surface": "act",
+           "type": "root",
+           "meaning": "do or act",
+           "translations": {
+            "zh-Hans": "行动",
+            "zh-Hant": "行動",
+            "am": "ማድረግ",
+            "ar": "يفعل",
+            "es": "hacer o actuar",
+            "fa": "عمل کردن",
+            "fr": "agir",
+            "hi": "कार्य करना",
+            "ja": "行動する",
+            "ko": "행동하다",
+            "ml": "പ്രവർത്തിക്കുക",
+            "ps": "عمل کول",
+            "ro": "a acționa",
+            "ru": "действовать",
+            "ta": "செயல்படுதல்",
+            "tl": "kumilos",
+            "ur": "عمل کرنا",
+            "vi": "hành động"
+           }
+          },
+          {
+           "surface": "ion",
+           "type": "suffix",
+           "meaning": "process or state",
+           "translations": {
+            "zh-Hans": "过程；状态",
+            "zh-Hant": "過程；狀態",
+            "am": "ሂደት ወይም ሁኔታ",
+            "ar": "عملية أو حالة",
+            "es": "proceso o estado",
+            "fa": "فرآیند یا حالت",
+            "fr": "processus ou état",
+            "hi": "प्रक्रिया या स्थिति",
+            "ja": "過程または状態",
+            "ko": "과정 또는 상태",
+            "ml": "പ്രക്രിയ അല്ലെങ്കിൽ അവസ്ഥ",
+            "ps": "بهیر یا حالت",
+            "ro": "proces sau stare",
+            "ru": "процесс или состояние",
+            "ta": "செயல்முறை அல்லது நிலை",
+            "tl": "proseso o kalagayan",
+            "ur": "عمل یا حالت",
+            "vi": "quá trình hoặc trạng thái"
+           }
+          }
+         ],
+         "root": "dens",
          "meaning": "a reaction joining two molecules together with the loss of a small molecule, usually water.",
          "example": "",
          "tier": 3,
@@ -29899,8 +30610,134 @@
         },
         {
          "word": "atom economy",
-         "parts": [],
-         "root": "",
+         "parts": [
+          {
+           "surface": "a",
+           "type": "prefix",
+           "meaning": "not/without",
+           "translations": {
+            "am": "ያለ / አይ",
+            "ar": "بدون / لا",
+            "es": "no/sin",
+            "fa": "بدون / نه",
+            "fr": "sans / non",
+            "hi": "बिना / अ",
+            "ja": "ない",
+            "ko": "없음 / 아님",
+            "ml": "ഇല്ലാതെ / അല്ല",
+            "ps": "پرته / نه",
+            "ro": "fără / non",
+            "ru": "без / не",
+            "ta": "இல்லாமல் / அல்ல",
+            "tl": "walang / hindi",
+            "ur": "بغیر / نہ",
+            "vi": "không",
+            "zh-Hans": "无",
+            "zh-Hant": "無"
+           }
+          },
+          {
+           "surface": "tom",
+           "type": "root",
+           "meaning": "cut",
+           "translations": {
+            "zh-Hans": "切/切",
+            "zh-Hant": "切/切",
+            "am": "መቁረጥ",
+            "ar": "يقطع",
+            "es": "cortar",
+            "fa": "بریدن",
+            "fr": "couper",
+            "hi": "काटना",
+            "ja": "切る",
+            "ko": "자르다",
+            "ml": "മുറിക്കുക",
+            "ps": "پرېکول",
+            "ro": "a tăia",
+            "ru": "резать",
+            "ta": "வெட்டுதல்",
+            "tl": "gupitin",
+            "ur": "کاٹنا",
+            "vi": "cắt"
+           }
+          },
+          {
+           "surface": "eco",
+           "type": "root",
+           "meaning": "house/environment",
+           "translations": {
+            "zh-Hans": "环境/家庭",
+            "zh-Hant": "環境/家庭",
+            "am": "ቤት / አካባቢ",
+            "ar": "بيت / بيئة",
+            "es": "casa/medio ambiente",
+            "fa": "خانه / محیط",
+            "fr": "maison / environnement",
+            "hi": "घर / पर्यावरण",
+            "ja": "家 / 環境",
+            "ko": "집 / 환경",
+            "ml": "വീട് / പരിസ്ഥിതി",
+            "ps": "کور / چاپیریال",
+            "ro": "casă / mediu",
+            "ru": "дом / среда",
+            "ta": "வீடு / சூழல்",
+            "tl": "bahay / kapaligiran",
+            "ur": "گھر / ماحول",
+            "vi": "nhà / môi trường"
+           }
+          },
+          {
+           "surface": "nom",
+           "type": "root",
+           "meaning": "law/manage",
+           "translations": {
+            "zh-Hans": "管理/规则",
+            "zh-Hant": "管理/規則",
+            "am": "ሕግ/ማስተዳደር",
+            "ar": "قانون/إدارة",
+            "es": "ley/administrar",
+            "fa": "قانون/مدیریت",
+            "fr": "loi/gérer",
+            "hi": "नियम/प्रबंधन",
+            "ja": "法則／管理",
+            "ko": "법칙/관리",
+            "ml": "നിയമം/നിയന്ത്രണം",
+            "ps": "قانون/اداره",
+            "ro": "lege/administrare",
+            "ru": "закон/управление",
+            "ta": "விதி/நிர்வாகம்",
+            "tl": "batas/pamamahala",
+            "ur": "قانون/انتظام",
+            "vi": "quy luật/quản lý"
+           }
+          },
+          {
+           "surface": "y",
+           "type": "suffix",
+           "meaning": "state/condition",
+           "translations": {
+            "zh-Hans": "状态",
+            "zh-Hant": "狀態",
+            "am": "ሁኔታ",
+            "ar": "حالة",
+            "es": "estado/condición",
+            "fa": "حالت",
+            "fr": "état",
+            "hi": "अवस्था",
+            "ja": "状態",
+            "ko": "상태",
+            "ml": "അവസ്ഥ",
+            "ps": "حالت",
+            "ro": "stare",
+            "ru": "состояние",
+            "ta": "நிலை",
+            "tl": "kalagayan",
+            "ur": "حالت",
+            "vi": "trạng thái"
+           }
+          }
+         ],
+         "root": "tom",
          "meaning": "the proportion of reactant atoms that end up in the useful product, rather than waste.",
          "example": "",
          "tier": 3,
@@ -30141,8 +30978,84 @@
         },
         {
          "word": "reaction pathway",
-         "parts": [],
-         "root": "",
+         "parts": [
+          {
+           "surface": "re",
+           "type": "prefix",
+           "meaning": "again / back",
+           "translations": {
+            "zh-Hans": "再；回",
+            "zh-Hant": "再；回",
+            "am": "እንደገና",
+            "ar": "مرة أخرى",
+            "es": "de nuevo / atrás",
+            "fa": "دوباره/باز",
+            "fr": "de nouveau / en arrière",
+            "hi": "फिर से / वापस",
+            "ja": "再び / 戻る",
+            "ko": "다시 / 뒤로",
+            "ml": "വീണ്ടും",
+            "ps": "بیا / شاته",
+            "ro": "din nou / înapoi",
+            "ru": "снова / назад",
+            "ta": "மீண்டும் / பின்",
+            "tl": "muli / pabalik",
+            "ur": "دوبارہ / واپس",
+            "vi": "lại"
+           }
+          },
+          {
+           "surface": "act",
+           "type": "root",
+           "meaning": "do or act",
+           "translations": {
+            "zh-Hans": "行动",
+            "zh-Hant": "行動",
+            "am": "ማድረግ",
+            "ar": "يفعل",
+            "es": "hacer o actuar",
+            "fa": "عمل کردن",
+            "fr": "agir",
+            "hi": "कार्य करना",
+            "ja": "行動する",
+            "ko": "행동하다",
+            "ml": "പ്രവർത്തിക്കുക",
+            "ps": "عمل کول",
+            "ro": "a acționa",
+            "ru": "действовать",
+            "ta": "செயல்படுதல்",
+            "tl": "kumilos",
+            "ur": "عمل کرنا",
+            "vi": "hành động"
+           }
+          },
+          {
+           "surface": "ion",
+           "type": "suffix",
+           "meaning": "process or state",
+           "translations": {
+            "zh-Hans": "过程；状态",
+            "zh-Hant": "過程；狀態",
+            "am": "ሂደት ወይም ሁኔታ",
+            "ar": "عملية أو حالة",
+            "es": "proceso o estado",
+            "fa": "فرآیند یا حالت",
+            "fr": "processus ou état",
+            "hi": "प्रक्रिया या स्थिति",
+            "ja": "過程または状態",
+            "ko": "과정 또는 상태",
+            "ml": "പ്രക്രിയ അല്ലെങ്കിൽ അവസ്ഥ",
+            "ps": "بهیر یا حالت",
+            "ro": "proces sau stare",
+            "ru": "процесс или состояние",
+            "ta": "செயல்முறை அல்லது நிலை",
+            "tl": "proseso o kalagayan",
+            "ur": "عمل یا حالت",
+            "vi": "quá trình hoặc trạng thái"
+           }
+          }
+         ],
+         "root": "act",
          "meaning": "the sequence of chemical steps used to convert a starting compound into a target product.",
          "example": "",
          "tier": 2,
@@ -245477,8 +246390,59 @@
         },
         {
          "word": "foreign aid",
-         "parts": [],
-         "root": "",
+         "parts": [
+          {
+           "surface": "for",
+           "type": "prefix",
+           "meaning": "outside",
+           "translations": {
+            "zh-Hans": "外部",
+            "zh-Hant": "外部",
+            "ja": "外部",
+            "am": "ውጫዊ",
+            "ar": "خارجي",
+            "es": "exterior",
+            "fa": "خارج / بیرونی",
+            "fr": "extérieur",
+            "hi": "बाहरी",
+            "ko": "바깥",
+            "ml": "പുറത്തുള്ള",
+            "ps": "بهرنی",
+            "ro": "exterior",
+            "ru": "внешний",
+            "ta": "வெளிப்புற",
+            "tl": "panlabas",
+            "ur": "باہر",
+            "vi": "bên ngoài"
+           }
+          },
+          {
+           "surface": "eign",
+           "type": "suffix",
+           "meaning": "relating to",
+           "translations": {
+            "zh-Hans": "……的",
+            "zh-Hant": "……的",
+            "ja": "～の",
+            "am": "የ… ያለ",
+            "ar": "متعلق بـ",
+            "es": "relacionado con",
+            "fa": "مربوط به",
+            "fr": "relatif à",
+            "hi": "से संबंधित",
+            "ko": "~에 관한",
+            "ml": "സംബന്ധിച്ച",
+            "ps": "پورې اړوند",
+            "ro": "referitor la",
+            "ru": "относящийся к",
+            "ta": "தொடர்பான",
+            "tl": "may kaugnayan sa",
+            "ur": "سے متعلق",
+            "vi": "liên quan đến"
+           }
+          }
+         ],
+         "root": "for",
          "meaning": "resources or support given by one country to another, often to build influence or goodwill.",
          "example": "",
          "tier": 3,
@@ -423075,8 +424039,110 @@
         },
         {
          "word": "See / Explore / Analyse",
-         "parts": [],
-         "root": "",
+         "parts": [
+          {
+           "surface": "ex",
+           "type": "prefix",
+           "meaning": "out",
+           "translations": {
+            "am": "ውጭ",
+            "ar": "خارج",
+            "es": "fuera",
+            "fa": "بیرون",
+            "fr": "hors de",
+            "hi": "बाहर",
+            "ja": "外へ",
+            "ko": "밖으로",
+            "ml": "പുറത്തേക്ക്",
+            "ps": "بهر",
+            "ro": "afară",
+            "ru": "из",
+            "ta": "வெளியே",
+            "tl": "palabas",
+            "ur": "باہر",
+            "vi": "ra",
+            "zh-Hans": "向外",
+            "zh-Hant": "向外",
+            "other": "خارج"
+           }
+          },
+          {
+           "surface": "plore",
+           "type": "root",
+           "meaning": "search / cry out",
+           "translations": {
+            "am": "መፈለግ ወይም መጮህ",
+            "ar": "بحث أو صراخ",
+            "es": "buscar/clamar",
+            "fa": "جستجو یا فریاد زدن",
+            "fr": "chercher / crier",
+            "hi": "खोजना / पुकारना",
+            "ja": "探す・叫ぶ",
+            "ko": "찾다・외치다",
+            "ml": "അന്വേഷിക്കുക / നിലവിളിക്കുക",
+            "ps": "لټون یا چیغه وهل",
+            "ro": "a căuta / a striga",
+            "ru": "искать / взывать",
+            "ta": "தேடுதல் / கூக்குரலிடுதல்",
+            "tl": "maghanap o sumigaw",
+            "ur": "تلاش کرنا یا پکارنا",
+            "vi": "tìm kiếm / kêu gào",
+            "zh-Hans": "寻找/呼喊",
+            "zh-Hant": "尋找/呼喊"
+           }
+          },
+          {
+           "surface": "ana",
+           "type": "prefix",
+           "meaning": "up/throughout",
+           "translations": {
+            "vi": "lên/lại",
+            "am": "ወደ ላይ፣ እንደገና",
+            "ar": "إلى أعلى، مرة أخرى",
+            "es": "arriba/de nuevo",
+            "fa": "بالا، دوباره",
+            "fr": "en haut, à nouveau",
+            "hi": "ऊपर, फिर से",
+            "ja": "上へ、再び",
+            "ko": "위로, 다시",
+            "ml": "മുകളിലേക്ക്, വീണ്ടും",
+            "ps": "پورته، بیا",
+            "ro": "în sus, din nou",
+            "ru": "вверх, снова",
+            "ta": "மேலே, மீண்டும்",
+            "tl": "pataas, muli",
+            "ur": "اوپر، دوبارہ",
+            "zh-Hans": "向上 / 再次",
+            "zh-Hant": "向上 / 再次"
+           }
+          },
+          {
+           "surface": "lyse",
+           "type": "root",
+           "meaning": "break down",
+           "translations": {
+            "vi": "phân tích",
+            "am": "መበታተን",
+            "ar": "تفكيك",
+            "es": "descomponer",
+            "fa": "تجزیه کردن",
+            "fr": "décomposer",
+            "hi": "विश्लेषण करना",
+            "ja": "分解する",
+            "ko": "분해하다",
+            "ml": "വിഘടിപ്പിക്കുക",
+            "ps": "تجزیه کول",
+            "ro": "a descompune",
+            "ru": "разлагать",
+            "ta": "பகுப்பாய்வு செய்",
+            "tl": "suriin",
+            "ur": "تجزیہ کرنا",
+            "zh-Hans": "分解",
+            "zh-Hant": "分解"
+           }
+          }
+         ],
+         "root": "plore",
          "meaning": "A three-step method for unpacking a visual: what you see, what it suggests, how it affects the reader.",
          "example": "Use See / Explore / Analyse when you write about the cartoon.",
          "translations": {
@@ -490009,8 +491075,60 @@
         },
         {
          "word": "Vote Compass",
-         "parts": [],
-         "root": "",
+         "parts": [
+          {
+           "surface": "com",
+           "type": "prefix",
+           "meaning": "together",
+           "translations": {
+            "am": "አብሮ",
+            "ar": "معًا",
+            "es": "juntos",
+            "fa": "باهم",
+            "fr": "ensemble",
+            "hi": "साथ",
+            "ja": "共に",
+            "ko": "함께",
+            "ml": "കൂടെ",
+            "ps": "يوځای",
+            "ro": "împreună",
+            "ru": "вместе",
+            "ta": "ஒன்றாக",
+            "tl": "sama-sama",
+            "ur": "ساتھ",
+            "vi": "cùng",
+            "zh-Hans": "一起",
+            "zh-Hant": "一起",
+            "other": "باهم"
+           }
+          },
+          {
+           "surface": "pass",
+           "type": "root",
+           "meaning": "step",
+           "translations": {
+            "am": "እርምጃ",
+            "ar": "خطوة",
+            "es": "paso",
+            "fa": "قدم",
+            "fr": "pas",
+            "hi": "कदम",
+            "ja": "歩み",
+            "ko": "걸음",
+            "ml": "ചുവട്",
+            "ps": "قدم",
+            "ro": "pas",
+            "ru": "шаг",
+            "ta": "அடி",
+            "tl": "hakbang",
+            "ur": "قدم",
+            "vi": "bước",
+            "zh-Hans": "步",
+            "zh-Hant": "步"
+           }
+          }
+         ],
+         "root": "pass",
          "meaning": "An online tool that compares your views with the policies of each party.",
          "example": "The class used Vote Compass to see which party matched their answers.",
          "translations": {
@@ -492836,8 +493954,136 @@
         },
         {
          "word": "Human Development Index (HDI)",
-         "parts": [],
-         "root": "",
+         "parts": [
+          {
+           "surface": "de",
+           "type": "prefix",
+           "meaning": "away, out (intensifier)",
+           "translations": {
+            "am": "ውጭ፣ ራቅ",
+            "ar": "بعيدًا، خارجًا",
+            "es": "lejos/afuera (intensificador)",
+            "fa": "دور، بیرون",
+            "fr": "au loin, dehors",
+            "hi": "दूर, बाहर",
+            "ja": "離れて、外へ",
+            "ko": "멀리, 밖으로",
+            "ml": "അകലെ, പുറത്ത്",
+            "ps": "لرې، بهر",
+            "ro": "departe, afară",
+            "ru": "прочь, наружу",
+            "ta": "தொலைவில், வெளியே",
+            "tl": "malayo, labas",
+            "ur": "دور، باہر",
+            "vi": "xa, ra ngoài",
+            "zh-Hans": "离开，向外",
+            "zh-Hant": "離開，向外"
+           }
+          },
+          {
+           "surface": "velop",
+           "type": "root",
+           "meaning": "unfold, wrap",
+           "translations": {
+            "am": "መግለጥ፣ መጠቅለል",
+            "ar": "فتح، لف",
+            "es": "desplegar, envolver",
+            "fa": "باز کردن، پیچیدن",
+            "fr": "déployer, envelopper",
+            "hi": "खोलना, लपेटना",
+            "ja": "広げる、包む",
+            "ko": "펼치다, 감싸다",
+            "ml": "വിടർത്തുക, പൊതിയുക",
+            "ps": "خلاصول، نغاړل",
+            "ro": "a desfășura, a înfășura",
+            "ru": "разворачивать, обёртывать",
+            "ta": "விரி, சுற்று",
+            "tl": "iladlad, balutin",
+            "ur": "کھولنا، لپیٹنا",
+            "vi": "mở ra, gói",
+            "zh-Hans": "展开，包裹",
+            "zh-Hant": "展開，包裹"
+           }
+          },
+          {
+           "surface": "ment",
+           "type": "suffix",
+           "meaning": "result or process of",
+           "translations": {
+            "am": "ውጤት ወይም ሂደት",
+            "ar": "نتيجة أو عملية",
+            "es": "resultado o proceso de",
+            "fa": "نتیجه یا فرآیند",
+            "fr": "résultat ou processus de",
+            "hi": "परिणाम या प्रक्रिया",
+            "ja": "結果または過程",
+            "ko": "결과 또는 과정",
+            "ml": "ഫലം അല്ലെങ്കിൽ പ്രക്രിയ",
+            "ps": "پایله یا پروسه",
+            "ro": "rezultat sau proces",
+            "ru": "результат или процесс",
+            "ta": "விளைவு அல்லது செயல்முறை",
+            "tl": "resulta o proseso",
+            "ur": "نتیجہ یا عمل",
+            "vi": "kết quả hoặc quá trình",
+            "zh-Hans": "结果或过程",
+            "zh-Hant": "結果或過程"
+           }
+          },
+          {
+           "surface": "in",
+           "type": "prefix",
+           "meaning": "into",
+           "translations": {
+            "am": "ወደ ውስጥ",
+            "ar": "في",
+            "es": "en / hacia dentro",
+            "fa": "در",
+            "fr": "dans",
+            "hi": "में",
+            "ja": "中に",
+            "ko": "안으로",
+            "ml": "അകത്ത്",
+            "ps": "دننه",
+            "ro": "în",
+            "ru": "в",
+            "ta": "உள்ளே",
+            "tl": "sa loob",
+            "ur": "میں",
+            "vi": "trong",
+            "zh-Hans": "在 / 进入",
+            "zh-Hant": "在 / 進入",
+            "other": "نه"
+           }
+          },
+          {
+           "surface": "dex",
+           "type": "root",
+           "meaning": "point/index",
+           "translations": {
+            "vi": "chỉ số",
+            "fa": "شاخص",
+            "zh-Hans": "指数",
+            "ru": "индекс",
+            "zh-Hant": "指數",
+            "am": "ጠቋሚ",
+            "ar": "مؤشر",
+            "es": "señalar/índice",
+            "fr": "indice",
+            "hi": "सूचकांक",
+            "ja": "指数",
+            "ko": "지수",
+            "ml": "സൂചിക",
+            "ps": "شاخص",
+            "ro": "indice",
+            "ta": "சுட்டெண்",
+            "tl": "indeks",
+            "ur": "اشاریہ",
+            "other": "نمایه"
+           }
+          }
+         ],
+         "root": "velop",
          "meaning": "A measure that combines income, education and life expectancy to rank countries.",
          "example": "Countries near the top of the Human Development Index score well on all three.",
          "translations": {
@@ -492863,8 +494109,61 @@
         },
         {
          "word": "OECD Better Life Index",
-         "parts": [],
-         "root": "",
+         "parts": [
+          {
+           "surface": "in",
+           "type": "prefix",
+           "meaning": "into",
+           "translations": {
+            "am": "ወደ ውስጥ",
+            "ar": "في",
+            "es": "en / hacia dentro",
+            "fa": "در",
+            "fr": "dans",
+            "hi": "में",
+            "ja": "中に",
+            "ko": "안으로",
+            "ml": "അകത്ത്",
+            "ps": "دننه",
+            "ro": "în",
+            "ru": "в",
+            "ta": "உள்ளே",
+            "tl": "sa loob",
+            "ur": "میں",
+            "vi": "trong",
+            "zh-Hans": "在 / 进入",
+            "zh-Hant": "在 / 進入",
+            "other": "نه"
+           }
+          },
+          {
+           "surface": "dex",
+           "type": "root",
+           "meaning": "point/index",
+           "translations": {
+            "vi": "chỉ số",
+            "fa": "شاخص",
+            "zh-Hans": "指数",
+            "ru": "индекс",
+            "zh-Hant": "指數",
+            "am": "ጠቋሚ",
+            "ar": "مؤشر",
+            "es": "señalar/índice",
+            "fr": "indice",
+            "hi": "सूचकांक",
+            "ja": "指数",
+            "ko": "지수",
+            "ml": "സൂചിക",
+            "ps": "شاخص",
+            "ro": "indice",
+            "ta": "சுட்டெண்",
+            "tl": "indeks",
+            "ur": "اشاریہ",
+            "other": "نمایه"
+           }
+          }
+         ],
+         "root": "dex",
          "meaning": "A measure that compares countries on housing, income, jobs, health and wellbeing.",
          "example": "The OECD Better Life Index lets you weight the things you care about most.",
          "translations": {
@@ -493587,8 +494886,59 @@
         },
         {
          "word": "Reserve Bank of Australia (RBA)",
-         "parts": [],
-         "root": "",
+         "parts": [
+          {
+           "surface": "re",
+           "type": "prefix",
+           "meaning": "back",
+           "translations": {
+            "am": "ወደኋላ",
+            "ar": "إلى الخلف",
+            "es": "atrás",
+            "fa": "دوباره",
+            "fr": "arrière",
+            "hi": "पीछे",
+            "ja": "後ろ",
+            "ko": "뒤로",
+            "ml": "പിന്നിൽ",
+            "ps": "شاته",
+            "ro": "înapoi",
+            "ru": "назад",
+            "ta": "பின்னால்",
+            "tl": "pabalik",
+            "ur": "پیچھے",
+            "vi": "lùi",
+            "zh-Hans": "回",
+            "zh-Hant": "回"
+           }
+          },
+          {
+           "surface": "serv",
+           "type": "root",
+           "meaning": "keep/save",
+           "translations": {
+            "am": "መጠበቅ",
+            "ar": "حفظ",
+            "es": "preservar",
+            "fa": "نگه داشتن",
+            "fr": "préserver",
+            "hi": "सुरक्षित रखना",
+            "ja": "保護する",
+            "ko": "보호하다",
+            "ml": "സുരക്ഷിതമായി സൂക്ഷിക്കുക",
+            "ps": "ساتل",
+            "ro": "a păstra",
+            "ru": "сохранять",
+            "ta": "பாதுகாத்தல்",
+            "tl": "ingatan",
+            "ur": "محفوظ رکھنا",
+            "vi": "giữ gìn",
+            "zh-Hans": "保护",
+            "zh-Hant": "保護"
+           }
+          }
+         ],
+         "root": "serv",
          "meaning": "Australia's central bank, which sets the cash rate and manages the money supply.",
          "example": "The Reserve Bank of Australia meets each month to review the cash rate.",
          "translations": {
@@ -506107,8 +507457,59 @@
         },
         {
          "word": "Soldier Settlement Scheme",
-         "parts": [],
-         "root": "",
+         "parts": [
+          {
+           "surface": "settle",
+           "type": "root",
+           "meaning": "to seat/make a home",
+           "translations": {
+            "zh-Hans": "安顿/定居",
+            "zh-Hant": "安頓/定居",
+            "ja": "座らせる/住まわせる",
+            "ko": "앉히다/정착시키다",
+            "vi": "an cư/định cư",
+            "ar": "يُسكن/يستقر",
+            "fa": "مستقر کردن/خانه ساختن",
+            "ur": "بسنا/گھر بنانا",
+            "am": "ማስፈር/ቤት መስራት",
+            "ml": "താമസിപ്പിക്കുക",
+            "ta": "குடியேற்றுதல்",
+            "tl": "manirahan/magtatag ng tahanan",
+            "ps": "ځای پرځای کول/کور جوړول",
+            "ro": "a se așeza/a-și face casă",
+            "ru": "селиться/обосновываться",
+            "fr": "s'installer/faire son foyer",
+            "hi": "बसाना/घर बनाना",
+            "es": "asentarse/hacer un hogar"
+           }
+          },
+          {
+           "surface": "ment",
+           "type": "suffix",
+           "meaning": "result of",
+           "translations": {
+            "am": "ውጤት",
+            "ar": "نتيجة",
+            "es": "resultado de",
+            "fa": "نتیجه",
+            "fr": "résultat de",
+            "hi": "परिणाम",
+            "ja": "結果",
+            "ko": "결과",
+            "ml": "ഫലം",
+            "ps": "پایله",
+            "ro": "rezultat",
+            "ru": "результат",
+            "ta": "விளைவு",
+            "tl": "resulta",
+            "ur": "نتیجہ",
+            "vi": "kết quả",
+            "zh-Hans": "结果",
+            "zh-Hant": "結果"
+           }
+          }
+         ],
+         "root": "settle",
          "meaning": "A government program after the war that gave returned soldiers land to farm.",
          "example": "Many blocks in the Soldier Settlement Scheme were too small to live on.",
          "translations": {
@@ -629275,8 +630676,136 @@
         },
         {
          "word": "Human Development Index (HDI)",
-         "parts": [],
-         "root": "",
+         "parts": [
+          {
+           "surface": "de",
+           "type": "prefix",
+           "meaning": "away, out (intensifier)",
+           "translations": {
+            "am": "ውጭ፣ ራቅ",
+            "ar": "بعيدًا، خارجًا",
+            "es": "lejos/afuera (intensificador)",
+            "fa": "دور، بیرون",
+            "fr": "au loin, dehors",
+            "hi": "दूर, बाहर",
+            "ja": "離れて、外へ",
+            "ko": "멀리, 밖으로",
+            "ml": "അകലെ, പുറത്ത്",
+            "ps": "لرې، بهر",
+            "ro": "departe, afară",
+            "ru": "прочь, наружу",
+            "ta": "தொலைவில், வெளியே",
+            "tl": "malayo, labas",
+            "ur": "دور، باہر",
+            "vi": "xa, ra ngoài",
+            "zh-Hans": "离开，向外",
+            "zh-Hant": "離開，向外"
+           }
+          },
+          {
+           "surface": "velop",
+           "type": "root",
+           "meaning": "unfold, wrap",
+           "translations": {
+            "am": "መግለጥ፣ መጠቅለል",
+            "ar": "فتح، لف",
+            "es": "desplegar, envolver",
+            "fa": "باز کردن، پیچیدن",
+            "fr": "déployer, envelopper",
+            "hi": "खोलना, लपेटना",
+            "ja": "広げる、包む",
+            "ko": "펼치다, 감싸다",
+            "ml": "വിടർത്തുക, പൊതിയുക",
+            "ps": "خلاصول، نغاړل",
+            "ro": "a desfășura, a înfășura",
+            "ru": "разворачивать, обёртывать",
+            "ta": "விரி, சுற்று",
+            "tl": "iladlad, balutin",
+            "ur": "کھولنا، لپیٹنا",
+            "vi": "mở ra, gói",
+            "zh-Hans": "展开，包裹",
+            "zh-Hant": "展開，包裹"
+           }
+          },
+          {
+           "surface": "ment",
+           "type": "suffix",
+           "meaning": "result or process of",
+           "translations": {
+            "am": "ውጤት ወይም ሂደት",
+            "ar": "نتيجة أو عملية",
+            "es": "resultado o proceso de",
+            "fa": "نتیجه یا فرآیند",
+            "fr": "résultat ou processus de",
+            "hi": "परिणाम या प्रक्रिया",
+            "ja": "結果または過程",
+            "ko": "결과 또는 과정",
+            "ml": "ഫലം അല്ലെങ്കിൽ പ്രക്രിയ",
+            "ps": "پایله یا پروسه",
+            "ro": "rezultat sau proces",
+            "ru": "результат или процесс",
+            "ta": "விளைவு அல்லது செயல்முறை",
+            "tl": "resulta o proseso",
+            "ur": "نتیجہ یا عمل",
+            "vi": "kết quả hoặc quá trình",
+            "zh-Hans": "结果或过程",
+            "zh-Hant": "結果或過程"
+           }
+          },
+          {
+           "surface": "in",
+           "type": "prefix",
+           "meaning": "into",
+           "translations": {
+            "am": "ወደ ውስጥ",
+            "ar": "في",
+            "es": "en / hacia dentro",
+            "fa": "در",
+            "fr": "dans",
+            "hi": "में",
+            "ja": "中に",
+            "ko": "안으로",
+            "ml": "അകത്ത്",
+            "ps": "دننه",
+            "ro": "în",
+            "ru": "в",
+            "ta": "உள்ளே",
+            "tl": "sa loob",
+            "ur": "میں",
+            "vi": "trong",
+            "zh-Hans": "在 / 进入",
+            "zh-Hant": "在 / 進入",
+            "other": "نه"
+           }
+          },
+          {
+           "surface": "dex",
+           "type": "root",
+           "meaning": "point/index",
+           "translations": {
+            "vi": "chỉ số",
+            "fa": "شاخص",
+            "zh-Hans": "指数",
+            "ru": "индекс",
+            "zh-Hant": "指數",
+            "am": "ጠቋሚ",
+            "ar": "مؤشر",
+            "es": "señalar/índice",
+            "fr": "indice",
+            "hi": "सूचकांक",
+            "ja": "指数",
+            "ko": "지수",
+            "ml": "സൂചിക",
+            "ps": "شاخص",
+            "ro": "indice",
+            "ta": "சுட்டெண்",
+            "tl": "indeks",
+            "ur": "اشاریہ",
+            "other": "نمایه"
+           }
+          }
+         ],
+         "root": "velop",
          "meaning": "A measure of a country's development that combines life expectancy, education and income.",
          "example": "Norway sits near the top of the Human Development Index.",
          "translations": {
@@ -827764,6 +829293,21 @@
      "reaction",
      "year-9/science/physics",
      "act"
+    ],
+    [
+     "addition reaction",
+     "vce/chemistry/unit-4-aos-1",
+     "act"
+    ],
+    [
+     "condensation reaction",
+     "vce/chemistry/unit-4-aos-1",
+     "act"
+    ],
+    [
+     "reaction pathway",
+     "vce/chemistry/unit-4-aos-1",
+     "act"
     ]
    ]
   },
@@ -828418,6 +829962,11 @@
     [
      "adaptation",
      "year-9/science/photosynthesis",
+     "ad"
+    ],
+    [
+     "addition reaction",
+     "vce/chemistry/unit-4-aos-1",
      "ad"
     ]
    ]
@@ -832211,6 +833760,11 @@
     [
      "analysis",
      "year-9/science/physics",
+     "ana"
+    ],
+    [
+     "See / Explore / Analyse",
+     "year-10/english/y10-argument-techniques-2",
      "ana"
     ]
    ]
@@ -840111,6 +841665,11 @@
      "observation",
      "year-7/mathematics/data-collecting",
      "ation"
+    ],
+    [
+     "condensation reaction",
+     "vce/chemistry/unit-4-aos-1",
+     "ation"
     ]
    ]
   },
@@ -840607,6 +842166,11 @@
     [
      "conciliatory",
      "year-8/english/y8-issues-tone",
+     "atory"
+    ],
+    [
+     "standard laboratory conditions (SLC)",
+     "vce/chemistry/unit-2-aos-2",
      "atory"
     ]
    ]
@@ -841684,6 +843248,11 @@
     [
      "atomic number",
      "year-9/science/radioactivity",
+     "a"
+    ],
+    [
+     "atom economy",
+     "vce/chemistry/unit-4-aos-1",
      "a"
     ]
    ]
@@ -848692,6 +850261,11 @@
      "compass",
      "year-9/science/magnetism",
      "com"
+    ],
+    [
+     "Vote Compass",
+     "year-9/humanities/y9-civics-parties",
+     "com"
     ]
    ]
   },
@@ -850614,6 +852188,16 @@
     [
      "non-contact force",
      "year-9/science/forces",
+     "con"
+    ],
+    [
+     "standard laboratory conditions (SLC)",
+     "vce/chemistry/unit-2-aos-2",
+     "con"
+    ],
+    [
+     "condensation reaction",
+     "vce/chemistry/unit-4-aos-1",
      "con"
     ]
    ]
@@ -853698,6 +855282,11 @@
      "density",
      "year-8/science/chemistry",
      "dens"
+    ],
+    [
+     "condensation reaction",
+     "vce/chemistry/unit-4-aos-1",
+     "dens"
     ]
    ]
   },
@@ -853961,6 +855550,21 @@
     [
      "index",
      "year-9/mathematics/y9m-indices-6-1",
+     "dex"
+    ],
+    [
+     "Human Development Index (HDI)",
+     "year-9/humanities/y9-economics-living-standards",
+     "dex"
+    ],
+    [
+     "OECD Better Life Index",
+     "year-9/humanities/y9-economics-living-standards",
+     "dex"
+    ],
+    [
+     "Human Development Index (HDI)",
+     "year-8/humanities/liveability-lessons-2-2-3-3",
      "dex"
     ]
    ]
@@ -855072,6 +856676,16 @@
     [
      "description",
      "year-7/english/narrative",
+     "de"
+    ],
+    [
+     "Human Development Index (HDI)",
+     "year-9/humanities/y9-economics-living-standards",
+     "de"
+    ],
+    [
+     "Human Development Index (HDI)",
+     "year-8/humanities/liveability-lessons-2-2-3-3",
      "de"
     ]
    ]
@@ -856680,6 +858294,11 @@
      "addition",
      "year-8/mathematics/algebra",
      "dit"
+    ],
+    [
+     "addition reaction",
+     "vce/chemistry/unit-4-aos-1",
+     "dit"
     ]
    ]
   },
@@ -856731,6 +858350,11 @@
     [
      "living conditions",
      "year-8/humanities/medieval-daily-life",
+     "dit"
+    ],
+    [
+     "standard laboratory conditions (SLC)",
+     "vce/chemistry/unit-2-aos-2",
      "dit"
     ]
    ]
@@ -858005,6 +859629,11 @@
      "producer",
      "year-9/science/ecology",
      "duc"
+    ],
+    [
+     "reducing agent",
+     "vce/chemistry/unit-2-aos-1",
+     "duc"
     ]
    ]
   },
@@ -858307,6 +859936,11 @@
     [
      "ecosystem",
      "year-9/science/ecology",
+     "eco"
+    ],
+    [
+     "atom economy",
+     "vce/chemistry/unit-4-aos-1",
      "eco"
     ]
    ]
@@ -859714,6 +861348,11 @@
      "cause and effect",
      "year-8/humanities/medieval-source-analysis",
      "ef"
+    ],
+    [
+     "greenhouse effect",
+     "vce/chemistry/unit-2-aos-1",
+     "ef"
     ]
    ]
   },
@@ -859858,6 +861497,11 @@
     [
      "foreign",
      "year-9/humanities/political-systems",
+     "eign"
+    ],
+    [
+     "foreign aid",
+     "vce/politics/unit-4-aos-1",
      "eign"
     ]
    ]
@@ -864181,6 +865825,11 @@
      "gametes",
      "year-9/science/reproduction",
      "es"
+    ],
+    [
+     "homologous series",
+     "vce/chemistry/unit-4-aos-1",
+     "es"
     ]
    ]
   },
@@ -865608,6 +867257,11 @@
     [
      "quadratic expression",
      "year-9/mathematics/y9m-quadratics",
+     "ex"
+    ],
+    [
+     "See / Explore / Analyse",
+     "year-10/english/y10-argument-techniques-2",
      "ex"
     ]
    ]
@@ -867426,6 +869080,11 @@
     [
      "perfect square",
      "year-9/mathematics/algebra",
+     "fect"
+    ],
+    [
+     "greenhouse effect",
+     "vce/chemistry/unit-2-aos-1",
      "fect"
     ]
    ]
@@ -869736,6 +871395,11 @@
     [
      "foreign",
      "year-9/humanities/political-systems",
+     "for"
+    ],
+    [
+     "foreign aid",
+     "vce/politics/unit-4-aos-1",
      "for"
     ]
    ]
@@ -873725,6 +875389,11 @@
     [
      "homophone",
      "year-8/english/y8-literacy-punctuation-spelling",
+     "homo"
+    ],
+    [
+     "homologous series",
+     "vce/chemistry/unit-4-aos-1",
      "homo"
     ]
    ]
@@ -880724,6 +882393,11 @@
      "recurring decimal",
      "year-9/mathematics/y9m-finance",
      "ing"
+    ],
+    [
+     "reducing agent",
+     "vce/chemistry/unit-2-aos-1",
+     "ing"
     ]
    ]
   },
@@ -882754,6 +884428,21 @@
     [
      "inflammation",
      "year-9/science/fighting-infections",
+     "in"
+    ],
+    [
+     "Human Development Index (HDI)",
+     "year-9/humanities/y9-economics-living-standards",
+     "in"
+    ],
+    [
+     "OECD Better Life Index",
+     "year-9/humanities/y9-economics-living-standards",
+     "in"
+    ],
+    [
+     "Human Development Index (HDI)",
+     "year-8/humanities/liveability-lessons-2-2-3-3",
      "in"
     ]
    ]
@@ -886191,6 +887880,26 @@
     [
      "competition",
      "year-9/science/ecology",
+     "ion"
+    ],
+    [
+     "standard laboratory conditions (SLC)",
+     "vce/chemistry/unit-2-aos-2",
+     "ion"
+    ],
+    [
+     "addition reaction",
+     "vce/chemistry/unit-4-aos-1",
+     "ion"
+    ],
+    [
+     "condensation reaction",
+     "vce/chemistry/unit-4-aos-1",
+     "ion"
+    ],
+    [
+     "reaction pathway",
+     "vce/chemistry/unit-4-aos-1",
      "ion"
     ]
    ]
@@ -893142,6 +894851,11 @@
      "elaborate",
      "year-9/english/curious-incident-core",
      "labor"
+    ],
+    [
+     "standard laboratory conditions (SLC)",
+     "vce/chemistry/unit-2-aos-2",
+     "labor"
     ]
    ]
   },
@@ -895987,6 +897701,11 @@
      "logarithmic scale",
      "year-10/mathematics/y10m-indices-logs",
      "log"
+    ],
+    [
+     "homologous series",
+     "vce/chemistry/unit-4-aos-1",
+     "log"
     ]
    ]
   },
@@ -896709,6 +898428,11 @@
     [
      "analyse",
      "year-10/english/shawshank-task-verbs",
+     "lyse"
+    ],
+    [
+     "See / Explore / Analyse",
+     "year-10/english/y10-argument-techniques-2",
      "lyse"
     ]
    ]
@@ -899783,6 +901507,11 @@
      "measurement",
      "year-9/science/physics",
      "ment"
+    ],
+    [
+     "Soldier Settlement Scheme",
+     "year-9/humanities/wwi-set-4",
+     "ment"
     ]
    ]
   },
@@ -899897,6 +901626,16 @@
     [
      "movement",
      "year-7/science/particles",
+     "ment"
+    ],
+    [
+     "Human Development Index (HDI)",
+     "year-9/humanities/y9-economics-living-standards",
+     "ment"
+    ],
+    [
+     "Human Development Index (HDI)",
+     "year-8/humanities/liveability-lessons-2-2-3-3",
      "ment"
     ]
    ]
@@ -904083,6 +905822,11 @@
      "mixed economy",
      "year-9/humanities/y9-economics-systems",
      "nom"
+    ],
+    [
+     "atom economy",
+     "vce/chemistry/unit-4-aos-1",
+     "nom"
     ]
    ]
   },
@@ -907314,6 +909058,11 @@
      "continuous random variable",
      "vce/math-methods/unit-3-4-aos-4",
      "ous"
+    ],
+    [
+     "homologous series",
+     "vce/chemistry/unit-4-aos-1",
+     "ous"
     ]
    ]
   },
@@ -908568,6 +910317,11 @@
     [
      "compass",
      "year-9/science/magnetism",
+     "pass"
+    ],
+    [
+     "Vote Compass",
+     "year-9/humanities/y9-civics-parties",
      "pass"
     ]
    ]
@@ -912014,6 +913768,11 @@
     [
      "explore",
      "vce/literature/lit-meta-command-terms",
+     "plore"
+    ],
+    [
+     "See / Explore / Analyse",
+     "year-10/english/y10-argument-techniques-2",
      "plore"
     ]
    ]
@@ -920049,6 +921808,21 @@
      "reproduction",
      "year-9/science/reproduction",
      "re"
+    ],
+    [
+     "addition reaction",
+     "vce/chemistry/unit-4-aos-1",
+     "re"
+    ],
+    [
+     "condensation reaction",
+     "vce/chemistry/unit-4-aos-1",
+     "re"
+    ],
+    [
+     "reaction pathway",
+     "vce/chemistry/unit-4-aos-1",
+     "re"
     ]
    ]
   },
@@ -921184,6 +922958,16 @@
     [
      "repel",
      "year-9/science/magnetism",
+     "re"
+    ],
+    [
+     "reducing agent",
+     "vce/chemistry/unit-2-aos-1",
+     "re"
+    ],
+    [
+     "Reserve Bank of Australia (RBA)",
+     "year-9/humanities/y9-economics-living-standards",
      "re"
     ]
    ]
@@ -923646,6 +925430,11 @@
      "series circuit",
      "year-9/science/electricity",
      "seri"
+    ],
+    [
+     "homologous series",
+     "vce/chemistry/unit-4-aos-1",
+     "seri"
     ]
    ]
   },
@@ -923756,6 +925545,11 @@
     [
      "conservation of mass",
      "year-9/science/chemical-reactions",
+     "serv"
+    ],
+    [
+     "Reserve Bank of Australia (RBA)",
+     "year-9/humanities/y9-economics-living-standards",
      "serv"
     ]
    ]
@@ -923894,6 +925688,11 @@
     [
      "informal settlement",
      "year-8/humanities/changing-nations-lessons-2-1-2-3",
+     "settle"
+    ],
+    [
+     "Soldier Settlement Scheme",
+     "year-9/humanities/wwi-set-4",
      "settle"
     ]
    ]
@@ -931768,6 +933567,11 @@
      "like surds",
      "year-9/mathematics/y9m-indices-6-6-6-9",
      "s"
+    ],
+    [
+     "standard laboratory conditions (SLC)",
+     "vce/chemistry/unit-2-aos-2",
+     "s"
     ]
    ]
   },
@@ -934941,6 +936745,11 @@
     [
      "anatomy",
      "year-9/science/reproduction",
+     "tom"
+    ],
+    [
+     "atom economy",
+     "vce/chemistry/unit-4-aos-1",
      "tom"
     ]
    ]
@@ -940037,6 +941846,16 @@
      "development",
      "year-9/humanities/economics",
      "velop"
+    ],
+    [
+     "Human Development Index (HDI)",
+     "year-9/humanities/y9-economics-living-standards",
+     "velop"
+    ],
+    [
+     "Human Development Index (HDI)",
+     "year-8/humanities/liveability-lessons-2-2-3-3",
+     "velop"
     ]
    ]
   },
@@ -945045,6 +946864,21 @@
      "re-enactment",
      "elc/humanities/hist-remember",
      "act"
+    ],
+    [
+     "addition reaction",
+     "vce/chemistry/unit-4-aos-1",
+     "act"
+    ],
+    [
+     "condensation reaction",
+     "vce/chemistry/unit-4-aos-1",
+     "act"
+    ],
+    [
+     "reaction pathway",
+     "vce/chemistry/unit-4-aos-1",
+     "act"
     ]
    ],
    "extras": [
@@ -946728,6 +948562,11 @@
      "approval",
      "elc/humanities/hist-feel",
      "ap"
+    ],
+    [
+     "addition reaction",
+     "vce/chemistry/unit-4-aos-1",
+     "ad"
     ]
    ],
    "extras": [
@@ -951000,6 +952839,11 @@
     [
      "anaphora",
      "elc/english/obama-rhetoric",
+     "ana"
+    ],
+    [
+     "See / Explore / Analyse",
+     "year-10/english/y10-argument-techniques-2",
      "ana"
     ]
    ],
@@ -959017,6 +960861,11 @@
      "contemplation",
      "elc/humanities/hist-think",
      "ation"
+    ],
+    [
+     "condensation reaction",
+     "vce/chemistry/unit-4-aos-1",
+     "ation"
     ]
    ],
    "extras": [
@@ -959574,6 +961423,11 @@
     [
      "conciliatory",
      "year-8/english/y8-issues-tone",
+     "atory"
+    ],
+    [
+     "standard laboratory conditions (SLC)",
+     "vce/chemistry/unit-2-aos-2",
      "atory"
     ]
    ],
@@ -961040,6 +962894,11 @@
     [
      "apathetic",
      "elc/english/algernon-feelings",
+     "a"
+    ],
+    [
+     "atom economy",
+     "vce/chemistry/unit-4-aos-1",
      "a"
     ]
    ],
@@ -974402,6 +976261,16 @@
      "conditions",
      "elc/humanities/hist-place",
      "con"
+    ],
+    [
+     "standard laboratory conditions (SLC)",
+     "vce/chemistry/unit-2-aos-2",
+     "con"
+    ],
+    [
+     "condensation reaction",
+     "vce/chemistry/unit-4-aos-1",
+     "con"
     ]
    ],
    "extras": [
@@ -978230,6 +980099,11 @@
      "population density",
      "year-8/humanities/liveability-lessons-1-1-2-1",
      "dens"
+    ],
+    [
+     "condensation reaction",
+     "vce/chemistry/unit-4-aos-1",
+     "dens"
     ]
    ],
    "extras": [
@@ -978591,6 +980465,16 @@
     [
      "index/indices",
      "year-7/mathematics/y7m-everyday-2",
+     "dex"
+    ],
+    [
+     "Human Development Index (HDI)",
+     "year-9/humanities/y9-economics-living-standards",
+     "dex"
+    ],
+    [
+     "OECD Better Life Index",
+     "year-9/humanities/y9-economics-living-standards",
      "dex"
     ]
    ],
@@ -979853,6 +981737,11 @@
     [
      "determined",
      "elc/humanities/hist-think",
+     "de"
+    ],
+    [
+     "Human Development Index (HDI)",
+     "year-9/humanities/y9-economics-living-standards",
      "de"
     ]
    ],
@@ -981862,6 +983751,11 @@
      "appeal to tradition",
      "year-8/english/y8-issues-appeals",
      "dit"
+    ],
+    [
+     "addition reaction",
+     "vce/chemistry/unit-4-aos-1",
+     "dit"
     ]
    ],
    "extras": []
@@ -981918,6 +983812,11 @@
     [
      "conditions",
      "elc/humanities/hist-place",
+     "dit"
+    ],
+    [
+     "standard laboratory conditions (SLC)",
+     "vce/chemistry/unit-2-aos-2",
      "dit"
     ]
    ],
@@ -983404,6 +985303,11 @@
      "subdued",
      "elc/humanities/hist-feel",
      "du"
+    ],
+    [
+     "reducing agent",
+     "vce/chemistry/unit-2-aos-1",
+     "duc"
     ]
    ],
    "extras": [
@@ -984003,6 +985907,11 @@
     [
      "ecotourism",
      "year-9/humanities/interconnection-tourism",
+     "eco"
+    ],
+    [
+     "atom economy",
+     "vce/chemistry/unit-4-aos-1",
      "eco"
     ]
    ],
@@ -985670,6 +987579,11 @@
     [
      "foreign",
      "year-7/humanities-civics/civics",
+     "eign"
+    ],
+    [
+     "foreign aid",
+     "vce/politics/unit-4-aos-1",
      "eign"
     ]
    ],
@@ -990748,6 +992662,11 @@
      "diseases",
      "elc/humanities/hist-impact",
      "es"
+    ],
+    [
+     "homologous series",
+     "vce/chemistry/unit-4-aos-1",
+     "es"
     ]
    ],
    "extras": []
@@ -993182,6 +995101,11 @@
      "exemption",
      "elc/humanities/hist-fair",
      "ex"
+    ],
+    [
+     "See / Explore / Analyse",
+     "year-10/english/y10-argument-techniques-2",
+     "ex"
     ]
    ],
    "extras": [
@@ -994909,6 +996833,11 @@
      "Significant",
      "elc/humanities/hist-linking",
      "fic"
+    ],
+    [
+     "greenhouse effect",
+     "vce/chemistry/unit-2-aos-1",
+     "fect"
     ]
    ],
    "extras": [
@@ -998205,6 +1000134,11 @@
     [
      "forum",
      "year-7/humanities-civics/history-rome",
+     "for"
+    ],
+    [
+     "foreign aid",
+     "vce/politics/unit-4-aos-1",
      "for"
     ]
    ],
@@ -1004629,6 +1006563,11 @@
     [
      "homonym",
      "year-8/english/y8-literacy-punctuation-spelling",
+     "homo"
+    ],
+    [
+     "homologous series",
+     "vce/chemistry/unit-4-aos-1",
      "homo"
     ]
    ],
@@ -1012547,6 +1014486,11 @@
      "forming",
      "elc/humanities/hist-place",
      "ing"
+    ],
+    [
+     "reducing agent",
+     "vce/chemistry/unit-2-aos-1",
+     "ing"
     ]
    ],
    "extras": []
@@ -1015126,6 +1017070,21 @@
     [
      "Invasion",
      "elc/humanities/hist-dispossession",
+     "in"
+    ],
+    [
+     "Human Development Index (HDI)",
+     "year-9/humanities/y9-economics-living-standards",
+     "in"
+    ],
+    [
+     "OECD Better Life Index",
+     "year-9/humanities/y9-economics-living-standards",
+     "in"
+    ],
+    [
+     "Human Development Index (HDI)",
+     "year-8/humanities/liveability-lessons-2-2-3-3",
      "in"
     ]
    ],
@@ -1019609,6 +1021568,26 @@
     [
      "conditions",
      "elc/humanities/hist-place",
+     "ion"
+    ],
+    [
+     "standard laboratory conditions (SLC)",
+     "vce/chemistry/unit-2-aos-2",
+     "ion"
+    ],
+    [
+     "addition reaction",
+     "vce/chemistry/unit-4-aos-1",
+     "ion"
+    ],
+    [
+     "condensation reaction",
+     "vce/chemistry/unit-4-aos-1",
+     "ion"
+    ],
+    [
+     "reaction pathway",
+     "vce/chemistry/unit-4-aos-1",
      "ion"
     ]
    ],
@@ -1027271,6 +1029250,11 @@
      "elaboration",
      "year-9/english/aqotwf-essay-skills",
      "labor"
+    ],
+    [
+     "standard laboratory conditions (SLC)",
+     "vce/chemistry/unit-2-aos-2",
+     "labor"
     ]
    ],
    "extras": [
@@ -1031443,6 +1033427,11 @@
     [
      "apologise",
      "elc/humanities/hist-everyday-feelings",
+     "log"
+    ],
+    [
+     "homologous series",
+     "vce/chemistry/unit-4-aos-1",
      "log"
     ]
    ],
@@ -1036418,6 +1038407,16 @@
     [
      "re-enactment",
      "elc/humanities/hist-remember",
+     "ment"
+    ],
+    [
+     "Human Development Index (HDI)",
+     "year-9/humanities/y9-economics-living-standards",
+     "ment"
+    ],
+    [
+     "Soldier Settlement Scheme",
+     "year-9/humanities/wwi-set-4",
      "ment"
     ]
    ],
@@ -1042191,6 +1044190,11 @@
      "mixed economy",
      "year-9/humanities/y9-economics-systems",
      "nom"
+    ],
+    [
+     "atom economy",
+     "vce/chemistry/unit-4-aos-1",
+     "nom"
     ]
    ],
    "extras": [
@@ -1046403,6 +1048407,11 @@
      "vacuous smile",
      "elc/english/algernon-people",
      "ous"
+    ],
+    [
+     "homologous series",
+     "vce/chemistry/unit-4-aos-1",
+     "ous"
     ]
    ],
    "extras": [
@@ -1048284,6 +1050293,11 @@
     [
      "Passing",
      "elc/humanities/hist-racism",
+     "pass"
+    ],
+    [
+     "Vote Compass",
+     "year-9/humanities/y9-civics-parties",
      "pass"
     ]
    ],
@@ -1053128,6 +1055142,11 @@
     [
      "explore",
      "vce/literature/lit-meta-command-terms",
+     "plore"
+    ],
+    [
+     "See / Explore / Analyse",
+     "year-10/english/y10-argument-techniques-2",
      "plore"
     ]
    ],
@@ -1063370,6 +1065389,21 @@
      "recognise",
      "elc/humanities/hist-place",
      "re"
+    ],
+    [
+     "addition reaction",
+     "vce/chemistry/unit-4-aos-1",
+     "re"
+    ],
+    [
+     "condensation reaction",
+     "vce/chemistry/unit-4-aos-1",
+     "re"
+    ],
+    [
+     "reaction pathway",
+     "vce/chemistry/unit-4-aos-1",
+     "re"
     ]
    ],
    "extras": [
@@ -1064465,6 +1066499,16 @@
     [
      "reversed",
      "elc/humanities/hist-place",
+     "re"
+    ],
+    [
+     "reducing agent",
+     "vce/chemistry/unit-2-aos-1",
+     "re"
+    ],
+    [
+     "Reserve Bank of Australia (RBA)",
+     "year-9/humanities/y9-economics-living-standards",
      "re"
     ]
    ],
@@ -1068439,6 +1070483,11 @@
      "time series",
      "year-10/mathematics/y10m-statistics-bivariate",
      "seri"
+    ],
+    [
+     "homologous series",
+     "vce/chemistry/unit-4-aos-1",
+     "seri"
     ]
    ],
    "extras": []
@@ -1068598,6 +1070647,11 @@
     [
      "observance committee",
      "elc/humanities/hist-remember",
+     "serv"
+    ],
+    [
+     "Reserve Bank of Australia (RBA)",
+     "year-9/humanities/y9-economics-living-standards",
      "serv"
     ]
    ],
@@ -1068767,6 +1070821,11 @@
     [
      "mission (settlement)",
      "elc/humanities/hist-dispossession",
+     "settle"
+    ],
+    [
+     "Soldier Settlement Scheme",
+     "year-9/humanities/wwi-set-4",
      "settle"
     ]
    ]
@@ -1079585,6 +1081644,11 @@
      "conditions",
      "elc/humanities/hist-place",
      "s"
+    ],
+    [
+     "standard laboratory conditions (SLC)",
+     "vce/chemistry/unit-2-aos-2",
+     "s"
     ]
    ],
    "extras": []
@@ -1084070,6 +1086134,11 @@
     [
      "creating a dichotomy",
      "year-10/english/y10-argument-techniques-1",
+     "tom"
+    ],
+    [
+     "atom economy",
+     "vce/chemistry/unit-4-aos-1",
      "tom"
     ]
    ],
@@ -1090979,6 +1093048,11 @@
      "skill development",
      "year-7/mathematics/y7m-extension",
      "velop"
+    ],
+    [
+     "Human Development Index (HDI)",
+     "year-9/humanities/y9-economics-living-standards",
+     "velop"
     ]
    ],
    "extras": [
@@ -1095997,6 +1098071,11 @@
     [
      "fury",
      "elc/humanities/hist-protest",
+     "y"
+    ],
+    [
+     "atom economy",
+     "vce/chemistry/unit-4-aos-1",
      "y"
     ]
    ],
