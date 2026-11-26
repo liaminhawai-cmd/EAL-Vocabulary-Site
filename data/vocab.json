@@ -26849,8 +26849,59 @@
         },
         {
          "word": "oxidising agent",
-         "parts": [],
-         "root": "",
+         "parts": [
+          {
+           "surface": "ag",
+           "type": "root",
+           "meaning": "do, act",
+           "translations": {
+            "am": "መስራት፣ መተግበር",
+            "ar": "يفعل، يعمل",
+            "es": "hacer/actuar",
+            "fa": "انجام دادن، عمل کردن",
+            "fr": "faire, agir",
+            "hi": "करना, कार्य करना",
+            "ja": "する、行う",
+            "ko": "하다, 행동하다",
+            "ml": "ചെയ്യുക, പ്രവർത്തിക്കുക",
+            "ps": "کول، عمل کول",
+            "ro": "a face, a acționa",
+            "ru": "делать, действовать",
+            "ta": "செய், செயல்படு",
+            "tl": "gawin, kumilos",
+            "ur": "کرنا، عمل کرنا",
+            "vi": "làm, hành động",
+            "zh-Hans": "做，行动",
+            "zh-Hant": "做，行動"
+           }
+          },
+          {
+           "surface": "ent",
+           "type": "suffix",
+           "meaning": "one who",
+           "translations": {
+            "zh-Hans": "…的人",
+            "zh-Hant": "…的人",
+            "ja": "〜する人",
+            "ko": "~하는 사람",
+            "vi": "người mà",
+            "ar": "الشخص الذي",
+            "fa": "کسی که",
+            "ur": "وہ جو",
+            "am": "የሚያደርግ ሰው",
+            "ml": "ചെയ്യുന്നയാൾ",
+            "ta": "செய்பவர்",
+            "tl": "ang gumagawa",
+            "ps": "هغه څوک چې",
+            "ro": "cel care",
+            "ru": "тот, кто",
+            "fr": "celui qui",
+            "hi": "करने वाला",
+            "es": "el que"
+           }
+          }
+         ],
+         "root": "ag",
          "meaning": "a substance that causes another substance to lose electrons (and is itself reduced).",
          "example": "",
          "tier": 3,
@@ -29673,8 +29724,59 @@
         },
         {
          "word": "functional group",
-         "parts": [],
-         "root": "",
+         "parts": [
+          {
+           "surface": "funct",
+           "type": "root",
+           "meaning": "perform / work",
+           "translations": {
+            "am": "መስራት",
+            "ar": "أداء",
+            "es": "funcionar",
+            "fa": "عمل‌کردن",
+            "fr": "fonctionner",
+            "hi": "कार्य करना",
+            "ja": "機能する",
+            "ko": "기능하다",
+            "ml": "പ്രവർത്തിക്കുക",
+            "ps": "کار کول",
+            "ro": "a funcționa",
+            "ru": "функционировать",
+            "ta": "செயல்படு",
+            "tl": "gumana",
+            "ur": "کام کرنا",
+            "vi": "hoạt động",
+            "zh-Hans": "运作/功能",
+            "zh-Hant": "運作/功能"
+           }
+          },
+          {
+           "surface": "ional",
+           "type": "suffix",
+           "meaning": "relating to",
+           "translations": {
+            "am": "የተያያዘ",
+            "ar": "متعلق بـ",
+            "es": "relativo a",
+            "fa": "مربوط به",
+            "fr": "relatif à",
+            "hi": "से संबंधित",
+            "ja": "〜に関する",
+            "ko": "~에 관한",
+            "ml": "ബന്ധപ്പെട്ട",
+            "ps": "اړوند",
+            "ro": "referitor la",
+            "ru": "относящийся к",
+            "ta": "தொடர்பான",
+            "tl": "kaugnay ng",
+            "ur": "سے متعلق",
+            "vi": "liên quan đến",
+            "zh-Hans": "与...有关的",
+            "zh-Hant": "與...有關的"
+           }
+          }
+         ],
+         "root": "funct",
          "meaning": "a specific group of atoms within a molecule responsible for its characteristic chemical reactions.",
          "example": "",
          "tier": 3,
@@ -185672,8 +185774,84 @@
         },
         {
          "word": "storytelling",
-         "parts": [],
-         "root": "",
+         "parts": [
+          {
+           "surface": "story",
+           "type": "root",
+           "meaning": "story",
+           "translations": {
+            "zh-Hans": "故事",
+            "zh-Hant": "故事",
+            "ja": "物語",
+            "ko": "이야기",
+            "vi": "câu chuyện",
+            "ar": "قصة",
+            "fa": "داستان",
+            "ur": "کہانی",
+            "am": "ተረት",
+            "ml": "കഥ",
+            "ta": "கதை",
+            "tl": "kuwento",
+            "ps": "کيسه",
+            "ro": "poveste",
+            "ru": "история",
+            "fr": "histoire",
+            "hi": "कहानी",
+            "es": "cuento"
+           }
+          },
+          {
+           "surface": "tell",
+           "type": "root",
+           "meaning": "say",
+           "translations": {
+            "zh-Hans": "讲述",
+            "zh-Hant": "講述",
+            "ja": "語る",
+            "ko": "말하다",
+            "vi": "kể",
+            "ar": "يحكي",
+            "fa": "گفتن",
+            "ur": "بتانا",
+            "am": "መናገር",
+            "ml": "പറയുക",
+            "ta": "சொல்",
+            "tl": "sabihin",
+            "ps": "ویل",
+            "ro": "a spune",
+            "ru": "рассказывать",
+            "fr": "raconter",
+            "hi": "कहना",
+            "es": "contar"
+           }
+          },
+          {
+           "surface": "ing",
+           "type": "suffix",
+           "meaning": "process",
+           "translations": {
+            "vi": "quá trình",
+            "am": "ሂደት",
+            "ar": "عملية",
+            "es": "proceso",
+            "fa": "فرایند",
+            "fr": "processus",
+            "hi": "प्रक्रिया",
+            "ja": "過程",
+            "ko": "과정",
+            "ml": "പ്രക്രിയ",
+            "ps": "پروسه",
+            "ro": "proces",
+            "ru": "процесс",
+            "ta": "செயல்முறை",
+            "tl": "proseso",
+            "ur": "عمل",
+            "zh-Hans": "过程",
+            "zh-Hant": "過程"
+           }
+          }
+         ],
+         "root": "story",
          "meaning": "the traditional or cultural practice of sharing stories, often to pass on knowledge and identity.",
          "example": "",
          "tier": 2,
@@ -267651,8 +267829,85 @@
        "words": [
         {
          "word": "stakeholder",
-         "parts": [],
-         "root": "",
+         "parts": [
+          {
+           "surface": "stake",
+           "type": "root",
+           "meaning": "a personal interest or investment",
+           "translations": {
+            "vi": "lợi ích",
+            "am": "ጥቅም",
+            "ar": "مصلحة",
+            "es": "interés",
+            "fa": "منافع",
+            "fr": "intérêt",
+            "hi": "हित",
+            "ja": "利害",
+            "ko": "이해관계",
+            "ml": "താൽപ്പര്യം",
+            "ps": "ګټه",
+            "ro": "interes",
+            "ru": "интерес",
+            "ta": "நலன்",
+            "tl": "interes",
+            "ur": "مفاد",
+            "zh-Hans": "利益",
+            "zh-Hant": "利益"
+           }
+          },
+          {
+           "surface": "hold",
+           "type": "root",
+           "meaning": "grip/possess",
+           "translations": {
+            "am": "መያዝ",
+            "ar": "قبضة / امتلاك",
+            "es": "agarrar/poseer",
+            "fa": "نگه داشتن / تصاحب",
+            "fr": "saisir / posséder",
+            "hi": "पकड़ / अधिकार रखना",
+            "ja": "握る／所有する",
+            "ko": "잡다／소유하다",
+            "ml": "പിടിക്കുക / കൈവശം വയ്ക്കുക",
+            "ps": "نیول / لرل",
+            "ro": "a apuca / a poseda",
+            "ru": "держать / владеть",
+            "ta": "பிடித்தல் / வைத்திருத்தல்",
+            "tl": "hawakan / angkinin",
+            "ur": "پکڑنا / رکھنا",
+            "vi": "nắm giữ / sở hữu",
+            "zh-Hans": "抓握／拥有",
+            "zh-Hant": "抓握／擁有"
+           }
+          },
+          {
+           "surface": "er",
+           "type": "suffix",
+           "meaning": "one who",
+           "translations": {
+            "am": "የሚያደርግ ሰው",
+            "ar": "فاعل",
+            "es": "el que",
+            "fa": "کننده",
+            "fr": "celui qui",
+            "hi": "करने वाला",
+            "ja": "～する人",
+            "ko": "～하는 사람",
+            "ml": "ചെയ്യുന്നയാൾ",
+            "ps": "کوونکی",
+            "ro": "cel care",
+            "ru": "тот, кто",
+            "ta": "செய்பவர்",
+            "tl": "taong gumagawa",
+            "ur": "کرنے والا",
+            "vi": "người",
+            "zh-Hans": "人",
+            "zh-Hant": "人",
+            "other": "کننده"
+           }
+          }
+         ],
+         "root": "stake",
          "meaning": "a person or group with an interest in, or affected by, a project.",
          "example": "",
          "tier": 3,
@@ -448389,8 +448644,59 @@
         },
         {
          "word": "food chain",
-         "parts": [],
-         "root": "",
+         "parts": [
+          {
+           "surface": "food",
+           "type": "root",
+           "meaning": "food",
+           "translations": {
+            "zh-Hans": "食物",
+            "zh-Hant": "食物",
+            "ja": "食べ物",
+            "ko": "음식",
+            "vi": "thức ăn",
+            "ar": "طعام",
+            "fa": "غذا",
+            "ur": "کھانا",
+            "am": "ምግብ",
+            "ml": "ഭക്ഷണം",
+            "ta": "உணவு",
+            "tl": "pagkain",
+            "ps": "خوراک",
+            "ro": "mâncare",
+            "ru": "еда",
+            "fr": "nourriture",
+            "hi": "भोजन",
+            "es": "comida"
+           }
+          },
+          {
+           "surface": "chain",
+           "type": "root",
+           "meaning": "linked rings",
+           "translations": {
+            "zh-Hans": "相连的环",
+            "zh-Hant": "相連的環",
+            "ja": "つながった輪",
+            "ko": "연결된 고리",
+            "vi": "các vòng nối liền",
+            "ar": "حلقات متصلة",
+            "fa": "حلقه‌های به‌هم‌پیوسته",
+            "ur": "جڑے ہوئے چھلے",
+            "am": "የተያያዙ ቀለበቶች",
+            "ml": "ബന്ധിപ്പിച്ച വളയങ്ങൾ",
+            "ta": "இணைக்கப்பட்ட வளையங்கள்",
+            "tl": "magkakabit na singsing",
+            "ps": "نښلول شوې کړۍ",
+            "ro": "inele legate",
+            "ru": "соединённые кольца",
+            "fr": "anneaux liés",
+            "hi": "जुड़े हुए छल्ले",
+            "es": "anillos enlazados"
+           }
+          }
+         ],
+         "root": "food",
          "meaning": "a diagram showing how energy passes from one living thing to the next as food.",
          "example": "",
          "tier": 3,
@@ -448417,8 +448723,59 @@
         },
         {
          "word": "food web",
-         "parts": [],
-         "root": "",
+         "parts": [
+          {
+           "surface": "food",
+           "type": "root",
+           "meaning": "food",
+           "translations": {
+            "zh-Hans": "食物",
+            "zh-Hant": "食物",
+            "ja": "食べ物",
+            "ko": "음식",
+            "vi": "thức ăn",
+            "ar": "طعام",
+            "fa": "غذا",
+            "ur": "کھانا",
+            "am": "ምግብ",
+            "ml": "ഭക്ഷണം",
+            "ta": "உணவு",
+            "tl": "pagkain",
+            "ps": "خوراک",
+            "ro": "mâncare",
+            "ru": "еда",
+            "fr": "nourriture",
+            "hi": "भोजन",
+            "es": "comida"
+           }
+          },
+          {
+           "surface": "web",
+           "type": "root",
+           "meaning": "woven thing",
+           "translations": {
+            "zh-Hans": "编织物",
+            "zh-Hant": "編織物",
+            "ja": "織られたもの",
+            "ko": "짜인 것",
+            "vi": "vật được dệt",
+            "ar": "شيء منسوج",
+            "fa": "چیز بافته‌شده",
+            "ur": "بُنی ہوئی چیز",
+            "am": "የተሸመነ ነገር",
+            "ml": "നെയ്തെടുത്ത വസ്തു",
+            "ta": "நெய்யப்பட்ட பொருள்",
+            "tl": "bagay na hinabi",
+            "ps": "اوبدل شوی شی",
+            "ro": "ceva țesut",
+            "ru": "тканое изделие",
+            "fr": "chose tissée",
+            "hi": "बुनी हुई चीज़",
+            "es": "cosa tejida"
+           }
+          }
+         ],
+         "root": "food",
          "meaning": "a network of connected food chains showing all the feeding links in an ecosystem.",
          "example": "",
          "tier": 3,
@@ -504476,8 +504833,84 @@
         },
         {
          "word": "Stolen Generations",
-         "parts": [],
-         "root": "",
+         "parts": [
+          {
+           "surface": "gener",
+           "type": "root",
+           "meaning": "birth/produce",
+           "translations": {
+            "zh-Hans": "出生/产生",
+            "zh-Hant": "出生/產生",
+            "ja": "生む",
+            "ko": "낳다/만들다",
+            "vi": "sinh ra",
+            "ar": "يولد/ينتج",
+            "fa": "زادن/تولید",
+            "ur": "پیدا کرنا",
+            "am": "መውለድ/ማፍራት",
+            "ml": "ജനിപ്പിക്കുക",
+            "ta": "பிறப்பி/உருவாக்கு",
+            "tl": "isilang/lumikha",
+            "ps": "زېږول",
+            "ro": "a naște/a produce",
+            "ru": "рождать",
+            "fr": "engendrer",
+            "hi": "जन्म देना",
+            "es": "engendrar"
+           }
+          },
+          {
+           "surface": "ation",
+           "type": "suffix",
+           "meaning": "process",
+           "translations": {
+            "vi": "quá trình",
+            "am": "ሂደት",
+            "ar": "عملية",
+            "es": "proceso",
+            "fa": "فرایند",
+            "fr": "processus",
+            "hi": "प्रक्रिया",
+            "ja": "過程",
+            "ko": "과정",
+            "ml": "പ്രക്രിയ",
+            "ps": "بهیر",
+            "ro": "proces",
+            "ru": "процесс",
+            "ta": "செயல்முறை",
+            "tl": "proseso",
+            "ur": "عمل",
+            "zh-Hans": "过程",
+            "zh-Hant": "過程"
+           }
+          },
+          {
+           "surface": "s",
+           "type": "suffix",
+           "meaning": "plural",
+           "translations": {
+            "zh-Hans": "复数",
+            "zh-Hant": "複數",
+            "vi": "số nhiều",
+            "am": "ብዙ ቁጥር",
+            "ar": "جمع",
+            "es": "plural",
+            "fa": "جمع",
+            "fr": "pluriel",
+            "hi": "बहुवचन",
+            "ja": "複数",
+            "ko": "복수",
+            "ml": "ബഹുവചനം",
+            "ps": "جمع",
+            "ro": "plural",
+            "ru": "множественное число",
+            "ta": "பன்மை",
+            "tl": "maramihan",
+            "ur": "جمع"
+           }
+          }
+         ],
+         "root": "gener",
          "meaning": "Aboriginal and Torres Strait Islander children taken from their families under past policies.",
          "example": "The Stolen Generations were the subject of the 2008 National Apology.",
          "translations": {
@@ -584474,8 +584907,59 @@
         },
         {
          "word": "close-up",
-         "parts": [],
-         "root": "",
+         "parts": [
+          {
+           "surface": "close",
+           "type": "root",
+           "meaning": "near",
+           "translations": {
+            "zh-Hans": "靠近",
+            "zh-Hant": "靠近",
+            "ja": "近い",
+            "ko": "가까운",
+            "vi": "gần",
+            "ar": "قريب",
+            "fa": "نزدیک",
+            "ur": "قریب",
+            "am": "ቅርብ",
+            "ml": "അടുത്ത്",
+            "ta": "அருகில்",
+            "tl": "malapit",
+            "ps": "نږدې",
+            "ro": "aproape",
+            "ru": "близко",
+            "fr": "proche",
+            "hi": "निकट",
+            "es": "cerca"
+           }
+          },
+          {
+           "surface": "up",
+           "type": "prefix",
+           "meaning": "upward",
+           "translations": {
+            "zh-Hans": "向上",
+            "zh-Hant": "向上",
+            "ja": "上向きに",
+            "ko": "위쪽으로",
+            "vi": "hướng lên",
+            "ar": "إلى الأعلى",
+            "fa": "به سمت بالا",
+            "ur": "اوپر کی طرف",
+            "am": "ወደ ላይ",
+            "ml": "മുകളിലേക്ക്",
+            "ta": "மேல்நோக்கி",
+            "tl": "pataas",
+            "ps": "پورته لور ته",
+            "ro": "în sus",
+            "ru": "вверх",
+            "fr": "vers le haut",
+            "hi": "ऊपर की ओर",
+            "es": "hacia arriba"
+           }
+          }
+         ],
+         "root": "close",
          "meaning": "a shot taken very near the subject, often a face, to show detail or emotion.",
          "example": "",
          "tier": 3,
@@ -588355,8 +588839,59 @@
         },
         {
          "word": "close-up",
-         "parts": [],
-         "root": "",
+         "parts": [
+          {
+           "surface": "close",
+           "type": "root",
+           "meaning": "near",
+           "translations": {
+            "zh-Hans": "靠近",
+            "zh-Hant": "靠近",
+            "ja": "近い",
+            "ko": "가까운",
+            "vi": "gần",
+            "ar": "قريب",
+            "fa": "نزدیک",
+            "ur": "قریب",
+            "am": "ቅርብ",
+            "ml": "അടുത്ത്",
+            "ta": "அருகில்",
+            "tl": "malapit",
+            "ps": "نږدې",
+            "ro": "aproape",
+            "ru": "близко",
+            "fr": "proche",
+            "hi": "निकट",
+            "es": "cerca"
+           }
+          },
+          {
+           "surface": "up",
+           "type": "prefix",
+           "meaning": "upward",
+           "translations": {
+            "zh-Hans": "向上",
+            "zh-Hant": "向上",
+            "ja": "上向きに",
+            "ko": "위쪽으로",
+            "vi": "hướng lên",
+            "ar": "إلى الأعلى",
+            "fa": "به سمت بالا",
+            "ur": "اوپر کی طرف",
+            "am": "ወደ ላይ",
+            "ml": "മുകളിലേക്ക്",
+            "ta": "மேல்நோக்கி",
+            "tl": "pataas",
+            "ps": "پورته لور ته",
+            "ro": "în sus",
+            "ru": "вверх",
+            "fr": "vers le haut",
+            "hi": "ऊपर की ओर",
+            "es": "hacia arriba"
+           }
+          }
+         ],
+         "root": "close",
          "meaning": "A shot in which a face fills most of the frame, so the audience reads the emotion.",
          "example": "The close-up holds on her face just long enough to feel awkward.",
          "translations": {
@@ -779005,8 +779540,59 @@
         },
         {
          "word": "food chain",
-         "parts": [],
-         "root": "",
+         "parts": [
+          {
+           "surface": "food",
+           "type": "root",
+           "meaning": "food",
+           "translations": {
+            "zh-Hans": "食物",
+            "zh-Hant": "食物",
+            "ja": "食べ物",
+            "ko": "음식",
+            "vi": "thức ăn",
+            "ar": "طعام",
+            "fa": "غذا",
+            "ur": "کھانا",
+            "am": "ምግብ",
+            "ml": "ഭക്ഷണം",
+            "ta": "உணவு",
+            "tl": "pagkain",
+            "ps": "خوراک",
+            "ro": "mâncare",
+            "ru": "еда",
+            "fr": "nourriture",
+            "hi": "भोजन",
+            "es": "comida"
+           }
+          },
+          {
+           "surface": "chain",
+           "type": "root",
+           "meaning": "linked rings",
+           "translations": {
+            "zh-Hans": "相连的环",
+            "zh-Hant": "相連的環",
+            "ja": "つながった輪",
+            "ko": "연결된 고리",
+            "vi": "các vòng nối liền",
+            "ar": "حلقات متصلة",
+            "fa": "حلقه‌های به‌هم‌پیوسته",
+            "ur": "جڑے ہوئے چھلے",
+            "am": "የተያያዙ ቀለበቶች",
+            "ml": "ബന്ധിപ്പിച്ച വളയങ്ങൾ",
+            "ta": "இணைக்கப்பட்ட வளையங்கள்",
+            "tl": "magkakabit na singsing",
+            "ps": "نښلول شوې کړۍ",
+            "ro": "inele legate",
+            "ru": "соединённые кольца",
+            "fr": "anneaux liés",
+            "hi": "जुड़े हुए छल्ले",
+            "es": "anillos enlazados"
+           }
+          }
+         ],
+         "root": "food",
          "meaning": "A row of living things, each one eaten by the next, showing how energy passes along.",
          "example": "Grass, rabbit, fox is a food chain.",
          "translations": {
@@ -779032,8 +779618,59 @@
         },
         {
          "word": "food web",
-         "parts": [],
-         "root": "",
+         "parts": [
+          {
+           "surface": "food",
+           "type": "root",
+           "meaning": "food",
+           "translations": {
+            "zh-Hans": "食物",
+            "zh-Hant": "食物",
+            "ja": "食べ物",
+            "ko": "음식",
+            "vi": "thức ăn",
+            "ar": "طعام",
+            "fa": "غذا",
+            "ur": "کھانا",
+            "am": "ምግብ",
+            "ml": "ഭക്ഷണം",
+            "ta": "உணவு",
+            "tl": "pagkain",
+            "ps": "خوراک",
+            "ro": "mâncare",
+            "ru": "еда",
+            "fr": "nourriture",
+            "hi": "भोजन",
+            "es": "comida"
+           }
+          },
+          {
+           "surface": "web",
+           "type": "root",
+           "meaning": "woven thing",
+           "translations": {
+            "zh-Hans": "编织物",
+            "zh-Hant": "編織物",
+            "ja": "織られたもの",
+            "ko": "짜인 것",
+            "vi": "vật được dệt",
+            "ar": "شيء منسوج",
+            "fa": "چیز بافته‌شده",
+            "ur": "بُنی ہوئی چیز",
+            "am": "የተሸመነ ነገር",
+            "ml": "നെയ്തെടുത്ത വസ്തു",
+            "ta": "நெய்யப்பட்ட பொருள்",
+            "tl": "bagay na hinabi",
+            "ps": "اوبدل شوی شی",
+            "ro": "ceva țesut",
+            "ru": "тканое изделие",
+            "fr": "chose tissée",
+            "hi": "बुनी हुई चीज़",
+            "es": "cosa tejida"
+           }
+          }
+         ],
+         "root": "food",
          "meaning": "A network of connected feeding links showing everything that eats and is eaten in an ecosystem.",
          "example": "A food web shows that a fox eats more than one kind of animal.",
          "translations": {
@@ -830644,6 +831281,11 @@
      "agency",
      "year-10/english/shawshank-character",
      "ag"
+    ],
+    [
+     "oxidising agent",
+     "vce/chemistry/unit-2-aos-1",
+     "ag"
     ]
    ]
   },
@@ -841423,6 +842065,11 @@
      "radiation",
      "year-9/science/radioactivity",
      "ation"
+    ],
+    [
+     "Stolen Generations",
+     "year-9/humanities/making-a-nation-set-3",
+     "ation"
     ]
    ]
   },
@@ -846966,6 +847613,16 @@
      "chain mail",
      "year-8/humanities/medieval-daily-life",
      "chain"
+    ],
+    [
+     "food chain",
+     "year-9/science/ecology",
+     "chain"
+    ],
+    [
+     "food chain",
+     "elc/science/ecology",
+     "chain"
     ]
    ]
   },
@@ -848493,6 +849150,16 @@
     [
      "close-up",
      "year-9/english/film-media",
+     "close"
+    ],
+    [
+     "close-up",
+     "year-8/english/u2-analysing-film",
+     "close"
+    ],
+    [
+     "close-up",
+     "year-8/english/barbie-camels-camera",
      "close"
     ]
    ]
@@ -863845,6 +864512,11 @@
      "parent",
      "year-10/biology/genetics",
      "ent"
+    ],
+    [
+     "oxidising agent",
+     "vce/chemistry/unit-2-aos-1",
+     "ent"
     ]
    ]
   },
@@ -865489,6 +866161,11 @@
     [
      "producer",
      "year-9/science/ecology",
+     "er"
+    ],
+    [
+     "stakeholder",
+     "vce/vm-personal-development-skills/unit-4-aos-1",
      "er"
     ]
    ]
@@ -870727,6 +871404,26 @@
      "food production",
      "year-9/humanities/rise-of-the-factory",
      "food"
+    ],
+    [
+     "food chain",
+     "year-9/science/ecology",
+     "food"
+    ],
+    [
+     "food chain",
+     "elc/science/ecology",
+     "food"
+    ],
+    [
+     "food web",
+     "year-9/science/ecology",
+     "food"
+    ],
+    [
+     "food web",
+     "elc/science/ecology",
+     "food"
     ]
    ]
   },
@@ -872190,6 +872887,11 @@
      "malfunctioning",
      "year-8/english/catch-me-ch-12-15",
      "funct"
+    ],
+    [
+     "functional group",
+     "vce/chemistry/unit-4-aos-1",
+     "funct"
     ]
    ]
   },
@@ -872446,6 +873148,11 @@
     [
      "stolen generation",
      "year-9/english/sapphires-before-you-watch",
+     "gener"
+    ],
+    [
+     "Stolen Generations",
+     "year-9/humanities/making-a-nation-set-3",
      "gener"
     ]
    ]
@@ -875286,6 +875993,11 @@
     [
      "stakeholder",
      "year-8/english/y8-issues-fact-opinion-bias",
+     "hold"
+    ],
+    [
+     "stakeholder",
+     "vce/vm-personal-development-skills/unit-4-aos-1",
      "hold"
     ]
    ]
@@ -882398,6 +883110,11 @@
      "reducing agent",
      "vce/chemistry/unit-2-aos-1",
      "ing"
+    ],
+    [
+     "storytelling",
+     "vce/literature/unit-2-aos-1",
+     "ing"
     ]
    ]
   },
@@ -884893,6 +885610,11 @@
     [
      "constitutional monarchy",
      "year-9/humanities/y9-civics-democracy",
+     "ional"
+    ],
+    [
+     "functional group",
+     "vce/chemistry/unit-4-aos-1",
      "ional"
     ]
    ]
@@ -929655,6 +930377,11 @@
      "stakeholder",
      "year-8/english/y8-issues-fact-opinion-bias",
      "stake"
+    ],
+    [
+     "stakeholder",
+     "vce/vm-personal-development-skills/unit-4-aos-1",
+     "stake"
     ]
    ]
   },
@@ -930758,6 +931485,11 @@
     [
      "storyteller",
      "year-7/english/bone-sparrow-middle",
+     "story"
+    ],
+    [
+     "storytelling",
+     "vce/literature/unit-2-aos-1",
      "story"
     ]
    ]
@@ -933572,6 +934304,11 @@
      "standard laboratory conditions (SLC)",
      "vce/chemistry/unit-2-aos-2",
      "s"
+    ],
+    [
+     "Stolen Generations",
+     "year-9/humanities/making-a-nation-set-3",
+     "s"
     ]
    ]
   },
@@ -934604,6 +935341,11 @@
     [
      "show, don't tell",
      "year-9/english/y9-creative-narrative",
+     "tell"
+    ],
+    [
+     "storytelling",
+     "vce/literature/unit-2-aos-1",
      "tell"
     ]
    ]
@@ -940350,6 +941092,16 @@
      "markup",
      "year-9/mathematics/y9m-finance",
      "up"
+    ],
+    [
+     "close-up",
+     "year-8/english/u2-analysing-film",
+     "up"
+    ],
+    [
+     "close-up",
+     "year-8/english/barbie-camels-camera",
+     "up"
     ]
    ]
   },
@@ -944197,6 +944949,16 @@
     [
      "web (as symbol)",
      "year-8/english/catch-me-ch-5-8",
+     "web"
+    ],
+    [
+     "food web",
+     "year-9/science/ecology",
+     "web"
+    ],
+    [
+     "food web",
+     "elc/science/ecology",
      "web"
     ]
    ]
@@ -949417,6 +950179,11 @@
     [
      "agency",
      "year-10/english/shawshank-character",
+     "ag"
+    ],
+    [
+     "oxidising agent",
+     "vce/chemistry/unit-2-aos-1",
      "ag"
     ]
    ],
@@ -960866,6 +961633,11 @@
      "condensation reaction",
      "vce/chemistry/unit-4-aos-1",
      "ation"
+    ],
+    [
+     "Stolen Generations",
+     "year-9/humanities/making-a-nation-set-3",
+     "ation"
     ]
    ],
    "extras": [
@@ -969109,6 +969881,16 @@
      "food chain",
      "year-10/biology/ecology-zoo",
      "chain"
+    ],
+    [
+     "food chain",
+     "year-9/science/ecology",
+     "chain"
+    ],
+    [
+     "food chain",
+     "elc/science/ecology",
+     "chain"
     ]
    ]
   },
@@ -971495,6 +972277,16 @@
     [
      "close-up",
      "year-10/english/gattaca-film-techniques",
+     "close"
+    ],
+    [
+     "close-up",
+     "year-8/english/u2-analysing-film",
+     "close"
+    ],
+    [
+     "close-up",
+     "year-8/english/barbie-camels-camera",
      "close"
     ]
    ]
@@ -990432,6 +991224,11 @@
      "my opponent claims",
      "elc/english/debate-answering-back",
      "ent"
+    ],
+    [
+     "oxidising agent",
+     "vce/chemistry/unit-2-aos-1",
+     "ent"
     ]
    ]
   },
@@ -992315,6 +993112,11 @@
      "auctioneer",
      "elc/humanities/hist-money",
      "eer"
+    ],
+    [
+     "stakeholder",
+     "vce/vm-personal-development-skills/unit-4-aos-1",
+     "er"
     ]
    ],
    "extras": [
@@ -999271,6 +1000073,26 @@
      "food production",
      "year-9/humanities/rise-of-the-factory",
      "food"
+    ],
+    [
+     "food chain",
+     "year-9/science/ecology",
+     "food"
+    ],
+    [
+     "food chain",
+     "elc/science/ecology",
+     "food"
+    ],
+    [
+     "food web",
+     "year-9/science/ecology",
+     "food"
+    ],
+    [
+     "food web",
+     "elc/science/ecology",
+     "food"
     ]
    ]
   },
@@ -1001283,6 +1002105,11 @@
      "malfunctioning",
      "year-8/english/catch-me-ch-12-15",
      "funct"
+    ],
+    [
+     "functional group",
+     "vce/chemistry/unit-4-aos-1",
+     "funct"
     ]
    ],
    "extras": [
@@ -1001913,6 +1002740,11 @@
     [
      "future generations",
      "elc/humanities/ancient-australia-conservation",
+     "gener"
+    ],
+    [
+     "Stolen Generations",
+     "year-9/humanities/making-a-nation-set-3",
      "gener"
     ]
    ]
@@ -1006395,6 +1007227,11 @@
     [
      "stakeholder",
      "year-8/english/y8-issues-fact-opinion-bias",
+     "hold"
+    ],
+    [
+     "stakeholder",
+     "vce/vm-personal-development-skills/unit-4-aos-1",
      "hold"
     ]
    ],
@@ -1014491,6 +1015328,11 @@
      "reducing agent",
      "vce/chemistry/unit-2-aos-1",
      "ing"
+    ],
+    [
+     "storytelling",
+     "vce/literature/unit-2-aos-1",
+     "ing"
     ]
    ],
    "extras": []
@@ -1017749,6 +1018591,11 @@
     [
      "intersectional feminism",
      "year-8/english/barbie-gender-glossary",
+     "ional"
+    ],
+    [
+     "functional group",
+     "vce/chemistry/unit-4-aos-1",
      "ional"
     ]
    ],
@@ -1076278,6 +1077125,11 @@
      "stakeholder",
      "year-8/english/y8-issues-fact-opinion-bias",
      "stake"
+    ],
+    [
+     "stakeholder",
+     "vce/vm-personal-development-skills/unit-4-aos-1",
+     "stake"
     ]
    ],
    "extras": []
@@ -1078125,6 +1078977,11 @@
     [
      "creation story",
      "elc/humanities/ancient-australia-dreaming",
+     "story"
+    ],
+    [
+     "storytelling",
+     "vce/literature/unit-2-aos-1",
      "story"
     ]
    ]
@@ -1081649,6 +1082506,11 @@
      "standard laboratory conditions (SLC)",
      "vce/chemistry/unit-2-aos-2",
      "s"
+    ],
+    [
+     "Stolen Generations",
+     "year-9/humanities/making-a-nation-set-3",
+     "s"
     ]
    ],
    "extras": []
@@ -1082985,6 +1083847,11 @@
     [
      "show, don't tell",
      "year-9/english/y9-creative-narrative",
+     "tell"
+    ],
+    [
+     "storytelling",
+     "vce/literature/unit-2-aos-1",
      "tell"
     ]
    ]
@@ -1091039,6 +1091906,16 @@
      "mark-up",
      "year-8/mathematics/y8m-finance-review",
      "up"
+    ],
+    [
+     "close-up",
+     "year-8/english/u2-analysing-film",
+     "up"
+    ],
+    [
+     "close-up",
+     "year-8/english/barbie-camels-camera",
+     "up"
     ]
    ]
   },
@@ -1096399,6 +1097276,16 @@
     [
      "food web",
      "year-10/biology/ecology-zoo",
+     "web"
+    ],
+    [
+     "food web",
+     "year-9/science/ecology",
+     "web"
+    ],
+    [
+     "food web",
+     "elc/science/ecology",
      "web"
     ]
    ]
