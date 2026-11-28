@@ -856,8 +856,8 @@ function promptOtherLanguage(selectEl, previousLang) {
   input.focus();
 }
 
-function langPicker() {
-  const sel = h('select', { class: 'lang-select', 'aria-label': 'My language',
+function langPicker(onLight = false) {
+  const sel = h('select', { class: onLight ? 'lang-select sm' : 'lang-select', 'aria-label': 'My language',
     onchange: (e) => {
       if (e.target.value === 'other') { promptOtherLanguage(sel, getLang()); return; }
       store.setPref('lang', e.target.value); router();
@@ -2859,7 +2859,7 @@ function renderWords() {
       stat('Total', s.total), stat('Mastered', s.mastered), stat('Learning', s.learning),
       store.dueForReview().length > 0 && h('a', { class: 'btn primary', href: '#/pick' }, 'Revise now')),
     s.total > 0 && h('div', { class: 'row gap wr-langbar' },
-      h('span', { class: 'muted small' }, 'Translations in:'), langPicker(), rubyToggle(),
+      h('span', { class: 'muted small' }, 'Translations in:'), langPicker(true), rubyToggle(),
       h('span', { class: 'muted small' }, '\u00b7 tap a word-part to see every word that shares it')),
     s.total === 0
       ? h('p', { class: 'muted' }, 'No words yet — build some from a unit to start your collection.')
@@ -2894,7 +2894,7 @@ function renderBrowse({ levelId, subjectId, unitId }) {
     h('h1', {}, unit.name),
     h('p', { class: 'muted' }, `${unit.words.length} words`),
     anyTrans && h('div', { class: 'row gap' },
-      h('span', { class: 'muted small' }, 'Showing translations in:'), langPicker(), rubyToggle(),
+      h('span', { class: 'muted small' }, 'Showing translations in:'), langPicker(true), rubyToggle(),
       langExtraPicker()),
     h('p', { class: 'muted small' },
       'Tap any coloured word-part to see every other word that shares it.'),
@@ -2935,9 +2935,38 @@ function renderMorphemes({ levelId, subjectId }) {
   const subject = subjectById(level, subjectId);
   if (!subject) return renderHome();
   const lang = getLang();
-  const { prefixes, roots, suffixes } = subject.morphemes;
+  const bank = subject.morphemes;
+  // Each bank came from a spreadsheet with only one or two languages in it,
+  // while the same pieces inside the unit words carry all 18. Fill a bank
+  // entry's gaps from a word part with the same spelling AND the same meaning
+  // (spelling alone is not enough: "not" = negation vs "not" = mark/note).
+  // The bank's own translation wins where it has one.
+  const sameMeaning = (a, b) => {
+    const toks = (s) => (s || '').toLowerCase().split(/[\/,;]/).map((t) => t.trim()).filter(Boolean).sort().join('|');
+    return toks(a) !== '' && toks(a) === toks(b);
+  };
+  const partsBySurface = {};
+  for (const u of (subject.units || [])) for (const w of (u.words || [])) for (const p of (w.parts || [])) {
+    if (p.surface && p.translations) (partsBySurface[p.surface.toLowerCase()] ||= []).push(p);
+  }
+  const fill = (m) => {
+    const borrowed = {};
+    for (const p of (partsBySurface[(m.morpheme || '').toLowerCase()] || [])) {
+      if (!sameMeaning(p.meaning, m.meaning)) continue;
+      for (const [code, t] of Object.entries(p.translations)) if (!(code in borrowed)) borrowed[code] = t;
+    }
+    return Object.assign({}, m, { translations: Object.assign(borrowed, m.translations || {}) });
+  };
+  const prefixes = bank.prefixes.map(fill);
+  const roots = bank.roots.map(fill);
+  const suffixes = bank.suffixes.map(fill);
   const rows = Math.max(prefixes.length, roots.length, suffixes.length);
-  const dispLang = displayLangFor([...prefixes, ...roots, ...suffixes].map((m) => m.translations), lang);
+  // Show the student's own language, never a different one in its place: a
+  // Chinese reader shown Farsi under a "Chinese" label is worse than a gap.
+  const dispLang = lang;
+  const allParts = [...prefixes, ...roots, ...suffixes];
+  const missing = lang === EN_ONLY ? 0
+    : allParts.filter((m) => !m.translations[lang]).length;
 
   // Recreates the teacher's own "student view" spreadsheet layout exactly:
   // Prefixes|meaning|translated | Roots|meaning|translated | Suffixes|meaning|translated
@@ -2963,8 +2992,10 @@ function renderMorphemes({ levelId, subjectId }) {
     h('h1', {}, 'Morpheme bank'),
     h('p', { class: 'muted' }, `${subject.name} — prefixes, roots and suffixes`),
     h('div', { class: 'row gap' },
-      h('span', { class: 'muted small' }, 'Showing translations in:'), langPicker(), rubyToggle(),
+      h('span', { class: 'muted small' }, 'Showing translations in:'), langPicker(true), rubyToggle(),
       langExtraPicker()),
+    missing > 0 && h('p', { class: 'muted small' },
+      `${missing} of ${allParts.length} parts have no ${langLabel(lang)} translation yet, so that cell is empty.`),
     h('div', { class: 'bank-legend' },
       h('span', {}, h('i', { class: 'prefix' }), 'Prefixes'),
       h('span', {}, h('i', { class: 'root' }), 'Roots'),
