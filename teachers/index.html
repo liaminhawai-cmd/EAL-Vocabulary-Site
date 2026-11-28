@@ -4,259 +4,182 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Word Builder: teacher guide</title>
-<meta name="description" content="A five-minute guide for teachers: how students find their unit's vocabulary, build it, drill it, and look up word parts.">
+<meta name="description" content="How students find their Area of Study, build the words, check meanings, drill and use the dictionary.">
 <link rel="icon" href="../icons/icon.svg" type="image/svg+xml">
 <style>
-/* ------------------------------------------------------------------
-   Teacher guide for Word Builder. Screenshots are in img/, captured
-   from the live site at 1366x768. Rings are positioned in % of the
-   screenshot, so they stay on target at any width.
-   ------------------------------------------------------------------ */
-:root{
-  --bg:#efe7d8; --card:#fbf7ef; --ink:#2a2118; --muted:#6b5d4c;
-  --accent:#a8691d; --accent-ink:#ffffff; --ring:#d9480f; --line:#ddd0bb;
-}
+:root{--bg:#efe7d8;--card:#fbf7ef;--ink:#2a2118;--muted:#6b5d4c;--accent:#a8691d;--ring:#d9480f;--line:#ddd0bb}
 *{box-sizing:border-box}
-html{scroll-behavior:smooth}
-@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
-body{margin:0;background:var(--bg);color:var(--ink);
-  font:17px/1.55 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
-a{color:var(--accent)}
-a:focus-visible,button:focus-visible{outline:3px solid var(--ring);outline-offset:2px}
-.wrap{max-width:1080px;margin:0 auto;padding:24px 16px 64px}
-header h1{font:700 2.1rem/1.15 Georgia,"Times New Roman",serif;margin:8px 0 6px}
-header p{margin:0 0 14px;color:var(--muted);max-width:60ch}
-.open{display:inline-block;background:var(--accent);color:var(--accent-ink);
-  text-decoration:none;font-weight:700;padding:12px 18px;border-radius:10px;min-height:44px}
-.url{font-family:ui-monospace,Consolas,monospace;font-size:.9rem;color:var(--muted);
-  margin-left:10px;word-break:break-all}
+body{margin:0;background:var(--bg);color:var(--ink);font:17px/1.5 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
+.wrap{max-width:1000px;margin:0 auto;padding:24px 16px 56px}
+h1{font:700 2rem/1.15 Georgia,serif;margin:6px 0 12px}
+.open{display:inline-block;background:var(--accent);color:#fff;text-decoration:none;font-weight:700;padding:11px 18px;border-radius:10px}
+.open:focus-visible,button:focus-visible{outline:3px solid var(--ring);outline-offset:2px}
+.url{font:.9rem ui-monospace,Consolas,monospace;color:var(--muted);margin-left:10px;word-break:break-all}
 
-/* contents strip */
-nav.toc{display:flex;flex-wrap:wrap;gap:8px;margin:22px 0 8px;padding:0;list-style:none}
-nav.toc a{display:flex;align-items:center;gap:8px;background:var(--card);border:1px solid var(--line);
-  border-radius:999px;padding:8px 14px;text-decoration:none;color:var(--ink);min-height:40px}
-nav.toc b{display:inline-grid;place-items:center;width:24px;height:24px;border-radius:50%;
-  background:var(--accent);color:var(--accent-ink);font-size:.8rem}
+section{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:16px;margin:22px 0}
+h2{font:700 1.25rem/1.2 Georgia,serif;margin:0 0 12px;display:flex;gap:10px;align-items:center}
+h2 .n{display:inline-grid;place-items:center;width:30px;height:30px;border-radius:50%;background:var(--accent);color:#fff;font:700 .95rem system-ui,sans-serif}
 
-/* steps */
-section.step{background:var(--card);border:1px solid var(--line);border-radius:16px;
-  padding:20px;margin:22px 0;display:grid;grid-template-columns:1fr;gap:18px;align-items:start}
-/* text block: steps on the left, key and tip on the right, image full width below */
-.step > div:first-child{display:grid;grid-template-columns:1.35fr 1fr;column-gap:32px;align-items:start}
-.step > div:first-child h2{grid-column:1 / -1}
-.step > div:first-child ol{grid-row:span 2}
-.step > div:first-child .key{margin-top:0}
-@media screen and (max-width:860px){.step > div:first-child{grid-template-columns:1fr}}
-.step h2{font:700 1.35rem/1.2 Georgia,serif;margin:0 0 10px;display:flex;gap:10px;align-items:baseline}
-.step h2 .n{flex:none;display:inline-grid;place-items:center;width:34px;height:34px;border-radius:50%;
-  background:var(--accent);color:var(--accent-ink);font:700 1rem system-ui,sans-serif}
-.step ol,.step ul{margin:0;padding-left:1.2em}
-.step li{margin:0 0 8px}
-.tip{margin-top:12px;padding:10px 12px;border-left:4px solid var(--accent);background:#f4ead8;
-  border-radius:0 8px 8px 0;font-size:.95rem}
-.tip b{display:block}
+/* stage: the app's content column (15% to 85% of each screenshot) fills the box */
+.stage{position:relative;overflow:hidden;border-radius:10px;border:1px solid var(--line);background:#efe6d6;
+  /* cropped frame height is 0.803 x width: cap width so heading, image and caption fit one screen */
+  width:min(100%, calc((100vh - 190px) * 1.245));margin:0 auto}
+.bar,.dots{width:min(100%, calc((100vh - 190px) * 1.245));margin-left:auto;margin-right:auto}
+.frame{position:relative;width:142.86%;margin-left:-21.43%;aspect-ratio:2049/1152}
+.frame img{position:absolute;inset:0;width:100%;height:100%;opacity:0;transition:opacity .45s ease}
+.frame img.on{opacity:1}
+.ring{position:absolute;border:3px solid var(--ring);border-radius:12px;box-shadow:0 0 0 3px rgba(255,255,255,.85);
+  opacity:0;transition:opacity .3s ease;pointer-events:none}
+.ring.on{opacity:1}
+.cursor{position:absolute;width:26px;height:26px;margin:-2px 0 0 -3px;pointer-events:none;
+  transition:left .7s cubic-bezier(.4,0,.2,1),top .7s cubic-bezier(.4,0,.2,1),opacity .3s;filter:drop-shadow(0 2px 3px rgba(0,0,0,.35))}
+.ripple{position:absolute;width:44px;height:44px;margin:-22px 0 0 -22px;border-radius:50%;border:3px solid var(--ring);
+  opacity:0;pointer-events:none}
+.ripple.go{animation:ripple .55s ease-out}
+@keyframes ripple{from{transform:scale(.3);opacity:.9}to{transform:scale(1.4);opacity:0}}
 
-/* screenshot with callout rings */
-.shot{margin:0;position:relative;border-radius:10px;overflow:hidden;border:1px solid var(--line);
-  box-shadow:0 6px 18px rgba(60,40,10,.12);background:#fff}
-/* The app's content column runs from 15% to 85% of the screenshot width.
-   The frame is scaled so that column fills the figure; rings sit inside the
-   frame, so their % positions still refer to the full screenshot. */
-.frame{position:relative;width:142.86%;margin-left:-21.43%}
-.shot img{display:block;width:100%;height:auto}
-.ring{position:absolute;border:3px solid var(--ring);border-radius:12px;
-  box-shadow:0 0 0 3px rgba(255,255,255,.8);pointer-events:none;animation:pulse 2.2s ease-in-out infinite}
-.ring span{position:absolute;top:-14px;left:10px;width:28px;height:28px;border-radius:50%;
-  background:var(--ring);color:#fff;font:700 .85rem/28px system-ui,sans-serif;text-align:center;
-  box-shadow:0 0 0 2px #fff}
-@keyframes pulse{0%,100%{box-shadow:0 0 0 3px rgba(255,255,255,.8),0 0 0 0 rgba(217,72,15,.45)}
-  50%{box-shadow:0 0 0 3px rgba(255,255,255,.8),0 0 0 9px rgba(217,72,15,0)}}
-@media (prefers-reduced-motion:reduce){.ring{animation:none}}
-.key{list-style:none;padding:0;margin:10px 0 0}
-.key li{display:flex;gap:10px;align-items:flex-start;margin:0 0 8px}
-.key li i{flex:none;font-style:normal;display:inline-grid;place-items:center;width:24px;height:24px;
-  border-radius:50%;background:var(--ring);color:#fff;font:700 .8rem system-ui,sans-serif;margin-top:2px}
+.bar{display:flex;align-items:center;gap:12px;margin-top:10px}
+.cap{flex:1;margin:0;font-weight:600;min-height:1.5em}
+.ctl{display:flex;gap:6px}
+.ctl button{width:40px;height:40px;border-radius:50%;border:1px solid var(--line);background:#fff;color:var(--ink);
+  font-size:1rem;cursor:pointer;display:grid;place-items:center}
+.dots{display:flex;gap:5px;margin-top:8px}
+.dots i{width:8px;height:8px;border-radius:50%;background:var(--line)}
+.dots i.on{background:var(--accent)}
 
-.facts{display:grid;grid-template-columns:repeat(auto-fit,minmax(190px,1fr));gap:12px;margin-top:10px}
-.facts div{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:12px 14px}
-.facts b{display:block;margin-bottom:4px}
-footer{color:var(--muted);font-size:.9rem;margin-top:30px}
-
-@media print{
-  body{background:#fff;font-size:12pt}
-  .ring{animation:none}
-  section.step{break-inside:avoid;grid-template-columns:1fr;box-shadow:none}
-  nav.toc,.open{display:none}
-}
+@media (prefers-reduced-motion:reduce){.frame img,.ring,.cursor{transition:none}.ripple.go{animation:none}}
+@media screen and (max-width:600px){.cursor{width:20px;height:20px}.cap{font-size:.95rem}}
+@media print{body{background:#fff}.ctl,.dots,.cursor,.ripple{display:none}section{break-inside:avoid}}
 </style>
 </head>
 <body>
 <div class="wrap">
-
-<header>
   <h1>Word Builder: a guide for teachers</h1>
-  <p>Subject vocabulary sorted by unit and Area of Study. Students build each word from its parts, drill it, and look up any prefix, root or suffix. No login.</p>
-  <a class="open" href="../">Open Word Builder</a>
-  <span class="url">liaminhawai-cmd.github.io/EAL-Vocabulary-Site</span>
-</header>
-
-<nav class="toc" aria-label="Steps">
-  <a href="#find"><b>1</b>Find your AOS</a>
-  <a href="#study"><b>2</b>Study</a>
-  <a href="#build"><b>3</b>Build</a>
-  <a href="#drill"><b>4</b>Drill</a>
-  <a href="#dictionary"><b>5</b>Dictionary</a>
-  <a href="#know"><b>6</b>Good to know</a>
-</nav>
-
-<!-- 1 -->
-<section class="step" id="find">
-  <div>
-    <h2><span class="n">1</span>Find your Area of Study</h2>
-    <ol>
-      <li>Student picks <b>their language</b>. Translations appear next to every word and word part. There are 18 languages, plus English only.</li>
-      <li>Pick the <b>year level</b>, then the <b>subject</b>.</li>
-      <li>Each card is one <b>unit and AOS</b>. Open the one you're teaching.</li>
-    </ol>
-    <ul class="key">
-      <li><i>A</i>Home language</li>
-      <li><i>B</i>Year level</li>
-      <li><i>C</i>One card per Unit / AOS</li>
-    </ul>
-    <div class="tip"><b>Fastest start</b>Open your AOS on the projector and give students the year, subject and AOS name.</div>
-  </div>
-  <div>
-    <figure class="shot"><div class="frame">
-      <img src="img/1-home.jpg" alt="Word Builder home page: a language menu and cards for VCE, Year 10, Year 9, Year 8, Year 7 and ELC." width="2049" height="1152" loading="lazy">
-      <div class="ring" style="left:24.2%;top:34.6%;width:20.4%;height:6%"><span>A</span></div>
-      <div class="ring" style="left:15%;top:49.2%;width:69%;height:44.4%"><span>B</span></div>
-    </div></figure>
-    <figure class="shot" style="margin-top:14px"><div class="frame">
-      <img src="img/2-aos.jpg" alt="VCE Biology page with a card for each Unit and AOS, such as Unit 2 AOS 1 Inheritance." width="2049" height="1152" loading="lazy">
-      <div class="ring" style="left:15%;top:28%;width:69%;height:56.4%"><span>C</span></div>
-    </div></figure>
-  </div>
-</section>
-
-<!-- 2 -->
-<section class="step" id="study">
-  <div>
-    <h2><span class="n">2</span>Study the words</h2>
-    <ol>
-      <li>Each AOS is split into short <b>sets</b> of about 6 words.</li>
-      <li>Students read each word, its <b>parts</b> (colour-coded prefix, root, suffix) and its meaning, plus the translation.</li>
-      <li>The speaker button reads the word aloud.</li>
-      <li>Then <b>Start building</b> at the bottom.</li>
-    </ol>
-    <ul class="key">
-      <li><i>A</i>Sets within the AOS</li>
-      <li><i>B</i>Word broken into its parts</li>
-    </ul>
-  </div>
-  <figure class="shot"><div class="frame">
-    <img src="img/3-study.jpg" alt="Study screen for Unit 2 AOS 1 Inheritance, showing genome split into gen and ome with meanings and a Chinese translation." width="2049" height="1152" loading="lazy">
-    <div class="ring" style="left:15%;top:13.6%;width:21.6%;height:3.8%"><span>A</span></div>
-    <div class="ring" style="left:15.9%;top:41.6%;width:28%;height:16.2%"><span>B</span></div>
-  </div></figure>
-</section>
-
-<!-- 3 -->
-<section class="step" id="build">
-  <div>
-    <h2><span class="n">3</span>Build the words</h2>
-    <ol>
-      <li>The words are now <b>hidden</b>. Students see only the meaning.</li>
-      <li>They tap a part, then tap a box (or drag it), to build the word.</li>
-      <li>Finished words drop to the bottom. Words with no parts to build become a "which word is this?" choice.</li>
-      <li>Every word built is saved to <b>My words</b>, ready for the drill.</li>
-    </ol>
-    <ul class="key">
-      <li><i>A</i>The parts for this set</li>
-      <li><i>B</i>Building "epigenetic" from its meaning</li>
-    </ul>
-    <div class="tip"><b>Fullscreen</b>Building opens in fullscreen so students can't copy from the word list. Leaving fullscreen once gives a warning; twice restarts the set. Worth saying out loud before they start.</div>
-  </div>
-  <figure class="shot"><div class="frame">
-    <img src="img/4-build.jpg" alt="Build screen: a bank of word parts above a list of meanings, each with empty boxes. The first box of one word holds epi." width="2049" height="1152" loading="lazy">
-    <div class="ring" style="left:15%;top:36.4%;width:69%;height:23.2%"><span>A</span></div>
-    <div class="ring" style="left:69%;top:62%;width:13.9%;height:6.8%"><span>B</span></div>
-  </div></figure>
-</section>
-
-<!-- 4 -->
-<section class="step" id="drill">
-  <div>
-    <h2><span class="n">4</span>Drill</h2>
-    <ol>
-      <li>Click <b>Drill</b> in the top menu. It shows only words the student has <b>already built</b>, so build first.</li>
-      <li>Tick the subject or the AOS to revise, then press <b>Drill</b>.</li>
-      <li>Questions get harder as a word sticks: from translation, to meaning, to fixing a wrong part, to building it, to typing the whole word.</li>
-      <li>A missed word comes back later in the same session.</li>
-    </ol>
-    <ul class="key">
-      <li><i>A</i>Tick an AOS</li>
-      <li><i>B</i>Start</li>
-      <li><i>C</i>Build the word from its meaning</li>
-    </ul>
-    <div class="tip"><b>Next lesson starter</b>Drill the AOS from last lesson for five minutes before building a new set.</div>
-  </div>
-  <div>
-    <figure class="shot"><div class="frame">
-      <img src="img/5-drill-pick.jpg" alt="Drill page: Biology and Unit 2 AOS 1 Inheritance ticked, with a Drill 5 button." width="2049" height="1152" loading="lazy">
-      <div class="ring" style="left:15%;top:45%;width:69%;height:15.2%"><span>A</span></div>
-      <div class="ring" style="left:74.8%;top:73.9%;width:8.4%;height:6.2%"><span>B</span></div>
-    </div></figure>
-    <figure class="shot" style="margin-top:14px"><div class="frame">
-      <img src="img/6-drill-card.jpg" alt="Drill question: build the word that means the complete set of genetic material, with root and suffix boxes and six parts to choose from." width="2049" height="1152" loading="lazy">
-      <div class="ring" style="left:36.4%;top:38.4%;width:27.6%;height:31.6%"><span>C</span></div>
-    </div></figure>
-  </div>
-</section>
-
-<!-- 5 -->
-<section class="step" id="dictionary">
-  <div>
-    <h2><span class="n">5</span>Dictionary</h2>
-    <ol>
-      <li><b>Word parts</b>: type a prefix, root or suffix (for example <i>gen</i>, <i>bio</i>, <i>tion</i>). See its meaning and every word on the site that uses it.</li>
-      <li><b>Words</b>: type any word. See its parts, meaning, translation, and which units teach it.</li>
-      <li>Any word part has a <b>Drill these words</b> button.</li>
-    </ol>
-    <ul class="key">
-      <li><i>A</i>Search</li>
-      <li><i>B</i>Every word that contains "gen"</li>
-      <li><i>C</i>A word split into its parts</li>
-      <li><i>D</i>The units that teach it</li>
-    </ul>
-    <div class="tip"><b>In class</b>Meet a new term? Look up its root and ask students which other words they know that share it.</div>
-  </div>
-  <div>
-    <figure class="shot"><div class="frame">
-      <img src="img/7-dict-parts.jpg" alt="Dictionary, Word parts tab, searching gen: origin or birth, with 40 words such as genome, pathogen and genotype." width="2049" height="1152" loading="lazy">
-      <div class="ring" style="left:15%;top:38.4%;width:69%;height:6.8%"><span>A</span></div>
-      <div class="ring" style="left:16.2%;top:69.2%;width:66%;height:19.6%"><span>B</span></div>
-    </div></figure>
-    <figure class="shot" style="margin-top:14px"><div class="frame">
-      <img src="img/8-dict-words.jpg" alt="Dictionary, Words tab, photosynthesis split into photo, syn and thesis, taught in Year 9 Science and two ELC units." width="2049" height="1152" loading="lazy">
-      <div class="ring" style="left:16.2%;top:62.8%;width:35.2%;height:4.4%"><span>C</span></div>
-      <div class="ring" style="left:16.2%;top:71.8%;width:59.2%;height:5%"><span>D</span></div>
-    </div></figure>
-  </div>
-</section>
-
-<!-- 6 -->
-<section id="know">
-  <h2 style="font:700 1.35rem/1.2 Georgia,serif;margin:30px 0 4px">Good to know</h2>
-  <div class="facts">
-    <div><b>No logins</b>Nothing to set up. Students open the link and start.</div>
-    <div><b>Progress stays on that device</b>It is saved in the browser. Students should use the same laptop and browser each time. Clearing browser data clears it.</div>
-    <div><b>You can't see their progress</b>No data is sent anywhere. To check, ask students to show you their Drill or My words page.</div>
-    <div><b>Phones work</b>Same link. On iPhone the fullscreen lock doesn't apply.</div>
-    <div><b>Missing a word or topic?</b>Use <i>Request a new topic</i> at the bottom of the year-level page, or tell the ELC.</div>
-  </div>
-</section>
-
-<footer>Screenshots taken from the live site, November 2026 (build 119).</footer>
+  <a class="open" href="../">Open Word Builder</a><span class="url">liaminhawai-cmd.github.io/EAL-Vocabulary-Site</span>
+  <main id="steps"></main>
 </div>
+
+<script>
+/* ===================================================================
+   GUIDE CONTENT. One entry per step; one frame per screenshot.
+   img : file in img/ (captured from the live site at 1366x768)
+   cap : the caption shown under that frame
+   at  : where the cursor goes and the ring is drawn, in % of the
+         full screenshot {x, y, w, h}; null for no cursor
+   =================================================================== */
+const GUIDE = [
+  { title: 'Find the Area of Study', frames: [
+    { img: 'g1-home',  cap: 'Pick a language for translations.',          at: { x: 24.92, y: 34.55, w: 19.99, h: 6.12 } },
+    { img: 'g1-home',  cap: 'Pick the year level.',                       at: { x: 16.03, y: 63.08, w: 21.96, h: 19.12 } },
+    { img: 'g1-level', cap: 'Pick the subject.',                          at: { x: 16.03, y: 39.47, w: 16.43, h: 12.92 } },
+    { img: 'g1-aos',   cap: 'Pick the Unit and AOS.',                     at: { x: 39.02, y: 28.56, w: 21.96, h: 26.75 } },
+  ]},
+  { title: 'Command terms (every VCE subject)', frames: [
+    { img: 'g1-command',       cap: 'Command Terms & Academic Language: 154 words for SACs and exams.', at: { x: 15.74, y: 25.33, w: 68.52, h: 13.36 } },
+    { img: 'g1-command-lists', cap: 'Ten lists, from describe, explain, analyse to hedging and data.',   at: { x: 15.74, y: 33.35, w: 22.55, h: 27.8 } },
+  ]},
+  { title: 'Read the words', frames: [
+    { img: 'g2-study', cap: 'Each word with its parts, meaning and translation.', at: { x: 15.74, y: 38.59, w: 68.52, h: 23.74 } },
+    { img: 'g2-start', cap: 'Then start building.',                              at: { x: 72.59, y: 72.72, w: 11.67, h: 6.12 } },
+  ]},
+  { title: 'Build them from memory', frames: [
+    { img: 'g3-build0', cap: 'The words are hidden. Tap a part…',     at: { x: 48.63, y: 41.41, w: 11.68, h: 5.44 } },
+    { img: 'g3-build1', cap: '…then the box beside its meaning.',      at: { x: 74.3,  y: 78.04, w: 4.39,  h: 5.99 } },
+    { img: 'g3-build2', cap: 'Next part.',                             at: { x: 31.06, y: 46.98, w: 14.47, h: 5.44 } },
+    { img: 'g3-build3', cap: 'Built words drop to the bottom.',        at: null },
+    { img: 'g3-build4', cap: 'Any word, in any order.',                at: { x: 69.69, y: 62.02, w: 13.62, h: 6.77 } },
+  ]},
+  { title: 'Check the meanings', frames: [
+    { img: 'g3-checkbtn', cap: 'When every word is built.',                         at: { x: 70.92, y: 72.66, w: 13.34, h: 6.12 } },
+    { img: 'g3-modes',    cap: 'Tap the translation, type it, or match the definition.', at: { x: 61.52, y: 33.77, w: 22.74, h: 11.59 } },
+    { img: 'g3-check',    cap: 'Each answer is marked.',                            at: { x: 15.59, y: 32.67, w: 68.81, h: 48 } },
+  ]},
+  { title: 'Drill', frames: [
+    { img: 'g4-pick0',            cap: 'Every word they have built, by subject and AOS.', at: { x: 15.59, y: 44.71, w: 68.81, h: 54 } },
+    { img: 'g4-pick-aos',         cap: 'One AOS.',                                        at: { x: 16.84, y: 57.6,  w: 66.33, h: 6.51 } },
+    { img: 'g4-pick-subject',     cap: 'A whole subject.',                                at: { x: 15.74, y: 66.59, w: 68.52, h: 20.83 } },
+    { img: 'g4-pick-notmastered', cap: 'Every subject, without mastered words.',          at: { x: 38.43, y: 38.85, w: 10.09, h: 5.08 } },
+    { img: 'g4-pick-learning',    cap: 'Only words still being learnt.',                  at: { x: 15.59, y: 38.59, w: 68.81, h: 5.6 } },
+    { img: 'g4-settings',         cap: 'Choose the question types.',                      at: { x: 15.74, y: 31.98, w: 68.52, h: 37.08 } },
+    { img: 'g4-card',             cap: 'Drill.',                                          at: { x: 15.74, y: 15.08, w: 68.52, h: 59.09 } },
+  ]},
+  { title: 'Dictionary', frames: [
+    { img: 'g5-dict0',      cap: 'Search a word part…',             at: { x: 15.74, y: 38.46, w: 68.52, h: 6.77 } },
+    { img: 'g5-dict-gen',   cap: '…to see every word that uses it.', at: { x: 15.74, y: 56.34, w: 68.52, h: 42 } },
+    { img: 'g5-dict-words', cap: 'Or search a whole word.',          at: { x: 15.74, y: 52.56, w: 68.52, h: 26.07 } },
+  ]},
+];
+/* =================================================================== */
+
+const still = matchMedia('(prefers-reduced-motion: reduce)').matches;
+const HOLD = 2300, MOVE = 750;
+const el = (tag, cls, html) => { const e = document.createElement(tag); if (cls) e.className = cls; if (html != null) e.innerHTML = html; return e; };
+const CURSOR = '<svg viewBox="0 0 24 24"><path d="M3 2l17 10-7.5 1.6L9 21z" fill="#fff" stroke="#111" stroke-width="1.6" stroke-linejoin="round"/></svg>';
+
+GUIDE.forEach((step, si) => {
+  const sec = el('section'); sec.setAttribute('aria-labelledby', 's' + si);
+  const h2 = el('h2', null, `<span class="n">${si + 1}</span><span id="s${si}">${step.title}</span>`);
+  const stage = el('div', 'stage'), frame = el('div', 'frame');
+  const imgs = step.frames.map((f, i) => {
+    const im = el('img'); im.src = 'img/' + f.img + '.jpg'; im.alt = f.cap; im.decoding = 'async';
+    if (si > 1) im.loading = 'lazy';
+    frame.append(im); return im;
+  });
+  const ring = el('div', 'ring'), ripple = el('div', 'ripple'), cursor = el('div', 'cursor', CURSOR);
+  cursor.style.left = '60%'; cursor.style.top = '90%';
+  frame.append(ring, ripple, cursor); stage.append(frame);
+  const cap = el('p', 'cap'); cap.setAttribute('aria-live', 'polite');
+  const prev = el('button', null, '&#9664;'), play = el('button', null, ''), next = el('button', null, '&#9654;');
+  prev.setAttribute('aria-label', 'Previous'); next.setAttribute('aria-label', 'Next');
+  const ctl = el('div', 'ctl'); ctl.append(prev, play, next);
+  const bar = el('div', 'bar'); bar.append(cap, ctl);
+  const dots = el('div', 'dots'); step.frames.forEach(() => dots.append(el('i')));
+  sec.append(h2, stage, bar, dots); document.getElementById('steps').append(sec);
+
+  let i = 0, playing = !still, visible = false, timer = null;
+  const setPlay = () => { play.innerHTML = playing ? '&#10073;&#10073;' : '&#9654;&#xFE0E;'; play.setAttribute('aria-label', playing ? 'Pause' : 'Play'); };
+
+  function show(n, animate) {
+    clearTimeout(timer);
+    i = (n + step.frames.length) % step.frames.length;
+    const f = step.frames[i];
+    imgs.forEach((im, k) => im.classList.toggle('on', k === i));
+    cap.textContent = f.cap;
+    [...dots.children].forEach((d, k) => d.classList.toggle('on', k === i));
+    ring.classList.remove('on');
+    if (!f.at) { cursor.style.opacity = '0'; return; }
+    const a = { ...f.at, h: Math.min(f.at.h, 98 - f.at.y) };
+    Object.assign(ring.style, { left: a.x + '%', top: a.y + '%', width: a.w + '%', height: a.h + '%' });
+    const cx = a.x + Math.min(a.w / 2, 4), cy = a.y + Math.min(a.h / 2, 5);
+    cursor.style.opacity = '1';
+    if (!animate) { cursor.style.transition = 'none'; }
+    cursor.style.left = cx + '%'; cursor.style.top = cy + '%';
+    if (!animate) { cursor.offsetWidth; cursor.style.transition = ''; ring.classList.add('on'); return; }
+    timer = setTimeout(() => {
+      ripple.style.left = cx + '%'; ripple.style.top = cy + '%';
+      ripple.classList.remove('go'); ripple.offsetWidth; ripple.classList.add('go');
+      ring.classList.add('on');
+    }, MOVE);
+  }
+  function tick() {
+    if (!playing || !visible) return;
+    timer = setTimeout(() => {
+      if (!playing || !visible) return;
+      const last = i === step.frames.length - 1;
+      show(i + 1, true);
+      setTimeout(tick, last ? 900 : 0);
+    }, HOLD + (step.frames[i].at ? MOVE : 0));
+  }
+  prev.onclick = () => { playing = false; setPlay(); show(i - 1, !still); };
+  next.onclick = () => { playing = false; setPlay(); show(i + 1, !still); };
+  play.onclick = () => { playing = !playing; setPlay(); if (playing) tick(); else clearTimeout(timer); };
+  setPlay();
+  show(0, false);
+  new IntersectionObserver(([e]) => {
+    const was = visible; visible = e.isIntersecting && e.intersectionRatio > 0.35;
+    if (visible && !was) { show(i, !still); tick(); } else if (!visible) clearTimeout(timer);
+  }, { threshold: [0, 0.35, 0.7, 1] }).observe(stage);
+});
+</script>
 </body>
 </html>
