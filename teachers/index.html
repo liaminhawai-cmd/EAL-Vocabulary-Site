@@ -68,51 +68,71 @@ h2 .n{display:inline-grid;place-items:center;width:30px;height:30px;border-radiu
          full screenshot {x, y, w, h}; null for no cursor
    =================================================================== */
 const GUIDE = [
-  { title: 'Find the Area of Study', frames: [
-    { img: 'g1-home',  cap: 'Pick a language for translations.',          at: { x: 24.92, y: 34.55, w: 19.99, h: 6.12 } },
-    { img: 'g1-home',  cap: 'Pick the year level.',                       at: { x: 16.03, y: 63.08, w: 21.96, h: 19.12 } },
-    { img: 'g1-level', cap: 'Pick the subject.',                          at: { x: 16.03, y: 39.47, w: 16.43, h: 12.92 } },
-    { img: 'g1-aos',   cap: 'Pick the Unit and AOS.',                     at: { x: 39.02, y: 28.56, w: 21.96, h: 26.75 } },
+  { title: "Find the Area of Study", frames: [
+    { img: 'f1a', cap: "Pick a language for translations.", at: { x: 24.92, y: 34.55, w: 19.99, h: 6.12 }, look: true },
+    { img: 'f1b', cap: "Click the year level.", at: { x: 15.89, y: 62.82, w: 22.25, h: 19.64 } },
+    { img: 'f1c', cap: "Click the subject.", at: { x: 15.89, y: 39.21, w: 16.73, h: 13.44 } },
+    { img: 'f1d', cap: "Click the Unit and AOS.", at: { x: 38.87, y: 28.3, w: 22.25, h: 27.27 } },
   ]},
-  { title: 'Command terms (every VCE subject)', frames: [
-    { img: 'g1-command',       cap: 'Command Terms & Academic Language: 154 words for SACs and exams.', at: { x: 15.74, y: 25.33, w: 68.52, h: 13.36 } },
-    { img: 'g1-command-lists', cap: 'Ten lists, from describe, explain, analyse to hedging and data.',   at: { x: 15.74, y: 33.35, w: 22.55, h: 27.8 } },
+  { title: "Command terms (every VCE subject)", frames: [
+    { img: 'f2a', cap: "On the VCE page, click Command Terms & Academic Language.", at: { x: 15.89, y: 25.59, w: 68.23, h: 12.84 } },
+    { img: 'f2b', cap: "154 words in ten lists: command terms, SAC and exam instructions, argument, data, hedging.", at: { x: 15.59, y: 33.09, w: 68.81, h: 63.91 }, look: true },
   ]},
-  { title: 'Read the words', frames: [
-    { img: 'g2-study', cap: 'Each word with its parts, meaning and translation.', at: { x: 15.74, y: 38.59, w: 68.52, h: 23.74 } },
-    { img: 'g2-start', cap: 'Then start building.',                              at: { x: 72.59, y: 72.72, w: 11.67, h: 6.12 } },
+  { title: "Read the words", frames: [
+    { img: 'f3a', cap: "Each word with its parts, meaning and translation.", at: { x: 15.74, y: 38.59, w: 68.52, h: 23.74 }, look: true },
+    { img: 'f3b', cap: "Then click Start building.", at: { x: 72.67, y: 72.85, w: 11.52, h: 5.86 } },
   ]},
-  { title: 'Build them from memory', frames: [
-    { img: 'g3-build0', cap: 'The words are hidden. Tap a part…',     at: { x: 48.63, y: 41.41, w: 11.68, h: 5.44 } },
-    { img: 'g3-build1', cap: '…then the box beside its meaning.',      at: { x: 74.3,  y: 78.04, w: 4.39,  h: 5.99 } },
-    { img: 'g3-build2', cap: 'Next part.',                             at: { x: 31.06, y: 46.98, w: 14.47, h: 5.44 } },
-    { img: 'g3-build3', cap: 'Built words drop to the bottom.',        at: null },
-    { img: 'g3-build4', cap: 'Any word, in any order.',                at: { x: 69.69, y: 62.02, w: 13.62, h: 6.77 } },
+  { title: "Build them from memory", frames: [
+    { img: 'f4a', cap: "The words are hidden. Click a part…", at: { x: 48.63, y: 41.41, w: 11.68, h: 5.44 } },
+    { img: 'f4b', cap: "…then the box beside its meaning.", at: { x: 74.3, y: 78.04, w: 4.39, h: 5.99 } },
+    { img: 'f4c', cap: "Click the next part…", at: { x: 31.06, y: 46.98, w: 14.47, h: 5.44 } },
+    { img: 'f4d', cap: "…and the next box.", at: { x: 78.7, y: 73.56, w: 4.39, h: 5.99 } },
+    { img: 'f4e', cap: "Built. The word drops to the bottom of the list.", at: { x: 15.74, y: 72.25, w: 68.52, h: 6.61 }, look: true },
   ]},
-  { title: 'Check the meanings', frames: [
-    { img: 'g3-checkbtn', cap: 'When every word is built.',                         at: { x: 70.92, y: 72.66, w: 13.34, h: 6.12 } },
-    { img: 'g3-modes',    cap: 'Tap the translation, type it, or match the definition.', at: { x: 61.52, y: 33.77, w: 22.74, h: 11.59 } },
-    { img: 'g3-check',    cap: 'Each answer is marked.',                            at: { x: 15.59, y: 32.67, w: 68.81, h: 48 } },
+  { title: "Check the meanings", frames: [
+    { img: 'f5a', cap: "When every word is built, click Check meanings.", at: { x: 70.99, y: 72.79, w: 13.19, h: 5.86 } },
+    { img: 'f5b', cap: "Choose how: tap the translation, type it, or match the definition.", at: { x: 61.59, y: 33.9, w: 22.6, h: 11.33 } },
+    { img: 'f5c', cap: "Click the right definition.", at: { x: 25.82, y: 50.77, w: 33.6, h: 5.08 } },
+    { img: 'f5d', cap: "A wrong answer…", at: { x: 27.38, y: 42.73, w: 45.47, h: 5.08 } },
+    { img: 'f5e', cap: "…is marked, and the right meaning is shown.", at: { x: 15.74, y: 40.91, w: 68.52, h: 7.98 }, look: true },
   ]},
-  { title: 'Drill', frames: [
-    { img: 'g4-pick0',            cap: 'Every word they have built, by subject and AOS.', at: { x: 15.59, y: 44.71, w: 68.81, h: 54 } },
-    { img: 'g4-pick-aos',         cap: 'One AOS.',                                        at: { x: 16.84, y: 57.6,  w: 66.33, h: 6.51 } },
-    { img: 'g4-pick-subject',     cap: 'A whole subject.',                                at: { x: 15.74, y: 66.59, w: 68.52, h: 20.83 } },
-    { img: 'g4-pick-notmastered', cap: 'Every subject, without mastered words.',          at: { x: 38.43, y: 38.85, w: 10.09, h: 5.08 } },
-    { img: 'g4-pick-learning',    cap: 'Only words still being learnt.',                  at: { x: 15.59, y: 38.59, w: 68.81, h: 5.6 } },
-    { img: 'g4-settings',         cap: 'Choose the question types.',                      at: { x: 15.74, y: 31.98, w: 68.52, h: 37.08 } },
-    { img: 'g4-card',             cap: 'Drill.',                                          at: { x: 15.74, y: 15.08, w: 68.52, h: 59.09 } },
+  { title: "Drill: choose the words", frames: [
+    { img: 'f6a', cap: "Drill lists every word they have built. Tick one AOS…", at: { x: 16.91, y: 57.74, w: 66.18, h: 6.25 } },
+    { img: 'f6b', cap: "…to drill only that AOS.", at: { x: 15.81, y: 91.28, w: 68.37, h: 5.72 }, look: true },
+    { img: 'f6c', cap: "Clear.", at: { x: 69.71, y: 92.97, w: 5.71, h: 4.03 } },
+    { img: 'f6d', cap: "Tick a subject…", at: { x: 16.91, y: 68.41, w: 66.18, h: 4.17 } },
+    { img: 'f6e', cap: "…to drill every AOS in it.", at: { x: 15.81, y: 66.72, w: 68.37, h: 20.57 }, look: true },
+    { img: 'f6f', cap: "Clear.", at: { x: 69.71, y: 92.97, w: 5.71, h: 4.03 } },
+    { img: 'f6g', cap: "Switch off Mastered…", at: { x: 38.5, y: 38.99, w: 9.95, h: 4.82 } },
+    { img: 'f6h', cap: "…then tick Biology,", at: { x: 16.91, y: 46.8, w: 66.18, h: 4.17 } },
+    { img: 'f6i', cap: "Chemistry,", at: { x: 16.91, y: 68.41, w: 66.18, h: 4.17 } },
+    { img: 'f6j', cap: "and Legal Studies.", at: { x: 16.91, y: 47.97, w: 66.18, h: 4.17 } },
+    { img: 'f6k', cap: "Every subject, without mastered words.", at: { x: 15.81, y: 73.62, w: 68.37, h: 9.11 }, look: true },
+    { img: 'f6l', cap: "Switch off Consolidating too…", at: { x: 26.23, y: 38.99, w: 12.13, h: 4.82 } },
+    { img: 'f6m', cap: "…to drill only words still being learnt.", at: { x: 15.81, y: 91.28, w: 68.37, h: 5.72 }, look: true },
   ]},
-  { title: 'Dictionary', frames: [
-    { img: 'g5-dict0',      cap: 'Search a word part…',             at: { x: 15.74, y: 38.46, w: 68.52, h: 6.77 } },
-    { img: 'g5-dict-gen',   cap: '…to see every word that uses it.', at: { x: 15.74, y: 56.34, w: 68.52, h: 42 } },
-    { img: 'g5-dict-words', cap: 'Or search a whole word.',          at: { x: 15.74, y: 52.56, w: 68.52, h: 26.07 } },
+  { title: "Drill: answer", frames: [
+    { img: 'f7a', cap: "Drill settings choose the question types.", at: { x: 15.89, y: 32.24, w: 68.23, h: 7.14 } },
+    { img: 'f7b', cap: "Here only Build from parts is on.", at: { x: 15.81, y: 32.11, w: 68.37, h: 36.82 }, look: true },
+    { img: 'f7c', cap: "Click Drill.", at: { x: 75.1, y: 92.97, w: 8.06, h: 4.03 } },
+    { img: 'f7d', cap: "Build the word from its meaning: epi,", at: { x: 53.3, y: 63.81, w: 3.95, h: 5.67 } },
+    { img: 'f7e', cap: "gen,", at: { x: 48.85, y: 63.81, w: 4.31, h: 5.67 } },
+    { img: 'f7f', cap: "etic,", at: { x: 60.9, y: 63.81, w: 4.23, h: 5.67 } },
+    { img: 'f7g', cap: "then Check.", at: { x: 49.43, y: 49.1, w: 6.27, h: 5.86 } },
+    { img: 'f7h', cap: "Marked, with the parts and meaning.", at: { x: 15.74, y: 15.08, w: 68.52, h: 59.91 }, look: true },
+  ]},
+  { title: "Dictionary", frames: [
+    { img: 'f8a', cap: "Click the search box and type a word part.", at: { x: 15.81, y: 38.59, w: 68.37, h: 6.51 } },
+    { img: 'f8b', cap: "Every word that uses gen.", at: { x: 15.74, y: 56.34, w: 68.52, h: 40.66 }, look: true },
+    { img: 'f8c', cap: "Click Words…", at: { x: 24.58, y: 31.03, w: 6.48, h: 4.95 } },
+    { img: 'f8d', cap: "…and search a whole word.", at: { x: 15.81, y: 38.59, w: 68.37, h: 6.51 } },
+    { img: 'f8e', cap: "Its parts, meaning and the units that teach it.", at: { x: 15.74, y: 52.56, w: 68.52, h: 26.07 }, look: true },
   ]},
 ];
 /* =================================================================== */
 
 const still = matchMedia('(prefers-reduced-motion: reduce)').matches;
-const HOLD = 2300, MOVE = 750;
+const PAUSE = 1100, MOVE = 750, AFTER = 450, LOOK = 2600;
 const el = (tag, cls, html) => { const e = document.createElement(tag); if (cls) e.className = cls; if (html != null) e.innerHTML = html; return e; };
 const CURSOR = '<svg viewBox="0 0 24 24"><path d="M3 2l17 10-7.5 1.6L9 21z" fill="#fff" stroke="#111" stroke-width="1.6" stroke-linejoin="round"/></svg>';
 
@@ -150,34 +170,47 @@ GUIDE.forEach((step, si) => {
     if (!f.at) { cursor.style.opacity = '0'; return; }
     const a = { ...f.at, h: Math.min(f.at.h, 98 - f.at.y) };
     Object.assign(ring.style, { left: a.x + '%', top: a.y + '%', width: a.w + '%', height: a.h + '%' });
+    // A "look" frame shows a result: ring only, no click.
+    if (f.look) { cursor.style.opacity = '0'; if (animate) timer = setTimeout(() => ring.classList.add('on'), 250); else ring.classList.add('on'); return; }
+    // A click frame: the screen before the click. Cursor moves, clicks, and
+    // the next frame (the result) follows straight after.
     const cx = a.x + Math.min(a.w / 2, 4), cy = a.y + Math.min(a.h / 2, 5);
     cursor.style.opacity = '1';
-    if (!animate) { cursor.style.transition = 'none'; }
-    cursor.style.left = cx + '%'; cursor.style.top = cy + '%';
-    if (!animate) { cursor.offsetWidth; cursor.style.transition = ''; ring.classList.add('on'); return; }
+    if (!animate) {
+      cursor.style.transition = 'none'; cursor.style.left = cx + '%'; cursor.style.top = cy + '%';
+      cursor.offsetWidth; cursor.style.transition = ''; ring.classList.add('on'); return;
+    }
     timer = setTimeout(() => {
-      ripple.style.left = cx + '%'; ripple.style.top = cy + '%';
-      ripple.classList.remove('go'); ripple.offsetWidth; ripple.classList.add('go');
-      ring.classList.add('on');
-    }, MOVE);
+      cursor.style.left = cx + '%'; cursor.style.top = cy + '%';
+      timer = setTimeout(() => {
+        ripple.style.left = cx + '%'; ripple.style.top = cy + '%';
+        ripple.classList.remove('go'); ripple.offsetWidth; ripple.classList.add('go');
+        ring.classList.add('on');
+      }, MOVE);
+    }, PAUSE);
   }
+  // How long each frame stays: a click frame lasts until just after its click.
+  const dwell = (f) => (!f.at || f.look) ? LOOK : PAUSE + MOVE + AFTER;
+  let tickTimer = null;
   function tick() {
+    clearTimeout(tickTimer);
     if (!playing || !visible) return;
-    timer = setTimeout(() => {
+    tickTimer = setTimeout(() => {
       if (!playing || !visible) return;
       const last = i === step.frames.length - 1;
       show(i + 1, true);
-      setTimeout(tick, last ? 900 : 0);
-    }, HOLD + (step.frames[i].at ? MOVE : 0));
+      tickTimer = setTimeout(tick, last ? 900 : 0);
+    }, dwell(step.frames[i]));
   }
-  prev.onclick = () => { playing = false; setPlay(); show(i - 1, !still); };
-  next.onclick = () => { playing = false; setPlay(); show(i + 1, !still); };
-  play.onclick = () => { playing = !playing; setPlay(); if (playing) tick(); else clearTimeout(timer); };
+  const stop = () => { clearTimeout(timer); clearTimeout(tickTimer); };
+  prev.onclick = () => { playing = false; setPlay(); stop(); show(i - 1, !still); };
+  next.onclick = () => { playing = false; setPlay(); stop(); show(i + 1, !still); };
+  play.onclick = () => { playing = !playing; setPlay(); if (playing) { show(i, true); tick(); } else stop(); };
   setPlay();
   show(0, false);
   new IntersectionObserver(([e]) => {
     const was = visible; visible = e.isIntersecting && e.intersectionRatio > 0.35;
-    if (visible && !was) { show(i, !still); tick(); } else if (!visible) clearTimeout(timer);
+    if (visible && !was) { show(i, !still); tick(); } else if (!visible) stop();
   }, { threshold: [0, 0.35, 0.7, 1] }).observe(stage);
 });
 </script>
