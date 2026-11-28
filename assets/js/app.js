@@ -1166,8 +1166,9 @@ function renderSubject({ levelId, subjectId }) {
     ...folders.map((folder) => folderCard(level, subject, folder)),
     ...subject.units.filter((unit) => !groupedUnitIds.has(unit.id)).map(unitCard),
   ];
-  const hasBank = subject.morphemes &&
-    (subject.morphemes.prefixes.length || subject.morphemes.roots.length);
+  // A real boolean: a bare `0 || 0` here rendered as a stray "0" on the page.
+  const hasBank = !!(subject.morphemes &&
+    (subject.morphemes.prefixes.length || subject.morphemes.roots.length));
   render(h('div', { class: 'stack' },
     crumb([['Home', '#/'], [level.name, `#/l/${level.id}`], [subject.name, null]]),
     h('h1', {}, subject.name),
